@@ -160,14 +160,10 @@ function Hero() {
               Industrial Staffing for Electronics, Warehouse, Supply Chain, and Light Industrial Teams
             </p>
             <h1 className="font-sans font-semibold text-carbon text-4xl md:text-5xl leading-[1.1] tracking-tight mb-6">
-              Staffing that keeps your
-              <br />operation running.
+              Reduce no-shows. Fill roles faster.<br />Keep production moving.
             </h1>
-            <p className="text-steel text-lg leading-relaxed mb-4 max-w-lg">
-              When a worker doesn't show, production slips, overtime climbs, and supervisors start scrambling. We help industrial teams fill roles fast with vetted workers who are ready to show up, work safely, and contribute from day one.
-            </p>
-            <p className="text-steel text-base leading-relaxed mb-10 max-w-lg">
-              Fast response. Role-specific screening. Local recruiters who know your market.
+            <p className="text-steel text-lg leading-relaxed mb-10 max-w-lg">
+              Pro-Tech helps industrial, warehouse, and electronics teams hire for reliability, speed, and role fit with local recruiting, role-specific screening, and workers who are ready for day one.
             </p>
             <div className="flex flex-col sm:flex-row gap-3">
               <a href="#employers" className="inline-flex items-center justify-center gap-2 bg-carbon hover:bg-graphite text-bone font-semibold text-sm px-6 py-3 transition-colors">
