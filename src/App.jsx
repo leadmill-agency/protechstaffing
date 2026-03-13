@@ -152,17 +152,17 @@ function Nav() {
 function Hero() {
   return (
     <section className="bg-bone pt-16">
-      <div className="max-w-6xl mx-auto px-6 py-20 md:py-28">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+      <div className="max-w-6xl mx-auto px-6 py-14 md:py-24">
+        <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
           {/* Left: Copy */}
           <div>
-            <p className="font-mono text-xs text-steel tracking-widest uppercase mb-6">
+            <p className="font-mono text-xs text-steel tracking-wide md:tracking-widest uppercase mb-5 leading-relaxed">
               Industrial Staffing for Electronics, Warehouse, Supply Chain, and Light Industrial Teams
             </p>
-            <h1 className="font-sans font-semibold text-carbon text-4xl md:text-5xl leading-[1.1] tracking-tight mb-6">
-              Reduce no-shows. Fill roles faster.<br />Keep production moving.
+            <h1 className="font-sans font-semibold text-carbon text-3xl md:text-4xl lg:text-5xl leading-[1.1] tracking-tight mb-5">
+              Reduce no-shows. Fill roles faster. Keep production moving.
             </h1>
-            <p className="text-steel text-lg leading-relaxed mb-10 max-w-lg">
+            <p className="text-steel text-base md:text-lg leading-relaxed mb-8 max-w-lg">
               Pro-Tech helps industrial, warehouse, and electronics teams hire for reliability, speed, and role fit with local recruiting, role-specific screening, and workers who are ready for day one.
             </p>
             <div className="flex flex-col sm:flex-row gap-3">
@@ -188,7 +188,7 @@ function Hero() {
               <div className="absolute inset-0 bg-bone/20" />
             </div>
             {/* Floating stat */}
-            <div className="absolute -bottom-4 -left-4 bg-white border border-fog px-5 py-4 shadow-sm">
+            <div className="hidden sm:block absolute -bottom-4 -left-4 bg-white border border-fog px-5 py-4 shadow-sm">
               <p className="font-mono text-2xl font-medium text-carbon">48hrs</p>
               <p className="text-xs text-steel mt-0.5">avg. fill time</p>
             </div>
@@ -196,7 +196,7 @@ function Hero() {
         </div>
 
         {/* Trust strip below */}
-        <div className="mt-20 pt-8 border-t border-fog flex flex-wrap gap-8 items-center">
+        <div className="mt-10 md:mt-20 pt-8 border-t border-fog flex flex-wrap gap-4 md:gap-8 items-center">
           <p className="font-mono text-xs text-steel tracking-widest uppercase">Operating in</p>
           {['Richardson TX', 'Bedford TX', 'Austin TX', 'Clearwater FL', 'San Jose CA', 'Atlanta GA'].map(city => (
             <span key={city} className="font-mono text-xs text-carbon">{city}</span>
@@ -236,9 +236,9 @@ function StatsBar() {
 // ─── EMPLOYERS ────────────────────────────────────────────────────────────────
 function Employers() {
   return (
-    <section id="employers" className="bg-bone py-24">
+    <section id="employers" className="bg-bone py-16 md:py-24">
       <div className="max-w-6xl mx-auto px-6">
-        <div className="grid lg:grid-cols-2 gap-16 items-start">
+        <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-start">
           {/* Left */}
           <div>
             <p className="font-mono text-xs text-ind-green tracking-widest uppercase mb-5">For Employers</p>
@@ -289,7 +289,7 @@ function Employers() {
               />
             </div>
             {/* Stat card */}
-            <div className="absolute -bottom-4 -right-4 bg-white border border-fog px-5 py-4 shadow-sm max-w-[180px]">
+            <div className="hidden sm:block absolute -bottom-4 -right-4 bg-white border border-fog px-5 py-4 shadow-sm max-w-[180px]">
               <p className="font-mono text-2xl font-medium text-carbon">94%</p>
               <p className="text-xs text-steel mt-0.5 leading-snug">of clients re-order within 30 days</p>
             </div>
@@ -312,9 +312,9 @@ function Industries() {
   ]
 
   return (
-    <section id="industries" className="bg-white py-24">
+    <section id="industries" className="bg-white py-16 md:py-24">
       <div className="max-w-6xl mx-auto px-6">
-        <div className="mb-14">
+        <div className="mb-8 md:mb-14">
           <p className="font-mono text-xs text-steel tracking-widest uppercase mb-4">Industries We Serve</p>
           <h2 className="font-semibold text-carbon text-3xl md:text-4xl leading-tight tracking-tight max-w-xl mb-4">
             We don't try to staff everything.
@@ -360,9 +360,9 @@ function HowItWorks() {
   ]
 
   return (
-    <section className="bg-bone py-24">
+    <section className="bg-bone py-16 md:py-24">
       <div className="max-w-6xl mx-auto px-6">
-        <div className="grid lg:grid-cols-2 gap-20 items-center">
+        <div className="grid lg:grid-cols-2 gap-10 lg:gap-20 items-center">
           <div>
             <p className="font-mono text-xs text-steel tracking-widest uppercase mb-5">How It Works</p>
             <h2 className="font-semibold text-carbon text-3xl md:text-4xl leading-tight tracking-tight mb-6">
@@ -442,9 +442,9 @@ function Locations() {
   ]
 
   return (
-    <section id="locations" className="bg-white py-24">
+    <section id="locations" className="bg-white py-16 md:py-24">
       <div className="max-w-6xl mx-auto px-6">
-        <div className="mb-14">
+        <div className="mb-8 md:mb-14">
           <p className="font-mono text-xs text-steel tracking-widest uppercase mb-4">Locations</p>
           <h2 className="font-semibold text-carbon text-3xl md:text-4xl leading-tight tracking-tight max-w-xl mb-4">
             Local recruiters.
@@ -513,9 +513,9 @@ function Testimonials() {
   ]
 
   return (
-    <section className="bg-bone py-24">
+    <section className="bg-bone py-16 md:py-24">
       <div className="max-w-6xl mx-auto px-6">
-        <div className="mb-14">
+        <div className="mb-8 md:mb-14">
           <p className="font-mono text-xs text-steel tracking-widest uppercase mb-4">Client Results</p>
           <div className="flex items-center gap-2 mb-2">
             {[...Array(5)].map((_, i) => (
@@ -555,9 +555,9 @@ function Testimonials() {
 // ─── JOB SEEKERS ──────────────────────────────────────────────────────────────
 function JobSeekers() {
   return (
-    <section id="job-seekers" className="bg-carbon py-24">
+    <section id="job-seekers" className="bg-carbon py-16 md:py-24">
       <div className="max-w-6xl mx-auto px-6">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
           <div>
             <p className="font-mono text-xs text-ind-green tracking-widest uppercase mb-5">For Job Seekers</p>
             <h2 className="font-semibold text-bone text-3xl md:text-4xl leading-tight tracking-tight mb-6">
@@ -600,7 +600,7 @@ function JobSeekers() {
 // ─── CTA BAND ─────────────────────────────────────────────────────────────────
 function CTABand() {
   return (
-    <section id="contact" className="bg-graphite py-20">
+    <section id="contact" className="bg-graphite py-14 md:py-20">
       <div className="max-w-4xl mx-auto px-6 text-center">
         <p className="font-mono text-xs text-fog tracking-widest uppercase mb-6">Get Started</p>
         <h2 className="font-semibold text-bone text-3xl md:text-4xl leading-tight tracking-tight mb-4">
@@ -632,8 +632,8 @@ function CTABand() {
 function Footer() {
   return (
     <footer className="bg-carbon border-t border-graphite">
-      <div className="max-w-6xl mx-auto px-6 py-16">
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10 mb-14">
+      <div className="max-w-6xl mx-auto px-6 py-12 md:py-16">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-10 mb-10 md:mb-14">
           <div>
             <div className="flex items-center gap-2 mb-4">
               <div className="w-7 h-7 bg-bone flex items-center justify-center flex-shrink-0">
@@ -889,18 +889,18 @@ function LocationPage({ market }) {
     <>
       {/* Hero */}
       <section className="bg-bone pt-16">
-        <div className="max-w-6xl mx-auto px-6 py-20 md:py-28">
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="max-w-6xl mx-auto px-6 py-14 md:py-24">
+          <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
             <div>
-              <p className="font-mono text-xs text-steel tracking-widest uppercase mb-6">
+              <p className="font-mono text-xs text-steel tracking-wide md:tracking-widest uppercase mb-5">
                 Pro-Tech Staffing · {d.label}
               </p>
-              <h1 className="font-sans font-semibold text-carbon text-4xl md:text-5xl leading-[1.1] tracking-tight mb-4">
+              <h1 className="font-sans font-semibold text-carbon text-3xl md:text-4xl lg:text-5xl leading-[1.1] tracking-tight mb-4">
                 {d.h1}
               </h1>
-              <p className="font-mono text-xs text-ind-green tracking-wide mb-6">{d.subhead}</p>
-              <p className="text-steel text-lg leading-relaxed mb-4 max-w-lg">{d.intro}</p>
-              <p className="text-steel text-base leading-relaxed mb-10 max-w-lg">
+              <p className="font-mono text-xs text-ind-green tracking-wide mb-5">{d.subhead}</p>
+              <p className="text-steel text-base md:text-lg leading-relaxed mb-4 max-w-lg">{d.intro}</p>
+              <p className="text-steel text-sm md:text-base leading-relaxed mb-8 max-w-lg">
                 Temp, temp-to-hire, and direct placement. Vetted candidates in 48 hours.
               </p>
               <div className="flex flex-col sm:flex-row gap-3">
@@ -923,7 +923,7 @@ function LocationPage({ market }) {
                   style={{ filter: 'grayscale(35%) brightness(0.88)' }}
                 />
               </div>
-              <div className="absolute -bottom-4 -left-4 bg-white border border-fog px-5 py-4 shadow-sm">
+              <div className="hidden sm:block absolute -bottom-4 -left-4 bg-white border border-fog px-5 py-4 shadow-sm">
                 <p className="font-mono text-2xl font-medium text-carbon">48hrs</p>
                 <p className="text-xs text-steel mt-0.5">avg. fill time</p>
               </div>
@@ -931,7 +931,7 @@ function LocationPage({ market }) {
           </div>
 
           {/* City coverage strip */}
-          <div className="mt-20 pt-8 border-t border-fog flex flex-wrap gap-6 items-center">
+          <div className="mt-10 md:mt-20 pt-8 border-t border-fog flex flex-wrap gap-3 md:gap-6 items-center">
             <p className="font-mono text-xs text-steel tracking-widest uppercase">Coverage area</p>
             {d.cities.map(city => (
               <span key={city} className="font-mono text-xs text-carbon">{city}</span>
@@ -955,9 +955,9 @@ function LocationPage({ market }) {
       </section>
 
       {/* Industries + Roles */}
-      <section className="bg-bone py-24">
+      <section className="bg-bone py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-6">
-          <div className="grid lg:grid-cols-2 gap-20">
+          <div className="grid lg:grid-cols-2 gap-10 lg:gap-20">
             <div>
               <p className="font-mono text-xs text-steel tracking-widest uppercase mb-5">Industries We Staff</p>
               <h2 className="font-semibold text-carbon text-3xl leading-tight tracking-tight mb-8">
@@ -992,9 +992,9 @@ function LocationPage({ market }) {
       </section>
 
       {/* How It Works — condensed */}
-      <section className="bg-white py-24">
+      <section className="bg-white py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-6">
-          <div className="grid lg:grid-cols-2 gap-20 items-center">
+          <div className="grid lg:grid-cols-2 gap-10 lg:gap-20 items-center">
             <div>
               <p className="font-mono text-xs text-steel tracking-widest uppercase mb-5">How It Works</p>
               <h2 className="font-semibold text-carbon text-3xl leading-tight tracking-tight mb-4">
@@ -1026,10 +1026,10 @@ function LocationPage({ market }) {
       </section>
 
       {/* Why Pro-Tech */}
-      <section className="bg-bone py-24">
+      <section className="bg-bone py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-6">
           <p className="font-mono text-xs text-steel tracking-widest uppercase mb-5">Why Pro-Tech</p>
-          <h2 className="font-semibold text-carbon text-3xl leading-tight tracking-tight mb-12">
+          <h2 className="font-semibold text-carbon text-3xl leading-tight tracking-tight mb-8 md:mb-12">
             Why employers choose us<br />in {d.label}.
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
@@ -1044,7 +1044,7 @@ function LocationPage({ market }) {
       </section>
 
       {/* Testimonial */}
-      <section className="bg-carbon py-20">
+      <section className="bg-carbon py-14 md:py-20">
         <div className="max-w-3xl mx-auto px-6 text-center">
           <div className="flex justify-center mb-6 gap-1">
             {[...Array(5)].map((_, i) => (
@@ -1061,7 +1061,7 @@ function LocationPage({ market }) {
 
       {/* DFW Sub-Markets (DFW page only) */}
       {market === 'dfw' && (
-        <section className="bg-bone py-24">
+        <section className="bg-bone py-16 md:py-24">
           <div className="max-w-6xl mx-auto px-6">
             <p className="font-mono text-xs text-steel tracking-widest uppercase mb-5">DFW Sub-Markets</p>
             <h2 className="font-semibold text-carbon text-3xl leading-tight tracking-tight mb-3">
@@ -1110,7 +1110,7 @@ function LocationPage({ market }) {
       </section>
 
       {/* CTA */}
-      <section id="contact" className="bg-graphite py-20">
+      <section id="contact" className="bg-graphite py-14 md:py-20">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <p className="font-mono text-xs text-fog tracking-widest uppercase mb-6">{d.label} · Get Started</p>
           <h2 className="font-semibold text-bone text-3xl md:text-4xl leading-tight tracking-tight mb-4">
