@@ -1,0 +1,574 @@
+{
+  "page": {
+    "meta": {
+      "title": "Our Locations | Pro-Tech Staffing Services",
+      "description": "Pro-Tech Staffing operates six offices across Texas, Florida, California, and Arizona. Local recruiters, real market knowledge, 48-hour fill time."
+    },
+    "hero": {
+      "eyebrow": "Our Locations",
+      "heading": "Local recruiters. Real market knowledge.",
+      "description": "Industrial hiring is local. Pay expectations, shift preferences, commute range, and labor competition all change by market. That's why each location is supported by a local team that understands the roles, the employers, and the labor pool.",
+      "description2": "We recruit in-market so you get faster fills, better attendance, and fewer surprises.",
+      "ctaRequestWorkers": "Request Workers"
+    },
+    "stats": {
+      "usMarkets": { "n": "6", "label": "US markets" },
+      "states": { "n": "4", "label": "States" },
+      "avgFillTime": { "n": "48h", "label": "Avg. fill time" },
+      "clientRetention": { "n": "94%", "label": "Client retention" }
+    },
+    "viewMarket": "View market →",
+    "dfwSubMarkets": {
+      "eyebrow": "DFW Sub-Markets",
+      "heading": "Need staffing in a specific DFW city?",
+      "description": "Our DFW team covers the entire metroplex with dedicated pages for each major corridor.",
+      "arlington": { "label": "Arlington, TX", "desc": "Major warehouse, distribution, and manufacturing corridor in Tarrant County." },
+      "irving": { "label": "Irving, TX", "desc": "Las Colinas and DFW Airport corridor — electronics, logistics, and light industrial." },
+      "garland": { "label": "Garland, TX", "desc": "Dense light industrial zone east of Dallas. Electronics and light mfg focus." }
+    },
+    "cta": {
+      "eyebrow": "Get Started",
+      "heading": "Need workers in your market?",
+      "description": "Submit a request and we'll connect you with your local recruiter within 24 hours.",
+      "callUsNow": "Call Us Now",
+      "submitRequest": "Submit a Staffing Request"
+    }
+  },
+  "locationsPageMarkets": {
+    "richardson": { "city": "Richardson", "state": "TX", "tag": "Headquarters", "roles": "Light industrial, electronics manufacturing, warehouse", "serving": "Dallas · Plano · Garland · Carrollton · Richardson" },
+    "bedford": { "city": "Bedford", "state": "TX", "tag": "DFW Metro", "roles": "Industrial, warehouse, supply chain, general labor", "serving": "Fort Worth · Arlington · Irving · Grand Prairie · Bedford" },
+    "austin": { "city": "Austin", "state": "TX", "tag": "Central TX", "roles": "Light industrial, electronics, administrative", "serving": "Austin · Round Rock · Cedar Park · Pflugerville" },
+    "tampa": { "city": "Tampa", "state": "FL", "tag": "Tampa Bay", "roles": "Electronics manufacturing, light industrial, warehouse", "serving": "Tampa · Clearwater · St. Petersburg · Largo" },
+    "sanjose": { "city": "San Jose", "state": "CA", "tag": "Silicon Valley", "roles": "PCB assembly, SMT, electronics manufacturing, QC", "serving": "San Jose · Santa Clara · Milpitas · Fremont" },
+    "phoenix": { "city": "Phoenix", "state": "AZ", "tag": "Southwest", "roles": "Electronics manufacturing, warehouse, light industrial", "serving": "Phoenix · Tempe · Mesa · Chandler" }
+  },
+  "detail": {
+    "requestWorkers": "Request Workers",
+    "allLocations": "← All Locations",
+    "avgFillTime": "avg. fill time",
+    "coverageArea": "Coverage area",
+    "aboutThisMarket": "About This Market",
+    "whatWeStaffHere": "What We Staff Here",
+    "staffingServicesIn": "Staffing services in {{label}}.",
+    "localServicesDesc": "Not a generic list — these are the actual roles and industries we recruit for in this market, every week.",
+    "learnMore": "Learn more",
+    "industriesWeStaff": "Industries We Staff",
+    "industriesHeading": "Specialized in industrial.\nNot a generalist.",
+    "rolesWePlace": "Roles We Place",
+    "rolesHeading": "Common positions\nfilled in this market.",
+    "whyProTech": "Why Pro-Tech",
+    "whyHeading": "Why employers choose us\nin {{label}}.",
+    "officeEyebrow": "Our {{label}} Office",
+    "officeHeading": "Local recruiters.\nLocal market knowledge.",
+    "officeDescription": "This is a real, staffed office — not a virtual address or a remote account manager. Your recruiter works in this market, knows the local employers, and responds fast.",
+    "addressLabel": "Address",
+    "phoneLabel": "Phone",
+    "phoneTextOnly": "Phone (Text Only)",
+    "textPrefix": "Text",
+    "callPrefix": "Call",
+    "officePhoneLabel": "our {{label}} office",
+    "textOnly": "(text only)",
+    "faxLabel": "Fax",
+    "emailLabel": "Email",
+    "submitResumeLabel": "Submit Resume",
+    "hoursLabel": "Hours",
+    "localRecruiterLabel": "Local Recruiter",
+    "howItWorks": "How It Works",
+    "howItWorksSteps": [
+      { "n": "01", "title": "Tell us what you need", "desc": "Role, headcount, start date, required skills. No lengthy intake forms." },
+      { "n": "02", "title": "We source and screen locally", "descTemplate": "Our {{label}} recruiters draw from an active local talent pool. Background checked, drug screened, and interviewed." },
+      { "n": "03", "title": "Workers arrive ready", "desc": "Vetted candidates show up on time, ready to contribute from day one. We follow up to confirm." }
+    ],
+    "submitStaffingRequest": "Submit a Staffing Request",
+    "faqEyebrow": "Frequently Asked Questions",
+    "faqHeading": "Common questions about staffing\nin {{label}}.",
+    "nearbyMarkets": "Nearby Markets",
+    "nearbyHeading": "Need staffing in a nearby area?",
+    "nearbyDescription": "We cover the surrounding corridor with the same local recruiters and 48-hour fill time.",
+    "servedFrom": "Served from our {{parentOffice}} office",
+    "servedFromDesc": "Served from our <strong>{{parentOffice}}</strong> office. Temp, temp-to-hire, and direct placement. Vetted candidates in 48 hours.",
+    "parentOfficeNote": "We don't have a local office in {{city}}, but our {{parentOffice}} recruiter covers this market. You'll get the same local response time and recruiter support.",
+    "alsoServingNearby": "Also Serving Nearby",
+    "ctaGetStarted": "{{label}} · Get Started",
+    "ctaHeading": "Need workers in {{city}}?\nWe can help.",
+    "ctaDescription": "Submit a request and we'll have screened, local candidates ready within 48 hours.",
+    "callUsNow": "Call Us Now"
+  },
+  "richardson": {
+    "title": "Industrial Staffing Agency in Richardson TX | Electronics Manufacturing & Light Industrial | Pro-Tech",
+    "metaDesc": "Pro-Tech Staffing is headquartered in Richardson TX. We place IPC-certified electronics manufacturing workers, light industrial assemblers, warehouse staff, and production workers. 36-48h fill time.",
+    "h1": "Industrial staffing agency in Richardson, TX. Electronics manufacturing specialists.",
+    "subhead": "IPC-certified electronics assembly, light industrial, warehouse, and supply chain staffing.",
+    "label": "Richardson TX",
+    "cities": ["Richardson TX", "Plano TX", "Garland TX", "Carrollton TX", "Allen TX", "McKinney TX", "Dallas TX"],
+    "marketIntro": "Richardson is the electronics manufacturing hub of North Texas. The corridor from Richardson through Plano and Garland houses some of the densest concentrations of PCB assembly, SMT production, and light industrial operations in the state. Pro-Tech's headquarters has been here for 30 years — we know the employers, the facilities, and the talent pool. When you need vetted workers in 48 hours or less, you're calling a team that recruits in this market every week.",
+    "industries": ["Electronics Manufacturing Staffing", "Light Industrial Staffing", "Warehouse & 3PL Staffing", "Supply Chain Staffing", "Administrative Staffing", "General Labor"],
+    "roles": ["PCB assembly technicians", "SMT operators", "Soldering operators", "QC inspectors", "AOI operators", "Assemblers", "Machine operators", "Forklift operators", "Warehouse pickers and packers", "Production workers"],
+    "proof": [
+      { "n": "HQ", "label": "Richardson, TX — founded here" },
+      { "n": "30+", "label": "Years recruiting in this market" },
+      { "n": "36–48h", "label": "Avg. fill time" },
+      { "n": "94%", "label": "Client retention rate" }
+    ],
+    "whyUs": [
+      { "title": "30 years in the Richardson market", "desc": "We were founded here. Our recruiters know the industrial parks, the major employers along US-75 and Campbell Road, and the talent pools in Richardson, Plano, and Garland. You're not getting a national call center — you're getting local expertise built over three decades." },
+      { "title": "IPC-certified workforce for electronics", "desc": "Richardson has one of Texas's densest concentrations of electronics manufacturers. We train and certify workers in IPC-A-610, IPC-620, and J-STD-001 before placement — so your candidates arrive with the certifications your production floor requires." },
+      { "title": "Fast fills, reliable attendance", "desc": "Most orders are filled within 36-48 hours. We screen specifically for attendance reliability — background checks, drug screening, and direct interviews — because no-shows cost you more than the position itself." }
+    ],
+    "testimonial": {
+      "quote": "Pro-Tech filled 14 positions for us in under 48 hours during peak season. More important, the workers showed up and 9 converted full-time. That kind of consistency matters more than promises.",
+      "name": "Operations Director",
+      "co": "Electronics Manufacturer · Richardson, TX"
+    },
+    "faq": [
+      { "q": "What industries do you staff in Richardson, TX?", "a": "Our Richardson HQ specializes in electronics manufacturing, light industrial, warehouse and distribution, supply chain, and administrative staffing. Electronics manufacturing — including PCB assembly, SMT, soldering, and QC — is our primary focus in this market given the high concentration of manufacturers along the Richardson and Garland corridor." },
+      { "q": "How fast can Pro-Tech fill industrial jobs in Richardson?", "a": "Most orders are filled within 36-48 hours. For general labor and light industrial, same-day availability is often possible from our active local candidate pool. Electronics manufacturing roles with IPC certification requirements typically run 48-72 hours depending on specialization." },
+      { "q": "Do you provide IPC-certified workers for electronics manufacturing in Richardson?", "a": "Yes. We train and certify workers in IPC-A-610, IPC-620, and J-STD-001 before placement. Our Richardson recruiters source specifically for electronics manufacturing roles, and candidates arrive with certifications verified — not in-progress." },
+      { "q": "Do you offer temp-to-hire staffing in Richardson?", "a": "Yes — temp, temp-to-hire, and direct placement are all available. Many electronics manufacturers and light industrial employers in the Richardson corridor use temp-to-hire to evaluate workers before extending permanent offers. We support all three models." },
+      { "q": "What cities near Richardson do you cover?", "a": "From our Richardson headquarters, we cover the full east DFW corridor: Plano, Garland, Carrollton, Allen, McKinney, and Dallas. For Tarrant County and the mid-cities, our Bedford office handles Fort Worth, Arlington, Irving, and Grand Prairie." },
+      { "q": "Can you staff multiple shifts for a production facility in Richardson?", "a": "Yes. We place workers across day shifts, evening shifts, night shifts, and rotating schedules. Tell us your shift requirements when you submit your request and we will source candidates who match — not candidates who will ask to switch once they start." }
+    ],
+    "localServices": [
+      { "title": "Electronics Manufacturing Staffing", "desc": "Richardson is home to one of Texas's highest concentrations of PCB assembly and SMT operations. IPC-certified technicians, soldering operators, AOI operators, and QC inspectors — screened before placement." },
+      { "title": "Light Industrial Staffing", "desc": "Assemblers, machine operators, production workers, and line support for manufacturers along the Richardson-Plano-Garland industrial corridor. Day and night shifts filled." },
+      { "title": "Warehouse & Distribution Staffing", "desc": "Pickers, packers, forklift operators, and shipping/receiving clerks for distribution operations in and around the east DFW corridor. Surge coverage available." }
+    ],
+    "subMarkets": [
+      { "label": "Garland, TX", "desc": "Dense light industrial and electronics manufacturing zone east of Dallas. Our closest sub-market to HQ." },
+      { "label": "Irving, TX", "desc": "Las Colinas and DFW Airport corridor — electronics, logistics, and light industrial." },
+      { "label": "DFW Overview", "desc": "Full DFW metro coverage from our Richardson and Bedford offices." }
+    ],
+    "relatedCities": [
+      { "label": "Garland TX" },
+      { "label": "Irving TX" },
+      { "label": "DFW Overview" },
+      { "label": "Bedford TX" }
+    ]
+  },
+  "dfw": {
+    "title": "Industrial Staffing Agency in Dallas-Fort Worth TX | Pro-Tech Staffing",
+    "metaDesc": "Pro-Tech Staffing is a light industrial staffing agency serving Dallas TX, Fort Worth TX, Arlington, Irving, Garland, Grand Prairie, and Plano. Vetted workers placed in 48 hours.",
+    "h1": "Industrial staffing agency in Dallas-Fort Worth, TX.",
+    "subhead": "Serving Dallas, Fort Worth, Arlington, Irving, Garland, Grand Prairie, Plano, Richardson, and Carrollton.",
+    "label": "Dallas-Fort Worth",
+    "cities": ["Dallas TX", "Fort Worth TX", "Arlington TX", "Irving TX", "Garland TX", "Grand Prairie TX", "Plano TX", "Richardson TX", "Carrollton TX", "Bedford TX"],
+    "industries": ["Light Industrial Staffing", "Electronics Manufacturing Staffing", "Warehouse & 3PL Staffing", "Supply Chain Staffing", "Administrative Staffing", "General Labor"],
+    "roles": ["Assembly line workers", "PCB assembly technicians", "Forklift operators", "Machine operators", "Warehouse pickers and packers", "Quality control inspectors", "Shipping and receiving clerks", "Production line leads"],
+    "proof": [
+      { "n": "2", "label": "DFW offices" },
+      { "n": "48h", "label": "Avg. fill time" },
+      { "n": "500+", "label": "DFW companies served" },
+      { "n": "94%", "label": "Client retention" }
+    ],
+    "whyUs": [
+      { "title": "Two offices in the metroplex", "desc": "Richardson HQ covers east DFW and the Plano/Garland corridor. Our Bedford office covers Tarrant County — Fort Worth, Arlington, Irving, and the mid-cities." },
+      { "title": "Deep DFW industrial network", "desc": "We've been placing workers in North Texas for over 15 years. Our recruiters know the major employers, the industrial parks, and the talent pools in each submarket." },
+      { "title": "Fast response, local support", "desc": "Submit a request and you're talking to a recruiter who actually works your market — not a national call center. Same-day callbacks. 48-hour fill time on most orders." }
+    ],
+    "testimonial": {
+      "quote": "ProTech filled 14 positions in under 48 hours during peak season. Every worker showed up, and 9 converted to full-time. I've never had that fill rate with any other agency.",
+      "name": "Operations Director",
+      "co": "Electronics Manufacturer · Richardson, TX"
+    },
+    "relatedCities": [
+      { "label": "Arlington TX" },
+      { "label": "Irving TX" },
+      { "label": "Garland TX" },
+      { "label": "Bedford TX" }
+    ]
+  },
+  "bedford": {
+    "title": "Industrial Staffing Agency in Bedford TX | Light Industrial & Warehouse | Pro-Tech",
+    "metaDesc": "Pro-Tech Staffing Bedford TX serves Fort Worth, Arlington, Irving, Grand Prairie, and the Tarrant County mid-cities. Light industrial, warehouse, and supply chain staffing. 48-hour fill time.",
+    "h1": "Industrial staffing agency in Bedford, TX. Tarrant County specialists.",
+    "subhead": "Light industrial, warehouse, supply chain, and general labor staffing for Fort Worth, Arlington, Irving, and the mid-cities.",
+    "label": "Bedford TX",
+    "cities": ["Bedford TX", "Fort Worth TX", "Arlington TX", "Irving TX", "Grand Prairie TX", "Hurst TX", "Euless TX", "North Richland Hills TX", "Grapevine TX"],
+    "marketIntro": "Bedford sits at the center of Tarrant County's industrial corridor. Fort Worth, Arlington, Irving, and Grand Prairie form one of the most active warehouse, distribution, and light manufacturing zones in Texas. Pro-Tech's Bedford office covers this entire corridor — staffing forklift operators, production workers, assemblers, and supply chain support for manufacturers and distributors who can't afford gaps on the floor.",
+    "industries": ["Light Industrial Staffing", "Warehouse & 3PL Staffing", "Supply Chain Staffing", "General Labor", "Administrative Staffing"],
+    "roles": ["Assembly and production workers", "Forklift operators (sit-down & stand-up)", "Warehouse pickers and packers", "Machine operators", "Shipping and receiving clerks", "General laborers", "Inventory control clerks", "Production supervisors", "Logistics coordinators", "Material handlers"],
+    "proof": [
+      { "n": "Tarrant Co.", "label": "Primary market" },
+      { "n": "48h", "label": "Avg. fill time" },
+      { "n": "94%", "label": "Client retention rate" },
+      { "n": "Temp & perm", "label": "Placement types" }
+    ],
+    "whyUs": [
+      { "title": "A real office in the mid-cities", "desc": "Our Bedford office is physically located in the corridor — not a remote account managed from Dallas. Your recruiter knows the Tarrant County market, the major employers off 183 and 121, and the talent pools in each sub-city." },
+      { "title": "Built for warehouse and industrial work", "desc": "Bedford, Fort Worth, Arlington, and Grand Prairie have some of the highest concentrations of warehouse, distribution, and light manufacturing operations in North Texas. These are the roles we fill every week." },
+      { "title": "Reliable workers, fast response", "desc": "We screen every candidate for attendance reliability, not just skills. Background checks, drug screening, and direct interviews before placement. Most orders filled within 48 hours — surge coverage same day for general labor." }
+    ],
+    "testimonial": {
+      "quote": "Their Bedford recruiter knows our facility by name. When I call, I'm not explaining from scratch every time. That relationship is worth more than any rate card another agency could offer.",
+      "name": "Plant Manager",
+      "co": "Light Manufacturing · Fort Worth, TX"
+    },
+    "faq": [
+      { "q": "What areas does the Bedford office cover?", "a": "Our Bedford office covers the full Tarrant County and mid-cities corridor: Fort Worth, Arlington, Irving, Grand Prairie, Hurst, Euless, North Richland Hills, Grapevine, and Colleyville. For east DFW — Plano, Garland, Richardson, and Carrollton — our Richardson HQ handles those orders." },
+      { "q": "What industries do you staff from the Bedford office?", "a": "Bedford primarily staffs light industrial, warehouse and distribution, supply chain, general labor, and administrative roles. The Tarrant County market is heavily warehouse and production-focused, which is where our Bedford recruiters specialize." },
+      { "q": "How fast can you fill warehouse jobs in Bedford or Fort Worth?", "a": "Most warehouse and light industrial orders are filled within 48 hours. For general labor and same-day coverage needs, we often have candidates available from our active local pool. Forklift-certified operators and specialized roles may take 48-72 hours depending on certification requirements." },
+      { "q": "Do you place forklift operators in the Tarrant County area?", "a": "Yes. We verify forklift certifications and place operators experienced on sit-down, stand-up, reach, and order picker equipment for warehouses and distribution centers across Fort Worth, Arlington, Irving, and Grand Prairie." },
+      { "q": "Do you offer temp-to-hire staffing from the Bedford office?", "a": "Yes — temp, temp-to-hire, and direct placement are all available. Many Tarrant County manufacturers and distributors use temp-to-hire to evaluate production workers and forklift operators before making permanent offers. We support all three models." },
+      { "q": "Is the Bedford office the same company as the Richardson office?", "a": "Yes. Both are Pro-Tech Staffing offices. Bedford covers Tarrant County and the west DFW corridor. Richardson HQ covers east DFW. If your operation spans both sides of the metroplex, we can coordinate coverage across both offices." }
+    ],
+    "localServices": [
+      { "title": "Light Industrial Staffing", "desc": "Assemblers, machine operators, production workers, and line support for manufacturers across the Tarrant County mid-cities. We recruit for day shifts, night shifts, and rotating schedules." },
+      { "title": "Warehouse & Distribution Staffing", "desc": "Forklift operators, pickers, packers, and shipping/receiving clerks for distribution operations in Fort Worth, Arlington, Irving, and Grand Prairie. Peak-season surge coverage available." },
+      { "title": "Supply Chain & General Labor", "desc": "Inventory control, logistics coordinators, and general labor for industrial operations across the west DFW corridor. Temp, temp-to-hire, and direct placement." }
+    ],
+    "subMarkets": [
+      { "label": "Arlington, TX", "desc": "Major warehouse, distribution, and manufacturing corridor in Tarrant County." },
+      { "label": "Irving, TX", "desc": "Las Colinas and DFW Airport corridor — logistics, light industrial, and electronics." },
+      { "label": "Richardson, TX (HQ)", "desc": "Our East DFW headquarters covering Plano, Garland, Carrollton, and the electronics manufacturing corridor." }
+    ],
+    "relatedCities": [
+      { "label": "Arlington TX" },
+      { "label": "Irving TX" },
+      { "label": "Richardson TX (HQ)" },
+      { "label": "DFW Overview" }
+    ]
+  },
+  "arlington": {
+    "title": "Staffing Agency in Arlington TX | Light Industrial & Warehouse | Pro-Tech",
+    "metaDesc": "Pro-Tech Staffing serves Arlington TX with light industrial, warehouse, manufacturing, and supply chain workers. Vetted candidates placed in 48 hours. Temp, temp-to-hire, direct placement.",
+    "h1": "Industrial staffing agency in Arlington, TX.",
+    "subhead": "Serving Arlington, Grand Prairie, Mansfield, Kennedale, and surrounding Tarrant County areas.",
+    "label": "Arlington TX",
+    "cities": ["Arlington TX", "Grand Prairie TX", "Mansfield TX", "Kennedale TX", "Euless TX", "Bedford TX", "Fort Worth TX"],
+    "industries": ["Light Industrial Staffing", "Warehouse & 3PL Staffing", "Supply Chain Staffing", "General Labor", "Manufacturing Staffing"],
+    "roles": ["Assembly workers", "Forklift operators", "Warehouse pickers and packers", "Production line workers", "Machine operators", "Shipping and receiving clerks", "General labor", "Quality control inspectors"],
+    "proof": [
+      { "n": "48h", "label": "Avg. fill time" },
+      { "n": "Temp & perm", "label": "Placement types" },
+      { "n": "Tarrant Co.", "label": "Local coverage" },
+      { "n": "94%", "label": "Client retention" }
+    ],
+    "whyUs": [
+      { "title": "Tarrant County expertise", "desc": "Pro-Tech's Bedford office covers the Arlington corridor directly. We know the industrial parks, the major employers, and where to find reliable workers in this market." },
+      { "title": "Warehouse and manufacturing focus", "desc": "Arlington has a dense concentration of warehouse, distribution, and light manufacturing operations. These are the roles we staff every day." },
+      { "title": "Workers who show up", "desc": "We pre-screen for attendance reliability — not just skills. Every candidate is interviewed, background checked, and drug screened before placement." }
+    ],
+    "testimonial": {
+      "quote": "We'd been burned by agencies sending unvetted workers. Pro-Tech was different from day one. They understand what light industrial staffing looks like on the floor, not just on a job description.",
+      "name": "HR Manager",
+      "co": "Warehouse & Distribution · Arlington, TX"
+    },
+    "relatedCities": [
+      { "label": "Bedford TX" },
+      { "label": "Irving TX" },
+      { "label": "DFW Overview" }
+    ]
+  },
+  "irving": {
+    "title": "Staffing Agency in Irving TX | Industrial & Warehouse Workers | Pro-Tech",
+    "metaDesc": "Pro-Tech Staffing serves Irving TX with light industrial, warehouse, electronics, and supply chain workers. Vetted candidates in 48 hours. Serving Las Colinas, Coppell, and DFW Airport corridor.",
+    "h1": "Industrial staffing agency in Irving, TX.",
+    "subhead": "Serving Irving, Las Colinas, Coppell, Carrollton, and the DFW Airport industrial corridor.",
+    "label": "Irving TX",
+    "cities": ["Irving TX", "Las Colinas TX", "Coppell TX", "Carrollton TX", "Farmers Branch TX", "Grand Prairie TX", "Dallas TX"],
+    "industries": ["Light Industrial Staffing", "Warehouse & 3PL Staffing", "Supply Chain Staffing", "Electronics Manufacturing Staffing", "Administrative Staffing"],
+    "roles": ["Warehouse pickers and packers", "Forklift operators", "Shipping and receiving clerks", "Assembly workers", "Inventory control clerks", "Electronics technicians", "General labor", "Production workers"],
+    "proof": [
+      { "n": "48h", "label": "Avg. fill time" },
+      { "n": "DFW corridor", "label": "Coverage area" },
+      { "n": "Temp & perm", "label": "Placement types" },
+      { "n": "94%", "label": "Client retention" }
+    ],
+    "whyUs": [
+      { "title": "DFW Airport corridor coverage", "desc": "The Irving and Las Colinas area is one of DFW's busiest logistics zones. We staff warehouse, distribution, and light industrial roles for operations along the entire DFW Airport corridor." },
+      { "title": "Covered from two offices", "desc": "Irving sits between our Richardson HQ and Bedford office. We draw from both talent pools to fill Irving orders faster." },
+      { "title": "Electronics and logistics specialty", "desc": "Irving attracts both electronics and logistics employers. Our recruiters source for both — from PCB assembly technicians to warehouse leads." }
+    ],
+    "testimonial": {
+      "quote": "Fast placements and workers who actually showed up. Pro-Tech filled our peak-season headcount in 72 hours and the retention rate was the best we'd seen.",
+      "name": "Logistics Manager",
+      "co": "Distribution & 3PL · Irving, TX"
+    },
+    "relatedCities": [
+      { "label": "Arlington TX" },
+      { "label": "Garland TX" },
+      { "label": "DFW Overview" }
+    ]
+  },
+  "garland": {
+    "title": "Staffing Agency in Garland TX | Industrial & Manufacturing Workers | Pro-Tech",
+    "metaDesc": "Pro-Tech Staffing serves Garland TX with light industrial, electronics manufacturing, warehouse, and assembly workers. Vetted candidates placed in 48 hours. Temp, temp-to-hire, direct placement.",
+    "h1": "Industrial staffing agency in Garland, TX.",
+    "subhead": "Serving Garland, Rowlett, Sachse, Mesquite, Plano, and the northeast Dallas industrial corridor.",
+    "label": "Garland TX",
+    "cities": ["Garland TX", "Rowlett TX", "Sachse TX", "Mesquite TX", "Plano TX", "Richardson TX", "Dallas TX"],
+    "industries": ["Light Industrial Staffing", "Electronics Manufacturing Staffing", "Warehouse Staffing", "Assembly Staffing", "General Labor"],
+    "roles": ["Assembly line workers", "Electronics technicians", "PCB assembly workers", "Machine operators", "Quality control inspectors", "Forklift operators", "Warehouse pickers", "Production workers"],
+    "proof": [
+      { "n": "48h", "label": "Avg. fill time" },
+      { "n": "NE Dallas", "label": "Coverage area" },
+      { "n": "Electronics", "label": "Specialty" },
+      { "n": "94%", "label": "Client retention" }
+    ],
+    "whyUs": [
+      { "title": "Headquartered in Richardson — next door", "desc": "Our Richardson HQ is minutes from Garland's industrial zone. We know the employers, the talent, and the specific roles that Garland manufacturers need filled." },
+      { "title": "Electronics manufacturing depth", "desc": "Garland has one of the highest concentrations of electronics manufacturers in North Texas. PCB assembly, SMT, soldering, QC inspection — these are roles our recruiters source every week." },
+      { "title": "Screened workers, fast delivery", "desc": "Every candidate is background checked, drug screened, and skills-assessed before placement. We don't send warm bodies. We send workers who are ready to contribute." }
+    ],
+    "testimonial": {
+      "quote": "They placed 8 electronics assembly workers in under 48 hours. All showed up on day one. Three months later, six are still with us full-time.",
+      "name": "Production Manager",
+      "co": "Electronics Manufacturing · Garland, TX"
+    },
+    "relatedCities": [
+      { "label": "Irving TX" },
+      { "label": "DFW Overview" },
+      { "label": "Bedford TX" }
+    ]
+  },
+  "austin": {
+    "title": "Industrial Staffing Agency in Austin TX | Light Industrial & Warehouse | Pro-Tech",
+    "metaDesc": "Pro-Tech Staffing Austin TX places light industrial, warehouse, electronics, and administrative workers across Austin, Round Rock, Cedar Park, and Pflugerville. 48-hour fill time.",
+    "h1": "Industrial staffing agency in Austin, TX. Light industrial and warehouse specialists.",
+    "subhead": "Light industrial, warehouse, electronics, and administrative staffing across Greater Austin.",
+    "label": "Austin TX",
+    "cities": ["Austin TX", "Round Rock TX", "Cedar Park TX", "Pflugerville TX", "Georgetown TX", "Kyle TX", "Buda TX"],
+    "marketIntro": "Austin's industrial footprint has expanded fast. The I-35 corridor from Georgetown through Kyle is home to a growing concentration of light manufacturing, electronics assembly, distribution, and warehouse operations — driven in part by semiconductor and tech manufacturing investment in the region. Pro-Tech's Austin office recruits locally for these roles, placing assemblers, production workers, forklift operators, and electronics technicians for employers who need reliable workers without a long wait.",
+    "industries": ["Light Industrial Staffing", "Warehouse & 3PL Staffing", "Electronics Manufacturing Staffing", "Administrative Staffing", "General Labor"],
+    "roles": ["Assembly workers", "Machine operators", "Production line workers", "Forklift operators", "Warehouse pickers and packers", "Shipping and receiving clerks", "Electronics assembly technicians", "Quality control inspectors", "Data entry specialists", "General laborers"],
+    "proof": [
+      { "n": "ATX", "label": "Austin office" },
+      { "n": "48h", "label": "Avg. fill time" },
+      { "n": "94%", "label": "Client retention rate" },
+      { "n": "I-35", "label": "Industrial corridor coverage" }
+    ],
+    "whyUs": [
+      { "title": "Recruiting for Austin's growth", "desc": "Austin's industrial market is growing faster than most staffing agencies can keep up. Our local Austin recruiters maintain active pipelines of production workers, assemblers, and warehouse staff ready for the employers driving that growth." },
+      { "title": "I-35 corridor expertise", "desc": "The I-35 corridor from Georgetown through Round Rock, Austin, Kyle, and Buda is one of Texas's fastest-growing industrial zones. We staff roles across the full stretch — from semiconductor-adjacent assembly to distribution and 3PL." },
+      { "title": "Screened workers, not warm bodies", "desc": "Every candidate is background checked, drug screened, and skills-interviewed before placement. Austin's labor market is competitive — we work harder on screening so you spend less time on turnover." }
+    ],
+    "testimonial": {
+      "quote": "We needed production workers for a new line in Round Rock and Pro-Tech had qualified candidates on-site in 48 hours. The retention rate through the first 90 days was the best we'd seen from any staffing agency.",
+      "name": "Production Manager",
+      "co": "Light Manufacturing · Round Rock, TX"
+    },
+    "faq": [
+      { "q": "What areas does the Austin office cover?", "a": "Our Austin office covers Greater Austin and the full I-35 corridor: Austin, Round Rock, Cedar Park, Pflugerville, Georgetown, Kyle, and Buda. We also cover the tech manufacturing zones in north and south Austin." },
+      { "q": "What industries do you staff in Austin?", "a": "Austin primarily staffs light industrial, warehouse and distribution, electronics assembly, administrative, and general labor. The I-35 corridor has a growing concentration of light manufacturers, 3PLs, and electronics-adjacent operations." },
+      { "q": "How fast can Pro-Tech fill industrial jobs in Austin?", "a": "Most light industrial and warehouse orders are filled within 48 hours. For general labor, same-day availability is often possible. Electronics assembly roles may take 48-72 hours depending on IPC certification or technical requirements." },
+      { "q": "Do you place workers for electronics assembly roles in Austin?", "a": "Yes. Austin has growing electronics and semiconductor-adjacent manufacturing. We place PCB assembly technicians, electronics assemblers, QC inspectors, and production associates for these operations." },
+      { "q": "Do you offer temp-to-hire in Austin?", "a": "Yes — temp, temp-to-hire, and direct placement are all available. Temp-to-hire is common among Austin manufacturers who want to evaluate workers before making permanent offers, especially for production and warehouse roles." },
+      { "q": "Can you handle multiple shifts for an Austin facility?", "a": "Yes. We recruit for day shifts, evening shifts, night shifts, and rotating schedules. Tell us your shift requirements when you submit your request and we'll source candidates who match your schedule from day one." }
+    ],
+    "localServices": [
+      { "title": "Light Industrial Staffing", "desc": "Assemblers, machine operators, production workers, and line support for manufacturers along the Austin I-35 corridor and Round Rock industrial parks. Day and night shifts filled." },
+      { "title": "Warehouse & Distribution Staffing", "desc": "Pickers, packers, forklift operators, and shipping/receiving clerks for distribution centers in Pflugerville, Cedar Park, and south Austin. Surge and peak-season coverage available." },
+      { "title": "Electronics & Administrative Staffing", "desc": "Electronics assembly technicians and administrative support for tech-adjacent manufacturers and corporate operations in the Greater Austin area." }
+    ],
+    "subMarkets": [
+      { "label": "Round Rock, TX", "desc": "Major industrial and tech manufacturing zone north of Austin along I-35." },
+      { "label": "Cedar Park, TX", "desc": "Growing residential and light industrial corridor northwest of Austin." },
+      { "label": "Pflugerville, TX", "desc": "Warehouse and distribution hub northeast of Austin off 130 Toll." }
+    ],
+    "relatedCities": [
+      { "label": "Richardson TX (HQ)" },
+      { "label": "Bedford TX" },
+      { "label": "All Locations" }
+    ]
+  },
+  "tampa": {
+    "title": "Industrial Staffing Agency in Tampa FL | Electronics Manufacturing & Light Industrial | Pro-Tech",
+    "metaDesc": "Pro-Tech Staffing Tampa FL places electronics manufacturing workers, light industrial assemblers, and warehouse staff across Tampa, Clearwater, St. Petersburg, and Largo. 48-hour fill time.",
+    "h1": "Industrial staffing agency in Tampa, FL. Electronics manufacturing and light industrial specialists.",
+    "subhead": "Electronics manufacturing, light industrial, warehouse, and assembly staffing across the Tampa Bay area.",
+    "label": "Tampa FL",
+    "cities": ["Tampa FL", "Clearwater FL", "St. Petersburg FL", "Largo FL", "Brandon FL", "Riverview FL", "Plant City FL"],
+    "marketIntro": "Tampa Bay is one of Florida's most active industrial markets. The corridor from Tampa through Clearwater and St. Petersburg includes a significant concentration of electronics manufacturers, defense contractors, light industrial operations, and distribution centers. Pro-Tech's Tampa office staffs these operations locally — placing IPC-certified electronics workers, production assemblers, forklift operators, and warehouse teams for employers across Hillsborough and Pinellas counties.",
+    "industries": ["Electronics Manufacturing Staffing", "Light Industrial Staffing", "Warehouse & 3PL Staffing", "Supply Chain Staffing", "Administrative Staffing"],
+    "roles": ["PCB assembly technicians", "SMT operators", "Soldering operators", "QC inspectors", "Assemblers", "Machine operators", "Forklift operators", "Warehouse pickers and packers", "Production workers", "Shipping and receiving clerks"],
+    "proof": [
+      { "n": "Tampa Bay", "label": "Local coverage area" },
+      { "n": "48h", "label": "Avg. fill time" },
+      { "n": "94%", "label": "Client retention rate" },
+      { "n": "IPC", "label": "Certified electronics workforce" }
+    ],
+    "whyUs": [
+      { "title": "Electronics manufacturing expertise in Tampa Bay", "desc": "The Tampa-Clearwater corridor has a significant electronics manufacturing presence, including defense and aerospace-adjacent production. Our Tampa recruiters source IPC-certified workers for these environments specifically." },
+      { "title": "Local office, local recruiters", "desc": "We don't manage Tampa from a Texas call center. Our local team knows the employers, the industrial parks along US-19 and I-4, and the candidate pool across Hillsborough and Pinellas counties." },
+      { "title": "48-hour fill time, reliable attendance", "desc": "We screen every candidate before placement — background checks, drug screening, and skills assessment. Most orders filled within 48 hours, with surge coverage available for production and warehouse roles." }
+    ],
+    "testimonial": {
+      "quote": "We needed IPC-certified soldering operators for a production ramp and Pro-Tech delivered qualified workers in under 72 hours. Every one of them had their certifications in order. That saved us weeks of on-the-job training.",
+      "name": "Operations Manager",
+      "co": "Electronics Manufacturer · Clearwater, FL"
+    },
+    "faq": [
+      { "q": "What areas does the Tampa office cover?", "a": "Our Tampa office covers the full Tampa Bay area: Tampa, Clearwater, St. Petersburg, Largo, Brandon, Riverview, and Plant City. We cover Hillsborough, Pinellas, and Pasco counties for industrial and manufacturing staffing." },
+      { "q": "What industries do you staff in Tampa?", "a": "Tampa primarily staffs electronics manufacturing, light industrial, warehouse and distribution, supply chain, and administrative roles. The Tampa-Clearwater corridor has a strong electronics and defense manufacturing base that we specialize in." },
+      { "q": "Do you provide IPC-certified electronics workers in Tampa?", "a": "Yes. We train and certify workers in IPC-A-610, IPC-620, and J-STD-001 before placement. For electronics manufacturers in the Tampa Bay area, our candidates arrive with verified certifications — not pending ones." },
+      { "q": "How fast can you fill production jobs in Tampa or Clearwater?", "a": "Most light industrial and warehouse orders are filled within 48 hours. Electronics manufacturing roles with IPC certification requirements typically run 48-72 hours. For general labor, same-day availability is often possible." },
+      { "q": "Do you offer temp-to-hire staffing in Tampa?", "a": "Yes — temp, temp-to-hire, and direct placement are all available from our Tampa office. Many Tampa Bay electronics manufacturers and light industrial employers use temp-to-hire to evaluate workers before extending permanent offers." },
+      { "q": "Can you staff night shifts and weekends in the Tampa area?", "a": "Yes. We recruit for day, evening, and night shifts, including rotating schedules. Tell us your shift and start date when you submit your request and we'll source candidates who match — not ones who need to negotiate shifts after they start." }
+    ],
+    "localServices": [
+      { "title": "Electronics Manufacturing Staffing", "desc": "IPC-certified PCB assembly technicians, SMT operators, soldering operators, QC inspectors, and test technicians for electronics manufacturers in the Tampa-Clearwater corridor." },
+      { "title": "Light Industrial Staffing", "desc": "Assemblers, machine operators, production workers, and quality control staff for light manufacturers across Hillsborough and Pinellas counties. Day and night shifts filled." },
+      { "title": "Warehouse & Distribution Staffing", "desc": "Forklift operators, pickers, packers, and shipping/receiving clerks for distribution and 3PL operations in Brandon, Riverview, and Plant City." }
+    ],
+    "subMarkets": [
+      { "label": "Clearwater, FL", "desc": "Electronics manufacturing and light industrial corridor along US-19 in Pinellas County." },
+      { "label": "St. Petersburg, FL", "desc": "Industrial and warehouse operations in southern Pinellas County." },
+      { "label": "Brandon / Riverview, FL", "desc": "Distribution and warehouse corridor east of Tampa off I-75." }
+    ],
+    "relatedCities": [
+      { "label": "Richardson TX (HQ)" },
+      { "label": "Phoenix AZ" },
+      { "label": "All Locations" }
+    ]
+  },
+  "sanjose": {
+    "title": "Electronics Manufacturing Staffing in San Jose CA | IPC Certified | Pro-Tech",
+    "metaDesc": "Pro-Tech Staffing San Jose CA places IPC-certified PCB assembly, SMT, soldering, and electronics manufacturing workers across San Jose, Santa Clara, Milpitas, and Fremont. 48-hour fill time.",
+    "h1": "Electronics manufacturing staffing in San Jose, CA. IPC-certified workers.",
+    "subhead": "PCB assembly, SMT, soldering, QC, AOI, and electronics manufacturing staffing across Silicon Valley.",
+    "label": "San Jose CA",
+    "cities": ["San Jose CA", "Santa Clara CA", "Milpitas CA", "Fremont CA", "Sunnyvale CA", "Santa Cruz CA", "Gilroy CA"],
+    "marketIntro": "Silicon Valley has one of the highest concentrations of electronics manufacturers, contract manufacturers, and PCB assembly operations in the world. San Jose, Santa Clara, Milpitas, and Fremont are home to OEM electronics manufacturers, EMS companies, and semiconductor-adjacent assembly operations that require IPC-certified workers — not generic labor. Pro-Tech's San Jose office specializes in placing certified electronics technicians for these environments, where precision, training, and zero-defect standards are non-negotiable.",
+    "industries": ["Electronics Manufacturing Staffing", "Light Industrial Staffing", "Supply Chain Staffing", "Administrative Staffing", "General Labor"],
+    "roles": ["PCB assembly technicians", "SMT operators", "Soldering operators (through-hole & reflow)", "AOI operators", "Rework technicians", "QC inspectors", "Wire harness assemblers", "Production associates", "Test technicians", "Conformal coating operators"],
+    "proof": [
+      { "n": "IPC", "label": "Certified workforce program" },
+      { "n": "48-72h", "label": "Avg. fill time" },
+      { "n": "94%", "label": "Client retention rate" },
+      { "n": "30", "label": "Years in electronics staffing" }
+    ],
+    "whyUs": [
+      { "title": "IPC certification before placement", "desc": "Silicon Valley electronics manufacturers cannot afford to train from zero. We certify workers in IPC-A-610, IPC-620, and J-STD-001 before they arrive on your floor — so your candidates are production-ready from day one." },
+      { "title": "30 years in electronics staffing", "desc": "Pro-Tech was built on electronics manufacturing. Our San Jose office brings that depth to Silicon Valley — sourcing for the specific roles, the specific certifications, and the specific precision standards that Bay Area manufacturers require." },
+      { "title": "Quality-first screening for zero-defect environments", "desc": "PCB assembly, SMT, and rework have no margin for error. Every candidate is skills-tested for their specific role, not just interviewed. We send workers who can do the job — not workers who say they can." }
+    ],
+    "testimonial": {
+      "quote": "We needed IPC-A-610 certified inspectors for a new line within two weeks. Pro-Tech had four qualified candidates interviewed and ready in 72 hours. All four passed our internal qual process. That doesn't happen with other agencies.",
+      "name": "Manufacturing Engineering Manager",
+      "co": "Contract Electronics Manufacturer · Milpitas, CA"
+    },
+    "faq": [
+      { "q": "What areas does the San Jose office cover?", "a": "Our San Jose office covers Silicon Valley and the South Bay: San Jose, Santa Clara, Milpitas, Fremont, Sunnyvale, Mountain View, and Gilroy. We also cover the East Bay electronics manufacturing corridor in Fremont and Newark." },
+      { "q": "Do you provide IPC-certified workers in San Jose?", "a": "Yes. We train and certify workers in IPC-A-610, IPC-620, and J-STD-001 before placement. Our San Jose recruiters source specifically for electronics manufacturing roles, and candidates arrive with verified, current certifications." },
+      { "q": "What electronics roles do you staff in Silicon Valley?", "a": "PCB assembly technicians, SMT operators, soldering operators (through-hole and reflow), AOI operators, rework technicians, QC inspectors, wire harness assemblers, conformal coating operators, and test technicians. If it's on the production floor of an electronics manufacturer, we staff it." },
+      { "q": "How fast can you fill electronics manufacturing roles in San Jose?", "a": "Most electronics roles are filled within 48-72 hours. Roles requiring specific IPC certifications or rare specializations may take slightly longer. We maintain an active pipeline of certified candidates across the South Bay." },
+      { "q": "Do you staff for EMS companies and contract manufacturers in Silicon Valley?", "a": "Yes. EMS companies and contract manufacturers are a primary client type for our San Jose office. We understand the multi-customer, high-mix, low-volume environments these companies run, and we screen candidates accordingly." },
+      { "q": "Do you offer temp-to-hire for electronics technicians in San Jose?", "a": "Yes — temp, temp-to-hire, and direct placement are all available. Many Silicon Valley electronics manufacturers use temp-to-hire to evaluate IPC-certified technicians before extending permanent offers, especially for QC and rework roles." }
+    ],
+    "localServices": [
+      { "title": "Electronics Manufacturing Staffing", "desc": "IPC-certified PCB assembly technicians, SMT operators, soldering operators, AOI operators, rework technicians, and QC inspectors for Silicon Valley's electronics manufacturers and EMS companies." },
+      { "title": "Light Industrial & Production Staffing", "desc": "Assemblers, production associates, machine operators, and line support for light manufacturers and contract manufacturers across San Jose, Santa Clara, and Milpitas." },
+      { "title": "Supply Chain & Administrative Staffing", "desc": "Logistics coordinators, inventory control specialists, shipping/receiving clerks, and administrative support for electronics operations and contract manufacturers in the South Bay." }
+    ],
+    "subMarkets": [
+      { "label": "Milpitas, CA", "desc": "Dense electronics manufacturing and EMS company corridor in the North San Jose area." },
+      { "label": "Fremont, CA", "desc": "Major electronics and light industrial zone in the East Bay, adjacent to Silicon Valley." },
+      { "label": "Santa Clara, CA", "desc": "Semiconductor and electronics manufacturing hub at the heart of Silicon Valley." }
+    ],
+    "relatedCities": [
+      { "label": "Richardson TX (HQ)" },
+      { "label": "Phoenix AZ" },
+      { "label": "All Locations" }
+    ]
+  },
+  "phoenix": {
+    "title": "Industrial Staffing Agency in Phoenix AZ | Electronics Manufacturing & Warehouse | Pro-Tech",
+    "metaDesc": "Pro-Tech Staffing Phoenix AZ places electronics manufacturing workers, light industrial assemblers, and warehouse staff across Phoenix, Tempe, Mesa, Chandler, and Scottsdale. 48-hour fill time.",
+    "h1": "Industrial staffing agency in Phoenix, AZ. Electronics manufacturing and warehouse specialists.",
+    "subhead": "Electronics manufacturing, light industrial, warehouse, and supply chain staffing across the Phoenix metro.",
+    "label": "Phoenix AZ",
+    "cities": ["Phoenix AZ", "Tempe AZ", "Mesa AZ", "Chandler AZ", "Scottsdale AZ", "Gilbert AZ", "Peoria AZ"],
+    "marketIntro": "Phoenix is one of the fastest-growing industrial markets in the Southwest. The East Valley corridor — Chandler, Mesa, Tempe, and Gilbert — has attracted major semiconductor manufacturers and electronics operations, making it one of the most active markets for IPC-certified electronics workers outside of California and Texas. Pro-Tech's Phoenix office recruits locally for these roles, placing PCB assembly technicians, production workers, warehouse staff, and supply chain support for manufacturers across the metro.",
+    "industries": ["Electronics Manufacturing Staffing", "Light Industrial Staffing", "Warehouse & 3PL Staffing", "Supply Chain Staffing", "General Labor"],
+    "roles": ["PCB assembly technicians", "SMT operators", "Soldering operators", "QC inspectors", "Assemblers", "Machine operators", "Forklift operators", "Warehouse pickers and packers", "Production workers", "Shipping and receiving clerks"],
+    "proof": [
+      { "n": "East Valley", "label": "Electronics corridor coverage" },
+      { "n": "48h", "label": "Avg. fill time" },
+      { "n": "94%", "label": "Client retention rate" },
+      { "n": "IPC", "label": "Certified electronics workforce" }
+    ],
+    "whyUs": [
+      { "title": "Ready for Phoenix's semiconductor boom", "desc": "The East Valley has become one of the most active electronics manufacturing corridors in the US. Our Phoenix recruiters maintain pipelines of IPC-certified workers specifically for the electronics manufacturers and contract manufacturers driving this growth." },
+      { "title": "Local office, full metro coverage", "desc": "We cover the full Phoenix metro from a local office — Chandler, Mesa, Tempe, Gilbert, Scottsdale, Peoria, and Glendale. Your recruiter knows the market, not just the map." },
+      { "title": "Screened workers who show up", "desc": "Phoenix has a competitive labor market. We screen every candidate for reliability, skills, and fit before placement — background checks, drug screening, and direct interviews. Most orders filled within 48 hours." }
+    ],
+    "testimonial": {
+      "quote": "We needed warehouse and production workers for a new facility in Chandler. Pro-Tech had 12 vetted candidates on-site within 48 hours. The attendance rate in the first 30 days was over 95%.",
+      "name": "HR Manager",
+      "co": "Electronics Manufacturer · Chandler, AZ"
+    },
+    "faq": [
+      { "q": "What areas does the Phoenix office cover?", "a": "Our Phoenix office covers the full Phoenix metro: Phoenix, Tempe, Mesa, Chandler, Gilbert, Scottsdale, Peoria, Glendale, and the Southeast Valley corridor along I-10 and US-60." },
+      { "q": "What industries do you staff in Phoenix?", "a": "Phoenix primarily staffs electronics manufacturing, light industrial, warehouse and distribution, supply chain, and general labor. The East Valley — Chandler, Mesa, Tempe, and Gilbert — has a strong and growing electronics manufacturing base that we specialize in." },
+      { "q": "Do you provide IPC-certified workers in Phoenix?", "a": "Yes. We train and certify workers in IPC-A-610, IPC-620, and J-STD-001 before placement. Our Phoenix recruiters source specifically for electronics manufacturing roles, and candidates arrive with current, verified certifications." },
+      { "q": "How fast can you fill industrial jobs in Phoenix?", "a": "Most light industrial and warehouse orders are filled within 48 hours. Electronics manufacturing roles with IPC certification requirements typically run 48-72 hours. General labor can often be filled same-day from our active local pool." },
+      { "q": "Do you place workers for semiconductor-adjacent manufacturers in Phoenix?", "a": "Yes. The Chandler and Mesa corridor has significant semiconductor and electronics manufacturing activity. We place production workers, assembly technicians, and QC inspectors for these facilities — screened for the precision and safety standards these environments require." },
+      { "q": "Do you offer temp-to-hire staffing in Phoenix?", "a": "Yes — temp, temp-to-hire, and direct placement are all available from our Phoenix office. Many Phoenix electronics manufacturers and light industrial employers use temp-to-hire to evaluate workers before extending permanent offers." }
+    ],
+    "localServices": [
+      { "title": "Electronics Manufacturing Staffing", "desc": "IPC-certified PCB assembly technicians, SMT operators, soldering operators, QC inspectors, and production associates for electronics manufacturers in the Chandler-Mesa-Tempe corridor." },
+      { "title": "Light Industrial Staffing", "desc": "Assemblers, machine operators, production workers, and line support for light manufacturers across the Phoenix metro. Day, evening, and night shifts filled." },
+      { "title": "Warehouse & Distribution Staffing", "desc": "Forklift operators, pickers, packers, and shipping/receiving clerks for distribution operations in Phoenix, Mesa, and Peoria. Surge and peak-season coverage available." }
+    ],
+    "subMarkets": [
+      { "label": "Chandler, AZ", "desc": "Major semiconductor and electronics manufacturing hub in the East Valley." },
+      { "label": "Mesa, AZ", "desc": "Light industrial and warehouse corridor in the East Valley along US-60." },
+      { "label": "Tempe, AZ", "desc": "Industrial and distribution operations between Phoenix and Mesa along I-10." }
+    ],
+    "relatedCities": [
+      { "label": "Richardson TX (HQ)" },
+      { "label": "Tampa FL" },
+      { "label": "All Locations" }
+    ]
+  },
+  "atlanta": {
+    "title": "Industrial Staffing Agency in Atlanta GA | Electronics Manufacturing & Warehouse | Pro-Tech",
+    "metaDesc": "Pro-Tech Staffing Atlanta GA places electronics manufacturing workers, light industrial assemblers, and warehouse staff across Atlanta, Norcross, Gwinnett County, and the metro area. 48-hour fill time.",
+    "h1": "Industrial staffing agency in Atlanta, GA. Electronics manufacturing and warehouse specialists.",
+    "subhead": "Electronics manufacturing, light industrial, warehouse, and supply chain staffing across Greater Atlanta.",
+    "label": "Atlanta GA",
+    "cities": ["Atlanta GA", "Norcross GA", "Duluth GA", "Lawrenceville GA", "Marietta GA", "Smyrna GA", "Peachtree City GA"],
+    "marketIntro": "Atlanta is one of the Southeast's most active industrial and logistics markets. The I-85 and I-285 corridors — running through Norcross, Duluth, Lawrenceville, and Gwinnett County — contain a dense concentration of electronics manufacturers, light industrial operations, and distribution centers. Our Atlanta office is located in Norcross at the center of Gwinnett County's industrial zone, staffing production workers, assemblers, warehouse teams, and electronics technicians for employers across the metro.",
+    "industries": ["Electronics Manufacturing Staffing", "Light Industrial Staffing", "Warehouse & 3PL Staffing", "Supply Chain Staffing", "Administrative Staffing", "General Labor"],
+    "roles": ["PCB assembly technicians", "SMT operators", "Soldering operators", "QC inspectors", "Assemblers", "Machine operators", "Forklift operators", "Warehouse pickers and packers", "Production workers", "Shipping and receiving clerks"],
+    "proof": [
+      { "n": "ATL", "label": "Atlanta metro coverage" },
+      { "n": "48h", "label": "Avg. fill time" },
+      { "n": "94%", "label": "Client retention rate" },
+      { "n": "I-85", "label": "Industrial corridor coverage" }
+    ],
+    "whyUs": [
+      { "title": "Gwinnett County industrial expertise", "desc": "Our Norcross office sits in the middle of one of Georgia's densest industrial zones. We know the employers, the industrial parks, and the candidate pool across the I-85 and I-285 corridors — and we staff these markets every week." },
+      { "title": "Local office, full metro coverage", "desc": "We cover the full Atlanta metro from a local office — Norcross, Duluth, Lawrenceville, Marietta, Smyrna, and Peachtree City. Your recruiter knows this market, not just the map." },
+      { "title": "Screened workers who show up", "desc": "Every candidate is background checked, drug screened, and skills-interviewed before placement. Most orders filled within 48 hours. For general labor, same-day availability is often possible from our active local pool." }
+    ],
+    "testimonial": {
+      "quote": "We needed production workers and forklift operators for a new facility in Norcross on short notice. Pro-Tech had qualified candidates on-site within 48 hours. Attendance in the first 60 days was the best we'd seen from any staffing partner.",
+      "name": "Operations Manager",
+      "co": "Light Manufacturing · Norcross, GA"
+    },
+    "faq": [
+      { "q": "What areas does the Atlanta office cover?", "a": "Our Atlanta office covers the full metro area, including Norcross, Duluth, Lawrenceville, Gwinnett County, Marietta, Smyrna, Sandy Springs, and Peachtree City. We cover the full I-85 and I-285 industrial corridors." },
+      { "q": "What industries do you staff in Atlanta?", "a": "Atlanta primarily staffs electronics manufacturing, light industrial, warehouse and distribution, supply chain, administrative, and general labor. Gwinnett County has a strong electronics manufacturing and light industrial base that we specialize in." },
+      { "q": "How fast can Pro-Tech fill industrial jobs in Atlanta?", "a": "Most light industrial and warehouse orders are filled within 48 hours. Electronics manufacturing roles with IPC certification requirements typically run 48-72 hours. General labor can often be filled same-day from our active local pool." },
+      { "q": "Do you provide IPC-certified electronics workers in Atlanta?", "a": "Yes. We train and certify workers in IPC-A-610, IPC-620, and J-STD-001 before placement. Our Atlanta recruiters source specifically for electronics manufacturing roles along the I-85 corridor in Gwinnett County." },
+      { "q": "Do you offer temp-to-hire staffing in Atlanta?", "a": "Yes — temp, temp-to-hire, and direct placement are all available from our Atlanta office. Temp-to-hire is common among Atlanta manufacturers and distributors who want to evaluate workers before making permanent offers." },
+      { "q": "Can you staff multiple shifts for an Atlanta facility?", "a": "Yes. We recruit for day, evening, and night shifts, including rotating schedules. Tell us your shift requirements when you submit your staffing request and we'll source candidates who match from day one." }
+    ],
+    "localServices": [
+      { "title": "Electronics Manufacturing Staffing", "desc": "IPC-certified PCB assembly technicians, SMT operators, soldering operators, QC inspectors, and production associates for electronics manufacturers in the Gwinnett County and I-85 corridor." },
+      { "title": "Light Industrial Staffing", "desc": "Assemblers, machine operators, production workers, and quality control staff for light manufacturers across Gwinnett, Cobb, and Fulton counties. Day and night shifts filled." },
+      { "title": "Warehouse & Distribution Staffing", "desc": "Forklift operators, pickers, packers, and shipping/receiving clerks for distribution and 3PL operations across the Atlanta metro. Surge and peak-season coverage available." }
+    ],
+    "subMarkets": [
+      { "label": "Norcross, GA", "desc": "Dense light industrial and electronics manufacturing zone in Gwinnett County along I-85." },
+      { "label": "Duluth, GA", "desc": "Growing industrial and warehouse corridor in northern Gwinnett County." },
+      { "label": "Marietta / Smyrna, GA", "desc": "Light industrial and manufacturing operations in Cobb County northwest of Atlanta." }
+    ],
+    "relatedCities": [
+      { "label": "Richardson TX (HQ)" },
+      { "label": "Tampa FL" },
+      { "label": "All Locations" }
+    ]
+  }
+}

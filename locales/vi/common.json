@@ -1,0 +1,92 @@
+{
+  "nav": {
+    "links": {
+      "jobSeekers": "Tìm Việc",
+      "employers": "Nhà Tuyển Dụng",
+      "industries": "Ngành Nghề",
+      "locations": "Địa Điểm",
+      "about": "Giới Thiệu"
+    },
+    "cta": {
+      "findJobs": "Tìm Việc",
+      "hireWorkers": "Tuyển Dụng"
+    },
+    "viewAll": "Xem Tất Cả {{section}}"
+  },
+  "navDropdowns": {
+    "jobSeekers": {
+      "exploreJobs": "Khám Phá Việc Làm",
+      "applyNow": "Ứng Tuyển Ngay"
+    },
+    "industries": {
+      "electronicsManufacturing": "Sản Xuất Điện Tử",
+      "lightIndustrial": "Công Nghiệp Nhẹ",
+      "warehouseDistribution": "Kho Bãi & Phân Phối",
+      "supplyChainLogistics": "Chuỗi Cung Ứng & Hậu Cần",
+      "administrativeClerical": "Hành Chính & Văn Thư",
+      "generalLabor": "Lao Động Phổ Thông"
+    },
+    "locations": {
+      "richardsonTx": "Richardson, TX",
+      "bedfordTx": "Bedford, TX",
+      "austinTx": "Austin, TX",
+      "tampaFl": "Tampa, FL",
+      "sanJoseCa": "San Jose, CA",
+      "phoenixAz": "Phoenix, AZ"
+    }
+  },
+  "footer": {
+    "tagline": "Cung ứng nhân sự vận hành chuyên nghiệp. Tuyển dụng cho ngành công nghiệp, điện tử, kho bãi và chuỗi cung ứng tại 6 thị trường trên toàn nước Mỹ.",
+    "social": {
+      "linkedin": "LinkedIn",
+      "google": "Google",
+      "indeed": "Indeed"
+    },
+    "servicesHeading": "Dịch Vụ",
+    "services": {
+      "temporaryStaffing": "Nhân Sự Tạm Thời",
+      "tempToHire": "Tạm Thời Sang Chính Thức",
+      "directPlacement": "Tuyển Dụng Trực Tiếp",
+      "contractStaffing": "Nhân Sự Hợp Đồng",
+      "onSiteManagement": "Quản Lý Tại Chỗ"
+    },
+    "industriesHeading": "Ngành Nghề",
+    "industries": {
+      "electronicsManufacturing": "Sản Xuất Điện Tử",
+      "lightIndustrial": "Công Nghiệp Nhẹ",
+      "warehouse3pl": "Kho Bãi & 3PL",
+      "supplyChain": "Chuỗi Cung Ứng",
+      "administrative": "Hành Chính",
+      "generalLabor": "Lao Động Phổ Thông"
+    },
+    "officesHeading": "Văn Phòng",
+    "offices": {
+      "richardsonHq": "Richardson, TX (Trụ Sở)",
+      "bedford": "Bedford, TX",
+      "austin": "Austin, TX",
+      "tampa": "Tampa, FL",
+      "sanJose": "San Jose, CA",
+      "phoenix": "Phoenix, AZ"
+    },
+    "copyright": "© 2025 Pro-Tech Staffing Services. Bảo lưu mọi quyền.",
+    "legal": {
+      "privacy": "Chính Sách Bảo Mật",
+      "terms": "Điều Khoản Dịch Vụ",
+      "accessibility": "Trợ Năng"
+    }
+  },
+  "cta": {
+    "requestWorkers": "Yêu Cầu Nhân Sự",
+    "submitStaffingRequest": "Gửi Yêu Cầu Tuyển Dụng",
+    "callUsNow": "Gọi Ngay",
+    "viewOpenPositions": "Xem Vị Trí Đang Tuyển"
+  },
+  "stats": {
+    "workersPlaced": "Nhân viên đã bố trí",
+    "avgTimeToCandidate": "Thời gian trung bình tìm ứng viên đầu tiên",
+    "onTimeFillRate": "Tỷ lệ lấp đầy đúng hạn",
+    "clientsReorder": "Khách hàng quay lại trong vòng 30 ngày",
+    "yearsInBusiness": "Năm hoạt động",
+    "clientsReorderChip": "khách hàng quay lại trong vòng 30 ngày"
+  }
+}

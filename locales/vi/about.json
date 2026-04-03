@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "title": "Giới Thiệu Pro-Tech Staffing | 30 Năm Trong Ngành Nhân Sự Công Nghiệp",
+    "description": "Pro-Tech Staffing có 30 năm kinh nghiệm trong lĩnh vực nhân sự sản xuất điện tử, công nghiệp và kho bãi. Sáu văn phòng tại TX, FL, CA và AZ."
+  },
+  "hero": {
+    "eyebrow": "Giới Thiệu Pro-Tech Staffing",
+    "heading": "30 năm cung ứng nhân sự. Xây dựng từ xưởng sản xuất.",
+    "description": "Pro-Tech Staffing được thành lập trong ngành sản xuất điện tử và phát triển thành đối tác nhân sự công nghiệp toàn diện. Chúng tôi bố trí nhân viên trong lĩnh vực công nghiệp nhẹ, kho bãi, chuỗi cung ứng và hành chính tại sáu thị trường trên toàn nước Mỹ.",
+    "ctaRequestWorkers": "Yêu Cầu Nhân Sự",
+    "ctaFindJobs": "Tìm Việc Làm",
+    "imgAlt": "Nhân viên công nghiệp Pro-Tech Staffing tại xưởng sản xuất",
+    "statNumber": "30",
+    "statLabel": "năm hoạt động"
+  },
+  "stats": {
+    "yearsInBusiness": { "n": "30", "label": "Năm hoạt động" },
+    "workersPlaced": { "n": "54K+", "label": "Nhân viên đã bố trí" },
+    "usMarkets": { "n": "6", "label": "Thị trường tại Mỹ" },
+    "clientsReorder": { "n": "94%", "label": "Khách hàng quay lại" }
+  },
+  "ourStory": {
+    "eyebrow": "Câu Chuyện Của Chúng Tôi",
+    "heading": "Bắt đầu từ điện tử.\nPhát triển sang nhân sự công nghiệp.",
+    "p1": "Pro-Tech Staffing bắt đầu hơn 30 năm trước với việc bố trí nhân viên trong ngành sản xuất điện tử — lắp ráp PCB, vận hành SMT, hàn và kiểm tra chất lượng. Nền tảng về sự chính xác, đào tạo và trách nhiệm đó đã định hình mọi hoạt động của chúng tôi.",
+    "p2": "Theo thời gian, khách hàng yêu cầu chúng tôi cung cấp nhân sự cho các bộ phận liên quan: đội ngũ kho bãi, dây chuyền sản xuất, vị trí chuỗi cung ứng và hỗ trợ hành chính. Chúng tôi mở rộng vì công việc đòi hỏi — không phải vì chạy theo số lượng.",
+    "p3": "Ngày nay chúng tôi vận hành sáu văn phòng tại Texas, Florida, California và Arizona. Mỗi thị trường được phục vụ bởi đội ngũ tuyển dụng địa phương am hiểu nhà tuyển dụng, các vị trí và nguồn lao động trong khu vực."
+  },
+  "beliefs": {
+    "eyebrow": "Giá Trị Của Chúng Tôi",
+    "heading": "Nguyên tắc định hướng\ncách chúng tôi vận hành.",
+    "staffingIsLocal": {
+      "title": "Nhân sự mang tính địa phương",
+      "desc": "Kỳ vọng lương, sở thích ca làm, phạm vi di chuyển và cạnh tranh lao động đều thay đổi theo thị trường. Đội ngũ tuyển dụng làm việc tại chỗ — không phải từ tổng đài quốc gia."
+    },
+    "screenForRole": {
+      "title": "Sàng lọc theo vai trò, không chỉ theo hồ sơ",
+      "desc": "Các vị trí công nghiệp đòi hỏi kỹ năng cụ thể, khả năng thể chất và độ tin cậy. Chúng tôi sàng lọc cho công việc thực tế — bao gồm ca làm, địa điểm và môi trường."
+    },
+    "stayInvolved": {
+      "title": "Tiếp tục theo dõi sau khi bố trí",
+      "desc": "Chúng tôi theo dõi cả nhà tuyển dụng và nhân viên để đảm bảo phù hợp. Nếu cần thay đổi, chúng tôi xử lý nhanh."
+    },
+    "doFewerThings": {
+      "title": "Làm ít việc, làm cho giỏi",
+      "desc": "Chúng tôi cung ứng nhân sự cho ngành công nghiệp, sản xuất, kho bãi và chuỗi cung ứng. Sự tập trung đó là có chủ đích. Chúng tôi hiểu rõ các môi trường này vì đã làm việc trong đó suốt 30 năm."
+    }
+  },
+  "howWeWork": {
+    "eyebrow": "Cách Chúng Tôi Làm Việc",
+    "heading": "Điều gì làm Pro-Tech khác biệt.",
+    "roleSpecific": {
+      "title": "Tuyển dụng theo vị trí cụ thể",
+      "desc": "Chúng tôi không đăng tuyển hàng loạt và hy vọng có kết quả. Đội ngũ tuyển dụng tìm ứng viên theo vai trò, ca làm và yêu cầu tại chỗ — để nhân viên đến thực sự có đủ năng lực cho công việc."
+    },
+    "fillTime": {
+      "title": "Thời gian lấp đầy 48 giờ",
+      "desc": "Hầu hết đơn hàng được lấp đầy trong vòng 48 giờ. Chúng tôi duy trì nguồn ứng viên đã sàng lọc, sẵn sàng làm việc tại mỗi thị trường để có thể hành động nhanh khi bạn cần người."
+    },
+    "localTeams": {
+      "title": "Đội ngũ địa phương, mối quan hệ thực",
+      "desc": "Mỗi thị trường được phụ trách bởi nhà tuyển dụng địa phương. Khi bạn gọi, bạn nói chuyện với người hiểu rõ cơ sở, vị trí và nhu cầu tuyển dụng của bạn — không phải tổng đài."
+    }
+  },
+  "offices": {
+    "eyebrow": "Văn Phòng",
+    "heading": "Sáu thị trường. Đội ngũ địa phương tại mỗi nơi.",
+    "description": "Chúng tôi tuyển dụng tại địa phương, tìm kiếm tại địa phương và hỗ trợ khách hàng từ văn phòng gần nơi làm việc.",
+    "richardson": { "city": "Richardson, TX", "tag": "Trụ Sở Chính", "desc": "Trụ sở chính phục vụ hành lang đông DFW — Dallas, Plano, Garland, Richardson." },
+    "bedford": { "city": "Bedford, TX", "tag": "Vùng DFW", "desc": "Phục vụ quận Tarrant — Fort Worth, Arlington, Irving, Grand Prairie và các thành phố trung tâm." },
+    "austin": { "city": "Austin, TX", "tag": "Trung Tâm TX", "desc": "Phục vụ Austin, Round Rock, Cedar Park và hành lang sản xuất Trung Texas." },
+    "tampa": { "city": "Tampa, FL", "tag": "Tampa Bay", "desc": "Phục vụ Tampa, Clearwater, St. Petersburg và thị trường công nghiệp Tampa Bay." },
+    "sanJose": { "city": "San Jose, CA", "tag": "Silicon Valley", "desc": "Nhân sự sản xuất điện tử cho San Jose, Santa Clara, Milpitas và Fremont." },
+    "phoenix": { "city": "Phoenix, AZ", "tag": "Tây Nam", "desc": "Phục vụ Phoenix, Tempe, Mesa và Chandler với nhân sự công nghiệp và kho bãi." }
+  },
+  "industriesOverview": {
+    "eyebrow": "Ngành Nghề Phục Vụ",
+    "heading": "Chuyên về công nghiệp. Không phải đa ngành.",
+    "description": "Chúng tôi cung ứng nhân sự cho một nhóm ngành cụ thể vì sự tập trung đó là yếu tố tạo nên hiệu quả. Đội ngũ tuyển dụng hiểu rõ các môi trường này, các vị trí này và tiêu chuẩn chất lượng tại xưởng.",
+    "electronicsManufacturing": "Sản Xuất Điện Tử",
+    "lightIndustrial": "Công Nghiệp Nhẹ",
+    "warehouseDistribution": "Kho Bãi & Phân Phối",
+    "supplyChainLogistics": "Chuỗi Cung Ứng & Hậu Cần",
+    "administrativeClerical": "Hành Chính & Văn Thư",
+    "generalLabor": "Lao Động Phổ Thông"
+  },
+  "cta": {
+    "eyebrow": "Hợp Tác Với Chúng Tôi",
+    "heading": "Sẵn sàng bắt đầu?",
+    "description": "Dù bạn cần nhân sự hay đang tìm việc, chúng tôi có thể giúp.",
+    "ctaRequestWorkers": "Yêu Cầu Nhân Sự",
+    "ctaFindJobs": "Tìm Việc Làm"
+  }
+}

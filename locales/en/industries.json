@@ -1,0 +1,274 @@
+{
+  "page": {
+    "meta": {
+      "title": "Industries We Staff | Pro-Tech Staffing Services",
+      "description": "Pro-Tech Staffing serves electronics manufacturing, light industrial, warehouse, supply chain, administrative, and general labor industries across six US markets."
+    },
+    "hero": {
+      "eyebrow": "Industries We Serve",
+      "heading": "We only staff the industries we know best.",
+      "description": "A warehouse role is not an electronics role. A machine operator is not an admin temp. After 30 years in these environments, we recruit by role, shift, and floor requirements — not just availability.",
+      "ctaRequestWorkers": "Request Workers"
+    },
+    "stats": {
+      "industriesServed": { "n": "6", "label": "Industries served" },
+      "workersPlaced": { "n": "54K+", "label": "Workers placed" },
+      "avgFillTime": { "n": "48h", "label": "Avg. fill time" },
+      "yearsExperience": { "n": "30", "label": "Years of experience" }
+    },
+    "learnMore": "Learn More",
+    "commonRoles": "Common Roles",
+    "cta": {
+      "eyebrow": "Get Started",
+      "heading": "Need workers in any of these industries?",
+      "description": "Submit a request and we'll have screened, qualified candidates ready within 48 hours.",
+      "callUsNow": "Call Us Now",
+      "submitRequest": "Submit a Staffing Request"
+    }
+  },
+  "detail": {
+    "requestWorkers": "Request Workers",
+    "findJobs": "Find Jobs",
+    "avgFillTime": "avg. fill time",
+    "rolesWeStaff": "Roles We Staff",
+    "rolesHeading": "Specialized roles.\nNot generic temp labor.",
+    "rolesDescription": "Every role in {{industry}} has specific requirements — certifications, physical capabilities, equipment knowledge, and safety protocols. We screen for the full picture, not just warm bodies.",
+    "submitRequest": "Submit a Staffing Request",
+    "certifications": "Certifications",
+    "certHeading": "IPC-certified workers.\nReady for your production floor.",
+    "certDescription": "We train and certify workers before placement. When you need electronics assembly technicians with industry-standard certifications, we deliver qualified candidates — not candidates who need weeks of on-the-job training.",
+    "certVerified": "Industry-standard certification verified before placement.",
+    "whyProTech": "Why Pro-Tech",
+    "whyHeadingPrefix": "Why employers choose us\nfor {{industry}} staffing.",
+    "relatedIndustries": "Related Industries",
+    "ctaGetStarted": "{{industry}} Staffing · Get Started",
+    "ctaHeading": "Need {{industry}} workers?\nWe can help.",
+    "ctaDescription": "Submit a request and we'll have screened, qualified candidates ready within 48 hours.",
+    "callUsNow": "Call Us Now"
+  },
+  "electronics-manufacturing": {
+    "title": "Electronics Manufacturing Staffing | IPC Certified | Pro-Tech Staffing",
+    "metaDesc": "Pro-Tech Staffing provides IPC-certified electronics manufacturing workers — PCB assembly, SMT, soldering, QC, AOI, rework, and test technicians. 48-hour fill time.",
+    "h1": "Electronics manufacturing staffing. IPC-A-610 certified.",
+    "subhead": "PCB assembly, SMT, soldering, QC, AOI, rework, and test technicians.",
+    "label": "Electronics Manufacturing",
+    "intro": "Electronics manufacturing demands precision, training, and zero tolerance for quality failures. Pro-Tech Staffing specializes in placing IPC-certified technicians for PCB assembly, surface mount technology, soldering, quality control, and testing operations. We train workers to IPC-A-610, IPC-620, and J-STD-001 standards before placement — so they arrive ready to contribute from day one.",
+    "imgAlt": "Electronics manufacturing PCB assembly line with technicians",
+    "certifications": ["IPC-A-610 (Acceptability of Electronic Assemblies)", "IPC/WHMA-A-620 (Cable & Wire Harness Assemblies)", "J-STD-001 (Soldering Standards)"],
+    "roles": ["PCB assembly technicians", "SMT operators", "Soldering operators (through-hole & reflow)", "AOI (Automated Optical Inspection) operators", "Rework technicians", "Test technicians", "Quality control inspectors", "Production associates", "Wire harness assemblers", "Conformal coating operators"],
+    "whyUs": [
+      { "title": "IPC-certified workforce", "desc": "We train and certify workers in IPC-A-610, IPC-620, and J-STD-001 before placement. Your candidates arrive with the certifications your production floor requires." },
+      { "title": "30 years in electronics staffing", "desc": "Pro-Tech was built on electronics manufacturing. We understand the difference between a soldering operator and an SMT tech — and we recruit accordingly." },
+      { "title": "Quality-first screening", "desc": "Electronics manufacturing has zero margin for error. Every candidate is skills-tested, background checked, and screened for precision work before they reach your floor." }
+    ],
+    "proof": [
+      { "n": "30", "label": "Years in electronics staffing" },
+      { "n": "IPC", "label": "Certified training program" },
+      { "n": "48h", "label": "Avg. fill time" },
+      { "n": "97%", "label": "On-time fill rate" }
+    ],
+    "testimonial": {
+      "quote": "Pro-Tech filled 14 positions for us in under 48 hours during peak season. More important, the workers showed up and 9 converted full-time. That kind of consistency matters more than promises.",
+      "name": "Operations Director",
+      "co": "Electronics Manufacturer · Richardson, TX"
+    },
+    "relatedIndustries": [
+      { "label": "Light Industrial", "href": "/industries/light-industrial" },
+      { "label": "Warehouse & Distribution", "href": "/industries/warehouse-distribution" },
+      { "label": "Supply Chain & Logistics", "href": "/industries/supply-chain-logistics" }
+    ]
+  },
+  "light-industrial": {
+    "title": "Light Industrial Staffing | Assembly & Production Workers | Pro-Tech Staffing",
+    "metaDesc": "Pro-Tech Staffing provides vetted light industrial workers — assemblers, machine operators, production workers, QC inspectors, and packaging staff. 48-hour fill time.",
+    "h1": "Light industrial staffing. Assemblers, operators, production workers.",
+    "subhead": "Assembly, machine operation, production, quality control, packaging, and line support.",
+    "label": "Light Industrial",
+    "intro": "Light industrial operations need workers who are reliable, trainable, and ready to work in fast-paced production environments. Pro-Tech Staffing places assemblers, machine operators, production line workers, and quality control inspectors for manufacturers who cannot afford no-shows, weak fits, or undertrained staff.",
+    "imgAlt": "Light industrial production workers on assembly line",
+    "certifications": null,
+    "roles": ["Assemblers", "Machine operators", "Production line workers", "Quality control inspectors", "Packaging operators", "Line support staff", "Material handlers", "Production leads", "Press operators", "Sorting and grading workers"],
+    "whyUs": [
+      { "title": "Built for production environments", "desc": "We recruit specifically for manufacturing and production floors. Every candidate is screened for reliability, physical capability, and ability to work in fast-paced industrial settings." },
+      { "title": "Shift-ready workers", "desc": "Day shifts, night shifts, rotating schedules — we source workers who match your shift requirements and show up consistently." },
+      { "title": "Temp, temp-to-hire, and direct", "desc": "Whether you need surge coverage or want to build a permanent production team, we work with your hiring model and timeline." }
+    ],
+    "proof": [
+      { "n": "54K+", "label": "Workers placed" },
+      { "n": "48h", "label": "Avg. fill time" },
+      { "n": "94%", "label": "Clients who reorder" },
+      { "n": "30", "label": "Years in business" }
+    ],
+    "testimonial": {
+      "quote": "We needed 20 production workers for a new line launch. Pro-Tech had qualified candidates on-site within 48 hours. That kind of response time is rare.",
+      "name": "Plant Manager",
+      "co": "Light Manufacturing · Bedford, TX"
+    },
+    "relatedIndustries": [
+      { "label": "Electronics Manufacturing", "href": "/industries/electronics-manufacturing" },
+      { "label": "Warehouse & Distribution", "href": "/industries/warehouse-distribution" },
+      { "label": "General Labor", "href": "/industries/general-labor" }
+    ]
+  },
+  "warehouse-distribution": {
+    "title": "Warehouse Staffing | Picking, Packing, Forklift | Pro-Tech Staffing",
+    "metaDesc": "Pro-Tech Staffing provides vetted warehouse workers — pickers, packers, forklift operators, shipping & receiving clerks, and inventory staff. 48-hour fill time.",
+    "h1": "Warehouse & distribution staffing. Pickers, packers, forklift operators.",
+    "subhead": "Picking, packing, receiving, forklift operation, shipping, inventory, and 3PL support.",
+    "label": "Warehouse & Distribution",
+    "intro": "Warehouse operations run on precision and speed. A missed shipment, a miscount, or a no-show forklift operator can cascade through your entire supply chain. Pro-Tech Staffing places warehouse workers who are trained, reliable, and ready to perform in high-volume distribution environments.",
+    "imgAlt": "Warehouse workers picking and packing in distribution center",
+    "certifications": null,
+    "roles": ["Warehouse pickers", "Packers", "Forklift operators (sit-down & stand-up)", "Shipping clerks", "Receiving clerks", "Inventory control specialists", "Material handlers", "Dock workers", "Order selectors", "3PL support staff"],
+    "whyUs": [
+      { "title": "Warehouse-specific screening", "desc": "We screen for physical capability, forklift certification, and reliability. Our candidates understand RF scanners, WMS systems, and the pace of high-volume distribution." },
+      { "title": "Peak season coverage", "desc": "When volume spikes, we scale with you. We maintain active pipelines of warehouse-ready workers so we can fill surge orders within 48 hours." },
+      { "title": "Forklift-certified operators", "desc": "We verify forklift certifications and can provide operators certified on sit-down, stand-up, reach, and order picker equipment." }
+    ],
+    "proof": [
+      { "n": "48h", "label": "Avg. fill time" },
+      { "n": "97%", "label": "On-time fill rate" },
+      { "n": "6", "label": "Active markets" },
+      { "n": "94%", "label": "Clients who reorder" }
+    ],
+    "testimonial": {
+      "quote": "During peak season we needed 30 warehouse workers in a week. Pro-Tech delivered. More importantly, the attendance rate was above 90% — which is unheard of with temp agencies.",
+      "name": "Distribution Manager",
+      "co": "Warehouse & 3PL · Arlington, TX"
+    },
+    "relatedIndustries": [
+      { "label": "Supply Chain & Logistics", "href": "/industries/supply-chain-logistics" },
+      { "label": "Light Industrial", "href": "/industries/light-industrial" },
+      { "label": "General Labor", "href": "/industries/general-labor" }
+    ]
+  },
+  "supply-chain-logistics": {
+    "title": "Supply Chain Staffing | Logistics & Inventory | Pro-Tech Staffing",
+    "metaDesc": "Pro-Tech Staffing provides supply chain and logistics workers — coordinators, inventory control, shipping & receiving, and warehouse support staff. 48-hour fill time.",
+    "h1": "Supply chain & logistics staffing. Coordinators, inventory, shipping.",
+    "subhead": "Logistics coordinators, inventory control, shipping and receiving, and warehouse support.",
+    "label": "Supply Chain & Logistics",
+    "intro": "Supply chain disruptions cost money. When a logistics coordinator is missing, inventory counts slip, or shipping falls behind, the entire operation feels it. Pro-Tech Staffing places supply chain professionals who understand the systems, the urgency, and the attention to detail these roles demand.",
+    "imgAlt": "Supply chain and logistics operations at distribution facility",
+    "certifications": null,
+    "roles": ["Logistics coordinators", "Inventory control specialists", "Shipping and receiving clerks", "Supply chain analysts", "Warehouse supervisors", "Material planners", "Procurement assistants", "Transportation coordinators", "Cycle count specialists", "Warehouse support staff"],
+    "whyUs": [
+      { "title": "Beyond basic warehouse staffing", "desc": "Supply chain roles require systems knowledge, attention to detail, and communication skills that go beyond physical labor. We screen for the full profile, not just availability." },
+      { "title": "WMS and ERP experience", "desc": "Our candidates are screened for experience with warehouse management systems, ERP platforms, and the tools your operation depends on." },
+      { "title": "Reliable support at every level", "desc": "From entry-level shipping clerks to experienced logistics coordinators, we place workers who understand the pace and precision supply chain operations require." }
+    ],
+    "proof": [
+      { "n": "48h", "label": "Avg. fill time" },
+      { "n": "6", "label": "Active markets" },
+      { "n": "Temp & perm", "label": "Placement types" },
+      { "n": "94%", "label": "Clients who reorder" }
+    ],
+    "testimonial": {
+      "quote": "Our supply chain team was stretched thin during a major product launch. Pro-Tech placed 6 logistics coordinators in under a week. All had WMS experience and hit the ground running.",
+      "name": "Supply Chain Director",
+      "co": "Consumer Electronics · Irving, TX"
+    },
+    "relatedIndustries": [
+      { "label": "Warehouse & Distribution", "href": "/industries/warehouse-distribution" },
+      { "label": "Light Industrial", "href": "/industries/light-industrial" },
+      { "label": "Administrative & Clerical", "href": "/industries/administrative-clerical" }
+    ]
+  },
+  "administrative-clerical": {
+    "title": "Administrative Staffing | Data Entry & Office Support | Pro-Tech Staffing",
+    "metaDesc": "Pro-Tech Staffing provides administrative and clerical workers — data entry, customer support, clerical help, and back-office operations support.",
+    "h1": "Administrative & clerical staffing. Office support that keeps operations running.",
+    "subhead": "Data entry, customer support, clerical assistance, and back-office operational support.",
+    "label": "Administrative & Clerical",
+    "intro": "Industrial and manufacturing companies need reliable administrative support to keep operations running smoothly. Pro-Tech Staffing places data entry specialists, customer service representatives, clerical assistants, and back-office support staff who understand the pace and demands of industrial environments.",
+    "imgAlt": "Administrative office support staff at industrial company",
+    "certifications": null,
+    "roles": ["Data entry specialists", "Customer service representatives", "Receptionist and front desk staff", "Clerical assistants", "Administrative coordinators", "Accounts payable/receivable clerks", "HR assistants", "Office managers", "Filing and records management", "Back-office support staff"],
+    "whyUs": [
+      { "title": "Industrial admin expertise", "desc": "We understand that admin roles in manufacturing and distribution are different from generic office temp work. Our candidates are screened for the pace, systems, and environment your operation runs on." },
+      { "title": "Software proficiency screening", "desc": "We verify proficiency in the tools your team uses — Microsoft Office, ERP systems, data entry platforms, and industry-specific software." },
+      { "title": "Temp, temp-to-hire, and direct", "desc": "Whether you need a short-term fill for a receptionist or want to hire a permanent administrative coordinator, we deliver qualified candidates fast." }
+    ],
+    "proof": [
+      { "n": "48h", "label": "Avg. fill time" },
+      { "n": "Temp & perm", "label": "Placement types" },
+      { "n": "6", "label": "Active markets" },
+      { "n": "94%", "label": "Clients who reorder" }
+    ],
+    "testimonial": {
+      "quote": "We needed a data entry specialist who could work in our ERP system from day one. Pro-Tech found someone with direct experience in two days.",
+      "name": "Office Manager",
+      "co": "Electronics Manufacturer · Richardson, TX"
+    },
+    "relatedIndustries": [
+      { "label": "Supply Chain & Logistics", "href": "/industries/supply-chain-logistics" },
+      { "label": "Light Industrial", "href": "/industries/light-industrial" },
+      { "label": "General Labor", "href": "/industries/general-labor" }
+    ]
+  },
+  "general-labor": {
+    "title": "General Labor Staffing | Temp & Project-Based Workers | Pro-Tech Staffing",
+    "metaDesc": "Pro-Tech Staffing provides general labor workers for short-term, temp-to-hire, and project-based assignments. Reliable coverage without delay.",
+    "h1": "General labor staffing. Coverage when you need it, without the delay.",
+    "subhead": "Short-term, temp-to-hire, and project-based labor for industrial operations.",
+    "label": "General Labor",
+    "intro": "When you need reliable bodies on-site fast — for a project surge, a seasonal peak, or gap coverage — Pro-Tech Staffing delivers general labor workers who show up on time and work safely. We screen every candidate for reliability, physical capability, and workplace readiness.",
+    "imgAlt": "General labor workers at industrial job site",
+    "certifications": null,
+    "roles": ["General laborers", "Cleanup crews", "Loading and unloading workers", "Site preparation staff", "Landscaping support", "Moving and setup crews", "Event setup labor", "Construction helpers", "Maintenance assistants", "Seasonal workers"],
+    "whyUs": [
+      { "title": "Reliability-first screening", "desc": "General labor roles have the highest no-show rates in the industry. We screen specifically for attendance reliability, transportation access, and willingness to commit to the full assignment." },
+      { "title": "Same-day and next-day availability", "desc": "When you need coverage now, we move fast. Our active candidate pool includes workers ready for immediate deployment across all six markets." },
+      { "title": "Safe, drug-screened workers", "desc": "Every general labor candidate is drug screened, background checked, and briefed on site safety requirements before placement." }
+    ],
+    "proof": [
+      { "n": "36h", "label": "Avg. fill time" },
+      { "n": "Same-day", "label": "Rush availability" },
+      { "n": "6", "label": "Active markets" },
+      { "n": "94%", "label": "Clients who reorder" }
+    ],
+    "testimonial": {
+      "quote": "We had a project surge and needed 15 workers by Monday. Pro-Tech had them on-site by 7am. All 15 showed up. That never happens with other agencies.",
+      "name": "Site Supervisor",
+      "co": "Industrial Services · DFW, TX"
+    },
+    "relatedIndustries": [
+      { "label": "Light Industrial", "href": "/industries/light-industrial" },
+      { "label": "Warehouse & Distribution", "href": "/industries/warehouse-distribution" },
+      { "label": "Administrative & Clerical", "href": "/industries/administrative-clerical" }
+    ]
+  },
+  "industriesPageCards": {
+    "electronics-manufacturing": {
+      "title": "Electronics Manufacturing",
+      "desc": "PCB assembly, SMT technicians, soldering operators, QC inspectors, test technicians, AOI operators, rework technicians, and production associates.",
+      "cert": "IPC-A-610, IPC-620, and J-STD-001 certified workers available.",
+      "roles": ["PCB assembly technicians", "SMT operators", "Soldering operators", "QC inspectors", "AOI operators", "Rework technicians"]
+    },
+    "light-industrial": {
+      "title": "Light Industrial",
+      "desc": "Assemblers, machine operators, production workers, quality control, packaging, and line support for fast-paced manufacturing environments.",
+      "roles": ["Assemblers", "Machine operators", "Production workers", "QC inspectors", "Packaging operators", "Line support"]
+    },
+    "warehouse-distribution": {
+      "title": "Warehouse & Distribution",
+      "desc": "Picking, packing, receiving, forklift operators, shipping, inventory control, and 3PL support for high-volume distribution operations.",
+      "roles": ["Warehouse pickers", "Packers", "Forklift operators", "Shipping clerks", "Receiving clerks", "Inventory control"]
+    },
+    "supply-chain-logistics": {
+      "title": "Supply Chain & Logistics",
+      "desc": "Logistics coordinators, inventory control specialists, shipping and receiving, and warehouse support staff for supply chain operations.",
+      "roles": ["Logistics coordinators", "Inventory specialists", "Shipping clerks", "Supply chain analysts", "Material planners", "Warehouse supervisors"]
+    },
+    "administrative-clerical": {
+      "title": "Administrative & Clerical",
+      "desc": "Data entry, customer support, clerical help, and back-office operational support for industrial and manufacturing companies.",
+      "roles": ["Data entry specialists", "Customer service reps", "Receptionist staff", "Clerical assistants", "Admin coordinators", "AP/AR clerks"]
+    },
+    "general-labor": {
+      "title": "General Labor",
+      "desc": "Short-term, temp-to-hire, and project-based labor when you need reliable coverage without delay.",
+      "roles": ["General laborers", "Loading crews", "Site preparation", "Cleanup crews", "Moving and setup", "Seasonal workers"]
+    }
+  }
+}

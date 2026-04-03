@@ -1,0 +1,574 @@
+{
+  "page": {
+    "meta": {
+      "title": "Địa Điểm Văn Phòng | Pro-Tech Staffing Services",
+      "description": "Pro-Tech Staffing vận hành sáu văn phòng tại Texas, Florida, California và Arizona. Nhà tuyển dụng địa phương, am hiểu thị trường thực tế, lấp đầy trong 48 giờ."
+    },
+    "hero": {
+      "eyebrow": "Địa Điểm Văn Phòng",
+      "heading": "Nhà tuyển dụng địa phương. Am hiểu thị trường thực tế.",
+      "description": "Tuyển dụng công nghiệp mang tính địa phương. Kỳ vọng lương, sở thích ca làm, phạm vi di chuyển và cạnh tranh lao động đều thay đổi theo thị trường. Đó là lý do mỗi địa điểm được hỗ trợ bởi đội ngũ địa phương am hiểu các vị trí, nhà tuyển dụng và nguồn lao động.",
+      "description2": "Chúng tôi tuyển dụng tại chỗ để bạn có được ứng viên nhanh hơn, chuyên cần tốt hơn và ít bất ngờ hơn.",
+      "ctaRequestWorkers": "Yêu Cầu Nhân Sự"
+    },
+    "stats": {
+      "usMarkets": { "n": "6", "label": "Thị trường tại Mỹ" },
+      "states": { "n": "4", "label": "Tiểu bang" },
+      "avgFillTime": { "n": "48h", "label": "Thời gian lấp đầy trung bình" },
+      "clientRetention": { "n": "94%", "label": "Tỷ lệ giữ chân khách hàng" }
+    },
+    "viewMarket": "Xem thị trường →",
+    "dfwSubMarkets": {
+      "eyebrow": "Thị Trường Phụ DFW",
+      "heading": "Cần nhân sự tại một thành phố cụ thể trong DFW?",
+      "description": "Đội ngũ DFW của chúng tôi phục vụ toàn bộ vùng đô thị với trang riêng cho từng hành lang chính.",
+      "arlington": { "label": "Arlington, TX", "desc": "Hành lang kho bãi, phân phối và sản xuất lớn tại quận Tarrant." },
+      "irving": { "label": "Irving, TX", "desc": "Hành lang Las Colinas và sân bay DFW — điện tử, hậu cần và công nghiệp nhẹ." },
+      "garland": { "label": "Garland, TX", "desc": "Khu công nghiệp nhẹ đông đúc phía đông Dallas. Chuyên về điện tử và sản xuất nhẹ." }
+    },
+    "cta": {
+      "eyebrow": "Bắt Đầu",
+      "heading": "Cần nhân sự tại thị trường của bạn?",
+      "description": "Gửi yêu cầu và chúng tôi sẽ kết nối bạn với nhà tuyển dụng địa phương trong vòng 24 giờ.",
+      "callUsNow": "Gọi Ngay",
+      "submitRequest": "Gửi Yêu Cầu Tuyển Dụng"
+    }
+  },
+  "locationsPageMarkets": {
+    "richardson": { "city": "Richardson", "state": "TX", "tag": "Trụ Sở Chính", "roles": "Công nghiệp nhẹ, sản xuất điện tử, kho bãi", "serving": "Dallas · Plano · Garland · Carrollton · Richardson" },
+    "bedford": { "city": "Bedford", "state": "TX", "tag": "Vùng DFW", "roles": "Công nghiệp, kho bãi, chuỗi cung ứng, lao động phổ thông", "serving": "Fort Worth · Arlington · Irving · Grand Prairie · Bedford" },
+    "austin": { "city": "Austin", "state": "TX", "tag": "Trung Tâm TX", "roles": "Công nghiệp nhẹ, điện tử, hành chính", "serving": "Austin · Round Rock · Cedar Park · Pflugerville" },
+    "tampa": { "city": "Tampa", "state": "FL", "tag": "Tampa Bay", "roles": "Sản xuất điện tử, công nghiệp nhẹ, kho bãi", "serving": "Tampa · Clearwater · St. Petersburg · Largo" },
+    "sanjose": { "city": "San Jose", "state": "CA", "tag": "Silicon Valley", "roles": "Lắp ráp PCB, SMT, sản xuất điện tử, QC", "serving": "San Jose · Santa Clara · Milpitas · Fremont" },
+    "phoenix": { "city": "Phoenix", "state": "AZ", "tag": "Tây Nam", "roles": "Sản xuất điện tử, kho bãi, công nghiệp nhẹ", "serving": "Phoenix · Tempe · Mesa · Chandler" }
+  },
+  "detail": {
+    "requestWorkers": "Yêu Cầu Nhân Sự",
+    "allLocations": "← Tất Cả Địa Điểm",
+    "avgFillTime": "thời gian lấp đầy trung bình",
+    "coverageArea": "Khu vực phục vụ",
+    "aboutThisMarket": "Về Thị Trường Này",
+    "whatWeStaffHere": "Nhân Sự Tại Đây",
+    "staffingServicesIn": "Dịch vụ nhân sự tại {{label}}.",
+    "localServicesDesc": "Không phải danh sách chung chung — đây là các vị trí và ngành nghề thực tế chúng tôi tuyển dụng tại thị trường này hàng tuần.",
+    "learnMore": "Tìm hiểu thêm",
+    "industriesWeStaff": "Ngành Nghề Cung Ứng",
+    "industriesHeading": "Chuyên về công nghiệp.\nKhông phải đa ngành.",
+    "rolesWePlace": "Vị Trí Bố Trí",
+    "rolesHeading": "Các vị trí phổ biến\nđược lấp đầy tại thị trường này.",
+    "whyProTech": "Tại Sao Chọn Pro-Tech",
+    "whyHeading": "Tại sao nhà tuyển dụng chọn chúng tôi\ntại {{label}}.",
+    "officeEyebrow": "Văn Phòng {{label}}",
+    "officeHeading": "Nhà tuyển dụng địa phương.\nAm hiểu thị trường địa phương.",
+    "officeDescription": "Đây là văn phòng thực sự, có nhân viên — không phải địa chỉ ảo hay quản lý từ xa. Nhà tuyển dụng của bạn làm việc tại thị trường này, biết rõ nhà tuyển dụng địa phương và phản hồi nhanh.",
+    "addressLabel": "Địa chỉ",
+    "phoneLabel": "Điện thoại",
+    "phoneTextOnly": "Điện thoại (Chỉ nhắn tin)",
+    "textPrefix": "Nhắn tin",
+    "callPrefix": "Gọi",
+    "officePhoneLabel": "văn phòng {{label}}",
+    "textOnly": "(chỉ nhắn tin)",
+    "faxLabel": "Fax",
+    "emailLabel": "Email",
+    "submitResumeLabel": "Gửi Hồ Sơ",
+    "hoursLabel": "Giờ làm việc",
+    "localRecruiterLabel": "Nhà Tuyển Dụng Địa Phương",
+    "howItWorks": "Quy Trình",
+    "howItWorksSteps": [
+      { "n": "01", "title": "Cho chúng tôi biết nhu cầu", "desc": "Vị trí, số lượng, ngày bắt đầu, kỹ năng yêu cầu. Không cần biểu mẫu dài dòng." },
+      { "n": "02", "title": "Chúng tôi tìm kiếm và sàng lọc tại địa phương", "descTemplate": "Đội ngũ tuyển dụng {{label}} tìm ứng viên từ nguồn nhân tài địa phương đang hoạt động. Xác minh lý lịch, kiểm tra ma túy và phỏng vấn." },
+      { "n": "03", "title": "Nhân viên đến sẵn sàng", "desc": "Ứng viên đã sàng lọc đến đúng giờ, sẵn sàng đóng góp ngay từ ngày đầu. Chúng tôi theo dõi để xác nhận." }
+    ],
+    "submitStaffingRequest": "Gửi Yêu Cầu Tuyển Dụng",
+    "faqEyebrow": "Câu Hỏi Thường Gặp",
+    "faqHeading": "Câu hỏi phổ biến về nhân sự\ntại {{label}}.",
+    "nearbyMarkets": "Thị Trường Lân Cận",
+    "nearbyHeading": "Cần nhân sự tại khu vực lân cận?",
+    "nearbyDescription": "Chúng tôi phục vụ hành lang xung quanh với cùng đội ngũ tuyển dụng địa phương và thời gian lấp đầy 48 giờ.",
+    "servedFrom": "Phục vụ từ văn phòng {{parentOffice}}",
+    "servedFromDesc": "Phục vụ từ văn phòng <strong>{{parentOffice}}</strong>. Tạm thời, tạm thời sang chính thức và tuyển dụng trực tiếp. Ứng viên đã sàng lọc trong 48 giờ.",
+    "parentOfficeNote": "Chúng tôi không có văn phòng tại {{city}}, nhưng nhà tuyển dụng {{parentOffice}} phụ trách thị trường này. Bạn sẽ nhận được cùng thời gian phản hồi và hỗ trợ từ nhà tuyển dụng.",
+    "alsoServingNearby": "Khu Vực Lân Cận Phục Vụ",
+    "ctaGetStarted": "{{label}} · Bắt Đầu",
+    "ctaHeading": "Cần nhân sự tại {{city}}?\nChúng tôi có thể giúp.",
+    "ctaDescription": "Gửi yêu cầu và chúng tôi sẽ có ứng viên đã sàng lọc, tại địa phương sẵn sàng trong vòng 48 giờ.",
+    "callUsNow": "Gọi Ngay"
+  },
+  "richardson": {
+    "title": "Công Ty Nhân Sự Công Nghiệp tại Richardson TX | Sản Xuất Điện Tử & Công Nghiệp Nhẹ | Pro-Tech",
+    "metaDesc": "Pro-Tech Staffing có trụ sở tại Richardson TX. Chúng tôi bố trí nhân viên sản xuất điện tử có chứng chỉ IPC, thợ lắp ráp công nghiệp nhẹ, nhân viên kho bãi và công nhân sản xuất. Lấp đầy trong 36-48 giờ.",
+    "h1": "Công ty nhân sự công nghiệp tại Richardson, TX. Chuyên gia sản xuất điện tử.",
+    "subhead": "Lắp ráp điện tử có chứng chỉ IPC, công nghiệp nhẹ, kho bãi và nhân sự chuỗi cung ứng.",
+    "label": "Richardson TX",
+    "cities": ["Richardson TX", "Plano TX", "Garland TX", "Carrollton TX", "Allen TX", "McKinney TX", "Dallas TX"],
+    "marketIntro": "Richardson là trung tâm sản xuất điện tử của Bắc Texas. Hành lang từ Richardson qua Plano và Garland có mật độ cao nhất về lắp ráp PCB, sản xuất SMT và hoạt động công nghiệp nhẹ trong tiểu bang. Trụ sở Pro-Tech đã ở đây 30 năm — chúng tôi hiểu rõ nhà tuyển dụng, cơ sở và nguồn nhân tài. Khi bạn cần nhân viên đã sàng lọc trong 48 giờ hoặc ít hơn, bạn đang gọi đội ngũ tuyển dụng tại thị trường này hàng tuần.",
+    "industries": ["Nhân Sự Sản Xuất Điện Tử", "Nhân Sự Công Nghiệp Nhẹ", "Nhân Sự Kho Bãi & 3PL", "Nhân Sự Chuỗi Cung Ứng", "Nhân Sự Hành Chính", "Lao Động Phổ Thông"],
+    "roles": ["Kỹ thuật viên lắp ráp PCB", "Vận hành viên SMT", "Thợ hàn", "Kiểm tra viên QC", "Vận hành viên AOI", "Thợ lắp ráp", "Thợ vận hành máy", "Vận hành viên xe nâng", "Nhân viên lấy hàng và đóng gói", "Công nhân sản xuất"],
+    "proof": [
+      { "n": "HQ", "label": "Richardson, TX — thành lập tại đây" },
+      { "n": "30+", "label": "Năm tuyển dụng tại thị trường này" },
+      { "n": "36–48h", "label": "Thời gian lấp đầy trung bình" },
+      { "n": "94%", "label": "Tỷ lệ giữ chân khách hàng" }
+    ],
+    "whyUs": [
+      { "title": "30 năm tại thị trường Richardson", "desc": "Chúng tôi được thành lập tại đây. Đội ngũ tuyển dụng biết rõ các khu công nghiệp, nhà tuyển dụng lớn dọc US-75 và Campbell Road, và nguồn nhân tài tại Richardson, Plano và Garland. Bạn không nhận tổng đài quốc gia — bạn nhận chuyên môn địa phương xây dựng qua ba thập kỷ." },
+      { "title": "Đội ngũ có chứng chỉ IPC cho điện tử", "desc": "Richardson có mật độ nhà sản xuất điện tử cao nhất Texas. Chúng tôi đào tạo và cấp chứng chỉ IPC-A-610, IPC-620 và J-STD-001 cho nhân viên trước khi bố trí — ứng viên đến với chứng chỉ xưởng sản xuất yêu cầu." },
+      { "title": "Lấp đầy nhanh, chuyên cần đáng tin cậy", "desc": "Hầu hết đơn hàng được lấp đầy trong 36-48 giờ. Chúng tôi sàng lọc đặc biệt về chuyên cần — xác minh lý lịch, kiểm tra ma túy và phỏng vấn trực tiếp — vì vắng mặt tốn kém hơn chính vị trí đó." }
+    ],
+    "testimonial": {
+      "quote": "Pro-Tech đã lấp đầy 14 vị trí cho chúng tôi trong chưa đầy 48 giờ vào mùa cao điểm. Quan trọng hơn, nhân viên đến làm việc và 9 người đã chuyển sang chính thức. Sự ổn định đó quan trọng hơn lời hứa.",
+      "name": "Giám Đốc Vận Hành",
+      "co": "Nhà Sản Xuất Điện Tử · Richardson, TX"
+    },
+    "faq": [
+      { "q": "Pro-Tech cung ứng nhân sự cho những ngành nào tại Richardson, TX?", "a": "Trụ sở Richardson chuyên về sản xuất điện tử, công nghiệp nhẹ, kho bãi và phân phối, chuỗi cung ứng và nhân sự hành chính. Sản xuất điện tử — bao gồm lắp ráp PCB, SMT, hàn và QC — là trọng tâm chính tại thị trường này do mật độ cao nhà sản xuất dọc hành lang Richardson và Garland." },
+      { "q": "Pro-Tech có thể lấp đầy việc làm công nghiệp tại Richardson nhanh cỡ nào?", "a": "Hầu hết đơn hàng được lấp đầy trong 36-48 giờ. Với lao động phổ thông và công nghiệp nhẹ, thường có thể cung ứng cùng ngày từ nguồn ứng viên địa phương. Vị trí sản xuất điện tử cần chứng chỉ IPC thường mất 48-72 giờ tùy chuyên môn." },
+      { "q": "Pro-Tech có cung cấp nhân viên có chứng chỉ IPC cho sản xuất điện tử tại Richardson không?", "a": "Có. Chúng tôi đào tạo và cấp chứng chỉ IPC-A-610, IPC-620 và J-STD-001 cho nhân viên trước khi bố trí. Đội ngũ tuyển dụng Richardson tìm kiếm chuyên biệt cho vị trí sản xuất điện tử, và ứng viên đến với chứng chỉ đã xác minh — không phải đang chờ." },
+      { "q": "Pro-Tech có cung cấp nhân sự tạm thời sang chính thức tại Richardson không?", "a": "Có — tạm thời, tạm thời sang chính thức và tuyển dụng trực tiếp đều có. Nhiều nhà sản xuất điện tử và nhà tuyển dụng công nghiệp nhẹ tại hành lang Richardson sử dụng hình thức tạm thời sang chính thức để đánh giá nhân viên trước khi đề nghị chính thức. Chúng tôi hỗ trợ cả ba mô hình." },
+      { "q": "Những thành phố nào gần Richardson được Pro-Tech phục vụ?", "a": "Từ trụ sở Richardson, chúng tôi phục vụ toàn bộ hành lang đông DFW: Plano, Garland, Carrollton, Allen, McKinney và Dallas. Với quận Tarrant và các thành phố trung tâm, văn phòng Bedford phụ trách Fort Worth, Arlington, Irving và Grand Prairie." },
+      { "q": "Pro-Tech có thể cung ứng nhân sự nhiều ca cho cơ sở sản xuất tại Richardson không?", "a": "Có. Chúng tôi bố trí nhân viên cho ca ngày, ca chiều, ca đêm và lịch luân phiên. Cho chúng tôi biết yêu cầu ca làm khi gửi yêu cầu và chúng tôi sẽ tìm ứng viên phù hợp — không phải ứng viên sẽ xin đổi ca khi bắt đầu." }
+    ],
+    "localServices": [
+      { "title": "Nhân Sự Sản Xuất Điện Tử", "desc": "Richardson có mật độ cao nhất về lắp ráp PCB và vận hành SMT tại Texas. Kỹ thuật viên có chứng chỉ IPC, thợ hàn, vận hành viên AOI và kiểm tra viên QC — sàng lọc trước khi bố trí." },
+      { "title": "Nhân Sự Công Nghiệp Nhẹ", "desc": "Thợ lắp ráp, thợ vận hành máy, công nhân sản xuất và hỗ trợ dây chuyền cho nhà sản xuất dọc hành lang công nghiệp Richardson-Plano-Garland. Ca ngày và ca đêm." },
+      { "title": "Nhân Sự Kho Bãi & Phân Phối", "desc": "Nhân viên lấy hàng, đóng gói, vận hành xe nâng và nhân viên giao nhận cho hoạt động phân phối trong và xung quanh hành lang đông DFW. Hỗ trợ đột xuất có sẵn." }
+    ],
+    "subMarkets": [
+      { "label": "Garland, TX", "desc": "Khu công nghiệp nhẹ và sản xuất điện tử đông đúc phía đông Dallas. Thị trường phụ gần trụ sở nhất." },
+      { "label": "Irving, TX", "desc": "Hành lang Las Colinas và sân bay DFW — điện tử, hậu cần và công nghiệp nhẹ." },
+      { "label": "Tổng Quan DFW", "desc": "Phục vụ toàn bộ vùng đô thị DFW từ văn phòng Richardson và Bedford." }
+    ],
+    "relatedCities": [
+      { "label": "Garland TX" },
+      { "label": "Irving TX" },
+      { "label": "Tổng Quan DFW" },
+      { "label": "Bedford TX" }
+    ]
+  },
+  "dfw": {
+    "title": "Công Ty Nhân Sự Công Nghiệp tại Dallas-Fort Worth TX | Pro-Tech Staffing",
+    "metaDesc": "Pro-Tech Staffing là công ty nhân sự công nghiệp nhẹ phục vụ Dallas TX, Fort Worth TX, Arlington, Irving, Garland, Grand Prairie và Plano. Nhân viên đã sàng lọc bố trí trong 48 giờ.",
+    "h1": "Công ty nhân sự công nghiệp tại Dallas-Fort Worth, TX.",
+    "subhead": "Phục vụ Dallas, Fort Worth, Arlington, Irving, Garland, Grand Prairie, Plano, Richardson và Carrollton.",
+    "label": "Dallas-Fort Worth",
+    "cities": ["Dallas TX", "Fort Worth TX", "Arlington TX", "Irving TX", "Garland TX", "Grand Prairie TX", "Plano TX", "Richardson TX", "Carrollton TX", "Bedford TX"],
+    "industries": ["Nhân Sự Công Nghiệp Nhẹ", "Nhân Sự Sản Xuất Điện Tử", "Nhân Sự Kho Bãi & 3PL", "Nhân Sự Chuỗi Cung Ứng", "Nhân Sự Hành Chính", "Lao Động Phổ Thông"],
+    "roles": ["Công nhân dây chuyền lắp ráp", "Kỹ thuật viên lắp ráp PCB", "Vận hành viên xe nâng", "Thợ vận hành máy", "Nhân viên lấy hàng và đóng gói", "Kiểm tra viên chất lượng", "Nhân viên giao nhận", "Trưởng ca dây chuyền sản xuất"],
+    "proof": [
+      { "n": "2", "label": "Văn phòng DFW" },
+      { "n": "48h", "label": "Thời gian lấp đầy trung bình" },
+      { "n": "500+", "label": "Công ty DFW đã phục vụ" },
+      { "n": "94%", "label": "Tỷ lệ giữ chân khách hàng" }
+    ],
+    "whyUs": [
+      { "title": "Hai văn phòng trong vùng đô thị", "desc": "Trụ sở Richardson phục vụ đông DFW và hành lang Plano/Garland. Văn phòng Bedford phục vụ quận Tarrant — Fort Worth, Arlington, Irving và các thành phố trung tâm." },
+      { "title": "Mạng lưới công nghiệp DFW sâu rộng", "desc": "Chúng tôi đã bố trí nhân viên tại Bắc Texas hơn 15 năm. Đội ngũ tuyển dụng biết rõ nhà tuyển dụng lớn, khu công nghiệp và nguồn nhân tài trong từng thị trường phụ." },
+      { "title": "Phản hồi nhanh, hỗ trợ địa phương", "desc": "Gửi yêu cầu và bạn nói chuyện với nhà tuyển dụng thực sự làm việc tại thị trường của bạn — không phải tổng đài quốc gia. Gọi lại cùng ngày. Lấp đầy trong 48 giờ cho hầu hết đơn hàng." }
+    ],
+    "testimonial": {
+      "quote": "ProTech đã lấp đầy 14 vị trí trong chưa đầy 48 giờ vào mùa cao điểm. Mọi nhân viên đều đến, và 9 người chuyển sang chính thức. Tôi chưa bao giờ có tỷ lệ đó với công ty nhân sự nào khác.",
+      "name": "Giám Đốc Vận Hành",
+      "co": "Nhà Sản Xuất Điện Tử · Richardson, TX"
+    },
+    "relatedCities": [
+      { "label": "Arlington TX" },
+      { "label": "Irving TX" },
+      { "label": "Garland TX" },
+      { "label": "Bedford TX" }
+    ]
+  },
+  "bedford": {
+    "title": "Công Ty Nhân Sự Công Nghiệp tại Bedford TX | Công Nghiệp Nhẹ & Kho Bãi | Pro-Tech",
+    "metaDesc": "Pro-Tech Staffing Bedford TX phục vụ Fort Worth, Arlington, Irving, Grand Prairie và các thành phố trung tâm quận Tarrant. Nhân sự công nghiệp nhẹ, kho bãi và chuỗi cung ứng. Lấp đầy trong 48 giờ.",
+    "h1": "Công ty nhân sự công nghiệp tại Bedford, TX. Chuyên gia quận Tarrant.",
+    "subhead": "Nhân sự công nghiệp nhẹ, kho bãi, chuỗi cung ứng và lao động phổ thông cho Fort Worth, Arlington, Irving và các thành phố trung tâm.",
+    "label": "Bedford TX",
+    "cities": ["Bedford TX", "Fort Worth TX", "Arlington TX", "Irving TX", "Grand Prairie TX", "Hurst TX", "Euless TX", "North Richland Hills TX", "Grapevine TX"],
+    "marketIntro": "Bedford nằm tại trung tâm hành lang công nghiệp quận Tarrant. Fort Worth, Arlington, Irving và Grand Prairie tạo thành một trong những khu vực kho bãi, phân phối và sản xuất nhẹ sôi động nhất Texas. Văn phòng Bedford của Pro-Tech phục vụ toàn bộ hành lang này — cung ứng vận hành viên xe nâng, công nhân sản xuất, thợ lắp ráp và nhân viên chuỗi cung ứng cho nhà sản xuất và nhà phân phối không thể chấp nhận thiếu người tại xưởng.",
+    "industries": ["Nhân Sự Công Nghiệp Nhẹ", "Nhân Sự Kho Bãi & 3PL", "Nhân Sự Chuỗi Cung Ứng", "Lao Động Phổ Thông", "Nhân Sự Hành Chính"],
+    "roles": ["Công nhân lắp ráp và sản xuất", "Vận hành viên xe nâng (ngồi & đứng)", "Nhân viên lấy hàng và đóng gói", "Thợ vận hành máy", "Nhân viên giao nhận", "Lao động phổ thông", "Nhân viên kiểm soát hàng tồn kho", "Quản lý sản xuất", "Điều phối viên hậu cần", "Nhân viên xử lý vật liệu"],
+    "proof": [
+      { "n": "Tarrant Co.", "label": "Thị trường chính" },
+      { "n": "48h", "label": "Thời gian lấp đầy trung bình" },
+      { "n": "94%", "label": "Tỷ lệ giữ chân khách hàng" },
+      { "n": "Temp & perm", "label": "Hình thức bố trí" }
+    ],
+    "whyUs": [
+      { "title": "Văn phòng thực sự tại trung tâm", "desc": "Văn phòng Bedford nằm ngay trong hành lang — không phải quản lý từ xa từ Dallas. Nhà tuyển dụng hiểu rõ thị trường quận Tarrant, nhà tuyển dụng lớn dọc 183 và 121, và nguồn nhân tài tại mỗi thành phố phụ." },
+      { "title": "Xây dựng cho công việc kho bãi và công nghiệp", "desc": "Bedford, Fort Worth, Arlington và Grand Prairie có mật độ cao nhất về kho bãi, phân phối và sản xuất nhẹ tại Bắc Texas. Đây là những vị trí chúng tôi lấp đầy hàng tuần." },
+      { "title": "Nhân viên đáng tin cậy, phản hồi nhanh", "desc": "Chúng tôi sàng lọc mỗi ứng viên về chuyên cần, không chỉ kỹ năng. Xác minh lý lịch, kiểm tra ma túy và phỏng vấn trực tiếp trước khi bố trí. Hầu hết đơn hàng lấp đầy trong 48 giờ — lao động phổ thông có thể cung ứng cùng ngày." }
+    ],
+    "testimonial": {
+      "quote": "Nhà tuyển dụng Bedford của họ biết tên cơ sở của chúng tôi. Khi tôi gọi, tôi không phải giải thích lại từ đầu. Mối quan hệ đó giá trị hơn bất kỳ bảng giá nào mà công ty nhân sự khác đưa ra.",
+      "name": "Quản Đốc Nhà Máy",
+      "co": "Sản Xuất Nhẹ · Fort Worth, TX"
+    },
+    "faq": [
+      { "q": "Văn phòng Bedford phục vụ những khu vực nào?", "a": "Văn phòng Bedford phục vụ toàn bộ quận Tarrant và hành lang các thành phố trung tâm: Fort Worth, Arlington, Irving, Grand Prairie, Hurst, Euless, North Richland Hills, Grapevine và Colleyville. Với đông DFW — Plano, Garland, Richardson và Carrollton — trụ sở Richardson phụ trách." },
+      { "q": "Văn phòng Bedford cung ứng nhân sự cho những ngành nào?", "a": "Bedford chủ yếu cung ứng nhân sự công nghiệp nhẹ, kho bãi và phân phối, chuỗi cung ứng, lao động phổ thông và hành chính. Thị trường quận Tarrant tập trung nhiều vào kho bãi và sản xuất, đó là chuyên môn của đội ngũ tuyển dụng Bedford." },
+      { "q": "Pro-Tech có thể lấp đầy việc làm kho bãi tại Bedford hoặc Fort Worth nhanh cỡ nào?", "a": "Hầu hết đơn hàng kho bãi và công nghiệp nhẹ được lấp đầy trong 48 giờ. Với lao động phổ thông và nhu cầu cùng ngày, chúng tôi thường có ứng viên từ nguồn địa phương. Vận hành viên xe nâng có chứng chỉ và vị trí chuyên biệt có thể mất 48-72 giờ." },
+      { "q": "Pro-Tech có bố trí vận hành viên xe nâng tại khu vực quận Tarrant không?", "a": "Có. Chúng tôi xác minh chứng chỉ xe nâng và bố trí vận hành viên có kinh nghiệm trên xe ngồi, xe đứng, xe reach và xe lấy hàng cho kho bãi và trung tâm phân phối tại Fort Worth, Arlington, Irving và Grand Prairie." },
+      { "q": "Pro-Tech có cung cấp nhân sự tạm thời sang chính thức từ văn phòng Bedford không?", "a": "Có — tạm thời, tạm thời sang chính thức và tuyển dụng trực tiếp đều có. Nhiều nhà sản xuất và nhà phân phối quận Tarrant sử dụng hình thức tạm thời sang chính thức để đánh giá công nhân sản xuất và vận hành viên xe nâng trước khi đề nghị chính thức. Chúng tôi hỗ trợ cả ba mô hình." },
+      { "q": "Văn phòng Bedford có cùng công ty với văn phòng Richardson không?", "a": "Có. Cả hai đều là văn phòng Pro-Tech Staffing. Bedford phục vụ quận Tarrant và hành lang tây DFW. Trụ sở Richardson phục vụ đông DFW. Nếu hoạt động của bạn trải rộng cả hai bên vùng đô thị, chúng tôi có thể phối hợp từ cả hai văn phòng." }
+    ],
+    "localServices": [
+      { "title": "Nhân Sự Công Nghiệp Nhẹ", "desc": "Thợ lắp ráp, thợ vận hành máy, công nhân sản xuất và hỗ trợ dây chuyền cho nhà sản xuất tại các thành phố trung tâm quận Tarrant. Tuyển dụng cho ca ngày, ca đêm và lịch luân phiên." },
+      { "title": "Nhân Sự Kho Bãi & Phân Phối", "desc": "Vận hành viên xe nâng, nhân viên lấy hàng, đóng gói và nhân viên giao nhận cho hoạt động phân phối tại Fort Worth, Arlington, Irving và Grand Prairie. Hỗ trợ mùa cao điểm." },
+      { "title": "Chuỗi Cung Ứng & Lao Động Phổ Thông", "desc": "Kiểm soát hàng tồn kho, điều phối viên hậu cần và lao động phổ thông cho hoạt động công nghiệp tại hành lang tây DFW. Tạm thời, tạm thời sang chính thức và tuyển dụng trực tiếp." }
+    ],
+    "subMarkets": [
+      { "label": "Arlington, TX", "desc": "Hành lang kho bãi, phân phối và sản xuất lớn tại quận Tarrant." },
+      { "label": "Irving, TX", "desc": "Hành lang Las Colinas và sân bay DFW — hậu cần, công nghiệp nhẹ và điện tử." },
+      { "label": "Richardson, TX (HQ)", "desc": "Trụ sở đông DFW phục vụ Plano, Garland, Carrollton và hành lang sản xuất điện tử." }
+    ],
+    "relatedCities": [
+      { "label": "Arlington TX" },
+      { "label": "Irving TX" },
+      { "label": "Richardson TX (HQ)" },
+      { "label": "Tổng Quan DFW" }
+    ]
+  },
+  "arlington": {
+    "title": "Công Ty Nhân Sự tại Arlington TX | Công Nghiệp Nhẹ & Kho Bãi | Pro-Tech",
+    "metaDesc": "Pro-Tech Staffing phục vụ Arlington TX với nhân viên công nghiệp nhẹ, kho bãi, sản xuất và chuỗi cung ứng. Ứng viên đã sàng lọc bố trí trong 48 giờ. Tạm thời, tạm thời sang chính thức, tuyển dụng trực tiếp.",
+    "h1": "Công ty nhân sự công nghiệp tại Arlington, TX.",
+    "subhead": "Phục vụ Arlington, Grand Prairie, Mansfield, Kennedale và các khu vực quận Tarrant lân cận.",
+    "label": "Arlington TX",
+    "cities": ["Arlington TX", "Grand Prairie TX", "Mansfield TX", "Kennedale TX", "Euless TX", "Bedford TX", "Fort Worth TX"],
+    "industries": ["Nhân Sự Công Nghiệp Nhẹ", "Nhân Sự Kho Bãi & 3PL", "Nhân Sự Chuỗi Cung Ứng", "Lao Động Phổ Thông", "Nhân Sự Sản Xuất"],
+    "roles": ["Công nhân lắp ráp", "Vận hành viên xe nâng", "Nhân viên lấy hàng và đóng gói", "Công nhân dây chuyền sản xuất", "Thợ vận hành máy", "Nhân viên giao nhận", "Lao động phổ thông", "Kiểm tra viên chất lượng"],
+    "proof": [
+      { "n": "48h", "label": "Thời gian lấp đầy trung bình" },
+      { "n": "Temp & perm", "label": "Hình thức bố trí" },
+      { "n": "Tarrant Co.", "label": "Phạm vi phục vụ" },
+      { "n": "94%", "label": "Tỷ lệ giữ chân khách hàng" }
+    ],
+    "whyUs": [
+      { "title": "Chuyên gia quận Tarrant", "desc": "Văn phòng Bedford của Pro-Tech phục vụ trực tiếp hành lang Arlington. Chúng tôi biết rõ khu công nghiệp, nhà tuyển dụng lớn và nguồn nhân viên đáng tin cậy tại thị trường này." },
+      { "title": "Trọng tâm kho bãi và sản xuất", "desc": "Arlington có mật độ cao về kho bãi, phân phối và sản xuất nhẹ. Đây là những vị trí chúng tôi cung ứng hàng ngày." },
+      { "title": "Nhân viên đến đúng giờ", "desc": "Chúng tôi sàng lọc trước về chuyên cần — không chỉ kỹ năng. Mỗi ứng viên được phỏng vấn, xác minh lý lịch và kiểm tra ma túy trước khi bố trí." }
+    ],
+    "testimonial": {
+      "quote": "Chúng tôi đã bị các công ty nhân sự khác gửi nhân viên chưa sàng lọc. Pro-Tech khác biệt ngay từ ngày đầu. Họ hiểu nhân sự công nghiệp nhẹ trông như thế nào tại xưởng, không chỉ trên bản mô tả công việc.",
+      "name": "Quản Lý Nhân Sự",
+      "co": "Kho Bãi & Phân Phối · Arlington, TX"
+    },
+    "relatedCities": [
+      { "label": "Bedford TX" },
+      { "label": "Irving TX" },
+      { "label": "Tổng Quan DFW" }
+    ]
+  },
+  "irving": {
+    "title": "Công Ty Nhân Sự tại Irving TX | Công Nghiệp & Kho Bãi | Pro-Tech",
+    "metaDesc": "Pro-Tech Staffing phục vụ Irving TX với nhân viên công nghiệp nhẹ, kho bãi, điện tử và chuỗi cung ứng. Ứng viên đã sàng lọc trong 48 giờ. Phục vụ Las Colinas, Coppell và hành lang sân bay DFW.",
+    "h1": "Công ty nhân sự công nghiệp tại Irving, TX.",
+    "subhead": "Phục vụ Irving, Las Colinas, Coppell, Carrollton và hành lang công nghiệp sân bay DFW.",
+    "label": "Irving TX",
+    "cities": ["Irving TX", "Las Colinas TX", "Coppell TX", "Carrollton TX", "Farmers Branch TX", "Grand Prairie TX", "Dallas TX"],
+    "industries": ["Nhân Sự Công Nghiệp Nhẹ", "Nhân Sự Kho Bãi & 3PL", "Nhân Sự Chuỗi Cung Ứng", "Nhân Sự Sản Xuất Điện Tử", "Nhân Sự Hành Chính"],
+    "roles": ["Nhân viên lấy hàng và đóng gói", "Vận hành viên xe nâng", "Nhân viên giao nhận", "Công nhân lắp ráp", "Nhân viên kiểm soát hàng tồn kho", "Kỹ thuật viên điện tử", "Lao động phổ thông", "Công nhân sản xuất"],
+    "proof": [
+      { "n": "48h", "label": "Thời gian lấp đầy trung bình" },
+      { "n": "DFW corridor", "label": "Khu vực phục vụ" },
+      { "n": "Temp & perm", "label": "Hình thức bố trí" },
+      { "n": "94%", "label": "Tỷ lệ giữ chân khách hàng" }
+    ],
+    "whyUs": [
+      { "title": "Phục vụ hành lang sân bay DFW", "desc": "Khu vực Irving và Las Colinas là một trong những vùng hậu cần sôi động nhất DFW. Chúng tôi cung ứng nhân sự kho bãi, phân phối và công nghiệp nhẹ cho hoạt động dọc toàn bộ hành lang sân bay DFW." },
+      { "title": "Hỗ trợ từ hai văn phòng", "desc": "Irving nằm giữa trụ sở Richardson và văn phòng Bedford. Chúng tôi tận dụng cả hai nguồn nhân tài để lấp đầy đơn hàng Irving nhanh hơn." },
+      { "title": "Chuyên về điện tử và hậu cần", "desc": "Irving thu hút cả nhà tuyển dụng điện tử và hậu cần. Đội ngũ tuyển dụng tìm kiếm cho cả hai — từ kỹ thuật viên lắp ráp PCB đến trưởng nhóm kho bãi." }
+    ],
+    "testimonial": {
+      "quote": "Bố trí nhanh và nhân viên thực sự đến làm. Pro-Tech đã lấp đầy nhân sự mùa cao điểm trong 72 giờ và tỷ lệ giữ chân là tốt nhất chúng tôi từng thấy.",
+      "name": "Quản Lý Hậu Cần",
+      "co": "Phân Phối & 3PL · Irving, TX"
+    },
+    "relatedCities": [
+      { "label": "Arlington TX" },
+      { "label": "Garland TX" },
+      { "label": "Tổng Quan DFW" }
+    ]
+  },
+  "garland": {
+    "title": "Công Ty Nhân Sự tại Garland TX | Công Nghiệp & Sản Xuất | Pro-Tech",
+    "metaDesc": "Pro-Tech Staffing phục vụ Garland TX với nhân viên công nghiệp nhẹ, sản xuất điện tử, kho bãi và lắp ráp. Ứng viên đã sàng lọc bố trí trong 48 giờ. Tạm thời, tạm thời sang chính thức, tuyển dụng trực tiếp.",
+    "h1": "Công ty nhân sự công nghiệp tại Garland, TX.",
+    "subhead": "Phục vụ Garland, Rowlett, Sachse, Mesquite, Plano và hành lang công nghiệp đông bắc Dallas.",
+    "label": "Garland TX",
+    "cities": ["Garland TX", "Rowlett TX", "Sachse TX", "Mesquite TX", "Plano TX", "Richardson TX", "Dallas TX"],
+    "industries": ["Nhân Sự Công Nghiệp Nhẹ", "Nhân Sự Sản Xuất Điện Tử", "Nhân Sự Kho Bãi", "Nhân Sự Lắp Ráp", "Lao Động Phổ Thông"],
+    "roles": ["Công nhân dây chuyền lắp ráp", "Kỹ thuật viên điện tử", "Công nhân lắp ráp PCB", "Thợ vận hành máy", "Kiểm tra viên chất lượng", "Vận hành viên xe nâng", "Nhân viên lấy hàng", "Công nhân sản xuất"],
+    "proof": [
+      { "n": "48h", "label": "Thời gian lấp đầy trung bình" },
+      { "n": "NE Dallas", "label": "Khu vực phục vụ" },
+      { "n": "Electronics", "label": "Chuyên môn" },
+      { "n": "94%", "label": "Tỷ lệ giữ chân khách hàng" }
+    ],
+    "whyUs": [
+      { "title": "Trụ sở tại Richardson — ngay bên cạnh", "desc": "Trụ sở Richardson cách khu công nghiệp Garland chỉ vài phút. Chúng tôi biết rõ nhà tuyển dụng, nguồn nhân tài và các vị trí cụ thể mà nhà sản xuất Garland cần lấp đầy." },
+      { "title": "Chuyên sâu sản xuất điện tử", "desc": "Garland có mật độ nhà sản xuất điện tử cao nhất Bắc Texas. Lắp ráp PCB, SMT, hàn, kiểm tra QC — đây là những vị trí đội ngũ tuyển dụng tìm kiếm hàng tuần." },
+      { "title": "Nhân viên đã sàng lọc, cung ứng nhanh", "desc": "Mỗi ứng viên được xác minh lý lịch, kiểm tra ma túy và đánh giá kỹ năng trước khi bố trí. Chúng tôi không gửi người chưa chuẩn bị. Chúng tôi gửi nhân viên sẵn sàng đóng góp." }
+    ],
+    "testimonial": {
+      "quote": "Họ đã bố trí 8 công nhân lắp ráp điện tử trong chưa đầy 48 giờ. Tất cả đều đến vào ngày đầu tiên. Ba tháng sau, sáu người vẫn làm việc chính thức với chúng tôi.",
+      "name": "Quản Lý Sản Xuất",
+      "co": "Sản Xuất Điện Tử · Garland, TX"
+    },
+    "relatedCities": [
+      { "label": "Irving TX" },
+      { "label": "Tổng Quan DFW" },
+      { "label": "Bedford TX" }
+    ]
+  },
+  "austin": {
+    "title": "Công Ty Nhân Sự Công Nghiệp tại Austin TX | Công Nghiệp Nhẹ & Kho Bãi | Pro-Tech",
+    "metaDesc": "Pro-Tech Staffing Austin TX bố trí nhân viên công nghiệp nhẹ, kho bãi, điện tử và hành chính tại Austin, Round Rock, Cedar Park và Pflugerville. Lấp đầy trong 48 giờ.",
+    "h1": "Công ty nhân sự công nghiệp tại Austin, TX. Chuyên gia công nghiệp nhẹ và kho bãi.",
+    "subhead": "Nhân sự công nghiệp nhẹ, kho bãi, điện tử và hành chính tại vùng Greater Austin.",
+    "label": "Austin TX",
+    "cities": ["Austin TX", "Round Rock TX", "Cedar Park TX", "Pflugerville TX", "Georgetown TX", "Kyle TX", "Buda TX"],
+    "marketIntro": "Hoạt động công nghiệp của Austin đã mở rộng nhanh chóng. Hành lang I-35 từ Georgetown qua Kyle có mật độ ngày càng cao về sản xuất nhẹ, lắp ráp điện tử, phân phối và kho bãi — một phần nhờ đầu tư sản xuất bán dẫn và công nghệ trong khu vực. Văn phòng Austin của Pro-Tech tuyển dụng tại địa phương cho các vị trí này, bố trí thợ lắp ráp, công nhân sản xuất, vận hành viên xe nâng và kỹ thuật viên điện tử cho nhà tuyển dụng cần nhân viên đáng tin cậy không chờ đợi lâu.",
+    "industries": ["Nhân Sự Công Nghiệp Nhẹ", "Nhân Sự Kho Bãi & 3PL", "Nhân Sự Sản Xuất Điện Tử", "Nhân Sự Hành Chính", "Lao Động Phổ Thông"],
+    "roles": ["Công nhân lắp ráp", "Thợ vận hành máy", "Công nhân dây chuyền sản xuất", "Vận hành viên xe nâng", "Nhân viên lấy hàng và đóng gói", "Nhân viên giao nhận", "Kỹ thuật viên lắp ráp điện tử", "Kiểm tra viên chất lượng", "Chuyên viên nhập liệu", "Lao động phổ thông"],
+    "proof": [
+      { "n": "ATX", "label": "Văn phòng Austin" },
+      { "n": "48h", "label": "Thời gian lấp đầy trung bình" },
+      { "n": "94%", "label": "Tỷ lệ giữ chân khách hàng" },
+      { "n": "I-35", "label": "Phục vụ hành lang công nghiệp" }
+    ],
+    "whyUs": [
+      { "title": "Tuyển dụng cho sự phát triển của Austin", "desc": "Thị trường công nghiệp Austin đang phát triển nhanh hơn hầu hết công ty nhân sự có thể theo kịp. Đội ngũ tuyển dụng Austin duy trì nguồn công nhân sản xuất, thợ lắp ráp và nhân viên kho bãi sẵn sàng cho nhà tuyển dụng thúc đẩy sự tăng trưởng đó." },
+      { "title": "Chuyên gia hành lang I-35", "desc": "Hành lang I-35 từ Georgetown qua Round Rock, Austin, Kyle và Buda là một trong những khu công nghiệp phát triển nhanh nhất Texas. Chúng tôi cung ứng nhân sự dọc toàn bộ hành lang — từ lắp ráp liên quan bán dẫn đến phân phối và 3PL." },
+      { "title": "Nhân viên đã sàng lọc, không phải người có mặt", "desc": "Mỗi ứng viên được xác minh lý lịch, kiểm tra ma túy và phỏng vấn kỹ năng trước khi bố trí. Thị trường lao động Austin cạnh tranh — chúng tôi sàng lọc kỹ hơn để bạn giảm chi phí thay đổi nhân sự." }
+    ],
+    "testimonial": {
+      "quote": "Chúng tôi cần công nhân sản xuất cho dây chuyền mới tại Round Rock và Pro-Tech có ứng viên đủ năng lực tại chỗ trong 48 giờ. Tỷ lệ giữ chân 90 ngày đầu là tốt nhất từ bất kỳ công ty nhân sự nào.",
+      "name": "Quản Lý Sản Xuất",
+      "co": "Sản Xuất Nhẹ · Round Rock, TX"
+    },
+    "faq": [
+      { "q": "Văn phòng Austin phục vụ những khu vực nào?", "a": "Văn phòng Austin phục vụ vùng Greater Austin và toàn bộ hành lang I-35: Austin, Round Rock, Cedar Park, Pflugerville, Georgetown, Kyle và Buda. Chúng tôi cũng phục vụ các khu sản xuất công nghệ bắc và nam Austin." },
+      { "q": "Pro-Tech cung ứng nhân sự cho những ngành nào tại Austin?", "a": "Austin chủ yếu cung ứng nhân sự công nghiệp nhẹ, kho bãi và phân phối, lắp ráp điện tử, hành chính và lao động phổ thông. Hành lang I-35 có mật độ ngày càng cao về sản xuất nhẹ, 3PL và hoạt động liên quan điện tử." },
+      { "q": "Pro-Tech có thể lấp đầy việc làm công nghiệp tại Austin nhanh cỡ nào?", "a": "Hầu hết đơn hàng công nghiệp nhẹ và kho bãi được lấp đầy trong 48 giờ. Lao động phổ thông thường có thể cung ứng cùng ngày. Vị trí lắp ráp điện tử có thể mất 48-72 giờ tùy yêu cầu chứng chỉ IPC hoặc kỹ thuật." },
+      { "q": "Pro-Tech có bố trí nhân viên cho vị trí lắp ráp điện tử tại Austin không?", "a": "Có. Austin có ngành sản xuất điện tử và liên quan bán dẫn đang phát triển. Chúng tôi bố trí kỹ thuật viên lắp ráp PCB, thợ lắp ráp điện tử, kiểm tra viên QC và nhân viên sản xuất cho các hoạt động này." },
+      { "q": "Pro-Tech có cung cấp nhân sự tạm thời sang chính thức tại Austin không?", "a": "Có — tạm thời, tạm thời sang chính thức và tuyển dụng trực tiếp đều có. Hình thức tạm thời sang chính thức phổ biến với nhà sản xuất Austin muốn đánh giá nhân viên trước khi đề nghị chính thức, đặc biệt cho vị trí sản xuất và kho bãi." },
+      { "q": "Pro-Tech có thể cung ứng nhiều ca cho cơ sở tại Austin không?", "a": "Có. Chúng tôi tuyển dụng cho ca ngày, ca chiều, ca đêm và lịch luân phiên. Cho chúng tôi biết yêu cầu ca làm khi gửi yêu cầu và chúng tôi sẽ tìm ứng viên phù hợp lịch của bạn ngay từ ngày đầu." }
+    ],
+    "localServices": [
+      { "title": "Nhân Sự Công Nghiệp Nhẹ", "desc": "Thợ lắp ráp, thợ vận hành máy, công nhân sản xuất và hỗ trợ dây chuyền cho nhà sản xuất dọc hành lang I-35 Austin và khu công nghiệp Round Rock. Ca ngày và ca đêm." },
+      { "title": "Nhân Sự Kho Bãi & Phân Phối", "desc": "Nhân viên lấy hàng, đóng gói, vận hành xe nâng và nhân viên giao nhận cho trung tâm phân phối tại Pflugerville, Cedar Park và nam Austin. Hỗ trợ đột xuất và mùa cao điểm." },
+      { "title": "Nhân Sự Điện Tử & Hành Chính", "desc": "Kỹ thuật viên lắp ráp điện tử và hỗ trợ hành chính cho nhà sản xuất liên quan công nghệ và hoạt động doanh nghiệp tại vùng Greater Austin." }
+    ],
+    "subMarkets": [
+      { "label": "Round Rock, TX", "desc": "Khu công nghiệp và sản xuất công nghệ lớn phía bắc Austin dọc I-35." },
+      { "label": "Cedar Park, TX", "desc": "Hành lang dân cư và công nghiệp nhẹ đang phát triển phía tây bắc Austin." },
+      { "label": "Pflugerville, TX", "desc": "Trung tâm kho bãi và phân phối đông bắc Austin gần 130 Toll." }
+    ],
+    "relatedCities": [
+      { "label": "Richardson TX (HQ)" },
+      { "label": "Bedford TX" },
+      { "label": "Tất Cả Địa Điểm" }
+    ]
+  },
+  "tampa": {
+    "title": "Công Ty Nhân Sự Công Nghiệp tại Tampa FL | Sản Xuất Điện Tử & Công Nghiệp Nhẹ | Pro-Tech",
+    "metaDesc": "Pro-Tech Staffing Tampa FL bố trí nhân viên sản xuất điện tử, thợ lắp ráp công nghiệp nhẹ và nhân viên kho bãi tại Tampa, Clearwater, St. Petersburg và Largo. Lấp đầy trong 48 giờ.",
+    "h1": "Công ty nhân sự công nghiệp tại Tampa, FL. Chuyên gia sản xuất điện tử và công nghiệp nhẹ.",
+    "subhead": "Nhân sự sản xuất điện tử, công nghiệp nhẹ, kho bãi và lắp ráp tại vùng Tampa Bay.",
+    "label": "Tampa FL",
+    "cities": ["Tampa FL", "Clearwater FL", "St. Petersburg FL", "Largo FL", "Brandon FL", "Riverview FL", "Plant City FL"],
+    "marketIntro": "Tampa Bay là một trong những thị trường công nghiệp sôi động nhất Florida. Hành lang từ Tampa qua Clearwater và St. Petersburg bao gồm mật độ đáng kể về nhà sản xuất điện tử, nhà thầu quốc phòng, hoạt động công nghiệp nhẹ và trung tâm phân phối. Văn phòng Tampa của Pro-Tech cung ứng nhân sự cho các hoạt động này tại địa phương — bố trí nhân viên điện tử có chứng chỉ IPC, thợ lắp ráp sản xuất, vận hành viên xe nâng và đội ngũ kho bãi cho nhà tuyển dụng tại các quận Hillsborough và Pinellas.",
+    "industries": ["Nhân Sự Sản Xuất Điện Tử", "Nhân Sự Công Nghiệp Nhẹ", "Nhân Sự Kho Bãi & 3PL", "Nhân Sự Chuỗi Cung Ứng", "Nhân Sự Hành Chính"],
+    "roles": ["Kỹ thuật viên lắp ráp PCB", "Vận hành viên SMT", "Thợ hàn", "Kiểm tra viên QC", "Thợ lắp ráp", "Thợ vận hành máy", "Vận hành viên xe nâng", "Nhân viên lấy hàng và đóng gói", "Công nhân sản xuất", "Nhân viên giao nhận"],
+    "proof": [
+      { "n": "Tampa Bay", "label": "Khu vực phục vụ" },
+      { "n": "48h", "label": "Thời gian lấp đầy trung bình" },
+      { "n": "94%", "label": "Tỷ lệ giữ chân khách hàng" },
+      { "n": "IPC", "label": "Đội ngũ điện tử có chứng chỉ" }
+    ],
+    "whyUs": [
+      { "title": "Chuyên gia sản xuất điện tử tại Tampa Bay", "desc": "Hành lang Tampa-Clearwater có sự hiện diện đáng kể của sản xuất điện tử, bao gồm sản xuất liên quan quốc phòng và hàng không. Đội ngũ tuyển dụng Tampa tìm kiếm nhân viên có chứng chỉ IPC cho các môi trường này." },
+      { "title": "Văn phòng địa phương, nhà tuyển dụng địa phương", "desc": "Chúng tôi không quản lý Tampa từ tổng đài Texas. Đội ngũ địa phương biết rõ nhà tuyển dụng, khu công nghiệp dọc US-19 và I-4, và nguồn ứng viên tại các quận Hillsborough và Pinellas." },
+      { "title": "Lấp đầy 48 giờ, chuyên cần đáng tin cậy", "desc": "Chúng tôi sàng lọc mỗi ứng viên trước khi bố trí — xác minh lý lịch, kiểm tra ma túy và đánh giá kỹ năng. Hầu hết đơn hàng lấp đầy trong 48 giờ, hỗ trợ đột xuất cho vị trí sản xuất và kho bãi." }
+    ],
+    "testimonial": {
+      "quote": "Chúng tôi cần thợ hàn có chứng chỉ IPC cho đợt tăng sản xuất và Pro-Tech cung cấp nhân viên đủ năng lực trong chưa đầy 72 giờ. Tất cả đều có chứng chỉ đầy đủ. Điều đó tiết kiệm hàng tuần đào tạo tại chỗ.",
+      "name": "Quản Lý Vận Hành",
+      "co": "Nhà Sản Xuất Điện Tử · Clearwater, FL"
+    },
+    "faq": [
+      { "q": "Văn phòng Tampa phục vụ những khu vực nào?", "a": "Văn phòng Tampa phục vụ toàn bộ vùng Tampa Bay: Tampa, Clearwater, St. Petersburg, Largo, Brandon, Riverview và Plant City. Chúng tôi phục vụ các quận Hillsborough, Pinellas và Pasco cho nhân sự công nghiệp và sản xuất." },
+      { "q": "Pro-Tech cung ứng nhân sự cho những ngành nào tại Tampa?", "a": "Tampa chủ yếu cung ứng nhân sự sản xuất điện tử, công nghiệp nhẹ, kho bãi và phân phối, chuỗi cung ứng và hành chính. Hành lang Tampa-Clearwater có nền tảng sản xuất điện tử và quốc phòng vững mạnh mà chúng tôi chuyên về." },
+      { "q": "Pro-Tech có cung cấp nhân viên điện tử có chứng chỉ IPC tại Tampa không?", "a": "Có. Chúng tôi đào tạo và cấp chứng chỉ IPC-A-610, IPC-620 và J-STD-001 cho nhân viên trước khi bố trí. Với nhà sản xuất điện tử tại vùng Tampa Bay, ứng viên đến với chứng chỉ đã xác minh — không phải đang chờ." },
+      { "q": "Pro-Tech có thể lấp đầy việc làm sản xuất tại Tampa hoặc Clearwater nhanh cỡ nào?", "a": "Hầu hết đơn hàng công nghiệp nhẹ và kho bãi được lấp đầy trong 48 giờ. Vị trí sản xuất điện tử cần chứng chỉ IPC thường mất 48-72 giờ. Lao động phổ thông thường có thể cung ứng cùng ngày." },
+      { "q": "Pro-Tech có cung cấp nhân sự tạm thời sang chính thức tại Tampa không?", "a": "Có — tạm thời, tạm thời sang chính thức và tuyển dụng trực tiếp đều có từ văn phòng Tampa. Nhiều nhà sản xuất điện tử và nhà tuyển dụng công nghiệp nhẹ Tampa Bay sử dụng hình thức tạm thời sang chính thức để đánh giá nhân viên trước khi đề nghị chính thức." },
+      { "q": "Pro-Tech có thể cung ứng ca đêm và cuối tuần tại khu vực Tampa không?", "a": "Có. Chúng tôi tuyển dụng cho ca ngày, ca chiều và ca đêm, bao gồm lịch luân phiên. Cho chúng tôi biết ca làm và ngày bắt đầu khi gửi yêu cầu và chúng tôi sẽ tìm ứng viên phù hợp — không phải người cần thương lượng ca sau khi bắt đầu." }
+    ],
+    "localServices": [
+      { "title": "Nhân Sự Sản Xuất Điện Tử", "desc": "Kỹ thuật viên lắp ráp PCB có chứng chỉ IPC, vận hành viên SMT, thợ hàn, kiểm tra viên QC và kỹ thuật viên kiểm tra cho nhà sản xuất điện tử tại hành lang Tampa-Clearwater." },
+      { "title": "Nhân Sự Công Nghiệp Nhẹ", "desc": "Thợ lắp ráp, thợ vận hành máy, công nhân sản xuất và nhân viên kiểm soát chất lượng cho nhà sản xuất nhẹ tại các quận Hillsborough và Pinellas. Ca ngày và ca đêm." },
+      { "title": "Nhân Sự Kho Bãi & Phân Phối", "desc": "Vận hành viên xe nâng, nhân viên lấy hàng, đóng gói và nhân viên giao nhận cho hoạt động phân phối và 3PL tại Brandon, Riverview và Plant City." }
+    ],
+    "subMarkets": [
+      { "label": "Clearwater, FL", "desc": "Hành lang sản xuất điện tử và công nghiệp nhẹ dọc US-19 tại quận Pinellas." },
+      { "label": "St. Petersburg, FL", "desc": "Hoạt động công nghiệp và kho bãi tại nam quận Pinellas." },
+      { "label": "Brandon / Riverview, FL", "desc": "Hành lang phân phối và kho bãi phía đông Tampa dọc I-75." }
+    ],
+    "relatedCities": [
+      { "label": "Richardson TX (HQ)" },
+      { "label": "Phoenix AZ" },
+      { "label": "Tất Cả Địa Điểm" }
+    ]
+  },
+  "sanjose": {
+    "title": "Nhân Sự Sản Xuất Điện Tử tại San Jose CA | Chứng Chỉ IPC | Pro-Tech",
+    "metaDesc": "Pro-Tech Staffing San Jose CA bố trí nhân viên lắp ráp PCB, SMT, hàn và sản xuất điện tử có chứng chỉ IPC tại San Jose, Santa Clara, Milpitas và Fremont. Lấp đầy trong 48 giờ.",
+    "h1": "Nhân sự sản xuất điện tử tại San Jose, CA. Nhân viên có chứng chỉ IPC.",
+    "subhead": "Lắp ráp PCB, SMT, hàn, QC, AOI và nhân sự sản xuất điện tử tại Silicon Valley.",
+    "label": "San Jose CA",
+    "cities": ["San Jose CA", "Santa Clara CA", "Milpitas CA", "Fremont CA", "Sunnyvale CA", "Santa Cruz CA", "Gilroy CA"],
+    "marketIntro": "Silicon Valley có mật độ cao nhất về nhà sản xuất điện tử, nhà sản xuất hợp đồng và hoạt động lắp ráp PCB trên thế giới. San Jose, Santa Clara, Milpitas và Fremont là nơi đặt trụ sở của nhà sản xuất điện tử OEM, công ty EMS và hoạt động lắp ráp liên quan bán dẫn đòi hỏi nhân viên có chứng chỉ IPC — không phải lao động chung chung. Văn phòng San Jose của Pro-Tech chuyên bố trí kỹ thuật viên điện tử có chứng chỉ cho các môi trường này, nơi sự chính xác, đào tạo và tiêu chuẩn không lỗi là bắt buộc.",
+    "industries": ["Nhân Sự Sản Xuất Điện Tử", "Nhân Sự Công Nghiệp Nhẹ", "Nhân Sự Chuỗi Cung Ứng", "Nhân Sự Hành Chính", "Lao Động Phổ Thông"],
+    "roles": ["Kỹ thuật viên lắp ráp PCB", "Vận hành viên SMT", "Thợ hàn (xuyên lỗ & reflow)", "Vận hành viên AOI", "Kỹ thuật viên sửa chữa", "Kiểm tra viên QC", "Thợ lắp ráp dây điện", "Nhân viên sản xuất", "Kỹ thuật viên kiểm tra", "Vận hành viên phủ bảo vệ"],
+    "proof": [
+      { "n": "IPC", "label": "Chương trình đào tạo có chứng chỉ" },
+      { "n": "48-72h", "label": "Thời gian lấp đầy trung bình" },
+      { "n": "94%", "label": "Tỷ lệ giữ chân khách hàng" },
+      { "n": "30", "label": "Năm trong nhân sự điện tử" }
+    ],
+    "whyUs": [
+      { "title": "Chứng chỉ IPC trước khi bố trí", "desc": "Nhà sản xuất điện tử Silicon Valley không thể chấp nhận đào tạo từ đầu. Chúng tôi cấp chứng chỉ IPC-A-610, IPC-620 và J-STD-001 cho nhân viên trước khi đến xưởng — ứng viên sẵn sàng sản xuất ngay từ ngày đầu." },
+      { "title": "30 năm trong nhân sự điện tử", "desc": "Pro-Tech được xây dựng từ sản xuất điện tử. Văn phòng San Jose mang chuyên môn đó đến Silicon Valley — tìm kiếm cho vị trí cụ thể, chứng chỉ cụ thể và tiêu chuẩn chính xác cụ thể mà nhà sản xuất Bay Area yêu cầu." },
+      { "title": "Sàng lọc chất lượng cho môi trường không lỗi", "desc": "Lắp ráp PCB, SMT và sửa chữa không có chỗ cho sai sót. Mỗi ứng viên được kiểm tra kỹ năng cho vị trí cụ thể, không chỉ phỏng vấn. Chúng tôi gửi nhân viên có thể làm việc — không phải nhân viên nói họ có thể." }
+    ],
+    "testimonial": {
+      "quote": "Chúng tôi cần kiểm tra viên có chứng chỉ IPC-A-610 cho dây chuyền mới trong vòng hai tuần. Pro-Tech có bốn ứng viên đủ năng lực phỏng vấn và sẵn sàng trong 72 giờ. Cả bốn đều vượt qua quy trình đánh giá nội bộ. Điều đó không xảy ra với công ty nhân sự khác.",
+      "name": "Quản Lý Kỹ Thuật Sản Xuất",
+      "co": "Nhà Sản Xuất Điện Tử Hợp Đồng · Milpitas, CA"
+    },
+    "faq": [
+      { "q": "Văn phòng San Jose phục vụ những khu vực nào?", "a": "Văn phòng San Jose phục vụ Silicon Valley và South Bay: San Jose, Santa Clara, Milpitas, Fremont, Sunnyvale, Mountain View và Gilroy. Chúng tôi cũng phục vụ hành lang sản xuất điện tử East Bay tại Fremont và Newark." },
+      { "q": "Pro-Tech có cung cấp nhân viên có chứng chỉ IPC tại San Jose không?", "a": "Có. Chúng tôi đào tạo và cấp chứng chỉ IPC-A-610, IPC-620 và J-STD-001 cho nhân viên trước khi bố trí. Đội ngũ tuyển dụng San Jose tìm kiếm chuyên biệt cho vị trí sản xuất điện tử, và ứng viên đến với chứng chỉ đã xác minh và hiện hành." },
+      { "q": "Pro-Tech cung ứng những vị trí điện tử nào tại Silicon Valley?", "a": "Kỹ thuật viên lắp ráp PCB, vận hành viên SMT, thợ hàn (xuyên lỗ và reflow), vận hành viên AOI, kỹ thuật viên sửa chữa, kiểm tra viên QC, thợ lắp ráp dây điện, vận hành viên phủ bảo vệ và kỹ thuật viên kiểm tra. Nếu vị trí đó trên xưởng sản xuất điện tử, chúng tôi cung ứng." },
+      { "q": "Pro-Tech có thể lấp đầy vị trí sản xuất điện tử tại San Jose nhanh cỡ nào?", "a": "Hầu hết vị trí điện tử được lấp đầy trong 48-72 giờ. Vị trí cần chứng chỉ IPC cụ thể hoặc chuyên môn hiếm có thể mất lâu hơn một chút. Chúng tôi duy trì nguồn ứng viên có chứng chỉ đang hoạt động tại South Bay." },
+      { "q": "Pro-Tech có cung ứng nhân sự cho công ty EMS và nhà sản xuất hợp đồng tại Silicon Valley không?", "a": "Có. Công ty EMS và nhà sản xuất hợp đồng là khách hàng chính của văn phòng San Jose. Chúng tôi hiểu môi trường đa khách hàng, sản lượng đa dạng-nhỏ mà các công ty này vận hành và sàng lọc ứng viên phù hợp." },
+      { "q": "Pro-Tech có cung cấp nhân sự tạm thời sang chính thức cho kỹ thuật viên điện tử tại San Jose không?", "a": "Có — tạm thời, tạm thời sang chính thức và tuyển dụng trực tiếp đều có. Nhiều nhà sản xuất điện tử Silicon Valley sử dụng hình thức tạm thời sang chính thức để đánh giá kỹ thuật viên có chứng chỉ IPC trước khi đề nghị chính thức, đặc biệt cho vị trí QC và sửa chữa." }
+    ],
+    "localServices": [
+      { "title": "Nhân Sự Sản Xuất Điện Tử", "desc": "Kỹ thuật viên lắp ráp PCB có chứng chỉ IPC, vận hành viên SMT, thợ hàn, vận hành viên AOI, kỹ thuật viên sửa chữa và kiểm tra viên QC cho nhà sản xuất điện tử và công ty EMS Silicon Valley." },
+      { "title": "Nhân Sự Công Nghiệp Nhẹ & Sản Xuất", "desc": "Thợ lắp ráp, nhân viên sản xuất, thợ vận hành máy và hỗ trợ dây chuyền cho nhà sản xuất nhẹ và nhà sản xuất hợp đồng tại San Jose, Santa Clara và Milpitas." },
+      { "title": "Nhân Sự Chuỗi Cung Ứng & Hành Chính", "desc": "Điều phối viên hậu cần, chuyên viên kiểm soát hàng tồn kho, nhân viên giao nhận và hỗ trợ hành chính cho hoạt động điện tử và nhà sản xuất hợp đồng tại South Bay." }
+    ],
+    "subMarkets": [
+      { "label": "Milpitas, CA", "desc": "Hành lang sản xuất điện tử và công ty EMS đông đúc tại khu vực bắc San Jose." },
+      { "label": "Fremont, CA", "desc": "Khu công nghiệp nhẹ và điện tử lớn tại East Bay, giáp Silicon Valley." },
+      { "label": "Santa Clara, CA", "desc": "Trung tâm sản xuất bán dẫn và điện tử tại trái tim Silicon Valley." }
+    ],
+    "relatedCities": [
+      { "label": "Richardson TX (HQ)" },
+      { "label": "Phoenix AZ" },
+      { "label": "Tất Cả Địa Điểm" }
+    ]
+  },
+  "phoenix": {
+    "title": "Công Ty Nhân Sự Công Nghiệp tại Phoenix AZ | Sản Xuất Điện Tử & Kho Bãi | Pro-Tech",
+    "metaDesc": "Pro-Tech Staffing Phoenix AZ bố trí nhân viên sản xuất điện tử, thợ lắp ráp công nghiệp nhẹ và nhân viên kho bãi tại Phoenix, Tempe, Mesa, Chandler và Scottsdale. Lấp đầy trong 48 giờ.",
+    "h1": "Công ty nhân sự công nghiệp tại Phoenix, AZ. Chuyên gia sản xuất điện tử và kho bãi.",
+    "subhead": "Nhân sự sản xuất điện tử, công nghiệp nhẹ, kho bãi và chuỗi cung ứng tại vùng Phoenix.",
+    "label": "Phoenix AZ",
+    "cities": ["Phoenix AZ", "Tempe AZ", "Mesa AZ", "Chandler AZ", "Scottsdale AZ", "Gilbert AZ", "Peoria AZ"],
+    "marketIntro": "Phoenix là một trong những thị trường công nghiệp phát triển nhanh nhất Tây Nam. Hành lang East Valley — Chandler, Mesa, Tempe và Gilbert — đã thu hút các nhà sản xuất bán dẫn lớn và hoạt động điện tử, biến nó thành một trong những thị trường sôi động nhất cho nhân viên điện tử có chứng chỉ IPC ngoài California và Texas. Văn phòng Phoenix của Pro-Tech tuyển dụng tại địa phương cho các vị trí này, bố trí kỹ thuật viên lắp ráp PCB, công nhân sản xuất, nhân viên kho bãi và hỗ trợ chuỗi cung ứng cho nhà sản xuất tại toàn vùng đô thị.",
+    "industries": ["Nhân Sự Sản Xuất Điện Tử", "Nhân Sự Công Nghiệp Nhẹ", "Nhân Sự Kho Bãi & 3PL", "Nhân Sự Chuỗi Cung Ứng", "Lao Động Phổ Thông"],
+    "roles": ["Kỹ thuật viên lắp ráp PCB", "Vận hành viên SMT", "Thợ hàn", "Kiểm tra viên QC", "Thợ lắp ráp", "Thợ vận hành máy", "Vận hành viên xe nâng", "Nhân viên lấy hàng và đóng gói", "Công nhân sản xuất", "Nhân viên giao nhận"],
+    "proof": [
+      { "n": "East Valley", "label": "Phục vụ hành lang điện tử" },
+      { "n": "48h", "label": "Thời gian lấp đầy trung bình" },
+      { "n": "94%", "label": "Tỷ lệ giữ chân khách hàng" },
+      { "n": "IPC", "label": "Đội ngũ điện tử có chứng chỉ" }
+    ],
+    "whyUs": [
+      { "title": "Sẵn sàng cho sự bùng nổ bán dẫn Phoenix", "desc": "East Valley đã trở thành một trong những hành lang sản xuất điện tử sôi động nhất nước Mỹ. Đội ngũ tuyển dụng Phoenix duy trì nguồn nhân viên có chứng chỉ IPC chuyên biệt cho nhà sản xuất điện tử và nhà sản xuất hợp đồng thúc đẩy sự tăng trưởng này." },
+      { "title": "Văn phòng địa phương, phục vụ toàn vùng đô thị", "desc": "Chúng tôi phục vụ toàn bộ vùng đô thị Phoenix từ văn phòng địa phương — Chandler, Mesa, Tempe, Gilbert, Scottsdale, Peoria và Glendale. Nhà tuyển dụng hiểu thị trường, không chỉ biết bản đồ." },
+      { "title": "Nhân viên đã sàng lọc, đến đúng giờ", "desc": "Phoenix có thị trường lao động cạnh tranh. Chúng tôi sàng lọc mỗi ứng viên về độ tin cậy, kỹ năng và sự phù hợp trước khi bố trí — xác minh lý lịch, kiểm tra ma túy và phỏng vấn trực tiếp. Hầu hết đơn hàng lấp đầy trong 48 giờ." }
+    ],
+    "testimonial": {
+      "quote": "Chúng tôi cần nhân viên kho bãi và sản xuất cho cơ sở mới tại Chandler. Pro-Tech có 12 ứng viên đã sàng lọc tại chỗ trong 48 giờ. Tỷ lệ chuyên cần 30 ngày đầu trên 95%.",
+      "name": "Quản Lý Nhân Sự",
+      "co": "Nhà Sản Xuất Điện Tử · Chandler, AZ"
+    },
+    "faq": [
+      { "q": "Văn phòng Phoenix phục vụ những khu vực nào?", "a": "Văn phòng Phoenix phục vụ toàn bộ vùng đô thị Phoenix: Phoenix, Tempe, Mesa, Chandler, Gilbert, Scottsdale, Peoria, Glendale và hành lang Southeast Valley dọc I-10 và US-60." },
+      { "q": "Pro-Tech cung ứng nhân sự cho những ngành nào tại Phoenix?", "a": "Phoenix chủ yếu cung ứng nhân sự sản xuất điện tử, công nghiệp nhẹ, kho bãi và phân phối, chuỗi cung ứng và lao động phổ thông. East Valley — Chandler, Mesa, Tempe và Gilbert — có nền tảng sản xuất điện tử vững mạnh và đang phát triển mà chúng tôi chuyên về." },
+      { "q": "Pro-Tech có cung cấp nhân viên có chứng chỉ IPC tại Phoenix không?", "a": "Có. Chúng tôi đào tạo và cấp chứng chỉ IPC-A-610, IPC-620 và J-STD-001 cho nhân viên trước khi bố trí. Đội ngũ tuyển dụng Phoenix tìm kiếm chuyên biệt cho vị trí sản xuất điện tử, và ứng viên đến với chứng chỉ hiện hành đã xác minh." },
+      { "q": "Pro-Tech có thể lấp đầy việc làm công nghiệp tại Phoenix nhanh cỡ nào?", "a": "Hầu hết đơn hàng công nghiệp nhẹ và kho bãi được lấp đầy trong 48 giờ. Vị trí sản xuất điện tử cần chứng chỉ IPC thường mất 48-72 giờ. Lao động phổ thông thường có thể cung ứng cùng ngày từ nguồn ứng viên địa phương." },
+      { "q": "Pro-Tech có bố trí nhân viên cho nhà sản xuất liên quan bán dẫn tại Phoenix không?", "a": "Có. Hành lang Chandler và Mesa có hoạt động sản xuất bán dẫn và điện tử đáng kể. Chúng tôi bố trí công nhân sản xuất, kỹ thuật viên lắp ráp và kiểm tra viên QC cho các cơ sở này — sàng lọc theo tiêu chuẩn chính xác và an toàn mà môi trường này đòi hỏi." },
+      { "q": "Pro-Tech có cung cấp nhân sự tạm thời sang chính thức tại Phoenix không?", "a": "Có — tạm thời, tạm thời sang chính thức và tuyển dụng trực tiếp đều có từ văn phòng Phoenix. Nhiều nhà sản xuất điện tử và nhà tuyển dụng công nghiệp nhẹ Phoenix sử dụng hình thức tạm thời sang chính thức để đánh giá nhân viên trước khi đề nghị chính thức." }
+    ],
+    "localServices": [
+      { "title": "Nhân Sự Sản Xuất Điện Tử", "desc": "Kỹ thuật viên lắp ráp PCB có chứng chỉ IPC, vận hành viên SMT, thợ hàn, kiểm tra viên QC và nhân viên sản xuất cho nhà sản xuất điện tử tại hành lang Chandler-Mesa-Tempe." },
+      { "title": "Nhân Sự Công Nghiệp Nhẹ", "desc": "Thợ lắp ráp, thợ vận hành máy, công nhân sản xuất và hỗ trợ dây chuyền cho nhà sản xuất nhẹ tại toàn vùng đô thị Phoenix. Ca ngày, ca chiều và ca đêm." },
+      { "title": "Nhân Sự Kho Bãi & Phân Phối", "desc": "Vận hành viên xe nâng, nhân viên lấy hàng, đóng gói và nhân viên giao nhận cho hoạt động phân phối tại Phoenix, Mesa và Peoria. Hỗ trợ đột xuất và mùa cao điểm." }
+    ],
+    "subMarkets": [
+      { "label": "Chandler, AZ", "desc": "Trung tâm sản xuất bán dẫn và điện tử lớn tại East Valley." },
+      { "label": "Mesa, AZ", "desc": "Hành lang công nghiệp nhẹ và kho bãi tại East Valley dọc US-60." },
+      { "label": "Tempe, AZ", "desc": "Hoạt động công nghiệp và phân phối giữa Phoenix và Mesa dọc I-10." }
+    ],
+    "relatedCities": [
+      { "label": "Richardson TX (HQ)" },
+      { "label": "Tampa FL" },
+      { "label": "Tất Cả Địa Điểm" }
+    ]
+  },
+  "atlanta": {
+    "title": "Công Ty Nhân Sự Công Nghiệp tại Atlanta GA | Sản Xuất Điện Tử & Kho Bãi | Pro-Tech",
+    "metaDesc": "Pro-Tech Staffing Atlanta GA bố trí nhân viên sản xuất điện tử, thợ lắp ráp công nghiệp nhẹ và nhân viên kho bãi tại Atlanta, Norcross, quận Gwinnett và vùng đô thị. Lấp đầy trong 48 giờ.",
+    "h1": "Công ty nhân sự công nghiệp tại Atlanta, GA. Chuyên gia sản xuất điện tử và kho bãi.",
+    "subhead": "Nhân sự sản xuất điện tử, công nghiệp nhẹ, kho bãi và chuỗi cung ứng tại vùng Greater Atlanta.",
+    "label": "Atlanta GA",
+    "cities": ["Atlanta GA", "Norcross GA", "Duluth GA", "Lawrenceville GA", "Marietta GA", "Smyrna GA", "Peachtree City GA"],
+    "marketIntro": "Atlanta là một trong những thị trường công nghiệp và hậu cần sôi động nhất Đông Nam. Các hành lang I-85 và I-285 — chạy qua Norcross, Duluth, Lawrenceville và quận Gwinnett — chứa mật độ cao về nhà sản xuất điện tử, hoạt động công nghiệp nhẹ và trung tâm phân phối. Văn phòng Atlanta của chúng tôi tại Norcross ở trung tâm khu công nghiệp quận Gwinnett, cung ứng công nhân sản xuất, thợ lắp ráp, đội ngũ kho bãi và kỹ thuật viên điện tử cho nhà tuyển dụng tại toàn vùng đô thị.",
+    "industries": ["Nhân Sự Sản Xuất Điện Tử", "Nhân Sự Công Nghiệp Nhẹ", "Nhân Sự Kho Bãi & 3PL", "Nhân Sự Chuỗi Cung Ứng", "Nhân Sự Hành Chính", "Lao Động Phổ Thông"],
+    "roles": ["Kỹ thuật viên lắp ráp PCB", "Vận hành viên SMT", "Thợ hàn", "Kiểm tra viên QC", "Thợ lắp ráp", "Thợ vận hành máy", "Vận hành viên xe nâng", "Nhân viên lấy hàng và đóng gói", "Công nhân sản xuất", "Nhân viên giao nhận"],
+    "proof": [
+      { "n": "ATL", "label": "Phục vụ vùng đô thị Atlanta" },
+      { "n": "48h", "label": "Thời gian lấp đầy trung bình" },
+      { "n": "94%", "label": "Tỷ lệ giữ chân khách hàng" },
+      { "n": "I-85", "label": "Phục vụ hành lang công nghiệp" }
+    ],
+    "whyUs": [
+      { "title": "Chuyên gia công nghiệp quận Gwinnett", "desc": "Văn phòng Norcross nằm giữa một trong những khu công nghiệp đông đúc nhất Georgia. Chúng tôi biết rõ nhà tuyển dụng, khu công nghiệp và nguồn ứng viên dọc hành lang I-85 và I-285 — và cung ứng cho các thị trường này hàng tuần." },
+      { "title": "Văn phòng địa phương, phục vụ toàn vùng đô thị", "desc": "Chúng tôi phục vụ toàn bộ vùng đô thị Atlanta từ văn phòng địa phương — Norcross, Duluth, Lawrenceville, Marietta, Smyrna và Peachtree City. Nhà tuyển dụng hiểu thị trường này, không chỉ biết bản đồ." },
+      { "title": "Nhân viên đã sàng lọc, đến đúng giờ", "desc": "Mỗi ứng viên được xác minh lý lịch, kiểm tra ma túy và phỏng vấn kỹ năng trước khi bố trí. Hầu hết đơn hàng lấp đầy trong 48 giờ. Lao động phổ thông thường có thể cung ứng cùng ngày từ nguồn ứng viên địa phương." }
+    ],
+    "testimonial": {
+      "quote": "Chúng tôi cần công nhân sản xuất và vận hành viên xe nâng cho cơ sở mới tại Norcross gấp. Pro-Tech có ứng viên đủ năng lực tại chỗ trong 48 giờ. Chuyên cần 60 ngày đầu là tốt nhất từ bất kỳ đối tác nhân sự nào.",
+      "name": "Quản Lý Vận Hành",
+      "co": "Sản Xuất Nhẹ · Norcross, GA"
+    },
+    "faq": [
+      { "q": "Văn phòng Atlanta phục vụ những khu vực nào?", "a": "Văn phòng Atlanta phục vụ toàn bộ vùng đô thị, bao gồm Norcross, Duluth, Lawrenceville, quận Gwinnett, Marietta, Smyrna, Sandy Springs và Peachtree City. Chúng tôi phục vụ toàn bộ hành lang công nghiệp I-85 và I-285." },
+      { "q": "Pro-Tech cung ứng nhân sự cho những ngành nào tại Atlanta?", "a": "Atlanta chủ yếu cung ứng nhân sự sản xuất điện tử, công nghiệp nhẹ, kho bãi và phân phối, chuỗi cung ứng, hành chính và lao động phổ thông. Quận Gwinnett có nền tảng sản xuất điện tử và công nghiệp nhẹ vững mạnh mà chúng tôi chuyên về." },
+      { "q": "Pro-Tech có thể lấp đầy việc làm công nghiệp tại Atlanta nhanh cỡ nào?", "a": "Hầu hết đơn hàng công nghiệp nhẹ và kho bãi được lấp đầy trong 48 giờ. Vị trí sản xuất điện tử cần chứng chỉ IPC thường mất 48-72 giờ. Lao động phổ thông thường có thể cung ứng cùng ngày từ nguồn ứng viên địa phương." },
+      { "q": "Pro-Tech có cung cấp nhân viên điện tử có chứng chỉ IPC tại Atlanta không?", "a": "Có. Chúng tôi đào tạo và cấp chứng chỉ IPC-A-610, IPC-620 và J-STD-001 cho nhân viên trước khi bố trí. Đội ngũ tuyển dụng Atlanta tìm kiếm chuyên biệt cho vị trí sản xuất điện tử dọc hành lang I-85 tại quận Gwinnett." },
+      { "q": "Pro-Tech có cung cấp nhân sự tạm thời sang chính thức tại Atlanta không?", "a": "Có — tạm thời, tạm thời sang chính thức và tuyển dụng trực tiếp đều có từ văn phòng Atlanta. Hình thức tạm thời sang chính thức phổ biến với nhà sản xuất và nhà phân phối Atlanta muốn đánh giá nhân viên trước khi đề nghị chính thức." },
+      { "q": "Pro-Tech có thể cung ứng nhiều ca cho cơ sở tại Atlanta không?", "a": "Có. Chúng tôi tuyển dụng cho ca ngày, ca chiều và ca đêm, bao gồm lịch luân phiên. Cho chúng tôi biết yêu cầu ca làm khi gửi yêu cầu tuyển dụng và chúng tôi sẽ tìm ứng viên phù hợp ngay từ ngày đầu." }
+    ],
+    "localServices": [
+      { "title": "Nhân Sự Sản Xuất Điện Tử", "desc": "Kỹ thuật viên lắp ráp PCB có chứng chỉ IPC, vận hành viên SMT, thợ hàn, kiểm tra viên QC và nhân viên sản xuất cho nhà sản xuất điện tử tại quận Gwinnett và hành lang I-85." },
+      { "title": "Nhân Sự Công Nghiệp Nhẹ", "desc": "Thợ lắp ráp, thợ vận hành máy, công nhân sản xuất và nhân viên kiểm soát chất lượng cho nhà sản xuất nhẹ tại các quận Gwinnett, Cobb và Fulton. Ca ngày và ca đêm." },
+      { "title": "Nhân Sự Kho Bãi & Phân Phối", "desc": "Vận hành viên xe nâng, nhân viên lấy hàng, đóng gói và nhân viên giao nhận cho hoạt động phân phối và 3PL tại toàn vùng đô thị Atlanta. Hỗ trợ đột xuất và mùa cao điểm." }
+    ],
+    "subMarkets": [
+      { "label": "Norcross, GA", "desc": "Khu công nghiệp nhẹ và sản xuất điện tử đông đúc tại quận Gwinnett dọc I-85." },
+      { "label": "Duluth, GA", "desc": "Hành lang công nghiệp và kho bãi đang phát triển tại bắc quận Gwinnett." },
+      { "label": "Marietta / Smyrna, GA", "desc": "Hoạt động công nghiệp nhẹ và sản xuất tại quận Cobb tây bắc Atlanta." }
+    ],
+    "relatedCities": [
+      { "label": "Richardson TX (HQ)" },
+      { "label": "Tampa FL" },
+      { "label": "Tất Cả Địa Điểm" }
+    ]
+  }
+}

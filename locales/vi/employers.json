@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "title": "Nhà Tuyển Dụng | Pro-Tech Staffing — Nhân Sự Công Nghiệp & Sản Xuất",
+    "description": "Yêu cầu nhân sự công nghiệp, sản xuất điện tử và kho bãi từ Pro-Tech Staffing. Nhân sự tạm thời, tạm thời sang chính thức, tuyển dụng trực tiếp, dịch vụ lương, PEO và tư vấn."
+  },
+  "hero": {
+    "eyebrow": "Dành Cho Nhà Tuyển Dụng",
+    "heading": "Cần nhân sự? Hãy để chúng tôi lấp đầy vị trí.",
+    "description": "Cho chúng tôi biết vị trí, ca làm, địa điểm và ngày bắt đầu. Chúng tôi hành động nhanh và cập nhật mọi bước cho bạn.",
+    "ctaSubmit": "Gửi Yêu Cầu Tuyển Dụng",
+    "ctaPhone": "(972) 555-1234",
+    "servingNote": "Phục vụ Richardson, Bedford, Austin, Tampa, San Jose và Phoenix.",
+    "imgAlt": "Cơ sở sản xuất điện tử",
+    "statNumber": "36h",
+    "statLabel": "thời gian trung bình tìm ứng viên đầu tiên"
+  },
+  "services": {
+    "eyebrow": "Ngoài Nhân Sự",
+    "heading": "Không chỉ là nhân viên tạm thời.",
+    "description": "Hầu hết nhà tuyển dụng chỉ nghĩ đến Pro-Tech như dịch vụ nhân sự tạm thời. Chúng tôi cung cấp đầy đủ giải pháp nhân sự được xây dựng theo cách vận hành thực tế của đội ngũ công nghiệp.",
+    "temporaryStaffing": {
+      "title": "Nhân Sự Tạm Thời",
+      "desc": "Lấp đầy ca làm nhanh chóng với nhân viên đã sàng lọc, sẵn sàng cho các vị trí sản xuất, kho bãi và công nghiệp."
+    },
+    "tempToHire": {
+      "title": "Tạm Thời Sang Chính Thức",
+      "desc": "Thử trước khi cam kết. Đánh giá nhân viên trong công việc trước khi chuyển sang chính thức."
+    },
+    "directPlacement": {
+      "title": "Tuyển Dụng Trực Tiếp",
+      "desc": "Chúng tôi tuyển dụng và bố trí nhân viên chính thức cho các vị trí khó tuyển để đội ngũ của bạn tập trung vào sản xuất."
+    },
+    "payrollServices": {
+      "title": "Dịch Vụ Lương",
+      "desc": "Chuyển giao quản lý lương trong khi giữ lực lượng lao động linh hoạt và tuân thủ quy định."
+    },
+    "peo": {
+      "title": "PEO (Tổ Chức Sử Dụng Lao Động Chuyên Nghiệp)",
+      "desc": "Hỗ trợ nhân sự, phúc lợi và tuân thủ pháp lý cho các đội ngũ đang phát triển cần cấu trúc mà không tăng chi phí quản lý."
+    },
+    "consulting": {
+      "title": "Tư Vấn (Nhân Sự / Công Nghệ)",
+      "desc": "Hướng dẫn chiến lược về quy hoạch nhân sự, cải tiến quy trình và ứng dụng công nghệ cho vận hành công nghiệp."
+    }
+  },
+  "certification": {
+    "eyebrow": "Điểm Khác Biệt",
+    "heading": "Nhân viên có chứng chỉ trước khi đến xưởng.",
+    "description1": "Phàn nàn lớn nhất trong tuyển dụng sản xuất điện tử: không đủ ứng viên có trình độ, có chứng chỉ trên thị trường. Các công ty nhân sự khác gửi người. Chúng tôi gửi nhân viên đã được đào tạo.",
+    "description2": "Pro-Tech có giảng viên IPC chính thức trong đội ngũ, đào tạo và cấp chứng chỉ cho ứng viên trước khi bắt đầu. Nhân viên đến sẵn sàng làm việc theo tiêu chuẩn ngay từ ngày đầu.",
+    "cta": "Yêu Cầu Nhân Viên Có Chứng Chỉ",
+    "certsEyebrow": "Chứng Chỉ Chúng Tôi Đào Tạo",
+    "ipc610": {
+      "title": "IPC-610",
+      "subtitle": "Tiêu Chuẩn Chấp Nhận Cụm Lắp Ráp Điện Tử",
+      "desc": "Tiêu chuẩn ngành để đánh giá chất lượng lắp ráp điện tử. Nhân viên được đào tạo nhận diện và phân loại lỗi."
+    },
+    "ipc620": {
+      "title": "IPC-620",
+      "subtitle": "Cụm Lắp Ráp Cáp và Dây Điện",
+      "desc": "Yêu cầu và tiêu chí chấp nhận cho cụm lắp ráp cáp và dây điện sử dụng trong sản xuất điện tử."
+    },
+    "jstd001": {
+      "title": "J-STD-001",
+      "subtitle": "Hàn",
+      "desc": "Tiêu chuẩn ngành chung về hàn. Nhân viên được cấp chứng chỉ về kiểm soát quy trình và yêu cầu tay nghề."
+    },
+    "footerHighlight": "Giảng viên IPC được chứng nhận ngay trong đội ngũ.",
+    "footerNote": "Ứng viên đến đã có chứng chỉ và sẵn sàng làm việc theo tiêu chuẩn ngay từ ngày đầu."
+  },
+  "cta": {
+    "eyebrow": "Bắt Đầu",
+    "heading": "Sẵn sàng tuyển dụng?",
+    "description": "Gửi cho chúng tôi vị trí, ca làm, địa điểm và ngày bắt đầu. Chúng tôi sẽ phản hồi nhanh.",
+    "callUs": "Gọi Ngay",
+    "emailUs": "Gửi Email"
+  }
+}

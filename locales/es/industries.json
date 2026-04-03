@@ -1,0 +1,274 @@
+{
+  "page": {
+    "meta": {
+      "title": "Industrias que Atendemos | Pro-Tech Staffing Services",
+      "description": "Pro-Tech Staffing sirve a las industrias de manufactura electr\u00f3nica, industria ligera, almac\u00e9n, cadena de suministro, administrativo y trabajo general en seis mercados de EE. UU."
+    },
+    "hero": {
+      "eyebrow": "Industrias que Servimos",
+      "heading": "Solo dotamos de personal a las industrias que mejor conocemos.",
+      "description": "Un puesto de almac\u00e9n no es un puesto de electr\u00f3nica. Un operador de m\u00e1quina no es un asistente administrativo. Despu\u00e9s de 30 a\u00f1os en estos entornos, reclutamos por puesto, turno y requisitos de planta \u2014 no solo por disponibilidad.",
+      "ctaRequestWorkers": "Solicitar Trabajadores"
+    },
+    "stats": {
+      "industriesServed": { "n": "6", "label": "Industrias atendidas" },
+      "workersPlaced": { "n": "54K+", "label": "Trabajadores colocados" },
+      "avgFillTime": { "n": "48h", "label": "Tiempo promedio de cobertura" },
+      "yearsExperience": { "n": "30", "label": "A\u00f1os de experiencia" }
+    },
+    "learnMore": "M\u00e1s Informaci\u00f3n",
+    "commonRoles": "Puestos Comunes",
+    "cta": {
+      "eyebrow": "Comience Ahora",
+      "heading": "\u00bfNecesita trabajadores en alguna de estas industrias?",
+      "description": "Env\u00ede una solicitud y tendremos candidatos evaluados y calificados listos en 48 horas.",
+      "callUsNow": "Ll\u00e1menos Ahora",
+      "submitRequest": "Enviar Solicitud de Personal"
+    }
+  },
+  "detail": {
+    "requestWorkers": "Solicitar Trabajadores",
+    "findJobs": "Buscar Empleos",
+    "avgFillTime": "tiempo promedio de cobertura",
+    "rolesWeStaff": "Puestos que Cubrimos",
+    "rolesHeading": "Puestos especializados.\nNo trabajo temporal gen\u00e9rico.",
+    "rolesDescription": "Cada puesto en {{industry}} tiene requisitos espec\u00edficos: certificaciones, capacidades f\u00edsicas, conocimiento de equipos y protocolos de seguridad. Evaluamos el perfil completo, no solo cuerpos disponibles.",
+    "submitRequest": "Enviar Solicitud de Personal",
+    "certifications": "Certificaciones",
+    "certHeading": "Trabajadores certificados IPC.\nListos para su planta de producci\u00f3n.",
+    "certDescription": "Capacitamos y certificamos trabajadores antes de la colocaci\u00f3n. Cuando necesita t\u00e9cnicos de ensamble electr\u00f3nico con certificaciones est\u00e1ndar de la industria, entregamos candidatos calificados, no candidatos que necesitan semanas de capacitaci\u00f3n en el trabajo.",
+    "certVerified": "Certificaci\u00f3n est\u00e1ndar de la industria verificada antes de la colocaci\u00f3n.",
+    "whyProTech": "Por Qu\u00e9 Pro-Tech",
+    "whyHeadingPrefix": "Por qu\u00e9 los empleadores nos eligen\npara personal de {{industry}}.",
+    "relatedIndustries": "Industrias Relacionadas",
+    "ctaGetStarted": "Personal de {{industry}} \u00b7 Comience Ahora",
+    "ctaHeading": "\u00bfNecesita trabajadores de {{industry}}?\nPodemos ayudar.",
+    "ctaDescription": "Env\u00ede una solicitud y tendremos candidatos evaluados y calificados listos en 48 horas.",
+    "callUsNow": "Ll\u00e1menos Ahora"
+  },
+  "electronics-manufacturing": {
+    "title": "Personal de Manufactura Electr\u00f3nica | Certificado IPC | Pro-Tech Staffing",
+    "metaDesc": "Pro-Tech Staffing provee trabajadores certificados IPC para manufactura electr\u00f3nica: ensamble de PCB, SMT, soldadura, QC, AOI, retrabajo y t\u00e9cnicos de prueba. Cobertura en 48 horas.",
+    "h1": "Personal de manufactura electr\u00f3nica. Certificado IPC-A-610.",
+    "subhead": "Ensamble de PCB, SMT, soldadura, QC, AOI, retrabajo y t\u00e9cnicos de prueba.",
+    "label": "Manufactura Electr\u00f3nica",
+    "intro": "La manufactura electr\u00f3nica exige precisi\u00f3n, capacitaci\u00f3n y cero tolerancia a fallas de calidad. Pro-Tech Staffing se especializa en colocar t\u00e9cnicos certificados IPC para ensamble de PCB, tecnolog\u00eda de montaje superficial, soldadura, control de calidad y operaciones de prueba. Capacitamos trabajadores en los est\u00e1ndares IPC-A-610, IPC-620 y J-STD-001 antes de la colocaci\u00f3n, para que lleguen listos para contribuir desde el primer d\u00eda.",
+    "imgAlt": "L\u00ednea de ensamble de PCB en manufactura electr\u00f3nica con t\u00e9cnicos",
+    "certifications": ["IPC-A-610 (Aceptabilidad de Ensambles Electr\u00f3nicos)", "IPC/WHMA-A-620 (Ensambles de Cables y Arneses)", "J-STD-001 (Est\u00e1ndares de Soldadura)"],
+    "roles": ["T\u00e9cnicos de ensamble de PCB", "Operadores SMT", "Operadores de soldadura (a trav\u00e9s de orificio y reflujo)", "Operadores AOI (Inspecci\u00f3n \u00d3ptica Automatizada)", "T\u00e9cnicos de retrabajo", "T\u00e9cnicos de prueba", "Inspectores de control de calidad", "Asociados de producci\u00f3n", "Ensambladores de arneses de cables", "Operadores de recubrimiento conformal"],
+    "whyUs": [
+      { "title": "Fuerza laboral certificada IPC", "desc": "Capacitamos y certificamos trabajadores en IPC-A-610, IPC-620 y J-STD-001 antes de la colocaci\u00f3n. Sus candidatos llegan con las certificaciones que su planta de producci\u00f3n requiere." },
+      { "title": "30 a\u00f1os en personal electr\u00f3nico", "desc": "Pro-Tech fue construida sobre la manufactura electr\u00f3nica. Entendemos la diferencia entre un operador de soldadura y un t\u00e9cnico SMT, y reclutamos en consecuencia." },
+      { "title": "Selecci\u00f3n enfocada en calidad", "desc": "La manufactura electr\u00f3nica no tiene margen de error. Cada candidato es evaluado en habilidades, verificado en antecedentes y seleccionado para trabajo de precisi\u00f3n antes de llegar a su planta." }
+    ],
+    "proof": [
+      { "n": "30", "label": "A\u00f1os en personal electr\u00f3nico" },
+      { "n": "IPC", "label": "Programa de capacitaci\u00f3n certificada" },
+      { "n": "48h", "label": "Tiempo promedio de cobertura" },
+      { "n": "97%", "label": "Tasa de cobertura a tiempo" }
+    ],
+    "testimonial": {
+      "quote": "Pro-Tech cubri\u00f3 14 posiciones para nosotros en menos de 48 horas durante la temporada alta. M\u00e1s importante a\u00fan, los trabajadores se presentaron y 9 se convirtieron en permanentes. Esa consistencia importa m\u00e1s que las promesas.",
+      "name": "Director de Operaciones",
+      "co": "Fabricante de Electr\u00f3nica \u00b7 Richardson, TX"
+    },
+    "relatedIndustries": [
+      { "label": "Industria Ligera", "href": "/industries/light-industrial" },
+      { "label": "Almac\u00e9n y Distribuci\u00f3n", "href": "/industries/warehouse-distribution" },
+      { "label": "Cadena de Suministro y Log\u00edstica", "href": "/industries/supply-chain-logistics" }
+    ]
+  },
+  "light-industrial": {
+    "title": "Personal de Industria Ligera | Ensamble y Producci\u00f3n | Pro-Tech Staffing",
+    "metaDesc": "Pro-Tech Staffing provee trabajadores evaluados de industria ligera: ensambladores, operadores de m\u00e1quinas, trabajadores de producci\u00f3n, inspectores de QC y personal de empaque. Cobertura en 48 horas.",
+    "h1": "Personal de industria ligera. Ensambladores, operadores, trabajadores de producci\u00f3n.",
+    "subhead": "Ensamble, operaci\u00f3n de m\u00e1quinas, producci\u00f3n, control de calidad, empaque y apoyo en l\u00ednea.",
+    "label": "Industria Ligera",
+    "intro": "Las operaciones de industria ligera necesitan trabajadores confiables, capacitables y listos para trabajar en entornos de producci\u00f3n de ritmo r\u00e1pido. Pro-Tech Staffing coloca ensambladores, operadores de m\u00e1quinas, trabajadores de l\u00ednea de producci\u00f3n e inspectores de control de calidad para fabricantes que no pueden permitirse ausencias, malas asignaciones o personal poco capacitado.",
+    "imgAlt": "Trabajadores de producci\u00f3n de industria ligera en l\u00ednea de ensamble",
+    "certifications": null,
+    "roles": ["Ensambladores", "Operadores de m\u00e1quinas", "Trabajadores de l\u00ednea de producci\u00f3n", "Inspectores de control de calidad", "Operadores de empaque", "Personal de apoyo en l\u00ednea", "Manejadores de materiales", "L\u00edderes de producci\u00f3n", "Operadores de prensa", "Trabajadores de clasificaci\u00f3n y selecci\u00f3n"],
+    "whyUs": [
+      { "title": "Construido para entornos de producci\u00f3n", "desc": "Reclutamos espec\u00edficamente para plantas de manufactura y producci\u00f3n. Cada candidato es evaluado por confiabilidad, capacidad f\u00edsica y habilidad para trabajar en entornos industriales de ritmo r\u00e1pido." },
+      { "title": "Trabajadores listos para cualquier turno", "desc": "Turnos diurnos, nocturnos, horarios rotativos: buscamos trabajadores que coincidan con sus requisitos de turno y se presenten consistentemente." },
+      { "title": "Temporal, temporal a permanente y directo", "desc": "Ya sea que necesite cobertura de emergencia o quiera construir un equipo de producci\u00f3n permanente, trabajamos con su modelo de contrataci\u00f3n y cronograma." }
+    ],
+    "proof": [
+      { "n": "54K+", "label": "Trabajadores colocados" },
+      { "n": "48h", "label": "Tiempo promedio de cobertura" },
+      { "n": "94%", "label": "Clientes que vuelven a solicitar" },
+      { "n": "30", "label": "A\u00f1os en el negocio" }
+    ],
+    "testimonial": {
+      "quote": "Necesit\u00e1bamos 20 trabajadores de producci\u00f3n para el lanzamiento de una nueva l\u00ednea. Pro-Tech tuvo candidatos calificados en sitio en 48 horas. Ese tipo de tiempo de respuesta es poco com\u00fan.",
+      "name": "Gerente de Planta",
+      "co": "Manufactura Ligera \u00b7 Bedford, TX"
+    },
+    "relatedIndustries": [
+      { "label": "Manufactura Electr\u00f3nica", "href": "/industries/electronics-manufacturing" },
+      { "label": "Almac\u00e9n y Distribuci\u00f3n", "href": "/industries/warehouse-distribution" },
+      { "label": "Trabajo General", "href": "/industries/general-labor" }
+    ]
+  },
+  "warehouse-distribution": {
+    "title": "Personal de Almac\u00e9n | Selecci\u00f3n, Empaque, Montacargas | Pro-Tech Staffing",
+    "metaDesc": "Pro-Tech Staffing provee trabajadores evaluados de almac\u00e9n: selectores, empacadores, operadores de montacargas, personal de env\u00edo y recepci\u00f3n, y personal de inventario. Cobertura en 48 horas.",
+    "h1": "Personal de almac\u00e9n y distribuci\u00f3n. Selectores, empacadores, operadores de montacargas.",
+    "subhead": "Selecci\u00f3n, empaque, recepci\u00f3n, operaci\u00f3n de montacargas, env\u00edo, inventario y soporte 3PL.",
+    "label": "Almac\u00e9n y Distribuci\u00f3n",
+    "intro": "Las operaciones de almac\u00e9n funcionan con precisi\u00f3n y velocidad. Un env\u00edo perdido, un conteo err\u00f3neo o la ausencia de un operador de montacargas pueden afectar toda su cadena de suministro. Pro-Tech Staffing coloca trabajadores de almac\u00e9n capacitados, confiables y listos para desempe\u00f1arse en entornos de distribuci\u00f3n de alto volumen.",
+    "imgAlt": "Trabajadores de almac\u00e9n seleccionando y empacando en centro de distribuci\u00f3n",
+    "certifications": null,
+    "roles": ["Selectores de almac\u00e9n", "Empacadores", "Operadores de montacargas (sentado y de pie)", "Personal de env\u00edo", "Personal de recepci\u00f3n", "Especialistas en control de inventario", "Manejadores de materiales", "Trabajadores de muelle", "Selectores de pedidos", "Personal de soporte 3PL"],
+    "whyUs": [
+      { "title": "Selecci\u00f3n espec\u00edfica para almac\u00e9n", "desc": "Evaluamos capacidad f\u00edsica, certificaci\u00f3n de montacargas y confiabilidad. Nuestros candidatos entienden esc\u00e1neres RF, sistemas WMS y el ritmo de la distribuci\u00f3n de alto volumen." },
+      { "title": "Cobertura en temporada alta", "desc": "Cuando el volumen aumenta, escalamos con usted. Mantenemos canales activos de trabajadores listos para almac\u00e9n para cubrir pedidos de emergencia en 48 horas." },
+      { "title": "Operadores certificados en montacargas", "desc": "Verificamos certificaciones de montacargas y podemos proveer operadores certificados en equipos sentado, de pie, de alcance y selector de pedidos." }
+    ],
+    "proof": [
+      { "n": "48h", "label": "Tiempo promedio de cobertura" },
+      { "n": "97%", "label": "Tasa de cobertura a tiempo" },
+      { "n": "6", "label": "Mercados activos" },
+      { "n": "94%", "label": "Clientes que vuelven a solicitar" }
+    ],
+    "testimonial": {
+      "quote": "Durante la temporada alta necesit\u00e1bamos 30 trabajadores de almac\u00e9n en una semana. Pro-Tech cumpli\u00f3. M\u00e1s importante, la tasa de asistencia fue superior al 90%, algo in\u00e9dito con agencias temporales.",
+      "name": "Gerente de Distribuci\u00f3n",
+      "co": "Almac\u00e9n y 3PL \u00b7 Arlington, TX"
+    },
+    "relatedIndustries": [
+      { "label": "Cadena de Suministro y Log\u00edstica", "href": "/industries/supply-chain-logistics" },
+      { "label": "Industria Ligera", "href": "/industries/light-industrial" },
+      { "label": "Trabajo General", "href": "/industries/general-labor" }
+    ]
+  },
+  "supply-chain-logistics": {
+    "title": "Personal de Cadena de Suministro | Log\u00edstica e Inventario | Pro-Tech Staffing",
+    "metaDesc": "Pro-Tech Staffing provee trabajadores de cadena de suministro y log\u00edstica: coordinadores, control de inventario, env\u00edo y recepci\u00f3n, y personal de apoyo de almac\u00e9n. Cobertura en 48 horas.",
+    "h1": "Personal de cadena de suministro y log\u00edstica. Coordinadores, inventario, env\u00edo.",
+    "subhead": "Coordinadores de log\u00edstica, control de inventario, env\u00edo y recepci\u00f3n, y apoyo de almac\u00e9n.",
+    "label": "Cadena de Suministro y Log\u00edstica",
+    "intro": "Las interrupciones en la cadena de suministro cuestan dinero. Cuando falta un coordinador de log\u00edstica, los conteos de inventario fallan o los env\u00edos se retrasan, toda la operaci\u00f3n lo siente. Pro-Tech Staffing coloca profesionales de cadena de suministro que entienden los sistemas, la urgencia y la atenci\u00f3n al detalle que estos roles exigen.",
+    "imgAlt": "Operaciones de cadena de suministro y log\u00edstica en instalaci\u00f3n de distribuci\u00f3n",
+    "certifications": null,
+    "roles": ["Coordinadores de log\u00edstica", "Especialistas en control de inventario", "Personal de env\u00edo y recepci\u00f3n", "Analistas de cadena de suministro", "Supervisores de almac\u00e9n", "Planificadores de materiales", "Asistentes de adquisiciones", "Coordinadores de transporte", "Especialistas en conteo c\u00edclico", "Personal de apoyo de almac\u00e9n"],
+    "whyUs": [
+      { "title": "M\u00e1s all\u00e1 del personal b\u00e1sico de almac\u00e9n", "desc": "Los roles de cadena de suministro requieren conocimiento de sistemas, atenci\u00f3n al detalle y habilidades de comunicaci\u00f3n que van m\u00e1s all\u00e1 del trabajo f\u00edsico. Evaluamos el perfil completo, no solo la disponibilidad." },
+      { "title": "Experiencia en WMS y ERP", "desc": "Nuestros candidatos son evaluados por experiencia con sistemas de gesti\u00f3n de almac\u00e9n, plataformas ERP y las herramientas de las que depende su operaci\u00f3n." },
+      { "title": "Apoyo confiable en todos los niveles", "desc": "Desde personal de env\u00edo de nivel inicial hasta coordinadores de log\u00edstica con experiencia, colocamos trabajadores que entienden el ritmo y la precisi\u00f3n que las operaciones de cadena de suministro requieren." }
+    ],
+    "proof": [
+      { "n": "48h", "label": "Tiempo promedio de cobertura" },
+      { "n": "6", "label": "Mercados activos" },
+      { "n": "Temp & perm", "label": "Tipos de colocaci\u00f3n" },
+      { "n": "94%", "label": "Clientes que vuelven a solicitar" }
+    ],
+    "testimonial": {
+      "quote": "Nuestro equipo de cadena de suministro estaba al l\u00edmite durante un lanzamiento importante de producto. Pro-Tech coloc\u00f3 6 coordinadores de log\u00edstica en menos de una semana. Todos ten\u00edan experiencia en WMS y comenzaron a producir de inmediato.",
+      "name": "Director de Cadena de Suministro",
+      "co": "Electr\u00f3nica de Consumo \u00b7 Irving, TX"
+    },
+    "relatedIndustries": [
+      { "label": "Almac\u00e9n y Distribuci\u00f3n", "href": "/industries/warehouse-distribution" },
+      { "label": "Industria Ligera", "href": "/industries/light-industrial" },
+      { "label": "Administrativo y Oficina", "href": "/industries/administrative-clerical" }
+    ]
+  },
+  "administrative-clerical": {
+    "title": "Personal Administrativo | Captura de Datos y Soporte de Oficina | Pro-Tech Staffing",
+    "metaDesc": "Pro-Tech Staffing provee trabajadores administrativos y de oficina: captura de datos, atenci\u00f3n al cliente, asistencia de oficina y soporte de operaciones de back-office.",
+    "h1": "Personal administrativo y de oficina. Soporte que mantiene las operaciones funcionando.",
+    "subhead": "Captura de datos, atenci\u00f3n al cliente, asistencia de oficina y soporte operativo de back-office.",
+    "label": "Administrativo y Oficina",
+    "intro": "Las empresas industriales y de manufactura necesitan soporte administrativo confiable para mantener las operaciones funcionando sin problemas. Pro-Tech Staffing coloca especialistas en captura de datos, representantes de servicio al cliente, asistentes de oficina y personal de soporte de back-office que entienden el ritmo y las demandas de los entornos industriales.",
+    "imgAlt": "Personal de soporte administrativo de oficina en empresa industrial",
+    "certifications": null,
+    "roles": ["Especialistas en captura de datos", "Representantes de servicio al cliente", "Recepcionistas y personal de recepci\u00f3n", "Asistentes de oficina", "Coordinadores administrativos", "Personal de cuentas por pagar/cobrar", "Asistentes de RR.HH.", "Gerentes de oficina", "Archivo y gesti\u00f3n de registros", "Personal de soporte de back-office"],
+    "whyUs": [
+      { "title": "Experiencia en administraci\u00f3n industrial", "desc": "Entendemos que los roles administrativos en manufactura y distribuci\u00f3n son diferentes al trabajo temporal gen\u00e9rico de oficina. Nuestros candidatos son evaluados para el ritmo, los sistemas y el entorno en que opera su negocio." },
+      { "title": "Evaluaci\u00f3n de competencia en software", "desc": "Verificamos competencia en las herramientas que su equipo utiliza: Microsoft Office, sistemas ERP, plataformas de captura de datos y software espec\u00edfico de la industria." },
+      { "title": "Temporal, temporal a permanente y directo", "desc": "Ya sea que necesite una cobertura temporal para recepci\u00f3n o quiera contratar un coordinador administrativo permanente, entregamos candidatos calificados r\u00e1pidamente." }
+    ],
+    "proof": [
+      { "n": "48h", "label": "Tiempo promedio de cobertura" },
+      { "n": "Temp & perm", "label": "Tipos de colocaci\u00f3n" },
+      { "n": "6", "label": "Mercados activos" },
+      { "n": "94%", "label": "Clientes que vuelven a solicitar" }
+    ],
+    "testimonial": {
+      "quote": "Necesit\u00e1bamos un especialista en captura de datos que pudiera trabajar en nuestro sistema ERP desde el primer d\u00eda. Pro-Tech encontr\u00f3 a alguien con experiencia directa en dos d\u00edas.",
+      "name": "Gerente de Oficina",
+      "co": "Fabricante de Electr\u00f3nica \u00b7 Richardson, TX"
+    },
+    "relatedIndustries": [
+      { "label": "Cadena de Suministro y Log\u00edstica", "href": "/industries/supply-chain-logistics" },
+      { "label": "Industria Ligera", "href": "/industries/light-industrial" },
+      { "label": "Trabajo General", "href": "/industries/general-labor" }
+    ]
+  },
+  "general-labor": {
+    "title": "Personal de Trabajo General | Temporal y por Proyecto | Pro-Tech Staffing",
+    "metaDesc": "Pro-Tech Staffing provee trabajadores de trabajo general para asignaciones a corto plazo, temporales a permanentes y basadas en proyectos. Cobertura confiable sin demora.",
+    "h1": "Personal de trabajo general. Cobertura cuando la necesita, sin demora.",
+    "subhead": "Trabajo a corto plazo, temporal a permanente y basado en proyectos para operaciones industriales.",
+    "label": "Trabajo General",
+    "intro": "Cuando necesita personas confiables en sitio r\u00e1pidamente, ya sea por un aumento de proyecto, un pico estacional o cobertura de emergencia, Pro-Tech Staffing entrega trabajadores de trabajo general que llegan a tiempo y trabajan de forma segura. Evaluamos a cada candidato por confiabilidad, capacidad f\u00edsica y preparaci\u00f3n laboral.",
+    "imgAlt": "Trabajadores de trabajo general en sitio industrial",
+    "certifications": null,
+    "roles": ["Trabajadores generales", "Cuadrillas de limpieza", "Trabajadores de carga y descarga", "Personal de preparaci\u00f3n de sitio", "Apoyo de jardiner\u00eda", "Cuadrillas de mudanza y montaje", "Trabajo de montaje de eventos", "Ayudantes de construcci\u00f3n", "Asistentes de mantenimiento", "Trabajadores de temporada"],
+    "whyUs": [
+      { "title": "Selecci\u00f3n enfocada en confiabilidad", "desc": "Los roles de trabajo general tienen las tasas de ausencia m\u00e1s altas de la industria. Evaluamos espec\u00edficamente la confiabilidad de asistencia, acceso a transporte y disposici\u00f3n para cumplir la asignaci\u00f3n completa." },
+      { "title": "Disponibilidad para el mismo d\u00eda y d\u00eda siguiente", "desc": "Cuando necesita cobertura ahora, actuamos r\u00e1pido. Nuestro grupo activo de candidatos incluye trabajadores listos para despliegue inmediato en los seis mercados." },
+      { "title": "Trabajadores seguros y con prueba de drogas", "desc": "A cada candidato de trabajo general se le realiza prueba de drogas, verificaci\u00f3n de antecedentes e informaci\u00f3n sobre requisitos de seguridad del sitio antes de la colocaci\u00f3n." }
+    ],
+    "proof": [
+      { "n": "36h", "label": "Tiempo promedio de cobertura" },
+      { "n": "Same-day", "label": "Disponibilidad de urgencia" },
+      { "n": "6", "label": "Mercados activos" },
+      { "n": "94%", "label": "Clientes que vuelven a solicitar" }
+    ],
+    "testimonial": {
+      "quote": "Tuvimos un aumento de proyecto y necesit\u00e1bamos 15 trabajadores para el lunes. Pro-Tech los tuvo en sitio a las 7am. Los 15 se presentaron. Eso nunca pasa con otras agencias.",
+      "name": "Supervisor de Sitio",
+      "co": "Servicios Industriales \u00b7 DFW, TX"
+    },
+    "relatedIndustries": [
+      { "label": "Industria Ligera", "href": "/industries/light-industrial" },
+      { "label": "Almac\u00e9n y Distribuci\u00f3n", "href": "/industries/warehouse-distribution" },
+      { "label": "Administrativo y Oficina", "href": "/industries/administrative-clerical" }
+    ]
+  },
+  "industriesPageCards": {
+    "electronics-manufacturing": {
+      "title": "Manufactura Electr\u00f3nica",
+      "desc": "Ensamble de PCB, t\u00e9cnicos SMT, operadores de soldadura, inspectores de QC, t\u00e9cnicos de prueba, operadores AOI, t\u00e9cnicos de retrabajo y asociados de producci\u00f3n.",
+      "cert": "Trabajadores certificados en IPC-A-610, IPC-620 y J-STD-001 disponibles.",
+      "roles": ["T\u00e9cnicos de ensamble de PCB", "Operadores SMT", "Operadores de soldadura", "Inspectores de QC", "Operadores AOI", "T\u00e9cnicos de retrabajo"]
+    },
+    "light-industrial": {
+      "title": "Industria Ligera",
+      "desc": "Ensambladores, operadores de m\u00e1quinas, trabajadores de producci\u00f3n, control de calidad, empaque y apoyo en l\u00ednea para entornos de manufactura de ritmo r\u00e1pido.",
+      "roles": ["Ensambladores", "Operadores de m\u00e1quinas", "Trabajadores de producci\u00f3n", "Inspectores de QC", "Operadores de empaque", "Apoyo en l\u00ednea"]
+    },
+    "warehouse-distribution": {
+      "title": "Almac\u00e9n y Distribuci\u00f3n",
+      "desc": "Selecci\u00f3n, empaque, recepci\u00f3n, operadores de montacargas, env\u00edo, control de inventario y soporte 3PL para operaciones de distribuci\u00f3n de alto volumen.",
+      "roles": ["Selectores de almac\u00e9n", "Empacadores", "Operadores de montacargas", "Personal de env\u00edo", "Personal de recepci\u00f3n", "Control de inventario"]
+    },
+    "supply-chain-logistics": {
+      "title": "Cadena de Suministro y Log\u00edstica",
+      "desc": "Coordinadores de log\u00edstica, especialistas en control de inventario, env\u00edo y recepci\u00f3n, y personal de apoyo de almac\u00e9n para operaciones de cadena de suministro.",
+      "roles": ["Coordinadores de log\u00edstica", "Especialistas en inventario", "Personal de env\u00edo", "Analistas de cadena de suministro", "Planificadores de materiales", "Supervisores de almac\u00e9n"]
+    },
+    "administrative-clerical": {
+      "title": "Administrativo y Oficina",
+      "desc": "Captura de datos, atenci\u00f3n al cliente, asistencia de oficina y soporte operativo de back-office para empresas industriales y de manufactura.",
+      "roles": ["Especialistas en captura de datos", "Representantes de atenci\u00f3n al cliente", "Personal de recepci\u00f3n", "Asistentes de oficina", "Coordinadores administrativos", "Personal de cuentas por pagar/cobrar"]
+    },
+    "general-labor": {
+      "title": "Trabajo General",
+      "desc": "Trabajo a corto plazo, temporal a permanente y basado en proyectos cuando necesita cobertura confiable sin demora.",
+      "roles": ["Trabajadores generales", "Cuadrillas de carga", "Preparaci\u00f3n de sitio", "Cuadrillas de limpieza", "Mudanza y montaje", "Trabajadores de temporada"]
+    }
+  }
+}

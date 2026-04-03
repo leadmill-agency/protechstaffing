@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "title": "Acerca de Pro-Tech Staffing | 30 A\u00f1os en Personal Industrial",
+    "description": "Pro-Tech Staffing tiene 30 a\u00f1os de experiencia en personal de manufactura electr\u00f3nica, industrial y de almac\u00e9n. Seis oficinas en TX, FL, CA y AZ."
+  },
+  "hero": {
+    "eyebrow": "Acerca de Pro-Tech Staffing",
+    "heading": "30 a\u00f1os de personal. Construido en la planta de producci\u00f3n.",
+    "description": "Pro-Tech Staffing fue fundada en manufactura electr\u00f3nica y creci\u00f3 hasta convertirse en un socio integral de personal industrial. Colocamos trabajadores en roles de industria ligera, almac\u00e9n, cadena de suministro y administrativos en seis mercados de EE. UU.",
+    "ctaRequestWorkers": "Solicitar Trabajadores",
+    "ctaFindJobs": "Buscar Empleos",
+    "imgAlt": "Trabajadores industriales de Pro-Tech Staffing en la planta de producci\u00f3n",
+    "statNumber": "30",
+    "statLabel": "a\u00f1os en el negocio"
+  },
+  "stats": {
+    "yearsInBusiness": { "n": "30", "label": "A\u00f1os en el negocio" },
+    "workersPlaced": { "n": "54K+", "label": "Trabajadores colocados" },
+    "usMarkets": { "n": "6", "label": "Mercados en EE. UU." },
+    "clientsReorder": { "n": "94%", "label": "Clientes que vuelven a solicitar" }
+  },
+  "ourStory": {
+    "eyebrow": "Nuestra Historia",
+    "heading": "Comenzamos en electr\u00f3nica.\nCrecimos hacia el personal industrial.",
+    "p1": "Pro-Tech Staffing comenz\u00f3 hace m\u00e1s de 30 a\u00f1os colocando trabajadores en manufactura electr\u00f3nica: ensamble de PCB, operaciones SMT, soldadura e inspecci\u00f3n de calidad. Esa base en precisi\u00f3n, capacitaci\u00f3n y responsabilidad form\u00f3 todo lo que hacemos.",
+    "p2": "Con el tiempo, nuestros clientes nos pidieron dotar de personal a operaciones adyacentes: equipos de almac\u00e9n, l\u00edneas de producci\u00f3n, roles de cadena de suministro y soporte administrativo. Nos expandimos porque el trabajo lo demand\u00f3, no porque busc\u00e1ramos volumen.",
+    "p3": "Hoy operamos seis oficinas en Texas, Florida, California y Arizona. Cada mercado cuenta con reclutadores locales que conocen a los empleadores, los puestos y el mercado laboral de su \u00e1rea."
+  },
+  "beliefs": {
+    "eyebrow": "Lo Que Creemos",
+    "heading": "Principios que gu\u00edan\nnuestra operaci\u00f3n.",
+    "staffingIsLocal": {
+      "title": "El personal es local",
+      "desc": "Las expectativas salariales, preferencias de turno, rango de traslado y competencia laboral cambian seg\u00fan el mercado. Nuestros reclutadores trabajan en el mercado local, no desde un centro de llamadas nacional."
+    },
+    "screenForRole": {
+      "title": "Evaluamos para el puesto, no solo el curr\u00edculum",
+      "desc": "Los roles industriales requieren habilidades espec\u00edficas, capacidades f\u00edsicas y confiabilidad. Evaluamos para el trabajo real: turno, sitio y entorno incluidos."
+    },
+    "stayInvolved": {
+      "title": "Seguimiento despu\u00e9s de la colocaci\u00f3n",
+      "desc": "Hacemos seguimiento tanto con el empleador como con el trabajador para asegurar que la asignaci\u00f3n sea correcta. Si algo necesita cambiar, lo resolvemos r\u00e1pido."
+    },
+    "doFewerThings": {
+      "title": "Hacer menos cosas, hacerlas bien",
+      "desc": "Dotamos de personal a roles industriales, de manufactura, almac\u00e9n y cadena de suministro. Ese enfoque es intencional. Conocemos estos entornos porque hemos trabajado en ellos durante 30 a\u00f1os."
+    }
+  },
+  "howWeWork": {
+    "eyebrow": "C\u00f3mo Trabajamos",
+    "heading": "Lo que hace diferente a Pro-Tech.",
+    "roleSpecific": {
+      "title": "Reclutamiento espec\u00edfico por puesto",
+      "desc": "No publicamos en bolsas de trabajo esperando lo mejor. Nuestros reclutadores buscan candidatos por puesto, turno y requisitos del sitio, para que los trabajadores que se presenten est\u00e9n realmente calificados para el trabajo."
+    },
+    "fillTime": {
+      "title": "Cobertura en 48 horas",
+      "desc": "La mayor\u00eda de los pedidos se cubren en 48 horas. Mantenemos canales activos de candidatos evaluados y listos para trabajar en cada mercado para actuar r\u00e1pido cuando necesite cobertura."
+    },
+    "localTeams": {
+      "title": "Equipos locales, relaciones reales",
+      "desc": "Cada mercado est\u00e1 cubierto por un reclutador local. Cuando llama, habla con alguien que conoce su instalaci\u00f3n, sus puestos y sus patrones de contrataci\u00f3n, no con un centro de llamadas."
+    }
+  },
+  "offices": {
+    "eyebrow": "Nuestras Oficinas",
+    "heading": "Seis mercados. Equipos locales en cada uno.",
+    "description": "Contratamos localmente, reclutamos localmente y apoyamos a nuestros clientes desde oficinas cercanas al trabajo.",
+    "richardson": { "city": "Richardson, TX", "tag": "Sede Principal", "desc": "Sede corporativa que sirve el corredor este de DFW: Dallas, Plano, Garland, Richardson." },
+    "bedford": { "city": "Bedford, TX", "tag": "DFW Metro", "desc": "Cubre el condado de Tarrant: Fort Worth, Arlington, Irving, Grand Prairie y las ciudades intermedias." },
+    "austin": { "city": "Austin, TX", "tag": "Central TX", "desc": "Sirviendo Austin, Round Rock, Cedar Park y el corredor manufacturero del centro de Texas." },
+    "tampa": { "city": "Tampa, FL", "tag": "Tampa Bay", "desc": "Cubriendo Tampa, Clearwater, St. Petersburg y el mercado industrial de Tampa Bay." },
+    "sanJose": { "city": "San Jose, CA", "tag": "Silicon Valley", "desc": "Personal de manufactura electr\u00f3nica para San Jose, Santa Clara, Milpitas y Fremont." },
+    "phoenix": { "city": "Phoenix, AZ", "tag": "Suroeste", "desc": "Sirviendo Phoenix, Tempe, Mesa y Chandler con personal industrial y de almac\u00e9n." }
+  },
+  "industriesOverview": {
+    "eyebrow": "Industrias que Servimos",
+    "heading": "Enfocados en lo industrial. No somos generalistas.",
+    "description": "Dotamos de personal a un conjunto espec\u00edfico de industrias porque ese enfoque es lo que nos hace efectivos. Nuestros reclutadores conocen estos entornos, estos puestos y c\u00f3mo se ve un buen desempe\u00f1o en la planta.",
+    "electronicsManufacturing": "Manufactura Electr\u00f3nica",
+    "lightIndustrial": "Industria Ligera",
+    "warehouseDistribution": "Almac\u00e9n y Distribuci\u00f3n",
+    "supplyChainLogistics": "Cadena de Suministro y Log\u00edstica",
+    "administrativeClerical": "Administrativo y Oficina",
+    "generalLabor": "Trabajo General"
+  },
+  "cta": {
+    "eyebrow": "Trabaje con Nosotros",
+    "heading": "\u00bfListo para comenzar?",
+    "description": "Ya sea que necesite trabajadores o est\u00e9 buscando empleo, podemos ayudar.",
+    "ctaRequestWorkers": "Solicitar Trabajadores",
+    "ctaFindJobs": "Buscar Empleos"
+  }
+}

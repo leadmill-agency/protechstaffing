@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "title": "Explore Jobs | Pro-Tech Staffing",
+    "description": "Browse open manufacturing, electronics, warehouse, and industrial positions across Texas, Florida, Arizona, and California. Apply today with Pro-Tech Staffing."
+  },
+  "hero": {
+    "eyebrow": "Find Your Next Role",
+    "heading": "Find a Job That Fits You",
+    "description": "Looking for your next role in manufacturing, electronics, or light industrial? We're actively placing workers at companies across Texas, Florida, Arizona, and California. Find an open position below or apply to our talent pool and let us match you.",
+    "ctaApply": "Apply Now"
+  },
+  "board": {
+    "eyebrow": "Open Positions",
+    "heading": "Browse Current Openings",
+    "description": "Search available roles by location, industry, or keyword. New positions are posted daily."
+  },
+  "process": {
+    "eyebrow": "How It Works",
+    "heading": "Our Hiring Process",
+    "apply": {
+      "title": "Apply",
+      "desc": "Submit your application online or visit one of our 6 offices. It takes less than 10 minutes."
+    },
+    "review": {
+      "title": "Review",
+      "desc": "Our recruiters review your experience, skills, and availability to find the best match."
+    },
+    "interview": {
+      "title": "Interview",
+      "desc": "Meet with a local recruiter who understands the work and can answer your questions."
+    },
+    "work": {
+      "title": "Work",
+      "desc": "Get placed at a job site, start earning, and build toward long-term opportunities."
+    }
+  },
+  "whyProTech": {
+    "eyebrow": "Why Work With Us",
+    "heading": "Why Work with Pro-Tech Staffing",
+    "body1": "We don't just fill shifts — we match people to roles where they can succeed. With 30 years in industrial staffing, our recruiters know the work, the employers, and the markets.",
+    "body2": "From temp assignments to direct-hire positions, we help workers across 6 US cities find roles that fit their experience, schedule, and career goals.",
+    "testimonial": {
+      "quote": "Pro-Tech got me placed within 48 hours. The recruiter actually listened to what I was looking for and matched me with the right company.",
+      "name": "Manufacturing Worker",
+      "role": "Placed via Pro-Tech Staffing, Richardson TX"
+    }
+  },
+  "whatWeDo": {
+    "eyebrow": "What We Offer",
+    "heading": "What can we actually do for you?",
+    "fastPlacement": {
+      "title": "Fast Placement",
+      "desc": "Most candidates are placed within 36 hours of applying. We move fast because employers need you now."
+    },
+    "roleMatching": {
+      "title": "Role Matching",
+      "desc": "We match your skills and experience to the right position — not just the first opening available."
+    },
+    "tempToHire": {
+      "title": "Temp-to-Hire Paths",
+      "desc": "Many of our positions convert to permanent roles. Start as a temp and earn your way to a full-time offer."
+    },
+    "localRecruiters": {
+      "title": "Local Recruiters",
+      "desc": "Our recruiters live in the markets they serve. They know the employers, the facilities, and the work."
+    },
+    "training": {
+      "title": "Training & Certification",
+      "desc": "Access IPC certification training (IPC-610, IPC-620, J-STD-001) through our in-house certified trainers."
+    },
+    "weeklyPay": {
+      "title": "Weekly Pay",
+      "desc": "Get paid every week. No waiting around for monthly checks or delayed processing."
+    }
+  },
+  "cta": {
+    "eyebrow": "Ready to Start",
+    "heading": "Don't see the right job?",
+    "description": "Submit your application and our recruiters will match you with opportunities as they open up.",
+    "ctaApply": "Apply Now"
+  }
+}

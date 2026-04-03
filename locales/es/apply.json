@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "title": "Aplicar Ahora | Pro-Tech Staffing",
+    "description": "Envíe su solicitud a Pro-Tech Staffing y únase a nuestro banco de talentos. Nuestros reclutadores lo conectarán con oportunidades en manufactura, almacén e industria."
+  },
+  "hero": {
+    "eyebrow": "Únase a Nuestro Banco de Talentos",
+    "heading": "Aplicar Ahora",
+    "description": "¿No ve un empleo específico? Envíe su solicitud y nuestro equipo lo conectará con la oportunidad correcta. Siempre estamos buscando trabajadores confiables en manufactura, almacén y puestos industriales."
+  },
+  "form": {
+    "title": "Formulario de Solicitud de Pro-Tech Staffing"
+  },
+  "faq": {
+    "eyebrow": "Después de Aplicar",
+    "heading": "¿Qué pasa después?",
+    "step1": {
+      "title": "Revisamos su solicitud",
+      "desc": "Un reclutador en su oficina más cercana revisa su experiencia, habilidades y disponibilidad — generalmente dentro de 24 horas."
+    },
+    "step2": {
+      "title": "Nos comunicamos con usted",
+      "desc": "Si hay una coincidencia, lo llamaremos o le enviaremos un mensaje de texto para discutir las posiciones disponibles y programar una entrevista."
+    },
+    "step3": {
+      "title": "Comienza a trabajar",
+      "desc": "Una vez colocado, recibirá los detalles de incorporación, su fecha de inicio y todo lo que necesita para comenzar."
+    }
+  },
+  "cta": {
+    "eyebrow": "Explorar Vacantes",
+    "heading": "¿Quiere ver posiciones específicas?",
+    "description": "Consulte nuestro tablero de empleos para ver lo que está disponible actualmente en su área.",
+    "ctaBrowse": "Ver Empleos Abiertos"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "title": "Empleadores | Pro-Tech Staffing \u2014 Personal Industrial y de Manufactura",
+    "description": "Solicite trabajadores industriales, de manufactura electr\u00f3nica y de almac\u00e9n de Pro-Tech Staffing. Personal temporal, temporal a permanente, colocaci\u00f3n directa, servicios de n\u00f3mina, PEO y consultor\u00eda."
+  },
+  "hero": {
+    "eyebrow": "Para Empleadores",
+    "heading": "\u00bfNecesita trabajadores? Cubramos el puesto.",
+    "description": "D\u00edganos el puesto, turno, ubicaci\u00f3n y fecha de inicio. Actuamos r\u00e1pido y lo mantenemos informado en cada paso.",
+    "ctaSubmit": "Enviar Solicitud de Personal",
+    "ctaPhone": "(972) 555-1234",
+    "servingNote": "Sirviendo Richardson, Bedford, Austin, Tampa, San Jose y Phoenix.",
+    "imgAlt": "Instalaci\u00f3n de manufactura electr\u00f3nica",
+    "statNumber": "36h",
+    "statLabel": "tiempo promedio al primer candidato"
+  },
+  "services": {
+    "eyebrow": "M\u00e1s All\u00e1 del Personal",
+    "heading": "M\u00e1s que trabajadores temporales.",
+    "description": "La mayor\u00eda de los empleadores solo piensan en Pro-Tech como personal temporal. Ofrecemos una gama completa de soluciones de fuerza laboral dise\u00f1adas para la forma en que los equipos industriales realmente operan.",
+    "temporaryStaffing": {
+      "title": "Personal Temporal",
+      "desc": "Cubra turnos r\u00e1pidamente con trabajadores pre-evaluados listos para producci\u00f3n, almac\u00e9n y roles industriales."
+    },
+    "tempToHire": {
+      "title": "Temporal a Permanente",
+      "desc": "Pruebe antes de comprometerse. Eval\u00fae trabajadores en el puesto antes de convertirlos a tiempo completo."
+    },
+    "directPlacement": {
+      "title": "Colocaci\u00f3n Directa",
+      "desc": "Reclutamos y colocamos empleados permanentes para puestos dif\u00edciles de cubrir para que su equipo pueda enfocarse en la producci\u00f3n."
+    },
+    "payrollServices": {
+      "title": "Servicios de N\u00f3mina",
+      "desc": "Delegue la administraci\u00f3n de n\u00f3mina mientras mantiene su fuerza laboral flexible y en cumplimiento."
+    },
+    "peo": {
+      "title": "PEO (Organizaci\u00f3n Profesional de Empleadores)",
+      "desc": "Soporte compartido de RR.HH., beneficios y cumplimiento para equipos en crecimiento que necesitan estructura sin gastos generales."
+    },
+    "consulting": {
+      "title": "Consultor\u00eda (Fuerza Laboral / Tecnolog\u00eda)",
+      "desc": "Orientaci\u00f3n estrat\u00e9gica en planificaci\u00f3n de fuerza laboral, mejora de procesos y adopci\u00f3n de tecnolog\u00eda para operaciones industriales."
+    }
+  },
+  "certification": {
+    "eyebrow": "Diferenciador Clave",
+    "heading": "Trabajadores certificados antes de llegar a su planta.",
+    "description1": "La queja m\u00e1s grande en personal de manufactura electr\u00f3nica: no hay suficientes candidatos calificados y certificados en el mercado. Las agencias env\u00edan cuerpos. Nosotros enviamos trabajadores capacitados.",
+    "description2": "Pro-Tech cuenta con instructores IPC certificados en su equipo que capacitan y certifican candidatos antes de que comiencen. Sus trabajadores llegan listos para trabajar seg\u00fan especificaciones desde el primer d\u00eda.",
+    "cta": "Solicitar Trabajadores Certificados",
+    "certsEyebrow": "Certificaciones que Impartimos",
+    "ipc610": {
+      "title": "IPC-610",
+      "subtitle": "Aceptabilidad de Ensambles Electr\u00f3nicos",
+      "desc": "El est\u00e1ndar de la industria para evaluar la calidad del ensamble electr\u00f3nico. Trabajadores capacitados para identificar y clasificar defectos."
+    },
+    "ipc620": {
+      "title": "IPC-620",
+      "subtitle": "Ensambles de Cables y Arneses",
+      "desc": "Requisitos y criterios de aceptaci\u00f3n para ensambles de cables y arneses utilizados en manufactura electr\u00f3nica."
+    },
+    "jstd001": {
+      "title": "J-STD-001",
+      "subtitle": "Soldadura",
+      "desc": "El est\u00e1ndar conjunto de la industria para soldadura. Trabajadores certificados en control de procesos y requisitos de mano de obra."
+    },
+    "footerHighlight": "Instructores IPC certificados internos en nuestro equipo.",
+    "footerNote": "Los candidatos llegan certificados y listos para trabajar seg\u00fan especificaciones desde el primer d\u00eda."
+  },
+  "cta": {
+    "eyebrow": "Comience Ahora",
+    "heading": "\u00bfListo para contratar personal?",
+    "description": "Env\u00edenos el puesto, turno, ubicaci\u00f3n y fecha de inicio. Le responderemos r\u00e1pidamente.",
+    "callUs": "Ll\u00e1menos Ahora",
+    "emailUs": "Env\u00edenos un Correo"
+  }
+}

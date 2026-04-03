@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "title": "Buscar Empleos | Pro-Tech Staffing \u2014 Empleos de Manufactura e Industriales",
+    "description": "Encuentre empleos de manufactura, almac\u00e9n e industriales cerca de usted. Pro-Tech Staffing coloca trabajadores en roles de electr\u00f3nica, industria ligera, almac\u00e9n y cadena de suministro en 6 mercados de EE. UU."
+  },
+  "hero": {
+    "eyebrow": "Para Buscadores de Empleo",
+    "heading": "\u00bfBusca trabajo? Colocamos personas r\u00e1pido.",
+    "description": "Trabajamos con empresas en entornos de manufactura electr\u00f3nica, industria ligera, almac\u00e9n, cadena de suministro y administrativos. Trabajo estable, pago semanal y oportunidades reales para avanzar a puestos permanentes.",
+    "benefits": ["Pago semanal", "Vacantes activas", "Oportunidades temporal a permanente", "Turnos diurnos y nocturnos", "Desde nivel inicial hasta experimentados", "Apoyo de reclutador"],
+    "ctaViewPositions": "Ver Posiciones Disponibles",
+    "ctaSubmitApplication": "Enviar Solicitud General",
+    "imgAlt": "Trabajador de almac\u00e9n listo para colocaci\u00f3n"
+  },
+  "whyProTech": {
+    "eyebrow": "Por Qu\u00e9 Pro-Tech",
+    "heading": "Empleos reales. Apoyo real.",
+    "description": "No solo lo enviamos a un sitio de trabajo y desaparecemos. Nuestros reclutadores conocen los puestos, las empresas y los entornos. Lo colocamos donde pueda tener \u00e9xito.",
+    "fastPlacement": {
+      "title": "Colocaci\u00f3n R\u00e1pida",
+      "desc": "Actuamos r\u00e1pidamente. Muchos trabajadores comienzan a los pocos d\u00edas de su primera conversaci\u00f3n con un reclutador."
+    },
+    "roleMatched": {
+      "title": "Asignaci\u00f3n por Puesto",
+      "desc": "Lo asignamos seg\u00fan sus habilidades, experiencia, preferencia de turno y ubicaci\u00f3n, no solo por disponibilidad."
+    },
+    "tempToHirePaths": {
+      "title": "Oportunidades Temporal a Permanente",
+      "desc": "Muchas de nuestras colocaciones se convierten en posiciones permanentes. Pres\u00e9ntese, haga el trabajo y gane una oferta de tiempo completo."
+    },
+    "localRecruiters": {
+      "title": "Reclutadores Locales",
+      "desc": "Su reclutador conoce las empresas en su \u00e1rea. Pueden decirle qu\u00e9 esperar antes del primer d\u00eda."
+    },
+    "trainingCertification": {
+      "title": "Capacitaci\u00f3n y Certificaci\u00f3n",
+      "desc": "Ofrecemos capacitaci\u00f3n en certificaci\u00f3n IPC (IPC-610, IPC-620, J-STD-001) para roles de manufactura electr\u00f3nica."
+    },
+    "weeklyPay": {
+      "title": "Pago Semanal",
+      "desc": "Reciba su pago cada semana. Sin esperar cheques mensuales."
+    }
+  },
+  "industries": {
+    "eyebrow": "Industrias",
+    "heading": "Empleos en manufactura, almac\u00e9n e industria.",
+    "viewRoles": "Ver puestos \u2192",
+    "electronicsManufacturing": {
+      "title": "Manufactura Electr\u00f3nica",
+      "desc": "Ensamble de PCB, SMT, soldadura, inspecci\u00f3n de QC, t\u00e9cnicos de prueba, operadores AOI, retrabajo."
+    },
+    "lightIndustrial": {
+      "title": "Industria Ligera",
+      "desc": "Ensambladores, operadores de m\u00e1quinas, trabajadores de producci\u00f3n, control de calidad, empaque."
+    },
+    "warehouseDistribution": {
+      "title": "Almac\u00e9n y Distribuci\u00f3n",
+      "desc": "Selecci\u00f3n, empaque, recepci\u00f3n, montacargas, env\u00edo, inventario, soporte 3PL."
+    },
+    "supplyChainLogistics": {
+      "title": "Cadena de Suministro y Log\u00edstica",
+      "desc": "Coordinadores de log\u00edstica, control de inventario, env\u00edo y recepci\u00f3n."
+    },
+    "administrative": {
+      "title": "Administrativo",
+      "desc": "Captura de datos, atenci\u00f3n al cliente, oficina, operaciones de back-office."
+    },
+    "generalLabor": {
+      "title": "Trabajo General",
+      "desc": "Trabajo a corto plazo, temporal a permanente y basado en proyectos."
+    }
+  },
+  "locations": {
+    "eyebrow": "D\u00f3nde Contratamos",
+    "heading": "Empleos cerca de usted.",
+    "description": "Tenemos oficinas y vacantes activas en seis mercados de EE. UU. Encuentre empleos en su \u00e1rea."
+  },
+  "openPositions": {
+    "eyebrow": "Posiciones Disponibles",
+    "heading": "Vacantes actuales.",
+    "description": "Explore nuestras \u00faltimas vacantes o env\u00ede una solicitud general para ser considerado en futuros puestos.",
+    "placeholder": "Bolsa de trabajo pr\u00f3ximamente. Mientras tanto, env\u00ede una solicitud general y nuestros reclutadores lo asignar\u00e1n a puestos disponibles.",
+    "ctaSubmit": "Enviar Solicitud General"
+  },
+  "cta": {
+    "eyebrow": "Aplique Ahora",
+    "heading": "\u00bfListo para comenzar?",
+    "description": "Ll\u00e1menos o env\u00ede su informaci\u00f3n. Nuestros reclutadores se comunicar\u00e1n para asignarlo a puestos disponibles en su \u00e1rea.",
+    "callUs": "Ll\u00e1menos",
+    "emailResume": "Env\u00ede su Curr\u00edculum"
+  }
+}

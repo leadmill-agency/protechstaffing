@@ -1,0 +1,207 @@
+{
+  "hero": {
+    "eyebrow": "Nhân Sự Sản Xuất Điện Tử & Công Nghiệp",
+    "headline": "Việc làm sản xuất và công nghiệp. Tuyển nhanh, đúng người.",
+    "subhead": "30 năm kết nối người lao động với các vị trí điện tử, kho bãi và công nghiệp tại 6 thị trường trên toàn nước Mỹ. Đội ngũ tuyển dụng địa phương am hiểu công việc.",
+    "ctaPrimary": "Yêu Cầu Nhân Sự",
+    "ctaSecondary": "Tìm Việc Làm",
+    "statChipValue": "36h",
+    "statChipLabel": "thời gian trung bình tìm ứng viên đầu tiên",
+    "operatingIn": "Hoạt động tại",
+    "cities": {
+      "richardsonTx": "Richardson TX",
+      "bedfordTx": "Bedford TX",
+      "austinTx": "Austin TX",
+      "tampaFl": "Tampa FL",
+      "sanJoseCa": "San Jose CA",
+      "phoenixAz": "Phoenix AZ"
+    }
+  },
+  "statsBar": {
+    "workersPlaced": { "number": "54K+", "label": "Nhân viên đã bố trí" },
+    "avgTime": { "number": "36h", "label": "Thời gian trung bình tìm ứng viên đầu tiên" },
+    "fillRate": { "number": "97%", "label": "Tỷ lệ lấp đầy đúng hạn" },
+    "clientsReorder": { "number": "94%", "label": "Khách hàng quay lại trong vòng 30 ngày" },
+    "yearsInBusiness": { "number": "30", "label": "Năm hoạt động" }
+  },
+  "employers": {
+    "eyebrow": "Dành Cho Nhà Tuyển Dụng",
+    "headline": "Khi một ca làm thiếu người,\nsản xuất phải trả giá.",
+    "body1": "Chúng tôi giúp nhà tuyển dụng giảm tình trạng vắng mặt, nhân sự không phù hợp, đào tạo lại và tăng ca bằng phản hồi nhanh hơn, sàng lọc kỹ hơn và đội ngũ tuyển dụng địa phương am hiểu công việc.",
+    "body2": "Bạn không cần thêm hồ sơ. Bạn cần nhân viên đến đúng giờ, phù hợp vai trò và có thể làm việc an toàn ngay từ ngày đầu tiên. Đó là điều chúng tôi tập trung vào.",
+    "features": {
+      "screening": {
+        "title": "Sàng lọc theo vị trí cụ thể",
+        "desc": "Mỗi ứng viên được sàng lọc theo công việc, ca làm và môi trường làm việc trước khi đến xưởng của bạn."
+      },
+      "fastResponse": {
+        "title": "Phản hồi nhanh khi bạn cần người",
+        "desc": "Gửi vị trí, ca làm, ngày bắt đầu và mức lương. Chúng tôi hành động ngay."
+      },
+      "recruiters": {
+        "title": "Nhà tuyển dụng am hiểu công việc",
+        "desc": "Đội ngũ của bạn làm việc với những nhà tuyển dụng hiểu rõ các vị trí, môi trường làm việc và tiêu chuẩn chất lượng tại xưởng."
+      }
+    },
+    "cta": "Gửi Yêu Cầu Tuyển Dụng",
+    "statChipValue": "94%",
+    "statChipLabel": "khách hàng quay lại trong vòng 30 ngày"
+  },
+  "industries": {
+    "eyebrow": "Ngành Nghề Phục Vụ",
+    "headline": "Chúng tôi chỉ cung ứng nhân sự cho các ngành chúng tôi am hiểu nhất.",
+    "subhead": "Vị trí kho bãi khác với vị trí điện tử. Thợ vận hành máy khác với nhân viên hành chính tạm thời. Sau 30 năm trong các môi trường này, chúng tôi tuyển dụng theo vai trò, ca làm và yêu cầu tại xưởng — không chỉ theo sự sẵn có.",
+    "list": {
+      "electronics": {
+        "title": "Nhân Sự Sản Xuất Điện Tử",
+        "desc": "Lắp ráp PCB, kỹ thuật viên SMT, thợ hàn, kiểm tra viên QC, kỹ thuật viên kiểm tra, vận hành viên AOI, kỹ thuật viên sửa chữa và nhân viên sản xuất.",
+        "cert": "Chúng tôi đào tạo và cấp chứng chỉ IPC-610, IPC-620 và J-STD-001 cho nhân viên."
+      },
+      "lightIndustrial": {
+        "title": "Nhân Sự Công Nghiệp Nhẹ",
+        "desc": "Thợ lắp ráp, thợ vận hành máy, công nhân sản xuất, kiểm soát chất lượng, đóng gói và hỗ trợ dây chuyền."
+      },
+      "warehouse": {
+        "title": "Nhân Sự Kho Bãi",
+        "desc": "Lấy hàng, đóng gói, nhận hàng, vận hành xe nâng, giao hàng, kiểm kê và hỗ trợ 3PL."
+      },
+      "supplyChain": {
+        "title": "Nhân Sự Chuỗi Cung Ứng",
+        "desc": "Điều phối viên hậu cần, kiểm soát hàng tồn kho, nhận và giao hàng, nhân viên hỗ trợ kho bãi."
+      },
+      "administrative": {
+        "title": "Nhân Sự Hành Chính",
+        "desc": "Nhập liệu, hỗ trợ khách hàng, trợ lý văn thư và hỗ trợ vận hành văn phòng."
+      },
+      "generalLabor": {
+        "title": "Lao Động Phổ Thông",
+        "desc": "Lao động ngắn hạn, tạm thời sang chính thức và theo dự án khi bạn cần người ngay không chậm trễ."
+      }
+    }
+  },
+  "howItWorks": {
+    "eyebrow": "Quy Trình",
+    "headline": "Ba bước.\nLấp đầy nhanh.\nÍt lo lắng hơn.",
+    "body1": "Bạn không cần quy trình tiếp nhận rườm rà. Cho chúng tôi biết bạn cần gì, chúng tôi bắt tay vào việc.",
+    "body2": "Cần nhân sự tạm thời, tạm thời sang chính thức, hay tuyển dụng trực tiếp? Chúng tôi đáp ứng cả ba.",
+    "steps": {
+      "step1": {
+        "n": "01",
+        "title": "Cho chúng tôi biết nhu cầu",
+        "desc": "Gửi vị trí, ca làm, địa điểm, ngày bắt đầu, mức lương và các yêu cầu bắt buộc."
+      },
+      "step2": {
+        "n": "02",
+        "title": "Chúng tôi tìm kiếm và sàng lọc",
+        "desc": "Đội ngũ tuyển dụng tìm ứng viên từ nguồn địa phương đang hoạt động và sàng lọc theo sự phù hợp, độ tin cậy và sự sẵn sàng."
+      },
+      "step3": {
+        "n": "03",
+        "title": "Nhân viên đến sẵn sàng làm việc",
+        "desc": "Ứng viên đến đã chuẩn bị cho vai trò, và chúng tôi tiếp tục theo dõi để giải quyết vấn đề nhanh chóng."
+      }
+    }
+  },
+  "locations": {
+    "eyebrow": "Địa Điểm",
+    "headline": "Nhà tuyển dụng địa phương.\nAm hiểu thị trường thực tế.",
+    "body1": "Tuyển dụng công nghiệp mang tính địa phương. Kỳ vọng lương, sở thích ca làm, phạm vi di chuyển và cạnh tranh lao động đều thay đổi theo thị trường. Đó là lý do mỗi địa điểm được hỗ trợ bởi đội ngũ địa phương am hiểu các vị trí, nhà tuyển dụng và nguồn lao động.",
+    "body2": "Chúng tôi tuyển dụng tại chỗ để bạn có được ứng viên nhanh hơn, chuyên cần tốt hơn và ít bất ngờ hơn.",
+    "viewMarket": "Xem thị trường →",
+    "markets": {
+      "richardson": {
+        "city": "Richardson",
+        "state": "TX",
+        "label": "Trụ Sở Chính",
+        "roles": "Công nghiệp nhẹ, sản xuất điện tử, kho bãi",
+        "serving": "Dallas · Plano · Garland · Carrollton · Richardson"
+      },
+      "bedford": {
+        "city": "Bedford",
+        "state": "TX",
+        "label": "Vùng DFW",
+        "roles": "Công nghiệp, kho bãi, chuỗi cung ứng, lao động phổ thông",
+        "serving": "Fort Worth · Arlington · Irving · Grand Prairie · Bedford"
+      },
+      "austin": {
+        "city": "Austin",
+        "state": "TX",
+        "label": "Trung Tâm TX",
+        "roles": "Công nghiệp nhẹ, điện tử, hành chính",
+        "serving": "Austin · Round Rock · Cedar Park · Pflugerville"
+      },
+      "tampa": {
+        "city": "Tampa",
+        "state": "FL",
+        "label": "Tampa Bay",
+        "roles": "Sản xuất điện tử, công nghiệp nhẹ, kho bãi",
+        "serving": "Tampa · Clearwater · St. Petersburg · Largo"
+      },
+      "sanJose": {
+        "city": "San Jose",
+        "state": "CA",
+        "label": "Silicon Valley",
+        "roles": "Lắp ráp PCB, SMT, sản xuất điện tử, QC",
+        "serving": "San Jose · Santa Clara · Milpitas · Fremont"
+      },
+      "phoenix": {
+        "city": "Phoenix",
+        "state": "AZ",
+        "label": "Tây Nam",
+        "roles": "Sản xuất điện tử, kho bãi, công nghiệp nhẹ",
+        "serving": "Phoenix · Tempe · Mesa · Chandler"
+      }
+    }
+  },
+  "testimonials": {
+    "eyebrow": "Kết Quả Khách Hàng",
+    "ratingText": "4.8 · 120+ đánh giá xác minh",
+    "headline": "Khách hàng nói gì.",
+    "subhead": "Đối tác nhân sự phù hợp giảm trở ngại. Đối tác sai tạo thêm trở ngại.",
+    "reviews": {
+      "review1": {
+        "headline": "14 vị trí được lấp đầy trong 48 giờ",
+        "quote": "Pro-Tech đã lấp đầy 14 vị trí cho chúng tôi trong chưa đầy 48 giờ vào mùa cao điểm. Quan trọng hơn, nhân viên đến làm việc và 9 người đã chuyển sang chính thức. Sự ổn định đó quan trọng hơn lời hứa.",
+        "name": "Giám Đốc Vận Hành",
+        "role": "Nhà Sản Xuất Điện Tử",
+        "location": "Richardson, TX"
+      },
+      "review2": {
+        "headline": "Cuối cùng, một công ty sàng lọc nhân viên đúng cách",
+        "quote": "Chúng tôi đã trải qua các công ty nhân sự liên tục gửi nhân viên chưa được sàng lọc. Pro-Tech thì khác. Họ hiểu công việc, ca làm và loại người thực sự phù hợp tại xưởng của chúng tôi.",
+        "name": "Quản Lý Nhân Sự",
+        "role": "Kho Bãi & 3PL",
+        "location": "Phoenix, AZ"
+      },
+      "review3": {
+        "headline": "Phản hồi nhanh giữ cho sản xuất vận hành",
+        "quote": "Sự khác biệt lớn nhất là tốc độ phản hồi. Khi có thay đổi, tôi gọi và nhận câu trả lời nhanh chóng. Điều đó tiết kiệm thời gian cho quản lý và giữ sản xuất vận hành.",
+        "name": "Quản Đốc Nhà Máy",
+        "role": "Sản Xuất Nhẹ",
+        "location": "Tampa, FL"
+      }
+    }
+  },
+  "jobSeekers": {
+    "eyebrow": "Dành Cho Người Tìm Việc",
+    "headline": "Đang tìm việc?\nChúng tôi bố trí nhanh.",
+    "body": "Chúng tôi hợp tác với các công ty trong lĩnh vực công nghiệp nhẹ, điện tử, kho bãi, chuỗi cung ứng và hành chính. Nếu bạn muốn công việc ổn định, lương tuần và cơ hội thực sự để chuyển sang vị trí tạm thời sang chính thức hoặc dài hạn, chúng tôi có thể giúp.",
+    "benefits": {
+      "weeklyPay": "Lương tuần",
+      "activeOpenings": "Vị trí đang tuyển",
+      "tempToHire": "Lộ trình tạm thời sang chính thức",
+      "shifts": "Ca ngày và ca đêm",
+      "entryLevel": "Từ cơ bản đến có kinh nghiệm",
+      "recruiterSupport": "Hỗ trợ từ nhà tuyển dụng"
+    },
+    "cta": "Xem Vị Trí Đang Tuyển"
+  },
+  "ctaBand": {
+    "eyebrow": "Bắt Đầu",
+    "headline": "Cần nhân sự gấp?\nHãy để chúng tôi giúp.",
+    "body1": "Gửi cho chúng tôi vị trí, ca làm, địa điểm và ngày bắt đầu. Chúng tôi sẽ hành động nhanh và thông báo bước tiếp theo.",
+    "body2": "Nhân sự công nghiệp, điện tử, kho bãi và chuỗi cung ứng tại sáu thị trường đang hoạt động.",
+    "ctaCall": "Gọi Ngay",
+    "ctaRequest": "Gửi Yêu Cầu Tuyển Dụng"
+  }
+}

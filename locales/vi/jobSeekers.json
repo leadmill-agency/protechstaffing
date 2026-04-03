@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "title": "Tìm Việc Làm | Pro-Tech Staffing — Việc Làm Sản Xuất & Công Nghiệp",
+    "description": "Tìm việc làm sản xuất, kho bãi và công nghiệp gần bạn. Pro-Tech Staffing bố trí nhân viên trong các vị trí điện tử, công nghiệp nhẹ, kho bãi và chuỗi cung ứng tại 6 thị trường trên toàn nước Mỹ."
+  },
+  "hero": {
+    "eyebrow": "Dành Cho Người Tìm Việc",
+    "heading": "Đang tìm việc? Chúng tôi bố trí nhanh.",
+    "description": "Chúng tôi hợp tác với các công ty trong lĩnh vực sản xuất điện tử, công nghiệp nhẹ, kho bãi, chuỗi cung ứng và hành chính. Công việc ổn định, lương tuần và cơ hội thực sự để chuyển sang vị trí chính thức.",
+    "benefits": ["Lương tuần", "Vị trí đang tuyển", "Lộ trình tạm thời sang chính thức", "Ca ngày và ca đêm", "Từ cơ bản đến có kinh nghiệm", "Hỗ trợ từ nhà tuyển dụng"],
+    "ctaViewPositions": "Xem Vị Trí Đang Tuyển",
+    "ctaSubmitApplication": "Gửi Đơn Ứng Tuyển Chung",
+    "imgAlt": "Nhân viên kho bãi sẵn sàng làm việc"
+  },
+  "whyProTech": {
+    "eyebrow": "Tại Sao Chọn Pro-Tech",
+    "heading": "Việc thật. Hỗ trợ thật.",
+    "description": "Chúng tôi không chỉ gửi bạn đến nơi làm việc rồi biến mất. Đội ngũ tuyển dụng hiểu rõ các vị trí, công ty và môi trường làm việc. Bạn được bố trí đến nơi phù hợp để thành công.",
+    "fastPlacement": {
+      "title": "Bố Trí Nhanh",
+      "desc": "Chúng tôi hành động nhanh. Nhiều nhân viên bắt đầu làm việc trong vài ngày sau cuộc trao đổi đầu tiên với nhà tuyển dụng."
+    },
+    "roleMatched": {
+      "title": "Phù Hợp Vai Trò",
+      "desc": "Chúng tôi ghép nối bạn dựa trên kỹ năng, kinh nghiệm, sở thích ca làm và địa điểm — không chỉ theo sự sẵn có."
+    },
+    "tempToHirePaths": {
+      "title": "Lộ Trình Tạm Thời Sang Chính Thức",
+      "desc": "Nhiều vị trí của chúng tôi chuyển sang chính thức. Đến làm, hoàn thành tốt công việc và nhận được đề nghị toàn thời gian."
+    },
+    "localRecruiters": {
+      "title": "Nhà Tuyển Dụng Địa Phương",
+      "desc": "Nhà tuyển dụng của bạn hiểu rõ các công ty trong khu vực. Họ có thể cho bạn biết trước những gì cần chuẩn bị trước ngày đầu tiên."
+    },
+    "trainingCertification": {
+      "title": "Đào Tạo & Chứng Chỉ",
+      "desc": "Chúng tôi cung cấp đào tạo chứng chỉ IPC (IPC-610, IPC-620, J-STD-001) cho các vị trí sản xuất điện tử."
+    },
+    "weeklyPay": {
+      "title": "Lương Tuần",
+      "desc": "Nhận lương mỗi tuần. Không phải chờ đợi lương tháng."
+    }
+  },
+  "industries": {
+    "eyebrow": "Ngành Nghề",
+    "heading": "Việc làm trong sản xuất, kho bãi và công nghiệp.",
+    "viewRoles": "Xem vị trí →",
+    "electronicsManufacturing": {
+      "title": "Sản Xuất Điện Tử",
+      "desc": "Lắp ráp PCB, SMT, hàn, kiểm tra QC, kỹ thuật viên kiểm tra, vận hành viên AOI, sửa chữa."
+    },
+    "lightIndustrial": {
+      "title": "Công Nghiệp Nhẹ",
+      "desc": "Thợ lắp ráp, thợ vận hành máy, công nhân sản xuất, kiểm soát chất lượng, đóng gói."
+    },
+    "warehouseDistribution": {
+      "title": "Kho Bãi & Phân Phối",
+      "desc": "Lấy hàng, đóng gói, nhận hàng, xe nâng, giao hàng, kiểm kê, hỗ trợ 3PL."
+    },
+    "supplyChainLogistics": {
+      "title": "Chuỗi Cung Ứng & Hậu Cần",
+      "desc": "Điều phối viên hậu cần, kiểm soát hàng tồn kho, nhận và giao hàng."
+    },
+    "administrative": {
+      "title": "Hành Chính",
+      "desc": "Nhập liệu, hỗ trợ khách hàng, văn thư, vận hành văn phòng."
+    },
+    "generalLabor": {
+      "title": "Lao Động Phổ Thông",
+      "desc": "Lao động ngắn hạn, tạm thời sang chính thức và theo dự án."
+    }
+  },
+  "locations": {
+    "eyebrow": "Nơi Chúng Tôi Tuyển Dụng",
+    "heading": "Việc làm gần bạn.",
+    "description": "Chúng tôi có văn phòng và vị trí đang tuyển tại sáu thị trường trên toàn nước Mỹ. Tìm việc làm trong khu vực của bạn."
+  },
+  "openPositions": {
+    "eyebrow": "Vị Trí Đang Tuyển",
+    "heading": "Vị trí hiện có.",
+    "description": "Xem các vị trí tuyển dụng mới nhất hoặc gửi đơn ứng tuyển chung để được xem xét cho các vị trí tương lai.",
+    "placeholder": "Bảng việc làm sắp ra mắt. Trong thời gian này, hãy gửi đơn ứng tuyển chung và đội ngũ tuyển dụng sẽ ghép nối bạn với các vị trí đang có.",
+    "ctaSubmit": "Gửi Đơn Ứng Tuyển Chung"
+  },
+  "cta": {
+    "eyebrow": "Ứng Tuyển Ngay",
+    "heading": "Sẵn sàng bắt đầu?",
+    "description": "Gọi cho chúng tôi hoặc gửi thông tin. Đội ngũ tuyển dụng sẽ liên hệ để ghép nối bạn với các vị trí phù hợp trong khu vực.",
+    "callUs": "Gọi Điện",
+    "emailResume": "Gửi Hồ Sơ Qua Email"
+  }
+}

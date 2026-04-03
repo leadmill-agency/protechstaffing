@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "title": "Ứng Tuyển Ngay | Pro-Tech Staffing",
+    "description": "Gửi đơn ứng tuyển đến Pro-Tech Staffing và tham gia ngân hàng nhân tài của chúng tôi. Đội ngũ tuyển dụng sẽ kết nối bạn với các cơ hội trong sản xuất, kho bãi và công nghiệp."
+  },
+  "hero": {
+    "eyebrow": "Tham Gia Ngân Hàng Nhân Tài",
+    "heading": "Ứng Tuyển Ngay",
+    "description": "Không tìm thấy công việc cụ thể? Gửi đơn ứng tuyển và đội ngũ của chúng tôi sẽ kết nối bạn với cơ hội phù hợp. Chúng tôi luôn tìm kiếm người lao động đáng tin cậy trong lĩnh vực sản xuất, kho bãi và công nghiệp."
+  },
+  "form": {
+    "title": "Đơn Ứng Tuyển Pro-Tech Staffing"
+  },
+  "faq": {
+    "eyebrow": "Sau Khi Ứng Tuyển",
+    "heading": "Điều gì xảy ra tiếp theo?",
+    "step1": {
+      "title": "Chúng tôi xem xét đơn của bạn",
+      "desc": "Nhà tuyển dụng tại văn phòng gần nhất sẽ xem xét kinh nghiệm, kỹ năng và lịch trình của bạn — thường trong vòng 24 giờ."
+    },
+    "step2": {
+      "title": "Chúng tôi liên hệ với bạn",
+      "desc": "Nếu có vị trí phù hợp, chúng tôi sẽ gọi hoặc nhắn tin để thảo luận về các vị trí có sẵn và sắp xếp phỏng vấn."
+    },
+    "step3": {
+      "title": "Bạn bắt đầu làm việc",
+      "desc": "Sau khi được sắp xếp, bạn sẽ nhận thông tin hướng dẫn, ngày bắt đầu và mọi thứ cần thiết để bắt đầu ngay."
+    }
+  },
+  "cta": {
+    "eyebrow": "Xem Vị Trí Tuyển",
+    "heading": "Muốn xem các vị trí cụ thể?",
+    "description": "Xem bảng việc làm của chúng tôi để biết những gì đang có trong khu vực của bạn.",
+    "ctaBrowse": "Xem Việc Làm Đang Tuyển"
+  }
+}

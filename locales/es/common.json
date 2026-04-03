@@ -1,0 +1,92 @@
+{
+  "nav": {
+    "links": {
+      "jobSeekers": "Buscar Empleo",
+      "employers": "Empleadores",
+      "industries": "Industrias",
+      "locations": "Ubicaciones",
+      "about": "Nosotros"
+    },
+    "cta": {
+      "findJobs": "Ver Empleos",
+      "hireWorkers": "Contratar"
+    },
+    "viewAll": "Ver Todos {{section}}"
+  },
+  "navDropdowns": {
+    "jobSeekers": {
+      "exploreJobs": "Explorar Empleos",
+      "applyNow": "Aplicar Ahora"
+    },
+    "industries": {
+      "electronicsManufacturing": "Manufactura Electr\u00f3nica",
+      "lightIndustrial": "Industria Ligera",
+      "warehouseDistribution": "Almac\u00e9n y Distribuci\u00f3n",
+      "supplyChainLogistics": "Cadena de Suministro y Log\u00edstica",
+      "administrativeClerical": "Administrativo y Oficina",
+      "generalLabor": "Trabajo General"
+    },
+    "locations": {
+      "richardsonTx": "Richardson, TX",
+      "bedfordTx": "Bedford, TX",
+      "austinTx": "Austin, TX",
+      "tampaFl": "Tampa, FL",
+      "sanJoseCa": "San Jose, CA",
+      "phoenixAz": "Phoenix, AZ"
+    }
+  },
+  "footer": {
+    "tagline": "Personal operativo con disciplina. Colocaciones industriales, electr\u00f3nicas, de almac\u00e9n y cadena de suministro en 6 mercados de EE. UU.",
+    "social": {
+      "linkedin": "LinkedIn",
+      "google": "Google",
+      "indeed": "Indeed"
+    },
+    "servicesHeading": "Servicios",
+    "services": {
+      "temporaryStaffing": "Personal Temporal",
+      "tempToHire": "Temporal a Permanente",
+      "directPlacement": "Colocaci\u00f3n Directa",
+      "contractStaffing": "Personal por Contrato",
+      "onSiteManagement": "Gesti\u00f3n en Sitio"
+    },
+    "industriesHeading": "Industrias",
+    "industries": {
+      "electronicsManufacturing": "Manufactura Electr\u00f3nica",
+      "lightIndustrial": "Industria Ligera",
+      "warehouse3pl": "Almac\u00e9n y 3PL",
+      "supplyChain": "Cadena de Suministro",
+      "administrative": "Administrativo",
+      "generalLabor": "Trabajo General"
+    },
+    "officesHeading": "Oficinas",
+    "offices": {
+      "richardsonHq": "Richardson, TX (Sede)",
+      "bedford": "Bedford, TX",
+      "austin": "Austin, TX",
+      "tampa": "Tampa, FL",
+      "sanJose": "San Jose, CA",
+      "phoenix": "Phoenix, AZ"
+    },
+    "copyright": "\u00a9 2025 Pro-Tech Staffing Services. Todos los derechos reservados.",
+    "legal": {
+      "privacy": "Pol\u00edtica de Privacidad",
+      "terms": "T\u00e9rminos de Servicio",
+      "accessibility": "Accesibilidad"
+    }
+  },
+  "cta": {
+    "requestWorkers": "Solicitar Trabajadores",
+    "submitStaffingRequest": "Enviar Solicitud de Personal",
+    "callUsNow": "Ll\u00e1menos Ahora",
+    "viewOpenPositions": "Ver Posiciones Disponibles"
+  },
+  "stats": {
+    "workersPlaced": "Trabajadores colocados",
+    "avgTimeToCandidate": "Tiempo promedio al primer candidato",
+    "onTimeFillRate": "Tasa de cobertura a tiempo",
+    "clientsReorder": "Clientes que vuelven a solicitar en 30 d\u00edas",
+    "yearsInBusiness": "A\u00f1os en el negocio",
+    "clientsReorderChip": "de los clientes vuelven a solicitar en 30 d\u00edas"
+  }
+}

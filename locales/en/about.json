@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "title": "About Pro-Tech Staffing | 30 Years in Industrial Staffing",
+    "description": "Pro-Tech Staffing has 30 years of experience in electronics manufacturing, industrial, and warehouse staffing. Six offices across TX, FL, CA, and AZ."
+  },
+  "hero": {
+    "eyebrow": "About Pro-Tech Staffing",
+    "heading": "30 years of staffing. Built on the production floor.",
+    "description": "Pro-Tech Staffing was founded in electronics manufacturing and grew into a full-service industrial staffing partner. We place workers in light industrial, warehouse, supply chain, and administrative roles across six US markets.",
+    "ctaRequestWorkers": "Request Workers",
+    "ctaFindJobs": "Find Jobs",
+    "imgAlt": "Pro-Tech Staffing industrial workers on production floor",
+    "statNumber": "30",
+    "statLabel": "years in business"
+  },
+  "stats": {
+    "yearsInBusiness": { "n": "30", "label": "Years in business" },
+    "workersPlaced": { "n": "54K+", "label": "Workers placed" },
+    "usMarkets": { "n": "6", "label": "US markets" },
+    "clientsReorder": { "n": "94%", "label": "Clients who reorder" }
+  },
+  "ourStory": {
+    "eyebrow": "Our Story",
+    "heading": "Started in electronics.\nGrew into industrial staffing.",
+    "p1": "Pro-Tech Staffing started over 30 years ago placing workers in electronics manufacturing — PCB assembly, SMT operations, soldering, and quality inspection. That foundation in precision, training, and accountability shaped everything we do.",
+    "p2": "Over time, our clients asked us to staff adjacent operations: warehouse teams, production lines, supply chain roles, and administrative support. We expanded because the work demanded it — not because we chased volume.",
+    "p3": "Today we operate six offices across Texas, Florida, California, and Arizona. Every market is staffed by local recruiters who know the employers, the roles, and the labor pool in their area."
+  },
+  "beliefs": {
+    "eyebrow": "What We Believe",
+    "heading": "Principles that guide\nhow we operate.",
+    "staffingIsLocal": {
+      "title": "Staffing is local",
+      "desc": "Pay expectations, shift preferences, commute range, and labor competition all change by market. Our recruiters work in-market — not from a national call center."
+    },
+    "screenForRole": {
+      "title": "Screen for the role, not just the resume",
+      "desc": "Industrial roles require specific skills, physical capabilities, and reliability. We screen for the actual job — shift, site, and environment included."
+    },
+    "stayInvolved": {
+      "title": "Stay involved after placement",
+      "desc": "We follow up with both the employer and the worker to make sure the fit is right. If something needs to change, we handle it fast."
+    },
+    "doFewerThings": {
+      "title": "Do fewer things, do them well",
+      "desc": "We staff industrial, manufacturing, warehouse, and supply chain roles. That focus is intentional. We know these environments because we've worked in them for 30 years."
+    }
+  },
+  "howWeWork": {
+    "eyebrow": "How We Work",
+    "heading": "What makes Pro-Tech different.",
+    "roleSpecific": {
+      "title": "Role-specific recruiting",
+      "desc": "We don't blast job boards and hope for the best. Our recruiters source candidates by role, shift, and site requirements — so the workers who show up are actually qualified for the job."
+    },
+    "fillTime": {
+      "title": "48-hour fill time",
+      "desc": "Most orders are filled within 48 hours. We maintain active pipelines of screened, ready-to-work candidates in every market so we can move fast when you need coverage."
+    },
+    "localTeams": {
+      "title": "Local teams, real relationships",
+      "desc": "Every market is covered by a local recruiter. When you call, you're talking to someone who knows your facility, your roles, and your hiring patterns — not a call center."
+    }
+  },
+  "offices": {
+    "eyebrow": "Our Offices",
+    "heading": "Six markets. Local teams in each.",
+    "description": "We hire locally, recruit locally, and support our clients from offices that are close to the work.",
+    "richardson": { "city": "Richardson, TX", "tag": "Headquarters", "desc": "Corporate HQ serving the east DFW corridor — Dallas, Plano, Garland, Richardson." },
+    "bedford": { "city": "Bedford, TX", "tag": "DFW Metro", "desc": "Covers Tarrant County — Fort Worth, Arlington, Irving, Grand Prairie, and the mid-cities." },
+    "austin": { "city": "Austin, TX", "tag": "Central TX", "desc": "Serving Austin, Round Rock, Cedar Park, and the Central Texas manufacturing corridor." },
+    "tampa": { "city": "Tampa, FL", "tag": "Tampa Bay", "desc": "Covering Tampa, Clearwater, St. Petersburg, and the Tampa Bay industrial market." },
+    "sanJose": { "city": "San Jose, CA", "tag": "Silicon Valley", "desc": "Electronics manufacturing staffing for San Jose, Santa Clara, Milpitas, and Fremont." },
+    "phoenix": { "city": "Phoenix, AZ", "tag": "Southwest", "desc": "Serving Phoenix, Tempe, Mesa, and Chandler with industrial and warehouse staffing." }
+  },
+  "industriesOverview": {
+    "eyebrow": "Industries We Serve",
+    "heading": "Focused on industrial. Not a generalist.",
+    "description": "We staff a specific set of industries because that focus is what makes us effective. Our recruiters know these environments, these roles, and what \"good\" looks like on the floor.",
+    "electronicsManufacturing": "Electronics Manufacturing",
+    "lightIndustrial": "Light Industrial",
+    "warehouseDistribution": "Warehouse & Distribution",
+    "supplyChainLogistics": "Supply Chain & Logistics",
+    "administrativeClerical": "Administrative & Clerical",
+    "generalLabor": "General Labor"
+  },
+  "cta": {
+    "eyebrow": "Work With Us",
+    "heading": "Ready to get started?",
+    "description": "Whether you need workers or you're looking for work, we can help.",
+    "ctaRequestWorkers": "Request Workers",
+    "ctaFindJobs": "Find Jobs"
+  }
+}

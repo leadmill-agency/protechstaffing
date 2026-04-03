@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "title": "Khám Phá Việc Làm | Pro-Tech Staffing",
+    "description": "Tìm kiếm các vị trí mở trong lĩnh vực sản xuất, điện tử, kho bãi và công nghiệp tại Texas, Florida, Arizona và California. Ứng tuyển ngay với Pro-Tech Staffing."
+  },
+  "hero": {
+    "eyebrow": "Tìm Công Việc Tiếp Theo",
+    "heading": "Tìm Công Việc Phù Hợp Với Bạn",
+    "description": "Bạn đang tìm kiếm công việc tiếp theo trong lĩnh vực sản xuất, điện tử hoặc công nghiệp nh��? Chúng tôi đang tích cực sắp xếp nhân viên tại các công ty trên khắp Texas, Florida, Arizona và California. Tìm vị trí mở bên dưới hoặc ứng tuyển vào ngân hàng nhân tài của chúng tôi.",
+    "ctaApply": "Ứng Tuy��n Ngay"
+  },
+  "board": {
+    "eyebrow": "Vị Trí Đang Tuyển",
+    "heading": "Xem Các Vị Trí Hiện Tại",
+    "description": "Tìm kiếm các vị trí theo địa điểm, ngành nghề hoặc từ khóa. Các vị trí mới được đăng hàng ngày."
+  },
+  "process": {
+    "eyebrow": "Quy Trình",
+    "heading": "Quy Trình Tuyển Dụng Của Chúng Tôi",
+    "apply": {
+      "title": "Ứng Tuyển",
+      "desc": "Gửi đơn ứng tuyển trực tuyến hoặc đến một trong 6 văn phòng của chúng tôi. Chỉ mất chưa đến 10 phút."
+    },
+    "review": {
+      "title": "Xem Xét",
+      "desc": "Nhà tuyển dụng của chúng tôi xem xét kinh nghiệm, kỹ năng và lịch trình của bạn để tìm vị trí phù hợp nhất."
+    },
+    "interview": {
+      "title": "Phỏng Vấn",
+      "desc": "Gặp gỡ nhà tuyển dụng địa phương hiểu rõ công việc và có thể trả lời câu hỏi của bạn."
+    },
+    "work": {
+      "title": "Làm Việc",
+      "desc": "Được sắp xếp vào nơi làm việc, bắt đầu kiếm thu nhập và xây dựng cơ hội lâu dài."
+    }
+  },
+  "whyProTech": {
+    "eyebrow": "Tại Sao Chọn Chúng Tôi",
+    "heading": "Tại Sao Nên Làm Việc Với Pro-Tech Staffing",
+    "body1": "Chúng t��i không chỉ lấp đầy ca làm — chúng tôi kết nối người lao động với các vị trí phù hợp để họ có thể thành công. Với 30 năm kinh nghiệm trong lĩnh vực nhân sự công nghiệp, đội ngũ tuyển dụng c��a chúng tôi am hiểu công việc, nhà tuyển dụng và thị trường.",
+    "body2": "Từ công việc tạm thời đến vị trí tuyển dụng trực tiếp, chúng tôi giúp người lao động tại 6 thành phố của Mỹ tìm được công việc phù hợp với kinh nghiệm, lịch trình và mục tiêu nghề nghiệp.",
+    "testimonial": {
+      "quote": "Pro-Tech đã sắp xếp công việc cho tôi trong vòng 48 giờ. Nhà tuyển dụng thực sự lắng nghe những gì tôi đang tìm kiếm và kết nối tôi với công ty phù hợp.",
+      "name": "Công Nhân Sản Xuất",
+      "role": "Được sắp xếp qua Pro-Tech Staffing, Richardson TX"
+    }
+  },
+  "whatWeDo": {
+    "eyebrow": "Chúng Tôi Cung Cấp",
+    "heading": "Chúng tôi có thể làm gì cho bạn?",
+    "fastPlacement": {
+      "title": "Sắp Xếp Nhanh",
+      "desc": "Hầu hết ứng viên được sắp xếp trong vòng 36 gi���. Ch��ng tôi hành động nhanh vì nhà tuyển dụng cần bạn ngay."
+    },
+    "roleMatching": {
+      "title": "Phù Hợp Vị Trí",
+      "desc": "Chúng tôi kết nối kỹ năng và kinh nghiệm của bạn với vị trí phù hợp — không chỉ vị trí trống đầu tiên."
+    },
+    "tempToHire": {
+      "title": "Từ Tạm Thời Sang Chính Thức",
+      "desc": "Nhiều vị trí của chúng tôi chuyển đổi thành công việc chính thức. Bắt đầu làm tạm thời và tiến đến cơ hội toàn thời gian."
+    },
+    "localRecruiters": {
+      "title": "Nhà Tuyển Dụng Địa Phương",
+      "desc": "Đội ngũ tuyển dụng của chúng tôi sống ngay tại thị trường họ phục vụ. Họ biết rõ nhà tuyển dụng, cơ sở và công việc."
+    },
+    "training": {
+      "title": "Đào Tạo & Chứng Nhận",
+      "desc": "Tiếp cận đào tạo chứng nhận IPC (IPC-610, IPC-620, J-STD-001) thông qua đội ngũ giảng viên được chứng nhận của chúng tôi."
+    },
+    "weeklyPay": {
+      "title": "Trả Lương Hàng Tuần",
+      "desc": "Nhận lương mỗi tuần. Không phải chờ đợi séc hàng tháng hay xử lý chậm trễ."
+    }
+  },
+  "cta": {
+    "eyebrow": "Sẵn Sàng Bắt Đầu",
+    "heading": "Không tìm thấy công việc phù hợp?",
+    "description": "Gửi đơn ứng tuyển và đội ngũ tuyển dụng sẽ kết nối bạn với cơ hội khi có vị trí mới.",
+    "ctaApply": "Ứng Tuyển Ngay"
+  }
+}

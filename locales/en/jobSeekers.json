@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "title": "Find Jobs | Pro-Tech Staffing — Manufacturing & Industrial Jobs",
+    "description": "Find manufacturing, warehouse, and industrial jobs near you. Pro-Tech Staffing places workers in electronics, light industrial, warehouse, and supply chain roles across 6 US markets."
+  },
+  "hero": {
+    "eyebrow": "For Job Seekers",
+    "heading": "Looking for work? We place people fast.",
+    "description": "We work with companies across electronics manufacturing, light industrial, warehouse, supply chain, and administrative environments. Steady work, weekly pay, and real opportunities to move into permanent roles.",
+    "benefits": ["Weekly pay", "Active openings", "Temp-to-hire paths", "Day and night shifts", "Entry-level to experienced", "Recruiter support"],
+    "ctaViewPositions": "View Open Positions",
+    "ctaSubmitApplication": "Submit a General Application",
+    "imgAlt": "Warehouse worker ready for placement"
+  },
+  "whyProTech": {
+    "eyebrow": "Why Pro-Tech",
+    "heading": "Real jobs. Real support.",
+    "description": "We don't just send you to a job site and disappear. Our recruiters know the roles, the companies, and the environments. You get placed where you can succeed.",
+    "fastPlacement": {
+      "title": "Fast Placement",
+      "desc": "We move quickly. Many workers start within days of their first conversation with a recruiter."
+    },
+    "roleMatched": {
+      "title": "Role-Matched",
+      "desc": "We match you based on your skills, experience, shift preference, and location — not just availability."
+    },
+    "tempToHirePaths": {
+      "title": "Temp-to-Hire Paths",
+      "desc": "Many of our placements convert to permanent positions. Show up, do the work, and earn a full-time offer."
+    },
+    "localRecruiters": {
+      "title": "Local Recruiters",
+      "desc": "Your recruiter knows the companies in your area. They can tell you what to expect before day one."
+    },
+    "trainingCertification": {
+      "title": "Training & Certification",
+      "desc": "We offer IPC certification training (IPC-610, IPC-620, J-STD-001) for electronics manufacturing roles."
+    },
+    "weeklyPay": {
+      "title": "Weekly Pay",
+      "desc": "Get paid every week. No waiting around for monthly checks."
+    }
+  },
+  "industries": {
+    "eyebrow": "Industries",
+    "heading": "Jobs across manufacturing, warehouse, and industrial.",
+    "viewRoles": "View roles →",
+    "electronicsManufacturing": {
+      "title": "Electronics Manufacturing",
+      "desc": "PCB assembly, SMT, soldering, QC inspection, test technicians, AOI operators, rework."
+    },
+    "lightIndustrial": {
+      "title": "Light Industrial",
+      "desc": "Assemblers, machine operators, production workers, quality control, packaging."
+    },
+    "warehouseDistribution": {
+      "title": "Warehouse & Distribution",
+      "desc": "Picking, packing, receiving, forklift, shipping, inventory, 3PL support."
+    },
+    "supplyChainLogistics": {
+      "title": "Supply Chain & Logistics",
+      "desc": "Logistics coordinators, inventory control, shipping and receiving."
+    },
+    "administrative": {
+      "title": "Administrative",
+      "desc": "Data entry, customer support, clerical, back-office operations."
+    },
+    "generalLabor": {
+      "title": "General Labor",
+      "desc": "Short-term, temp-to-hire, and project-based labor."
+    }
+  },
+  "locations": {
+    "eyebrow": "Where We Hire",
+    "heading": "Jobs near you.",
+    "description": "We have offices and active openings in six US markets. Find jobs in your area."
+  },
+  "openPositions": {
+    "eyebrow": "Open Positions",
+    "heading": "Current openings.",
+    "description": "Browse our latest job openings or submit a general application to be considered for future roles.",
+    "placeholder": "Job board coming soon. In the meantime, submit a general application and our recruiters will match you with open roles.",
+    "ctaSubmit": "Submit General Application"
+  },
+  "cta": {
+    "eyebrow": "Apply Now",
+    "heading": "Ready to get started?",
+    "description": "Call us or submit your information. Our recruiters will reach out to match you with available roles in your area.",
+    "callUs": "Call Us",
+    "emailResume": "Email Your Resume"
+  }
+}

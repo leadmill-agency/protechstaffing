@@ -1,0 +1,574 @@
+{
+  "page": {
+    "meta": {
+      "title": "Nuestras Ubicaciones | Pro-Tech Staffing Services",
+      "description": "Pro-Tech Staffing opera seis oficinas en Texas, Florida, California y Arizona. Reclutadores locales, conocimiento real del mercado, cobertura en 48 horas."
+    },
+    "hero": {
+      "eyebrow": "Nuestras Ubicaciones",
+      "heading": "Reclutadores locales. Conocimiento real del mercado.",
+      "description": "La contrataci\u00f3n industrial es local. Las expectativas salariales, preferencias de turno, rango de traslado y competencia laboral cambian seg\u00fan el mercado. Por eso cada ubicaci\u00f3n cuenta con un equipo local que entiende los puestos, los empleadores y el mercado laboral.",
+      "description2": "Reclutamos en el mercado local para que obtenga coberturas m\u00e1s r\u00e1pidas, mejor asistencia y menos sorpresas.",
+      "ctaRequestWorkers": "Solicitar Trabajadores"
+    },
+    "stats": {
+      "usMarkets": { "n": "6", "label": "Mercados en EE. UU." },
+      "states": { "n": "4", "label": "Estados" },
+      "avgFillTime": { "n": "48h", "label": "Tiempo promedio de cobertura" },
+      "clientRetention": { "n": "94%", "label": "Retenci\u00f3n de clientes" }
+    },
+    "viewMarket": "Ver mercado \u2192",
+    "dfwSubMarkets": {
+      "eyebrow": "Sub-Mercados de DFW",
+      "heading": "\u00bfNecesita personal en una ciudad espec\u00edfica de DFW?",
+      "description": "Nuestro equipo de DFW cubre toda la metr\u00f3poli con p\u00e1ginas dedicadas para cada corredor principal.",
+      "arlington": { "label": "Arlington, TX", "desc": "Corredor principal de almac\u00e9n, distribuci\u00f3n y manufactura en el condado de Tarrant." },
+      "irving": { "label": "Irving, TX", "desc": "Corredor de Las Colinas y el aeropuerto DFW: electr\u00f3nica, log\u00edstica e industria ligera." },
+      "garland": { "label": "Garland, TX", "desc": "Zona densa de industria ligera al este de Dallas. Enfoque en electr\u00f3nica y manufactura ligera." }
+    },
+    "cta": {
+      "eyebrow": "Comience Ahora",
+      "heading": "\u00bfNecesita trabajadores en su mercado?",
+      "description": "Env\u00ede una solicitud y lo conectaremos con su reclutador local en 24 horas.",
+      "callUsNow": "Ll\u00e1menos Ahora",
+      "submitRequest": "Enviar Solicitud de Personal"
+    }
+  },
+  "locationsPageMarkets": {
+    "richardson": { "city": "Richardson", "state": "TX", "tag": "Sede Principal", "roles": "Industria ligera, manufactura electr\u00f3nica, almac\u00e9n", "serving": "Dallas \u00b7 Plano \u00b7 Garland \u00b7 Carrollton \u00b7 Richardson" },
+    "bedford": { "city": "Bedford", "state": "TX", "tag": "DFW Metro", "roles": "Industrial, almac\u00e9n, cadena de suministro, trabajo general", "serving": "Fort Worth \u00b7 Arlington \u00b7 Irving \u00b7 Grand Prairie \u00b7 Bedford" },
+    "austin": { "city": "Austin", "state": "TX", "tag": "Central TX", "roles": "Industria ligera, electr\u00f3nica, administrativo", "serving": "Austin \u00b7 Round Rock \u00b7 Cedar Park \u00b7 Pflugerville" },
+    "tampa": { "city": "Tampa", "state": "FL", "tag": "Tampa Bay", "roles": "Manufactura electr\u00f3nica, industria ligera, almac\u00e9n", "serving": "Tampa \u00b7 Clearwater \u00b7 St. Petersburg \u00b7 Largo" },
+    "sanjose": { "city": "San Jose", "state": "CA", "tag": "Silicon Valley", "roles": "Ensamble de PCB, SMT, manufactura electr\u00f3nica, QC", "serving": "San Jose \u00b7 Santa Clara \u00b7 Milpitas \u00b7 Fremont" },
+    "phoenix": { "city": "Phoenix", "state": "AZ", "tag": "Suroeste", "roles": "Manufactura electr\u00f3nica, almac\u00e9n, industria ligera", "serving": "Phoenix \u00b7 Tempe \u00b7 Mesa \u00b7 Chandler" }
+  },
+  "detail": {
+    "requestWorkers": "Solicitar Trabajadores",
+    "allLocations": "\u2190 Todas las Ubicaciones",
+    "avgFillTime": "tiempo promedio de cobertura",
+    "coverageArea": "\u00c1rea de cobertura",
+    "aboutThisMarket": "Acerca de Este Mercado",
+    "whatWeStaffHere": "Qu\u00e9 Personal Colocamos Aqu\u00ed",
+    "staffingServicesIn": "Servicios de personal en {{label}}.",
+    "localServicesDesc": "No es una lista gen\u00e9rica: estos son los puestos e industrias reales para los que reclutamos en este mercado, cada semana.",
+    "learnMore": "M\u00e1s informaci\u00f3n",
+    "industriesWeStaff": "Industrias que Atendemos",
+    "industriesHeading": "Especializados en lo industrial.\nNo somos generalistas.",
+    "rolesWePlace": "Puestos que Colocamos",
+    "rolesHeading": "Posiciones comunes\ncubiertas en este mercado.",
+    "whyProTech": "Por Qu\u00e9 Pro-Tech",
+    "whyHeading": "Por qu\u00e9 los empleadores nos eligen\nen {{label}}.",
+    "officeEyebrow": "Nuestra Oficina en {{label}}",
+    "officeHeading": "Reclutadores locales.\nConocimiento del mercado local.",
+    "officeDescription": "Esta es una oficina real con personal, no una direcci\u00f3n virtual o un gerente de cuentas remoto. Su reclutador trabaja en este mercado, conoce a los empleadores locales y responde r\u00e1pido.",
+    "addressLabel": "Direcci\u00f3n",
+    "phoneLabel": "Tel\u00e9fono",
+    "phoneTextOnly": "Tel\u00e9fono (Solo Texto)",
+    "textPrefix": "Texto",
+    "callPrefix": "Llamar",
+    "officePhoneLabel": "nuestra oficina en {{label}}",
+    "textOnly": "(solo texto)",
+    "faxLabel": "Fax",
+    "emailLabel": "Correo Electr\u00f3nico",
+    "submitResumeLabel": "Enviar Curr\u00edculum",
+    "hoursLabel": "Horario",
+    "localRecruiterLabel": "Reclutador Local",
+    "howItWorks": "C\u00f3mo Funciona",
+    "howItWorksSteps": [
+      { "n": "01", "title": "D\u00edganos lo que necesita", "desc": "Puesto, cantidad de personal, fecha de inicio, habilidades requeridas. Sin formularios extensos." },
+      { "n": "02", "title": "Buscamos y evaluamos localmente", "descTemplate": "Nuestros reclutadores en {{label}} recurren a un grupo activo de talento local. Con verificaci\u00f3n de antecedentes, prueba de drogas y entrevista." },
+      { "n": "03", "title": "Los trabajadores llegan listos", "desc": "Candidatos evaluados se presentan a tiempo, listos para contribuir desde el primer d\u00eda. Hacemos seguimiento para confirmar." }
+    ],
+    "submitStaffingRequest": "Enviar Solicitud de Personal",
+    "faqEyebrow": "Preguntas Frecuentes",
+    "faqHeading": "Preguntas comunes sobre personal\nen {{label}}.",
+    "nearbyMarkets": "Mercados Cercanos",
+    "nearbyHeading": "\u00bfNecesita personal en un \u00e1rea cercana?",
+    "nearbyDescription": "Cubrimos el corredor circundante con los mismos reclutadores locales y cobertura en 48 horas.",
+    "servedFrom": "Atendido desde nuestra oficina en {{parentOffice}}",
+    "servedFromDesc": "Atendido desde nuestra oficina de <strong>{{parentOffice}}</strong>. Temporal, temporal a permanente y colocaci\u00f3n directa. Candidatos evaluados en 48 horas.",
+    "parentOfficeNote": "No tenemos oficina local en {{city}}, pero nuestro reclutador de {{parentOffice}} cubre este mercado. Obtendr\u00e1 el mismo tiempo de respuesta local y apoyo de reclutador.",
+    "alsoServingNearby": "Tambi\u00e9n Sirviendo Cerca",
+    "ctaGetStarted": "{{label}} \u00b7 Comience Ahora",
+    "ctaHeading": "\u00bfNecesita trabajadores en {{city}}?\nPodemos ayudar.",
+    "ctaDescription": "Env\u00ede una solicitud y tendremos candidatos evaluados y locales listos en 48 horas.",
+    "callUsNow": "Ll\u00e1menos Ahora"
+  },
+  "richardson": {
+    "title": "Agencia de Personal Industrial en Richardson TX | Manufactura Electr\u00f3nica e Industria Ligera | Pro-Tech",
+    "metaDesc": "Pro-Tech Staffing tiene su sede en Richardson TX. Colocamos trabajadores certificados IPC de manufactura electr\u00f3nica, ensambladores de industria ligera, personal de almac\u00e9n y trabajadores de producci\u00f3n. Cobertura en 36-48h.",
+    "h1": "Agencia de personal industrial en Richardson, TX. Especialistas en manufactura electr\u00f3nica.",
+    "subhead": "Ensamble electr\u00f3nico certificado IPC, industria ligera, almac\u00e9n y personal de cadena de suministro.",
+    "label": "Richardson TX",
+    "cities": ["Richardson TX", "Plano TX", "Garland TX", "Carrollton TX", "Allen TX", "McKinney TX", "Dallas TX"],
+    "marketIntro": "Richardson es el centro de manufactura electr\u00f3nica del norte de Texas. El corredor de Richardson a Plano y Garland alberga una de las concentraciones m\u00e1s densas de operaciones de ensamble de PCB, producci\u00f3n SMT e industria ligera en el estado. La sede de Pro-Tech ha estado aqu\u00ed durante 30 a\u00f1os: conocemos a los empleadores, las instalaciones y el mercado de talento. Cuando necesita trabajadores evaluados en 48 horas o menos, est\u00e1 llamando a un equipo que recluta en este mercado cada semana.",
+    "industries": ["Personal de Manufactura Electr\u00f3nica", "Personal de Industria Ligera", "Personal de Almac\u00e9n y 3PL", "Personal de Cadena de Suministro", "Personal Administrativo", "Trabajo General"],
+    "roles": ["T\u00e9cnicos de ensamble de PCB", "Operadores SMT", "Operadores de soldadura", "Inspectores de QC", "Operadores AOI", "Ensambladores", "Operadores de m\u00e1quinas", "Operadores de montacargas", "Selectores y empacadores de almac\u00e9n", "Trabajadores de producci\u00f3n"],
+    "proof": [
+      { "n": "HQ", "label": "Richardson, TX \u2014 fundada aqu\u00ed" },
+      { "n": "30+", "label": "A\u00f1os reclutando en este mercado" },
+      { "n": "36\u201348h", "label": "Tiempo promedio de cobertura" },
+      { "n": "94%", "label": "Tasa de retenci\u00f3n de clientes" }
+    ],
+    "whyUs": [
+      { "title": "30 a\u00f1os en el mercado de Richardson", "desc": "Fuimos fundados aqu\u00ed. Nuestros reclutadores conocen los parques industriales, los principales empleadores a lo largo de US-75 y Campbell Road, y los grupos de talento en Richardson, Plano y Garland. No recibir\u00e1 un centro de llamadas nacional, recibir\u00e1 experiencia local construida durante tres d\u00e9cadas." },
+      { "title": "Fuerza laboral certificada IPC para electr\u00f3nica", "desc": "Richardson tiene una de las concentraciones m\u00e1s densas de fabricantes de electr\u00f3nica de Texas. Capacitamos y certificamos trabajadores en IPC-A-610, IPC-620 y J-STD-001 antes de la colocaci\u00f3n, para que sus candidatos lleguen con las certificaciones que su planta requiere." },
+      { "title": "Coberturas r\u00e1pidas, asistencia confiable", "desc": "La mayor\u00eda de los pedidos se cubren en 36-48 horas. Evaluamos espec\u00edficamente la confiabilidad de asistencia: verificaci\u00f3n de antecedentes, prueba de drogas y entrevistas directas, porque las ausencias le cuestan m\u00e1s que el puesto en s\u00ed." }
+    ],
+    "testimonial": {
+      "quote": "Pro-Tech cubri\u00f3 14 posiciones para nosotros en menos de 48 horas durante la temporada alta. M\u00e1s importante a\u00fan, los trabajadores se presentaron y 9 se convirtieron en permanentes. Esa consistencia importa m\u00e1s que las promesas.",
+      "name": "Director de Operaciones",
+      "co": "Fabricante de Electr\u00f3nica \u00b7 Richardson, TX"
+    },
+    "faq": [
+      { "q": "\u00bfQu\u00e9 industrias atienden en Richardson, TX?", "a": "Nuestra sede en Richardson se especializa en manufactura electr\u00f3nica, industria ligera, almac\u00e9n y distribuci\u00f3n, cadena de suministro y personal administrativo. La manufactura electr\u00f3nica, incluyendo ensamble de PCB, SMT, soldadura y QC, es nuestro enfoque principal en este mercado dada la alta concentraci\u00f3n de fabricantes a lo largo del corredor de Richardson y Garland." },
+      { "q": "\u00bfQu\u00e9 tan r\u00e1pido puede Pro-Tech cubrir empleos industriales en Richardson?", "a": "La mayor\u00eda de los pedidos se cubren en 36-48 horas. Para trabajo general e industria ligera, la disponibilidad del mismo d\u00eda es frecuente desde nuestro grupo activo de candidatos locales. Los roles de manufactura electr\u00f3nica con requisitos de certificaci\u00f3n IPC generalmente toman 48-72 horas dependiendo de la especializaci\u00f3n." },
+      { "q": "\u00bfProveen trabajadores certificados IPC para manufactura electr\u00f3nica en Richardson?", "a": "S\u00ed. Capacitamos y certificamos trabajadores en IPC-A-610, IPC-620 y J-STD-001 antes de la colocaci\u00f3n. Nuestros reclutadores de Richardson buscan espec\u00edficamente para roles de manufactura electr\u00f3nica, y los candidatos llegan con certificaciones verificadas, no en proceso." },
+      { "q": "\u00bfOfrecen personal temporal a permanente en Richardson?", "a": "S\u00ed: temporal, temporal a permanente y colocaci\u00f3n directa est\u00e1n disponibles. Muchos fabricantes de electr\u00f3nica y empleadores de industria ligera en el corredor de Richardson usan temporal a permanente para evaluar trabajadores antes de extender ofertas permanentes. Apoyamos los tres modelos." },
+      { "q": "\u00bfQu\u00e9 ciudades cercanas a Richardson cubren?", "a": "Desde nuestra sede en Richardson, cubrimos todo el corredor este de DFW: Plano, Garland, Carrollton, Allen, McKinney y Dallas. Para el condado de Tarrant y las ciudades intermedias, nuestra oficina de Bedford maneja Fort Worth, Arlington, Irving y Grand Prairie." },
+      { "q": "\u00bfPueden dotar de personal para m\u00faltiples turnos en una instalaci\u00f3n de producci\u00f3n en Richardson?", "a": "S\u00ed. Colocamos trabajadores en turnos diurnos, vespertinos, nocturnos y horarios rotativos. Ind\u00edquenos sus requisitos de turno cuando env\u00ede su solicitud y buscaremos candidatos que coincidan, no candidatos que pedir\u00e1n cambiar una vez que empiecen." }
+    ],
+    "localServices": [
+      { "title": "Personal de Manufactura Electr\u00f3nica", "desc": "Richardson alberga una de las concentraciones m\u00e1s altas de operaciones de ensamble de PCB y SMT en Texas. T\u00e9cnicos certificados IPC, operadores de soldadura, operadores AOI e inspectores de QC, evaluados antes de la colocaci\u00f3n." },
+      { "title": "Personal de Industria Ligera", "desc": "Ensambladores, operadores de m\u00e1quinas, trabajadores de producci\u00f3n y apoyo en l\u00ednea para fabricantes a lo largo del corredor industrial Richardson-Plano-Garland. Turnos diurnos y nocturnos cubiertos." },
+      { "title": "Personal de Almac\u00e9n y Distribuci\u00f3n", "desc": "Selectores, empacadores, operadores de montacargas y personal de env\u00edo/recepci\u00f3n para operaciones de distribuci\u00f3n en el corredor este de DFW. Cobertura de emergencia disponible." }
+    ],
+    "subMarkets": [
+      { "label": "Garland, TX", "desc": "Zona densa de industria ligera y manufactura electr\u00f3nica al este de Dallas. Nuestro sub-mercado m\u00e1s cercano a la sede." },
+      { "label": "Irving, TX", "desc": "Corredor de Las Colinas y el aeropuerto DFW: electr\u00f3nica, log\u00edstica e industria ligera." },
+      { "label": "Panorama DFW", "desc": "Cobertura completa del metro DFW desde nuestras oficinas de Richardson y Bedford." }
+    ],
+    "relatedCities": [
+      { "label": "Garland TX" },
+      { "label": "Irving TX" },
+      { "label": "Panorama DFW" },
+      { "label": "Bedford TX" }
+    ]
+  },
+  "dfw": {
+    "title": "Agencia de Personal Industrial en Dallas-Fort Worth TX | Pro-Tech Staffing",
+    "metaDesc": "Pro-Tech Staffing es una agencia de personal de industria ligera que sirve Dallas TX, Fort Worth TX, Arlington, Irving, Garland, Grand Prairie y Plano. Trabajadores evaluados colocados en 48 horas.",
+    "h1": "Agencia de personal industrial en Dallas-Fort Worth, TX.",
+    "subhead": "Sirviendo Dallas, Fort Worth, Arlington, Irving, Garland, Grand Prairie, Plano, Richardson y Carrollton.",
+    "label": "Dallas-Fort Worth",
+    "cities": ["Dallas TX", "Fort Worth TX", "Arlington TX", "Irving TX", "Garland TX", "Grand Prairie TX", "Plano TX", "Richardson TX", "Carrollton TX", "Bedford TX"],
+    "industries": ["Personal de Industria Ligera", "Personal de Manufactura Electr\u00f3nica", "Personal de Almac\u00e9n y 3PL", "Personal de Cadena de Suministro", "Personal Administrativo", "Trabajo General"],
+    "roles": ["Trabajadores de l\u00ednea de ensamble", "T\u00e9cnicos de ensamble de PCB", "Operadores de montacargas", "Operadores de m\u00e1quinas", "Selectores y empacadores de almac\u00e9n", "Inspectores de control de calidad", "Personal de env\u00edo y recepci\u00f3n", "L\u00edderes de l\u00ednea de producci\u00f3n"],
+    "proof": [
+      { "n": "2", "label": "Oficinas en DFW" },
+      { "n": "48h", "label": "Tiempo promedio de cobertura" },
+      { "n": "500+", "label": "Empresas de DFW atendidas" },
+      { "n": "94%", "label": "Retenci\u00f3n de clientes" }
+    ],
+    "whyUs": [
+      { "title": "Dos oficinas en la metr\u00f3poli", "desc": "La sede de Richardson cubre el este de DFW y el corredor Plano/Garland. Nuestra oficina de Bedford cubre el condado de Tarrant: Fort Worth, Arlington, Irving y las ciudades intermedias." },
+      { "title": "Red industrial profunda en DFW", "desc": "Hemos estado colocando trabajadores en el norte de Texas por m\u00e1s de 15 a\u00f1os. Nuestros reclutadores conocen los principales empleadores, los parques industriales y los grupos de talento en cada sub-mercado." },
+      { "title": "Respuesta r\u00e1pida, apoyo local", "desc": "Env\u00ede una solicitud y hablar\u00e1 con un reclutador que realmente trabaja en su mercado, no con un centro de llamadas nacional. Respuesta el mismo d\u00eda. Cobertura en 48 horas en la mayor\u00eda de los pedidos." }
+    ],
+    "testimonial": {
+      "quote": "Pro-Tech cubri\u00f3 14 posiciones en menos de 48 horas durante la temporada alta. Todos los trabajadores se presentaron y 9 se convirtieron en permanentes. Nunca he tenido esa tasa de cobertura con ninguna otra agencia.",
+      "name": "Director de Operaciones",
+      "co": "Fabricante de Electr\u00f3nica \u00b7 Richardson, TX"
+    },
+    "relatedCities": [
+      { "label": "Arlington TX" },
+      { "label": "Irving TX" },
+      { "label": "Garland TX" },
+      { "label": "Bedford TX" }
+    ]
+  },
+  "bedford": {
+    "title": "Agencia de Personal Industrial en Bedford TX | Industria Ligera y Almac\u00e9n | Pro-Tech",
+    "metaDesc": "Pro-Tech Staffing Bedford TX sirve Fort Worth, Arlington, Irving, Grand Prairie y las ciudades intermedias del condado de Tarrant. Personal de industria ligera, almac\u00e9n y cadena de suministro. Cobertura en 48 horas.",
+    "h1": "Agencia de personal industrial en Bedford, TX. Especialistas en el condado de Tarrant.",
+    "subhead": "Personal de industria ligera, almac\u00e9n, cadena de suministro y trabajo general para Fort Worth, Arlington, Irving y las ciudades intermedias.",
+    "label": "Bedford TX",
+    "cities": ["Bedford TX", "Fort Worth TX", "Arlington TX", "Irving TX", "Grand Prairie TX", "Hurst TX", "Euless TX", "North Richland Hills TX", "Grapevine TX"],
+    "marketIntro": "Bedford se encuentra en el centro del corredor industrial del condado de Tarrant. Fort Worth, Arlington, Irving y Grand Prairie forman una de las zonas m\u00e1s activas de almac\u00e9n, distribuci\u00f3n y manufactura ligera en Texas. La oficina de Pro-Tech en Bedford cubre todo este corredor, dotando de personal a operadores de montacargas, trabajadores de producci\u00f3n, ensambladores y soporte de cadena de suministro para fabricantes y distribuidores que no pueden permitirse huecos en la planta.",
+    "industries": ["Personal de Industria Ligera", "Personal de Almac\u00e9n y 3PL", "Personal de Cadena de Suministro", "Trabajo General", "Personal Administrativo"],
+    "roles": ["Trabajadores de ensamble y producci\u00f3n", "Operadores de montacargas (sentado y de pie)", "Selectores y empacadores de almac\u00e9n", "Operadores de m\u00e1quinas", "Personal de env\u00edo y recepci\u00f3n", "Trabajadores generales", "Personal de control de inventario", "Supervisores de producci\u00f3n", "Coordinadores de log\u00edstica", "Manejadores de materiales"],
+    "proof": [
+      { "n": "Tarrant Co.", "label": "Mercado principal" },
+      { "n": "48h", "label": "Tiempo promedio de cobertura" },
+      { "n": "94%", "label": "Tasa de retenci\u00f3n de clientes" },
+      { "n": "Temp & perm", "label": "Tipos de colocaci\u00f3n" }
+    ],
+    "whyUs": [
+      { "title": "Una oficina real en las ciudades intermedias", "desc": "Nuestra oficina de Bedford est\u00e1 f\u00edsicamente ubicada en el corredor, no es una cuenta remota administrada desde Dallas. Su reclutador conoce el mercado del condado de Tarrant, los principales empleadores en las carreteras 183 y 121, y los grupos de talento en cada sub-ciudad." },
+      { "title": "Construido para trabajo de almac\u00e9n e industrial", "desc": "Bedford, Fort Worth, Arlington y Grand Prairie tienen algunas de las concentraciones m\u00e1s altas de operaciones de almac\u00e9n, distribuci\u00f3n y manufactura ligera en el norte de Texas. Estos son los roles que cubrimos cada semana." },
+      { "title": "Trabajadores confiables, respuesta r\u00e1pida", "desc": "Evaluamos a cada candidato por confiabilidad de asistencia, no solo habilidades. Verificaci\u00f3n de antecedentes, prueba de drogas y entrevistas directas antes de la colocaci\u00f3n. La mayor\u00eda de los pedidos se cubren en 48 horas; cobertura de emergencia el mismo d\u00eda para trabajo general." }
+    ],
+    "testimonial": {
+      "quote": "Su reclutador de Bedford conoce nuestra instalaci\u00f3n por nombre. Cuando llamo, no estoy explicando desde cero cada vez. Esa relaci\u00f3n vale m\u00e1s que cualquier tarifa que otra agencia pueda ofrecer.",
+      "name": "Gerente de Planta",
+      "co": "Manufactura Ligera \u00b7 Fort Worth, TX"
+    },
+    "faq": [
+      { "q": "\u00bfQu\u00e9 \u00e1reas cubre la oficina de Bedford?", "a": "Nuestra oficina de Bedford cubre todo el corredor del condado de Tarrant y ciudades intermedias: Fort Worth, Arlington, Irving, Grand Prairie, Hurst, Euless, North Richland Hills, Grapevine y Colleyville. Para el este de DFW \u2014 Plano, Garland, Richardson y Carrollton \u2014 nuestra sede de Richardson maneja esos pedidos." },
+      { "q": "\u00bfQu\u00e9 industrias atienden desde la oficina de Bedford?", "a": "Bedford atiende principalmente industria ligera, almac\u00e9n y distribuci\u00f3n, cadena de suministro, trabajo general y roles administrativos. El mercado del condado de Tarrant se enfoca fuertemente en almac\u00e9n y producci\u00f3n, que es donde nuestros reclutadores de Bedford se especializan." },
+      { "q": "\u00bfQu\u00e9 tan r\u00e1pido pueden cubrir empleos de almac\u00e9n en Bedford o Fort Worth?", "a": "La mayor\u00eda de los pedidos de almac\u00e9n e industria ligera se cubren en 48 horas. Para trabajo general y necesidades de cobertura del mismo d\u00eda, frecuentemente tenemos candidatos disponibles de nuestro grupo activo local. Operadores certificados de montacargas y roles especializados pueden tomar 48-72 horas dependiendo de los requisitos de certificaci\u00f3n." },
+      { "q": "\u00bfColocan operadores de montacargas en el \u00e1rea del condado de Tarrant?", "a": "S\u00ed. Verificamos certificaciones de montacargas y colocamos operadores con experiencia en equipos sentado, de pie, de alcance y selector de pedidos para almacenes y centros de distribuci\u00f3n en Fort Worth, Arlington, Irving y Grand Prairie." },
+      { "q": "\u00bfOfrecen personal temporal a permanente desde la oficina de Bedford?", "a": "S\u00ed: temporal, temporal a permanente y colocaci\u00f3n directa est\u00e1n disponibles. Muchos fabricantes y distribuidores del condado de Tarrant usan temporal a permanente para evaluar trabajadores de producci\u00f3n y operadores de montacargas antes de hacer ofertas permanentes. Apoyamos los tres modelos." },
+      { "q": "\u00bfLa oficina de Bedford es la misma empresa que la oficina de Richardson?", "a": "S\u00ed. Ambas son oficinas de Pro-Tech Staffing. Bedford cubre el condado de Tarrant y el corredor oeste de DFW. La sede de Richardson cubre el este de DFW. Si su operaci\u00f3n abarca ambos lados de la metr\u00f3poli, podemos coordinar cobertura entre ambas oficinas." }
+    ],
+    "localServices": [
+      { "title": "Personal de Industria Ligera", "desc": "Ensambladores, operadores de m\u00e1quinas, trabajadores de producci\u00f3n y apoyo en l\u00ednea para fabricantes en las ciudades intermedias del condado de Tarrant. Reclutamos para turnos diurnos, nocturnos y rotativos." },
+      { "title": "Personal de Almac\u00e9n y Distribuci\u00f3n", "desc": "Operadores de montacargas, selectores, empacadores y personal de env\u00edo/recepci\u00f3n para operaciones de distribuci\u00f3n en Fort Worth, Arlington, Irving y Grand Prairie. Cobertura de temporada alta disponible." },
+      { "title": "Cadena de Suministro y Trabajo General", "desc": "Control de inventario, coordinadores de log\u00edstica y trabajo general para operaciones industriales en el corredor oeste de DFW. Temporal, temporal a permanente y colocaci\u00f3n directa." }
+    ],
+    "subMarkets": [
+      { "label": "Arlington, TX", "desc": "Corredor principal de almac\u00e9n, distribuci\u00f3n y manufactura en el condado de Tarrant." },
+      { "label": "Irving, TX", "desc": "Corredor de Las Colinas y el aeropuerto DFW: log\u00edstica, industria ligera y electr\u00f3nica." },
+      { "label": "Richardson, TX (Sede)", "desc": "Nuestra sede del este de DFW que cubre Plano, Garland, Carrollton y el corredor de manufactura electr\u00f3nica." }
+    ],
+    "relatedCities": [
+      { "label": "Arlington TX" },
+      { "label": "Irving TX" },
+      { "label": "Richardson TX (Sede)" },
+      { "label": "Panorama DFW" }
+    ]
+  },
+  "arlington": {
+    "title": "Agencia de Personal en Arlington TX | Industria Ligera y Almac\u00e9n | Pro-Tech",
+    "metaDesc": "Pro-Tech Staffing sirve Arlington TX con trabajadores de industria ligera, almac\u00e9n, manufactura y cadena de suministro. Candidatos evaluados colocados en 48 horas. Temporal, temporal a permanente, colocaci\u00f3n directa.",
+    "h1": "Agencia de personal industrial en Arlington, TX.",
+    "subhead": "Sirviendo Arlington, Grand Prairie, Mansfield, Kennedale y \u00e1reas circundantes del condado de Tarrant.",
+    "label": "Arlington TX",
+    "cities": ["Arlington TX", "Grand Prairie TX", "Mansfield TX", "Kennedale TX", "Euless TX", "Bedford TX", "Fort Worth TX"],
+    "industries": ["Personal de Industria Ligera", "Personal de Almac\u00e9n y 3PL", "Personal de Cadena de Suministro", "Trabajo General", "Personal de Manufactura"],
+    "roles": ["Trabajadores de ensamble", "Operadores de montacargas", "Selectores y empacadores de almac\u00e9n", "Trabajadores de l\u00ednea de producci\u00f3n", "Operadores de m\u00e1quinas", "Personal de env\u00edo y recepci\u00f3n", "Trabajo general", "Inspectores de control de calidad"],
+    "proof": [
+      { "n": "48h", "label": "Tiempo promedio de cobertura" },
+      { "n": "Temp & perm", "label": "Tipos de colocaci\u00f3n" },
+      { "n": "Tarrant Co.", "label": "Cobertura local" },
+      { "n": "94%", "label": "Retenci\u00f3n de clientes" }
+    ],
+    "whyUs": [
+      { "title": "Experiencia en el condado de Tarrant", "desc": "La oficina de Pro-Tech en Bedford cubre el corredor de Arlington directamente. Conocemos los parques industriales, los principales empleadores y d\u00f3nde encontrar trabajadores confiables en este mercado." },
+      { "title": "Enfoque en almac\u00e9n y manufactura", "desc": "Arlington tiene una alta concentraci\u00f3n de operaciones de almac\u00e9n, distribuci\u00f3n y manufactura ligera. Estos son los roles que cubrimos todos los d\u00edas." },
+      { "title": "Trabajadores que se presentan", "desc": "Pre-evaluamos por confiabilidad de asistencia, no solo habilidades. Cada candidato es entrevistado, se le verifican antecedentes y se le realiza prueba de drogas antes de la colocaci\u00f3n." }
+    ],
+    "testimonial": {
+      "quote": "Hab\u00edamos sido defraudados por agencias que enviaban trabajadores sin evaluar. Pro-Tech fue diferente desde el primer d\u00eda. Entienden c\u00f3mo se ve el personal de industria ligera en la planta, no solo en una descripci\u00f3n de puesto.",
+      "name": "Gerente de RR.HH.",
+      "co": "Almac\u00e9n y Distribuci\u00f3n \u00b7 Arlington, TX"
+    },
+    "relatedCities": [
+      { "label": "Bedford TX" },
+      { "label": "Irving TX" },
+      { "label": "Panorama DFW" }
+    ]
+  },
+  "irving": {
+    "title": "Agencia de Personal en Irving TX | Trabajadores Industriales y de Almac\u00e9n | Pro-Tech",
+    "metaDesc": "Pro-Tech Staffing sirve Irving TX con trabajadores de industria ligera, almac\u00e9n, electr\u00f3nica y cadena de suministro. Candidatos evaluados en 48 horas. Sirviendo Las Colinas, Coppell y el corredor del aeropuerto DFW.",
+    "h1": "Agencia de personal industrial en Irving, TX.",
+    "subhead": "Sirviendo Irving, Las Colinas, Coppell, Carrollton y el corredor industrial del aeropuerto DFW.",
+    "label": "Irving TX",
+    "cities": ["Irving TX", "Las Colinas TX", "Coppell TX", "Carrollton TX", "Farmers Branch TX", "Grand Prairie TX", "Dallas TX"],
+    "industries": ["Personal de Industria Ligera", "Personal de Almac\u00e9n y 3PL", "Personal de Cadena de Suministro", "Personal de Manufactura Electr\u00f3nica", "Personal Administrativo"],
+    "roles": ["Selectores y empacadores de almac\u00e9n", "Operadores de montacargas", "Personal de env\u00edo y recepci\u00f3n", "Trabajadores de ensamble", "Personal de control de inventario", "T\u00e9cnicos de electr\u00f3nica", "Trabajo general", "Trabajadores de producci\u00f3n"],
+    "proof": [
+      { "n": "48h", "label": "Tiempo promedio de cobertura" },
+      { "n": "DFW corridor", "label": "\u00c1rea de cobertura" },
+      { "n": "Temp & perm", "label": "Tipos de colocaci\u00f3n" },
+      { "n": "94%", "label": "Retenci\u00f3n de clientes" }
+    ],
+    "whyUs": [
+      { "title": "Cobertura del corredor del aeropuerto DFW", "desc": "El \u00e1rea de Irving y Las Colinas es una de las zonas log\u00edsticas m\u00e1s activas de DFW. Dotamos de personal a roles de almac\u00e9n, distribuci\u00f3n e industria ligera para operaciones a lo largo de todo el corredor del aeropuerto DFW." },
+      { "title": "Cubierto desde dos oficinas", "desc": "Irving se encuentra entre nuestra sede de Richardson y la oficina de Bedford. Tomamos de ambos grupos de talento para cubrir pedidos de Irving m\u00e1s r\u00e1pido." },
+      { "title": "Especialidad en electr\u00f3nica y log\u00edstica", "desc": "Irving atrae tanto a empleadores de electr\u00f3nica como de log\u00edstica. Nuestros reclutadores buscan para ambos, desde t\u00e9cnicos de ensamble de PCB hasta l\u00edderes de almac\u00e9n." }
+    ],
+    "testimonial": {
+      "quote": "Colocaciones r\u00e1pidas y trabajadores que realmente se presentaron. Pro-Tech cubri\u00f3 nuestro personal de temporada alta en 72 horas y la tasa de retenci\u00f3n fue la mejor que hab\u00edamos visto.",
+      "name": "Gerente de Log\u00edstica",
+      "co": "Distribuci\u00f3n y 3PL \u00b7 Irving, TX"
+    },
+    "relatedCities": [
+      { "label": "Arlington TX" },
+      { "label": "Garland TX" },
+      { "label": "Panorama DFW" }
+    ]
+  },
+  "garland": {
+    "title": "Agencia de Personal en Garland TX | Trabajadores Industriales y de Manufactura | Pro-Tech",
+    "metaDesc": "Pro-Tech Staffing sirve Garland TX con trabajadores de industria ligera, manufactura electr\u00f3nica, almac\u00e9n y ensamble. Candidatos evaluados colocados en 48 horas. Temporal, temporal a permanente, colocaci\u00f3n directa.",
+    "h1": "Agencia de personal industrial en Garland, TX.",
+    "subhead": "Sirviendo Garland, Rowlett, Sachse, Mesquite, Plano y el corredor industrial del noreste de Dallas.",
+    "label": "Garland TX",
+    "cities": ["Garland TX", "Rowlett TX", "Sachse TX", "Mesquite TX", "Plano TX", "Richardson TX", "Dallas TX"],
+    "industries": ["Personal de Industria Ligera", "Personal de Manufactura Electr\u00f3nica", "Personal de Almac\u00e9n", "Personal de Ensamble", "Trabajo General"],
+    "roles": ["Trabajadores de l\u00ednea de ensamble", "T\u00e9cnicos de electr\u00f3nica", "Trabajadores de ensamble de PCB", "Operadores de m\u00e1quinas", "Inspectores de control de calidad", "Operadores de montacargas", "Selectores de almac\u00e9n", "Trabajadores de producci\u00f3n"],
+    "proof": [
+      { "n": "48h", "label": "Tiempo promedio de cobertura" },
+      { "n": "NE Dallas", "label": "\u00c1rea de cobertura" },
+      { "n": "Electronics", "label": "Especialidad" },
+      { "n": "94%", "label": "Retenci\u00f3n de clientes" }
+    ],
+    "whyUs": [
+      { "title": "Con sede en Richardson, justo al lado", "desc": "Nuestra sede de Richardson est\u00e1 a minutos de la zona industrial de Garland. Conocemos a los empleadores, el talento y los roles espec\u00edficos que los fabricantes de Garland necesitan cubrir." },
+      { "title": "Profundidad en manufactura electr\u00f3nica", "desc": "Garland tiene una de las concentraciones m\u00e1s altas de fabricantes de electr\u00f3nica en el norte de Texas. Ensamble de PCB, SMT, soldadura, inspecci\u00f3n de QC: estos son roles que nuestros reclutadores buscan cada semana." },
+      { "title": "Trabajadores evaluados, entrega r\u00e1pida", "desc": "A cada candidato se le verifican antecedentes, se le realiza prueba de drogas y evaluaci\u00f3n de habilidades antes de la colocaci\u00f3n. No enviamos cuerpos. Enviamos trabajadores listos para contribuir." }
+    ],
+    "testimonial": {
+      "quote": "Colocaron 8 trabajadores de ensamble electr\u00f3nico en menos de 48 horas. Todos se presentaron el primer d\u00eda. Tres meses despu\u00e9s, seis siguen con nosotros a tiempo completo.",
+      "name": "Gerente de Producci\u00f3n",
+      "co": "Manufactura Electr\u00f3nica \u00b7 Garland, TX"
+    },
+    "relatedCities": [
+      { "label": "Irving TX" },
+      { "label": "Panorama DFW" },
+      { "label": "Bedford TX" }
+    ]
+  },
+  "austin": {
+    "title": "Agencia de Personal Industrial en Austin TX | Industria Ligera y Almac\u00e9n | Pro-Tech",
+    "metaDesc": "Pro-Tech Staffing Austin TX coloca trabajadores de industria ligera, almac\u00e9n, electr\u00f3nica y administrativos en Austin, Round Rock, Cedar Park y Pflugerville. Cobertura en 48 horas.",
+    "h1": "Agencia de personal industrial en Austin, TX. Especialistas en industria ligera y almac\u00e9n.",
+    "subhead": "Personal de industria ligera, almac\u00e9n, electr\u00f3nica y administrativo en el \u00e1rea metropolitana de Austin.",
+    "label": "Austin TX",
+    "cities": ["Austin TX", "Round Rock TX", "Cedar Park TX", "Pflugerville TX", "Georgetown TX", "Kyle TX", "Buda TX"],
+    "marketIntro": "La presencia industrial de Austin ha crecido r\u00e1pidamente. El corredor I-35 desde Georgetown hasta Kyle alberga una concentraci\u00f3n creciente de manufactura ligera, ensamble electr\u00f3nico, distribuci\u00f3n y operaciones de almac\u00e9n, impulsada en parte por la inversi\u00f3n en manufactura de semiconductores y tecnolog\u00eda en la regi\u00f3n. La oficina de Pro-Tech en Austin recluta localmente para estos roles, colocando ensambladores, trabajadores de producci\u00f3n, operadores de montacargas y t\u00e9cnicos de electr\u00f3nica para empleadores que necesitan trabajadores confiables sin larga espera.",
+    "industries": ["Personal de Industria Ligera", "Personal de Almac\u00e9n y 3PL", "Personal de Manufactura Electr\u00f3nica", "Personal Administrativo", "Trabajo General"],
+    "roles": ["Trabajadores de ensamble", "Operadores de m\u00e1quinas", "Trabajadores de l\u00ednea de producci\u00f3n", "Operadores de montacargas", "Selectores y empacadores de almac\u00e9n", "Personal de env\u00edo y recepci\u00f3n", "T\u00e9cnicos de ensamble electr\u00f3nico", "Inspectores de control de calidad", "Especialistas en captura de datos", "Trabajadores generales"],
+    "proof": [
+      { "n": "ATX", "label": "Oficina de Austin" },
+      { "n": "48h", "label": "Tiempo promedio de cobertura" },
+      { "n": "94%", "label": "Tasa de retenci\u00f3n de clientes" },
+      { "n": "I-35", "label": "Cobertura del corredor industrial" }
+    ],
+    "whyUs": [
+      { "title": "Reclutando para el crecimiento de Austin", "desc": "El mercado industrial de Austin est\u00e1 creciendo m\u00e1s r\u00e1pido de lo que la mayor\u00eda de las agencias de personal pueden mantener. Nuestros reclutadores locales de Austin mantienen canales activos de trabajadores de producci\u00f3n, ensambladores y personal de almac\u00e9n listos para los empleadores que impulsan ese crecimiento." },
+      { "title": "Experiencia en el corredor I-35", "desc": "El corredor I-35 desde Georgetown a trav\u00e9s de Round Rock, Austin, Kyle y Buda es una de las zonas industriales de m\u00e1s r\u00e1pido crecimiento en Texas. Cubrimos roles en todo el tramo, desde ensamble relacionado con semiconductores hasta distribuci\u00f3n y 3PL." },
+      { "title": "Trabajadores evaluados, no cuerpos", "desc": "A cada candidato se le verifican antecedentes, se le realiza prueba de drogas y entrevista de habilidades antes de la colocaci\u00f3n. El mercado laboral de Austin es competitivo: trabajamos m\u00e1s duro en la evaluaci\u00f3n para que usted gaste menos en rotaci\u00f3n." }
+    ],
+    "testimonial": {
+      "quote": "Necesit\u00e1bamos trabajadores de producci\u00f3n para una nueva l\u00ednea en Round Rock y Pro-Tech tuvo candidatos calificados en sitio en 48 horas. La tasa de retenci\u00f3n durante los primeros 90 d\u00edas fue la mejor que hab\u00edamos visto de cualquier agencia de personal.",
+      "name": "Gerente de Producci\u00f3n",
+      "co": "Manufactura Ligera \u00b7 Round Rock, TX"
+    },
+    "faq": [
+      { "q": "\u00bfQu\u00e9 \u00e1reas cubre la oficina de Austin?", "a": "Nuestra oficina de Austin cubre el \u00e1rea metropolitana de Austin y todo el corredor I-35: Austin, Round Rock, Cedar Park, Pflugerville, Georgetown, Kyle y Buda. Tambi\u00e9n cubrimos las zonas de manufactura tecnol\u00f3gica en el norte y sur de Austin." },
+      { "q": "\u00bfQu\u00e9 industrias atienden en Austin?", "a": "Austin atiende principalmente industria ligera, almac\u00e9n y distribuci\u00f3n, ensamble electr\u00f3nico, administrativo y trabajo general. El corredor I-35 tiene una concentraci\u00f3n creciente de fabricantes ligeros, 3PLs y operaciones relacionadas con electr\u00f3nica." },
+      { "q": "\u00bfQu\u00e9 tan r\u00e1pido puede Pro-Tech cubrir empleos industriales en Austin?", "a": "La mayor\u00eda de los pedidos de industria ligera y almac\u00e9n se cubren en 48 horas. Para trabajo general, la disponibilidad del mismo d\u00eda es frecuente. Los roles de ensamble electr\u00f3nico pueden tomar 48-72 horas dependiendo de los requisitos de certificaci\u00f3n IPC o t\u00e9cnicos." },
+      { "q": "\u00bfColocan trabajadores para roles de ensamble electr\u00f3nico en Austin?", "a": "S\u00ed. Austin tiene una creciente manufactura electr\u00f3nica y relacionada con semiconductores. Colocamos t\u00e9cnicos de ensamble de PCB, ensambladores de electr\u00f3nica, inspectores de QC y asociados de producci\u00f3n para estas operaciones." },
+      { "q": "\u00bfOfrecen temporal a permanente en Austin?", "a": "S\u00ed: temporal, temporal a permanente y colocaci\u00f3n directa est\u00e1n disponibles. Temporal a permanente es com\u00fan entre los fabricantes de Austin que quieren evaluar trabajadores antes de hacer ofertas permanentes, especialmente para roles de producci\u00f3n y almac\u00e9n." },
+      { "q": "\u00bfPueden manejar m\u00faltiples turnos para una instalaci\u00f3n de Austin?", "a": "S\u00ed. Reclutamos para turnos diurnos, vespertinos, nocturnos y horarios rotativos. Ind\u00edquenos sus requisitos de turno cuando env\u00ede su solicitud y buscaremos candidatos que coincidan con su horario desde el primer d\u00eda." }
+    ],
+    "localServices": [
+      { "title": "Personal de Industria Ligera", "desc": "Ensambladores, operadores de m\u00e1quinas, trabajadores de producci\u00f3n y apoyo en l\u00ednea para fabricantes a lo largo del corredor I-35 de Austin y los parques industriales de Round Rock. Turnos diurnos y nocturnos cubiertos." },
+      { "title": "Personal de Almac\u00e9n y Distribuci\u00f3n", "desc": "Selectores, empacadores, operadores de montacargas y personal de env\u00edo/recepci\u00f3n para centros de distribuci\u00f3n en Pflugerville, Cedar Park y el sur de Austin. Cobertura de emergencia y temporada alta disponible." },
+      { "title": "Personal de Electr\u00f3nica y Administrativo", "desc": "T\u00e9cnicos de ensamble electr\u00f3nico y soporte administrativo para fabricantes relacionados con tecnolog\u00eda y operaciones corporativas en el \u00e1rea metropolitana de Austin." }
+    ],
+    "subMarkets": [
+      { "label": "Round Rock, TX", "desc": "Zona principal industrial y de manufactura tecnol\u00f3gica al norte de Austin sobre I-35." },
+      { "label": "Cedar Park, TX", "desc": "Corredor residencial e industrial ligero en crecimiento al noroeste de Austin." },
+      { "label": "Pflugerville, TX", "desc": "Centro de almac\u00e9n y distribuci\u00f3n al noreste de Austin sobre 130 Toll." }
+    ],
+    "relatedCities": [
+      { "label": "Richardson TX (Sede)" },
+      { "label": "Bedford TX" },
+      { "label": "Todas las Ubicaciones" }
+    ]
+  },
+  "tampa": {
+    "title": "Agencia de Personal Industrial en Tampa FL | Manufactura Electr\u00f3nica e Industria Ligera | Pro-Tech",
+    "metaDesc": "Pro-Tech Staffing Tampa FL coloca trabajadores de manufactura electr\u00f3nica, ensambladores de industria ligera y personal de almac\u00e9n en Tampa, Clearwater, St. Petersburg y Largo. Cobertura en 48 horas.",
+    "h1": "Agencia de personal industrial en Tampa, FL. Especialistas en manufactura electr\u00f3nica e industria ligera.",
+    "subhead": "Personal de manufactura electr\u00f3nica, industria ligera, almac\u00e9n y ensamble en el \u00e1rea de Tampa Bay.",
+    "label": "Tampa FL",
+    "cities": ["Tampa FL", "Clearwater FL", "St. Petersburg FL", "Largo FL", "Brandon FL", "Riverview FL", "Plant City FL"],
+    "marketIntro": "Tampa Bay es uno de los mercados industriales m\u00e1s activos de Florida. El corredor de Tampa a Clearwater y St. Petersburg incluye una concentraci\u00f3n significativa de fabricantes de electr\u00f3nica, contratistas de defensa, operaciones de industria ligera y centros de distribuci\u00f3n. La oficina de Pro-Tech en Tampa dota de personal a estas operaciones localmente, colocando trabajadores certificados IPC de electr\u00f3nica, ensambladores de producci\u00f3n, operadores de montacargas y equipos de almac\u00e9n para empleadores en los condados de Hillsborough y Pinellas.",
+    "industries": ["Personal de Manufactura Electr\u00f3nica", "Personal de Industria Ligera", "Personal de Almac\u00e9n y 3PL", "Personal de Cadena de Suministro", "Personal Administrativo"],
+    "roles": ["T\u00e9cnicos de ensamble de PCB", "Operadores SMT", "Operadores de soldadura", "Inspectores de QC", "Ensambladores", "Operadores de m\u00e1quinas", "Operadores de montacargas", "Selectores y empacadores de almac\u00e9n", "Trabajadores de producci\u00f3n", "Personal de env\u00edo y recepci\u00f3n"],
+    "proof": [
+      { "n": "Tampa Bay", "label": "\u00c1rea de cobertura local" },
+      { "n": "48h", "label": "Tiempo promedio de cobertura" },
+      { "n": "94%", "label": "Tasa de retenci\u00f3n de clientes" },
+      { "n": "IPC", "label": "Fuerza laboral electr\u00f3nica certificada" }
+    ],
+    "whyUs": [
+      { "title": "Experiencia en manufactura electr\u00f3nica en Tampa Bay", "desc": "El corredor Tampa-Clearwater tiene una presencia significativa de manufactura electr\u00f3nica, incluyendo producci\u00f3n adyacente a defensa y aeroespacial. Nuestros reclutadores de Tampa buscan trabajadores certificados IPC para estos entornos espec\u00edficamente." },
+      { "title": "Oficina local, reclutadores locales", "desc": "No administramos Tampa desde un centro de llamadas en Texas. Nuestro equipo local conoce a los empleadores, los parques industriales a lo largo de US-19 e I-4, y el grupo de candidatos en los condados de Hillsborough y Pinellas." },
+      { "title": "Cobertura en 48 horas, asistencia confiable", "desc": "Evaluamos a cada candidato antes de la colocaci\u00f3n: verificaci\u00f3n de antecedentes, prueba de drogas y evaluaci\u00f3n de habilidades. La mayor\u00eda de los pedidos se cubren en 48 horas, con cobertura de emergencia disponible para roles de producci\u00f3n y almac\u00e9n." }
+    ],
+    "testimonial": {
+      "quote": "Necesit\u00e1bamos operadores de soldadura certificados IPC para una rampa de producci\u00f3n y Pro-Tech entreg\u00f3 trabajadores calificados en menos de 72 horas. Todos ten\u00edan sus certificaciones en orden. Eso nos ahorr\u00f3 semanas de capacitaci\u00f3n en el trabajo.",
+      "name": "Gerente de Operaciones",
+      "co": "Fabricante de Electr\u00f3nica \u00b7 Clearwater, FL"
+    },
+    "faq": [
+      { "q": "\u00bfQu\u00e9 \u00e1reas cubre la oficina de Tampa?", "a": "Nuestra oficina de Tampa cubre toda el \u00e1rea de Tampa Bay: Tampa, Clearwater, St. Petersburg, Largo, Brandon, Riverview y Plant City. Cubrimos los condados de Hillsborough, Pinellas y Pasco para personal industrial y de manufactura." },
+      { "q": "\u00bfQu\u00e9 industrias atienden en Tampa?", "a": "Tampa atiende principalmente manufactura electr\u00f3nica, industria ligera, almac\u00e9n y distribuci\u00f3n, cadena de suministro y roles administrativos. El corredor Tampa-Clearwater tiene una fuerte base de manufactura electr\u00f3nica y de defensa en la que nos especializamos." },
+      { "q": "\u00bfProveen trabajadores certificados IPC de electr\u00f3nica en Tampa?", "a": "S\u00ed. Capacitamos y certificamos trabajadores en IPC-A-610, IPC-620 y J-STD-001 antes de la colocaci\u00f3n. Para fabricantes de electr\u00f3nica en el \u00e1rea de Tampa Bay, nuestros candidatos llegan con certificaciones verificadas, no pendientes." },
+      { "q": "\u00bfQu\u00e9 tan r\u00e1pido pueden cubrir empleos de producci\u00f3n en Tampa o Clearwater?", "a": "La mayor\u00eda de los pedidos de industria ligera y almac\u00e9n se cubren en 48 horas. Los roles de manufactura electr\u00f3nica con requisitos de certificaci\u00f3n IPC generalmente toman 48-72 horas. Para trabajo general, la disponibilidad del mismo d\u00eda es frecuente." },
+      { "q": "\u00bfOfrecen personal temporal a permanente en Tampa?", "a": "S\u00ed: temporal, temporal a permanente y colocaci\u00f3n directa est\u00e1n disponibles desde nuestra oficina de Tampa. Muchos fabricantes de electr\u00f3nica y empleadores de industria ligera de Tampa Bay usan temporal a permanente para evaluar trabajadores antes de extender ofertas permanentes." },
+      { "q": "\u00bfPueden dotar de personal para turnos nocturnos y fines de semana en el \u00e1rea de Tampa?", "a": "S\u00ed. Reclutamos para turnos diurnos, vespertinos y nocturnos, incluyendo horarios rotativos. Ind\u00edquenos su turno y fecha de inicio cuando env\u00ede su solicitud y buscaremos candidatos que coincidan, no aquellos que necesitar\u00e1n negociar turnos despu\u00e9s de empezar." }
+    ],
+    "localServices": [
+      { "title": "Personal de Manufactura Electr\u00f3nica", "desc": "T\u00e9cnicos certificados IPC de ensamble de PCB, operadores SMT, operadores de soldadura, inspectores de QC y t\u00e9cnicos de prueba para fabricantes de electr\u00f3nica en el corredor Tampa-Clearwater." },
+      { "title": "Personal de Industria Ligera", "desc": "Ensambladores, operadores de m\u00e1quinas, trabajadores de producci\u00f3n y personal de control de calidad para fabricantes ligeros en los condados de Hillsborough y Pinellas. Turnos diurnos y nocturnos cubiertos." },
+      { "title": "Personal de Almac\u00e9n y Distribuci\u00f3n", "desc": "Operadores de montacargas, selectores, empacadores y personal de env\u00edo/recepci\u00f3n para operaciones de distribuci\u00f3n y 3PL en Brandon, Riverview y Plant City." }
+    ],
+    "subMarkets": [
+      { "label": "Clearwater, FL", "desc": "Corredor de manufactura electr\u00f3nica e industria ligera a lo largo de US-19 en el condado de Pinellas." },
+      { "label": "St. Petersburg, FL", "desc": "Operaciones industriales y de almac\u00e9n en el sur del condado de Pinellas." },
+      { "label": "Brandon / Riverview, FL", "desc": "Corredor de distribuci\u00f3n y almac\u00e9n al este de Tampa sobre I-75." }
+    ],
+    "relatedCities": [
+      { "label": "Richardson TX (Sede)" },
+      { "label": "Phoenix AZ" },
+      { "label": "Todas las Ubicaciones" }
+    ]
+  },
+  "sanjose": {
+    "title": "Personal de Manufactura Electr\u00f3nica en San Jose CA | Certificado IPC | Pro-Tech",
+    "metaDesc": "Pro-Tech Staffing San Jose CA coloca trabajadores certificados IPC de ensamble de PCB, SMT, soldadura y manufactura electr\u00f3nica en San Jose, Santa Clara, Milpitas y Fremont. Cobertura en 48 horas.",
+    "h1": "Personal de manufactura electr\u00f3nica en San Jose, CA. Trabajadores certificados IPC.",
+    "subhead": "Ensamble de PCB, SMT, soldadura, QC, AOI y personal de manufactura electr\u00f3nica en Silicon Valley.",
+    "label": "San Jose CA",
+    "cities": ["San Jose CA", "Santa Clara CA", "Milpitas CA", "Fremont CA", "Sunnyvale CA", "Santa Cruz CA", "Gilroy CA"],
+    "marketIntro": "Silicon Valley tiene una de las concentraciones m\u00e1s altas de fabricantes de electr\u00f3nica, fabricantes por contrato y operaciones de ensamble de PCB en el mundo. San Jose, Santa Clara, Milpitas y Fremont albergan fabricantes OEM de electr\u00f3nica, empresas EMS y operaciones de ensamble adyacentes a semiconductores que requieren trabajadores certificados IPC, no mano de obra gen\u00e9rica. La oficina de Pro-Tech en San Jose se especializa en colocar t\u00e9cnicos certificados de electr\u00f3nica para estos entornos, donde la precisi\u00f3n, la capacitaci\u00f3n y los est\u00e1ndares de cero defectos son innegociables.",
+    "industries": ["Personal de Manufactura Electr\u00f3nica", "Personal de Industria Ligera", "Personal de Cadena de Suministro", "Personal Administrativo", "Trabajo General"],
+    "roles": ["T\u00e9cnicos de ensamble de PCB", "Operadores SMT", "Operadores de soldadura (a trav\u00e9s de orificio y reflujo)", "Operadores AOI", "T\u00e9cnicos de retrabajo", "Inspectores de QC", "Ensambladores de arneses de cables", "Asociados de producci\u00f3n", "T\u00e9cnicos de prueba", "Operadores de recubrimiento conformal"],
+    "proof": [
+      { "n": "IPC", "label": "Programa de fuerza laboral certificada" },
+      { "n": "48-72h", "label": "Tiempo promedio de cobertura" },
+      { "n": "94%", "label": "Tasa de retenci\u00f3n de clientes" },
+      { "n": "30", "label": "A\u00f1os en personal electr\u00f3nico" }
+    ],
+    "whyUs": [
+      { "title": "Certificaci\u00f3n IPC antes de la colocaci\u00f3n", "desc": "Los fabricantes de electr\u00f3nica de Silicon Valley no pueden permitirse capacitar desde cero. Certificamos trabajadores en IPC-A-610, IPC-620 y J-STD-001 antes de que lleguen a su planta, para que sus candidatos est\u00e9n listos para producci\u00f3n desde el primer d\u00eda." },
+      { "title": "30 a\u00f1os en personal electr\u00f3nico", "desc": "Pro-Tech fue construida sobre la manufactura electr\u00f3nica. Nuestra oficina de San Jose trae esa profundidad a Silicon Valley, buscando los roles espec\u00edficos, las certificaciones espec\u00edficas y los est\u00e1ndares de precisi\u00f3n espec\u00edficos que los fabricantes del \u00e1rea de la bah\u00eda requieren." },
+      { "title": "Selecci\u00f3n enfocada en calidad para entornos de cero defectos", "desc": "El ensamble de PCB, SMT y retrabajo no tienen margen de error. Cada candidato es evaluado en habilidades para su rol espec\u00edfico, no solo entrevistado. Enviamos trabajadores que pueden hacer el trabajo, no trabajadores que dicen que pueden." }
+    ],
+    "testimonial": {
+      "quote": "Necesit\u00e1bamos inspectores certificados IPC-A-610 para una nueva l\u00ednea en dos semanas. Pro-Tech tuvo cuatro candidatos calificados entrevistados y listos en 72 horas. Los cuatro pasaron nuestro proceso interno de calificaci\u00f3n. Eso no pasa con otras agencias.",
+      "name": "Gerente de Ingenier\u00eda de Manufactura",
+      "co": "Fabricante de Electr\u00f3nica por Contrato \u00b7 Milpitas, CA"
+    },
+    "faq": [
+      { "q": "\u00bfQu\u00e9 \u00e1reas cubre la oficina de San Jose?", "a": "Nuestra oficina de San Jose cubre Silicon Valley y el South Bay: San Jose, Santa Clara, Milpitas, Fremont, Sunnyvale, Mountain View y Gilroy. Tambi\u00e9n cubrimos el corredor de manufactura electr\u00f3nica del East Bay en Fremont y Newark." },
+      { "q": "\u00bfProveen trabajadores certificados IPC en San Jose?", "a": "S\u00ed. Capacitamos y certificamos trabajadores en IPC-A-610, IPC-620 y J-STD-001 antes de la colocaci\u00f3n. Nuestros reclutadores de San Jose buscan espec\u00edficamente para roles de manufactura electr\u00f3nica, y los candidatos llegan con certificaciones verificadas y vigentes." },
+      { "q": "\u00bfQu\u00e9 roles de electr\u00f3nica cubren en Silicon Valley?", "a": "T\u00e9cnicos de ensamble de PCB, operadores SMT, operadores de soldadura (a trav\u00e9s de orificio y reflujo), operadores AOI, t\u00e9cnicos de retrabajo, inspectores de QC, ensambladores de arneses de cables, operadores de recubrimiento conformal y t\u00e9cnicos de prueba. Si est\u00e1 en la planta de producci\u00f3n de un fabricante de electr\u00f3nica, lo cubrimos." },
+      { "q": "\u00bfQu\u00e9 tan r\u00e1pido pueden cubrir roles de manufactura electr\u00f3nica en San Jose?", "a": "La mayor\u00eda de los roles de electr\u00f3nica se cubren en 48-72 horas. Los roles que requieren certificaciones IPC espec\u00edficas o especializaciones poco comunes pueden tomar un poco m\u00e1s. Mantenemos un canal activo de candidatos certificados en todo el South Bay." },
+      { "q": "\u00bfDotan de personal para empresas EMS y fabricantes por contrato en Silicon Valley?", "a": "S\u00ed. Las empresas EMS y los fabricantes por contrato son un tipo de cliente principal para nuestra oficina de San Jose. Entendemos los entornos de m\u00faltiples clientes, alta mezcla y bajo volumen que estas empresas manejan, y evaluamos candidatos en consecuencia." },
+      { "q": "\u00bfOfrecen temporal a permanente para t\u00e9cnicos de electr\u00f3nica en San Jose?", "a": "S\u00ed: temporal, temporal a permanente y colocaci\u00f3n directa est\u00e1n disponibles. Muchos fabricantes de electr\u00f3nica de Silicon Valley usan temporal a permanente para evaluar t\u00e9cnicos certificados IPC antes de extender ofertas permanentes, especialmente para roles de QC y retrabajo." }
+    ],
+    "localServices": [
+      { "title": "Personal de Manufactura Electr\u00f3nica", "desc": "T\u00e9cnicos certificados IPC de ensamble de PCB, operadores SMT, operadores de soldadura, operadores AOI, t\u00e9cnicos de retrabajo e inspectores de QC para fabricantes de electr\u00f3nica y empresas EMS de Silicon Valley." },
+      { "title": "Personal de Industria Ligera y Producci\u00f3n", "desc": "Ensambladores, asociados de producci\u00f3n, operadores de m\u00e1quinas y apoyo en l\u00ednea para fabricantes ligeros y fabricantes por contrato en San Jose, Santa Clara y Milpitas." },
+      { "title": "Personal de Cadena de Suministro y Administrativo", "desc": "Coordinadores de log\u00edstica, especialistas en control de inventario, personal de env\u00edo/recepci\u00f3n y soporte administrativo para operaciones electr\u00f3nicas y fabricantes por contrato en el South Bay." }
+    ],
+    "subMarkets": [
+      { "label": "Milpitas, CA", "desc": "Corredor denso de manufactura electr\u00f3nica y empresas EMS en el \u00e1rea norte de San Jose." },
+      { "label": "Fremont, CA", "desc": "Zona principal de electr\u00f3nica e industria ligera en el East Bay, adyacente a Silicon Valley." },
+      { "label": "Santa Clara, CA", "desc": "Centro de manufactura de semiconductores y electr\u00f3nica en el coraz\u00f3n de Silicon Valley." }
+    ],
+    "relatedCities": [
+      { "label": "Richardson TX (Sede)" },
+      { "label": "Phoenix AZ" },
+      { "label": "Todas las Ubicaciones" }
+    ]
+  },
+  "phoenix": {
+    "title": "Agencia de Personal Industrial en Phoenix AZ | Manufactura Electr\u00f3nica y Almac\u00e9n | Pro-Tech",
+    "metaDesc": "Pro-Tech Staffing Phoenix AZ coloca trabajadores de manufactura electr\u00f3nica, ensambladores de industria ligera y personal de almac\u00e9n en Phoenix, Tempe, Mesa, Chandler y Scottsdale. Cobertura en 48 horas.",
+    "h1": "Agencia de personal industrial en Phoenix, AZ. Especialistas en manufactura electr\u00f3nica y almac\u00e9n.",
+    "subhead": "Personal de manufactura electr\u00f3nica, industria ligera, almac\u00e9n y cadena de suministro en el \u00e1rea metropolitana de Phoenix.",
+    "label": "Phoenix AZ",
+    "cities": ["Phoenix AZ", "Tempe AZ", "Mesa AZ", "Chandler AZ", "Scottsdale AZ", "Gilbert AZ", "Peoria AZ"],
+    "marketIntro": "Phoenix es uno de los mercados industriales de m\u00e1s r\u00e1pido crecimiento en el suroeste. El corredor del East Valley \u2014 Chandler, Mesa, Tempe y Gilbert \u2014 ha atra\u00eddo a importantes fabricantes de semiconductores y operaciones electr\u00f3nicas, convirti\u00e9ndolo en uno de los mercados m\u00e1s activos para trabajadores certificados IPC de electr\u00f3nica fuera de California y Texas. La oficina de Pro-Tech en Phoenix recluta localmente para estos roles, colocando t\u00e9cnicos de ensamble de PCB, trabajadores de producci\u00f3n, personal de almac\u00e9n y soporte de cadena de suministro para fabricantes en toda la metr\u00f3poli.",
+    "industries": ["Personal de Manufactura Electr\u00f3nica", "Personal de Industria Ligera", "Personal de Almac\u00e9n y 3PL", "Personal de Cadena de Suministro", "Trabajo General"],
+    "roles": ["T\u00e9cnicos de ensamble de PCB", "Operadores SMT", "Operadores de soldadura", "Inspectores de QC", "Ensambladores", "Operadores de m\u00e1quinas", "Operadores de montacargas", "Selectores y empacadores de almac\u00e9n", "Trabajadores de producci\u00f3n", "Personal de env\u00edo y recepci\u00f3n"],
+    "proof": [
+      { "n": "East Valley", "label": "Cobertura del corredor electr\u00f3nico" },
+      { "n": "48h", "label": "Tiempo promedio de cobertura" },
+      { "n": "94%", "label": "Tasa de retenci\u00f3n de clientes" },
+      { "n": "IPC", "label": "Fuerza laboral electr\u00f3nica certificada" }
+    ],
+    "whyUs": [
+      { "title": "Listos para el auge de semiconductores de Phoenix", "desc": "El East Valley se ha convertido en uno de los corredores de manufactura electr\u00f3nica m\u00e1s activos de EE. UU. Nuestros reclutadores de Phoenix mantienen canales de trabajadores certificados IPC espec\u00edficamente para los fabricantes de electr\u00f3nica y fabricantes por contrato que impulsan este crecimiento." },
+      { "title": "Oficina local, cobertura total de la metr\u00f3poli", "desc": "Cubrimos toda la metr\u00f3poli de Phoenix desde una oficina local: Chandler, Mesa, Tempe, Gilbert, Scottsdale, Peoria y Glendale. Su reclutador conoce el mercado, no solo el mapa." },
+      { "title": "Trabajadores evaluados que se presentan", "desc": "Phoenix tiene un mercado laboral competitivo. Evaluamos a cada candidato por confiabilidad, habilidades y compatibilidad antes de la colocaci\u00f3n: verificaci\u00f3n de antecedentes, prueba de drogas y entrevistas directas. La mayor\u00eda de los pedidos se cubren en 48 horas." }
+    ],
+    "testimonial": {
+      "quote": "Necesit\u00e1bamos trabajadores de almac\u00e9n y producci\u00f3n para una nueva instalaci\u00f3n en Chandler. Pro-Tech tuvo 12 candidatos evaluados en sitio en 48 horas. La tasa de asistencia en los primeros 30 d\u00edas fue superior al 95%.",
+      "name": "Gerente de RR.HH.",
+      "co": "Fabricante de Electr\u00f3nica \u00b7 Chandler, AZ"
+    },
+    "faq": [
+      { "q": "\u00bfQu\u00e9 \u00e1reas cubre la oficina de Phoenix?", "a": "Nuestra oficina de Phoenix cubre toda la metr\u00f3poli: Phoenix, Tempe, Mesa, Chandler, Gilbert, Scottsdale, Peoria, Glendale y el corredor del Southeast Valley a lo largo de I-10 y US-60." },
+      { "q": "\u00bfQu\u00e9 industrias atienden en Phoenix?", "a": "Phoenix atiende principalmente manufactura electr\u00f3nica, industria ligera, almac\u00e9n y distribuci\u00f3n, cadena de suministro y trabajo general. El East Valley \u2014 Chandler, Mesa, Tempe y Gilbert \u2014 tiene una fuerte y creciente base de manufactura electr\u00f3nica en la que nos especializamos." },
+      { "q": "\u00bfProveen trabajadores certificados IPC en Phoenix?", "a": "S\u00ed. Capacitamos y certificamos trabajadores en IPC-A-610, IPC-620 y J-STD-001 antes de la colocaci\u00f3n. Nuestros reclutadores de Phoenix buscan espec\u00edficamente para roles de manufactura electr\u00f3nica, y los candidatos llegan con certificaciones vigentes y verificadas." },
+      { "q": "\u00bfQu\u00e9 tan r\u00e1pido pueden cubrir empleos industriales en Phoenix?", "a": "La mayor\u00eda de los pedidos de industria ligera y almac\u00e9n se cubren en 48 horas. Los roles de manufactura electr\u00f3nica con requisitos de certificaci\u00f3n IPC generalmente toman 48-72 horas. El trabajo general frecuentemente puede cubrirse el mismo d\u00eda desde nuestro grupo activo local." },
+      { "q": "\u00bfColocan trabajadores para fabricantes adyacentes a semiconductores en Phoenix?", "a": "S\u00ed. El corredor de Chandler y Mesa tiene actividad significativa de manufactura de semiconductores y electr\u00f3nica. Colocamos trabajadores de producci\u00f3n, t\u00e9cnicos de ensamble e inspectores de QC para estas instalaciones, evaluados para los est\u00e1ndares de precisi\u00f3n y seguridad que estos entornos requieren." },
+      { "q": "\u00bfOfrecen personal temporal a permanente en Phoenix?", "a": "S\u00ed: temporal, temporal a permanente y colocaci\u00f3n directa est\u00e1n disponibles desde nuestra oficina de Phoenix. Muchos fabricantes de electr\u00f3nica y empleadores de industria ligera de Phoenix usan temporal a permanente para evaluar trabajadores antes de extender ofertas permanentes." }
+    ],
+    "localServices": [
+      { "title": "Personal de Manufactura Electr\u00f3nica", "desc": "T\u00e9cnicos certificados IPC de ensamble de PCB, operadores SMT, operadores de soldadura, inspectores de QC y asociados de producci\u00f3n para fabricantes de electr\u00f3nica en el corredor Chandler-Mesa-Tempe." },
+      { "title": "Personal de Industria Ligera", "desc": "Ensambladores, operadores de m\u00e1quinas, trabajadores de producci\u00f3n y apoyo en l\u00ednea para fabricantes ligeros en toda la metr\u00f3poli de Phoenix. Turnos diurnos, vespertinos y nocturnos cubiertos." },
+      { "title": "Personal de Almac\u00e9n y Distribuci\u00f3n", "desc": "Operadores de montacargas, selectores, empacadores y personal de env\u00edo/recepci\u00f3n para operaciones de distribuci\u00f3n en Phoenix, Mesa y Peoria. Cobertura de emergencia y temporada alta disponible." }
+    ],
+    "subMarkets": [
+      { "label": "Chandler, AZ", "desc": "Centro principal de manufactura de semiconductores y electr\u00f3nica en el East Valley." },
+      { "label": "Mesa, AZ", "desc": "Corredor de industria ligera y almac\u00e9n en el East Valley a lo largo de US-60." },
+      { "label": "Tempe, AZ", "desc": "Operaciones industriales y de distribuci\u00f3n entre Phoenix y Mesa a lo largo de I-10." }
+    ],
+    "relatedCities": [
+      { "label": "Richardson TX (Sede)" },
+      { "label": "Tampa FL" },
+      { "label": "Todas las Ubicaciones" }
+    ]
+  },
+  "atlanta": {
+    "title": "Agencia de Personal Industrial en Atlanta GA | Manufactura Electr\u00f3nica y Almac\u00e9n | Pro-Tech",
+    "metaDesc": "Pro-Tech Staffing Atlanta GA coloca trabajadores de manufactura electr\u00f3nica, ensambladores de industria ligera y personal de almac\u00e9n en Atlanta, Norcross, el condado de Gwinnett y el \u00e1rea metropolitana. Cobertura en 48 horas.",
+    "h1": "Agencia de personal industrial en Atlanta, GA. Especialistas en manufactura electr\u00f3nica y almac\u00e9n.",
+    "subhead": "Personal de manufactura electr\u00f3nica, industria ligera, almac\u00e9n y cadena de suministro en el \u00e1rea metropolitana de Atlanta.",
+    "label": "Atlanta GA",
+    "cities": ["Atlanta GA", "Norcross GA", "Duluth GA", "Lawrenceville GA", "Marietta GA", "Smyrna GA", "Peachtree City GA"],
+    "marketIntro": "Atlanta es uno de los mercados industriales y log\u00edsticos m\u00e1s activos del sureste. Los corredores I-85 e I-285, que pasan por Norcross, Duluth, Lawrenceville y el condado de Gwinnett, contienen una densa concentraci\u00f3n de fabricantes de electr\u00f3nica, operaciones de industria ligera y centros de distribuci\u00f3n. Nuestra oficina de Atlanta est\u00e1 ubicada en Norcross en el centro de la zona industrial del condado de Gwinnett, dotando de personal a trabajadores de producci\u00f3n, ensambladores, equipos de almac\u00e9n y t\u00e9cnicos de electr\u00f3nica para empleadores en toda la metr\u00f3poli.",
+    "industries": ["Personal de Manufactura Electr\u00f3nica", "Personal de Industria Ligera", "Personal de Almac\u00e9n y 3PL", "Personal de Cadena de Suministro", "Personal Administrativo", "Trabajo General"],
+    "roles": ["T\u00e9cnicos de ensamble de PCB", "Operadores SMT", "Operadores de soldadura", "Inspectores de QC", "Ensambladores", "Operadores de m\u00e1quinas", "Operadores de montacargas", "Selectores y empacadores de almac\u00e9n", "Trabajadores de producci\u00f3n", "Personal de env\u00edo y recepci\u00f3n"],
+    "proof": [
+      { "n": "ATL", "label": "Cobertura del metro de Atlanta" },
+      { "n": "48h", "label": "Tiempo promedio de cobertura" },
+      { "n": "94%", "label": "Tasa de retenci\u00f3n de clientes" },
+      { "n": "I-85", "label": "Cobertura del corredor industrial" }
+    ],
+    "whyUs": [
+      { "title": "Experiencia industrial en el condado de Gwinnett", "desc": "Nuestra oficina de Norcross se encuentra en medio de una de las zonas industriales m\u00e1s densas de Georgia. Conocemos a los empleadores, los parques industriales y el grupo de candidatos a lo largo de los corredores I-85 e I-285, y dotamos de personal a estos mercados cada semana." },
+      { "title": "Oficina local, cobertura total de la metr\u00f3poli", "desc": "Cubrimos toda la metr\u00f3poli de Atlanta desde una oficina local: Norcross, Duluth, Lawrenceville, Marietta, Smyrna y Peachtree City. Su reclutador conoce este mercado, no solo el mapa." },
+      { "title": "Trabajadores evaluados que se presentan", "desc": "A cada candidato se le verifican antecedentes, se le realiza prueba de drogas y entrevista de habilidades antes de la colocaci\u00f3n. La mayor\u00eda de los pedidos se cubren en 48 horas. Para trabajo general, la disponibilidad del mismo d\u00eda es frecuente desde nuestro grupo activo local." }
+    ],
+    "testimonial": {
+      "quote": "Necesit\u00e1bamos trabajadores de producci\u00f3n y operadores de montacargas para una nueva instalaci\u00f3n en Norcross con poco aviso. Pro-Tech tuvo candidatos calificados en sitio en 48 horas. La asistencia en los primeros 60 d\u00edas fue la mejor que hab\u00edamos visto de cualquier socio de personal.",
+      "name": "Gerente de Operaciones",
+      "co": "Manufactura Ligera \u00b7 Norcross, GA"
+    },
+    "faq": [
+      { "q": "\u00bfQu\u00e9 \u00e1reas cubre la oficina de Atlanta?", "a": "Nuestra oficina de Atlanta cubre toda el \u00e1rea metropolitana, incluyendo Norcross, Duluth, Lawrenceville, el condado de Gwinnett, Marietta, Smyrna, Sandy Springs y Peachtree City. Cubrimos los corredores industriales completos de I-85 e I-285." },
+      { "q": "\u00bfQu\u00e9 industrias atienden en Atlanta?", "a": "Atlanta atiende principalmente manufactura electr\u00f3nica, industria ligera, almac\u00e9n y distribuci\u00f3n, cadena de suministro, administrativo y trabajo general. El condado de Gwinnett tiene una fuerte base de manufactura electr\u00f3nica e industria ligera en la que nos especializamos." },
+      { "q": "\u00bfQu\u00e9 tan r\u00e1pido puede Pro-Tech cubrir empleos industriales en Atlanta?", "a": "La mayor\u00eda de los pedidos de industria ligera y almac\u00e9n se cubren en 48 horas. Los roles de manufactura electr\u00f3nica con requisitos de certificaci\u00f3n IPC generalmente toman 48-72 horas. El trabajo general frecuentemente puede cubrirse el mismo d\u00eda desde nuestro grupo activo local." },
+      { "q": "\u00bfProveen trabajadores certificados IPC de electr\u00f3nica en Atlanta?", "a": "S\u00ed. Capacitamos y certificamos trabajadores en IPC-A-610, IPC-620 y J-STD-001 antes de la colocaci\u00f3n. Nuestros reclutadores de Atlanta buscan espec\u00edficamente para roles de manufactura electr\u00f3nica a lo largo del corredor I-85 en el condado de Gwinnett." },
+      { "q": "\u00bfOfrecen personal temporal a permanente en Atlanta?", "a": "S\u00ed: temporal, temporal a permanente y colocaci\u00f3n directa est\u00e1n disponibles desde nuestra oficina de Atlanta. Temporal a permanente es com\u00fan entre los fabricantes y distribuidores de Atlanta que quieren evaluar trabajadores antes de hacer ofertas permanentes." },
+      { "q": "\u00bfPueden dotar de personal para m\u00faltiples turnos en una instalaci\u00f3n de Atlanta?", "a": "S\u00ed. Reclutamos para turnos diurnos, vespertinos y nocturnos, incluyendo horarios rotativos. Ind\u00edquenos sus requisitos de turno cuando env\u00ede su solicitud de personal y buscaremos candidatos que coincidan desde el primer d\u00eda." }
+    ],
+    "localServices": [
+      { "title": "Personal de Manufactura Electr\u00f3nica", "desc": "T\u00e9cnicos certificados IPC de ensamble de PCB, operadores SMT, operadores de soldadura, inspectores de QC y asociados de producci\u00f3n para fabricantes de electr\u00f3nica en el condado de Gwinnett y el corredor I-85." },
+      { "title": "Personal de Industria Ligera", "desc": "Ensambladores, operadores de m\u00e1quinas, trabajadores de producci\u00f3n y personal de control de calidad para fabricantes ligeros en los condados de Gwinnett, Cobb y Fulton. Turnos diurnos y nocturnos cubiertos." },
+      { "title": "Personal de Almac\u00e9n y Distribuci\u00f3n", "desc": "Operadores de montacargas, selectores, empacadores y personal de env\u00edo/recepci\u00f3n para operaciones de distribuci\u00f3n y 3PL en toda la metr\u00f3poli de Atlanta. Cobertura de emergencia y temporada alta disponible." }
+    ],
+    "subMarkets": [
+      { "label": "Norcross, GA", "desc": "Zona densa de industria ligera y manufactura electr\u00f3nica en el condado de Gwinnett a lo largo de I-85." },
+      { "label": "Duluth, GA", "desc": "Corredor industrial y de almac\u00e9n en crecimiento en el norte del condado de Gwinnett." },
+      { "label": "Marietta / Smyrna, GA", "desc": "Operaciones de industria ligera y manufactura en el condado de Cobb al noroeste de Atlanta." }
+    ],
+    "relatedCities": [
+      { "label": "Richardson TX (Sede)" },
+      { "label": "Tampa FL" },
+      { "label": "Todas las Ubicaciones" }
+    ]
+  }
+}

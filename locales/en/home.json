@@ -1,0 +1,207 @@
+{
+  "hero": {
+    "eyebrow": "Electronics Manufacturing & Industrial Staffing",
+    "headline": "Manufacturing and industrial jobs. Filled fast, staffed right.",
+    "subhead": "30 years connecting workers with electronics, warehouse, and industrial roles across 6 US markets. Local recruiters who know the work.",
+    "ctaPrimary": "Request Workers",
+    "ctaSecondary": "Find Jobs",
+    "statChipValue": "36h",
+    "statChipLabel": "avg. time to first candidate",
+    "operatingIn": "Operating in",
+    "cities": {
+      "richardsonTx": "Richardson TX",
+      "bedfordTx": "Bedford TX",
+      "austinTx": "Austin TX",
+      "tampaFl": "Tampa FL",
+      "sanJoseCa": "San Jose CA",
+      "phoenixAz": "Phoenix AZ"
+    }
+  },
+  "statsBar": {
+    "workersPlaced": { "number": "54K+", "label": "Workers placed" },
+    "avgTime": { "number": "36h", "label": "Avg. time to first candidate" },
+    "fillRate": { "number": "97%", "label": "On-time fill rate" },
+    "clientsReorder": { "number": "94%", "label": "Clients reorder within 30 days" },
+    "yearsInBusiness": { "number": "30", "label": "Years in business" }
+  },
+  "employers": {
+    "eyebrow": "For Employers",
+    "headline": "When a shift goes uncovered,\nproduction pays the price.",
+    "body1": "We help employers reduce no-shows, weak fits, retraining, and overtime with faster response, stronger screening, and local recruiters who understand the work.",
+    "body2": "You do not need more resumes. You need workers who show up on time, fit the role, and can work safely from day one. That is where we focus.",
+    "features": {
+      "screening": {
+        "title": "Role-specific screening",
+        "desc": "Every candidate is screened for the job, shift, and site environment before they reach your floor."
+      },
+      "fastResponse": {
+        "title": "Fast response when you need coverage",
+        "desc": "Send the role, shift, start date, and pay range. We move quickly."
+      },
+      "recruiters": {
+        "title": "Recruiters who know the work",
+        "desc": "Your team works with recruiters who understand the roles, the work environment, and what good looks like on the floor."
+      }
+    },
+    "cta": "Submit a Staffing Request",
+    "statChipValue": "94%",
+    "statChipLabel": "of clients re-order within 30 days"
+  },
+  "industries": {
+    "eyebrow": "Industries We Serve",
+    "headline": "We only staff the industries we know best.",
+    "subhead": "A warehouse role is not an electronics role. A machine operator is not an admin temp. After 30 years in these environments, we recruit by role, shift, and floor requirements, not just availability.",
+    "list": {
+      "electronics": {
+        "title": "Electronics Manufacturing Staffing",
+        "desc": "PCB assembly, SMT technicians, soldering operators, QC inspectors, test technicians, AOI operators, rework technicians, and production associates.",
+        "cert": "We train and certify workers in IPC-610, IPC-620, and J-STD-001."
+      },
+      "lightIndustrial": {
+        "title": "Light Industrial Staffing",
+        "desc": "Assemblers, machine operators, production workers, quality control, packaging, and line support."
+      },
+      "warehouse": {
+        "title": "Warehouse Staffing",
+        "desc": "Picking, packing, receiving, forklift operators, shipping, inventory, and 3PL support."
+      },
+      "supplyChain": {
+        "title": "Supply Chain Staffing",
+        "desc": "Logistics coordinators, inventory control, shipping and receiving, and warehouse support staff."
+      },
+      "administrative": {
+        "title": "Administrative Staffing",
+        "desc": "Data entry, customer support, clerical help, and back-office operational support."
+      },
+      "generalLabor": {
+        "title": "General Labor",
+        "desc": "Short-term, temp-to-hire, and project-based labor when you need coverage without delay."
+      }
+    }
+  },
+  "howItWorks": {
+    "eyebrow": "How It Works",
+    "headline": "Three steps.\nFast fills.\nLess scrambling.",
+    "body1": "You do not need a bloated intake process. Tell us what you need, and we get to work.",
+    "body2": "Need temp, temp-to-hire, or direct placement? We handle all three.",
+    "steps": {
+      "step1": {
+        "n": "01",
+        "title": "Tell us what you need",
+        "desc": "Send the role, shift, location, start date, pay range, and any must-have requirements."
+      },
+      "step2": {
+        "n": "02",
+        "title": "We source and screen",
+        "desc": "Our recruiters pull from active local pipelines and screen for fit, reliability, and readiness."
+      },
+      "step3": {
+        "n": "03",
+        "title": "Workers arrive ready",
+        "desc": "Candidates show up prepared for the role, and we stay involved so issues get solved fast."
+      }
+    }
+  },
+  "locations": {
+    "eyebrow": "Locations",
+    "headline": "Local recruiters.\nReal market knowledge.",
+    "body1": "Industrial hiring is local. Pay expectations, shift preferences, commute range, and labor competition all change by market. That's why each location is supported by a local team that understands the roles, the employers, and the labor pool.",
+    "body2": "We recruit in-market so you get faster fills, better attendance, and fewer surprises.",
+    "viewMarket": "View market \u2192",
+    "markets": {
+      "richardson": {
+        "city": "Richardson",
+        "state": "TX",
+        "label": "Headquarters",
+        "roles": "Light industrial, electronics manufacturing, warehouse",
+        "serving": "Dallas \u00b7 Plano \u00b7 Garland \u00b7 Carrollton \u00b7 Richardson"
+      },
+      "bedford": {
+        "city": "Bedford",
+        "state": "TX",
+        "label": "DFW Metro",
+        "roles": "Industrial, warehouse, supply chain, general labor",
+        "serving": "Fort Worth \u00b7 Arlington \u00b7 Irving \u00b7 Grand Prairie \u00b7 Bedford"
+      },
+      "austin": {
+        "city": "Austin",
+        "state": "TX",
+        "label": "Central TX",
+        "roles": "Light industrial, electronics, administrative",
+        "serving": "Austin \u00b7 Round Rock \u00b7 Cedar Park \u00b7 Pflugerville"
+      },
+      "tampa": {
+        "city": "Tampa",
+        "state": "FL",
+        "label": "Tampa Bay",
+        "roles": "Electronics manufacturing, light industrial, warehouse",
+        "serving": "Tampa \u00b7 Clearwater \u00b7 St. Petersburg \u00b7 Largo"
+      },
+      "sanJose": {
+        "city": "San Jose",
+        "state": "CA",
+        "label": "Silicon Valley",
+        "roles": "PCB assembly, SMT, electronics manufacturing, QC",
+        "serving": "San Jose \u00b7 Santa Clara \u00b7 Milpitas \u00b7 Fremont"
+      },
+      "phoenix": {
+        "city": "Phoenix",
+        "state": "AZ",
+        "label": "Southwest",
+        "roles": "Electronics manufacturing, warehouse, light industrial",
+        "serving": "Phoenix \u00b7 Tempe \u00b7 Mesa \u00b7 Chandler"
+      }
+    }
+  },
+  "testimonials": {
+    "eyebrow": "Client Results",
+    "ratingText": "4.8 \u00b7 120+ verified reviews",
+    "headline": "What teams say.",
+    "subhead": "The right staffing partner reduces friction. The wrong one creates more of it.",
+    "reviews": {
+      "review1": {
+        "headline": "14 roles filled in 48 hours",
+        "quote": "Pro-Tech filled 14 positions for us in under 48 hours during peak season. More important, the workers showed up and 9 converted full-time. That kind of consistency matters more than promises.",
+        "name": "Operations Director",
+        "role": "Electronics Manufacturer",
+        "location": "Richardson, TX"
+      },
+      "review2": {
+        "headline": "Finally, an agency that vets workers",
+        "quote": "We'd been through agencies that kept sending unvetted workers. Pro-Tech was different. They understood the job, the shift, and what kind of person would actually work on our floor.",
+        "name": "HR Manager",
+        "role": "Warehouse & 3PL",
+        "location": "Phoenix, AZ"
+      },
+      "review3": {
+        "headline": "Responsiveness that keeps production moving",
+        "quote": "The biggest difference is responsiveness. When something changes, I can call them and get a real answer fast. That saves my supervisors time and keeps production moving.",
+        "name": "Plant Manager",
+        "role": "Light Manufacturing",
+        "location": "Tampa, FL"
+      }
+    }
+  },
+  "jobSeekers": {
+    "eyebrow": "For Job Seekers",
+    "headline": "Looking for work?\nWe place people fast.",
+    "body": "We work with companies across light industrial, electronics, warehouse, supply chain, and administrative environments. If you want steady work, weekly pay, and real opportunities to move into temp-to-hire or long-term roles, we can help.",
+    "benefits": {
+      "weeklyPay": "Weekly pay",
+      "activeOpenings": "Active openings",
+      "tempToHire": "Temp-to-hire paths",
+      "shifts": "Day and night shifts",
+      "entryLevel": "Entry-level to experienced roles",
+      "recruiterSupport": "Recruiter support"
+    },
+    "cta": "View Open Positions"
+  },
+  "ctaBand": {
+    "eyebrow": "Get Started",
+    "headline": "Need workers fast?\nLet's fill the role.",
+    "body1": "Send us the role, shift, location, and start date. We'll move quickly and tell you what happens next.",
+    "body2": "Industrial, electronics, warehouse, and supply chain staffing across six active markets.",
+    "ctaCall": "Call Us Now",
+    "ctaRequest": "Submit a Staffing Request"
+  }
+}

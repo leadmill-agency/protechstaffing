@@ -1,0 +1,92 @@
+{
+  "nav": {
+    "links": {
+      "jobSeekers": "Job Seekers",
+      "employers": "Employers",
+      "industries": "Industries",
+      "locations": "Locations",
+      "about": "About"
+    },
+    "cta": {
+      "findJobs": "Find Jobs",
+      "hireWorkers": "Hire Workers"
+    },
+    "viewAll": "View All {{section}}"
+  },
+  "navDropdowns": {
+    "jobSeekers": {
+      "exploreJobs": "Explore Jobs",
+      "applyNow": "Apply Now"
+    },
+    "industries": {
+      "electronicsManufacturing": "Electronics Manufacturing",
+      "lightIndustrial": "Light Industrial",
+      "warehouseDistribution": "Warehouse & Distribution",
+      "supplyChainLogistics": "Supply Chain & Logistics",
+      "administrativeClerical": "Administrative & Clerical",
+      "generalLabor": "General Labor"
+    },
+    "locations": {
+      "richardsonTx": "Richardson, TX",
+      "bedfordTx": "Bedford, TX",
+      "austinTx": "Austin, TX",
+      "tampaFl": "Tampa, FL",
+      "sanJoseCa": "San Jose, CA",
+      "phoenixAz": "Phoenix, AZ"
+    }
+  },
+  "footer": {
+    "tagline": "Operational staffing with discipline. Industrial, electronics, warehouse, and supply chain placements across 6 US markets.",
+    "social": {
+      "linkedin": "LinkedIn",
+      "google": "Google",
+      "indeed": "Indeed"
+    },
+    "servicesHeading": "Services",
+    "services": {
+      "temporaryStaffing": "Temporary Staffing",
+      "tempToHire": "Temp-to-Hire",
+      "directPlacement": "Direct Placement",
+      "contractStaffing": "Contract Staffing",
+      "onSiteManagement": "On-Site Management"
+    },
+    "industriesHeading": "Industries",
+    "industries": {
+      "electronicsManufacturing": "Electronics Manufacturing",
+      "lightIndustrial": "Light Industrial",
+      "warehouse3pl": "Warehouse & 3PL",
+      "supplyChain": "Supply Chain",
+      "administrative": "Administrative",
+      "generalLabor": "General Labor"
+    },
+    "officesHeading": "Offices",
+    "offices": {
+      "richardsonHq": "Richardson, TX (HQ)",
+      "bedford": "Bedford, TX",
+      "austin": "Austin, TX",
+      "tampa": "Tampa, FL",
+      "sanJose": "San Jose, CA",
+      "phoenix": "Phoenix, AZ"
+    },
+    "copyright": "\u00a9 2025 Pro-Tech Staffing Services. All rights reserved.",
+    "legal": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "accessibility": "Accessibility"
+    }
+  },
+  "cta": {
+    "requestWorkers": "Request Workers",
+    "submitStaffingRequest": "Submit a Staffing Request",
+    "callUsNow": "Call Us Now",
+    "viewOpenPositions": "View Open Positions"
+  },
+  "stats": {
+    "workersPlaced": "Workers placed",
+    "avgTimeToCandidate": "Avg. time to first candidate",
+    "onTimeFillRate": "On-time fill rate",
+    "clientsReorder": "Clients reorder within 30 days",
+    "yearsInBusiness": "Years in business",
+    "clientsReorderChip": "of clients re-order within 30 days"
+  }
+}

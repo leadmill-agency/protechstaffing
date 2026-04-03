@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "title": "Apply Now | Pro-Tech Staffing",
+    "description": "Submit your application to Pro-Tech Staffing and join our talent pool. Our recruiters will match you with manufacturing, warehouse, and industrial opportunities."
+  },
+  "hero": {
+    "eyebrow": "Join Our Talent Pool",
+    "heading": "Apply Now",
+    "description": "Don't see a specific job? Submit your application and our team will match you with the right opportunity. We're always looking for reliable workers across manufacturing, warehouse, and industrial roles."
+  },
+  "form": {
+    "title": "Pro-Tech Staffing Application Form"
+  },
+  "faq": {
+    "eyebrow": "After You Apply",
+    "heading": "What happens next?",
+    "step1": {
+      "title": "We review your application",
+      "desc": "A recruiter at your nearest office reviews your experience, skills, and availability — usually within 24 hours."
+    },
+    "step2": {
+      "title": "We reach out to you",
+      "desc": "If there's a match, we'll call or text you to discuss available positions and schedule an in-person or phone interview."
+    },
+    "step3": {
+      "title": "You start working",
+      "desc": "Once placed, you'll receive onboarding details, your start date, and everything you need to hit the ground running."
+    }
+  },
+  "cta": {
+    "eyebrow": "Explore Openings",
+    "heading": "Want to browse specific positions?",
+    "description": "Check our job board to see what's currently available in your area.",
+    "ctaBrowse": "Browse Open Jobs"
+  }
+}

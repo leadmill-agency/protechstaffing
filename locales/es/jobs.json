@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "title": "Explorar Empleos | Pro-Tech Staffing",
+    "description": "Busque puestos abiertos en manufactura, electrónica, almacén e industria en Texas, Florida, Arizona y California. Aplique hoy con Pro-Tech Staffing."
+  },
+  "hero": {
+    "eyebrow": "Encuentre Su Próximo Empleo",
+    "heading": "Encuentre un Trabajo que se Adapte a Usted",
+    "description": "¿Busca su próximo empleo en manufactura, electrónica o industria ligera? Estamos colocando activamente trabajadores en empresas de Texas, Florida, Arizona y California. Encuentre una posición abierta a continuación o aplique a nuestro banco de talentos y permítanos encontrarle el puesto ideal.",
+    "ctaApply": "Aplicar Ahora"
+  },
+  "board": {
+    "eyebrow": "Posiciones Abiertas",
+    "heading": "Ver Vacantes Actuales",
+    "description": "Busque puestos disponibles por ubicación, industria o palabra clave. Se publican nuevas posiciones diariamente."
+  },
+  "process": {
+    "eyebrow": "Cómo Funciona",
+    "heading": "Nuestro Proceso de Contratación",
+    "apply": {
+      "title": "Aplique",
+      "desc": "Envíe su solicitud en línea o visite una de nuestras 6 oficinas. Toma menos de 10 minutos."
+    },
+    "review": {
+      "title": "Revisión",
+      "desc": "Nuestros reclutadores revisan su experiencia, habilidades y disponibilidad para encontrar la mejor coincidencia."
+    },
+    "interview": {
+      "title": "Entrevista",
+      "desc": "Reúnase con un reclutador local que entiende el trabajo y puede responder sus preguntas."
+    },
+    "work": {
+      "title": "Trabaje",
+      "desc": "Sea colocado en un sitio de trabajo, comience a ganar y construya hacia oportunidades a largo plazo."
+    }
+  },
+  "whyProTech": {
+    "eyebrow": "Por Qué Trabajar Con Nosotros",
+    "heading": "Por Qué Trabajar con Pro-Tech Staffing",
+    "body1": "No solo llenamos turnos — conectamos personas con puestos donde pueden tener éxito. Con 30 años en personal industrial, nuestros reclutadores conocen el trabajo, los empleadores y los mercados.",
+    "body2": "Desde asignaciones temporales hasta posiciones de contratación directa, ayudamos a trabajadores en 6 ciudades de EE. UU. a encontrar puestos que se adapten a su experiencia, horario y metas profesionales.",
+    "testimonial": {
+      "quote": "Pro-Tech me colocó en menos de 48 horas. El reclutador realmente escuchó lo que estaba buscando y me conectó con la empresa correcta.",
+      "name": "Trabajador de Manufactura",
+      "role": "Colocado por Pro-Tech Staffing, Richardson TX"
+    }
+  },
+  "whatWeDo": {
+    "eyebrow": "Lo Que Ofrecemos",
+    "heading": "¿Qué podemos hacer por usted?",
+    "fastPlacement": {
+      "title": "Colocación Rápida",
+      "desc": "La mayoría de los candidatos son colocados en 36 horas. Nos movemos rápido porque los empleadores lo necesitan ahora."
+    },
+    "roleMatching": {
+      "title": "Coincidencia de Puestos",
+      "desc": "Conectamos sus habilidades y experiencia con el puesto correcto — no solo la primera vacante disponible."
+    },
+    "tempToHire": {
+      "title": "De Temporal a Permanente",
+      "desc": "Muchas de nuestras posiciones se convierten en puestos permanentes. Comience como temporal y gane su camino a una oferta de tiempo completo."
+    },
+    "localRecruiters": {
+      "title": "Reclutadores Locales",
+      "desc": "Nuestros reclutadores viven en los mercados que sirven. Conocen a los empleadores, las instalaciones y el trabajo."
+    },
+    "training": {
+      "title": "Capacitación y Certificación",
+      "desc": "Acceda a capacitación de certificación IPC (IPC-610, IPC-620, J-STD-001) a través de nuestros instructores certificados internos."
+    },
+    "weeklyPay": {
+      "title": "Pago Semanal",
+      "desc": "Reciba su pago cada semana. Sin esperar cheques mensuales ni procesamiento retrasado."
+    }
+  },
+  "cta": {
+    "eyebrow": "Listo Para Comenzar",
+    "heading": "¿No ve el empleo correcto?",
+    "description": "Envíe su solicitud y nuestros reclutadores lo conectarán con oportunidades a medida que surjan.",
+    "ctaApply": "Aplicar Ahora"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "title": "Employers | Pro-Tech Staffing — Industrial & Manufacturing Staffing",
+    "description": "Request industrial, electronics manufacturing, and warehouse workers from Pro-Tech Staffing. Temporary staffing, temp-to-hire, direct placement, payroll services, PEO, and consulting."
+  },
+  "hero": {
+    "eyebrow": "For Employers",
+    "heading": "Need workers? Let's fill the role.",
+    "description": "Tell us the role, shift, location, and start date. We move fast and keep you updated every step of the way.",
+    "ctaSubmit": "Submit a Staffing Request",
+    "ctaPhone": "(972) 555-1234",
+    "servingNote": "Serving Richardson, Bedford, Austin, Tampa, San Jose, and Phoenix.",
+    "imgAlt": "Electronics manufacturing facility",
+    "statNumber": "36h",
+    "statLabel": "avg. time to first candidate"
+  },
+  "services": {
+    "eyebrow": "Beyond Staffing",
+    "heading": "More than temp workers.",
+    "description": "Most employers only think of Pro-Tech as temp staffing. We offer a full range of workforce solutions built around the way industrial teams actually operate.",
+    "temporaryStaffing": {
+      "title": "Temporary Staffing",
+      "desc": "Fill shifts fast with pre-screened workers ready for production, warehouse, and industrial roles."
+    },
+    "tempToHire": {
+      "title": "Temp-to-Hire",
+      "desc": "Try before you commit. Evaluate workers on the job before converting them to full-time."
+    },
+    "directPlacement": {
+      "title": "Direct Placement",
+      "desc": "We recruit and place permanent hires for hard-to-fill roles so your team can focus on production."
+    },
+    "payrollServices": {
+      "title": "Payroll Services",
+      "desc": "Offload payroll administration while keeping your workforce flexible and compliant."
+    },
+    "peo": {
+      "title": "PEO (Professional Employer Organization)",
+      "desc": "Shared HR, benefits, and compliance support for growing teams that need structure without overhead."
+    },
+    "consulting": {
+      "title": "Consulting (Workforce / Technology)",
+      "desc": "Strategic guidance on workforce planning, process improvement, and technology adoption for industrial operations."
+    }
+  },
+  "certification": {
+    "eyebrow": "Key Differentiator",
+    "heading": "Certified workers before they reach your floor.",
+    "description1": "The biggest complaint in electronics manufacturing staffing: there aren't enough qualified, certified candidates in the market. Agencies send bodies. We send trained workers.",
+    "description2": "Pro-Tech has certified IPC trainers on staff who train and certify candidates before they start. Your workers arrive ready to work to spec on day one.",
+    "cta": "Request Certified Workers",
+    "certsEyebrow": "Certifications We Train",
+    "ipc610": {
+      "title": "IPC-610",
+      "subtitle": "Acceptability of Electronic Assemblies",
+      "desc": "The industry standard for evaluating electronic assembly quality. Workers trained to identify and classify defects."
+    },
+    "ipc620": {
+      "title": "IPC-620",
+      "subtitle": "Cable and Wire Harness Assemblies",
+      "desc": "Requirements and acceptance criteria for cable and wire harness assemblies used in electronics manufacturing."
+    },
+    "jstd001": {
+      "title": "J-STD-001",
+      "subtitle": "Soldering",
+      "desc": "The joint industry standard for soldering. Workers certified in process control and workmanship requirements."
+    },
+    "footerHighlight": "In-house certified IPC trainers on staff.",
+    "footerNote": "Candidates arrive certified and ready to work to spec on day one."
+  },
+  "cta": {
+    "eyebrow": "Get Started",
+    "heading": "Ready to staff up?",
+    "description": "Send us the role, shift, location, and start date. We'll get back to you fast.",
+    "callUs": "Call Us Now",
+    "emailUs": "Email Us"
+  }
+}

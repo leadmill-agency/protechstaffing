@@ -1,0 +1,274 @@
+{
+  "page": {
+    "meta": {
+      "title": "Ngành Nghề Chúng Tôi Cung Ứng Nhân Sự | Pro-Tech Staffing Services",
+      "description": "Pro-Tech Staffing phục vụ các ngành sản xuất điện tử, công nghiệp nhẹ, kho bãi, chuỗi cung ứng, hành chính và lao động phổ thông tại sáu thị trường trên toàn nước Mỹ."
+    },
+    "hero": {
+      "eyebrow": "Ngành Nghề Phục Vụ",
+      "heading": "Chúng tôi chỉ cung ứng nhân sự cho các ngành chúng tôi am hiểu nhất.",
+      "description": "Vị trí kho bãi khác với vị trí điện tử. Thợ vận hành máy khác với nhân viên hành chính tạm thời. Sau 30 năm trong các môi trường này, chúng tôi tuyển dụng theo vai trò, ca làm và yêu cầu tại xưởng — không chỉ theo sự sẵn có.",
+      "ctaRequestWorkers": "Yêu Cầu Nhân Sự"
+    },
+    "stats": {
+      "industriesServed": { "n": "6", "label": "Ngành nghề phục vụ" },
+      "workersPlaced": { "n": "54K+", "label": "Nhân viên đã bố trí" },
+      "avgFillTime": { "n": "48h", "label": "Thời gian lấp đầy trung bình" },
+      "yearsExperience": { "n": "30", "label": "Năm kinh nghiệm" }
+    },
+    "learnMore": "Tìm Hiểu Thêm",
+    "commonRoles": "Vị Trí Phổ Biến",
+    "cta": {
+      "eyebrow": "Bắt Đầu",
+      "heading": "Cần nhân sự trong bất kỳ ngành nào?",
+      "description": "Gửi yêu cầu và chúng tôi sẽ có ứng viên đã sàng lọc, đủ năng lực sẵn sàng trong vòng 48 giờ.",
+      "callUsNow": "Gọi Ngay",
+      "submitRequest": "Gửi Yêu Cầu Tuyển Dụng"
+    }
+  },
+  "detail": {
+    "requestWorkers": "Yêu Cầu Nhân Sự",
+    "findJobs": "Tìm Việc Làm",
+    "avgFillTime": "thời gian lấp đầy trung bình",
+    "rolesWeStaff": "Vị Trí Chúng Tôi Cung Ứng",
+    "rolesHeading": "Vị trí chuyên biệt.\nKhông phải lao động tạm thời chung chung.",
+    "rolesDescription": "Mỗi vị trí trong ngành {{industry}} có yêu cầu cụ thể — chứng chỉ, khả năng thể chất, kiến thức thiết bị và quy trình an toàn. Chúng tôi sàng lọc toàn diện, không chỉ tìm người có mặt.",
+    "submitRequest": "Gửi Yêu Cầu Tuyển Dụng",
+    "certifications": "Chứng Chỉ",
+    "certHeading": "Nhân viên có chứng chỉ IPC.\nSẵn sàng cho xưởng sản xuất.",
+    "certDescription": "Chúng tôi đào tạo và cấp chứng chỉ cho nhân viên trước khi bố trí. Khi bạn cần kỹ thuật viên lắp ráp điện tử có chứng chỉ tiêu chuẩn ngành, chúng tôi cung cấp ứng viên đủ năng lực — không phải ứng viên cần hàng tuần đào tạo tại chỗ.",
+    "certVerified": "Chứng chỉ tiêu chuẩn ngành được xác minh trước khi bố trí.",
+    "whyProTech": "Tại Sao Chọn Pro-Tech",
+    "whyHeadingPrefix": "Tại sao nhà tuyển dụng chọn chúng tôi\ncho nhân sự {{industry}}.",
+    "relatedIndustries": "Ngành Nghề Liên Quan",
+    "ctaGetStarted": "Nhân Sự {{industry}} · Bắt Đầu",
+    "ctaHeading": "Cần nhân sự {{industry}}?\nChúng tôi có thể giúp.",
+    "ctaDescription": "Gửi yêu cầu và chúng tôi sẽ có ứng viên đã sàng lọc, đủ năng lực sẵn sàng trong vòng 48 giờ.",
+    "callUsNow": "Gọi Ngay"
+  },
+  "electronics-manufacturing": {
+    "title": "Nhân Sự Sản Xuất Điện Tử | Chứng Chỉ IPC | Pro-Tech Staffing",
+    "metaDesc": "Pro-Tech Staffing cung cấp nhân viên sản xuất điện tử có chứng chỉ IPC — lắp ráp PCB, SMT, hàn, QC, AOI, sửa chữa và kỹ thuật viên kiểm tra. Lấp đầy trong 48 giờ.",
+    "h1": "Nhân sự sản xuất điện tử. Chứng chỉ IPC-A-610.",
+    "subhead": "Lắp ráp PCB, SMT, hàn, QC, AOI, sửa chữa và kỹ thuật viên kiểm tra.",
+    "label": "Sản Xuất Điện Tử",
+    "intro": "Sản xuất điện tử đòi hỏi sự chính xác, đào tạo và không chấp nhận lỗi chất lượng. Pro-Tech Staffing chuyên bố trí kỹ thuật viên có chứng chỉ IPC cho lắp ráp PCB, công nghệ gắn bề mặt, hàn, kiểm soát chất lượng và vận hành kiểm tra. Chúng tôi đào tạo nhân viên theo tiêu chuẩn IPC-A-610, IPC-620 và J-STD-001 trước khi bố trí — để họ sẵn sàng đóng góp ngay từ ngày đầu.",
+    "imgAlt": "Dây chuyền lắp ráp PCB sản xuất điện tử với kỹ thuật viên",
+    "certifications": ["IPC-A-610 (Tiêu Chuẩn Chấp Nhận Cụm Lắp Ráp Điện Tử)", "IPC/WHMA-A-620 (Cụm Lắp Ráp Cáp & Dây Điện)", "J-STD-001 (Tiêu Chuẩn Hàn)"],
+    "roles": ["Kỹ thuật viên lắp ráp PCB", "Vận hành viên SMT", "Thợ hàn (xuyên lỗ & reflow)", "Vận hành viên AOI (Kiểm Tra Quang Học Tự Động)", "Kỹ thuật viên sửa chữa", "Kỹ thuật viên kiểm tra", "Kiểm tra viên chất lượng", "Nhân viên sản xuất", "Thợ lắp ráp dây điện", "Vận hành viên phủ bảo vệ"],
+    "whyUs": [
+      { "title": "Đội ngũ có chứng chỉ IPC", "desc": "Chúng tôi đào tạo và cấp chứng chỉ IPC-A-610, IPC-620 và J-STD-001 cho nhân viên trước khi bố trí. Ứng viên đến với các chứng chỉ mà xưởng sản xuất của bạn yêu cầu." },
+      { "title": "30 năm trong nhân sự điện tử", "desc": "Pro-Tech được xây dựng từ ngành sản xuất điện tử. Chúng tôi hiểu sự khác biệt giữa thợ hàn và kỹ thuật viên SMT — và tuyển dụng phù hợp." },
+      { "title": "Sàng lọc ưu tiên chất lượng", "desc": "Sản xuất điện tử không chấp nhận sai sót. Mỗi ứng viên được kiểm tra kỹ năng, xác minh lý lịch và sàng lọc cho công việc chính xác trước khi đến xưởng." }
+    ],
+    "proof": [
+      { "n": "30", "label": "Năm trong nhân sự điện tử" },
+      { "n": "IPC", "label": "Chương trình đào tạo có chứng chỉ" },
+      { "n": "48h", "label": "Thời gian lấp đầy trung bình" },
+      { "n": "97%", "label": "Tỷ lệ lấp đầy đúng hạn" }
+    ],
+    "testimonial": {
+      "quote": "Pro-Tech đã lấp đầy 14 vị trí cho chúng tôi trong chưa đầy 48 giờ vào mùa cao điểm. Quan trọng hơn, nhân viên đến làm việc và 9 người đã chuyển sang chính thức. Sự ổn định đó quan trọng hơn lời hứa.",
+      "name": "Giám Đốc Vận Hành",
+      "co": "Nhà Sản Xuất Điện Tử · Richardson, TX"
+    },
+    "relatedIndustries": [
+      { "label": "Công Nghiệp Nhẹ", "href": "/industries/light-industrial" },
+      { "label": "Kho Bãi & Phân Phối", "href": "/industries/warehouse-distribution" },
+      { "label": "Chuỗi Cung Ứng & Hậu Cần", "href": "/industries/supply-chain-logistics" }
+    ]
+  },
+  "light-industrial": {
+    "title": "Nhân Sự Công Nghiệp Nhẹ | Lắp Ráp & Công Nhân Sản Xuất | Pro-Tech Staffing",
+    "metaDesc": "Pro-Tech Staffing cung cấp nhân viên công nghiệp nhẹ đã sàng lọc — thợ lắp ráp, thợ vận hành máy, công nhân sản xuất, kiểm tra viên QC và nhân viên đóng gói. Lấp đầy trong 48 giờ.",
+    "h1": "Nhân sự công nghiệp nhẹ. Thợ lắp ráp, thợ vận hành, công nhân sản xuất.",
+    "subhead": "Lắp ráp, vận hành máy, sản xuất, kiểm soát chất lượng, đóng gói và hỗ trợ dây chuyền.",
+    "label": "Công Nghiệp Nhẹ",
+    "intro": "Hoạt động công nghiệp nhẹ cần nhân viên đáng tin cậy, có khả năng đào tạo và sẵn sàng làm việc trong môi trường sản xuất nhịp độ nhanh. Pro-Tech Staffing bố trí thợ lắp ráp, thợ vận hành máy, công nhân dây chuyền sản xuất và kiểm tra viên chất lượng cho các nhà sản xuất không thể chấp nhận vắng mặt, không phù hợp hay nhân viên thiếu đào tạo.",
+    "imgAlt": "Công nhân sản xuất công nghiệp nhẹ trên dây chuyền lắp ráp",
+    "certifications": null,
+    "roles": ["Thợ lắp ráp", "Thợ vận hành máy", "Công nhân dây chuyền sản xuất", "Kiểm tra viên chất lượng", "Nhân viên đóng gói", "Nhân viên hỗ trợ dây chuyền", "Nhân viên xử lý vật liệu", "Trưởng ca sản xuất", "Thợ vận hành máy ép", "Nhân viên phân loại và xếp hạng"],
+    "whyUs": [
+      { "title": "Xây dựng cho môi trường sản xuất", "desc": "Chúng tôi tuyển dụng chuyên biệt cho xưởng sản xuất. Mỗi ứng viên được sàng lọc về độ tin cậy, khả năng thể chất và khả năng làm việc trong môi trường công nghiệp nhịp độ nhanh." },
+      { "title": "Nhân viên sẵn sàng theo ca", "desc": "Ca ngày, ca đêm, lịch luân phiên — chúng tôi tìm nhân viên phù hợp yêu cầu ca làm và đi làm đều đặn." },
+      { "title": "Tạm thời, tạm thời sang chính thức và trực tiếp", "desc": "Dù bạn cần bổ sung nhân sự đột xuất hay muốn xây dựng đội ngũ sản xuất lâu dài, chúng tôi phù hợp với mô hình và tiến độ tuyển dụng của bạn." }
+    ],
+    "proof": [
+      { "n": "54K+", "label": "Nhân viên đã bố trí" },
+      { "n": "48h", "label": "Thời gian lấp đầy trung bình" },
+      { "n": "94%", "label": "Khách hàng quay lại" },
+      { "n": "30", "label": "Năm hoạt động" }
+    ],
+    "testimonial": {
+      "quote": "Chúng tôi cần 20 công nhân sản xuất cho dây chuyền mới. Pro-Tech có ứng viên đủ năng lực tại chỗ trong vòng 48 giờ. Tốc độ phản hồi như vậy rất hiếm.",
+      "name": "Quản Đốc Nhà Máy",
+      "co": "Sản Xuất Nhẹ · Bedford, TX"
+    },
+    "relatedIndustries": [
+      { "label": "Sản Xuất Điện Tử", "href": "/industries/electronics-manufacturing" },
+      { "label": "Kho Bãi & Phân Phối", "href": "/industries/warehouse-distribution" },
+      { "label": "Lao Động Phổ Thông", "href": "/industries/general-labor" }
+    ]
+  },
+  "warehouse-distribution": {
+    "title": "Nhân Sự Kho Bãi | Lấy Hàng, Đóng Gói, Xe Nâng | Pro-Tech Staffing",
+    "metaDesc": "Pro-Tech Staffing cung cấp nhân viên kho bãi đã sàng lọc — nhân viên lấy hàng, đóng gói, vận hành xe nâng, nhân viên giao nhận và kiểm kê. Lấp đầy trong 48 giờ.",
+    "h1": "Nhân sự kho bãi & phân phối. Nhân viên lấy hàng, đóng gói, vận hành xe nâng.",
+    "subhead": "Lấy hàng, đóng gói, nhận hàng, vận hành xe nâng, giao hàng, kiểm kê và hỗ trợ 3PL.",
+    "label": "Kho Bãi & Phân Phối",
+    "intro": "Hoạt động kho bãi vận hành dựa trên sự chính xác và tốc độ. Một lô hàng bị trễ, sai số lượng hoặc vận hành viên xe nâng vắng mặt có thể ảnh hưởng dây chuyền đến toàn bộ chuỗi cung ứng. Pro-Tech Staffing bố trí nhân viên kho bãi đã được đào tạo, đáng tin cậy và sẵn sàng làm việc trong môi trường phân phối khối lượng lớn.",
+    "imgAlt": "Nhân viên kho bãi lấy hàng và đóng gói tại trung tâm phân phối",
+    "certifications": null,
+    "roles": ["Nhân viên lấy hàng", "Nhân viên đóng gói", "Vận hành viên xe nâng (ngồi & đứng)", "Nhân viên giao hàng", "Nhân viên nhận hàng", "Chuyên viên kiểm soát hàng tồn kho", "Nhân viên xử lý vật liệu", "Nhân viên bến bãi", "Nhân viên chọn đơn hàng", "Nhân viên hỗ trợ 3PL"],
+    "whyUs": [
+      { "title": "Sàng lọc chuyên biệt cho kho bãi", "desc": "Chúng tôi sàng lọc khả năng thể chất, chứng chỉ xe nâng và độ tin cậy. Ứng viên hiểu rõ máy quét RF, hệ thống WMS và nhịp độ phân phối khối lượng lớn." },
+      { "title": "Hỗ trợ mùa cao điểm", "desc": "Khi khối lượng tăng đột biến, chúng tôi mở rộng cùng bạn. Chúng tôi duy trì nguồn nhân viên kho bãi sẵn sàng để lấp đầy đơn hàng đột xuất trong vòng 48 giờ." },
+      { "title": "Vận hành viên xe nâng có chứng chỉ", "desc": "Chúng tôi xác minh chứng chỉ xe nâng và cung cấp vận hành viên được chứng nhận trên xe ngồi, xe đứng, xe reach và xe lấy hàng." }
+    ],
+    "proof": [
+      { "n": "48h", "label": "Thời gian lấp đầy trung bình" },
+      { "n": "97%", "label": "Tỷ lệ lấp đầy đúng hạn" },
+      { "n": "6", "label": "Thị trường đang hoạt động" },
+      { "n": "94%", "label": "Khách hàng quay lại" }
+    ],
+    "testimonial": {
+      "quote": "Vào mùa cao điểm, chúng tôi cần 30 nhân viên kho bãi trong một tuần. Pro-Tech đã cung cấp. Quan trọng hơn, tỷ lệ chuyên cần trên 90% — điều hiếm thấy với các công ty nhân sự tạm thời.",
+      "name": "Quản Lý Phân Phối",
+      "co": "Kho Bãi & 3PL · Arlington, TX"
+    },
+    "relatedIndustries": [
+      { "label": "Chuỗi Cung Ứng & Hậu Cần", "href": "/industries/supply-chain-logistics" },
+      { "label": "Công Nghiệp Nhẹ", "href": "/industries/light-industrial" },
+      { "label": "Lao Động Phổ Thông", "href": "/industries/general-labor" }
+    ]
+  },
+  "supply-chain-logistics": {
+    "title": "Nhân Sự Chuỗi Cung Ứng | Hậu Cần & Kiểm Kê | Pro-Tech Staffing",
+    "metaDesc": "Pro-Tech Staffing cung cấp nhân viên chuỗi cung ứng và hậu cần — điều phối viên, kiểm soát hàng tồn kho, giao nhận và nhân viên hỗ trợ kho bãi. Lấp đầy trong 48 giờ.",
+    "h1": "Nhân sự chuỗi cung ứng & hậu cần. Điều phối viên, kiểm kê, giao nhận.",
+    "subhead": "Điều phối viên hậu cần, kiểm soát hàng tồn kho, giao nhận và hỗ trợ kho bãi.",
+    "label": "Chuỗi Cung Ứng & Hậu Cần",
+    "intro": "Gián đoạn chuỗi cung ứng gây tốn kém. Khi thiếu điều phối viên hậu cần, kiểm kê sai hoặc giao hàng chậm trễ, toàn bộ hoạt động bị ảnh hưởng. Pro-Tech Staffing bố trí chuyên viên chuỗi cung ứng hiểu rõ hệ thống, tính cấp bách và sự chú ý đến chi tiết mà các vị trí này đòi hỏi.",
+    "imgAlt": "Hoạt động chuỗi cung ứng và hậu cần tại cơ sở phân phối",
+    "certifications": null,
+    "roles": ["Điều phối viên hậu cần", "Chuyên viên kiểm soát hàng tồn kho", "Nhân viên giao nhận", "Chuyên viên phân tích chuỗi cung ứng", "Quản lý kho bãi", "Chuyên viên hoạch định vật liệu", "Trợ lý thu mua", "Điều phối viên vận tải", "Chuyên viên kiểm kê chu kỳ", "Nhân viên hỗ trợ kho bãi"],
+    "whyUs": [
+      { "title": "Vượt xa nhân sự kho bãi cơ bản", "desc": "Các vị trí chuỗi cung ứng đòi hỏi kiến thức hệ thống, sự chú ý đến chi tiết và kỹ năng giao tiếp vượt xa lao động chân tay. Chúng tôi sàng lọc toàn diện, không chỉ theo sự sẵn có." },
+      { "title": "Kinh nghiệm WMS và ERP", "desc": "Ứng viên được sàng lọc kinh nghiệm với hệ thống quản lý kho bãi, nền tảng ERP và các công cụ mà hoạt động của bạn phụ thuộc vào." },
+      { "title": "Hỗ trợ đáng tin cậy ở mọi cấp độ", "desc": "Từ nhân viên giao nhận cơ bản đến điều phối viên hậu cần có kinh nghiệm, chúng tôi bố trí nhân viên hiểu nhịp độ và sự chính xác mà hoạt động chuỗi cung ứng đòi hỏi." }
+    ],
+    "proof": [
+      { "n": "48h", "label": "Thời gian lấp đầy trung bình" },
+      { "n": "6", "label": "Thị trường đang hoạt động" },
+      { "n": "Temp & perm", "label": "Hình thức bố trí" },
+      { "n": "94%", "label": "Khách hàng quay lại" }
+    ],
+    "testimonial": {
+      "quote": "Đội ngũ chuỗi cung ứng của chúng tôi quá tải trong đợt ra mắt sản phẩm lớn. Pro-Tech đã bố trí 6 điều phối viên hậu cần trong chưa đầy một tuần. Tất cả đều có kinh nghiệm WMS và bắt tay vào việc ngay.",
+      "name": "Giám Đốc Chuỗi Cung Ứng",
+      "co": "Điện Tử Tiêu Dùng · Irving, TX"
+    },
+    "relatedIndustries": [
+      { "label": "Kho Bãi & Phân Phối", "href": "/industries/warehouse-distribution" },
+      { "label": "Công Nghiệp Nhẹ", "href": "/industries/light-industrial" },
+      { "label": "Hành Chính & Văn Thư", "href": "/industries/administrative-clerical" }
+    ]
+  },
+  "administrative-clerical": {
+    "title": "Nhân Sự Hành Chính | Nhập Liệu & Hỗ Trợ Văn Phòng | Pro-Tech Staffing",
+    "metaDesc": "Pro-Tech Staffing cung cấp nhân viên hành chính và văn thư — nhập liệu, hỗ trợ khách hàng, trợ lý văn thư và hỗ trợ vận hành văn phòng.",
+    "h1": "Nhân sự hành chính & văn thư. Hỗ trợ văn phòng giữ cho vận hành hoạt động.",
+    "subhead": "Nhập liệu, hỗ trợ khách hàng, trợ lý văn thư và hỗ trợ vận hành văn phòng.",
+    "label": "Hành Chính & Văn Thư",
+    "intro": "Các công ty công nghiệp và sản xuất cần hỗ trợ hành chính đáng tin cậy để giữ cho hoạt động vận hành trơn tru. Pro-Tech Staffing bố trí chuyên viên nhập liệu, nhân viên dịch vụ khách hàng, trợ lý văn thư và nhân viên hỗ trợ văn phòng hiểu nhịp độ và yêu cầu của môi trường công nghiệp.",
+    "imgAlt": "Nhân viên hỗ trợ hành chính văn phòng tại công ty công nghiệp",
+    "certifications": null,
+    "roles": ["Chuyên viên nhập liệu", "Nhân viên dịch vụ khách hàng", "Lễ tân và nhân viên tiếp đón", "Trợ lý văn thư", "Điều phối viên hành chính", "Nhân viên kế toán công nợ", "Trợ lý nhân sự", "Quản lý văn phòng", "Nhân viên hồ sơ và lưu trữ", "Nhân viên hỗ trợ văn phòng"],
+    "whyUs": [
+      { "title": "Chuyên gia hành chính công nghiệp", "desc": "Chúng tôi hiểu rằng vai trò hành chính trong sản xuất và phân phối khác với công việc văn phòng tạm thời thông thường. Ứng viên được sàng lọc theo nhịp độ, hệ thống và môi trường mà hoạt động của bạn vận hành." },
+      { "title": "Sàng lọc trình độ phần mềm", "desc": "Chúng tôi xác minh trình độ sử dụng các công cụ đội ngũ của bạn dùng — Microsoft Office, hệ thống ERP, nền tảng nhập liệu và phần mềm chuyên ngành." },
+      { "title": "Tạm thời, tạm thời sang chính thức và trực tiếp", "desc": "Dù bạn cần người thay thế lễ tân ngắn hạn hay muốn tuyển điều phối viên hành chính lâu dài, chúng tôi cung cấp ứng viên đủ năng lực nhanh chóng." }
+    ],
+    "proof": [
+      { "n": "48h", "label": "Thời gian lấp đầy trung bình" },
+      { "n": "Temp & perm", "label": "Hình thức bố trí" },
+      { "n": "6", "label": "Thị trường đang hoạt động" },
+      { "n": "94%", "label": "Khách hàng quay lại" }
+    ],
+    "testimonial": {
+      "quote": "Chúng tôi cần chuyên viên nhập liệu có thể làm việc trên hệ thống ERP ngay từ ngày đầu. Pro-Tech tìm được người có kinh nghiệm trực tiếp trong hai ngày.",
+      "name": "Quản Lý Văn Phòng",
+      "co": "Nhà Sản Xuất Điện Tử · Richardson, TX"
+    },
+    "relatedIndustries": [
+      { "label": "Chuỗi Cung Ứng & Hậu Cần", "href": "/industries/supply-chain-logistics" },
+      { "label": "Công Nghiệp Nhẹ", "href": "/industries/light-industrial" },
+      { "label": "Lao Động Phổ Thông", "href": "/industries/general-labor" }
+    ]
+  },
+  "general-labor": {
+    "title": "Nhân Sự Lao Động Phổ Thông | Tạm Thời & Theo Dự Án | Pro-Tech Staffing",
+    "metaDesc": "Pro-Tech Staffing cung cấp nhân viên lao động phổ thông cho công việc ngắn hạn, tạm thời sang chính thức và theo dự án. Cung ứng đáng tin cậy không chậm trễ.",
+    "h1": "Nhân sự lao động phổ thông. Cung ứng khi bạn cần, không chậm trễ.",
+    "subhead": "Lao động ngắn hạn, tạm thời sang chính thức và theo dự án cho vận hành công nghiệp.",
+    "label": "Lao Động Phổ Thông",
+    "intro": "Khi bạn cần người đáng tin cậy tại chỗ ngay — cho đợt tăng dự án, mùa cao điểm hoặc bổ sung nhân sự — Pro-Tech Staffing cung cấp nhân viên lao động phổ thông đến đúng giờ và làm việc an toàn. Chúng tôi sàng lọc mỗi ứng viên về độ tin cậy, khả năng thể chất và sự sẵn sàng cho công việc.",
+    "imgAlt": "Nhân viên lao động phổ thông tại công trường công nghiệp",
+    "certifications": null,
+    "roles": ["Lao động phổ thông", "Đội vệ sinh", "Nhân viên bốc xếp", "Nhân viên chuẩn bị công trường", "Hỗ trợ cảnh quan", "Đội di chuyển và lắp đặt", "Lao động sự kiện", "Phụ xây dựng", "Trợ lý bảo trì", "Nhân viên thời vụ"],
+    "whyUs": [
+      { "title": "Sàng lọc ưu tiên độ tin cậy", "desc": "Vị trí lao động phổ thông có tỷ lệ vắng mặt cao nhất ngành. Chúng tôi sàng lọc đặc biệt về chuyên cần, phương tiện đi lại và cam kết hoàn thành toàn bộ nhiệm vụ." },
+      { "title": "Sẵn sàng cùng ngày và ngày hôm sau", "desc": "Khi bạn cần người ngay, chúng tôi hành động nhanh. Nguồn ứng viên của chúng tôi bao gồm nhân viên sẵn sàng triển khai ngay tại cả sáu thị trường." },
+      { "title": "Nhân viên an toàn, đã kiểm tra ma túy", "desc": "Mỗi ứng viên lao động phổ thông đều được kiểm tra ma túy, xác minh lý lịch và hướng dẫn yêu cầu an toàn trước khi bố trí." }
+    ],
+    "proof": [
+      { "n": "36h", "label": "Thời gian lấp đầy trung bình" },
+      { "n": "Same-day", "label": "Khả năng gấp" },
+      { "n": "6", "label": "Thị trường đang hoạt động" },
+      { "n": "94%", "label": "Khách hàng quay lại" }
+    ],
+    "testimonial": {
+      "quote": "Chúng tôi có đợt tăng dự án và cần 15 nhân viên trước thứ Hai. Pro-Tech có họ tại chỗ lúc 7 giờ sáng. Tất cả 15 người đều đến. Điều đó không bao giờ xảy ra với các công ty nhân sự khác.",
+      "name": "Giám Sát Công Trường",
+      "co": "Dịch Vụ Công Nghiệp · DFW, TX"
+    },
+    "relatedIndustries": [
+      { "label": "Công Nghiệp Nhẹ", "href": "/industries/light-industrial" },
+      { "label": "Kho Bãi & Phân Phối", "href": "/industries/warehouse-distribution" },
+      { "label": "Hành Chính & Văn Thư", "href": "/industries/administrative-clerical" }
+    ]
+  },
+  "industriesPageCards": {
+    "electronics-manufacturing": {
+      "title": "Sản Xuất Điện Tử",
+      "desc": "Lắp ráp PCB, kỹ thuật viên SMT, thợ hàn, kiểm tra viên QC, kỹ thuật viên kiểm tra, vận hành viên AOI, kỹ thuật viên sửa chữa và nhân viên sản xuất.",
+      "cert": "Nhân viên có chứng chỉ IPC-A-610, IPC-620 và J-STD-001.",
+      "roles": ["Kỹ thuật viên lắp ráp PCB", "Vận hành viên SMT", "Thợ hàn", "Kiểm tra viên QC", "Vận hành viên AOI", "Kỹ thuật viên sửa chữa"]
+    },
+    "light-industrial": {
+      "title": "Công Nghiệp Nhẹ",
+      "desc": "Thợ lắp ráp, thợ vận hành máy, công nhân sản xuất, kiểm soát chất lượng, đóng gói và hỗ trợ dây chuyền cho môi trường sản xuất nhịp độ nhanh.",
+      "roles": ["Thợ lắp ráp", "Thợ vận hành máy", "Công nhân sản xuất", "Kiểm tra viên QC", "Nhân viên đóng gói", "Hỗ trợ dây chuyền"]
+    },
+    "warehouse-distribution": {
+      "title": "Kho Bãi & Phân Phối",
+      "desc": "Lấy hàng, đóng gói, nhận hàng, vận hành xe nâng, giao hàng, kiểm soát hàng tồn kho và hỗ trợ 3PL cho hoạt động phân phối khối lượng lớn.",
+      "roles": ["Nhân viên lấy hàng", "Nhân viên đóng gói", "Vận hành viên xe nâng", "Nhân viên giao hàng", "Nhân viên nhận hàng", "Kiểm soát hàng tồn kho"]
+    },
+    "supply-chain-logistics": {
+      "title": "Chuỗi Cung Ứng & Hậu Cần",
+      "desc": "Điều phối viên hậu cần, chuyên viên kiểm soát hàng tồn kho, giao nhận và nhân viên hỗ trợ kho bãi cho hoạt động chuỗi cung ứng.",
+      "roles": ["Điều phối viên hậu cần", "Chuyên viên kiểm kê", "Nhân viên giao hàng", "Chuyên viên chuỗi cung ứng", "Chuyên viên hoạch định vật liệu", "Quản lý kho bãi"]
+    },
+    "administrative-clerical": {
+      "title": "Hành Chính & Văn Thư",
+      "desc": "Nhập liệu, hỗ trợ khách hàng, trợ lý văn thư và hỗ trợ vận hành văn phòng cho các công ty công nghiệp và sản xuất.",
+      "roles": ["Chuyên viên nhập liệu", "Nhân viên dịch vụ khách hàng", "Lễ tân", "Trợ lý văn thư", "Điều phối viên hành chính", "Nhân viên kế toán công nợ"]
+    },
+    "general-labor": {
+      "title": "Lao Động Phổ Thông",
+      "desc": "Lao động ngắn hạn, tạm thời sang chính thức và theo dự án khi bạn cần cung ứng đáng tin cậy không chậm trễ.",
+      "roles": ["Lao động phổ thông", "Đội bốc xếp", "Chuẩn bị công trường", "Đội vệ sinh", "Di chuyển và lắp đặt", "Nhân viên thời vụ"]
+    }
+  }
+}
