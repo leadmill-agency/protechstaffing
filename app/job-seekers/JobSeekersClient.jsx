@@ -1,11 +1,41 @@
 'use client'
 
+import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { useTranslation } from 'react-i18next'
 import icons from '@/components/icons'
 
 export default function JobSeekersPage() {
   const { t } = useTranslation('jobSeekers')
+  const [iframeHeight, setIframeHeight] = useState(900)
+
+  // Load Avionte job board script
+  useEffect(() => {
+    const existing = document.getElementById('compas-jobs-widget')
+    if (existing) existing.remove()
+    const script = document.createElement('script')
+    script.id = 'compas-jobs-widget'
+    script.type = 'text/javascript'
+    script.src = 'https://hire.myavionte.com/app/careers/dist/jobs.js'
+    script.setAttribute('data-bid', 'raT6rfEW_d4')
+    script.setAttribute('data-jbid', 'j2lLR3ns1qI')
+    const container = document.getElementById('avionte-job-board')
+    if (container) container.appendChild(script)
+    return () => {
+      const el = document.getElementById('compas-jobs-widget')
+      if (el) el.remove()
+    }
+  }, [])
+
+  // Responsive iframe height for application form
+  useEffect(() => {
+    const handleResize = () => {
+      setIframeHeight(window.innerWidth < 640 ? 1200 : 900)
+    }
+    handleResize()
+    window.addEventListener('resize', handleResize)
+    return () => window.removeEventListener('resize', handleResize)
+  }, [])
 
   const benefits = t('hero.benefits', { returnObjects: true })
 
@@ -27,7 +57,7 @@ export default function JobSeekersPage() {
               </p>
 
               <div className="grid grid-cols-2 gap-3 mb-10">
-                {benefits.map(item => (
+                {(Array.isArray(benefits) ? benefits : []).map(item => (
                   <div key={item} className="flex items-start gap-2">
                     <div className="w-3.5 h-3.5 text-ind-green mt-0.5 flex-shrink-0">{icons.check}</div>
                     <span className="text-fog text-sm leading-snug">{item}</span>
@@ -44,7 +74,7 @@ export default function JobSeekersPage() {
                   <span className="w-4 h-4">{icons.arrowRight}</span>
                 </a>
                 <a
-                  href="#apply"
+                  href="#submit-application"
                   className="inline-flex items-center justify-center gap-2 border border-fog hover:border-bone text-bone font-medium text-sm px-6 py-3 rounded-md transition-colors"
                 >
                   {t('hero.ctaSubmitApplication')}
@@ -64,7 +94,7 @@ export default function JobSeekersPage() {
         </div>
       </section>
 
-      {/* ── What We Offer ── */}
+      {/* ── Why Pro-Tech ── */}
       <section className="bg-white py-12 md:py-20">
         <div className="max-w-6xl mx-auto px-6">
           <div className="mb-8 md:mb-14">
@@ -118,7 +148,7 @@ export default function JobSeekersPage() {
               <Link
                 key={key}
                 href={href}
-                className="bg-white border border-fog p-6 hover:bg-white hover:border-ind-green transition-colors group block"
+                className="bg-white border border-fog p-6 hover:border-ind-green transition-colors group block"
               >
                 <h3 className="font-semibold text-carbon text-base mb-2 group-hover:text-ind-green transition-colors">{t(`industries.${key}.title`)}</h3>
                 <p className="text-steel text-sm leading-relaxed mb-3">{t(`industries.${key}.desc`)}</p>
@@ -126,6 +156,46 @@ export default function JobSeekersPage() {
               </Link>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* ── Open Positions / Avionte Job Board ── */}
+      <section id="open-positions" className="bg-white py-12 md:py-20">
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="mb-8 md:mb-10">
+            <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-4">{t('openPositions.eyebrow')}</p>
+            <h2 className="font-semibold text-carbon text-3xl md:text-4xl leading-tight tracking-tight mb-3">
+              {t('openPositions.heading')}
+            </h2>
+            <p className="text-steel max-w-2xl leading-relaxed text-sm">
+              {t('openPositions.description')}
+            </p>
+          </div>
+          <div id="avionte-job-board" className="min-h-[400px] bg-bone border border-fog rounded-md p-4 md:p-6 overflow-hidden" />
+        </div>
+      </section>
+
+      {/* ── Submit Application / Avionte Iframe ── */}
+      <section id="submit-application" className="bg-bone py-12 md:py-20">
+        <div className="max-w-4xl mx-auto px-6">
+          <div className="mb-8 md:mb-10 text-center">
+            <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-4">{t('application.eyebrow')}</p>
+            <h2 className="font-semibold text-carbon text-3xl md:text-4xl leading-tight tracking-tight mb-3">
+              {t('application.heading')}
+            </h2>
+            <p className="text-steel max-w-2xl mx-auto leading-relaxed">
+              {t('application.description')}
+            </p>
+          </div>
+          <iframe
+            src="https://hire.myavionte.com/sonar/v2/careers/integrations/standalone/general?bId=raT6rfEW_d4&jbId=iM1TUV0_0sw&rpid=general"
+            width="100%"
+            height={iframeHeight}
+            frameBorder="0"
+            scrolling="yes"
+            title={t('application.iframeTitle')}
+            className="w-full border border-fog rounded-md bg-white"
+          />
         </div>
       </section>
 
@@ -164,50 +234,24 @@ export default function JobSeekersPage() {
         </div>
       </section>
 
-      {/* ── Open Positions / Job Board Placeholder ── */}
-      <section id="open-positions" className="bg-bone py-12 md:py-20">
-        <div className="max-w-6xl mx-auto px-6">
-          <div className="mb-8 md:mb-14">
-            <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-4">{t('openPositions.eyebrow')}</p>
-            <h2 className="font-semibold text-carbon text-3xl md:text-4xl lg:text-5xl leading-tight tracking-tight max-w-xl mb-4">
-              {t('openPositions.heading')}
-            </h2>
-            <p className="text-steel max-w-lg leading-relaxed">
-              {t('openPositions.description')}
-            </p>
-          </div>
-
-          <div className="bg-white border border-fog p-10 md:p-14 text-center">
-            <p className="text-steel text-sm mb-6">{t('openPositions.placeholder')}</p>
-            <a
-              href="#apply"
-              className="inline-flex items-center justify-center gap-2 bg-sig-blue hover:bg-blue-900 text-white font-semibold text-sm px-6 py-3 rounded-md transition-colors"
-            >
-              {t('openPositions.ctaSubmit')}
-              <span className="w-4 h-4">{icons.arrowRight}</span>
-            </a>
-          </div>
-        </div>
-      </section>
-
-      {/* ── Apply CTA ── */}
-      <section id="apply" className="bg-graphite py-14 md:py-20">
+      {/* ── More Questions? ── */}
+      <section className="bg-graphite py-14 md:py-20">
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <p className="text-xs font-semibold text-fog tracking-widest uppercase mb-6">{t('cta.eyebrow')}</p>
-          <h2 className="font-semibold text-bone text-3xl md:text-4xl lg:text-5xl leading-tight tracking-tight mb-4">
-            {t('cta.heading')}
+          <p className="text-xs font-semibold text-fog tracking-widest uppercase mb-6">{t('moreQuestions.eyebrow')}</p>
+          <h2 className="font-semibold text-bone text-3xl md:text-4xl leading-tight tracking-tight mb-4">
+            {t('moreQuestions.heading')}
           </h2>
           <p className="text-fog mb-8">
-            {t('cta.description')}
+            {t('moreQuestions.description')}
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a href="tel:+19725551234" className="inline-flex items-center justify-center gap-2 bg-bone hover:bg-white text-carbon font-semibold px-7 py-3 text-sm rounded-md transition-colors">
               <span className="w-4 h-4">{icons.phone}</span>
-              {t('cta.callUs')}
+              {t('moreQuestions.callUs')}
             </a>
             <a href="mailto:jobs@protechstaffing.com" className="inline-flex items-center justify-center gap-2 border border-fog hover:border-bone text-bone font-medium px-7 py-3 text-sm rounded-md transition-colors">
               <span className="w-4 h-4">{icons.mail}</span>
-              {t('cta.emailResume')}
+              {t('moreQuestions.emailUs')}
             </a>
           </div>
         </div>

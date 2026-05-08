@@ -27,13 +27,6 @@ export default function Nav() {
   }, [pathname])
 
   const NAV_DROPDOWNS = {
-    [t('nav.links.jobSeekers')]: {
-      href: '/job-seekers',
-      items: [
-        { label: t('navDropdowns.jobSeekers.exploreJobs'), href: '/jobs' },
-        { label: t('navDropdowns.jobSeekers.applyNow'), href: '/apply' },
-      ],
-    },
     [t('nav.links.industries')]: {
       href: '/industries',
       items: [
@@ -82,7 +75,10 @@ export default function Nav() {
             const dropdown = NAV_DROPDOWNS[link]
 
             if (!dropdown) {
-              const pageHref = link === t('nav.links.employers') ? '/employers' : `/#${link.toLowerCase().replace(' ', '-')}`
+              const pageHref =
+                link === t('nav.links.employers') ? '/employers' :
+                link === t('nav.links.jobSeekers') ? '/job-seekers' :
+                `/#${link.toLowerCase().replace(' ', '-')}`
               return (
                 <Link key={link} href={pageHref} className="text-steel hover:text-carbon text-sm font-medium transition-colors">
                   {link}
@@ -163,7 +159,10 @@ export default function Nav() {
             const dropdown = NAV_DROPDOWNS[link]
 
             if (!dropdown) {
-              const pageHref = link === t('nav.links.employers') ? '/employers' : `/#${link.toLowerCase().replace(' ', '-')}`
+              const pageHref =
+                link === t('nav.links.employers') ? '/employers' :
+                link === t('nav.links.jobSeekers') ? '/job-seekers' :
+                `/#${link.toLowerCase().replace(' ', '-')}`
               return (
                 <Link key={link} href={pageHref} className="text-carbon text-sm font-medium py-2" onClick={() => setMenuOpen(false)}>
                   {link}

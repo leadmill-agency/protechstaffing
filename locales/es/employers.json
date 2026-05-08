@@ -47,7 +47,7 @@
     "eyebrow": "Diferenciador Clave",
     "heading": "Trabajadores certificados antes de llegar a su planta.",
     "description1": "La queja m\u00e1s grande en personal de manufactura electr\u00f3nica: no hay suficientes candidatos calificados y certificados en el mercado. Las agencias env\u00edan cuerpos. Nosotros enviamos trabajadores capacitados.",
-    "description2": "Pro-Tech cuenta con instructores IPC certificados en su equipo que capacitan y certifican candidatos antes de que comiencen. Sus trabajadores llegan listos para trabajar seg\u00fan especificaciones desde el primer d\u00eda.",
+    "description2": "Pro-Tech cuenta con instructores IPC certificados en su equipo que capacitan y certifican candidatos antes de que comiencen. Sus trabajadores llegan listos para rendir desde el primer d\u00eda.",
     "cta": "Solicitar Trabajadores Certificados",
     "certsEyebrow": "Certificaciones que Impartimos",
     "ipc610": {
@@ -66,13 +66,24 @@
       "desc": "El est\u00e1ndar conjunto de la industria para soldadura. Trabajadores certificados en control de procesos y requisitos de mano de obra."
     },
     "footerHighlight": "Instructores IPC certificados internos en nuestro equipo.",
-    "footerNote": "Los candidatos llegan certificados y listos para trabajar seg\u00fan especificaciones desde el primer d\u00eda."
+    "footerNote": "Los candidatos llegan certificados y listos para rendir desde el primer d\u00eda."
   },
   "cta": {
     "eyebrow": "Comience Ahora",
     "heading": "\u00bfListo para contratar personal?",
-    "description": "Env\u00edenos el puesto, turno, ubicaci\u00f3n y fecha de inicio. Le responderemos r\u00e1pidamente.",
-    "callUs": "Ll\u00e1menos Ahora",
-    "emailUs": "Env\u00edenos un Correo"
+    "description": "Env\u00edenos el puesto, turno, ubicaci\u00f3n y fecha de inicio. Nuestro equipo le responder\u00e1 dentro de un d\u00eda h\u00e1bil.",
+    "callUs": "Ll\u00e1menos",
+    "emailUs": "Env\u00edenos un Correo",
+    "orReachOut": "O cont\u00e1ctenos directamente"
+  },
+  "form": {
+    "name": "Nombre",
+    "company": "Empresa",
+    "phone": "Tel\u00e9fono",
+    "email": "Correo electr\u00f3nico",
+    "message": "\u00bfC\u00f3mo podemos ayudar?",
+    "responseTime": "Le responderemos dentro de un d\u00eda h\u00e1bil.",
+    "submit": "Enviar Solicitud",
+    "submitting": "Enviando..."
   }
 }

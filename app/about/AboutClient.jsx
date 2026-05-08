@@ -96,9 +96,14 @@ export default function AboutPage() {
                 ))}
               </h2>
               <div className="flex flex-col gap-6">
-                {['staffingIsLocal', 'screenForRole', 'stayInvolved', 'doFewerThings'].map(key => (
+                {[
+                  { key: 'noFinePrint', icon: icons.pencil },
+                  { key: 'builtToLast', icon: icons.hammer },
+                  { key: 'peopleFirst', icon: icons.users },
+                  { key: 'communityRoots', icon: icons.trees },
+                ].map(({ key, icon }) => (
                   <div key={key} className="flex gap-4 items-start">
-                    <div className="w-4 h-4 text-ind-green mt-0.5 flex-shrink-0">{icons.check}</div>
+                    <div className="w-5 h-5 text-ind-green mt-0.5 flex-shrink-0">{icon}</div>
                     <div>
                       <p className="font-semibold text-carbon text-sm mb-0.5">{t(`beliefs.${key}.title`)}</p>
                       <p className="text-steel text-sm leading-relaxed">{t(`beliefs.${key}.desc`)}</p>

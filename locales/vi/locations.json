@@ -24,7 +24,13 @@
       "description": "Đội ngũ DFW của chúng tôi phục vụ toàn bộ vùng đô thị với trang riêng cho từng hành lang chính.",
       "arlington": { "label": "Arlington, TX", "desc": "Hành lang kho bãi, phân phối và sản xuất lớn tại quận Tarrant." },
       "irving": { "label": "Irving, TX", "desc": "Hành lang Las Colinas và sân bay DFW — điện tử, hậu cần và công nghiệp nhẹ." },
-      "garland": { "label": "Garland, TX", "desc": "Khu công nghiệp nhẹ đông đúc phía đông Dallas. Chuyên về điện tử và sản xuất nhẹ." }
+      "garland": { "label": "Garland, TX", "desc": "Khu công nghiệp nhẹ đông đúc phía đông Dallas. Chuyên về điện tử và sản xuất nhẹ." },
+      "carrollton": { "label": "Carrollton, TX", "desc": "Trung tâm công nghiệp và phân phối phía tây bắc Dallas. Kho bãi, sản xuất và hậu cần." }
+    },
+    "officeMap": {
+      "eyebrow": "Trên Bản Đồ",
+      "heading": "Tìm văn phòng Pro-Tech gần bạn",
+      "description": "Sáu văn phòng tại Texas, Florida, California và Arizona. Mỗi thị trường có đội ngũ tuyển dụng địa phương."
     },
     "cta": {
       "eyebrow": "Bắt Đầu",

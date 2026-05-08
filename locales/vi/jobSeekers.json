@@ -5,7 +5,7 @@
   },
   "hero": {
     "eyebrow": "Dành Cho Người Tìm Việc",
-    "heading": "Đang tìm việc? Chúng tôi bố trí nhanh.",
+    "heading": "Đang tìm việc? Chúng tôi sẵn sàng giúp.",
     "description": "Chúng tôi hợp tác với các công ty trong lĩnh vực sản xuất điện tử, công nghiệp nhẹ, kho bãi, chuỗi cung ứng và hành chính. Công việc ổn định, lương tuần và cơ hội thực sự để chuyển sang vị trí chính thức.",
     "benefits": ["Lương tuần", "Vị trí đang tuyển", "Lộ trình tạm thời sang chính thức", "Ca ngày và ca đêm", "Từ cơ bản đến có kinh nghiệm", "Hỗ trợ từ nhà tuyển dụng"],
     "ctaViewPositions": "Xem Vị Trí Đang Tuyển",
@@ -77,16 +77,20 @@
   },
   "openPositions": {
     "eyebrow": "Vị Trí Đang Tuyển",
-    "heading": "Vị trí hiện có.",
-    "description": "Xem các vị trí tuyển dụng mới nhất hoặc gửi đơn ứng tuyển chung để được xem xét cho các vị trí tương lai.",
-    "placeholder": "Bảng việc làm sắp ra mắt. Trong thời gian này, hãy gửi đơn ứng tuyển chung và đội ngũ tuyển dụng sẽ ghép nối bạn với các vị trí đang có.",
-    "ctaSubmit": "Gửi Đơn Ứng Tuyển Chung"
+    "heading": "Xem Các Vị Trí Hiện Có",
+    "description": "Tìm kiếm các vị trí theo địa điểm, ngành nghề hoặc từ khóa. Vị trí mới được đăng hàng ngày."
   },
-  "cta": {
-    "eyebrow": "Ứng Tuyển Ngay",
-    "heading": "Sẵn sàng bắt đầu?",
-    "description": "Gọi cho chúng tôi hoặc gửi thông tin. Đội ngũ tuyển dụng sẽ liên hệ để ghép nối bạn với các vị trí phù hợp trong khu vực.",
+  "application": {
+    "eyebrow": "Gửi Đơn Ứng Tuyển Chung",
+    "heading": "Không tìm thấy công việc phù hợp?",
+    "description": "Gửi đơn ứng tuyển và đội ngũ tuyển dụng của chúng tôi sẽ kết nối bạn với cơ hội khi chúng xuất hiện.",
+    "iframeTitle": "Đơn Ứng Tuyển Pro-Tech Staffing"
+  },
+  "moreQuestions": {
+    "eyebrow": "Câu Hỏi Khác?",
+    "heading": "Có thắc mắc? Gửi email hoặc gọi cho chúng tôi.",
+    "description": "Nếu bạn muốn nói chuyện trực tiếp với nhà tuyển dụng trước khi ứng tuyển, hãy liên hệ — chúng tôi luôn sẵn sàng giúp.",
     "callUs": "Gọi Điện",
-    "emailResume": "Gửi Hồ Sơ Qua Email"
+    "emailUs": "Gửi Email"
   }
 }

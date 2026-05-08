@@ -29,21 +29,21 @@
   "beliefs": {
     "eyebrow": "What We Believe",
     "heading": "Principles that guide\nhow we operate.",
-    "staffingIsLocal": {
-      "title": "Staffing is local",
-      "desc": "Pay expectations, shift preferences, commute range, and labor competition all change by market. Our recruiters work in-market — not from a national call center."
+    "noFinePrint": {
+      "title": "No Fine Print",
+      "desc": "We screen for the actual job — shift, site, and environment included — because honesty means upholding transparency at every step. We say what we mean and do what we say, with employers and workers alike."
     },
-    "screenForRole": {
-      "title": "Screen for the role, not just the resume",
-      "desc": "Industrial roles require specific skills, physical capabilities, and reliability. We screen for the actual job — shift, site, and environment included."
+    "builtToLast": {
+      "title": "Built to Last",
+      "desc": "Lasting partnerships are built on trust from both sides. We follow up after every placement to make sure the fit is right, and when something needs to change, we handle it fast — for our clients and employees equally."
     },
-    "stayInvolved": {
-      "title": "Stay involved after placement",
-      "desc": "We follow up with both the employer and the worker to make sure the fit is right. If something needs to change, we handle it fast."
+    "peopleFirst": {
+      "title": "People First",
+      "desc": "Our recruiters see the full potential of every person they work with, and are committed to their long-term growth, not just their next placement. We build relationships from the first conversation to the final handoff, nurturing trust at every step."
     },
-    "doFewerThings": {
-      "title": "Do fewer things, do them well",
-      "desc": "We staff industrial, manufacturing, warehouse, and supply chain roles. That focus is intentional. We know these environments because we've worked in them for 30 years."
+    "communityRoots": {
+      "title": "Community Roots",
+      "desc": "Pro-Tech was built on a simple belief — that everyone deserves access to meaningful work and a fair opportunity to succeed. We're rooted in the communities we serve, and lifting those communities up has been our purpose from day one."
     }
   },
   "howWeWork": {
