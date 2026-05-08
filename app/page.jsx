@@ -7,52 +7,77 @@ import MotionFadeIn, { MotionFadeInItem } from '@/components/MotionFadeIn'
 
 function Hero() {
   const { t } = useTranslation('home')
-  return (
-    <section className="bg-white pt-20">
-      <div className="max-w-7xl mx-auto px-6 py-12 md:py-20">
-        <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
-          <MotionFadeIn immediate>
-            <h1 className="text-xs font-semibold text-ind-green tracking-wide md:tracking-widest uppercase mb-5 leading-relaxed">
-              {t('hero.eyebrow')}
-            </h1>
-            <p className="font-sans font-semibold text-sig-blue text-4xl md:text-5xl lg:text-6xl leading-[1.08] tracking-tight mb-8">
-              {t('hero.headline')}
-            </p>
-            <p className="text-steel text-lg md:text-xl leading-relaxed mb-10 max-w-lg">
-              {t('hero.subhead')}
-            </p>
-            <div className="flex flex-col sm:flex-row gap-3">
-              <Link href="/job-seekers" className="inline-flex items-center justify-center gap-2 bg-sig-blue hover:bg-blue-900 text-white font-semibold px-8 py-4 rounded-md transition-colors">
-                {t('hero.ctaSecondary')}
-                <span className="w-4 h-4">{icons.arrowRight}</span>
-              </Link>
-              <Link href="/employers" className="inline-flex items-center justify-center gap-2 border-2 border-sig-blue hover:bg-sig-blue text-sig-blue hover:text-white font-semibold px-8 py-4 rounded-md transition-colors">
-                {t('hero.ctaPrimary')}
-              </Link>
-            </div>
-          </MotionFadeIn>
+  // TODO: client wants the Getty Images photo of warehouse workers shaking hands
+  // (https://www.gettyimages.com/detail/602323640). Once purchased + downloaded,
+  // save to /public/hero.jpg and update HERO_IMG to '/hero.jpg'.
+  // Placeholder below is an Unsplash industrial worker photo.
+  const HERO_IMG = 'https://images.unsplash.com/photo-1565688534245-05d6b5be184a?w=1400&q=80'
+  const HERO_ALT = 'Pro-Tech recruiter shaking hands with a warehouse worker on the production floor'
 
-          <MotionFadeIn immediate delay={0.15}>
-            <div className="relative">
-              <div className="aspect-[4/5] lg:aspect-[4/5] overflow-hidden">
-                {/* TODO: replace with Getty image of a person (manufacturing/industrial worker) once received from client */}
-                <img
-                  src="https://images.unsplash.com/photo-1565688534245-05d6b5be184a?w=900&q=75"
-                  alt="Industrial worker on production floor"
-                  className="w-full h-full object-cover"
-                  style={{ filter: 'brightness(0.95)' }}
-                />
-              </div>
-              <div className="hidden sm:block absolute -bottom-4 -left-4 bg-white border border-fog px-5 py-4 shadow-sm">
-                <p className="font-mono text-2xl font-medium text-sig-blue">{t('hero.statChipValue')}</p>
-                <p className="text-xs text-steel mt-0.5">{t('hero.statChipLabel')}</p>
-              </div>
-            </div>
-          </MotionFadeIn>
+  return (
+    <>
+      <section className="relative pt-20 bg-sig-blue lg:bg-white overflow-hidden">
+        {/* Desktop: split background — blue left half, image right half (full-bleed) */}
+        <div className="hidden lg:block absolute top-20 bottom-0 left-0 w-1/2 bg-sig-blue" />
+        <div className="hidden lg:block absolute top-20 bottom-0 left-1/2 right-0 overflow-hidden">
+          <img
+            src={HERO_IMG}
+            alt={HERO_ALT}
+            className="w-full h-full object-cover"
+          />
         </div>
 
+        {/* Content layer */}
+        <div className="relative max-w-7xl mx-auto grid lg:grid-cols-2 lg:gap-12 lg:min-h-[640px]">
+          {/* Left — text */}
+          <div className="px-6 py-12 lg:py-24 lg:pr-12 flex items-center">
+            <MotionFadeIn immediate>
+              <h1 className="text-xs font-semibold text-ind-green tracking-wide md:tracking-widest uppercase mb-5 leading-relaxed">
+                {t('hero.eyebrow')}
+              </h1>
+              <p className="font-sans font-semibold text-bone text-4xl md:text-5xl lg:text-6xl leading-[1.08] tracking-tight mb-8">
+                {t('hero.headline')}
+              </p>
+              <p className="text-fog text-lg md:text-xl leading-relaxed mb-10 max-w-lg">
+                {t('hero.subhead')}
+              </p>
+              <div className="flex flex-col sm:flex-row gap-3">
+                <Link href="/job-seekers" className="inline-flex items-center justify-center gap-2 bg-bone hover:bg-white text-carbon font-semibold px-8 py-4 rounded-md transition-colors">
+                  {t('hero.ctaSecondary')}
+                  <span className="w-4 h-4">{icons.arrowRight}</span>
+                </Link>
+                <Link href="/employers" className="inline-flex items-center justify-center gap-2 border-2 border-fog hover:border-bone text-bone hover:bg-bone hover:text-carbon font-semibold px-8 py-4 rounded-md transition-colors">
+                  {t('hero.ctaPrimary')}
+                </Link>
+              </div>
+            </MotionFadeIn>
+          </div>
+
+          {/* Mobile-only: image stacks below text on small screens (desktop image is in the absolute layer above) */}
+          <div className="aspect-[4/3] sm:aspect-[16/10] overflow-hidden lg:hidden relative">
+            <img
+              src={HERO_IMG}
+              alt={HERO_ALT}
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute bottom-4 left-4 bg-white border border-fog px-5 py-4 shadow-sm">
+              <p className="font-mono text-2xl font-medium text-sig-blue">{t('hero.statChipValue')}</p>
+              <p className="text-xs text-steel mt-0.5">{t('hero.statChipLabel')}</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Desktop stat chip — overlays bottom-left of the right-side image */}
+        <div className="hidden lg:block absolute bottom-8 left-1/2 -translate-x-[max(-1rem,calc(-100%+15rem))] bg-white border border-fog px-5 py-4 shadow-md z-10">
+          <p className="font-mono text-2xl font-medium text-sig-blue">{t('hero.statChipValue')}</p>
+          <p className="text-xs text-steel mt-0.5">{t('hero.statChipLabel')}</p>
+        </div>
+      </section>
+
+      {/* Operating-in strip */}
+      <section className="bg-white border-b border-fog">
         <MotionFadeIn>
-          <div className="mt-12 md:mt-20 pt-8 border-t border-fog flex flex-wrap gap-4 md:gap-8 items-center">
+          <div className="max-w-7xl mx-auto px-6 py-6 flex flex-wrap gap-4 md:gap-8 items-center">
             <p className="text-xs font-semibold text-steel tracking-widest uppercase">{t('hero.operatingIn')}</p>
             {[
               { name: t('hero.cities.richardsonTx'), href: '/locations/richardson-tx' },
@@ -66,8 +91,8 @@ function Hero() {
             ))}
           </div>
         </MotionFadeIn>
-      </div>
-    </section>
+      </section>
+    </>
   )
 }
 
