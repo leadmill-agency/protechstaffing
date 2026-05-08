@@ -29,21 +29,21 @@
   "beliefs": {
     "eyebrow": "Giá Trị Của Chúng Tôi",
     "heading": "Nguyên tắc định hướng\ncách chúng tôi vận hành.",
-    "staffingIsLocal": {
-      "title": "Nhân sự mang tính địa phương",
-      "desc": "Kỳ vọng lương, sở thích ca làm, phạm vi di chuyển và cạnh tranh lao động đều thay đổi theo thị trường. Đội ngũ tuyển dụng làm việc tại chỗ — không phải từ tổng đài quốc gia."
+    "noFinePrint": {
+      "title": "Không Có Điều Khoản Ẩn",
+      "desc": "Chúng tôi sàng lọc cho công việc thực tế — bao gồm ca làm, địa điểm và môi trường — vì sự trung thực có nghĩa là duy trì tính minh bạch ở mọi bước. Chúng tôi nói những gì mình nghĩ và làm những gì mình nói, với cả nhà tuyển dụng và người lao động."
     },
-    "screenForRole": {
-      "title": "Sàng lọc theo vai trò, không chỉ theo hồ sơ",
-      "desc": "Các vị trí công nghiệp đòi hỏi kỹ năng cụ thể, khả năng thể chất và độ tin cậy. Chúng tôi sàng lọc cho công việc thực tế — bao gồm ca làm, địa điểm và môi trường."
+    "builtToLast": {
+      "title": "Xây Dựng Để Bền Vững",
+      "desc": "Quan hệ đối tác lâu dài được xây dựng trên niềm tin từ cả hai phía. Chúng tôi theo dõi sau mỗi lần bố trí để đảm bảo sự phù hợp, và khi cần thay đổi, chúng tôi xử lý nhanh chóng — cho khách hàng và nhân viên một cách bình đẳng."
     },
-    "stayInvolved": {
-      "title": "Tiếp tục theo dõi sau khi bố trí",
-      "desc": "Chúng tôi theo dõi cả nhà tuyển dụng và nhân viên để đảm bảo phù hợp. Nếu cần thay đổi, chúng tôi xử lý nhanh."
+    "peopleFirst": {
+      "title": "Con Người Là Trên Hết",
+      "desc": "Đội ngũ tuyển dụng của chúng tôi nhìn thấy toàn bộ tiềm năng của mỗi người họ làm việc cùng, và cam kết với sự phát triển lâu dài của họ, không chỉ là vị trí kế tiếp. Chúng tôi xây dựng quan hệ từ cuộc trò chuyện đầu tiên đến lần bàn giao cuối cùng, nuôi dưỡng niềm tin ở mọi bước."
     },
-    "doFewerThings": {
-      "title": "Làm ít việc, làm cho giỏi",
-      "desc": "Chúng tôi cung ứng nhân sự cho ngành công nghiệp, sản xuất, kho bãi và chuỗi cung ứng. Sự tập trung đó là có chủ đích. Chúng tôi hiểu rõ các môi trường này vì đã làm việc trong đó suốt 30 năm."
+    "communityRoots": {
+      "title": "Cội Nguồn Cộng Đồng",
+      "desc": "Pro-Tech được xây dựng trên một niềm tin đơn giản — rằng mọi người đều xứng đáng được tiếp cận công việc có ý nghĩa và một cơ hội công bằng để thành công. Chúng tôi bám rễ trong các cộng đồng mà chúng tôi phục vụ, và nâng đỡ những cộng đồng đó là mục đích của chúng tôi từ ngày đầu."
     }
   },
   "howWeWork": {

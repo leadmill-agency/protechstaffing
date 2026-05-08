@@ -24,7 +24,13 @@
       "description": "Nuestro equipo de DFW cubre toda la metr\u00f3poli con p\u00e1ginas dedicadas para cada corredor principal.",
       "arlington": { "label": "Arlington, TX", "desc": "Corredor principal de almac\u00e9n, distribuci\u00f3n y manufactura en el condado de Tarrant." },
       "irving": { "label": "Irving, TX", "desc": "Corredor de Las Colinas y el aeropuerto DFW: electr\u00f3nica, log\u00edstica e industria ligera." },
-      "garland": { "label": "Garland, TX", "desc": "Zona densa de industria ligera al este de Dallas. Enfoque en electr\u00f3nica y manufactura ligera." }
+      "garland": { "label": "Garland, TX", "desc": "Zona densa de industria ligera al este de Dallas. Enfoque en electr\u00f3nica y manufactura ligera." },
+      "carrollton": { "label": "Carrollton, TX", "desc": "Centro industrial y de distribuci\u00f3n al noroeste de Dallas. Almac\u00e9n, manufactura y log\u00edstica." }
+    },
+    "officeMap": {
+      "eyebrow": "En el Mapa",
+      "heading": "Encuentre la oficina Pro-Tech m\u00e1s cercana",
+      "description": "Seis oficinas en Texas, Florida, California y Arizona. Cada mercado cuenta con reclutadores locales."
     },
     "cta": {
       "eyebrow": "Comience Ahora",

@@ -26,6 +26,7 @@ const DFW_HREFS = {
   arlington: '/staffing-agency-arlington-tx',
   irving: '/staffing-agency-irving-tx',
   garland: '/staffing-agency-garland-tx',
+  carrollton: '/staffing-agency-carrollton-tx',
 }
 
 export default function LocationsPage() {
@@ -114,8 +115,38 @@ export default function LocationsPage() {
         </div>
       </section>
 
-      {/* DFW Sub-Markets */}
+      {/* Office Map */}
       <section className="bg-white py-16 md:py-24">
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="mb-8 md:mb-10">
+            <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-4">{t('page.officeMap.eyebrow')}</p>
+            <h2 className="font-semibold text-carbon text-3xl leading-tight tracking-tight mb-3">
+              {t('page.officeMap.heading')}
+            </h2>
+            <p className="text-steel max-w-lg leading-relaxed">
+              {t('page.officeMap.description')}
+            </p>
+          </div>
+          <div className="border border-fog rounded-md overflow-hidden">
+            {/* TODO: Replace with a custom Google My Maps embed showing all 6 office pins.
+                To create: maps.google.com/maps/d/ → New Map → add 6 office addresses as pins
+                → Share publicly → copy embed URL → paste below. Until then, this is a
+                centered USA view that lets visitors see the rough geographic spread. */}
+            <iframe
+              src="https://www.google.com/maps?q=Richardson+TX&z=4&output=embed"
+              width="100%"
+              height="450"
+              style={{ border: 0 }}
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Pro-Tech Staffing Office Locations"
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* DFW Sub-Markets */}
+      <section className="bg-bone py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-6">
           <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-5">{t('page.dfwSubMarkets.eyebrow')}</p>
           <h2 className="font-semibold text-carbon text-3xl leading-tight tracking-tight mb-3">
@@ -124,8 +155,8 @@ export default function LocationsPage() {
           <p className="text-steel mb-12 max-w-lg leading-relaxed">
             {t('page.dfwSubMarkets.description')}
           </p>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {['arlington', 'irving', 'garland'].map(key => (
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {['arlington', 'irving', 'garland', 'carrollton'].map(key => (
               <Link key={key} href={DFW_HREFS[key]} className="group block border border-fog hover:border-carbon bg-bone p-6 transition-colors">
                 <div className="flex items-start justify-between mb-3">
                   <span className="w-5 h-5 text-ind-green">{icons.mapPin}</span>

@@ -29,21 +29,21 @@
   "beliefs": {
     "eyebrow": "Lo Que Creemos",
     "heading": "Principios que gu\u00edan\nnuestra operaci\u00f3n.",
-    "staffingIsLocal": {
-      "title": "El personal es local",
-      "desc": "Las expectativas salariales, preferencias de turno, rango de traslado y competencia laboral cambian seg\u00fan el mercado. Nuestros reclutadores trabajan en el mercado local, no desde un centro de llamadas nacional."
+    "noFinePrint": {
+      "title": "Sin Letra Peque\u00f1a",
+      "desc": "Evaluamos para el trabajo real \u2014 turno, sitio y entorno incluidos \u2014 porque la honestidad significa mantener la transparencia en cada paso. Decimos lo que pensamos y hacemos lo que decimos, tanto con empleadores como con trabajadores."
     },
-    "screenForRole": {
-      "title": "Evaluamos para el puesto, no solo el curr\u00edculum",
-      "desc": "Los roles industriales requieren habilidades espec\u00edficas, capacidades f\u00edsicas y confiabilidad. Evaluamos para el trabajo real: turno, sitio y entorno incluidos."
+    "builtToLast": {
+      "title": "Construido Para Durar",
+      "desc": "Las relaciones duraderas se construyen con confianza mutua. Hacemos seguimiento despu\u00e9s de cada colocaci\u00f3n para asegurarnos de que la asignaci\u00f3n sea la correcta, y cuando algo necesita cambiar, lo resolvemos r\u00e1pido \u2014 para nuestros clientes y empleados por igual."
     },
-    "stayInvolved": {
-      "title": "Seguimiento despu\u00e9s de la colocaci\u00f3n",
-      "desc": "Hacemos seguimiento tanto con el empleador como con el trabajador para asegurar que la asignaci\u00f3n sea correcta. Si algo necesita cambiar, lo resolvemos r\u00e1pido."
+    "peopleFirst": {
+      "title": "Las Personas Primero",
+      "desc": "Nuestros reclutadores ven el potencial completo de cada persona con la que trabajan, y se comprometen con su crecimiento a largo plazo, no solo con su pr\u00f3xima colocaci\u00f3n. Construimos relaciones desde la primera conversaci\u00f3n hasta la entrega final, cultivando la confianza en cada paso."
     },
-    "doFewerThings": {
-      "title": "Hacer menos cosas, hacerlas bien",
-      "desc": "Dotamos de personal a roles industriales, de manufactura, almac\u00e9n y cadena de suministro. Ese enfoque es intencional. Conocemos estos entornos porque hemos trabajado en ellos durante 30 a\u00f1os."
+    "communityRoots": {
+      "title": "Ra\u00edces Comunitarias",
+      "desc": "Pro-Tech se construy\u00f3 sobre una creencia simple \u2014 que todos merecen acceso a un trabajo significativo y una oportunidad justa para tener \u00e9xito. Estamos arraigados en las comunidades a las que servimos, y elevar esas comunidades ha sido nuestro prop\u00f3sito desde el primer d\u00eda."
     }
   },
   "howWeWork": {

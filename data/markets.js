@@ -55,6 +55,12 @@ const MARKET_DATA = {
     parentOffice: 'Richardson',
     relatedCitiesHrefs: ['/staffing-agency-irving-tx', '/staffing-agency-dallas-fort-worth', '/staffing-agency-bedford-tx'],
   },
+  carrollton: {
+    slug: 'staffing-agency-carrollton-tx',
+    img: 'https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1000&q=75',
+    parentOffice: 'Richardson',
+    relatedCitiesHrefs: ['/staffing-agency-irving-tx', '/staffing-agency-garland-tx', '/staffing-agency-dallas-fort-worth'],
+  },
   austin: {
     slug: 'locations/austin-tx',
     img: 'https://images.unsplash.com/photo-1531218150217-54595bc2b934?w=1000&q=75',

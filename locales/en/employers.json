@@ -47,7 +47,7 @@
     "eyebrow": "Key Differentiator",
     "heading": "Certified workers before they reach your floor.",
     "description1": "The biggest complaint in electronics manufacturing staffing: there aren't enough qualified, certified candidates in the market. Agencies send bodies. We send trained workers.",
-    "description2": "Pro-Tech has certified IPC trainers on staff who train and certify candidates before they start. Your workers arrive ready to work to spec on day one.",
+    "description2": "Pro-Tech has certified IPC trainers on staff who train and certify candidates before they start. Your workers arrive ready to perform on day one.",
     "cta": "Request Certified Workers",
     "certsEyebrow": "Certifications We Train",
     "ipc610": {
@@ -66,13 +66,24 @@
       "desc": "The joint industry standard for soldering. Workers certified in process control and workmanship requirements."
     },
     "footerHighlight": "In-house certified IPC trainers on staff.",
-    "footerNote": "Candidates arrive certified and ready to work to spec on day one."
+    "footerNote": "Candidates arrive certified and ready to perform on day one."
   },
   "cta": {
     "eyebrow": "Get Started",
     "heading": "Ready to staff up?",
-    "description": "Send us the role, shift, location, and start date. We'll get back to you fast.",
-    "callUs": "Call Us Now",
-    "emailUs": "Email Us"
+    "description": "Send us the role, shift, location, and start date. Our team will respond within one business day.",
+    "callUs": "Call Us",
+    "emailUs": "Email Us",
+    "orReachOut": "Or reach out directly"
+  },
+  "form": {
+    "name": "Name",
+    "company": "Company",
+    "phone": "Phone",
+    "email": "Email",
+    "message": "How can we help?",
+    "responseTime": "We'll respond within one business day.",
+    "submit": "Submit Request",
+    "submitting": "Sending..."
   }
 }

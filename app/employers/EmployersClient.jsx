@@ -2,6 +2,7 @@
 
 import { useTranslation } from 'react-i18next'
 import icons from '@/components/icons'
+import StaffingRequestForm from './StaffingRequestForm'
 
 export default function EmployersPage() {
   const { t } = useTranslation('employers')
@@ -145,25 +146,32 @@ export default function EmployersPage() {
         </div>
       </section>
 
-      {/* ── Bottom CTA ── */}
+      {/* ── Contact Form ── */}
       <section id="contact" className="bg-graphite py-14 md:py-20">
-        <div className="max-w-4xl mx-auto px-6 text-center">
-          <p className="text-xs font-semibold text-fog tracking-widest uppercase mb-6">{t('cta.eyebrow')}</p>
-          <h2 className="font-semibold text-bone text-3xl md:text-4xl lg:text-5xl leading-tight tracking-tight mb-4">
-            {t('cta.heading')}
-          </h2>
-          <p className="text-fog mb-8">
-            {t('cta.description')}
-          </p>
-          <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            <a href="tel:+19725551234" className="inline-flex items-center justify-center gap-2 bg-bone hover:bg-white text-carbon font-semibold px-7 py-3 text-sm rounded-md transition-colors">
-              <span className="w-4 h-4">{icons.phone}</span>
-              {t('cta.callUs')}
-            </a>
-            <a href="mailto:staffing@protechstaffing.com" className="inline-flex items-center justify-center gap-2 border border-fog hover:border-bone text-bone font-medium px-7 py-3 text-sm rounded-md transition-colors">
-              <span className="w-4 h-4">{icons.mail}</span>
-              {t('cta.emailUs')}
-            </a>
+        <div className="max-w-4xl mx-auto px-6">
+          <div className="text-center mb-10">
+            <p className="text-xs font-semibold text-fog tracking-widest uppercase mb-6">{t('cta.eyebrow')}</p>
+            <h2 className="font-semibold text-bone text-3xl md:text-4xl lg:text-5xl leading-tight tracking-tight mb-4">
+              {t('cta.heading')}
+            </h2>
+            <p className="text-fog">{t('cta.description')}</p>
+          </div>
+
+          <StaffingRequestForm />
+
+          <div className="text-center mt-8">
+            <p className="text-fog text-xs mb-3 uppercase tracking-widest font-semibold">{t('cta.orReachOut')}</p>
+            <div className="flex flex-col sm:flex-row gap-3 justify-center">
+              <a href="tel:+19725551234" className="inline-flex items-center justify-center gap-2 text-bone hover:text-white text-sm font-medium transition-colors">
+                <span className="w-4 h-4">{icons.phone}</span>
+                {t('cta.callUs')}
+              </a>
+              <span className="hidden sm:inline text-fog">·</span>
+              <a href="mailto:mylinh.tieu@protechstaffing.com" className="inline-flex items-center justify-center gap-2 text-bone hover:text-white text-sm font-medium transition-colors">
+                <span className="w-4 h-4">{icons.mail}</span>
+                {t('cta.emailUs')}
+              </a>
+            </div>
           </div>
         </div>
       </section>

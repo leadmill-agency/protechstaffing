@@ -120,6 +120,29 @@ const icons = {
       <path d="M21 21l-4.35-4.35" />
     </svg>
   ),
+  pencil: (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round">
+      <path d="M12 19l7-7 3 3-7 7-3-3z" />
+      <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z" />
+      <path d="M2 2l7.586 7.586" />
+      <circle cx="11" cy="11" r="2" />
+    </svg>
+  ),
+  hammer: (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round">
+      <path d="M15 12l-8.373 8.373a1 1 0 1 1-3-3L12 9" />
+      <path d="M18 15l4-4" />
+      <path d="M21.5 11.5L12 2l-4 4 9.5 9.5 4-4z" />
+    </svg>
+  ),
+  trees: (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round">
+      <path d="M10 10v.2A3 3 0 0 1 8.9 16H5a3 3 0 0 1-1-5.8V10a3 3 0 0 1 6 0z" />
+      <path d="M7 16v6" />
+      <path d="M13 19h8.4a1 1 0 0 0 .8-1.6L18 12h.2a1 1 0 0 0 .8-1.6L15 6h.2a1 1 0 0 0 .8-1.6L12 0l-3 4" />
+      <path d="M14 19v3" />
+    </svg>
+  ),
 }
 
 export default icons

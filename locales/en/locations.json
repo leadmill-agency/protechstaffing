@@ -24,7 +24,13 @@
       "description": "Our DFW team covers the entire metroplex with dedicated pages for each major corridor.",
       "arlington": { "label": "Arlington, TX", "desc": "Major warehouse, distribution, and manufacturing corridor in Tarrant County." },
       "irving": { "label": "Irving, TX", "desc": "Las Colinas and DFW Airport corridor — electronics, logistics, and light industrial." },
-      "garland": { "label": "Garland, TX", "desc": "Dense light industrial zone east of Dallas. Electronics and light mfg focus." }
+      "garland": { "label": "Garland, TX", "desc": "Dense light industrial zone east of Dallas. Electronics and light mfg focus." },
+      "carrollton": { "label": "Carrollton, TX", "desc": "Industrial and distribution hub northwest of Dallas. Warehouse, manufacturing, and logistics." }
+    },
+    "officeMap": {
+      "eyebrow": "On the Map",
+      "heading": "Find your nearest Pro-Tech office",
+      "description": "Six offices across Texas, Florida, California, and Arizona. Each market is staffed by local recruiters."
     },
     "cta": {
       "eyebrow": "Get Started",

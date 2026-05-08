@@ -47,7 +47,7 @@
     "eyebrow": "Điểm Khác Biệt",
     "heading": "Nhân viên có chứng chỉ trước khi đến xưởng.",
     "description1": "Phàn nàn lớn nhất trong tuyển dụng sản xuất điện tử: không đủ ứng viên có trình độ, có chứng chỉ trên thị trường. Các công ty nhân sự khác gửi người. Chúng tôi gửi nhân viên đã được đào tạo.",
-    "description2": "Pro-Tech có giảng viên IPC chính thức trong đội ngũ, đào tạo và cấp chứng chỉ cho ứng viên trước khi bắt đầu. Nhân viên đến sẵn sàng làm việc theo tiêu chuẩn ngay từ ngày đầu.",
+    "description2": "Pro-Tech có giảng viên IPC chính thức trong đội ngũ, đào tạo và cấp chứng chỉ cho ứng viên trước khi bắt đầu. Nhân viên đến sẵn sàng làm việc hiệu quả ngay từ ngày đầu.",
     "cta": "Yêu Cầu Nhân Viên Có Chứng Chỉ",
     "certsEyebrow": "Chứng Chỉ Chúng Tôi Đào Tạo",
     "ipc610": {
@@ -66,13 +66,24 @@
       "desc": "Tiêu chuẩn ngành chung về hàn. Nhân viên được cấp chứng chỉ về kiểm soát quy trình và yêu cầu tay nghề."
     },
     "footerHighlight": "Giảng viên IPC được chứng nhận ngay trong đội ngũ.",
-    "footerNote": "Ứng viên đến đã có chứng chỉ và sẵn sàng làm việc theo tiêu chuẩn ngay từ ngày đầu."
+    "footerNote": "Ứng viên đến đã có chứng chỉ và sẵn sàng làm việc hiệu quả ngay từ ngày đầu."
   },
   "cta": {
     "eyebrow": "Bắt Đầu",
     "heading": "Sẵn sàng tuyển dụng?",
-    "description": "Gửi cho chúng tôi vị trí, ca làm, địa điểm và ngày bắt đầu. Chúng tôi sẽ phản hồi nhanh.",
-    "callUs": "Gọi Ngay",
-    "emailUs": "Gửi Email"
+    "description": "Gửi cho chúng tôi vị trí, ca làm, địa điểm và ngày bắt đầu. Đội ngũ của chúng tôi sẽ phản hồi trong vòng một ngày làm việc.",
+    "callUs": "Gọi Cho Chúng Tôi",
+    "emailUs": "Gửi Email",
+    "orReachOut": "Hoặc liên hệ trực tiếp"
+  },
+  "form": {
+    "name": "Tên",
+    "company": "Công Ty",
+    "phone": "Điện Thoại",
+    "email": "Email",
+    "message": "Chúng tôi có thể giúp gì?",
+    "responseTime": "Chúng tôi sẽ phản hồi trong vòng một ngày làm việc.",
+    "submit": "Gửi Yêu Cầu",
+    "submitting": "Đang gửi..."
   }
 }

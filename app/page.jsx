@@ -3,25 +3,26 @@
 import Link from 'next/link'
 import { useTranslation } from 'react-i18next'
 import icons from '@/components/icons'
+import MotionFadeIn, { MotionFadeInItem } from '@/components/MotionFadeIn'
 
 function Hero() {
   const { t } = useTranslation('home')
   return (
-    <section className="bg-bone pt-20">
-      <div className="max-w-6xl mx-auto px-6 py-10 md:py-16">
+    <section className="bg-white pt-20">
+      <div className="max-w-7xl mx-auto px-6 py-12 md:py-20">
         <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
-          <div>
+          <MotionFadeIn immediate>
             <h1 className="text-xs font-semibold text-ind-green tracking-wide md:tracking-widest uppercase mb-5 leading-relaxed">
               {t('hero.eyebrow')}
             </h1>
-            <p className="font-sans font-semibold text-carbon text-4xl md:text-5xl lg:text-6xl leading-[1.08] tracking-tight mb-6">
+            <p className="font-sans font-semibold text-sig-blue text-4xl md:text-5xl lg:text-6xl leading-[1.08] tracking-tight mb-8">
               {t('hero.headline')}
             </p>
-            <p className="text-steel text-lg md:text-xl leading-relaxed mb-8 max-w-lg">
+            <p className="text-steel text-lg md:text-xl leading-relaxed mb-10 max-w-lg">
               {t('hero.subhead')}
             </p>
             <div className="flex flex-col sm:flex-row gap-3">
-              <Link href="/jobs" className="inline-flex items-center justify-center gap-2 bg-sig-blue hover:bg-blue-900 text-white font-semibold px-8 py-4 rounded-md transition-colors">
+              <Link href="/job-seekers" className="inline-flex items-center justify-center gap-2 bg-sig-blue hover:bg-blue-900 text-white font-semibold px-8 py-4 rounded-md transition-colors">
                 {t('hero.ctaSecondary')}
                 <span className="w-4 h-4">{icons.arrowRight}</span>
               </Link>
@@ -29,38 +30,42 @@ function Hero() {
                 {t('hero.ctaPrimary')}
               </Link>
             </div>
-          </div>
+          </MotionFadeIn>
 
-          <div className="relative">
-            <div className="aspect-[4/3] overflow-hidden">
-              <img
-                src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=900&q=75"
-                alt="Industrial worker at light manufacturing facility"
-                className="w-full h-full object-cover grayscale opacity-80 mix-blend-multiply"
-                style={{ filter: 'grayscale(40%) brightness(0.85)' }}
-              />
-              <div className="absolute inset-0 bg-bone/20" />
+          <MotionFadeIn immediate delay={0.15}>
+            <div className="relative">
+              <div className="aspect-[4/5] lg:aspect-[4/5] overflow-hidden">
+                {/* TODO: replace with Getty image of a person (manufacturing/industrial worker) once received from client */}
+                <img
+                  src="https://images.unsplash.com/photo-1565688534245-05d6b5be184a?w=900&q=75"
+                  alt="Industrial worker on production floor"
+                  className="w-full h-full object-cover"
+                  style={{ filter: 'brightness(0.95)' }}
+                />
+              </div>
+              <div className="hidden sm:block absolute -bottom-4 -left-4 bg-white border border-fog px-5 py-4 shadow-sm">
+                <p className="font-mono text-2xl font-medium text-sig-blue">{t('hero.statChipValue')}</p>
+                <p className="text-xs text-steel mt-0.5">{t('hero.statChipLabel')}</p>
+              </div>
             </div>
-            <div className="hidden sm:block absolute -bottom-4 -left-4 bg-white border border-fog px-5 py-4 shadow-sm">
-              <p className="font-mono text-2xl font-medium text-carbon">{t('hero.statChipValue')}</p>
-              <p className="text-xs text-steel mt-0.5">{t('hero.statChipLabel')}</p>
-            </div>
-          </div>
+          </MotionFadeIn>
         </div>
 
-        <div className="mt-10 md:mt-20 pt-8 border-t border-fog flex flex-wrap gap-4 md:gap-8 items-center">
-          <p className="text-xs font-semibold text-steel tracking-widest uppercase">{t('hero.operatingIn')}</p>
-          {[
-            { name: t('hero.cities.richardsonTx'), href: '/locations/richardson-tx' },
-            { name: t('hero.cities.bedfordTx'), href: '/locations/bedford-tx' },
-            { name: t('hero.cities.austinTx'), href: '/locations/austin-tx' },
-            { name: t('hero.cities.tampaFl'), href: '/locations/tampa-fl' },
-            { name: t('hero.cities.sanJoseCa'), href: '/locations/san-jose-ca' },
-            { name: t('hero.cities.phoenixAz'), href: '/locations/phoenix-az' },
-          ].map(({ name, href }) => (
-            <Link key={name} href={href} className="text-sm font-medium text-carbon hover:text-ind-green transition-colors">{name}</Link>
-          ))}
-        </div>
+        <MotionFadeIn>
+          <div className="mt-12 md:mt-20 pt-8 border-t border-fog flex flex-wrap gap-4 md:gap-8 items-center">
+            <p className="text-xs font-semibold text-steel tracking-widest uppercase">{t('hero.operatingIn')}</p>
+            {[
+              { name: t('hero.cities.richardsonTx'), href: '/locations/richardson-tx' },
+              { name: t('hero.cities.bedfordTx'), href: '/locations/bedford-tx' },
+              { name: t('hero.cities.austinTx'), href: '/locations/austin-tx' },
+              { name: t('hero.cities.tampaFl'), href: '/locations/tampa-fl' },
+              { name: t('hero.cities.sanJoseCa'), href: '/locations/san-jose-ca' },
+              { name: t('hero.cities.phoenixAz'), href: '/locations/phoenix-az' },
+            ].map(({ name, href }) => (
+              <Link key={name} href={href} className="text-sm font-medium text-carbon hover:text-ind-green transition-colors">{name}</Link>
+            ))}
+          </div>
+        </MotionFadeIn>
       </div>
     </section>
   )
@@ -76,16 +81,20 @@ function StatsBar() {
     { number: t('statsBar.yearsInBusiness.number'),label: t('statsBar.yearsInBusiness.label') },
   ]
   return (
-    <section className="bg-white border-y border-fog">
-      <div className="max-w-6xl mx-auto px-6 py-10">
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
-          {stats.map(({ number, label }) => (
-            <div key={label} className="flex flex-col gap-1">
-              <span className="font-mono text-2xl font-medium text-carbon">{number}</span>
-              <span className="text-xs text-steel leading-snug">{label}</span>
-            </div>
-          ))}
-        </div>
+    <section className="bg-sig-blue">
+      <div className="max-w-7xl mx-auto px-6 py-12">
+        <MotionFadeIn stagger>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
+            {stats.map(({ number, label }) => (
+              <MotionFadeInItem key={label}>
+                <div className="flex flex-col gap-1">
+                  <span className="font-mono text-3xl font-medium text-white">{number}</span>
+                  <span className="text-xs text-fog leading-snug">{label}</span>
+                </div>
+              </MotionFadeInItem>
+            ))}
+          </div>
+        </MotionFadeIn>
       </div>
     </section>
   )
@@ -97,7 +106,7 @@ function Employers() {
     <section id="employers" className="bg-bone py-12 md:py-20">
       <div className="max-w-6xl mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-start">
-          <div>
+          <MotionFadeIn>
             <p className="text-xs font-semibold text-ind-green tracking-widest uppercase mb-5">{t('employers.eyebrow')}</p>
             <h2 className="font-semibold text-carbon text-3xl md:text-4xl lg:text-5xl leading-tight tracking-tight mb-6 whitespace-pre-line">
               {t('employers.headline')}
@@ -119,26 +128,28 @@ function Employers() {
                 </div>
               ))}
             </div>
-            <a href="#contact" className="inline-flex items-center gap-2 bg-sig-blue hover:bg-blue-900 text-white font-semibold text-sm px-6 py-3 rounded-md transition-colors">
+            <Link href="/employers#contact" className="inline-flex items-center gap-2 bg-sig-blue hover:bg-blue-900 text-white font-semibold text-sm px-6 py-3 rounded-md transition-colors">
               {t('employers.cta')}
               <span className="w-4 h-4">{icons.arrowRight}</span>
-            </a>
-          </div>
+            </Link>
+          </MotionFadeIn>
 
-          <div className="relative">
-            <div className="aspect-[3/4] overflow-hidden">
-              <img
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=75"
-                alt="Electronics manufacturing facility worker performing quality control inspection"
-                className="w-full h-full object-cover"
-                style={{ filter: 'grayscale(30%) brightness(0.9)' }}
-              />
+          <MotionFadeIn delay={0.1}>
+            <div className="relative">
+              <div className="aspect-[3/4] overflow-hidden">
+                <img
+                  src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=75"
+                  alt="Electronics manufacturing facility worker performing quality control inspection"
+                  className="w-full h-full object-cover"
+                  style={{ filter: 'grayscale(30%) brightness(0.9)' }}
+                />
+              </div>
+              <div className="hidden sm:block absolute -bottom-4 -right-4 bg-white border border-fog px-5 py-4 shadow-sm max-w-[180px]">
+                <p className="font-mono text-2xl font-medium text-carbon">{t('employers.statChipValue')}</p>
+                <p className="text-xs text-steel mt-0.5 leading-snug">{t('employers.statChipLabel')}</p>
+              </div>
             </div>
-            <div className="hidden sm:block absolute -bottom-4 -right-4 bg-white border border-fog px-5 py-4 shadow-sm max-w-[180px]">
-              <p className="font-mono text-2xl font-medium text-carbon">{t('employers.statChipValue')}</p>
-              <p className="text-xs text-steel mt-0.5 leading-snug">{t('employers.statChipLabel')}</p>
-            </div>
-          </div>
+          </MotionFadeIn>
         </div>
       </div>
     </section>
@@ -159,24 +170,30 @@ function Industries() {
   return (
     <section id="industries" className="bg-white py-12 md:py-20">
       <div className="max-w-6xl mx-auto px-6">
-        <div className="mb-8 md:mb-14">
-          <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-4">{t('industries.eyebrow')}</p>
-          <h2 className="font-semibold text-carbon text-3xl md:text-4xl lg:text-5xl leading-tight tracking-tight max-w-xl mb-4">
-            {t('industries.headline')}
-          </h2>
-          <p className="text-steel max-w-2xl leading-relaxed">{t('industries.subhead')}</p>
-        </div>
+        <MotionFadeIn>
+          <div className="mb-8 md:mb-14">
+            <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-4">{t('industries.eyebrow')}</p>
+            <h2 className="font-semibold text-carbon text-3xl md:text-4xl lg:text-5xl leading-tight tracking-tight max-w-xl mb-4">
+              {t('industries.headline')}
+            </h2>
+            <p className="text-steel max-w-2xl leading-relaxed">{t('industries.subhead')}</p>
+          </div>
+        </MotionFadeIn>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-px bg-fog">
-          {list.map(({ icon, title, desc, cert, href }) => (
-            <Link key={title} href={href} className="bg-white p-8 hover:bg-bone transition-colors group block">
-              <div className="w-5 h-5 text-ind-green mb-5">{icon}</div>
-              <h3 className="font-semibold text-carbon text-base mb-2 group-hover:text-ind-green transition-colors">{title}</h3>
-              <p className="text-steel text-sm leading-relaxed">{desc}</p>
-              {cert && <p className="text-ind-green text-sm italic mt-2 leading-relaxed">{cert}</p>}
-            </Link>
-          ))}
-        </div>
+        <MotionFadeIn stagger>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-px bg-fog">
+            {list.map(({ icon, title, desc, cert, href }) => (
+              <MotionFadeInItem key={title}>
+                <Link href={href} className="bg-white p-8 hover:bg-bone transition-colors group block h-full">
+                  <div className="w-5 h-5 text-ind-green mb-5">{icon}</div>
+                  <h3 className="font-semibold text-carbon text-base mb-2 group-hover:text-ind-green transition-colors">{title}</h3>
+                  <p className="text-steel text-sm leading-relaxed">{desc}</p>
+                  {cert && <p className="text-ind-green text-sm italic mt-2 leading-relaxed">{cert}</p>}
+                </Link>
+              </MotionFadeInItem>
+            ))}
+          </div>
+        </MotionFadeIn>
       </div>
     </section>
   )
@@ -194,25 +211,29 @@ function HowItWorks() {
     <section className="bg-bone py-12 md:py-20">
       <div className="max-w-6xl mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-10 lg:gap-20 items-center">
-          <div>
+          <MotionFadeIn>
             <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-5">{t('howItWorks.eyebrow')}</p>
             <h2 className="font-semibold text-carbon text-3xl md:text-4xl lg:text-5xl leading-tight tracking-tight mb-6 whitespace-pre-line">
               {t('howItWorks.headline')}
             </h2>
             <p className="text-steel leading-relaxed mb-4">{t('howItWorks.body1')}</p>
             <p className="text-steel text-sm leading-relaxed">{t('howItWorks.body2')}</p>
-          </div>
+          </MotionFadeIn>
 
-          <div className="flex flex-col gap-0 border-l border-fog">
-            {steps.map(({ n, title, desc }) => (
-              <div key={n} className="pl-8 pb-10 last:pb-0 relative">
-                <div className="absolute -left-px top-0 w-px h-full bg-fog" />
-                <p className="font-mono text-xs text-ind-green tracking-widest mb-2">{n}</p>
-                <h3 className="font-semibold text-carbon text-base mb-1.5">{title}</h3>
-                <p className="text-steel text-sm leading-relaxed">{desc}</p>
-              </div>
-            ))}
-          </div>
+          <MotionFadeIn stagger delay={0.1}>
+            <div className="flex flex-col gap-0 border-l border-fog">
+              {steps.map(({ n, title, desc }) => (
+                <MotionFadeInItem key={n}>
+                  <div className="pl-8 pb-10 last:pb-0 relative">
+                    <div className="absolute -left-px top-0 w-px h-full bg-fog" />
+                    <p className="font-mono text-xs text-ind-green tracking-widest mb-2">{n}</p>
+                    <h3 className="font-semibold text-carbon text-base mb-1.5">{title}</h3>
+                    <p className="text-steel text-sm leading-relaxed">{desc}</p>
+                  </div>
+                </MotionFadeInItem>
+              ))}
+            </div>
+          </MotionFadeIn>
         </div>
       </div>
     </section>
@@ -233,34 +254,40 @@ function Locations() {
   return (
     <section id="locations" className="bg-white py-12 md:py-20">
       <div className="max-w-6xl mx-auto px-6">
-        <div className="mb-8 md:mb-14">
-          <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-4">{t('locations.eyebrow')}</p>
-          <h2 className="font-semibold text-carbon text-3xl md:text-4xl lg:text-5xl leading-tight tracking-tight max-w-xl mb-4 whitespace-pre-line">
-            {t('locations.headline')}
-          </h2>
-          <p className="text-steel max-w-lg leading-relaxed mb-3">{t('locations.body1')}</p>
-          <p className="text-steel text-sm max-w-lg leading-relaxed">{t('locations.body2')}</p>
-        </div>
+        <MotionFadeIn>
+          <div className="mb-8 md:mb-14">
+            <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-4">{t('locations.eyebrow')}</p>
+            <h2 className="font-semibold text-carbon text-3xl md:text-4xl lg:text-5xl leading-tight tracking-tight max-w-xl mb-4 whitespace-pre-line">
+              {t('locations.headline')}
+            </h2>
+            <p className="text-steel max-w-lg leading-relaxed mb-3">{t('locations.body1')}</p>
+            <p className="text-steel text-sm max-w-lg leading-relaxed">{t('locations.body2')}</p>
+          </div>
+        </MotionFadeIn>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-px bg-fog">
-          {markets.map(({ city, state, label, roles, serving, href, img }) => (
-            <Link key={city} href={href} className="bg-white group overflow-hidden block">
-              <div className="aspect-[16/9] overflow-hidden">
-                <img src={img} alt={`${city} ${state} industrial staffing office`} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" style={{ filter: 'grayscale(40%) brightness(0.9)' }} />
-              </div>
-              <div className="p-5 bg-white group-hover:bg-bone transition-colors">
-                <p className="text-[10px] font-semibold text-ind-green tracking-widest uppercase mb-1">{label}</p>
-                <div className="flex items-baseline gap-1.5 mb-2">
-                  <h3 className="font-semibold text-carbon text-lg">{city}</h3>
-                  <span className="text-steel text-sm">{state}</span>
-                </div>
-                <p className="text-steel text-xs leading-snug mb-1">{roles}</p>
-                <p className="text-[10px] text-steel opacity-70">{serving}</p>
-                <p className="text-[10px] font-semibold text-ind-green mt-2 tracking-wide">{t('locations.viewMarket')}</p>
-              </div>
-            </Link>
-          ))}
-        </div>
+        <MotionFadeIn stagger>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-px bg-fog">
+            {markets.map(({ city, state, label, roles, serving, href, img }) => (
+              <MotionFadeInItem key={city}>
+                <Link href={href} className="bg-white group overflow-hidden block h-full">
+                  <div className="aspect-[16/9] overflow-hidden">
+                    <img src={img} alt={`${city} ${state} industrial staffing office`} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" style={{ filter: 'grayscale(40%) brightness(0.9)' }} />
+                  </div>
+                  <div className="p-5 bg-white group-hover:bg-bone transition-colors">
+                    <p className="text-[10px] font-semibold text-ind-green tracking-widest uppercase mb-1">{label}</p>
+                    <div className="flex items-baseline gap-1.5 mb-2">
+                      <h3 className="font-semibold text-carbon text-lg">{city}</h3>
+                      <span className="text-steel text-sm">{state}</span>
+                    </div>
+                    <p className="text-steel text-xs leading-snug mb-1">{roles}</p>
+                    <p className="text-[10px] text-steel opacity-70">{serving}</p>
+                    <p className="text-[10px] font-semibold text-ind-green mt-2 tracking-wide">{t('locations.viewMarket')}</p>
+                  </div>
+                </Link>
+              </MotionFadeInItem>
+            ))}
+          </div>
+        </MotionFadeIn>
       </div>
     </section>
   )
@@ -277,38 +304,44 @@ function Testimonials() {
   return (
     <section className="bg-bone py-12 md:py-20">
       <div className="max-w-6xl mx-auto px-6">
-        <div className="mb-8 md:mb-14">
-          <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-4">{t('testimonials.eyebrow')}</p>
-          <div className="flex items-center gap-2 mb-2">
-            {[...Array(5)].map((_, i) => (
-              <span key={i} className="w-4 h-4 text-safe-amber">{icons.star}</span>
-            ))}
-            <span className="text-xs text-steel ml-2">{t('testimonials.ratingText')}</span>
-          </div>
-          <h2 className="font-semibold text-carbon text-3xl md:text-4xl lg:text-5xl leading-tight tracking-tight max-w-xl mb-3">
-            {t('testimonials.headline')}
-          </h2>
-          <p className="text-steel max-w-lg leading-relaxed">{t('testimonials.subhead')}</p>
-        </div>
-
-        <div className="grid md:grid-cols-3 gap-px bg-fog">
-          {reviews.map(({ headline, quote, name, role, location }) => (
-            <div key={name} className="bg-white p-8 flex flex-col">
-              <p className="text-ind-green font-semibold text-sm uppercase tracking-wide mb-2">{role}</p>
-              <p className="font-semibold text-carbon text-lg leading-snug mb-4">{headline}</p>
-              <div className="flex gap-0.5 mb-4">
-                {[...Array(5)].map((_, i) => (
-                  <span key={i} className="w-3.5 h-3.5 text-safe-amber">{icons.star}</span>
-                ))}
-              </div>
-              <p className="text-carbon text-sm leading-relaxed flex-1 mb-8">&ldquo;{quote}&rdquo;</p>
-              <div className="pt-5 border-t border-fog">
-                <p className="font-semibold text-carbon text-sm">{name}</p>
-                <p className="text-[10px] text-steel mt-0.5 tracking-wide">{location}</p>
-              </div>
+        <MotionFadeIn>
+          <div className="mb-8 md:mb-14">
+            <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-4">{t('testimonials.eyebrow')}</p>
+            <div className="flex items-center gap-2 mb-2">
+              {[...Array(5)].map((_, i) => (
+                <span key={i} className="w-4 h-4 text-safe-amber">{icons.star}</span>
+              ))}
+              <span className="text-xs text-steel ml-2">{t('testimonials.ratingText')}</span>
             </div>
-          ))}
-        </div>
+            <h2 className="font-semibold text-carbon text-3xl md:text-4xl lg:text-5xl leading-tight tracking-tight max-w-xl mb-3">
+              {t('testimonials.headline')}
+            </h2>
+            <p className="text-steel max-w-lg leading-relaxed">{t('testimonials.subhead')}</p>
+          </div>
+        </MotionFadeIn>
+
+        <MotionFadeIn stagger>
+          <div className="grid md:grid-cols-3 gap-px bg-fog">
+            {reviews.map(({ headline, quote, name, role, location }) => (
+              <MotionFadeInItem key={name}>
+                <div className="bg-white p-8 flex flex-col h-full">
+                  <p className="text-ind-green font-semibold text-sm uppercase tracking-wide mb-2">{role}</p>
+                  <p className="font-semibold text-carbon text-lg leading-snug mb-4">{headline}</p>
+                  <div className="flex gap-0.5 mb-4">
+                    {[...Array(5)].map((_, i) => (
+                      <span key={i} className="w-3.5 h-3.5 text-safe-amber">{icons.star}</span>
+                    ))}
+                  </div>
+                  <p className="text-carbon text-sm leading-relaxed flex-1 mb-8">&ldquo;{quote}&rdquo;</p>
+                  <div className="pt-5 border-t border-fog">
+                    <p className="font-semibold text-carbon text-sm">{name}</p>
+                    <p className="text-[10px] text-steel mt-0.5 tracking-wide">{location}</p>
+                  </div>
+                </div>
+              </MotionFadeInItem>
+            ))}
+          </div>
+        </MotionFadeIn>
       </div>
     </section>
   )
@@ -320,7 +353,7 @@ function JobSeekersSection() {
     <section id="job-seekers" className="bg-sig-blue py-12 md:py-20">
       <div className="max-w-6xl mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
-          <div>
+          <MotionFadeIn>
             <p className="text-xs font-semibold text-ind-green tracking-widest uppercase mb-5">{t('jobSeekers.eyebrow')}</p>
             <h2 className="font-semibold text-bone text-3xl md:text-4xl lg:text-5xl leading-tight tracking-tight mb-6 whitespace-pre-line">
               {t('jobSeekers.headline')}
@@ -343,20 +376,22 @@ function JobSeekersSection() {
               ))}
             </div>
 
-            <a href="#apply" className="inline-flex items-center gap-2 bg-bone hover:bg-white text-carbon font-semibold text-sm px-6 py-3 rounded-md transition-colors">
+            <Link href="/job-seekers" className="inline-flex items-center gap-2 bg-bone hover:bg-white text-carbon font-semibold text-sm px-6 py-3 rounded-md transition-colors">
               {t('jobSeekers.cta')}
               <span className="w-4 h-4">{icons.arrowRight}</span>
-            </a>
-          </div>
+            </Link>
+          </MotionFadeIn>
 
-          <div className="aspect-[4/5] overflow-hidden">
-            <img
-              src="https://images.unsplash.com/photo-1565688534245-05d6b5be184a?w=800&q=75"
-              alt="Warehouse worker in Dallas Fort Worth distribution center ready for temp-to-hire placement"
-              className="w-full h-full object-cover"
-              style={{ filter: 'grayscale(30%) brightness(0.8)' }}
-            />
-          </div>
+          <MotionFadeIn delay={0.1}>
+            <div className="aspect-[4/5] overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1565688534245-05d6b5be184a?w=800&q=75"
+                alt="Warehouse worker in Dallas Fort Worth distribution center ready for temp-to-hire placement"
+                className="w-full h-full object-cover"
+                style={{ filter: 'grayscale(30%) brightness(0.8)' }}
+              />
+            </div>
+          </MotionFadeIn>
         </div>
       </div>
     </section>
@@ -368,22 +403,24 @@ function CTABand() {
   return (
     <section id="contact" className="bg-graphite py-14 md:py-20">
       <div className="max-w-4xl mx-auto px-6 text-center">
-        <p className="text-xs font-semibold text-fog tracking-widest uppercase mb-6">{t('ctaBand.eyebrow')}</p>
-        <h2 className="font-semibold text-bone text-3xl md:text-4xl lg:text-5xl leading-tight tracking-tight mb-4 whitespace-pre-line">
-          {t('ctaBand.headline')}
-        </h2>
-        <p className="text-fog mb-3">{t('ctaBand.body1')}</p>
-        <p className="text-white text-sm mb-10">{t('ctaBand.body2')}</p>
-        <div className="flex flex-col sm:flex-row gap-3 justify-center">
-          <a href="tel:+10000000000" className="inline-flex items-center justify-center gap-2 bg-bone hover:bg-white text-carbon font-semibold px-7 py-3 text-sm rounded-md transition-colors">
-            <span className="w-4 h-4">{icons.phone}</span>
-            {t('ctaBand.ctaCall')}
-          </a>
-          <a href="#request" className="inline-flex items-center justify-center gap-2 border border-fog hover:border-bone text-bone font-medium px-7 py-3 text-sm rounded-md transition-colors">
-            {t('ctaBand.ctaRequest')}
-            <span className="w-4 h-4">{icons.arrowRight}</span>
-          </a>
-        </div>
+        <MotionFadeIn>
+          <p className="text-xs font-semibold text-fog tracking-widest uppercase mb-6">{t('ctaBand.eyebrow')}</p>
+          <h2 className="font-semibold text-bone text-3xl md:text-4xl lg:text-5xl leading-tight tracking-tight mb-4 whitespace-pre-line">
+            {t('ctaBand.headline')}
+          </h2>
+          <p className="text-fog mb-3">{t('ctaBand.body1')}</p>
+          <p className="text-white text-sm mb-10">{t('ctaBand.body2')}</p>
+          <div className="flex flex-col sm:flex-row gap-3 justify-center">
+            <a href="tel:+10000000000" className="inline-flex items-center justify-center gap-2 bg-bone hover:bg-white text-carbon font-semibold px-7 py-3 text-sm rounded-md transition-colors">
+              <span className="w-4 h-4">{icons.phone}</span>
+              {t('ctaBand.ctaCall')}
+            </a>
+            <Link href="/employers#contact" className="inline-flex items-center justify-center gap-2 border border-fog hover:border-bone text-bone font-medium px-7 py-3 text-sm rounded-md transition-colors">
+              {t('ctaBand.ctaRequest')}
+              <span className="w-4 h-4">{icons.arrowRight}</span>
+            </Link>
+          </div>
+        </MotionFadeIn>
       </div>
     </section>
   )

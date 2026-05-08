@@ -5,7 +5,7 @@
   },
   "hero": {
     "eyebrow": "Para Buscadores de Empleo",
-    "heading": "\u00bfBusca trabajo? Colocamos personas r\u00e1pido.",
+    "heading": "\u00bfBusca trabajo? Estamos aqu\u00ed para ayudar.",
     "description": "Trabajamos con empresas en entornos de manufactura electr\u00f3nica, industria ligera, almac\u00e9n, cadena de suministro y administrativos. Trabajo estable, pago semanal y oportunidades reales para avanzar a puestos permanentes.",
     "benefits": ["Pago semanal", "Vacantes activas", "Oportunidades temporal a permanente", "Turnos diurnos y nocturnos", "Desde nivel inicial hasta experimentados", "Apoyo de reclutador"],
     "ctaViewPositions": "Ver Posiciones Disponibles",
@@ -77,16 +77,20 @@
   },
   "openPositions": {
     "eyebrow": "Posiciones Disponibles",
-    "heading": "Vacantes actuales.",
-    "description": "Explore nuestras \u00faltimas vacantes o env\u00ede una solicitud general para ser considerado en futuros puestos.",
-    "placeholder": "Bolsa de trabajo pr\u00f3ximamente. Mientras tanto, env\u00ede una solicitud general y nuestros reclutadores lo asignar\u00e1n a puestos disponibles.",
-    "ctaSubmit": "Enviar Solicitud General"
+    "heading": "Ver Vacantes Actuales",
+    "description": "Busque puestos disponibles por ubicaci\u00f3n, industria o palabra clave. Se publican nuevas posiciones diariamente."
   },
-  "cta": {
-    "eyebrow": "Aplique Ahora",
-    "heading": "\u00bfListo para comenzar?",
-    "description": "Ll\u00e1menos o env\u00ede su informaci\u00f3n. Nuestros reclutadores se comunicar\u00e1n para asignarlo a puestos disponibles en su \u00e1rea.",
+  "application": {
+    "eyebrow": "Enviar una Solicitud General",
+    "heading": "\u00bfNo ve el trabajo correcto?",
+    "description": "Env\u00ede su solicitud y nuestros reclutadores lo conectar\u00e1n con oportunidades a medida que surjan.",
+    "iframeTitle": "Formulario de Solicitud de Pro-Tech Staffing"
+  },
+  "moreQuestions": {
+    "eyebrow": "\u00bfM\u00e1s Preguntas?",
+    "heading": "\u00bfTiene preguntas? Env\u00edenos un correo o ll\u00e1menos.",
+    "description": "Si quiere hablar directamente con un reclutador antes de aplicar, cont\u00e1ctenos \u2014 estamos aqu\u00ed para ayudar.",
     "callUs": "Ll\u00e1menos",
-    "emailResume": "Env\u00ede su Curr\u00edculum"
+    "emailUs": "Env\u00edenos un Correo"
   }
 }
