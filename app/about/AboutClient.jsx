@@ -36,11 +36,12 @@ export default function AboutPage() {
 
             <div className="relative">
               <div className="aspect-[4/3] overflow-hidden">
+                {/* TODO: replace with Getty image of a person (manufacturing/industrial worker or team) once received from client */}
                 <img
-                  src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=900&q=75"
+                  src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=900&q=75"
                   alt={t('hero.imgAlt')}
                   className="w-full h-full object-cover"
-                  style={{ filter: 'grayscale(35%) brightness(0.88)' }}
+                  style={{ filter: 'brightness(0.95)' }}
                 />
               </div>
               <div className="hidden sm:block absolute -bottom-4 -left-4 bg-white border border-fog px-5 py-4 shadow-sm">
