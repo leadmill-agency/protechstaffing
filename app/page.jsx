@@ -104,7 +104,7 @@ function Employers() {
   const { t } = useTranslation('home')
   return (
     <section id="employers" className="bg-bone py-12 md:py-20">
-      <div className="max-w-6xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-start">
           <MotionFadeIn>
             <p className="text-xs font-semibold text-ind-green tracking-widest uppercase mb-5">{t('employers.eyebrow')}</p>
@@ -169,7 +169,7 @@ function Industries() {
 
   return (
     <section id="industries" className="bg-white py-12 md:py-20">
-      <div className="max-w-6xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-6">
         <MotionFadeIn>
           <div className="mb-8 md:mb-14">
             <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-4">{t('industries.eyebrow')}</p>
@@ -209,7 +209,7 @@ function HowItWorks() {
 
   return (
     <section className="bg-bone py-12 md:py-20">
-      <div className="max-w-6xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-10 lg:gap-20 items-center">
           <MotionFadeIn>
             <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-5">{t('howItWorks.eyebrow')}</p>
@@ -253,7 +253,7 @@ function Locations() {
 
   return (
     <section id="locations" className="bg-white py-12 md:py-20">
-      <div className="max-w-6xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-6">
         <MotionFadeIn>
           <div className="mb-8 md:mb-14">
             <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-4">{t('locations.eyebrow')}</p>
@@ -303,7 +303,7 @@ function Testimonials() {
 
   return (
     <section className="bg-bone py-12 md:py-20">
-      <div className="max-w-6xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-6">
         <MotionFadeIn>
           <div className="mb-8 md:mb-14">
             <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-4">{t('testimonials.eyebrow')}</p>
@@ -351,7 +351,7 @@ function JobSeekersSection() {
   const { t } = useTranslation('home')
   return (
     <section id="job-seekers" className="bg-sig-blue py-12 md:py-20">
-      <div className="max-w-6xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
           <MotionFadeIn>
             <p className="text-xs font-semibold text-ind-green tracking-widest uppercase mb-5">{t('jobSeekers.eyebrow')}</p>

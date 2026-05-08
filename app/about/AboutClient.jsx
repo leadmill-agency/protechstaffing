@@ -11,7 +11,7 @@ export default function AboutPage() {
     <>
       {/* Hero */}
       <section className="bg-bone pt-20">
-        <div className="max-w-6xl mx-auto px-6 py-10 md:py-16">
+        <div className="max-w-7xl mx-auto px-6 py-10 md:py-16">
           <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
             <div>
               <p className="text-xs font-semibold text-ind-green tracking-wide md:tracking-widest uppercase mb-5">
@@ -55,7 +55,7 @@ export default function AboutPage() {
 
       {/* Stats */}
       <section className="bg-white border-y border-fog">
-        <div className="max-w-6xl mx-auto px-6 py-10">
+        <div className="max-w-7xl mx-auto px-6 py-10">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {['yearsInBusiness', 'workersPlaced', 'usMarkets', 'clientsReorder'].map(key => (
               <div key={key} className="flex flex-col gap-1">
@@ -69,7 +69,7 @@ export default function AboutPage() {
 
       {/* Our Story */}
       <section className="bg-bone py-16 md:py-24">
-        <div className="max-w-6xl mx-auto px-6">
+        <div className="max-w-7xl mx-auto px-6">
           <div className="grid lg:grid-cols-2 gap-10 lg:gap-20">
             <div>
               <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-5">{t('ourStory.eyebrow')}</p>
@@ -119,7 +119,7 @@ export default function AboutPage() {
 
       {/* How We Work */}
       <section className="bg-white py-16 md:py-24">
-        <div className="max-w-6xl mx-auto px-6">
+        <div className="max-w-7xl mx-auto px-6">
           <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-5">{t('howWeWork.eyebrow')}</p>
           <h2 className="font-semibold text-carbon text-3xl leading-tight tracking-tight mb-8 md:mb-12">
             {t('howWeWork.heading')}
@@ -142,7 +142,7 @@ export default function AboutPage() {
 
       {/* Offices */}
       <section className="bg-bone py-16 md:py-24">
-        <div className="max-w-6xl mx-auto px-6">
+        <div className="max-w-7xl mx-auto px-6">
           <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-5">{t('offices.eyebrow')}</p>
           <h2 className="font-semibold text-carbon text-3xl leading-tight tracking-tight mb-3">
             {t('offices.heading')}
@@ -175,7 +175,7 @@ export default function AboutPage() {
 
       {/* Industries Overview */}
       <section className="bg-white py-16 md:py-24">
-        <div className="max-w-6xl mx-auto px-6">
+        <div className="max-w-7xl mx-auto px-6">
           <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-5">{t('industriesOverview.eyebrow')}</p>
           <h2 className="font-semibold text-carbon text-3xl leading-tight tracking-tight mb-3">
             {t('industriesOverview.heading')}

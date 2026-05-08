@@ -28,7 +28,7 @@ export default function IndustryPage({ params }) {
     <>
       {/* Hero */}
       <section className="bg-bone pt-20">
-        <div className="max-w-6xl mx-auto px-6 py-10 md:py-16">
+        <div className="max-w-7xl mx-auto px-6 py-10 md:py-16">
           <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
             <div>
               <p className="text-xs font-semibold text-ind-green tracking-wide md:tracking-widest uppercase mb-5">
@@ -65,7 +65,7 @@ export default function IndustryPage({ params }) {
 
       {/* Stats */}
       <section className="bg-white border-y border-fog">
-        <div className="max-w-6xl mx-auto px-6 py-10">
+        <div className="max-w-7xl mx-auto px-6 py-10">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {proof.map(({ n, label: proofLabel }) => (
               <div key={proofLabel} className="flex flex-col gap-1">
@@ -79,7 +79,7 @@ export default function IndustryPage({ params }) {
 
       {/* Roles We Staff */}
       <section className="bg-bone py-16 md:py-24">
-        <div className="max-w-6xl mx-auto px-6">
+        <div className="max-w-7xl mx-auto px-6">
           <div className="grid lg:grid-cols-2 gap-10 lg:gap-20">
             <div>
               <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-5">{t('detail.rolesWeStaff')}</p>
@@ -114,7 +114,7 @@ export default function IndustryPage({ params }) {
       {/* Certifications */}
       {certifications && Array.isArray(certifications) && certifications.length > 0 && (
         <section className="bg-white py-16 md:py-24">
-          <div className="max-w-6xl mx-auto px-6">
+          <div className="max-w-7xl mx-auto px-6">
             <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-5">{t('detail.certifications')}</p>
             <h2 className="font-semibold text-carbon text-3xl leading-tight tracking-tight mb-4">
               {t('detail.certHeading').split('\n').map((line, i) => (
@@ -137,7 +137,7 @@ export default function IndustryPage({ params }) {
 
       {/* Why Pro-Tech */}
       <section className="bg-bone py-16 md:py-24">
-        <div className="max-w-6xl mx-auto px-6">
+        <div className="max-w-7xl mx-auto px-6">
           <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-5">{t('detail.whyProTech')}</p>
           <h2 className="font-semibold text-carbon text-3xl leading-tight tracking-tight mb-8 md:mb-12">
             {t('detail.whyHeadingPrefix', { industry: labelLower }).split('\n').map((line, i) => (
@@ -173,7 +173,7 @@ export default function IndustryPage({ params }) {
 
       {/* Related Industries */}
       <section className="bg-white py-16 border-t border-fog">
-        <div className="max-w-6xl mx-auto px-6">
+        <div className="max-w-7xl mx-auto px-6">
           <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-6">{t('detail.relatedIndustries')}</p>
           <div className="flex flex-wrap gap-3">
             {relatedIndustries.map(({ label: relLabel, href }) => (

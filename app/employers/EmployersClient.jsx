@@ -11,7 +11,7 @@ export default function EmployersPage() {
     <>
       {/* ── Staffing Request CTA ── */}
       <section className="bg-bone pt-20">
-        <div className="max-w-6xl mx-auto px-6 py-10 md:py-16">
+        <div className="max-w-7xl mx-auto px-6 py-10 md:py-16">
           <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
             <div>
               <p className="text-xs font-semibold text-ind-green tracking-widest uppercase mb-5">
@@ -64,7 +64,7 @@ export default function EmployersPage() {
 
       {/* ── Services: Beyond Staffing ── */}
       <section className="bg-white py-12 md:py-20">
-        <div className="max-w-6xl mx-auto px-6">
+        <div className="max-w-7xl mx-auto px-6">
           <div className="mb-8 md:mb-14">
             <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-4">{t('services.eyebrow')}</p>
             <h2 className="font-semibold text-carbon text-3xl md:text-4xl lg:text-5xl leading-tight tracking-tight max-w-xl mb-4">
@@ -96,7 +96,7 @@ export default function EmployersPage() {
 
       {/* ── Training & Certification ── */}
       <section className="bg-bone py-12 md:py-20">
-        <div className="max-w-6xl mx-auto px-6">
+        <div className="max-w-7xl mx-auto px-6">
           <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-start">
             <div>
               <p className="text-xs font-semibold text-ind-green tracking-widest uppercase mb-5">

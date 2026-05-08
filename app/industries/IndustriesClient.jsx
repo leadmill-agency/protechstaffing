@@ -29,7 +29,7 @@ export default function IndustriesPage() {
     <>
       {/* Hero */}
       <section className="bg-bone pt-20">
-        <div className="max-w-6xl mx-auto px-6 py-10 md:py-16">
+        <div className="max-w-7xl mx-auto px-6 py-10 md:py-16">
           <p className="text-xs font-semibold text-ind-green tracking-wide md:tracking-widest uppercase mb-5">
             {t('page.hero.eyebrow')}
           </p>
@@ -50,7 +50,7 @@ export default function IndustriesPage() {
 
       {/* Stats */}
       <section className="bg-white border-y border-fog">
-        <div className="max-w-6xl mx-auto px-6 py-10">
+        <div className="max-w-7xl mx-auto px-6 py-10">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {['industriesServed', 'workersPlaced', 'avgFillTime', 'yearsExperience'].map(key => (
               <div key={key} className="flex flex-col gap-1">
@@ -64,7 +64,7 @@ export default function IndustriesPage() {
 
       {/* Industry Cards */}
       <section className="bg-bone py-16 md:py-24">
-        <div className="max-w-6xl mx-auto px-6">
+        <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col gap-12">
             {INDUSTRY_SLUGS.map(slug => {
               const icon = INDUSTRY_ICONS[slug]

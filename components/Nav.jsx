@@ -65,7 +65,7 @@ export default function Nav() {
 
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-200 ${scrolled ? 'bg-white border-b border-fog shadow-sm' : 'bg-bone border-b border-fog'}`}>
-      <div className="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
           <img src="/logo.png" alt="Pro-Tech Staffing" className="h-[46px] w-auto" />
         </Link>

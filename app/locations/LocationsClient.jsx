@@ -36,7 +36,7 @@ export default function LocationsPage() {
     <>
       {/* Hero */}
       <section className="bg-bone pt-20">
-        <div className="max-w-6xl mx-auto px-6 py-10 md:py-16">
+        <div className="max-w-7xl mx-auto px-6 py-10 md:py-16">
           <p className="text-xs font-semibold text-ind-green tracking-wide md:tracking-widest uppercase mb-5">
             {t('page.hero.eyebrow')}
           </p>
@@ -60,7 +60,7 @@ export default function LocationsPage() {
 
       {/* Stats */}
       <section className="bg-white border-y border-fog">
-        <div className="max-w-6xl mx-auto px-6 py-10">
+        <div className="max-w-7xl mx-auto px-6 py-10">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {['usMarkets', 'states', 'avgFillTime', 'clientRetention'].map(key => (
               <div key={key} className="flex flex-col gap-1">
@@ -74,7 +74,7 @@ export default function LocationsPage() {
 
       {/* Market Cards */}
       <section className="bg-bone py-16 md:py-24">
-        <div className="max-w-6xl mx-auto px-6">
+        <div className="max-w-7xl mx-auto px-6">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-px bg-fog">
             {MARKET_KEYS.map(key => {
               const city = t(`locationsPageMarkets.${key}.city`)
@@ -117,7 +117,7 @@ export default function LocationsPage() {
 
       {/* Office Map */}
       <section className="bg-white py-16 md:py-24">
-        <div className="max-w-6xl mx-auto px-6">
+        <div className="max-w-7xl mx-auto px-6">
           <div className="mb-8 md:mb-10">
             <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-4">{t('page.officeMap.eyebrow')}</p>
             <h2 className="font-semibold text-carbon text-3xl leading-tight tracking-tight mb-3">
@@ -147,7 +147,7 @@ export default function LocationsPage() {
 
       {/* DFW Sub-Markets */}
       <section className="bg-bone py-16 md:py-24">
-        <div className="max-w-6xl mx-auto px-6">
+        <div className="max-w-7xl mx-auto px-6">
           <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-5">{t('page.dfwSubMarkets.eyebrow')}</p>
           <h2 className="font-semibold text-carbon text-3xl leading-tight tracking-tight mb-3">
             {t('page.dfwSubMarkets.heading')}

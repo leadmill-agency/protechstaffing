@@ -62,7 +62,7 @@ export default function LocationPage({ params }) {
     <>
       {/* ── 1. HERO ─────────────────────────────────────────────────────────── */}
       <section className="bg-bone pt-20">
-        <div className="max-w-6xl mx-auto px-6 py-10 md:py-16">
+        <div className="max-w-7xl mx-auto px-6 py-10 md:py-16">
           <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
             <div>
               <p className="text-xs font-semibold text-ind-green tracking-wide md:tracking-widest uppercase mb-5">
@@ -116,7 +116,7 @@ export default function LocationPage({ params }) {
 
       {/* ── 2. STATS BAR ────────────────────────────────────────────────────── */}
       <section className="bg-white border-y border-fog">
-        <div className="max-w-6xl mx-auto px-6 py-10">
+        <div className="max-w-7xl mx-auto px-6 py-10">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {proof.map(({ n, label: proofLabel }) => (
               <div key={proofLabel} className="flex flex-col gap-1">
@@ -155,7 +155,7 @@ export default function LocationPage({ params }) {
       {/* ── 4. LOCAL SERVICES (Bucket 1) or Industries checklist (Bucket 2) ── */}
       {isBucket1 && localServices && Array.isArray(localServices) && localServices.length > 0 ? (
         <section className="bg-white py-16 md:py-24">
-          <div className="max-w-6xl mx-auto px-6">
+          <div className="max-w-7xl mx-auto px-6">
             <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-5">{t('detail.whatWeStaffHere')}</p>
             <h2 className="font-semibold text-carbon text-3xl leading-tight tracking-tight mb-3">
               {t('detail.staffingServicesIn', { label })}
@@ -183,7 +183,7 @@ export default function LocationPage({ params }) {
         </section>
       ) : (
         <section className="bg-bone py-16 md:py-24">
-          <div className="max-w-6xl mx-auto px-6">
+          <div className="max-w-7xl mx-auto px-6">
             <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-5">{t('detail.industriesWeStaff')}</p>
             <h2 className="font-semibold text-carbon text-3xl leading-tight tracking-tight mb-8">
               {t('detail.industriesHeading').split('\n').map((line, i) => (
@@ -204,7 +204,7 @@ export default function LocationPage({ params }) {
 
       {/* ── 5. INDUSTRIES + ROLES ───────────────────────────────────────────── */}
       <section className={`${isBucket1 ? 'bg-bone' : 'bg-white'} py-16 md:py-24`}>
-        <div className="max-w-6xl mx-auto px-6">
+        <div className="max-w-7xl mx-auto px-6">
           <div className="grid lg:grid-cols-2 gap-10 lg:gap-20">
             <div>
               <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-5">{t('detail.industriesWeStaff')}</p>
@@ -245,7 +245,7 @@ export default function LocationPage({ params }) {
 
       {/* ── 6. WHY PRO-TECH ─────────────────────────────────────────────────── */}
       <section className="bg-white py-16 md:py-24">
-        <div className="max-w-6xl mx-auto px-6">
+        <div className="max-w-7xl mx-auto px-6">
           <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-5">{t('detail.whyProTech')}</p>
           <h2 className="font-semibold text-carbon text-3xl leading-tight tracking-tight mb-8 md:mb-12">
             {t('detail.whyHeading', { label }).split('\n').map((line, i) => (
@@ -282,7 +282,7 @@ export default function LocationPage({ params }) {
       {/* ── 8. OFFICE INFO (Bucket 1 only) ──────────────────────────────────── */}
       {isBucket1 && d.officeInfo && (
         <section className="bg-bone py-16 md:py-24">
-          <div className="max-w-6xl mx-auto px-6">
+          <div className="max-w-7xl mx-auto px-6">
             <div className="grid lg:grid-cols-2 gap-10 lg:gap-20 items-start">
               <div>
                 <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-5">{t('detail.officeEyebrow', { label })}</p>
@@ -421,7 +421,7 @@ export default function LocationPage({ params }) {
       {/* ── 10. SUB-MARKETS ─────────────────────────────────────────────────── */}
       {subMarkets && Array.isArray(subMarkets) && subMarkets.length > 0 && (
         <section className="bg-bone py-16 md:py-24">
-          <div className="max-w-6xl mx-auto px-6">
+          <div className="max-w-7xl mx-auto px-6">
             <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-5">{t('detail.nearbyMarkets')}</p>
             <h2 className="font-semibold text-carbon text-3xl leading-tight tracking-tight mb-3">
               {t('detail.nearbyHeading')}
@@ -448,7 +448,7 @@ export default function LocationPage({ params }) {
       {/* Bucket 2: parent office note */}
       {!isBucket1 && d.parentOffice && (
         <section className="bg-bone py-10">
-          <div className="max-w-6xl mx-auto px-6">
+          <div className="max-w-7xl mx-auto px-6">
             <div className="flex items-start gap-4 bg-white border border-fog p-6">
               <span className="w-5 h-5 text-ind-green mt-0.5 flex-shrink-0">{icons.mapPin}</span>
               <div>
@@ -464,7 +464,7 @@ export default function LocationPage({ params }) {
 
       {/* ── 11. RELATED CITIES ──────────────────────────────────────────────── */}
       <section className="bg-white py-16 border-t border-fog">
-        <div className="max-w-6xl mx-auto px-6">
+        <div className="max-w-7xl mx-auto px-6">
           <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-6">{t('detail.alsoServingNearby')}</p>
           <div className="flex flex-wrap gap-3">
             {relatedCities.map(({ label: cityLabel }, i) => (
