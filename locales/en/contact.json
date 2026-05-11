@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "title": "Contact Us | Pro-Tech Staffing",
+    "description": "Get in touch with Pro-Tech Staffing. We respond to all inquiries within one business day."
+  },
+  "hero": {
+    "eyebrow": "Contact Us",
+    "heading": "Get in touch",
+    "description": "Whether you're looking for work, want to hire, or have a general question — we're here to help. We respond to every inquiry within one business day."
+  },
+  "routes": {
+    "jobSeekers": {
+      "title": "I'm looking for work",
+      "desc": "Submit an application to our talent pool. Our recruiters will match you with available roles in your area.",
+      "cta": "Apply now"
+    },
+    "employers": {
+      "title": "I want to hire workers",
+      "desc": "Send us the role, shift, location, and start date. We'll respond within one business day with screened candidates.",
+      "cta": "Submit a staffing request"
+    },
+    "general": {
+      "title": "I have a general question",
+      "desc": "For everything else — partnerships, press, vendor inquiries, or anything you can't find on the site.",
+      "cta": "Send us a message"
+    }
+  },
+  "form": {
+    "eyebrow": "General Inquiry",
+    "heading": "Send us a message",
+    "description": "Fill out the form below and a member of our team will reach out within one business day.",
+    "name": "Name",
+    "company": "Company (optional)",
+    "email": "Email",
+    "phone": "Phone (optional)",
+    "inquiryType": "What's this about?",
+    "inquiryGeneral": "General question",
+    "inquiryPartnership": "Partnership",
+    "inquiryPress": "Press / Media",
+    "inquiryOther": "Other",
+    "message": "Message",
+    "responseTime": "We respond to all inquiries within one business day.",
+    "submit": "Send Message",
+    "submitting": "Sending..."
+  },
+  "offices": {
+    "eyebrow": "Our Offices",
+    "heading": "Six markets. Local teams in each.",
+    "description": "Reach out to your nearest Pro-Tech office directly — every market has a local team that knows the work, the employers, and the labor pool.",
+    "viewMarket": "View market details"
+  }
+}

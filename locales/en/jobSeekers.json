@@ -7,7 +7,14 @@
     "eyebrow": "For Job Seekers",
     "heading": "Looking for work? We're here to help.",
     "description": "We work with companies across electronics manufacturing, light industrial, warehouse, supply chain, and administrative environments. Steady work, weekly pay, and real opportunities to move into permanent roles.",
-    "benefits": ["Weekly pay", "Active openings", "Temp-to-hire paths", "Day and night shifts", "Entry-level to experienced", "Recruiter support"],
+    "benefits": [
+      "Weekly pay",
+      "Active openings",
+      "Temp-to-hire paths",
+      "Day and night shifts",
+      "Entry-level to experienced",
+      "Recruiter support"
+    ],
     "ctaViewPositions": "View Open Positions",
     "ctaSubmitApplication": "Submit a General Application",
     "imgAlt": "Warehouse worker ready for placement"
@@ -85,12 +92,5 @@
     "heading": "Don't see the right job?",
     "description": "Submit your application and our recruiters will match you with opportunities as they open up.",
     "iframeTitle": "Pro-Tech Staffing Application Form"
-  },
-  "moreQuestions": {
-    "eyebrow": "More Questions?",
-    "heading": "Have questions? Email or call us.",
-    "description": "If you'd like to talk to a recruiter directly before applying, reach out — we're happy to help.",
-    "callUs": "Call Us",
-    "emailUs": "Email Us"
   }
 }

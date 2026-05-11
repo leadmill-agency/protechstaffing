@@ -5,7 +5,8 @@
       "employers": "Employers",
       "industries": "Industries",
       "locations": "Locations",
-      "about": "About Us"
+      "about": "About Us",
+      "contact": "Contact"
     },
     "cta": {
       "findJobs": "Find Jobs",
@@ -68,7 +69,7 @@
       "sanJose": "San Jose, CA",
       "phoenix": "Phoenix, AZ"
     },
-    "copyright": "\u00a9 2025 Pro-Tech Staffing Services. All rights reserved.",
+    "copyright": "© 2025 Pro-Tech Staffing Services. All rights reserved.",
     "legal": {
       "privacy": "Privacy Policy",
       "terms": "Terms of Service",

@@ -7,7 +7,14 @@
     "eyebrow": "Dành Cho Người Tìm Việc",
     "heading": "Đang tìm việc? Chúng tôi sẵn sàng giúp.",
     "description": "Chúng tôi hợp tác với các công ty trong lĩnh vực sản xuất điện tử, công nghiệp nhẹ, kho bãi, chuỗi cung ứng và hành chính. Công việc ổn định, lương tuần và cơ hội thực sự để chuyển sang vị trí chính thức.",
-    "benefits": ["Lương tuần", "Vị trí đang tuyển", "Lộ trình tạm thời sang chính thức", "Ca ngày và ca đêm", "Từ cơ bản đến có kinh nghiệm", "Hỗ trợ từ nhà tuyển dụng"],
+    "benefits": [
+      "Lương tuần",
+      "Vị trí đang tuyển",
+      "Lộ trình tạm thời sang chính thức",
+      "Ca ngày và ca đêm",
+      "Từ cơ bản đến có kinh nghiệm",
+      "Hỗ trợ từ nhà tuyển dụng"
+    ],
     "ctaViewPositions": "Xem Vị Trí Đang Tuyển",
     "ctaSubmitApplication": "Gửi Đơn Ứng Tuyển Chung",
     "imgAlt": "Nhân viên kho bãi sẵn sàng làm việc"
@@ -85,12 +92,5 @@
     "heading": "Không tìm thấy công việc phù hợp?",
     "description": "Gửi đơn ứng tuyển và đội ngũ tuyển dụng của chúng tôi sẽ kết nối bạn với cơ hội khi chúng xuất hiện.",
     "iframeTitle": "Đơn Ứng Tuyển Pro-Tech Staffing"
-  },
-  "moreQuestions": {
-    "eyebrow": "Câu Hỏi Khác?",
-    "heading": "Có thắc mắc? Gửi email hoặc gọi cho chúng tôi.",
-    "description": "Nếu bạn muốn nói chuyện trực tiếp với nhà tuyển dụng trước khi ứng tuyển, hãy liên hệ — chúng tôi luôn sẵn sàng giúp.",
-    "callUs": "Gọi Điện",
-    "emailUs": "Gửi Email"
   }
 }

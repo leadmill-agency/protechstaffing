@@ -25,7 +25,7 @@ function Hero() {
         {/* Content layer */}
         <div className="relative max-w-7xl mx-auto grid lg:grid-cols-2 lg:gap-12 lg:min-h-[640px]">
           {/* Left — text on white */}
-          <div className="px-6 py-12 lg:py-24 lg:pr-12 flex items-center">
+          <div className="px-6 lg:pl-12 xl:pl-16 py-12 lg:py-24 lg:pr-12 flex items-center">
             <MotionFadeIn immediate>
               <h1 className="text-xs font-semibold text-ind-green tracking-wide md:tracking-widest uppercase mb-5 leading-relaxed">
                 {t('hero.eyebrow')}
@@ -55,17 +55,17 @@ function Hero() {
               alt={HERO_ALT}
               className="w-full h-full object-cover"
             />
-            <div className="absolute bottom-4 left-4 bg-white border border-fog px-5 py-4 shadow-sm">
-              <p className="font-mono text-2xl font-medium text-sig-blue">{t('hero.statChipValue')}</p>
-              <p className="text-xs text-steel mt-0.5">{t('hero.statChipLabel')}</p>
+            <div className="absolute bottom-4 left-4 w-32 h-32 rounded-full bg-white border-[3px] border-ind-green shadow-lg flex flex-col items-center justify-center text-center px-3">
+              <p className="font-mono text-3xl font-bold text-sig-blue leading-none mb-1">{t('hero.statChipValue')}</p>
+              <p className="text-[9px] uppercase tracking-wider text-steel leading-tight">{t('hero.statChipLabel')}</p>
             </div>
           </div>
         </div>
 
-        {/* Desktop stat chip — overlays the right-side image, just inside the page edge */}
-        <div className="hidden lg:block absolute bottom-8 left-1/2 ml-6 bg-white border border-fog px-5 py-4 shadow-md z-10">
-          <p className="font-mono text-2xl font-medium text-sig-blue">{t('hero.statChipValue')}</p>
-          <p className="text-xs text-steel mt-0.5">{t('hero.statChipLabel')}</p>
+        {/* Desktop stat chip — circle with green outline, overlapping the right-side image */}
+        <div className="hidden lg:flex absolute bottom-10 left-1/2 ml-6 w-44 h-44 rounded-full bg-white border-4 border-ind-green shadow-2xl flex-col items-center justify-center text-center px-4 z-10">
+          <p className="font-mono text-5xl font-bold text-sig-blue leading-none mb-2">{t('hero.statChipValue')}</p>
+          <p className="text-[11px] uppercase tracking-wider text-steel leading-tight">{t('hero.statChipLabel')}</p>
         </div>
       </section>
 
@@ -228,27 +228,27 @@ function HowItWorks() {
   ]
 
   return (
-    <section className="bg-bone py-12 md:py-20">
+    <section className="bg-sig-blue py-12 md:py-20">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-10 lg:gap-20 items-center">
           <MotionFadeIn>
-            <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-5">{t('howItWorks.eyebrow')}</p>
-            <h2 className="font-semibold text-carbon text-3xl md:text-4xl lg:text-5xl leading-tight tracking-tight mb-6 whitespace-pre-line">
+            <p className="text-xs font-semibold text-ind-green tracking-widest uppercase mb-5">{t('howItWorks.eyebrow')}</p>
+            <h2 className="font-semibold text-bone text-3xl md:text-4xl lg:text-5xl leading-tight tracking-tight mb-6 whitespace-pre-line">
               {t('howItWorks.headline')}
             </h2>
-            <p className="text-steel leading-relaxed mb-4">{t('howItWorks.body1')}</p>
-            <p className="text-steel text-sm leading-relaxed">{t('howItWorks.body2')}</p>
+            <p className="text-fog leading-relaxed mb-4">{t('howItWorks.body1')}</p>
+            <p className="text-fog text-sm leading-relaxed">{t('howItWorks.body2')}</p>
           </MotionFadeIn>
 
           <MotionFadeIn stagger delay={0.1}>
-            <div className="flex flex-col gap-0 border-l border-fog">
+            <div className="flex flex-col gap-0 border-l border-white/20">
               {steps.map(({ n, title, desc }) => (
                 <MotionFadeInItem key={n}>
                   <div className="pl-8 pb-10 last:pb-0 relative">
-                    <div className="absolute -left-px top-0 w-px h-full bg-fog" />
+                    <div className="absolute -left-px top-0 w-px h-full bg-white/20" />
                     <p className="font-mono text-xs text-ind-green tracking-widest mb-2">{n}</p>
-                    <h3 className="font-semibold text-carbon text-base mb-1.5">{title}</h3>
-                    <p className="text-steel text-sm leading-relaxed">{desc}</p>
+                    <h3 className="font-semibold text-bone text-base mb-1.5">{title}</h3>
+                    <p className="text-fog text-sm leading-relaxed">{desc}</p>
                   </div>
                 </MotionFadeInItem>
               ))}

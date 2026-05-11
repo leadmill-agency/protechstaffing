@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "title": "Liên Hệ Chúng Tôi | Pro-Tech Staffing",
+    "description": "Liên hệ với Pro-Tech Staffing. Chúng tôi phản hồi tất cả các yêu cầu trong vòng một ngày làm việc."
+  },
+  "hero": {
+    "eyebrow": "Liên Hệ",
+    "heading": "Liên lạc với chúng tôi",
+    "description": "Cho dù bạn đang tìm việc, muốn tuyển dụng hay có câu hỏi chung — chúng tôi luôn sẵn sàng giúp đỡ. Chúng tôi phản hồi mọi yêu cầu trong vòng một ngày làm việc."
+  },
+  "routes": {
+    "jobSeekers": {
+      "title": "Tôi đang tìm việc",
+      "desc": "Gửi đơn ứng tuyển vào nhóm nhân tài của chúng tôi. Đội ngũ tuyển dụng sẽ kết nối bạn với các vị trí phù hợp trong khu vực.",
+      "cta": "Ứng tuyển ngay"
+    },
+    "employers": {
+      "title": "Tôi muốn tuyển nhân viên",
+      "desc": "Gửi cho chúng tôi vị trí, ca làm, địa điểm và ngày bắt đầu. Chúng tôi sẽ phản hồi trong vòng một ngày làm việc với các ứng viên đã được sàng lọc.",
+      "cta": "Gửi yêu cầu tuyển dụng"
+    },
+    "general": {
+      "title": "Tôi có câu hỏi chung",
+      "desc": "Cho mọi thứ khác — đối tác, báo chí, nhà cung cấp hoặc bất cứ điều gì bạn không tìm thấy trên trang web.",
+      "cta": "Gửi tin nhắn cho chúng tôi"
+    }
+  },
+  "form": {
+    "eyebrow": "Yêu Cầu Chung",
+    "heading": "Gửi tin nhắn cho chúng tôi",
+    "description": "Điền vào biểu mẫu bên dưới và một thành viên trong đội ngũ của chúng tôi sẽ liên hệ với bạn trong vòng một ngày làm việc.",
+    "name": "Tên",
+    "company": "Công Ty (tùy chọn)",
+    "email": "Email",
+    "phone": "Điện Thoại (tùy chọn)",
+    "inquiryType": "Về vấn đề gì?",
+    "inquiryGeneral": "Câu hỏi chung",
+    "inquiryPartnership": "Đối tác",
+    "inquiryPress": "Báo chí / Truyền thông",
+    "inquiryOther": "Khác",
+    "message": "Tin nhắn",
+    "responseTime": "Chúng tôi phản hồi tất cả các yêu cầu trong vòng một ngày làm việc.",
+    "submit": "Gửi Tin Nhắn",
+    "submitting": "Đang gửi..."
+  },
+  "offices": {
+    "eyebrow": "Văn Phòng Của Chúng Tôi",
+    "heading": "Sáu thị trường. Đội ngũ địa phương ở mỗi nơi.",
+    "description": "Liên hệ trực tiếp với văn phòng Pro-Tech gần nhất — mỗi thị trường đều có đội ngũ địa phương am hiểu công việc, nhà tuyển dụng và nguồn lao động.",
+    "viewMarket": "Xem chi tiết thị trường"
+  }
+}

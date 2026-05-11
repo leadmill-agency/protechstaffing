@@ -233,29 +233,6 @@ export default function JobSeekersPage() {
           </div>
         </div>
       </section>
-
-      {/* ── More Questions? ── */}
-      <section className="bg-graphite py-14 md:py-20">
-        <div className="max-w-4xl mx-auto px-6 text-center">
-          <p className="text-xs font-semibold text-fog tracking-widest uppercase mb-6">{t('moreQuestions.eyebrow')}</p>
-          <h2 className="font-semibold text-bone text-3xl md:text-4xl leading-tight tracking-tight mb-4">
-            {t('moreQuestions.heading')}
-          </h2>
-          <p className="text-fog mb-8">
-            {t('moreQuestions.description')}
-          </p>
-          <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            <a href="tel:+19725551234" className="inline-flex items-center justify-center gap-2 bg-bone hover:bg-white text-carbon font-semibold px-7 py-3 text-sm rounded-md transition-colors">
-              <span className="w-4 h-4">{icons.phone}</span>
-              {t('moreQuestions.callUs')}
-            </a>
-            <a href="mailto:jobs@protechstaffing.com" className="inline-flex items-center justify-center gap-2 border border-fog hover:border-bone text-bone font-medium px-7 py-3 text-sm rounded-md transition-colors">
-              <span className="w-4 h-4">{icons.mail}</span>
-              {t('moreQuestions.emailUs')}
-            </a>
-          </div>
-        </div>
-      </section>
     </>
   )
 }

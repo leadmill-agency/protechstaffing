@@ -61,16 +61,17 @@ export default function Nav() {
     t('nav.links.industries'),
     t('nav.links.locations'),
     t('nav.links.about'),
+    t('nav.links.contact'),
   ]
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-200 ${scrolled ? 'bg-white border-b border-fog shadow-sm' : 'bg-bone border-b border-fog'}`}>
+    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-200 ${scrolled ? 'bg-white border-b-2 border-sig-blue shadow-sm' : 'bg-bone border-b-2 border-sig-blue'}`}>
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
           <img src="/logo.png" alt="Pro-Tech Staffing" className="h-[46px] w-auto" />
         </Link>
 
-        <div className="hidden md:flex items-center gap-5">
+        <div className="hidden md:flex items-center gap-4 lg:gap-5">
           {navLinks.map(link => {
             const dropdown = NAV_DROPDOWNS[link]
 
@@ -78,6 +79,7 @@ export default function Nav() {
               const pageHref =
                 link === t('nav.links.employers') ? '/employers' :
                 link === t('nav.links.jobSeekers') ? '/job-seekers' :
+                link === t('nav.links.contact') ? '/contact' :
                 `/#${link.toLowerCase().replace(' ', '-')}`
               return (
                 <Link key={link} href={pageHref} className="text-steel hover:text-carbon text-sm font-medium transition-colors">
@@ -162,6 +164,7 @@ export default function Nav() {
               const pageHref =
                 link === t('nav.links.employers') ? '/employers' :
                 link === t('nav.links.jobSeekers') ? '/job-seekers' :
+                link === t('nav.links.contact') ? '/contact' :
                 `/#${link.toLowerCase().replace(' ', '-')}`
               return (
                 <Link key={link} href={pageHref} className="text-carbon text-sm font-medium py-2" onClick={() => setMenuOpen(false)}>

@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "title": "Contáctenos | Pro-Tech Staffing",
+    "description": "Póngase en contacto con Pro-Tech Staffing. Respondemos a todas las consultas dentro de un día hábil."
+  },
+  "hero": {
+    "eyebrow": "Contáctenos",
+    "heading": "Póngase en contacto",
+    "description": "Ya sea que busque trabajo, quiera contratar personal o tenga una pregunta general — estamos aquí para ayudar. Respondemos a cada consulta dentro de un día hábil."
+  },
+  "routes": {
+    "jobSeekers": {
+      "title": "Estoy buscando trabajo",
+      "desc": "Envíe una solicitud a nuestro banco de talentos. Nuestros reclutadores lo conectarán con puestos disponibles en su área.",
+      "cta": "Aplicar ahora"
+    },
+    "employers": {
+      "title": "Quiero contratar personal",
+      "desc": "Envíenos el puesto, turno, ubicación y fecha de inicio. Responderemos dentro de un día hábil con candidatos preseleccionados.",
+      "cta": "Enviar solicitud de personal"
+    },
+    "general": {
+      "title": "Tengo una pregunta general",
+      "desc": "Para todo lo demás — asociaciones, prensa, consultas de proveedores o cualquier cosa que no encuentre en el sitio.",
+      "cta": "Envíenos un mensaje"
+    }
+  },
+  "form": {
+    "eyebrow": "Consulta General",
+    "heading": "Envíenos un mensaje",
+    "description": "Complete el formulario a continuación y un miembro de nuestro equipo se comunicará con usted dentro de un día hábil.",
+    "name": "Nombre",
+    "company": "Empresa (opcional)",
+    "email": "Correo electrónico",
+    "phone": "Teléfono (opcional)",
+    "inquiryType": "¿De qué se trata?",
+    "inquiryGeneral": "Pregunta general",
+    "inquiryPartnership": "Asociación",
+    "inquiryPress": "Prensa / Medios",
+    "inquiryOther": "Otro",
+    "message": "Mensaje",
+    "responseTime": "Respondemos a todas las consultas dentro de un día hábil.",
+    "submit": "Enviar Mensaje",
+    "submitting": "Enviando..."
+  },
+  "offices": {
+    "eyebrow": "Nuestras Oficinas",
+    "heading": "Seis mercados. Equipos locales en cada uno.",
+    "description": "Contacte directamente a la oficina de Pro-Tech más cercana — cada mercado cuenta con un equipo local que conoce el trabajo, los empleadores y la fuerza laboral.",
+    "viewMarket": "Ver detalles del mercado"
+  }
+}

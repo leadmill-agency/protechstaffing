@@ -7,9 +7,11 @@ export default function sitemap() {
     { url: `${BASE}/`, changeFrequency: 'weekly', priority: 1.0 },
     { url: `${BASE}/employers`, changeFrequency: 'weekly', priority: 0.9 },
     { url: `${BASE}/job-seekers`, changeFrequency: 'daily', priority: 0.9 },
+    { url: `${BASE}/contact`, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${BASE}/about`, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${BASE}/industries`, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${BASE}/locations`, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${BASE}/privacy-policy`, changeFrequency: 'yearly', priority: 0.3 },
   ]
 
   const industries = [

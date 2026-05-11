@@ -5,7 +5,8 @@
       "employers": "Empleadores",
       "industries": "Industrias",
       "locations": "Ubicaciones",
-      "about": "Sobre Nosotros"
+      "about": "Sobre Nosotros",
+      "contact": "Contacto"
     },
     "cta": {
       "findJobs": "Ver Empleos",
@@ -19,10 +20,10 @@
       "applyNow": "Aplicar Ahora"
     },
     "industries": {
-      "electronicsManufacturing": "Manufactura Electr\u00f3nica",
+      "electronicsManufacturing": "Manufactura Electrónica",
       "lightIndustrial": "Industria Ligera",
-      "warehouseDistribution": "Almac\u00e9n y Distribuci\u00f3n",
-      "supplyChainLogistics": "Cadena de Suministro y Log\u00edstica",
+      "warehouseDistribution": "Almacén y Distribución",
+      "supplyChainLogistics": "Cadena de Suministro y Logística",
       "administrativeClerical": "Administrativo y Oficina",
       "generalLabor": "Trabajo General"
     },
@@ -36,7 +37,7 @@
     }
   },
   "footer": {
-    "tagline": "Personal operativo con disciplina. Colocaciones industriales, electr\u00f3nicas, de almac\u00e9n y cadena de suministro en 6 mercados de EE. UU.",
+    "tagline": "Personal operativo con disciplina. Colocaciones industriales, electrónicas, de almacén y cadena de suministro en 6 mercados de EE. UU.",
     "social": {
       "linkedin": "LinkedIn",
       "google": "Google",
@@ -46,15 +47,15 @@
     "services": {
       "temporaryStaffing": "Personal Temporal",
       "tempToHire": "Temporal a Permanente",
-      "directPlacement": "Colocaci\u00f3n Directa",
+      "directPlacement": "Colocación Directa",
       "contractStaffing": "Personal por Contrato",
-      "onSiteManagement": "Gesti\u00f3n en Sitio"
+      "onSiteManagement": "Gestión en Sitio"
     },
     "industriesHeading": "Industrias",
     "industries": {
-      "electronicsManufacturing": "Manufactura Electr\u00f3nica",
+      "electronicsManufacturing": "Manufactura Electrónica",
       "lightIndustrial": "Industria Ligera",
-      "warehouse3pl": "Almac\u00e9n y 3PL",
+      "warehouse3pl": "Almacén y 3PL",
       "supplyChain": "Cadena de Suministro",
       "administrative": "Administrativo",
       "generalLabor": "Trabajo General"
@@ -68,25 +69,25 @@
       "sanJose": "San Jose, CA",
       "phoenix": "Phoenix, AZ"
     },
-    "copyright": "\u00a9 2025 Pro-Tech Staffing Services. Todos los derechos reservados.",
+    "copyright": "© 2025 Pro-Tech Staffing Services. Todos los derechos reservados.",
     "legal": {
-      "privacy": "Pol\u00edtica de Privacidad",
-      "terms": "T\u00e9rminos de Servicio",
+      "privacy": "Política de Privacidad",
+      "terms": "Términos de Servicio",
       "accessibility": "Accesibilidad"
     }
   },
   "cta": {
     "requestWorkers": "Solicitar Trabajadores",
     "submitStaffingRequest": "Enviar Solicitud de Personal",
-    "callUsNow": "Ll\u00e1menos Ahora",
+    "callUsNow": "Llámenos Ahora",
     "viewOpenPositions": "Ver Posiciones Disponibles"
   },
   "stats": {
     "workersPlaced": "Trabajadores colocados",
     "avgTimeToCandidate": "Tiempo promedio al primer candidato",
     "onTimeFillRate": "Tasa de cobertura a tiempo",
-    "clientsReorder": "Clientes que vuelven a solicitar en 30 d\u00edas",
-    "yearsInBusiness": "A\u00f1os en el negocio",
-    "clientsReorderChip": "de los clientes vuelven a solicitar en 30 d\u00edas"
+    "clientsReorder": "Clientes que vuelven a solicitar en 30 días",
+    "yearsInBusiness": "Años en el negocio",
+    "clientsReorderChip": "de los clientes vuelven a solicitar en 30 días"
   }
 }
