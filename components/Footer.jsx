@@ -18,8 +18,19 @@ export default function Footer() {
               {t('footer.tagline')}
             </p>
             <div className="flex gap-2">
-              {[t('footer.social.linkedin'), t('footer.social.google'), t('footer.social.indeed')].map(s => (
-                <a key={s} href="#" className="text-[10px] font-medium text-fog hover:text-white border border-graphite hover:border-fog px-2.5 py-1 transition-colors">{s}</a>
+              {[
+                { label: t('footer.social.linkedin'), href: 'https://www.linkedin.com/company/pro-tech-staffing/' },
+                { label: t('footer.social.indeed'),   href: 'https://www.indeed.com/cmp/Pro-Tech-Staffing-Services' },
+              ].map(({ label, href }) => (
+                <a
+                  key={label}
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[10px] font-medium text-fog hover:text-white border border-graphite hover:border-fog px-2.5 py-1 transition-colors"
+                >
+                  {label}
+                </a>
               ))}
             </div>
           </div>
