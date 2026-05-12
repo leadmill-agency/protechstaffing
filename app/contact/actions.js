@@ -2,7 +2,11 @@
 
 import { Resend } from 'resend'
 
-const TO_EMAIL = 'mylinh.tieu@protechstaffing.com'
+// TEMPORARY: while protechstaffing.com is being verified in Resend, the
+// onboarding@resend.dev sender can only deliver to the Resend account owner.
+// Once domain is verified and RESEND_FROM_EMAIL is set, swap back to
+// 'mylinh.tieu@protechstaffing.com'.
+const TO_EMAIL = 'rameel@leadmill.co'
 const FROM_EMAIL = process.env.RESEND_FROM_EMAIL || 'Pro-Tech Website <onboarding@resend.dev>'
 
 function escapeHtml(s) {

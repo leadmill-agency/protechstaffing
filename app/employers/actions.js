@@ -2,7 +2,11 @@
 
 import { Resend } from 'resend'
 
-const TO_EMAIL = 'mylinh.tieu@protechstaffing.com'
+// TEMPORARY: while protechstaffing.com is being verified in Resend, the
+// onboarding@resend.dev sender can only deliver to the Resend account owner.
+// Once domain is verified and RESEND_FROM_EMAIL is set, swap back to
+// 'mylinh.tieu@protechstaffing.com'.
+const TO_EMAIL = 'rameel@leadmill.co'
 // Until protechstaffing.com domain is verified in Resend, we use Resend's
 // onboarding sender so testing works immediately. Swap to noreply@protechstaffing.com
 // once DNS is verified.
