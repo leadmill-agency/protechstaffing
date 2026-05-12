@@ -47,7 +47,7 @@ export default function EmployersPage() {
             <div className="relative">
               <div className="aspect-[4/3] overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=900&q=75"
+                  src="/hero-employers.jpg"
                   alt={t('hero.imgAlt')}
                   className="w-full h-full object-cover"
                   style={{ filter: 'grayscale(30%) brightness(0.88)' }}

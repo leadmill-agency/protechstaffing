@@ -84,7 +84,7 @@ export default function JobSeekersPage() {
 
             <div className="aspect-[4/5] overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1565688534245-05d6b5be184a?w=800&q=75"
+                src="/hero-jobseekers.jpg"
                 alt={t('hero.imgAlt')}
                 className="w-full h-full object-cover"
                 style={{ filter: 'grayscale(30%) brightness(0.8)' }}
