@@ -9,23 +9,46 @@ export default function JobSeekersPage() {
   const { t } = useTranslation('jobSeekers')
   const [iframeHeight, setIframeHeight] = useState(900)
 
-  // Load Avionte job board script
+  // TEMPORARY: ZipRecruiter job board widget. Mylinh asked us to swap from
+  // Avionte to ZipRecruiter until the client updates positions on Avionte.
+  // To switch back: (1) restore the Avionte useEffect commented below,
+  // (2) restore the Avionte JSX in the Open Positions section.
   useEffect(() => {
-    const existing = document.getElementById('compas-jobs-widget')
+    const existing = document.getElementById('zr-widget-script')
     if (existing) existing.remove()
     const script = document.createElement('script')
-    script.id = 'compas-jobs-widget'
-    script.type = 'text/javascript'
-    script.src = 'https://hire.myavionte.com/app/careers/dist/jobs.js'
-    script.setAttribute('data-bid', 'raT6rfEW_d4')
-    script.setAttribute('data-jbid', 'j2lLR3ns1qI')
-    const container = document.getElementById('avionte-job-board')
-    if (container) container.appendChild(script)
+    script.id = 'zr-widget-script'
+    script.src = 'https://www.ziprecruiter.com/jobs-widget/v1/3cf3d2ee/all'
+    script.async = true
+    // Insert the script between the two anchor tags so the widget renders
+    // exactly where ZipRecruiter expects.
+    const linkSplit = document.getElementById('jobs_widget_link_split')
+    if (linkSplit && linkSplit.parentNode) {
+      linkSplit.parentNode.insertBefore(script, linkSplit)
+    }
     return () => {
-      const el = document.getElementById('compas-jobs-widget')
+      const el = document.getElementById('zr-widget-script')
       if (el) el.remove()
     }
   }, [])
+
+  // PREVIOUS (Avionte) job board — keep commented for easy restore:
+  // useEffect(() => {
+  //   const existing = document.getElementById('compas-jobs-widget')
+  //   if (existing) existing.remove()
+  //   const script = document.createElement('script')
+  //   script.id = 'compas-jobs-widget'
+  //   script.type = 'text/javascript'
+  //   script.src = 'https://hire.myavionte.com/app/careers/dist/jobs.js'
+  //   script.setAttribute('data-bid', 'raT6rfEW_d4')
+  //   script.setAttribute('data-jbid', 'j2lLR3ns1qI')
+  //   const container = document.getElementById('avionte-job-board')
+  //   if (container) container.appendChild(script)
+  //   return () => {
+  //     const el = document.getElementById('compas-jobs-widget')
+  //     if (el) el.remove()
+  //   }
+  // }, [])
 
   // Responsive iframe height for application form
   useEffect(() => {
@@ -171,7 +194,31 @@ export default function JobSeekersPage() {
               {t('openPositions.description')}
             </p>
           </div>
-          <div id="avionte-job-board" className="min-h-[400px] bg-bone border border-fog rounded-md p-4 md:p-6 overflow-hidden" />
+          {/* TEMPORARY: ZipRecruiter widget — see useEffect at top of file.
+              To restore Avionte: replace this block with:
+                <div id="avionte-job-board" className="min-h-[400px] bg-bone border border-fog rounded-md p-4 md:p-6 overflow-hidden" />
+          */}
+          <div id="zr-job-board" className="min-h-[400px] bg-bone border border-fog rounded-md p-4 md:p-6">
+            <a
+              href="https://www.ziprecruiter.com/c/Pro-Tech-Staffing-Services/Jobs?hiring_company=f8bbec27"
+              id="jobs_widget_company_link"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block text-sig-blue font-semibold underline mb-3"
+            >
+              Job postings at Pro-Tech Staffing Services
+            </a>
+            {/* ZipRecruiter widget script is injected here by the useEffect above */}
+            <a
+              href="https://www.ziprecruiter.com/"
+              id="jobs_widget_link_split"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block text-xs text-steel mt-3"
+            >
+              Powered by ZipRecruiter
+            </a>
+          </div>
         </div>
       </section>
 
