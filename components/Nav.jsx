@@ -6,6 +6,15 @@ import { usePathname } from 'next/navigation'
 import { useTranslation } from 'react-i18next'
 import icons from '@/components/icons'
 
+// Note: `lng` is the i18next code (still 'vi' for Vietnamese — that's how
+// translations are registered in lib/i18n.js). `label` is the display string
+// shown in the toggle. Mylinh asked to display "VN" instead of "VI".
+const LANGS = [
+  { lng: 'en', label: 'EN', flag: '🇺🇸' },
+  { lng: 'es', label: 'ES', flag: '🇲🇽' },
+  { lng: 'vi', label: 'VN', flag: '🇻🇳' },
+]
+
 export default function Nav() {
   const { t, i18n } = useTranslation('common')
   const [scrolled, setScrolled] = useState(false)
@@ -131,14 +140,15 @@ export default function Nav() {
         </div>
 
         <div className="hidden md:flex items-center gap-3">
-          <div className="flex items-center gap-1 mr-2 text-xs font-medium text-steel">
-            {['EN', 'ES', 'VI'].map((lang) => (
+          <div className="flex items-center gap-1.5 mr-2 text-xs font-medium text-steel">
+            {LANGS.map(({ lng, label, flag }) => (
               <button
-                key={lang}
-                onClick={() => i18n.changeLanguage(lang.toLowerCase())}
-                className={`px-1.5 py-0.5 rounded transition-colors ${i18n.language === lang.toLowerCase() ? 'text-carbon font-semibold' : 'hover:text-carbon'}`}
+                key={lng}
+                onClick={() => i18n.changeLanguage(lng)}
+                className={`inline-flex items-center gap-1 px-1.5 py-0.5 rounded transition-colors ${i18n.language === lng ? 'text-carbon font-semibold' : 'hover:text-carbon'}`}
               >
-                {lang}
+                <span aria-hidden="true" className="text-sm leading-none">{flag}</span>
+                {label}
               </button>
             ))}
           </div>
@@ -207,14 +217,15 @@ export default function Nav() {
               </div>
             )
           })}
-          <div className="flex items-center justify-center gap-2 pt-3 border-t border-fog mt-2">
-            {['EN', 'ES', 'VI'].map((lang) => (
+          <div className="flex items-center justify-center gap-3 pt-3 border-t border-fog mt-2">
+            {LANGS.map(({ lng, label, flag }) => (
               <button
-                key={lang}
-                onClick={() => i18n.changeLanguage(lang.toLowerCase())}
-                className={`text-xs px-1.5 py-0.5 rounded ${i18n.language === lang.toLowerCase() ? 'text-carbon font-semibold' : 'text-steel'}`}
+                key={lng}
+                onClick={() => i18n.changeLanguage(lng)}
+                className={`inline-flex items-center gap-1 text-xs px-1.5 py-0.5 rounded ${i18n.language === lng ? 'text-carbon font-semibold' : 'text-steel'}`}
               >
-                {lang}
+                <span aria-hidden="true" className="text-sm leading-none">{flag}</span>
+                {label}
               </button>
             ))}
           </div>
