@@ -89,5 +89,10 @@
     "clientsReorder": "Clientes que vuelven a solicitar en 30 días",
     "yearsInBusiness": "Años en el negocio",
     "clientsReorderChip": "de los clientes vuelven a solicitar en 30 días"
+  },
+  "banner": {
+    "message": "¡Bienvenido! Hemos realizado cambios nuevos en nuestro sitio. No dude en contactarnos si tiene alguna pregunta.",
+    "cta": "Contáctenos",
+    "dismiss": "Descartar anuncio"
   }
 }

@@ -89,5 +89,10 @@
     "clientsReorder": "Clients reorder within 30 days",
     "yearsInBusiness": "Years in business",
     "clientsReorderChip": "of clients re-order within 30 days"
+  },
+  "banner": {
+    "message": "Welcome! We've made new changes to our site. Feel free to contact us with any questions.",
+    "cta": "Contact us",
+    "dismiss": "Dismiss announcement"
   }
 }

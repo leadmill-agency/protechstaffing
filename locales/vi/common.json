@@ -89,5 +89,10 @@
     "clientsReorder": "Khách hàng quay lại trong vòng 30 ngày",
     "yearsInBusiness": "Năm hoạt động",
     "clientsReorderChip": "khách hàng quay lại trong vòng 30 ngày"
+  },
+  "banner": {
+    "message": "Chào mừng! Chúng tôi đã thực hiện những thay đổi mới trên trang web. Vui lòng liên hệ với chúng tôi nếu có bất kỳ câu hỏi nào.",
+    "cta": "Liên hệ với chúng tôi",
+    "dismiss": "Đóng thông báo"
   }
 }

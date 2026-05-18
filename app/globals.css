@@ -23,3 +23,14 @@ body {
   color: #1a1a1a;
   -webkit-font-smoothing: antialiased;
 }
+
+/* When the SiteBanner is visible (data-banner="shown" on <html>), push the
+   fixed nav down by the banner's height (36px / h-9) and add the same
+   amount to any section using pt-20 to clear the nav. This keeps every
+   page's hero spacing correct without editing every file. */
+html[data-banner="shown"] nav.fixed {
+  top: 2.25rem;
+}
+html[data-banner="shown"] section.pt-20 {
+  padding-top: 7.25rem;
+}

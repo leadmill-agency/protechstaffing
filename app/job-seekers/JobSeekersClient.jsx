@@ -9,28 +9,12 @@ export default function JobSeekersPage() {
   const { t } = useTranslation('jobSeekers')
   const [iframeHeight, setIframeHeight] = useState(900)
 
-  // TEMPORARY: ZipRecruiter job board widget. Mylinh asked us to swap from
-  // Avionte to ZipRecruiter until the client updates positions on Avionte.
-  // To switch back: (1) restore the Avionte useEffect commented below,
-  // (2) restore the Avionte JSX in the Open Positions section.
-  useEffect(() => {
-    const existing = document.getElementById('zr-widget-script')
-    if (existing) existing.remove()
-    const script = document.createElement('script')
-    script.id = 'zr-widget-script'
-    script.src = 'https://www.ziprecruiter.com/jobs-widget/v1/3cf3d2ee/all'
-    script.async = true
-    // Insert the script between the two anchor tags so the widget renders
-    // exactly where ZipRecruiter expects.
-    const linkSplit = document.getElementById('jobs_widget_link_split')
-    if (linkSplit && linkSplit.parentNode) {
-      linkSplit.parentNode.insertBefore(script, linkSplit)
-    }
-    return () => {
-      const el = document.getElementById('zr-widget-script')
-      if (el) el.remove()
-    }
-  }, [])
+  // ZipRecruiter job board: tried the official widget script first but it
+  // doesn't render listings on non-whitelisted origins (Cloudflare bot
+  // challenge intercepts it). Switched to an iframe pointing directly at
+  // the company jobs page — this is what actually shows the listings.
+  // To switch back to Avionte once the client updates positions there,
+  // restore the commented-out Avionte useEffect + JSX block below.
 
   // PREVIOUS (Avionte) job board — keep commented for easy restore:
   // useEffect(() => {
@@ -194,31 +178,41 @@ export default function JobSeekersPage() {
               {t('openPositions.description')}
             </p>
           </div>
-          {/* TEMPORARY: ZipRecruiter widget — see useEffect at top of file.
-              To restore Avionte: replace this block with:
-                <div id="avionte-job-board" className="min-h-[400px] bg-bone border border-fog rounded-md p-4 md:p-6 overflow-hidden" />
-          */}
-          <div id="zr-job-board" className="min-h-[400px] bg-bone border border-fog rounded-md p-4 md:p-6">
-            <a
-              href="https://www.ziprecruiter.com/c/Pro-Tech-Staffing-Services/Jobs?hiring_company=f8bbec27"
-              id="jobs_widget_company_link"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block text-sig-blue font-semibold underline mb-3"
-            >
-              Job postings at Pro-Tech Staffing Services
-            </a>
-            {/* ZipRecruiter widget script is injected here by the useEffect above */}
-            <a
-              href="https://www.ziprecruiter.com/"
-              id="jobs_widget_link_split"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block text-xs text-steel mt-3"
-            >
+          {/* ZipRecruiter doesn't allow their job board to be embedded
+              (iframe blocked via X-Frame-Options, widget script blocked via
+              Cloudflare bot challenge on non-whitelisted origins). Best we
+              can do is a clean CTA card that opens their company jobs page
+              in a new tab. Once the protechstaffing.com domain cuts over
+              and is registered as an allowed origin in the ZipRecruiter
+              widget settings, we can swap this back to the inline widget.
+              To restore Avionte: see commented block at top of file. */}
+          <a
+            href="https://www.ziprecruiter.com/c/Pro-Tech-Staffing-Services/Jobs?hiring_company=f8bbec27"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group block bg-bone hover:bg-white border border-fog hover:border-sig-blue rounded-md p-8 md:p-12 transition-all hover:shadow-md"
+          >
+            <div className="flex items-center justify-center mb-5">
+              <div className="w-12 h-12 rounded-full bg-sig-blue/10 flex items-center justify-center text-sig-blue">
+                <span className="w-6 h-6">{icons.search}</span>
+              </div>
+            </div>
+            <h3 className="text-center font-semibold text-carbon text-xl md:text-2xl mb-3 group-hover:text-sig-blue transition-colors">
+              View all open positions on ZipRecruiter
+            </h3>
+            <p className="text-center text-steel text-sm leading-relaxed max-w-md mx-auto mb-6">
+              See every job we&apos;re currently hiring for — search by location, role, and shift. Apply directly on ZipRecruiter.
+            </p>
+            <div className="flex justify-center">
+              <span className="inline-flex items-center gap-2 bg-sig-blue group-hover:bg-blue-900 text-white font-semibold text-sm px-6 py-3 rounded-md transition-colors">
+                Browse Jobs
+                <span className="w-4 h-4">{icons.arrowRight}</span>
+              </span>
+            </div>
+            <p className="text-center text-[10px] text-steel mt-5 tracking-wide">
               Powered by ZipRecruiter
-            </a>
-          </div>
+            </p>
+          </a>
         </div>
       </section>
 

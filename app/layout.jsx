@@ -2,6 +2,7 @@ import { Inter, IBM_Plex_Mono } from 'next/font/google'
 import './globals.css'
 import Nav from '@/components/Nav'
 import Footer from '@/components/Footer'
+import SiteBanner from '@/components/SiteBanner'
 import I18nProvider from '@/components/I18nProvider'
 
 const inter = Inter({
@@ -83,6 +84,7 @@ export default function RootLayout({ children }) {
       </head>
       <body className="font-sans">
         <I18nProvider>
+          <SiteBanner />
           <Nav />
           {children}
           <Footer />
