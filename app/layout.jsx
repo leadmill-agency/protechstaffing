@@ -32,9 +32,7 @@ export const metadata = {
     description: 'Light industrial, warehouse, electronic manufacturing, and supply chain staffing across Dallas-Fort Worth and five additional US markets. Vetted workers in 48 hours.',
     url: 'https://www.protechstaffing.com/',
   },
-  icons: {
-    icon: '/favicon.png',
-  },
+  // Favicon + apple-icon are auto-injected from app/icon.png and app/apple-icon.png
 }
 
 export default function RootLayout({ children }) {
