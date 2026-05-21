@@ -2,11 +2,13 @@
 
 import { Resend } from 'resend'
 
-// TEMPORARY: while protechstaffing.com is being verified in Resend, the
-// onboarding@resend.dev sender can only deliver to the Resend account owner.
-// Once domain is verified and RESEND_FROM_EMAIL is set, swap back to
-// 'mylinh.tieu@protechstaffing.com'.
-const TO_EMAIL = 'rameel@leadmill.co'
+// Mylinh is now a verified Admin on the Resend team, so the sandbox
+// sender (onboarding@resend.dev) can deliver to her without full domain
+// verification. Once protechstaffing.com is verified in Resend Domains
+// and RESEND_FROM_EMAIL points to a noreply@protechstaffing.com address,
+// this will look fully on-brand (sender will say Pro-Tech instead of
+// Resend's test domain).
+const TO_EMAIL = 'mylinh.tieu@protechstaffing.com'
 const FROM_EMAIL = process.env.RESEND_FROM_EMAIL || 'Pro-Tech Website <onboarding@resend.dev>'
 
 function escapeHtml(s) {
