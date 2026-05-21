@@ -9,83 +9,18 @@ export const metadata = {
   },
 }
 
-const jobPostingSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'ItemList',
-  name: 'Open Positions at Pro-Tech Staffing',
-  description: 'Browse manufacturing, electronics, warehouse, and industrial job openings across Texas, Florida, Arizona, and California.',
-  itemListElement: [
-    {
-      '@type': 'ListItem',
-      position: 1,
-      item: {
-        '@type': 'JobPosting',
-        title: 'Electronics Manufacturing Assembler',
-        description: 'PCB assembly, SMT operation, soldering, and quality inspection roles. IPC certification training available.',
-        hiringOrganization: {
-          '@type': 'Organization',
-          name: 'Pro-Tech Staffing Services',
-          sameAs: 'https://www.protechstaffing.com',
-        },
-        jobLocation: {
-          '@type': 'Place',
-          address: { '@type': 'PostalAddress', addressRegion: 'TX', addressCountry: 'US' },
-        },
-        employmentType: ['TEMPORARY', 'CONTRACTOR'],
-        industry: 'Electronics Manufacturing',
-      },
-    },
-    {
-      '@type': 'ListItem',
-      position: 2,
-      item: {
-        '@type': 'JobPosting',
-        title: 'Warehouse Associate',
-        description: 'Picking, packing, shipping, receiving, forklift operation, and inventory management in warehouse and 3PL facilities.',
-        hiringOrganization: {
-          '@type': 'Organization',
-          name: 'Pro-Tech Staffing Services',
-          sameAs: 'https://www.protechstaffing.com',
-        },
-        jobLocation: {
-          '@type': 'Place',
-          address: { '@type': 'PostalAddress', addressRegion: 'TX', addressCountry: 'US' },
-        },
-        employmentType: ['TEMPORARY', 'CONTRACTOR'],
-        industry: 'Warehousing',
-      },
-    },
-    {
-      '@type': 'ListItem',
-      position: 3,
-      item: {
-        '@type': 'JobPosting',
-        title: 'Light Industrial Worker',
-        description: 'Assembly, machine operation, production line, quality control, and packaging roles in light industrial facilities.',
-        hiringOrganization: {
-          '@type': 'Organization',
-          name: 'Pro-Tech Staffing Services',
-          sameAs: 'https://www.protechstaffing.com',
-        },
-        jobLocation: {
-          '@type': 'Place',
-          address: { '@type': 'PostalAddress', addressRegion: 'TX', addressCountry: 'US' },
-        },
-        employmentType: ['TEMPORARY', 'FULL_TIME'],
-        industry: 'Light Industrial',
-      },
-    },
-  ],
-}
+// NOTE: We intentionally do NOT emit JobPosting structured data here.
+// This page describes role *categories* Pro-Tech staffs for — it is not a
+// listing of real job postings. JobPosting schema requires datePosted plus
+// concrete posting metadata, and using it for non-postings is the kind of
+// over-claim that triggers Search Console warnings (and at the limit, a
+// "spammy structured markup" manual penalty).
+//
+// Actual job listings live on ZipRecruiter, which emits its own JobPosting
+// schema on its own pages. The site's EmploymentAgency schema (in
+// app/layout.jsx) already declares Pro-Tech as a staffing agency with its
+// services — that's the correct schema for this page.
 
 export default function JobSeekersPage() {
-  return (
-    <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jobPostingSchema) }}
-      />
-      <JobSeekersClient />
-    </>
-  )
+  return <JobSeekersClient />
 }
