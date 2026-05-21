@@ -1,3 +1,5 @@
+import { getAllPosts } from '@/lib/blog'
+
 const BASE = 'https://www.protechstaffing.com'
 
 export default function sitemap() {
@@ -11,8 +13,16 @@ export default function sitemap() {
     { url: `${BASE}/about`, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${BASE}/industries`, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${BASE}/locations`, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${BASE}/blog`, changeFrequency: 'weekly', priority: 0.7 },
     { url: `${BASE}/privacy-policy`, changeFrequency: 'yearly', priority: 0.3 },
   ]
+
+  const blogPosts = getAllPosts().map((post) => ({
+    url: `${BASE}/blog/${post.slug}`,
+    changeFrequency: 'monthly',
+    priority: 0.7,
+    lastModified: post.updated || post.date || now,
+  }))
 
   const industries = [
     'electronics-manufacturing',
@@ -40,8 +50,11 @@ export default function sitemap() {
     priority: 0.8,
   }))
 
-  return [...staticPages, ...industries, ...locations].map(entry => ({
-    ...entry,
-    lastModified: now,
-  }))
+  return [
+    ...staticPages.map((entry) => ({ ...entry, lastModified: now })),
+    ...industries.map((entry) => ({ ...entry, lastModified: now })),
+    ...locations.map((entry) => ({ ...entry, lastModified: now })),
+    // Blog posts already carry their own lastModified
+    ...blogPosts,
+  ]
 }

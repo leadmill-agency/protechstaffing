@@ -89,6 +89,7 @@ export default function Footer() {
         <div className="border-t border-graphite pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-[10px] text-fog">{t('footer.copyright')}</p>
           <div className="flex gap-6">
+            <Link href="/blog" className="text-[10px] text-fog hover:text-white transition-colors">Insights</Link>
             <Link href="/privacy-policy" className="text-[10px] text-fog hover:text-white transition-colors">{t('footer.legal.privacy')}</Link>
             <Link href="/contact" className="text-[10px] text-fog hover:text-white transition-colors">{t('nav.links.contact')}</Link>
           </div>
