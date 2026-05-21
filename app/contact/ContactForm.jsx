@@ -4,6 +4,7 @@ import { useActionState, useRef, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import { submitContactInquiry } from './actions'
 import icons from '@/components/icons'
+import { trackEvent } from '@/lib/analytics'
 
 const initialState = { ok: null, errors: {}, message: '' }
 
@@ -12,9 +13,14 @@ export default function ContactForm() {
   const [state, formAction, pending] = useActionState(submitContactInquiry, initialState)
   const formRef = useRef(null)
 
+  // Reset form + track conversion on successful submit
   useEffect(() => {
     if (state.ok && formRef.current) {
       formRef.current.reset()
+      trackEvent('form_submit', {
+        form_name: 'contact_inquiry',
+        form_location: 'contact',
+      })
     }
   }, [state.ok])
 

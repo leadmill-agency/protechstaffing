@@ -152,7 +152,12 @@ export default function Nav() {
               </button>
             ))}
           </div>
-          <Link href="/jobs" className="text-sm font-semibold bg-sig-blue hover:bg-blue-900 text-white px-4 py-2 rounded-md transition-colors whitespace-nowrap">
+          <Link
+            href="/jobs"
+            data-track="find_jobs"
+            data-track-location="nav_desktop"
+            className="text-sm font-semibold bg-sig-blue hover:bg-blue-900 text-white px-4 py-2 rounded-md transition-colors whitespace-nowrap"
+          >
             {t('nav.cta.findJobs')}
           </Link>
           <Link href="/employers" className="text-sm font-medium text-sig-blue border border-sig-blue hover:bg-sig-blue hover:text-white px-4 py-2 rounded-md transition-colors whitespace-nowrap">
@@ -230,7 +235,7 @@ export default function Nav() {
             ))}
           </div>
           <div className="flex flex-col gap-2 pt-2">
-            <Link href="/jobs" className="text-sm text-center bg-sig-blue text-white py-2 font-semibold rounded-md" onClick={() => setMenuOpen(false)}>{t('nav.cta.findJobs')}</Link>
+            <Link href="/jobs" data-track="find_jobs" data-track-location="nav_mobile" className="text-sm text-center bg-sig-blue text-white py-2 font-semibold rounded-md" onClick={() => setMenuOpen(false)}>{t('nav.cta.findJobs')}</Link>
             <Link href="/employers" className="text-sm text-center text-sig-blue border border-sig-blue py-2 rounded-md" onClick={() => setMenuOpen(false)}>{t('nav.cta.hireWorkers')}</Link>
           </div>
         </div>

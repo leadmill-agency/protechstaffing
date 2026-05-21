@@ -37,7 +37,12 @@ function Hero() {
                 {t('hero.subhead')}
               </p>
               <div className="flex flex-col sm:flex-row gap-3">
-                <Link href="/job-seekers" className="inline-flex items-center justify-center gap-2 bg-sig-blue hover:bg-blue-900 text-white font-semibold px-8 py-4 rounded-md transition-colors">
+                <Link
+                  href="/job-seekers"
+                  data-track="find_jobs"
+                  data-track-location="hero"
+                  className="inline-flex items-center justify-center gap-2 bg-sig-blue hover:bg-blue-900 text-white font-semibold px-8 py-4 rounded-md transition-colors"
+                >
                   {t('hero.ctaSecondary')}
                   <span className="w-4 h-4">{icons.arrowRight}</span>
                 </Link>

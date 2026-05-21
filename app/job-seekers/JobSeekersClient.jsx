@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { useTranslation } from 'react-i18next'
 import icons from '@/components/icons'
+import { trackEvent } from '@/lib/analytics'
 
 export default function JobSeekersPage() {
   const { t } = useTranslation('jobSeekers')
@@ -42,6 +43,28 @@ export default function JobSeekersPage() {
     handleResize()
     window.addEventListener('resize', handleResize)
     return () => window.removeEventListener('resize', handleResize)
+  }, [])
+
+  // Fire application_iframe_view event once when the Submit Application
+  // section scrolls into view. Proxy for "user reached the application form."
+  useEffect(() => {
+    if (typeof window === 'undefined' || !('IntersectionObserver' in window)) return
+    const target = document.getElementById('submit-application')
+    if (!target) return
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) {
+            trackEvent('application_iframe_view', { page_path: window.location.pathname })
+            observer.disconnect()
+            break
+          }
+        }
+      },
+      { threshold: 0.25 }
+    )
+    observer.observe(target)
+    return () => observer.disconnect()
   }, [])
 
   const benefits = t('hero.benefits', { returnObjects: true })

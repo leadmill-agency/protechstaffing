@@ -4,6 +4,7 @@ import Nav from '@/components/Nav'
 import Footer from '@/components/Footer'
 import SiteBanner from '@/components/SiteBanner'
 import I18nProvider from '@/components/I18nProvider'
+import WebVitals from '@/app/_components/WebVitals'
 
 const inter = Inter({
   variable: '--font-inter',
@@ -33,6 +34,11 @@ export const metadata = {
     url: 'https://www.protechstaffing.com/',
   },
   // Favicon + apple-icon are auto-injected from app/icon.png and app/apple-icon.png
+  verification: {
+    // Read from env so the token can be rotated/scoped per environment in Vercel
+    // without committing it. Resolves to undefined if not set → no meta tag rendered.
+    google: process.env.NEXT_PUBLIC_GSC_VERIFICATION || undefined,
+  },
 }
 
 export default function RootLayout({ children }) {
@@ -81,6 +87,7 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body className="font-sans">
+        <WebVitals />
         <I18nProvider>
           <SiteBanner />
           <Nav />
