@@ -91,6 +91,11 @@
     "nearbyMarkets": "Nearby Markets",
     "nearbyHeading": "Need staffing in a nearby area?",
     "nearbyDescription": "We cover the surrounding corridor with the same local recruiters and 48-hour fill time.",
+    "marketSnapshotEyebrow": "Local Market Snapshot",
+    "marketSnapshotHeading": "How the {{label}} industrial market actually works.",
+    "marketSnapshotCorridorsTitle": "Industrial corridors we cover",
+    "marketSnapshotIndustriesTitle": "Anchor industries",
+    "marketSnapshotLaborTitle": "Labor pool notes",
     "servedFrom": "Served from our {{parentOffice}} office",
     "servedFromDesc": "Served from our <strong>{{parentOffice}}</strong> office. Temp, temp-to-hire, and direct placement. Vetted candidates in 48 hours.",
     "parentOfficeNote": "We don't have a local office in {{city}}, but our {{parentOffice}} recruiter covers this market. You'll get the same local response time and recruiter support.",
@@ -108,6 +113,11 @@
     "label": "Richardson TX",
     "cities": ["Richardson TX", "Plano TX", "Garland TX", "Carrollton TX", "Allen TX", "McKinney TX", "Dallas TX"],
     "marketIntro": "Richardson is the electronics manufacturing hub of North Texas. The corridor from Richardson through Plano and Garland houses some of the densest concentrations of PCB assembly, SMT production, and light industrial operations in the state. Pro-Tech's headquarters has been here for 30 years — we know the employers, the facilities, and the talent pool. When you need vetted workers in 48 hours or less, you're calling a team that recruits in this market every week.",
+    "marketSnapshot": {
+      "corridors": "Richardson's industrial activity centers on US-75 (Central Expressway), the Telecom Corridor along Greenville Avenue, and the Campbell Road and Plano Parkway industrial parks. East and southeast, the Shiloh Road and Forest Lane corridors carry the electronics manufacturing footprint into Garland and Mesquite. LBJ Freeway and the President George Bush Turnpike form the daily commute spine that connects the labor pool across Plano, Carrollton, Allen, and McKinney to the production floors of Richardson.",
+      "anchorIndustries": "Electronics manufacturing — PCB assembly, SMT, contract electronics, and the legacy telecom equipment industry — anchors the Richardson labor market. The corridor also supports networking hardware, defense electronics suppliers, semiconductor-adjacent assembly, and a growing concentration of medical device manufacturing. Light industrial and warehouse operations cluster along I-635, primarily serving electronics distribution and large-format consumer goods.",
+      "laborPool": "Richardson, Plano, Garland, and Carrollton together hold one of the largest pools of IPC-trained electronics workers in Texas. Bilingual English/Spanish capability is common across production and assembly roles. Day shift availability is strong; second and third shift coverage is steady but more competitive. Workers from the broader Dallas labor pool commute in via US-75 and the Bush Turnpike daily."
+    },
     "industries": ["Electronics Manufacturing Staffing", "Light Industrial Staffing", "Warehouse & 3PL Staffing", "Supply Chain Staffing", "Administrative Staffing", "General Labor"],
     "roles": ["PCB assembly technicians", "SMT operators", "Soldering operators", "QC inspectors", "AOI operators", "Assemblers", "Machine operators", "Forklift operators", "Warehouse pickers and packers", "Production workers"],
     "proof": [
@@ -158,6 +168,7 @@
     "subhead": "Serving Dallas, Fort Worth, Arlington, Irving, Garland, Grand Prairie, Plano, Richardson, and Carrollton.",
     "label": "Dallas-Fort Worth",
     "cities": ["Dallas TX", "Fort Worth TX", "Arlington TX", "Irving TX", "Garland TX", "Grand Prairie TX", "Plano TX", "Richardson TX", "Carrollton TX", "Bedford TX"],
+    "marketIntro": "The Dallas-Fort Worth metroplex is one of the largest industrial markets in the country, split across two distinct corridors. East DFW — Richardson, Plano, Garland, and Carrollton — is anchored by electronics manufacturing, PCB assembly, and the legacy Telecom Corridor industry base. Tarrant County — Bedford, Fort Worth, Arlington, Irving, and Grand Prairie — is anchored by warehouse, distribution, aerospace-adjacent manufacturing, and the DFW Airport cargo zone. Pro-Tech operates offices in both corridors, with local recruiters who know the talent pool, the major employers, and the industrial parks across the full metroplex.",
     "industries": ["Light Industrial Staffing", "Electronics Manufacturing Staffing", "Warehouse & 3PL Staffing", "Supply Chain Staffing", "Administrative Staffing", "General Labor"],
     "roles": ["Assembly line workers", "PCB assembly technicians", "Forklift operators", "Machine operators", "Warehouse pickers and packers", "Quality control inspectors", "Shipping and receiving clerks", "Production line leads"],
     "proof": [
@@ -191,6 +202,11 @@
     "label": "Bedford TX",
     "cities": ["Bedford TX", "Fort Worth TX", "Arlington TX", "Irving TX", "Grand Prairie TX", "Hurst TX", "Euless TX", "North Richland Hills TX", "Grapevine TX"],
     "marketIntro": "Bedford sits at the center of Tarrant County's industrial corridor. Fort Worth, Arlington, Irving, and Grand Prairie form one of the most active warehouse, distribution, and light manufacturing zones in Texas. Pro-Tech's Bedford office covers this entire corridor — staffing forklift operators, production workers, assemblers, and supply chain support for manufacturers and distributors who can't afford gaps on the floor.",
+    "marketSnapshot": {
+      "corridors": "Bedford anchors the DFW mid-cities at the intersection of Highway 121, Highway 183 (Airport Freeway), and State Highway 360 — three of Tarrant County's primary industrial spines. The corridor extends west into Fort Worth's logistics zones along I-35W and south through Arlington and Grand Prairie. The DFW Airport cargo zone, AllianceTexas to the north, and the I-30 distribution belt to the south together define the daily flow of industrial labor across the metroplex's western half.",
+      "anchorIndustries": "Aerospace and defense suppliers, automotive parts and logistics, large-scale 3PL distribution, and light manufacturing dominate the Tarrant County industrial base. The Arlington warehouse corridor and DFW Airport cargo operations drive heavy demand for forklift operators, pickers, packers, and shipping/receiving staff. Electronics and precision manufacturing have a presence — particularly in Hurst, Euless, and Grapevine — but the Bedford market is primarily warehouse, distribution, and production-focused.",
+      "laborPool": "The mid-cities have a deep pool of certified forklift operators, production workers, and warehouse staff, with strong representation across day, night, and weekend shifts. The 121/183 transit corridor makes Bedford-area placements accessible from Hurst, Euless, North Richland Hills, Grapevine, Colleyville, and Keller. Bilingual English/Spanish capability is common across production and warehouse roles. Pay expectations track slightly below east DFW for comparable positions."
+    },
     "industries": ["Light Industrial Staffing", "Warehouse & 3PL Staffing", "Supply Chain Staffing", "General Labor", "Administrative Staffing"],
     "roles": ["Assembly and production workers", "Forklift operators (sit-down & stand-up)", "Warehouse pickers and packers", "Machine operators", "Shipping and receiving clerks", "General laborers", "Inventory control clerks", "Production supervisors", "Logistics coordinators", "Material handlers"],
     "proof": [
@@ -241,6 +257,7 @@
     "subhead": "Serving Arlington, Grand Prairie, Mansfield, Kennedale, and surrounding Tarrant County areas.",
     "label": "Arlington TX",
     "cities": ["Arlington TX", "Grand Prairie TX", "Mansfield TX", "Kennedale TX", "Euless TX", "Bedford TX", "Fort Worth TX"],
+    "marketIntro": "Arlington sits in the heart of Tarrant County's industrial zone, anchored by major distribution centers, light manufacturers, and warehouses concentrated along Highway 360, I-20, and I-30. The corridor extends into Grand Prairie, Mansfield, and Kennedale, forming one of the most active warehouse and logistics markets in North Texas. The proximity to AT&T Stadium, Globe Life Field, and the entertainment district draws additional seasonal and event-driven labor demand. Our Bedford office covers Arlington with local recruiters who know the industrial parks, the shift patterns, and the talent pool across the south Tarrant corridor.",
     "industries": ["Light Industrial Staffing", "Warehouse & 3PL Staffing", "Supply Chain Staffing", "General Labor", "Manufacturing Staffing"],
     "roles": ["Assembly workers", "Forklift operators", "Warehouse pickers and packers", "Production line workers", "Machine operators", "Shipping and receiving clerks", "General labor", "Quality control inspectors"],
     "proof": [
@@ -272,6 +289,7 @@
     "subhead": "Serving Irving, Las Colinas, Coppell, Carrollton, and the DFW Airport industrial corridor.",
     "label": "Irving TX",
     "cities": ["Irving TX", "Las Colinas TX", "Coppell TX", "Carrollton TX", "Farmers Branch TX", "Grand Prairie TX", "Dallas TX"],
+    "marketIntro": "Irving — and especially Las Colinas and the DFW Airport corridor — is one of DFW's busiest logistics and light industrial zones. The corridor along Highway 114, Highway 161 (President George Bush Turnpike), and I-635 supports distribution centers, electronics manufacturers, and 3PL operations serving DFW Airport's cargo flow into and out of the metroplex. The Las Colinas business district adds a layer of corporate logistics and back-office operations on top of the industrial base. Our Richardson HQ covers Irving with recruiters who source from both east DFW and the airport corridor talent pools.",
     "industries": ["Light Industrial Staffing", "Warehouse & 3PL Staffing", "Supply Chain Staffing", "Electronics Manufacturing Staffing", "Administrative Staffing"],
     "roles": ["Warehouse pickers and packers", "Forklift operators", "Shipping and receiving clerks", "Assembly workers", "Inventory control clerks", "Electronics technicians", "General labor", "Production workers"],
     "proof": [
@@ -303,6 +321,7 @@
     "subhead": "Serving Garland, Rowlett, Sachse, Mesquite, Plano, and the northeast Dallas industrial corridor.",
     "label": "Garland TX",
     "cities": ["Garland TX", "Rowlett TX", "Sachse TX", "Mesquite TX", "Plano TX", "Richardson TX", "Dallas TX"],
+    "marketIntro": "Garland is one of North Texas's densest concentrations of electronics manufacturing and light industrial operations. The industrial corridor along Shiloh Road, Forest Lane, and I-635 extends from Garland into Rowlett, Sachse, and Mesquite, supporting PCB assembly, SMT production, contract electronics, and a broad mix of light industrial production. Garland's manufacturing base traces back to North Texas's telecom and consumer electronics history, and the labor pool reflects that depth — IPC-trained electronics workers are concentrated here. Our Richardson HQ — minutes from Garland's industrial zone — has been staffing this market for over 30 years.",
     "industries": ["Light Industrial Staffing", "Electronics Manufacturing Staffing", "Warehouse Staffing", "Assembly Staffing", "General Labor"],
     "roles": ["Assembly line workers", "Electronics technicians", "PCB assembly workers", "Machine operators", "Quality control inspectors", "Forklift operators", "Warehouse pickers", "Production workers"],
     "proof": [
@@ -335,6 +354,11 @@
     "label": "Austin TX",
     "cities": ["Austin TX", "Round Rock TX", "Cedar Park TX", "Pflugerville TX", "Georgetown TX", "Kyle TX", "Buda TX"],
     "marketIntro": "Austin's industrial footprint has expanded fast. The I-35 corridor from Georgetown through Kyle is home to a growing concentration of light manufacturing, electronics assembly, distribution, and warehouse operations — driven in part by semiconductor and tech manufacturing investment in the region. Pro-Tech's Austin office recruits locally for these roles, placing assemblers, production workers, forklift operators, and electronics technicians for employers who need reliable workers without a long wait.",
+    "marketSnapshot": {
+      "corridors": "The I-35 corridor from Georgetown through Round Rock, Austin, Kyle, and Buda is the spine of Central Texas's industrial growth. The 130 Toll Road serves as an eastern bypass for distribution operations into Pflugerville, Manor, and Hutto. Light manufacturing clusters along the north Lamar and Tech Ridge corridors, while large distribution centers concentrate near the SH-130/US-290 interchange and south of Austin near Buda.",
+      "anchorIndustries": "Semiconductor manufacturing expansion has reshaped the Austin industrial labor market over the past five years, drawing tier-one and tier-two suppliers into the metro. Adjacent and supplier industries include electronics and PCB assembly, automotive parts, food and beverage production, life sciences and medical device assembly, and high-volume 3PL operations supporting tech and e-commerce clients. Round Rock and Pflugerville hold the largest concentrations of light industrial production.",
+      "laborPool": "Austin's industrial labor pool is competitive — workers have options, and turnover rates run higher than other Texas metros for comparable roles. The strongest candidate density sits in Round Rock, Pflugerville, and east Austin. Bilingual English/Spanish capability is widespread. Pay expectations track meaningfully higher than DFW or Houston for the same job descriptions. Reliable transportation is a recurring screening filter — commute viability varies sharply by neighborhood and shift."
+    },
     "industries": ["Light Industrial Staffing", "Warehouse & 3PL Staffing", "Electronics Manufacturing Staffing", "Administrative Staffing", "General Labor"],
     "roles": ["Assembly workers", "Machine operators", "Production line workers", "Forklift operators", "Warehouse pickers and packers", "Shipping and receiving clerks", "Electronics assembly technicians", "Quality control inspectors", "Data entry specialists", "General laborers"],
     "proof": [
@@ -385,6 +409,11 @@
     "label": "Tampa FL",
     "cities": ["Tampa FL", "Clearwater FL", "St. Petersburg FL", "Largo FL", "Brandon FL", "Riverview FL", "Plant City FL"],
     "marketIntro": "Tampa Bay is one of Florida's most active industrial markets. The corridor from Tampa through Clearwater and St. Petersburg includes a significant concentration of electronics manufacturers, defense contractors, light industrial operations, and distribution centers. Pro-Tech's Tampa office staffs these operations locally — placing IPC-certified electronics workers, production assemblers, forklift operators, and warehouse teams for employers across Hillsborough and Pinellas counties.",
+    "marketSnapshot": {
+      "corridors": "Tampa Bay's industrial activity centers on three corridors: US-19 through Pinellas County (Clearwater, Largo, Pinellas Park, St. Petersburg), I-4 through Hillsborough County (Tampa, Plant City, Lakeland edge), and I-75 east into Brandon and Riverview. The Gandy and Howard Frankland bridges connect the Pinellas electronics corridor to the Hillsborough logistics zones, and worker commute patterns shape which corridor a candidate can realistically work.",
+      "anchorIndustries": "Electronics manufacturing and defense-adjacent production define the Pinellas County corridor — particularly in Clearwater and Largo, where IPC-certified assembly and precision electronics work cluster. Hillsborough County leans heavier on logistics, distribution, and food and beverage manufacturing along I-4 and I-75. Aerospace assembly, medical device manufacturing, and marine industry production also have a meaningful presence across Tampa Bay.",
+      "laborPool": "Tampa Bay has a stable, experienced industrial labor pool with above-average IPC certification coverage in the Clearwater-Largo corridor. Day shift availability is plentiful; night shift coverage is more competitive, especially in electronics manufacturing where certified workers can be selective. Bilingual English/Spanish capability is common in production roles. The labor pool spans Pinellas, Hillsborough, and Pasco counties, with commute patterns favoring proximity to US-19, I-275, and the Veterans Expressway."
+    },
     "industries": ["Electronics Manufacturing Staffing", "Light Industrial Staffing", "Warehouse & 3PL Staffing", "Supply Chain Staffing", "Administrative Staffing"],
     "roles": ["PCB assembly technicians", "SMT operators", "Soldering operators", "QC inspectors", "Assemblers", "Machine operators", "Forklift operators", "Warehouse pickers and packers", "Production workers", "Shipping and receiving clerks"],
     "proof": [
@@ -435,6 +464,11 @@
     "label": "San Jose CA",
     "cities": ["San Jose CA", "Santa Clara CA", "Milpitas CA", "Fremont CA", "Sunnyvale CA", "Santa Cruz CA", "Gilroy CA"],
     "marketIntro": "Silicon Valley has one of the highest concentrations of electronics manufacturers, contract manufacturers, and PCB assembly operations in the world. San Jose, Santa Clara, Milpitas, and Fremont are home to OEM electronics manufacturers, EMS companies, and semiconductor-adjacent assembly operations that require IPC-certified workers — not generic labor. Pro-Tech's San Jose office specializes in placing certified electronics technicians for these environments, where precision, training, and zero-defect standards are non-negotiable.",
+    "marketSnapshot": {
+      "corridors": "Silicon Valley's electronics manufacturing spans four primary zones: North San Jose and Milpitas (EMS and contract manufacturing along 880 and 237), Santa Clara (semiconductor and OEM electronics along 101 and Great America Parkway), Fremont (East Bay electronics, EV manufacturing, and precision assembly along 880 and 84), and Sunnyvale (precision electronics and aerospace-adjacent assembly). South San Jose, Morgan Hill, and Gilroy extend the corridor for lower-cost manufacturing and supplier operations.",
+      "anchorIndustries": "Contract electronics manufacturing (EMS), semiconductor assembly and test, PCB fabrication and assembly, medical device manufacturing, and aerospace-adjacent precision assembly dominate the Silicon Valley labor market. The region's manufacturers run high-mix, low-volume programs requiring IPC-certified workers across multiple specializations — IPC-A-610, IPC-620, J-STD-001, and J-STD-001 Space Addendum are all common requirements. Electric vehicle component manufacturing has become a meaningful additional driver in the East Bay.",
+      "laborPool": "The Bay Area's electronics workforce is the most certified and most expensive in the country. IPC certifications are baseline expectations — not differentiators. Worker commute patterns favor proximity to 880, 101, 237, and BART access points, and housing costs push the bulk of the production workforce into Fremont, Newark, East San Jose, Morgan Hill, and Gilroy. Pay expectations are significantly higher than other electronics markets, and workers in zero-defect environments are non-negotiable on certification verification."
+    },
     "industries": ["Electronics Manufacturing Staffing", "Light Industrial Staffing", "Supply Chain Staffing", "Administrative Staffing", "General Labor"],
     "roles": ["PCB assembly technicians", "SMT operators", "Soldering operators (through-hole & reflow)", "AOI operators", "Rework technicians", "QC inspectors", "Wire harness assemblers", "Production associates", "Test technicians", "Conformal coating operators"],
     "proof": [
@@ -485,6 +519,11 @@
     "label": "Phoenix AZ",
     "cities": ["Phoenix AZ", "Tempe AZ", "Mesa AZ", "Chandler AZ", "Scottsdale AZ", "Gilbert AZ", "Peoria AZ"],
     "marketIntro": "Phoenix is one of the fastest-growing industrial markets in the Southwest. The East Valley corridor — Chandler, Mesa, Tempe, and Gilbert — has attracted major semiconductor manufacturers and electronics operations, making it one of the most active markets for IPC-certified electronics workers outside of California and Texas. Pro-Tech's Phoenix office recruits locally for these roles, placing PCB assembly technicians, production workers, warehouse staff, and supply chain support for manufacturers across the metro.",
+    "marketSnapshot": {
+      "corridors": "Phoenix's industrial spine runs through the East Valley — Tempe, Chandler, Mesa, and Gilbert — supported by I-10, US-60, and the Loop 202 (Santan Freeway and Red Mountain Freeway). The West Valley (Goodyear, Glendale, Peoria, Buckeye) has become a major distribution and logistics corridor anchored by I-10 west and the Loop 303. North Phoenix and Deer Valley host additional electronics and aerospace-adjacent manufacturing along I-17 and the Loop 101.",
+      "anchorIndustries": "Semiconductor manufacturing has rapidly become the East Valley's defining industry, drawing tier-one suppliers, supplier-base electronics manufacturers, contract electronics, and precision assembly operations into Chandler and north Mesa. Aerospace and defense electronics have a long-established presence in north Phoenix and Deer Valley. The West Valley anchors large-scale e-commerce distribution, food and beverage logistics, and high-volume 3PL operations, with major fulfillment centers concentrated in Goodyear and Glendale.",
+      "laborPool": "Phoenix's industrial labor pool has grown alongside the semiconductor boom but tightened sharply in the East Valley over the past three years as manufacturers compete for skilled candidates. IPC-certified worker availability is now the limiting factor for many electronics roles. The West Valley has more capacity in warehouse, forklift, and general labor categories, with strong day shift availability. Bilingual English/Spanish capability is common across all role types. Commute viability across the metro favors workers living within the Loop 101 / Loop 202 ring."
+    },
     "industries": ["Electronics Manufacturing Staffing", "Light Industrial Staffing", "Warehouse & 3PL Staffing", "Supply Chain Staffing", "General Labor"],
     "roles": ["PCB assembly technicians", "SMT operators", "Soldering operators", "QC inspectors", "Assemblers", "Machine operators", "Forklift operators", "Warehouse pickers and packers", "Production workers", "Shipping and receiving clerks"],
     "proof": [

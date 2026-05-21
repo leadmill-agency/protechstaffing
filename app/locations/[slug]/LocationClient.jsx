@@ -57,6 +57,7 @@ export default function LocationPage({ params }) {
   const subMarkets = t(`${market}.subMarkets`, { returnObjects: true, defaultValue: [] })
   const relatedCities = t(`${market}.relatedCities`, { returnObjects: true })
   const marketIntro = t(`${market}.marketIntro`, { defaultValue: '' })
+  const marketSnapshot = t(`${market}.marketSnapshot`, { returnObjects: true, defaultValue: null })
 
   return (
     <>
@@ -148,6 +149,38 @@ export default function LocationPage({ params }) {
             <p className="text-carbon text-xl md:text-2xl font-medium leading-relaxed">
               {marketIntro}
             </p>
+          </div>
+        </section>
+      )}
+
+      {/* ── 3b. MARKET SNAPSHOT (Bucket 1 only, when present) ───────────────── */}
+      {isBucket1 && marketSnapshot && typeof marketSnapshot === 'object' && (
+        <section className="bg-white py-16 md:py-24 border-y border-fog">
+          <div className="max-w-5xl mx-auto px-6">
+            <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-5">{t('detail.marketSnapshotEyebrow')}</p>
+            <h2 className="font-semibold text-carbon text-3xl leading-tight tracking-tight mb-10 md:mb-14 max-w-3xl">
+              {t('detail.marketSnapshotHeading', { label })}
+            </h2>
+            <div className="grid md:grid-cols-3 gap-10 md:gap-8">
+              {marketSnapshot.corridors && (
+                <div className="border-t-2 border-ind-green pt-6">
+                  <h3 className="font-semibold text-carbon text-base mb-3">{t('detail.marketSnapshotCorridorsTitle')}</h3>
+                  <p className="text-steel text-sm leading-relaxed">{marketSnapshot.corridors}</p>
+                </div>
+              )}
+              {marketSnapshot.anchorIndustries && (
+                <div className="border-t-2 border-ind-green pt-6">
+                  <h3 className="font-semibold text-carbon text-base mb-3">{t('detail.marketSnapshotIndustriesTitle')}</h3>
+                  <p className="text-steel text-sm leading-relaxed">{marketSnapshot.anchorIndustries}</p>
+                </div>
+              )}
+              {marketSnapshot.laborPool && (
+                <div className="border-t-2 border-ind-green pt-6">
+                  <h3 className="font-semibold text-carbon text-base mb-3">{t('detail.marketSnapshotLaborTitle')}</h3>
+                  <p className="text-steel text-sm leading-relaxed">{marketSnapshot.laborPool}</p>
+                </div>
+              )}
+            </div>
           </div>
         </section>
       )}
