@@ -17,7 +17,21 @@
     ],
     "ctaViewPositions": "View Open Positions",
     "ctaSubmitApplication": "Submit a General Application",
+    "ctaRequest1095C": "Request 1095-C Tax Form",
     "imgAlt": "Warehouse worker ready for placement"
+  },
+  "tax1095c": {
+    "eyebrow": "Tax Documents",
+    "heading": "Request your 1095-C tax form",
+    "intro": "To request a copy of your 1095-C tax form, please do one of the following:",
+    "option1Label": "Call us",
+    "option1Body": "Call the Pro-Tech office and provide the requested tax year, your name, the last 4 digits of your social security number, and the best phone number for us to reach you once the form is ready.",
+    "orDivider": "or",
+    "option2Label": "Email us",
+    "option2Body": "Email us with the requested tax year, your name, and a phone number. We will call you to verify the last 4 digits of your social security number and to let you know once the form is ready.",
+    "phoneLabel": "Pro-Tech office",
+    "emailLabel": "Email",
+    "securityNote": "For your security, please do not send your full or partial social security number by email. We verify your identity by phone."
   },
   "whyProTech": {
     "eyebrow": "Why Pro-Tech",

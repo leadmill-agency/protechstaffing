@@ -17,7 +17,21 @@
     ],
     "ctaViewPositions": "Xem Vị Trí Đang Tuyển",
     "ctaSubmitApplication": "Gửi Đơn Ứng Tuyển Chung",
+    "ctaRequest1095C": "Yêu Cầu Mẫu Thuế 1095-C",
     "imgAlt": "Nhân viên kho bãi sẵn sàng làm việc"
+  },
+  "tax1095c": {
+    "eyebrow": "Tài Liệu Thuế",
+    "heading": "Yêu cầu mẫu thuế 1095-C của bạn",
+    "intro": "Để yêu cầu bản sao mẫu thuế 1095-C của bạn, vui lòng thực hiện một trong các cách sau:",
+    "option1Label": "Gọi cho chúng tôi",
+    "option1Body": "Gọi đến văn phòng Pro-Tech và cung cấp năm thuế cần yêu cầu, tên của bạn, 4 chữ số cuối của số an sinh xã hội và số điện thoại tốt nhất để chúng tôi liên hệ khi mẫu đơn đã sẵn sàng.",
+    "orDivider": "hoặc",
+    "option2Label": "Gửi email cho chúng tôi",
+    "option2Body": "Gửi email cho chúng tôi kèm năm thuế cần yêu cầu, tên của bạn và một số điện thoại. Chúng tôi sẽ gọi cho bạn để xác minh 4 chữ số cuối của số an sinh xã hội và thông báo khi mẫu đơn đã sẵn sàng.",
+    "phoneLabel": "Văn phòng Pro-Tech",
+    "emailLabel": "Email",
+    "securityNote": "Vì sự an toàn của bạn, vui lòng không gửi toàn bộ hoặc một phần số an sinh xã hội qua email. Chúng tôi xác minh danh tính của bạn qua điện thoại."
   },
   "whyProTech": {
     "eyebrow": "Tại Sao Chọn Pro-Tech",

@@ -28,7 +28,7 @@ const nextConfig: NextConfig = {
       { source: '/request-an-employee', destination: '/employers#contact', permanent: true },
       { source: '/administrative-1', destination: '/industries/administrative-clerical', permanent: true },
       { source: '/light-industrial', destination: '/industries/light-industrial', permanent: true },
-      { source: '/about-5', destination: '/contact', permanent: true }, // Wix 1095 tax form page → contact
+      { source: '/about-5', destination: '/request-1095c', permanent: true }, // Wix 1095 tax form page → new 1095-C request page
       { source: '/refer-a-friend', destination: '/job-seekers', permanent: true },
       { source: '/apply-online', destination: '/job-seekers#submit-application', permanent: true },
       { source: '/legal-privacy', destination: '/privacy-policy', permanent: true },

@@ -17,7 +17,21 @@
     ],
     "ctaViewPositions": "Ver Posiciones Disponibles",
     "ctaSubmitApplication": "Enviar Solicitud General",
+    "ctaRequest1095C": "Solicitar Formulario de Impuestos 1095-C",
     "imgAlt": "Trabajador de almacén listo para colocación"
+  },
+  "tax1095c": {
+    "eyebrow": "Documentos de Impuestos",
+    "heading": "Solicite su formulario de impuestos 1095-C",
+    "intro": "Para solicitar una copia de su formulario de impuestos 1095-C, haga una de las siguientes opciones:",
+    "option1Label": "Llámenos",
+    "option1Body": "Llame a la oficina de Pro-Tech e indique el año fiscal solicitado, su nombre, los últimos 4 dígitos de su número de seguro social y el mejor número de teléfono para comunicarnos con usted cuando el formulario esté listo.",
+    "orDivider": "o",
+    "option2Label": "Envíenos un correo",
+    "option2Body": "Envíenos un correo electrónico con el año fiscal solicitado, su nombre y un número de teléfono. Lo llamaremos para verificar los últimos 4 dígitos de su número de seguro social y para avisarle cuando el formulario esté listo.",
+    "phoneLabel": "Oficina de Pro-Tech",
+    "emailLabel": "Correo electrónico",
+    "securityNote": "Por su seguridad, no envíe su número de seguro social completo ni parcial por correo electrónico. Verificamos su identidad por teléfono."
   },
   "whyProTech": {
     "eyebrow": "Por Qué Pro-Tech",

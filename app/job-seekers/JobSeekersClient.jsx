@@ -109,6 +109,12 @@ export default function JobSeekersPage() {
                 >
                   {t('hero.ctaSubmitApplication')}
                 </a>
+                <a
+                  href="/request-1095c"
+                  className="inline-flex items-center justify-center gap-2 border border-fog hover:border-bone text-bone font-medium text-sm px-6 py-3 rounded-md transition-colors"
+                >
+                  {t('hero.ctaRequest1095C')}
+                </a>
               </div>
             </div>
 
