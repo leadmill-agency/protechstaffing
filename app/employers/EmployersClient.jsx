@@ -32,7 +32,7 @@ export default function EmployersPage() {
                   <span className="w-4 h-4">{icons.arrowRight}</span>
                 </a>
                 <a
-                  href="tel:+19725551234"
+                  href="tel:+19722340505"
                   className="inline-flex items-center justify-center gap-2 border border-sig-blue hover:bg-sig-blue text-sig-blue hover:text-white font-medium text-sm px-6 py-3 rounded-md transition-colors"
                 >
                   <span className="w-4 h-4">{icons.phone}</span>
@@ -162,7 +162,7 @@ export default function EmployersPage() {
           <div className="text-center mt-8">
             <p className="text-fog text-xs mb-3 uppercase tracking-widest font-semibold">{t('cta.orReachOut')}</p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <a href="tel:+19725551234" className="inline-flex items-center justify-center gap-2 text-bone hover:text-white text-sm font-medium transition-colors">
+              <a href="tel:+19722340505" className="inline-flex items-center justify-center gap-2 text-bone hover:text-white text-sm font-medium transition-colors">
                 <span className="w-4 h-4">{icons.phone}</span>
                 {t('cta.callUs')}
               </a>
