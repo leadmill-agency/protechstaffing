@@ -3,7 +3,8 @@ import IndustryClient from './IndustryClient'
 import industriesEN from '@/locales/en/industries.json'
 
 const META = {}
-for (const slug of ['electronics-manufacturing', 'light-industrial', 'warehouse-distribution', 'supply-chain-logistics', 'administrative-clerical', 'general-labor']) {
+// TODO: 'engineering' uses placeholder roles/copy — confirm final list with client.
+for (const slug of ['electronics-manufacturing', 'light-industrial', 'warehouse-distribution', 'supply-chain-logistics', 'administrative-clerical', 'general-labor', 'engineering']) {
   const d = industriesEN[slug]
   if (d) {
     META[slug] = { title: d.title, description: d.metaDesc }
@@ -29,6 +30,7 @@ export function generateStaticParams() {
     { slug: 'supply-chain-logistics' },
     { slug: 'administrative-clerical' },
     { slug: 'general-labor' },
+    { slug: 'engineering' },
   ]
 }
 

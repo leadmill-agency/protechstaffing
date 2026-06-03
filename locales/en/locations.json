@@ -46,7 +46,8 @@
     "austin": { "city": "Austin", "state": "TX", "tag": "Central TX", "roles": "Light industrial, electronics, administrative", "serving": "Austin · Round Rock · Cedar Park · Pflugerville" },
     "tampa": { "city": "Tampa", "state": "FL", "tag": "Tampa Bay", "roles": "Electronics manufacturing, light industrial, warehouse", "serving": "Tampa · Clearwater · St. Petersburg · Largo" },
     "sanjose": { "city": "San Jose", "state": "CA", "tag": "Silicon Valley", "roles": "PCB assembly, SMT, electronics manufacturing, QC", "serving": "San Jose · Santa Clara · Milpitas · Fremont" },
-    "phoenix": { "city": "Phoenix", "state": "AZ", "tag": "Southwest", "roles": "Electronics manufacturing, warehouse, light industrial", "serving": "Phoenix · Tempe · Mesa · Chandler" }
+    "phoenix": { "city": "Phoenix", "state": "AZ", "tag": "Southwest", "roles": "Electronics manufacturing, warehouse, light industrial", "serving": "Phoenix · Tempe · Mesa · Chandler" },
+    "cincinnati": { "city": "Cincinnati", "state": "OH", "tag": "CVG Area", "roles": "Warehouse, logistics, light industrial, electronics", "serving": "Cincinnati · Covington · Florence · Hebron · Erlanger · Hamilton" }
   },
   "detail": {
     "requestWorkers": "Request Workers",
@@ -119,7 +120,7 @@
       "laborPool": "Richardson, Plano, Garland, and Carrollton together hold one of the largest pools of IPC-trained electronics workers in Texas. Bilingual English/Spanish capability is common across production and assembly roles. Day shift availability is strong; second and third shift coverage is steady but more competitive. Workers from the broader Dallas labor pool commute in via US-75 and the Bush Turnpike daily."
     },
     "industries": ["Electronics Manufacturing Staffing", "Light Industrial Staffing", "Warehouse & 3PL Staffing", "Supply Chain Staffing", "Administrative Staffing", "General Labor"],
-    "roles": ["PCB assembly technicians", "SMT operators", "Soldering operators", "QC inspectors", "AOI operators", "Assemblers", "Machine operators", "Forklift operators", "Warehouse pickers and packers", "Production workers"],
+    "roles": ["PCB assembly technicians", "SMT operators", "Soldering Techs", "QC inspectors", "AOI operators", "Assemblers", "Machine operators", "Forklift operators", "Warehouse pickers and packers", "Production workers"],
     "proof": [
       { "n": "HQ", "label": "Richardson, TX — founded here" },
       { "n": "30+", "label": "Years recruiting in this market" },
@@ -145,7 +146,7 @@
       { "q": "Can you staff multiple shifts for a production facility in Richardson?", "a": "Yes. We place workers across day shifts, evening shifts, night shifts, and rotating schedules. Tell us your shift requirements when you submit your request and we will source candidates who match — not candidates who will ask to switch once they start." }
     ],
     "localServices": [
-      { "title": "Electronics Manufacturing Staffing", "desc": "Richardson is home to one of Texas's highest concentrations of PCB assembly and SMT operations. IPC-certified technicians, soldering operators, AOI operators, and QC inspectors — screened before placement." },
+      { "title": "Electronics Manufacturing Staffing", "desc": "Richardson is home to one of Texas's highest concentrations of PCB assembly and SMT operations. IPC-certified technicians, soldering techs, AOI operators, and QC inspectors — screened before placement." },
       { "title": "Light Industrial Staffing", "desc": "Assemblers, machine operators, production workers, and line support for manufacturers along the Richardson-Plano-Garland industrial corridor. Day and night shifts filled." },
       { "title": "Warehouse & Distribution Staffing", "desc": "Pickers, packers, forklift operators, and shipping/receiving clerks for distribution operations in and around the east DFW corridor. Surge coverage available." }
     ],
@@ -415,7 +416,7 @@
       "laborPool": "Tampa Bay has a stable, experienced industrial labor pool with above-average IPC certification coverage in the Clearwater-Largo corridor. Day shift availability is plentiful; night shift coverage is more competitive, especially in electronics manufacturing where certified workers can be selective. Bilingual English/Spanish capability is common in production roles. The labor pool spans Pinellas, Hillsborough, and Pasco counties, with commute patterns favoring proximity to US-19, I-275, and the Veterans Expressway."
     },
     "industries": ["Electronics Manufacturing Staffing", "Light Industrial Staffing", "Warehouse & 3PL Staffing", "Supply Chain Staffing", "Administrative Staffing"],
-    "roles": ["PCB assembly technicians", "SMT operators", "Soldering operators", "QC inspectors", "Assemblers", "Machine operators", "Forklift operators", "Warehouse pickers and packers", "Production workers", "Shipping and receiving clerks"],
+    "roles": ["PCB assembly technicians", "SMT operators", "Soldering Techs", "QC inspectors", "Assemblers", "Machine operators", "Forklift operators", "Warehouse pickers and packers", "Production workers", "Shipping and receiving clerks"],
     "proof": [
       { "n": "Tampa Bay", "label": "Local coverage area" },
       { "n": "48h", "label": "Avg. fill time" },
@@ -428,7 +429,7 @@
       { "title": "48-hour fill time, reliable attendance", "desc": "We screen every candidate before placement — background checks, drug screening, and skills assessment. Most orders filled within 48 hours, with surge coverage available for production and warehouse roles." }
     ],
     "testimonial": {
-      "quote": "We needed IPC-certified soldering operators for a production ramp and Pro-Tech delivered qualified workers in under 72 hours. Every one of them had their certifications in order. That saved us weeks of on-the-job training.",
+      "quote": "We needed IPC-certified soldering techs for a production ramp and Pro-Tech delivered qualified workers in under 72 hours. Every one of them had their certifications in order. That saved us weeks of on-the-job training.",
       "name": "Operations Manager",
       "co": "Electronics Manufacturer · Clearwater, FL"
     },
@@ -441,7 +442,7 @@
       { "q": "Can you staff night shifts and weekends in the Tampa area?", "a": "Yes. We recruit for day, evening, and night shifts, including rotating schedules. Tell us your shift and start date when you submit your request and we'll source candidates who match — not ones who need to negotiate shifts after they start." }
     ],
     "localServices": [
-      { "title": "Electronics Manufacturing Staffing", "desc": "IPC-certified PCB assembly technicians, SMT operators, soldering operators, QC inspectors, and test technicians for electronics manufacturers in the Tampa-Clearwater corridor." },
+      { "title": "Electronics Manufacturing Staffing", "desc": "IPC-certified PCB assembly technicians, SMT operators, soldering techs, QC inspectors, and test technicians for electronics manufacturers in the Tampa-Clearwater corridor." },
       { "title": "Light Industrial Staffing", "desc": "Assemblers, machine operators, production workers, and quality control staff for light manufacturers across Hillsborough and Pinellas counties. Day and night shifts filled." },
       { "title": "Warehouse & Distribution Staffing", "desc": "Forklift operators, pickers, packers, and shipping/receiving clerks for distribution and 3PL operations in Brandon, Riverview, and Plant City." }
     ],
@@ -470,7 +471,7 @@
       "laborPool": "The Bay Area's electronics workforce is the most certified and most expensive in the country. IPC certifications are baseline expectations — not differentiators. Worker commute patterns favor proximity to 880, 101, 237, and BART access points, and housing costs push the bulk of the production workforce into Fremont, Newark, East San Jose, Morgan Hill, and Gilroy. Pay expectations are significantly higher than other electronics markets, and workers in zero-defect environments are non-negotiable on certification verification."
     },
     "industries": ["Electronics Manufacturing Staffing", "Light Industrial Staffing", "Supply Chain Staffing", "Administrative Staffing", "General Labor"],
-    "roles": ["PCB assembly technicians", "SMT operators", "Soldering operators (through-hole & reflow)", "AOI operators", "Rework technicians", "QC inspectors", "Wire harness assemblers", "Production associates", "Test technicians", "Conformal coating operators"],
+    "roles": ["PCB assembly technicians", "SMT operators", "Soldering Techs (through-hole & reflow)", "AOI operators", "Rework technicians", "QC inspectors", "Wire harness assemblers", "Production associates", "Test technicians", "Conformal coating operators"],
     "proof": [
       { "n": "IPC", "label": "Certified workforce program" },
       { "n": "48-72h", "label": "Avg. fill time" },
@@ -490,13 +491,13 @@
     "faq": [
       { "q": "What areas does the San Jose office cover?", "a": "Our San Jose office covers Silicon Valley and the South Bay: San Jose, Santa Clara, Milpitas, Fremont, Sunnyvale, Mountain View, and Gilroy. We also cover the East Bay electronics manufacturing corridor in Fremont and Newark." },
       { "q": "Do you provide IPC-certified workers in San Jose?", "a": "Yes. We train and certify workers in IPC-A-610, IPC-620, and J-STD-001 before placement. Our San Jose recruiters source specifically for electronics manufacturing roles, and candidates arrive with verified, current certifications." },
-      { "q": "What electronics roles do you staff in Silicon Valley?", "a": "PCB assembly technicians, SMT operators, soldering operators (through-hole and reflow), AOI operators, rework technicians, QC inspectors, wire harness assemblers, conformal coating operators, and test technicians. If it's on the production floor of an electronics manufacturer, we staff it." },
+      { "q": "What electronics roles do you staff in Silicon Valley?", "a": "PCB assembly technicians, SMT operators, soldering techs (through-hole and reflow), AOI operators, rework technicians, QC inspectors, wire harness assemblers, conformal coating operators, and test technicians. If it's on the production floor of an electronics manufacturer, we staff it." },
       { "q": "How fast can you fill electronics manufacturing roles in San Jose?", "a": "Most electronics roles are filled within 48-72 hours. Roles requiring specific IPC certifications or rare specializations may take slightly longer. We maintain an active pipeline of certified candidates across the South Bay." },
       { "q": "Do you staff for EMS companies and contract manufacturers in Silicon Valley?", "a": "Yes. EMS companies and contract manufacturers are a primary client type for our San Jose office. We understand the multi-customer, high-mix, low-volume environments these companies run, and we screen candidates accordingly." },
       { "q": "Do you offer temp-to-hire for electronics technicians in San Jose?", "a": "Yes — temp, temp-to-hire, and direct placement are all available. Many Silicon Valley electronics manufacturers use temp-to-hire to evaluate IPC-certified technicians before extending permanent offers, especially for QC and rework roles." }
     ],
     "localServices": [
-      { "title": "Electronics Manufacturing Staffing", "desc": "IPC-certified PCB assembly technicians, SMT operators, soldering operators, AOI operators, rework technicians, and QC inspectors for Silicon Valley's electronics manufacturers and EMS companies." },
+      { "title": "Electronics Manufacturing Staffing", "desc": "IPC-certified PCB assembly technicians, SMT operators, soldering techs, AOI operators, rework technicians, and QC inspectors for Silicon Valley's electronics manufacturers and EMS companies." },
       { "title": "Light Industrial & Production Staffing", "desc": "Assemblers, production associates, machine operators, and line support for light manufacturers and contract manufacturers across San Jose, Santa Clara, and Milpitas." },
       { "title": "Supply Chain & Administrative Staffing", "desc": "Logistics coordinators, inventory control specialists, shipping/receiving clerks, and administrative support for electronics operations and contract manufacturers in the South Bay." }
     ],
@@ -525,7 +526,7 @@
       "laborPool": "Phoenix's industrial labor pool has grown alongside the semiconductor boom but tightened sharply in the East Valley over the past three years as manufacturers compete for skilled candidates. IPC-certified worker availability is now the limiting factor for many electronics roles. The West Valley has more capacity in warehouse, forklift, and general labor categories, with strong day shift availability. Bilingual English/Spanish capability is common across all role types. Commute viability across the metro favors workers living within the Loop 101 / Loop 202 ring."
     },
     "industries": ["Electronics Manufacturing Staffing", "Light Industrial Staffing", "Warehouse & 3PL Staffing", "Supply Chain Staffing", "General Labor"],
-    "roles": ["PCB assembly technicians", "SMT operators", "Soldering operators", "QC inspectors", "Assemblers", "Machine operators", "Forklift operators", "Warehouse pickers and packers", "Production workers", "Shipping and receiving clerks"],
+    "roles": ["PCB assembly technicians", "SMT operators", "Soldering Techs", "QC inspectors", "Assemblers", "Machine operators", "Forklift operators", "Warehouse pickers and packers", "Production workers", "Shipping and receiving clerks"],
     "proof": [
       { "n": "East Valley", "label": "Electronics corridor coverage" },
       { "n": "48h", "label": "Avg. fill time" },
@@ -551,7 +552,7 @@
       { "q": "Do you offer temp-to-hire staffing in Phoenix?", "a": "Yes — temp, temp-to-hire, and direct placement are all available from our Phoenix office. Many Phoenix electronics manufacturers and light industrial employers use temp-to-hire to evaluate workers before extending permanent offers." }
     ],
     "localServices": [
-      { "title": "Electronics Manufacturing Staffing", "desc": "IPC-certified PCB assembly technicians, SMT operators, soldering operators, QC inspectors, and production associates for electronics manufacturers in the Chandler-Mesa-Tempe corridor." },
+      { "title": "Electronics Manufacturing Staffing", "desc": "IPC-certified PCB assembly technicians, SMT operators, soldering techs, QC inspectors, and production associates for electronics manufacturers in the Chandler-Mesa-Tempe corridor." },
       { "title": "Light Industrial Staffing", "desc": "Assemblers, machine operators, production workers, and line support for light manufacturers across the Phoenix metro. Day, evening, and night shifts filled." },
       { "title": "Warehouse & Distribution Staffing", "desc": "Forklift operators, pickers, packers, and shipping/receiving clerks for distribution operations in Phoenix, Mesa, and Peoria. Surge and peak-season coverage available." }
     ],
@@ -566,6 +567,150 @@
       { "label": "All Locations" }
     ]
   },
+  "cincinnati": {
+    "title": "Industrial Staffing Agency in Cincinnati OH | Warehouse, Logistics & Light Industrial | Pro-Tech",
+    "metaDesc": "Pro-Tech Staffing serves the Cincinnati / CVG market — warehouse, distribution, light industrial, and electronics manufacturing workers across Greater Cincinnati and Northern Kentucky. 48-hour fill time.",
+    "h1": "Industrial staffing agency in Cincinnati, OH. Warehouse, logistics, and light industrial specialists.",
+    "subhead": "Warehouse, distribution, light industrial, and electronics manufacturing staffing across Greater Cincinnati and the CVG / Northern Kentucky logistics hub.",
+    "label": "Cincinnati OH",
+    "cities": [
+      "Cincinnati OH",
+      "Covington KY",
+      "Florence KY",
+      "Hebron KY",
+      "Erlanger KY",
+      "Hamilton OH",
+      "West Chester OH",
+      "Sharonville OH"
+    ],
+    "marketIntro": "Cincinnati sits at the center of one of the country's busiest freight crossroads. The CVG airport — home to Amazon's primary U.S. air hub and DHL's super hub for the Americas — anchors a Northern Kentucky logistics triangle running through Hebron, Florence, and Erlanger, while Greater Cincinnati adds aerospace, consumer goods, and electrical-equipment manufacturing on the Ohio side. Pro-Tech staffs this market for the warehouse, production, and light industrial roles that keep that freight and manufacturing moving.",
+    "marketSnapshot": {
+      "corridors": "Cincinnati's industrial activity follows three freight spines: I-75 north–south through Sharonville, West Chester, and Monroe; I-71 toward Columbus; and the I-275 beltway that loops the metro. The Northern Kentucky logistics triangle — Hebron, Florence, and Erlanger, clustered around CVG — carries the bulk of the region's distribution and fulfillment work, while the Ohio side along I-75 holds the older manufacturing base from Evendale up through Hamilton and Middletown.",
+      "anchorIndustries": "Air cargo and e-commerce fulfillment dominate the CVG corridor, with Amazon Air's primary U.S. hub and DHL's Americas super hub driving constant demand for warehouse and material-handling labor. Greater Cincinnati layers on aerospace and aircraft-engine manufacturing in the Evendale corridor, consumer-goods and food-and-beverage production, and electrical-equipment and automation manufacturing across Northern Kentucky. More than 300 manufacturers operate in the region.",
+      "laborPool": "The Cincinnati and Northern Kentucky labor pool runs deep on warehouse, forklift, and production workers, sustained by the CVG logistics cluster and a long manufacturing history along I-75. Day-shift availability is strong; the round-the-clock air-cargo hubs create heavy demand for night and weekend coverage, where reliable workers are harder to find. The pool spans both sides of the Ohio River, with commute patterns shaped by I-75, I-275, and the river crossings into Northern Kentucky."
+    },
+    "industries": [
+      "Warehouse & 3PL Staffing",
+      "Light Industrial Staffing",
+      "Supply Chain Staffing",
+      "Electronics Manufacturing Staffing",
+      "General Labor"
+    ],
+    "roles": [
+      "Warehouse pickers and packers",
+      "Forklift operators",
+      "Material handlers",
+      "Shipping and receiving clerks",
+      "Production workers",
+      "Machine operators",
+      "Assemblers",
+      "Inventory control clerks",
+      "Sortation associates",
+      "General laborers"
+    ],
+    "proof": [
+      {
+        "n": "CVG Area",
+        "label": "Greater Cincinnati & N. Kentucky coverage"
+      },
+      {
+        "n": "48h",
+        "label": "Avg. fill time"
+      },
+      {
+        "n": "94%",
+        "label": "Client retention rate"
+      },
+      {
+        "n": "24/7",
+        "label": "Cargo & fulfillment shift coverage"
+      }
+    ],
+    "whyUs": [
+      {
+        "title": "Built for the CVG logistics hub",
+        "desc": "The Amazon Air and DHL hubs at CVG run around the clock, and so do the distribution centers feeding them. We staff warehouse, sortation, and material-handling roles for day, night, and weekend shifts — and we screen for the attendance reliability those operations depend on."
+      },
+      {
+        "title": "Both sides of the river",
+        "desc": "Our recruiters work the full market: the Northern Kentucky logistics triangle through Florence, Hebron, and Erlanger, and the Ohio manufacturing corridor up I-75 through Sharonville, West Chester, and Hamilton. One point of contact for coverage across two states."
+      },
+      {
+        "title": "Screened workers, fast turnaround",
+        "desc": "Every candidate is background checked, drug screened, and interviewed for the specific shift and site before placement. Most warehouse and light industrial orders are filled within 48 hours, with surge coverage for peak fulfillment seasons."
+      }
+    ],
+    "testimonial": {
+      "quote": "We needed second- and third-shift warehouse crews near the airport on short notice, and Pro-Tech filled the orders in two days with people who actually showed up. For a 24/7 fulfillment operation, that reliability is everything.",
+      "name": "Operations Manager",
+      "co": "3PL & Fulfillment · Hebron, KY"
+    },
+    "faq": [
+      {
+        "q": "What areas does the Cincinnati office cover?",
+        "a": "We cover Greater Cincinnati and Northern Kentucky, including Covington, Florence, Hebron, Erlanger, Sharonville, West Chester, Hamilton, and Middletown. The CVG airport logistics triangle in Northern Kentucky is a primary focus, along with the I-75 manufacturing corridor on the Ohio side."
+      },
+      {
+        "q": "What industries do you staff in Cincinnati?",
+        "a": "Cincinnati primarily staffs warehouse and distribution, light industrial, supply chain, electronics manufacturing, and general labor. The CVG air-cargo and e-commerce fulfillment cluster drives most of the warehouse demand, while the Ohio side adds manufacturing and assembly work."
+      },
+      {
+        "q": "How fast can you fill warehouse and light industrial jobs in Cincinnati?",
+        "a": "Most warehouse and light industrial orders are filled within 48 hours. For general labor and high-volume fulfillment ramps, same-day availability is often possible from our active local pool. Specialized or certified roles may take 48–72 hours."
+      },
+      {
+        "q": "Can you staff night and weekend shifts for the CVG cargo and fulfillment operations?",
+        "a": "Yes. The air-cargo hubs and the distribution centers around CVG run 24/7, so we recruit specifically for second shift, third shift, and weekend coverage — and we screen candidates for those schedules up front rather than placing day-shift workers who ask to switch later."
+      },
+      {
+        "q": "Do you place forklift operators and material handlers in Northern Kentucky?",
+        "a": "Yes. We verify forklift certifications and place operators experienced on sit-down, stand-up, reach, and order-picker equipment for warehouses and distribution centers across Florence, Hebron, Erlanger, and the wider Northern Kentucky logistics triangle."
+      },
+      {
+        "q": "Do you offer temp-to-hire staffing in Cincinnati?",
+        "a": "Yes — temp, temp-to-hire, and direct placement are all available. Many Cincinnati distributors and manufacturers use temp-to-hire to evaluate warehouse and production workers before extending permanent offers."
+      }
+    ],
+    "localServices": [
+      {
+        "title": "Light Industrial Staffing",
+        "desc": "Assemblers, machine operators, and production workers for manufacturers along the I-75 corridor from Sharonville and West Chester up through Hamilton and Middletown. Day, evening, and night shifts filled."
+      },
+      {
+        "title": "Warehouse & Distribution Staffing",
+        "desc": "Pickers, packers, forklift operators, sortation associates, and shipping/receiving clerks for the CVG-area fulfillment and 3PL operations in Hebron, Florence, and Erlanger. 24/7 shift coverage and peak-season surge support."
+      },
+      {
+        "title": "Supply Chain & Logistics Staffing",
+        "desc": "Inventory control clerks, logistics coordinators, and material handlers for the air-cargo and distribution operations running through the Cincinnati / Northern Kentucky freight hub."
+      }
+    ],
+    "subMarkets": [
+      {
+        "label": "Florence, KY",
+        "desc": "Northern Kentucky logistics and light-manufacturing hub near CVG along I-75."
+      },
+      {
+        "label": "Hebron, KY",
+        "desc": "Distribution and air-cargo corridor adjacent to the CVG airport."
+      },
+      {
+        "label": "West Chester / Sharonville, OH",
+        "desc": "I-75 manufacturing and warehouse corridor north of downtown Cincinnati."
+      }
+    ],
+    "relatedCities": [
+      {
+        "label": "Richardson TX (HQ)"
+      },
+      {
+        "label": "Tampa FL"
+      },
+      {
+        "label": "All Locations"
+      }
+    ]
+  },
   "atlanta": {
     "title": "Industrial Staffing Agency in Atlanta GA | Electronics Manufacturing & Warehouse | Pro-Tech",
     "metaDesc": "Pro-Tech Staffing Atlanta GA places electronics manufacturing workers, light industrial assemblers, and warehouse staff across Atlanta, Norcross, Gwinnett County, and the metro area. 48-hour fill time.",
@@ -575,7 +720,7 @@
     "cities": ["Atlanta GA", "Norcross GA", "Duluth GA", "Lawrenceville GA", "Marietta GA", "Smyrna GA", "Peachtree City GA"],
     "marketIntro": "Atlanta is one of the Southeast's most active industrial and logistics markets. The I-85 and I-285 corridors — running through Norcross, Duluth, Lawrenceville, and Gwinnett County — contain a dense concentration of electronics manufacturers, light industrial operations, and distribution centers. Our Atlanta office is located in Norcross at the center of Gwinnett County's industrial zone, staffing production workers, assemblers, warehouse teams, and electronics technicians for employers across the metro.",
     "industries": ["Electronics Manufacturing Staffing", "Light Industrial Staffing", "Warehouse & 3PL Staffing", "Supply Chain Staffing", "Administrative Staffing", "General Labor"],
-    "roles": ["PCB assembly technicians", "SMT operators", "Soldering operators", "QC inspectors", "Assemblers", "Machine operators", "Forklift operators", "Warehouse pickers and packers", "Production workers", "Shipping and receiving clerks"],
+    "roles": ["PCB assembly technicians", "SMT operators", "Soldering Techs", "QC inspectors", "Assemblers", "Machine operators", "Forklift operators", "Warehouse pickers and packers", "Production workers", "Shipping and receiving clerks"],
     "proof": [
       { "n": "ATL", "label": "Atlanta metro coverage" },
       { "n": "48h", "label": "Avg. fill time" },
@@ -601,7 +746,7 @@
       { "q": "Can you staff multiple shifts for an Atlanta facility?", "a": "Yes. We recruit for day, evening, and night shifts, including rotating schedules. Tell us your shift requirements when you submit your staffing request and we'll source candidates who match from day one." }
     ],
     "localServices": [
-      { "title": "Electronics Manufacturing Staffing", "desc": "IPC-certified PCB assembly technicians, SMT operators, soldering operators, QC inspectors, and production associates for electronics manufacturers in the Gwinnett County and I-85 corridor." },
+      { "title": "Electronics Manufacturing Staffing", "desc": "IPC-certified PCB assembly technicians, SMT operators, soldering techs, QC inspectors, and production associates for electronics manufacturers in the Gwinnett County and I-85 corridor." },
       { "title": "Light Industrial Staffing", "desc": "Assemblers, machine operators, production workers, and quality control staff for light manufacturers across Gwinnett, Cobb, and Fulton counties. Day and night shifts filled." },
       { "title": "Warehouse & Distribution Staffing", "desc": "Forklift operators, pickers, packers, and shipping/receiving clerks for distribution and 3PL operations across the Atlanta metro. Surge and peak-season coverage available." }
     ],

@@ -1,5 +1,6 @@
 'use client'
 
+import { useState } from 'react'
 import Link from 'next/link'
 import { useTranslation } from 'react-i18next'
 import icons from '@/components/icons'
@@ -7,8 +8,11 @@ import MotionFadeIn, { MotionFadeInItem } from '@/components/MotionFadeIn'
 
 function Hero() {
   const { t } = useTranslation('home')
-  const HERO_IMG = '/hero.jpg'
-  const HERO_ALT = 'Pro-Tech recruiters shaking hands with a warehouse worker on the production floor'
+  // TODO: Replace with client-provided electronics/manufacturing hero asset when available.
+  // Interim image swapped May 2026 — client did not want the prior hard-hat/construction photo,
+  // since Pro-Tech mostly staffs electronics manufacturing, circuit-board, and light-industrial work.
+  const HERO_IMG = 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=1600&q=75'
+  const HERO_ALT = 'Close-up of a printed circuit board on an electronics manufacturing line'
 
   return (
     <>
@@ -183,20 +187,16 @@ function Employers() {
 
 function Industries() {
   const { t } = useTranslation('home')
-  const list = [
-    { icon: icons.circuit,   title: t('industries.list.electronics.title'),      desc: t('industries.list.electronics.desc'),      cert: t('industries.list.electronics.cert'), href: '/industries/electronics-manufacturing' },
-    { icon: icons.gear,      title: t('industries.list.lightIndustrial.title'),   desc: t('industries.list.lightIndustrial.desc'),   href: '/industries/light-industrial' },
-    { icon: icons.box,       title: t('industries.list.warehouse.title'),         desc: t('industries.list.warehouse.desc'),         href: '/industries/warehouse-distribution' },
-    { icon: icons.truck,     title: t('industries.list.supplyChain.title'),       desc: t('industries.list.supplyChain.desc'),       href: '/industries/supply-chain-logistics' },
-    { icon: icons.clipboard, title: t('industries.list.administrative.title'),    desc: t('industries.list.administrative.desc'),    href: '/industries/administrative-clerical' },
-    { icon: icons.hardhat,   title: t('industries.list.generalLabor.title'),      desc: t('industries.list.generalLabor.desc'),      href: '/industries/general-labor' },
-  ]
+  const categories = t('industries.categories', { returnObjects: true })
+  const cats = Array.isArray(categories) ? categories : []
+  const [active, setActive] = useState(0)
+  const current = cats[active] || cats[0]
 
   return (
     <section id="industries" className="bg-white py-12 md:py-20">
       <div className="max-w-7xl mx-auto px-6">
         <MotionFadeIn>
-          <div className="mb-8 md:mb-14">
+          <div className="mb-8 md:mb-12">
             <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-4">{t('industries.eyebrow')}</p>
             <h2 className="font-semibold text-carbon text-3xl md:text-4xl lg:text-5xl leading-tight tracking-tight max-w-xl mb-4">
               {t('industries.headline')}
@@ -205,20 +205,54 @@ function Industries() {
           </div>
         </MotionFadeIn>
 
-        <MotionFadeIn stagger>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-px bg-fog">
-            {list.map(({ icon, title, desc, cert, href }) => (
-              <MotionFadeInItem key={title}>
-                <Link href={href} className="bg-white p-8 hover:bg-bone transition-colors group block h-full">
-                  <div className="w-5 h-5 text-ind-green mb-5">{icon}</div>
-                  <h3 className="font-semibold text-carbon text-base mb-2 group-hover:text-ind-green transition-colors">{title}</h3>
-                  <p className="text-steel text-sm leading-relaxed">{desc}</p>
-                  {cert && <p className="text-ind-green text-sm italic mt-2 leading-relaxed">{cert}</p>}
-                </Link>
-              </MotionFadeInItem>
-            ))}
+        {/* Category tabs */}
+        <div className="flex flex-col sm:flex-row gap-2 border-b border-fog mb-8">
+          {cats.map((c, i) => (
+            <button
+              key={c.key || c.title}
+              onClick={() => setActive(i)}
+              className={`text-left sm:text-center font-semibold text-sm px-5 py-3 -mb-px border-b-2 transition-colors ${
+                i === active
+                  ? 'border-ind-green text-sig-blue'
+                  : 'border-transparent text-steel hover:text-carbon'
+              }`}
+            >
+              {c.title}
+            </button>
+          ))}
+        </div>
+
+        {/* Active category panel */}
+        {current && (
+          <div className="grid lg:grid-cols-3 gap-8 lg:gap-12">
+            <div className="lg:col-span-1">
+              <p className="text-steel leading-relaxed mb-6">{current.desc}</p>
+              <div className="flex flex-col gap-2">
+                {(Array.isArray(current.links) ? current.links : []).map(({ label, href }) => (
+                  <Link
+                    key={href}
+                    href={href}
+                    className="inline-flex items-center gap-1.5 text-sm font-semibold text-ind-green hover:text-sig-blue transition-colors"
+                  >
+                    {label}
+                    <span className="w-3.5 h-3.5">{icons.arrowRight}</span>
+                  </Link>
+                ))}
+              </div>
+            </div>
+            <div className="lg:col-span-2">
+              <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-4">{t('industries.rolesLabel')}</p>
+              <div className="flex flex-wrap gap-2.5">
+                {(Array.isArray(current.roles) ? current.roles : []).map(role => (
+                  <span key={role} className="inline-flex items-center gap-2 border border-fog bg-bone text-carbon text-sm px-3.5 py-2 rounded-md">
+                    <span className="w-3 h-3 text-ind-green flex-shrink-0">{icons.check}</span>
+                    {role}
+                  </span>
+                ))}
+              </div>
+            </div>
           </div>
-        </MotionFadeIn>
+        )}
       </div>
     </section>
   )

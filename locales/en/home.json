@@ -51,10 +51,91 @@
     "eyebrow": "Industries We Serve",
     "headline": "We only staff the industries we know best.",
     "subhead": "A warehouse role is not an electronics role. A machine operator is not an admin temp. After 30 years in these environments, we recruit by role, shift, and floor requirements, not just availability.",
+    "rolesLabel": "Roles we place",
+    "categories": [
+      {
+        "key": "light-industrial",
+        "title": "Light Industrial",
+        "desc": "Production, assembly, electronics manufacturing, warehouse, and light industrial workers — screened for the shift, site, and skills the role needs.",
+        "roles": [
+          "Electronics Assemblers",
+          "Soldering Techs",
+          "SMT Operators",
+          "Machine Operators",
+          "Production Workers",
+          "Warehouse Associates",
+          "Forklift Operators",
+          "Pickers and Packers",
+          "Shipping and Receiving"
+        ],
+        "links": [
+          {
+            "label": "Electronics Manufacturing",
+            "href": "/industries/electronics-manufacturing"
+          },
+          {
+            "label": "Light Industrial",
+            "href": "/industries/light-industrial"
+          },
+          {
+            "label": "Warehouse & Distribution",
+            "href": "/industries/warehouse-distribution"
+          },
+          {
+            "label": "General Labor",
+            "href": "/industries/general-labor"
+          }
+        ]
+      },
+      {
+        "key": "engineering",
+        "title": "Engineering",
+        "desc": "Technical talent for manufacturing, production, and engineering teams that need specialized support.",
+        "roles": [
+          "Mechanical Engineers",
+          "Electrical Engineers",
+          "Manufacturing Engineers",
+          "Quality Engineers",
+          "Process Engineers",
+          "Engineering Technicians"
+        ],
+        "links": [
+          {
+            "label": "Engineering Staffing",
+            "href": "/industries/engineering"
+          }
+        ]
+      },
+      {
+        "key": "admin-supply-chain",
+        "title": "Administrative & Supply Chain Support",
+        "desc": "Office, operations, and supply chain support talent for teams that need reliable back-office and logistics coverage.",
+        "roles": [
+          "Administrative Assistants",
+          "Customer Service Representatives",
+          "Data Entry Clerks",
+          "Office Coordinators",
+          "Logistics Coordinators",
+          "Inventory Coordinators",
+          "Purchasing Assistants",
+          "Supply Chain Support"
+        ],
+        "links": [
+          {
+            "label": "Administrative & Clerical",
+            "href": "/industries/administrative-clerical"
+          },
+          {
+            "label": "Supply Chain & Logistics",
+            "href": "/industries/supply-chain-logistics"
+          }
+        ]
+      }
+    ],
     "list": {
       "electronics": {
         "title": "Electronics Manufacturing Staffing",
-        "desc": "PCB assembly, SMT technicians, soldering operators, QC inspectors, test technicians, AOI operators, rework technicians, and production associates.",
+        "desc": "PCB assembly, SMT operators, soldering techs, QC inspectors, test technicians, AOI operators, rework technicians, and production associates.",
         "cert": "We train and certify workers in IPC-610, IPC-620, and J-STD-001."
       },
       "lightIndustrial": {

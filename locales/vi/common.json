@@ -25,7 +25,8 @@
       "warehouseDistribution": "Kho Bãi & Phân Phối",
       "supplyChainLogistics": "Chuỗi Cung Ứng & Hậu Cần",
       "administrativeClerical": "Hành Chính & Văn Thư",
-      "generalLabor": "Lao Động Phổ Thông"
+      "generalLabor": "Lao Động Phổ Thông",
+      "engineering": "Kỹ Thuật"
     },
     "locations": {
       "richardsonTx": "Richardson, TX",
@@ -58,7 +59,8 @@
       "warehouse3pl": "Kho Bãi & 3PL",
       "supplyChain": "Chuỗi Cung Ứng",
       "administrative": "Hành Chính",
-      "generalLabor": "Lao Động Phổ Thông"
+      "generalLabor": "Lao Động Phổ Thông",
+      "engineering": "Kỹ Thuật"
     },
     "officesHeading": "Văn Phòng",
     "offices": {
@@ -67,7 +69,8 @@
       "austin": "Austin, TX",
       "tampa": "Tampa, FL",
       "sanJose": "San Jose, CA",
-      "phoenix": "Phoenix, AZ"
+      "phoenix": "Phoenix, AZ",
+      "cincinnati": "Cincinnati, OH"
     },
     "copyright": "© 2025 Pro-Tech Staffing Services. Bảo lưu mọi quyền.",
     "legal": {

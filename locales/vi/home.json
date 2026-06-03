@@ -51,6 +51,87 @@
     "eyebrow": "Ngành Nghề Phục Vụ",
     "headline": "Chúng tôi chỉ cung ứng nhân sự cho các ngành chúng tôi am hiểu nhất.",
     "subhead": "Vị trí kho bãi khác với vị trí điện tử. Thợ vận hành máy khác với nhân viên hành chính tạm thời. Sau 30 năm trong các môi trường này, chúng tôi tuyển dụng theo vai trò, ca làm và yêu cầu tại xưởng — không chỉ theo sự sẵn có.",
+    "rolesLabel": "Vị trí chúng tôi bố trí",
+    "categories": [
+      {
+        "key": "light-industrial",
+        "title": "Công Nghiệp Nhẹ",
+        "desc": "Nhân viên sản xuất, lắp ráp, sản xuất điện tử, kho bãi và công nghiệp nhẹ — được sàng lọc theo ca, địa điểm và kỹ năng mà vị trí yêu cầu.",
+        "roles": [
+          "Thợ Lắp Ráp Điện Tử",
+          "Kỹ Thuật Viên Hàn",
+          "Vận Hành Viên SMT",
+          "Vận Hành Máy",
+          "Nhân Viên Sản Xuất",
+          "Nhân Viên Kho Bãi",
+          "Vận Hành Viên Xe Nâng",
+          "Nhân Viên Lấy Hàng & Đóng Gói",
+          "Giao Nhận"
+        ],
+        "links": [
+          {
+            "label": "Sản Xuất Điện Tử",
+            "href": "/industries/electronics-manufacturing"
+          },
+          {
+            "label": "Công Nghiệp Nhẹ",
+            "href": "/industries/light-industrial"
+          },
+          {
+            "label": "Kho Bãi & Phân Phối",
+            "href": "/industries/warehouse-distribution"
+          },
+          {
+            "label": "Lao Động Phổ Thông",
+            "href": "/industries/general-labor"
+          }
+        ]
+      },
+      {
+        "key": "engineering",
+        "title": "Kỹ Thuật",
+        "desc": "Nhân tài kỹ thuật cho các nhóm sản xuất, chế tạo và kỹ thuật cần hỗ trợ chuyên môn.",
+        "roles": [
+          "Kỹ Sư Cơ Khí",
+          "Kỹ Sư Điện",
+          "Kỹ Sư Sản Xuất",
+          "Kỹ Sư Chất Lượng",
+          "Kỹ Sư Quy Trình",
+          "Kỹ Thuật Viên Kỹ Thuật"
+        ],
+        "links": [
+          {
+            "label": "Nhân Sự Kỹ Thuật",
+            "href": "/industries/engineering"
+          }
+        ]
+      },
+      {
+        "key": "admin-supply-chain",
+        "title": "Hỗ Trợ Hành Chính & Chuỗi Cung Ứng",
+        "desc": "Nhân tài hỗ trợ văn phòng, vận hành và chuỗi cung ứng cho các nhóm cần hỗ trợ hậu cần và hành chính đáng tin cậy.",
+        "roles": [
+          "Trợ Lý Hành Chính",
+          "Nhân Viên Chăm Sóc Khách Hàng",
+          "Nhân Viên Nhập Liệu",
+          "Điều Phối Văn Phòng",
+          "Điều Phối Hậu Cần",
+          "Điều Phối Hàng Tồn Kho",
+          "Trợ Lý Mua Hàng",
+          "Hỗ Trợ Chuỗi Cung Ứng"
+        ],
+        "links": [
+          {
+            "label": "Hành Chính & Văn Thư",
+            "href": "/industries/administrative-clerical"
+          },
+          {
+            "label": "Chuỗi Cung Ứng & Hậu Cần",
+            "href": "/industries/supply-chain-logistics"
+          }
+        ]
+      }
+    ],
     "list": {
       "electronics": {
         "title": "Nhân Sự Sản Xuất Điện Tử",

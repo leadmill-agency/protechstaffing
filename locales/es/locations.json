@@ -46,7 +46,8 @@
     "austin": { "city": "Austin", "state": "TX", "tag": "Central TX", "roles": "Industria ligera, electr\u00f3nica, administrativo", "serving": "Austin \u00b7 Round Rock \u00b7 Cedar Park \u00b7 Pflugerville" },
     "tampa": { "city": "Tampa", "state": "FL", "tag": "Tampa Bay", "roles": "Manufactura electr\u00f3nica, industria ligera, almac\u00e9n", "serving": "Tampa \u00b7 Clearwater \u00b7 St. Petersburg \u00b7 Largo" },
     "sanjose": { "city": "San Jose", "state": "CA", "tag": "Silicon Valley", "roles": "Ensamble de PCB, SMT, manufactura electr\u00f3nica, QC", "serving": "San Jose \u00b7 Santa Clara \u00b7 Milpitas \u00b7 Fremont" },
-    "phoenix": { "city": "Phoenix", "state": "AZ", "tag": "Suroeste", "roles": "Manufactura electr\u00f3nica, almac\u00e9n, industria ligera", "serving": "Phoenix \u00b7 Tempe \u00b7 Mesa \u00b7 Chandler" }
+    "phoenix": { "city": "Phoenix", "state": "AZ", "tag": "Suroeste", "roles": "Manufactura electr\u00f3nica, almac\u00e9n, industria ligera", "serving": "Phoenix \u00b7 Tempe \u00b7 Mesa \u00b7 Chandler" },
+    "cincinnati": { "city": "Cincinnati", "state": "OH", "tag": "Zona CVG", "roles": "Almacén, logística, industria ligera, electrónica", "serving": "Cincinnati · Covington · Florence · Hebron · Erlanger · Hamilton" }
   },
   "detail": {
     "requestWorkers": "Solicitar Trabajadores",
@@ -109,7 +110,7 @@
     "cities": ["Richardson TX", "Plano TX", "Garland TX", "Carrollton TX", "Allen TX", "McKinney TX", "Dallas TX"],
     "marketIntro": "Richardson es el centro de manufactura electr\u00f3nica del norte de Texas. El corredor de Richardson a Plano y Garland alberga una de las concentraciones m\u00e1s densas de operaciones de ensamble de PCB, producci\u00f3n SMT e industria ligera en el estado. La sede de Pro-Tech ha estado aqu\u00ed durante 30 a\u00f1os: conocemos a los empleadores, las instalaciones y el mercado de talento. Cuando necesita trabajadores evaluados en 48 horas o menos, est\u00e1 llamando a un equipo que recluta en este mercado cada semana.",
     "industries": ["Personal de Manufactura Electr\u00f3nica", "Personal de Industria Ligera", "Personal de Almac\u00e9n y 3PL", "Personal de Cadena de Suministro", "Personal Administrativo", "Trabajo General"],
-    "roles": ["T\u00e9cnicos de ensamble de PCB", "Operadores SMT", "Operadores de soldadura", "Inspectores de QC", "Operadores AOI", "Ensambladores", "Operadores de m\u00e1quinas", "Operadores de montacargas", "Selectores y empacadores de almac\u00e9n", "Trabajadores de producci\u00f3n"],
+    "roles": ["T\u00e9cnicos de ensamble de PCB", "Operadores SMT", "T\u00e9cnicos de soldadura", "Inspectores de QC", "Operadores AOI", "Ensambladores", "Operadores de m\u00e1quinas", "Operadores de montacargas", "Selectores y empacadores de almac\u00e9n", "Trabajadores de producci\u00f3n"],
     "proof": [
       { "n": "HQ", "label": "Richardson, TX \u2014 fundada aqu\u00ed" },
       { "n": "30+", "label": "A\u00f1os reclutando en este mercado" },
@@ -135,7 +136,7 @@
       { "q": "\u00bfPueden dotar de personal para m\u00faltiples turnos en una instalaci\u00f3n de producci\u00f3n en Richardson?", "a": "S\u00ed. Colocamos trabajadores en turnos diurnos, vespertinos, nocturnos y horarios rotativos. Ind\u00edquenos sus requisitos de turno cuando env\u00ede su solicitud y buscaremos candidatos que coincidan, no candidatos que pedir\u00e1n cambiar una vez que empiecen." }
     ],
     "localServices": [
-      { "title": "Personal de Manufactura Electr\u00f3nica", "desc": "Richardson alberga una de las concentraciones m\u00e1s altas de operaciones de ensamble de PCB y SMT en Texas. T\u00e9cnicos certificados IPC, operadores de soldadura, operadores AOI e inspectores de QC, evaluados antes de la colocaci\u00f3n." },
+      { "title": "Personal de Manufactura Electr\u00f3nica", "desc": "Richardson alberga una de las concentraciones m\u00e1s altas de operaciones de ensamble de PCB y SMT en Texas. T\u00e9cnicos certificados IPC, t\u00e9cnicos de soldadura, operadores AOI e inspectores de QC, evaluados antes de la colocaci\u00f3n." },
       { "title": "Personal de Industria Ligera", "desc": "Ensambladores, operadores de m\u00e1quinas, trabajadores de producci\u00f3n y apoyo en l\u00ednea para fabricantes a lo largo del corredor industrial Richardson-Plano-Garland. Turnos diurnos y nocturnos cubiertos." },
       { "title": "Personal de Almac\u00e9n y Distribuci\u00f3n", "desc": "Selectores, empacadores, operadores de montacargas y personal de env\u00edo/recepci\u00f3n para operaciones de distribuci\u00f3n en el corredor este de DFW. Cobertura de emergencia disponible." }
     ],
@@ -386,7 +387,7 @@
     "cities": ["Tampa FL", "Clearwater FL", "St. Petersburg FL", "Largo FL", "Brandon FL", "Riverview FL", "Plant City FL"],
     "marketIntro": "Tampa Bay es uno de los mercados industriales m\u00e1s activos de Florida. El corredor de Tampa a Clearwater y St. Petersburg incluye una concentraci\u00f3n significativa de fabricantes de electr\u00f3nica, contratistas de defensa, operaciones de industria ligera y centros de distribuci\u00f3n. La oficina de Pro-Tech en Tampa dota de personal a estas operaciones localmente, colocando trabajadores certificados IPC de electr\u00f3nica, ensambladores de producci\u00f3n, operadores de montacargas y equipos de almac\u00e9n para empleadores en los condados de Hillsborough y Pinellas.",
     "industries": ["Personal de Manufactura Electr\u00f3nica", "Personal de Industria Ligera", "Personal de Almac\u00e9n y 3PL", "Personal de Cadena de Suministro", "Personal Administrativo"],
-    "roles": ["T\u00e9cnicos de ensamble de PCB", "Operadores SMT", "Operadores de soldadura", "Inspectores de QC", "Ensambladores", "Operadores de m\u00e1quinas", "Operadores de montacargas", "Selectores y empacadores de almac\u00e9n", "Trabajadores de producci\u00f3n", "Personal de env\u00edo y recepci\u00f3n"],
+    "roles": ["T\u00e9cnicos de ensamble de PCB", "Operadores SMT", "T\u00e9cnicos de soldadura", "Inspectores de QC", "Ensambladores", "Operadores de m\u00e1quinas", "Operadores de montacargas", "Selectores y empacadores de almac\u00e9n", "Trabajadores de producci\u00f3n", "Personal de env\u00edo y recepci\u00f3n"],
     "proof": [
       { "n": "Tampa Bay", "label": "\u00c1rea de cobertura local" },
       { "n": "48h", "label": "Tiempo promedio de cobertura" },
@@ -399,7 +400,7 @@
       { "title": "Cobertura en 48 horas, asistencia confiable", "desc": "Evaluamos a cada candidato antes de la colocaci\u00f3n: verificaci\u00f3n de antecedentes, prueba de drogas y evaluaci\u00f3n de habilidades. La mayor\u00eda de los pedidos se cubren en 48 horas, con cobertura de emergencia disponible para roles de producci\u00f3n y almac\u00e9n." }
     ],
     "testimonial": {
-      "quote": "Necesit\u00e1bamos operadores de soldadura certificados IPC para una rampa de producci\u00f3n y Pro-Tech entreg\u00f3 trabajadores calificados en menos de 72 horas. Todos ten\u00edan sus certificaciones en orden. Eso nos ahorr\u00f3 semanas de capacitaci\u00f3n en el trabajo.",
+      "quote": "Necesit\u00e1bamos t\u00e9cnicos de soldadura certificados IPC para una rampa de producci\u00f3n y Pro-Tech entreg\u00f3 trabajadores calificados en menos de 72 horas. Todos ten\u00edan sus certificaciones en orden. Eso nos ahorr\u00f3 semanas de capacitaci\u00f3n en el trabajo.",
       "name": "Gerente de Operaciones",
       "co": "Fabricante de Electr\u00f3nica \u00b7 Clearwater, FL"
     },
@@ -412,7 +413,7 @@
       { "q": "\u00bfPueden dotar de personal para turnos nocturnos y fines de semana en el \u00e1rea de Tampa?", "a": "S\u00ed. Reclutamos para turnos diurnos, vespertinos y nocturnos, incluyendo horarios rotativos. Ind\u00edquenos su turno y fecha de inicio cuando env\u00ede su solicitud y buscaremos candidatos que coincidan, no aquellos que necesitar\u00e1n negociar turnos despu\u00e9s de empezar." }
     ],
     "localServices": [
-      { "title": "Personal de Manufactura Electr\u00f3nica", "desc": "T\u00e9cnicos certificados IPC de ensamble de PCB, operadores SMT, operadores de soldadura, inspectores de QC y t\u00e9cnicos de prueba para fabricantes de electr\u00f3nica en el corredor Tampa-Clearwater." },
+      { "title": "Personal de Manufactura Electr\u00f3nica", "desc": "T\u00e9cnicos certificados IPC de ensamble de PCB, operadores SMT, t\u00e9cnicos de soldadura, inspectores de QC y t\u00e9cnicos de prueba para fabricantes de electr\u00f3nica en el corredor Tampa-Clearwater." },
       { "title": "Personal de Industria Ligera", "desc": "Ensambladores, operadores de m\u00e1quinas, trabajadores de producci\u00f3n y personal de control de calidad para fabricantes ligeros en los condados de Hillsborough y Pinellas. Turnos diurnos y nocturnos cubiertos." },
       { "title": "Personal de Almac\u00e9n y Distribuci\u00f3n", "desc": "Operadores de montacargas, selectores, empacadores y personal de env\u00edo/recepci\u00f3n para operaciones de distribuci\u00f3n y 3PL en Brandon, Riverview y Plant City." }
     ],
@@ -436,7 +437,7 @@
     "cities": ["San Jose CA", "Santa Clara CA", "Milpitas CA", "Fremont CA", "Sunnyvale CA", "Santa Cruz CA", "Gilroy CA"],
     "marketIntro": "Silicon Valley tiene una de las concentraciones m\u00e1s altas de fabricantes de electr\u00f3nica, fabricantes por contrato y operaciones de ensamble de PCB en el mundo. San Jose, Santa Clara, Milpitas y Fremont albergan fabricantes OEM de electr\u00f3nica, empresas EMS y operaciones de ensamble adyacentes a semiconductores que requieren trabajadores certificados IPC, no mano de obra gen\u00e9rica. La oficina de Pro-Tech en San Jose se especializa en colocar t\u00e9cnicos certificados de electr\u00f3nica para estos entornos, donde la precisi\u00f3n, la capacitaci\u00f3n y los est\u00e1ndares de cero defectos son innegociables.",
     "industries": ["Personal de Manufactura Electr\u00f3nica", "Personal de Industria Ligera", "Personal de Cadena de Suministro", "Personal Administrativo", "Trabajo General"],
-    "roles": ["T\u00e9cnicos de ensamble de PCB", "Operadores SMT", "Operadores de soldadura (a trav\u00e9s de orificio y reflujo)", "Operadores AOI", "T\u00e9cnicos de retrabajo", "Inspectores de QC", "Ensambladores de arneses de cables", "Asociados de producci\u00f3n", "T\u00e9cnicos de prueba", "Operadores de recubrimiento conformal"],
+    "roles": ["T\u00e9cnicos de ensamble de PCB", "Operadores SMT", "T\u00e9cnicos de soldadura (a trav\u00e9s de orificio y reflujo)", "Operadores AOI", "T\u00e9cnicos de retrabajo", "Inspectores de QC", "Ensambladores de arneses de cables", "Asociados de producci\u00f3n", "T\u00e9cnicos de prueba", "Operadores de recubrimiento conformal"],
     "proof": [
       { "n": "IPC", "label": "Programa de fuerza laboral certificada" },
       { "n": "48-72h", "label": "Tiempo promedio de cobertura" },
@@ -456,13 +457,13 @@
     "faq": [
       { "q": "\u00bfQu\u00e9 \u00e1reas cubre la oficina de San Jose?", "a": "Nuestra oficina de San Jose cubre Silicon Valley y el South Bay: San Jose, Santa Clara, Milpitas, Fremont, Sunnyvale, Mountain View y Gilroy. Tambi\u00e9n cubrimos el corredor de manufactura electr\u00f3nica del East Bay en Fremont y Newark." },
       { "q": "\u00bfProveen trabajadores certificados IPC en San Jose?", "a": "S\u00ed. Capacitamos y certificamos trabajadores en IPC-A-610, IPC-620 y J-STD-001 antes de la colocaci\u00f3n. Nuestros reclutadores de San Jose buscan espec\u00edficamente para roles de manufactura electr\u00f3nica, y los candidatos llegan con certificaciones verificadas y vigentes." },
-      { "q": "\u00bfQu\u00e9 roles de electr\u00f3nica cubren en Silicon Valley?", "a": "T\u00e9cnicos de ensamble de PCB, operadores SMT, operadores de soldadura (a trav\u00e9s de orificio y reflujo), operadores AOI, t\u00e9cnicos de retrabajo, inspectores de QC, ensambladores de arneses de cables, operadores de recubrimiento conformal y t\u00e9cnicos de prueba. Si est\u00e1 en la planta de producci\u00f3n de un fabricante de electr\u00f3nica, lo cubrimos." },
+      { "q": "\u00bfQu\u00e9 roles de electr\u00f3nica cubren en Silicon Valley?", "a": "T\u00e9cnicos de ensamble de PCB, operadores SMT, t\u00e9cnicos de soldadura (a trav\u00e9s de orificio y reflujo), operadores AOI, t\u00e9cnicos de retrabajo, inspectores de QC, ensambladores de arneses de cables, operadores de recubrimiento conformal y t\u00e9cnicos de prueba. Si est\u00e1 en la planta de producci\u00f3n de un fabricante de electr\u00f3nica, lo cubrimos." },
       { "q": "\u00bfQu\u00e9 tan r\u00e1pido pueden cubrir roles de manufactura electr\u00f3nica en San Jose?", "a": "La mayor\u00eda de los roles de electr\u00f3nica se cubren en 48-72 horas. Los roles que requieren certificaciones IPC espec\u00edficas o especializaciones poco comunes pueden tomar un poco m\u00e1s. Mantenemos un canal activo de candidatos certificados en todo el South Bay." },
       { "q": "\u00bfDotan de personal para empresas EMS y fabricantes por contrato en Silicon Valley?", "a": "S\u00ed. Las empresas EMS y los fabricantes por contrato son un tipo de cliente principal para nuestra oficina de San Jose. Entendemos los entornos de m\u00faltiples clientes, alta mezcla y bajo volumen que estas empresas manejan, y evaluamos candidatos en consecuencia." },
       { "q": "\u00bfOfrecen temporal a permanente para t\u00e9cnicos de electr\u00f3nica en San Jose?", "a": "S\u00ed: temporal, temporal a permanente y colocaci\u00f3n directa est\u00e1n disponibles. Muchos fabricantes de electr\u00f3nica de Silicon Valley usan temporal a permanente para evaluar t\u00e9cnicos certificados IPC antes de extender ofertas permanentes, especialmente para roles de QC y retrabajo." }
     ],
     "localServices": [
-      { "title": "Personal de Manufactura Electr\u00f3nica", "desc": "T\u00e9cnicos certificados IPC de ensamble de PCB, operadores SMT, operadores de soldadura, operadores AOI, t\u00e9cnicos de retrabajo e inspectores de QC para fabricantes de electr\u00f3nica y empresas EMS de Silicon Valley." },
+      { "title": "Personal de Manufactura Electr\u00f3nica", "desc": "T\u00e9cnicos certificados IPC de ensamble de PCB, operadores SMT, t\u00e9cnicos de soldadura, operadores AOI, t\u00e9cnicos de retrabajo e inspectores de QC para fabricantes de electr\u00f3nica y empresas EMS de Silicon Valley." },
       { "title": "Personal de Industria Ligera y Producci\u00f3n", "desc": "Ensambladores, asociados de producci\u00f3n, operadores de m\u00e1quinas y apoyo en l\u00ednea para fabricantes ligeros y fabricantes por contrato en San Jose, Santa Clara y Milpitas." },
       { "title": "Personal de Cadena de Suministro y Administrativo", "desc": "Coordinadores de log\u00edstica, especialistas en control de inventario, personal de env\u00edo/recepci\u00f3n y soporte administrativo para operaciones electr\u00f3nicas y fabricantes por contrato en el South Bay." }
     ],
@@ -486,7 +487,7 @@
     "cities": ["Phoenix AZ", "Tempe AZ", "Mesa AZ", "Chandler AZ", "Scottsdale AZ", "Gilbert AZ", "Peoria AZ"],
     "marketIntro": "Phoenix es uno de los mercados industriales de m\u00e1s r\u00e1pido crecimiento en el suroeste. El corredor del East Valley \u2014 Chandler, Mesa, Tempe y Gilbert \u2014 ha atra\u00eddo a importantes fabricantes de semiconductores y operaciones electr\u00f3nicas, convirti\u00e9ndolo en uno de los mercados m\u00e1s activos para trabajadores certificados IPC de electr\u00f3nica fuera de California y Texas. La oficina de Pro-Tech en Phoenix recluta localmente para estos roles, colocando t\u00e9cnicos de ensamble de PCB, trabajadores de producci\u00f3n, personal de almac\u00e9n y soporte de cadena de suministro para fabricantes en toda la metr\u00f3poli.",
     "industries": ["Personal de Manufactura Electr\u00f3nica", "Personal de Industria Ligera", "Personal de Almac\u00e9n y 3PL", "Personal de Cadena de Suministro", "Trabajo General"],
-    "roles": ["T\u00e9cnicos de ensamble de PCB", "Operadores SMT", "Operadores de soldadura", "Inspectores de QC", "Ensambladores", "Operadores de m\u00e1quinas", "Operadores de montacargas", "Selectores y empacadores de almac\u00e9n", "Trabajadores de producci\u00f3n", "Personal de env\u00edo y recepci\u00f3n"],
+    "roles": ["T\u00e9cnicos de ensamble de PCB", "Operadores SMT", "T\u00e9cnicos de soldadura", "Inspectores de QC", "Ensambladores", "Operadores de m\u00e1quinas", "Operadores de montacargas", "Selectores y empacadores de almac\u00e9n", "Trabajadores de producci\u00f3n", "Personal de env\u00edo y recepci\u00f3n"],
     "proof": [
       { "n": "East Valley", "label": "Cobertura del corredor electr\u00f3nico" },
       { "n": "48h", "label": "Tiempo promedio de cobertura" },
@@ -512,7 +513,7 @@
       { "q": "\u00bfOfrecen personal temporal a permanente en Phoenix?", "a": "S\u00ed: temporal, temporal a permanente y colocaci\u00f3n directa est\u00e1n disponibles desde nuestra oficina de Phoenix. Muchos fabricantes de electr\u00f3nica y empleadores de industria ligera de Phoenix usan temporal a permanente para evaluar trabajadores antes de extender ofertas permanentes." }
     ],
     "localServices": [
-      { "title": "Personal de Manufactura Electr\u00f3nica", "desc": "T\u00e9cnicos certificados IPC de ensamble de PCB, operadores SMT, operadores de soldadura, inspectores de QC y asociados de producci\u00f3n para fabricantes de electr\u00f3nica en el corredor Chandler-Mesa-Tempe." },
+      { "title": "Personal de Manufactura Electr\u00f3nica", "desc": "T\u00e9cnicos certificados IPC de ensamble de PCB, operadores SMT, t\u00e9cnicos de soldadura, inspectores de QC y asociados de producci\u00f3n para fabricantes de electr\u00f3nica en el corredor Chandler-Mesa-Tempe." },
       { "title": "Personal de Industria Ligera", "desc": "Ensambladores, operadores de m\u00e1quinas, trabajadores de producci\u00f3n y apoyo en l\u00ednea para fabricantes ligeros en toda la metr\u00f3poli de Phoenix. Turnos diurnos, vespertinos y nocturnos cubiertos." },
       { "title": "Personal de Almac\u00e9n y Distribuci\u00f3n", "desc": "Operadores de montacargas, selectores, empacadores y personal de env\u00edo/recepci\u00f3n para operaciones de distribuci\u00f3n en Phoenix, Mesa y Peoria. Cobertura de emergencia y temporada alta disponible." }
     ],
@@ -527,6 +528,150 @@
       { "label": "Todas las Ubicaciones" }
     ]
   },
+  "cincinnati": {
+    "title": "Agencia de Personal Industrial en Cincinnati OH | Almacén, Logística e Industria Ligera | Pro-Tech",
+    "metaDesc": "Pro-Tech Staffing atiende el mercado de Cincinnati / CVG — trabajadores de almacén, distribución, industria ligera y manufactura electrónica en el Gran Cincinnati y el norte de Kentucky. Tiempo de cobertura de 48 horas.",
+    "h1": "Agencia de personal industrial en Cincinnati, OH. Especialistas en almacén, logística e industria ligera.",
+    "subhead": "Personal de almacén, distribución, industria ligera y manufactura electrónica en el Gran Cincinnati y el centro logístico CVG / norte de Kentucky.",
+    "label": "Cincinnati OH",
+    "cities": [
+      "Cincinnati OH",
+      "Covington KY",
+      "Florence KY",
+      "Hebron KY",
+      "Erlanger KY",
+      "Hamilton OH",
+      "West Chester OH",
+      "Sharonville OH"
+    ],
+    "marketIntro": "Cincinnati se encuentra en el centro de uno de los cruces de carga más activos del país. El aeropuerto CVG — sede del principal centro aéreo de Amazon en EE. UU. y del súper hub de DHL para las Américas — ancla un triángulo logístico del norte de Kentucky que recorre Hebron, Florence y Erlanger, mientras que el Gran Cincinnati suma manufactura aeroespacial, de bienes de consumo y de equipos eléctricos en el lado de Ohio. Pro-Tech cubre este mercado con los puestos de almacén, producción e industria ligera que mantienen en movimiento esa carga y esa manufactura.",
+    "marketSnapshot": {
+      "corridors": "La actividad industrial de Cincinnati sigue tres ejes de carga: la I-75 de norte a sur por Sharonville, West Chester y Monroe; la I-71 hacia Columbus; y el anillo I-275 que rodea el área metropolitana. El triángulo logístico del norte de Kentucky — Hebron, Florence y Erlanger, agrupados alrededor de CVG — concentra la mayor parte del trabajo de distribución y cumplimiento, mientras que el lado de Ohio a lo largo de la I-75 conserva la base manufacturera más antigua desde Evendale hasta Hamilton y Middletown.",
+      "anchorIndustries": "La carga aérea y el cumplimiento de comercio electrónico dominan el corredor de CVG, con el principal hub de Amazon Air en EE. UU. y el súper hub de DHL para las Américas generando una demanda constante de mano de obra de almacén y manejo de materiales. El Gran Cincinnati añade manufactura aeroespacial y de motores de avión en el corredor de Evendale, producción de bienes de consumo y de alimentos y bebidas, y manufactura de equipos eléctricos y automatización en el norte de Kentucky. Más de 300 fabricantes operan en la región.",
+      "laborPool": "La fuerza laboral de Cincinnati y el norte de Kentucky es amplia en trabajadores de almacén, montacargas y producción, sostenida por el clúster logístico de CVG y una larga historia manufacturera a lo largo de la I-75. La disponibilidad en el turno diurno es fuerte; los centros de carga aérea que operan las 24 horas generan una alta demanda de cobertura nocturna y de fin de semana, donde es más difícil encontrar trabajadores confiables. La fuerza laboral abarca ambos lados del río Ohio, con patrones de traslado marcados por la I-75, la I-275 y los cruces del río hacia el norte de Kentucky."
+    },
+    "industries": [
+      "Personal de Almacén y 3PL",
+      "Personal de Industria Ligera",
+      "Personal de Cadena de Suministro",
+      "Personal de Manufactura Electrónica",
+      "Labor General"
+    ],
+    "roles": [
+      "Recolectores y empacadores de almacén",
+      "Operadores de montacargas",
+      "Manejadores de materiales",
+      "Empleados de envío y recepción",
+      "Trabajadores de producción",
+      "Operadores de máquina",
+      "Ensambladores",
+      "Empleados de control de inventario",
+      "Asociados de clasificación",
+      "Trabajadores de labor general"
+    ],
+    "proof": [
+      {
+        "n": "Zona CVG",
+        "label": "Cobertura del Gran Cincinnati y norte de Kentucky"
+      },
+      {
+        "n": "48h",
+        "label": "Tiempo promedio de cobertura"
+      },
+      {
+        "n": "94%",
+        "label": "Tasa de retención de clientes"
+      },
+      {
+        "n": "24/7",
+        "label": "Cobertura de turnos de carga y cumplimiento"
+      }
+    ],
+    "whyUs": [
+      {
+        "title": "Hecho para el centro logístico de CVG",
+        "desc": "Los hubs de Amazon Air y DHL en CVG operan las 24 horas, al igual que los centros de distribución que los abastecen. Cubrimos puestos de almacén, clasificación y manejo de materiales para turnos diurnos, nocturnos y de fin de semana, y evaluamos la confiabilidad de asistencia de la que dependen esas operaciones."
+      },
+      {
+        "title": "Ambos lados del río",
+        "desc": "Nuestros reclutadores trabajan todo el mercado: el triángulo logístico del norte de Kentucky por Florence, Hebron y Erlanger, y el corredor manufacturero de Ohio por la I-75 a través de Sharonville, West Chester y Hamilton. Un solo punto de contacto para cobertura en dos estados."
+      },
+      {
+        "title": "Trabajadores evaluados, respuesta rápida",
+        "desc": "Cada candidato pasa por verificación de antecedentes, prueba antidrogas y entrevista para el turno y el sitio específicos antes de la colocación. La mayoría de los pedidos de almacén e industria ligera se cubren en 48 horas, con cobertura adicional para las temporadas pico de cumplimiento."
+      }
+    ],
+    "testimonial": {
+      "quote": "Necesitábamos cuadrillas de almacén para el segundo y tercer turno cerca del aeropuerto con poco aviso, y Pro-Tech cubrió los pedidos en dos días con personas que de verdad se presentaron. Para una operación de cumplimiento 24/7, esa confiabilidad lo es todo.",
+      "name": "Gerente de Operaciones",
+      "co": "3PL y Cumplimiento · Hebron, KY"
+    },
+    "faq": [
+      {
+        "q": "¿Qué áreas cubre la oficina de Cincinnati?",
+        "a": "Cubrimos el Gran Cincinnati y el norte de Kentucky, incluyendo Covington, Florence, Hebron, Erlanger, Sharonville, West Chester, Hamilton y Middletown. El triángulo logístico del aeropuerto CVG en el norte de Kentucky es un enfoque principal, junto con el corredor manufacturero de la I-75 en el lado de Ohio."
+      },
+      {
+        "q": "¿Qué industrias cubre en Cincinnati?",
+        "a": "Cincinnati cubre principalmente almacén y distribución, industria ligera, cadena de suministro, manufactura electrónica y labor general. El clúster de carga aérea y cumplimiento de comercio electrónico de CVG genera la mayor parte de la demanda de almacén, mientras que el lado de Ohio aporta trabajo de manufactura y ensamblaje."
+      },
+      {
+        "q": "¿Qué tan rápido puede cubrir empleos de almacén e industria ligera en Cincinnati?",
+        "a": "La mayoría de los pedidos de almacén e industria ligera se cubren en 48 horas. Para labor general y aumentos de cumplimiento de alto volumen, a menudo hay disponibilidad el mismo día desde nuestro grupo local activo. Los puestos especializados o certificados pueden tomar de 48 a 72 horas."
+      },
+      {
+        "q": "¿Puede cubrir turnos nocturnos y de fin de semana para las operaciones de carga y cumplimiento de CVG?",
+        "a": "Sí. Los hubs de carga aérea y los centros de distribución alrededor de CVG operan las 24 horas, por lo que reclutamos específicamente para segundo turno, tercer turno y cobertura de fin de semana, y evaluamos a los candidatos para esos horarios desde el principio en lugar de colocar trabajadores de turno diurno que luego piden cambiar."
+      },
+      {
+        "q": "¿Coloca operadores de montacargas y manejadores de materiales en el norte de Kentucky?",
+        "a": "Sí. Verificamos las certificaciones de montacargas y colocamos operadores con experiencia en equipos sentados, de pie, de alcance y recolectores de pedidos para almacenes y centros de distribución en Florence, Hebron, Erlanger y el resto del triángulo logístico del norte de Kentucky."
+      },
+      {
+        "q": "¿Ofrece personal temporal a permanente en Cincinnati?",
+        "a": "Sí — personal temporal, temporal a permanente y colocación directa están disponibles. Muchos distribuidores y fabricantes de Cincinnati usan la modalidad temporal a permanente para evaluar a los trabajadores de almacén y producción antes de hacer ofertas permanentes."
+      }
+    ],
+    "localServices": [
+      {
+        "title": "Personal de Industria Ligera",
+        "desc": "Ensambladores, operadores de máquina y trabajadores de producción para fabricantes a lo largo del corredor de la I-75 desde Sharonville y West Chester hasta Hamilton y Middletown. Turnos diurnos, vespertinos y nocturnos cubiertos."
+      },
+      {
+        "title": "Personal de Almacén y Distribución",
+        "desc": "Recolectores, empacadores, operadores de montacargas, asociados de clasificación y empleados de envío/recepción para las operaciones de cumplimiento y 3PL de la zona de CVG en Hebron, Florence y Erlanger. Cobertura de turnos 24/7 y apoyo para temporadas pico."
+      },
+      {
+        "title": "Personal de Cadena de Suministro y Logística",
+        "desc": "Empleados de control de inventario, coordinadores de logística y manejadores de materiales para las operaciones de carga aérea y distribución que pasan por el centro de carga de Cincinnati / norte de Kentucky."
+      }
+    ],
+    "subMarkets": [
+      {
+        "label": "Florence, KY",
+        "desc": "Centro logístico y de manufactura ligera del norte de Kentucky cerca de CVG a lo largo de la I-75."
+      },
+      {
+        "label": "Hebron, KY",
+        "desc": "Corredor de distribución y carga aérea junto al aeropuerto CVG."
+      },
+      {
+        "label": "West Chester / Sharonville, OH",
+        "desc": "Corredor de manufactura y almacén de la I-75 al norte del centro de Cincinnati."
+      }
+    ],
+    "relatedCities": [
+      {
+        "label": "Richardson TX (Sede)"
+      },
+      {
+        "label": "Tampa FL"
+      },
+      {
+        "label": "Todas las Ubicaciones"
+      }
+    ]
+  },
   "atlanta": {
     "title": "Agencia de Personal Industrial en Atlanta GA | Manufactura Electr\u00f3nica y Almac\u00e9n | Pro-Tech",
     "metaDesc": "Pro-Tech Staffing Atlanta GA coloca trabajadores de manufactura electr\u00f3nica, ensambladores de industria ligera y personal de almac\u00e9n en Atlanta, Norcross, el condado de Gwinnett y el \u00e1rea metropolitana. Cobertura en 48 horas.",
@@ -536,7 +681,7 @@
     "cities": ["Atlanta GA", "Norcross GA", "Duluth GA", "Lawrenceville GA", "Marietta GA", "Smyrna GA", "Peachtree City GA"],
     "marketIntro": "Atlanta es uno de los mercados industriales y log\u00edsticos m\u00e1s activos del sureste. Los corredores I-85 e I-285, que pasan por Norcross, Duluth, Lawrenceville y el condado de Gwinnett, contienen una densa concentraci\u00f3n de fabricantes de electr\u00f3nica, operaciones de industria ligera y centros de distribuci\u00f3n. Nuestra oficina de Atlanta est\u00e1 ubicada en Norcross en el centro de la zona industrial del condado de Gwinnett, dotando de personal a trabajadores de producci\u00f3n, ensambladores, equipos de almac\u00e9n y t\u00e9cnicos de electr\u00f3nica para empleadores en toda la metr\u00f3poli.",
     "industries": ["Personal de Manufactura Electr\u00f3nica", "Personal de Industria Ligera", "Personal de Almac\u00e9n y 3PL", "Personal de Cadena de Suministro", "Personal Administrativo", "Trabajo General"],
-    "roles": ["T\u00e9cnicos de ensamble de PCB", "Operadores SMT", "Operadores de soldadura", "Inspectores de QC", "Ensambladores", "Operadores de m\u00e1quinas", "Operadores de montacargas", "Selectores y empacadores de almac\u00e9n", "Trabajadores de producci\u00f3n", "Personal de env\u00edo y recepci\u00f3n"],
+    "roles": ["T\u00e9cnicos de ensamble de PCB", "Operadores SMT", "T\u00e9cnicos de soldadura", "Inspectores de QC", "Ensambladores", "Operadores de m\u00e1quinas", "Operadores de montacargas", "Selectores y empacadores de almac\u00e9n", "Trabajadores de producci\u00f3n", "Personal de env\u00edo y recepci\u00f3n"],
     "proof": [
       { "n": "ATL", "label": "Cobertura del metro de Atlanta" },
       { "n": "48h", "label": "Tiempo promedio de cobertura" },
@@ -562,7 +707,7 @@
       { "q": "\u00bfPueden dotar de personal para m\u00faltiples turnos en una instalaci\u00f3n de Atlanta?", "a": "S\u00ed. Reclutamos para turnos diurnos, vespertinos y nocturnos, incluyendo horarios rotativos. Ind\u00edquenos sus requisitos de turno cuando env\u00ede su solicitud de personal y buscaremos candidatos que coincidan desde el primer d\u00eda." }
     ],
     "localServices": [
-      { "title": "Personal de Manufactura Electr\u00f3nica", "desc": "T\u00e9cnicos certificados IPC de ensamble de PCB, operadores SMT, operadores de soldadura, inspectores de QC y asociados de producci\u00f3n para fabricantes de electr\u00f3nica en el condado de Gwinnett y el corredor I-85." },
+      { "title": "Personal de Manufactura Electr\u00f3nica", "desc": "T\u00e9cnicos certificados IPC de ensamble de PCB, operadores SMT, t\u00e9cnicos de soldadura, inspectores de QC y asociados de producci\u00f3n para fabricantes de electr\u00f3nica en el condado de Gwinnett y el corredor I-85." },
       { "title": "Personal de Industria Ligera", "desc": "Ensambladores, operadores de m\u00e1quinas, trabajadores de producci\u00f3n y personal de control de calidad para fabricantes ligeros en los condados de Gwinnett, Cobb y Fulton. Turnos diurnos y nocturnos cubiertos." },
       { "title": "Personal de Almac\u00e9n y Distribuci\u00f3n", "desc": "Operadores de montacargas, selectores, empacadores y personal de env\u00edo/recepci\u00f3n para operaciones de distribuci\u00f3n y 3PL en toda la metr\u00f3poli de Atlanta. Cobertura de emergencia y temporada alta disponible." }
     ],

@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { useTranslation } from 'react-i18next'
 import icons from '@/components/icons'
 
-const MARKET_KEYS = ['richardson', 'bedford', 'austin', 'tampa', 'sanjose', 'phoenix']
+const MARKET_KEYS = ['richardson', 'bedford', 'austin', 'tampa', 'sanjose', 'phoenix', 'cincinnati']
 const MARKET_IMGS = {
   richardson: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=70',
   bedford: 'https://images.unsplash.com/photo-1486325212027-8081e485255e?w=600&q=70',
@@ -12,6 +12,7 @@ const MARKET_IMGS = {
   tampa: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&q=70',
   sanjose: 'https://images.unsplash.com/photo-1449034446853-66c86144b0ad?w=600&q=70',
   phoenix: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=70',
+  cincinnati: 'https://images.unsplash.com/photo-1572715376701-98568319fd0b?w=600&q=70',
 }
 const MARKET_HREFS = {
   richardson: '/locations/richardson-tx',
@@ -20,6 +21,7 @@ const MARKET_HREFS = {
   tampa: '/locations/tampa-fl',
   sanjose: '/locations/san-jose-ca',
   phoenix: '/locations/phoenix-az',
+  cincinnati: '/locations/cincinnati-oh',
 }
 
 const DFW_HREFS = {

@@ -60,6 +60,7 @@ export default function Footer() {
                 { label: t('footer.industries.supplyChain'), href: '/industries/supply-chain-logistics' },
                 { label: t('footer.industries.administrative'), href: '/industries/administrative-clerical' },
                 { label: t('footer.industries.generalLabor'), href: '/industries/general-labor' },
+                { label: t('footer.industries.engineering'), href: '/industries/engineering' },
               ].map(({ label, href }) => (
                 <li key={label}><Link href={href} className="text-xs text-fog hover:text-white transition-colors">{label}</Link></li>
               ))}
@@ -76,6 +77,7 @@ export default function Footer() {
                 { label: t('footer.offices.tampa'), href: '/locations/tampa-fl' },
                 { label: t('footer.offices.sanJose'), href: '/locations/san-jose-ca' },
                 { label: t('footer.offices.phoenix'), href: '/locations/phoenix-az' },
+                { label: t('footer.offices.cincinnati'), href: '/locations/cincinnati-oh' },
               ].map(({ label, href }) => (
                 <li key={label} className="flex items-center gap-1.5">
                   <span className="w-3 h-3 text-fog flex-shrink-0">{icons.mapPin}</span>

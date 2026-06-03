@@ -45,6 +45,7 @@ export default function Nav() {
         { label: t('navDropdowns.industries.supplyChainLogistics'), href: '/industries/supply-chain-logistics' },
         { label: t('navDropdowns.industries.administrativeClerical'), href: '/industries/administrative-clerical' },
         { label: t('navDropdowns.industries.generalLabor'), href: '/industries/general-labor' },
+        { label: t('navDropdowns.industries.engineering'), href: '/industries/engineering' },
       ],
     },
     [t('nav.links.locations')]: {

@@ -25,7 +25,8 @@
       "warehouseDistribution": "Almacén y Distribución",
       "supplyChainLogistics": "Cadena de Suministro y Logística",
       "administrativeClerical": "Administrativo y Oficina",
-      "generalLabor": "Trabajo General"
+      "generalLabor": "Trabajo General",
+      "engineering": "Ingeniería"
     },
     "locations": {
       "richardsonTx": "Richardson, TX",
@@ -58,7 +59,8 @@
       "warehouse3pl": "Almacén y 3PL",
       "supplyChain": "Cadena de Suministro",
       "administrative": "Administrativo",
-      "generalLabor": "Trabajo General"
+      "generalLabor": "Trabajo General",
+      "engineering": "Ingeniería"
     },
     "officesHeading": "Oficinas",
     "offices": {
@@ -67,7 +69,8 @@
       "austin": "Austin, TX",
       "tampa": "Tampa, FL",
       "sanJose": "San Jose, CA",
-      "phoenix": "Phoenix, AZ"
+      "phoenix": "Phoenix, AZ",
+      "cincinnati": "Cincinnati, OH"
     },
     "copyright": "© 2025 Pro-Tech Staffing Services. Todos los derechos reservados.",
     "legal": {

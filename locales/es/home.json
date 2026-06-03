@@ -51,10 +51,91 @@
     "eyebrow": "Industrias que Servimos",
     "headline": "Solo dotamos de personal a las industrias que mejor conocemos.",
     "subhead": "Un puesto de almac\u00e9n no es un puesto de electr\u00f3nica. Un operador de m\u00e1quina no es un asistente administrativo. Despu\u00e9s de 30 a\u00f1os en estos entornos, reclutamos por puesto, turno y requisitos de planta, no solo por disponibilidad.",
+    "rolesLabel": "Puestos que cubrimos",
+    "categories": [
+      {
+        "key": "light-industrial",
+        "title": "Industria Ligera",
+        "desc": "Trabajadores de producción, ensamblaje, manufactura electrónica, almacén e industria ligera — evaluados para el turno, el sitio y las habilidades que requiere el puesto.",
+        "roles": [
+          "Ensambladores de Electrónica",
+          "Técnicos de Soldadura",
+          "Operadores SMT",
+          "Operadores de Máquina",
+          "Trabajadores de Producción",
+          "Asociados de Almacén",
+          "Operadores de Montacargas",
+          "Recolectores y Empacadores",
+          "Envío y Recepción"
+        ],
+        "links": [
+          {
+            "label": "Manufactura Electrónica",
+            "href": "/industries/electronics-manufacturing"
+          },
+          {
+            "label": "Industria Ligera",
+            "href": "/industries/light-industrial"
+          },
+          {
+            "label": "Almacén y Distribución",
+            "href": "/industries/warehouse-distribution"
+          },
+          {
+            "label": "Labor General",
+            "href": "/industries/general-labor"
+          }
+        ]
+      },
+      {
+        "key": "engineering",
+        "title": "Ingeniería",
+        "desc": "Talento técnico para equipos de manufactura, producción e ingeniería que necesitan apoyo especializado.",
+        "roles": [
+          "Ingenieros Mecánicos",
+          "Ingenieros Eléctricos",
+          "Ingenieros de Manufactura",
+          "Ingenieros de Calidad",
+          "Ingenieros de Procesos",
+          "Técnicos de Ingeniería"
+        ],
+        "links": [
+          {
+            "label": "Personal de Ingeniería",
+            "href": "/industries/engineering"
+          }
+        ]
+      },
+      {
+        "key": "admin-supply-chain",
+        "title": "Apoyo Administrativo y de Cadena de Suministro",
+        "desc": "Talento de apoyo de oficina, operaciones y cadena de suministro para equipos que necesitan una cobertura confiable de back-office y logística.",
+        "roles": [
+          "Asistentes Administrativos",
+          "Representantes de Servicio al Cliente",
+          "Empleados de Captura de Datos",
+          "Coordinadores de Oficina",
+          "Coordinadores de Logística",
+          "Coordinadores de Inventario",
+          "Asistentes de Compras",
+          "Apoyo de Cadena de Suministro"
+        ],
+        "links": [
+          {
+            "label": "Administrativo y Clerical",
+            "href": "/industries/administrative-clerical"
+          },
+          {
+            "label": "Cadena de Suministro y Logística",
+            "href": "/industries/supply-chain-logistics"
+          }
+        ]
+      }
+    ],
     "list": {
       "electronics": {
         "title": "Personal para Manufactura Electr\u00f3nica",
-        "desc": "Ensamble de PCB, t\u00e9cnicos SMT, operadores de soldadura, inspectores de QC, t\u00e9cnicos de prueba, operadores AOI, t\u00e9cnicos de retrabajo y asociados de producci\u00f3n.",
+        "desc": "Ensamble de PCB, t\u00e9cnicos SMT, t\u00e9cnicos de soldadura, inspectores de QC, t\u00e9cnicos de prueba, operadores AOI, t\u00e9cnicos de retrabajo y asociados de producci\u00f3n.",
         "cert": "Capacitamos y certificamos trabajadores en IPC-610, IPC-620 y J-STD-001."
       },
       "lightIndustrial": {

@@ -46,7 +46,8 @@
     "austin": { "city": "Austin", "state": "TX", "tag": "Trung Tâm TX", "roles": "Công nghiệp nhẹ, điện tử, hành chính", "serving": "Austin · Round Rock · Cedar Park · Pflugerville" },
     "tampa": { "city": "Tampa", "state": "FL", "tag": "Tampa Bay", "roles": "Sản xuất điện tử, công nghiệp nhẹ, kho bãi", "serving": "Tampa · Clearwater · St. Petersburg · Largo" },
     "sanjose": { "city": "San Jose", "state": "CA", "tag": "Silicon Valley", "roles": "Lắp ráp PCB, SMT, sản xuất điện tử, QC", "serving": "San Jose · Santa Clara · Milpitas · Fremont" },
-    "phoenix": { "city": "Phoenix", "state": "AZ", "tag": "Tây Nam", "roles": "Sản xuất điện tử, kho bãi, công nghiệp nhẹ", "serving": "Phoenix · Tempe · Mesa · Chandler" }
+    "phoenix": { "city": "Phoenix", "state": "AZ", "tag": "Tây Nam", "roles": "Sản xuất điện tử, kho bãi, công nghiệp nhẹ", "serving": "Phoenix · Tempe · Mesa · Chandler" },
+    "cincinnati": { "city": "Cincinnati", "state": "OH", "tag": "Khu vực CVG", "roles": "Kho bãi, hậu cần, công nghiệp nhẹ, điện tử", "serving": "Cincinnati · Covington · Florence · Hebron · Erlanger · Hamilton" }
   },
   "detail": {
     "requestWorkers": "Yêu Cầu Nhân Sự",
@@ -525,6 +526,150 @@
       { "label": "Richardson TX (HQ)" },
       { "label": "Tampa FL" },
       { "label": "Tất Cả Địa Điểm" }
+    ]
+  },
+  "cincinnati": {
+    "title": "Công Ty Nhân Sự Công Nghiệp tại Cincinnati OH | Kho Bãi, Hậu Cần & Công Nghiệp Nhẹ | Pro-Tech",
+    "metaDesc": "Pro-Tech Staffing phục vụ thị trường Cincinnati / CVG — nhân viên kho bãi, phân phối, công nghiệp nhẹ và sản xuất điện tử trên khắp Greater Cincinnati và miền bắc Kentucky. Thời gian lấp đầy 48 giờ.",
+    "h1": "Công ty nhân sự công nghiệp tại Cincinnati, OH. Chuyên gia kho bãi, hậu cần và công nghiệp nhẹ.",
+    "subhead": "Nhân sự kho bãi, phân phối, công nghiệp nhẹ và sản xuất điện tử trên khắp Greater Cincinnati và trung tâm hậu cần CVG / miền bắc Kentucky.",
+    "label": "Cincinnati OH",
+    "cities": [
+      "Cincinnati OH",
+      "Covington KY",
+      "Florence KY",
+      "Hebron KY",
+      "Erlanger KY",
+      "Hamilton OH",
+      "West Chester OH",
+      "Sharonville OH"
+    ],
+    "marketIntro": "Cincinnati nằm ở trung tâm một trong những ngã ba vận tải hàng hóa nhộn nhịp nhất nước Mỹ. Sân bay CVG — nơi đặt trung tâm hàng không chính của Amazon tại Mỹ và siêu trung tâm của DHL cho châu Mỹ — là điểm tựa cho tam giác hậu cần miền bắc Kentucky chạy qua Hebron, Florence và Erlanger, trong khi Greater Cincinnati bổ sung sản xuất hàng không vũ trụ, hàng tiêu dùng và thiết bị điện ở phía Ohio. Pro-Tech cung cấp nhân sự cho thị trường này ở các vị trí kho bãi, sản xuất và công nghiệp nhẹ giúp duy trì dòng hàng hóa và sản xuất đó.",
+    "marketSnapshot": {
+      "corridors": "Hoạt động công nghiệp của Cincinnati đi theo ba trục vận tải chính: I-75 theo hướng bắc–nam qua Sharonville, West Chester và Monroe; I-71 về phía Columbus; và đường vành đai I-275 bao quanh khu đô thị. Tam giác hậu cần miền bắc Kentucky — Hebron, Florence và Erlanger, tập trung quanh CVG — đảm nhận phần lớn công việc phân phối và hoàn tất đơn hàng, trong khi phía Ohio dọc theo I-75 giữ nền tảng sản xuất lâu đời từ Evendale lên đến Hamilton và Middletown.",
+      "anchorIndustries": "Vận tải hàng không và hoàn tất đơn hàng thương mại điện tử chiếm ưu thế ở hành lang CVG, với trung tâm chính của Amazon Air tại Mỹ và siêu trung tâm DHL cho châu Mỹ tạo ra nhu cầu liên tục về lao động kho bãi và xử lý vật liệu. Greater Cincinnati bổ sung sản xuất hàng không vũ trụ và động cơ máy bay ở hành lang Evendale, sản xuất hàng tiêu dùng và thực phẩm đồ uống, cùng sản xuất thiết bị điện và tự động hóa trên khắp miền bắc Kentucky. Hơn 300 nhà sản xuất hoạt động trong khu vực.",
+      "laborPool": "Nguồn lao động Cincinnati và miền bắc Kentucky dồi dào về nhân viên kho bãi, xe nâng và sản xuất, được duy trì bởi cụm hậu cần CVG và lịch sử sản xuất lâu đời dọc theo I-75. Khả năng cung ứng ca ngày mạnh; các trung tâm vận tải hàng không hoạt động suốt ngày đêm tạo ra nhu cầu lớn về ca đêm và cuối tuần, nơi khó tìm được nhân viên đáng tin cậy hơn. Nguồn lao động trải dài cả hai bên sông Ohio, với mô hình đi lại được định hình bởi I-75, I-275 và các điểm qua sông vào miền bắc Kentucky."
+    },
+    "industries": [
+      "Nhân Sự Kho Bãi & 3PL",
+      "Nhân Sự Công Nghiệp Nhẹ",
+      "Nhân Sự Chuỗi Cung Ứng",
+      "Nhân Sự Sản Xuất Điện Tử",
+      "Lao Động Phổ Thông"
+    ],
+    "roles": [
+      "Nhân viên lấy hàng và đóng gói kho",
+      "Vận hành viên xe nâng",
+      "Nhân viên xử lý vật liệu",
+      "Nhân viên giao nhận",
+      "Nhân viên sản xuất",
+      "Vận hành máy",
+      "Thợ lắp ráp",
+      "Nhân viên kiểm soát hàng tồn kho",
+      "Nhân viên phân loại",
+      "Lao động phổ thông"
+    ],
+    "proof": [
+      {
+        "n": "Khu vực CVG",
+        "label": "Phạm vi Greater Cincinnati & miền bắc Kentucky"
+      },
+      {
+        "n": "48h",
+        "label": "Thời gian lấp đầy trung bình"
+      },
+      {
+        "n": "94%",
+        "label": "Tỷ lệ giữ chân khách hàng"
+      },
+      {
+        "n": "24/7",
+        "label": "Phủ ca cho vận tải & hoàn tất đơn hàng"
+      }
+    ],
+    "whyUs": [
+      {
+        "title": "Được xây dựng cho trung tâm hậu cần CVG",
+        "desc": "Các trung tâm Amazon Air và DHL tại CVG hoạt động suốt ngày đêm, cũng như các trung tâm phân phối cung cấp cho chúng. Chúng tôi cung cấp nhân sự kho bãi, phân loại và xử lý vật liệu cho ca ngày, ca đêm và cuối tuần — và sàng lọc độ tin cậy về chuyên cần mà các hoạt động đó phụ thuộc vào."
+      },
+      {
+        "title": "Cả hai bên bờ sông",
+        "desc": "Đội ngũ tuyển dụng của chúng tôi làm việc trên toàn thị trường: tam giác hậu cần miền bắc Kentucky qua Florence, Hebron và Erlanger, và hành lang sản xuất Ohio dọc I-75 qua Sharonville, West Chester và Hamilton. Một đầu mối liên hệ cho phạm vi bao phủ trên hai tiểu bang."
+      },
+      {
+        "title": "Nhân viên được sàng lọc, phản hồi nhanh",
+        "desc": "Mỗi ứng viên đều được kiểm tra lý lịch, xét nghiệm ma túy và phỏng vấn cho ca và địa điểm cụ thể trước khi bố trí. Hầu hết đơn hàng kho bãi và công nghiệp nhẹ được lấp đầy trong vòng 48 giờ, với phủ ca tăng cường cho mùa cao điểm hoàn tất đơn hàng."
+      }
+    ],
+    "testimonial": {
+      "quote": "Chúng tôi cần đội kho bãi ca hai và ca ba gần sân bay trong thời gian gấp, và Pro-Tech đã lấp đầy đơn hàng trong hai ngày với những người thực sự đến làm. Đối với hoạt động hoàn tất đơn hàng 24/7, độ tin cậy đó là tất cả.",
+      "name": "Quản Lý Vận Hành",
+      "co": "3PL & Hoàn Tất Đơn Hàng · Hebron, KY"
+    },
+    "faq": [
+      {
+        "q": "Văn phòng Cincinnati phục vụ những khu vực nào?",
+        "a": "Chúng tôi phục vụ Greater Cincinnati và miền bắc Kentucky, bao gồm Covington, Florence, Hebron, Erlanger, Sharonville, West Chester, Hamilton và Middletown. Tam giác hậu cần sân bay CVG ở miền bắc Kentucky là trọng tâm chính, cùng với hành lang sản xuất I-75 ở phía Ohio."
+      },
+      {
+        "q": "Bạn cung cấp nhân sự cho những ngành nào tại Cincinnati?",
+        "a": "Cincinnati chủ yếu cung cấp nhân sự kho bãi và phân phối, công nghiệp nhẹ, chuỗi cung ứng, sản xuất điện tử và lao động phổ thông. Cụm vận tải hàng không và hoàn tất đơn hàng thương mại điện tử CVG tạo ra phần lớn nhu cầu kho bãi, trong khi phía Ohio bổ sung công việc sản xuất và lắp ráp."
+      },
+      {
+        "q": "Bạn có thể lấp đầy việc làm kho bãi và công nghiệp nhẹ tại Cincinnati nhanh đến mức nào?",
+        "a": "Hầu hết đơn hàng kho bãi và công nghiệp nhẹ được lấp đầy trong vòng 48 giờ. Đối với lao động phổ thông và đợt tăng hoàn tất đơn hàng khối lượng lớn, thường có sẵn nhân viên trong ngày từ nguồn lao động địa phương đang hoạt động của chúng tôi. Các vị trí chuyên biệt hoặc có chứng chỉ có thể mất 48–72 giờ."
+      },
+      {
+        "q": "Bạn có thể bố trí ca đêm và cuối tuần cho các hoạt động vận tải và hoàn tất đơn hàng CVG không?",
+        "a": "Có. Các trung tâm vận tải hàng không và trung tâm phân phối quanh CVG hoạt động 24/7, vì vậy chúng tôi tuyển dụng riêng cho ca hai, ca ba và phủ ca cuối tuần — và sàng lọc ứng viên cho những lịch đó ngay từ đầu thay vì bố trí nhân viên ca ngày rồi xin đổi sau."
+      },
+      {
+        "q": "Bạn có bố trí vận hành viên xe nâng và nhân viên xử lý vật liệu ở miền bắc Kentucky không?",
+        "a": "Có. Chúng tôi xác minh chứng chỉ xe nâng và bố trí vận hành viên có kinh nghiệm với xe ngồi, xe đứng, xe vươn và xe lấy hàng cho kho bãi và trung tâm phân phối tại Florence, Hebron, Erlanger và toàn bộ tam giác hậu cần miền bắc Kentucky."
+      },
+      {
+        "q": "Bạn có cung cấp hình thức tạm thời sang chính thức tại Cincinnati không?",
+        "a": "Có — tạm thời, tạm thời sang chính thức và bố trí trực tiếp đều có sẵn. Nhiều nhà phân phối và nhà sản xuất tại Cincinnati sử dụng hình thức tạm thời sang chính thức để đánh giá nhân viên kho bãi và sản xuất trước khi đưa ra đề nghị chính thức."
+      }
+    ],
+    "localServices": [
+      {
+        "title": "Nhân Sự Công Nghiệp Nhẹ",
+        "desc": "Thợ lắp ráp, vận hành máy và nhân viên sản xuất cho các nhà sản xuất dọc hành lang I-75 từ Sharonville và West Chester lên đến Hamilton và Middletown. Lấp đầy ca ngày, ca chiều và ca đêm."
+      },
+      {
+        "title": "Nhân Sự Kho Bãi & Phân Phối",
+        "desc": "Nhân viên lấy hàng, đóng gói, vận hành xe nâng, phân loại và giao nhận cho các hoạt động hoàn tất đơn hàng và 3PL khu vực CVG tại Hebron, Florence và Erlanger. Phủ ca 24/7 và hỗ trợ mùa cao điểm."
+      },
+      {
+        "title": "Nhân Sự Chuỗi Cung Ứng & Hậu Cần",
+        "desc": "Nhân viên kiểm soát hàng tồn kho, điều phối hậu cần và xử lý vật liệu cho các hoạt động vận tải hàng không và phân phối đi qua trung tâm vận tải Cincinnati / miền bắc Kentucky."
+      }
+    ],
+    "subMarkets": [
+      {
+        "label": "Florence, KY",
+        "desc": "Trung tâm hậu cần và sản xuất nhẹ miền bắc Kentucky gần CVG dọc theo I-75."
+      },
+      {
+        "label": "Hebron, KY",
+        "desc": "Hành lang phân phối và vận tải hàng không liền kề sân bay CVG."
+      },
+      {
+        "label": "West Chester / Sharonville, OH",
+        "desc": "Hành lang sản xuất và kho bãi I-75 phía bắc trung tâm Cincinnati."
+      }
+    ],
+    "relatedCities": [
+      {
+        "label": "Richardson TX (Trụ sở)"
+      },
+      {
+        "label": "Tampa FL"
+      },
+      {
+        "label": "Tất Cả Địa Điểm"
+      }
     ]
   },
   "atlanta": {

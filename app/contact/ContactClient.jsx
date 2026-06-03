@@ -12,6 +12,7 @@ const OFFICES = [
   { key: 'tampa',      city: 'Tampa, FL',      address: '10320 49th St N, #103, Clearwater, FL 33762',      phone: '(469) 632-8854', email: 'info@protechstaffing.com', href: '/locations/tampa-fl' },
   { key: 'sanjose',    city: 'San Jose, CA',   address: '1000 Corporate Way, Fremont, CA 94539',            phone: '(408) 667-7990', email: 'info@protechstaffing.com', href: '/locations/san-jose-ca' },
   { key: 'phoenix',    city: 'Phoenix, AZ',    address: 'Phoenix office — coming soon',                     phone: null,             email: 'info@protechstaffing.com', href: '/locations/phoenix-az' },
+  { key: 'cincinnati', city: 'Cincinnati, OH', address: 'CVG-area office — coming soon',                    phone: null,             email: 'info@protechstaffing.com', href: '/locations/cincinnati-oh' },
 ]
 
 export default function ContactClient() {

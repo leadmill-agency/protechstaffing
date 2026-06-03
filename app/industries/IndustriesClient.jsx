@@ -4,13 +4,11 @@ import Link from 'next/link'
 import { useTranslation } from 'react-i18next'
 import icons from '@/components/icons'
 
-const INDUSTRY_SLUGS = [
-  'electronics-manufacturing',
-  'light-industrial',
-  'warehouse-distribution',
-  'supply-chain-logistics',
-  'administrative-clerical',
-  'general-labor',
+// Three client-facing categories grouping the underlying industry detail pages.
+const CATEGORIES = [
+  { key: 'light-industrial', label: 'Light Industrial', slugs: ['electronics-manufacturing', 'light-industrial', 'warehouse-distribution', 'general-labor'] },
+  { key: 'engineering', label: 'Engineering', slugs: ['engineering'] },
+  { key: 'admin-supply-chain', label: 'Administrative & Supply Chain Support', slugs: ['administrative-clerical', 'supply-chain-logistics'] },
 ]
 
 const INDUSTRY_ICONS = {
@@ -20,6 +18,7 @@ const INDUSTRY_ICONS = {
   'supply-chain-logistics': icons.truck,
   'administrative-clerical': icons.clipboard,
   'general-labor': icons.hardhat,
+  'engineering': icons.hammer,
 }
 
 export default function IndustriesPage() {
@@ -62,20 +61,25 @@ export default function IndustriesPage() {
         </div>
       </section>
 
-      {/* Industry Cards */}
+      {/* Industry Cards — grouped under 3 categories */}
       <section className="bg-bone py-16 md:py-24">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="flex flex-col gap-12">
-            {INDUSTRY_SLUGS.map(slug => {
-              const icon = INDUSTRY_ICONS[slug]
-              const cardKey = `industriesPageCards.${slug}`
-              const title = t(`${cardKey}.title`)
-              const desc = t(`${cardKey}.desc`)
-              const cert = t(`${cardKey}.cert`, { defaultValue: '' })
-              const roles = t(`${cardKey}.roles`, { returnObjects: true })
+        <div className="max-w-7xl mx-auto px-6 flex flex-col gap-16">
+          {CATEGORIES.map(category => (
+            <div key={category.key}>
+              <p className="text-xs font-semibold text-ind-green tracking-widest uppercase mb-6 pb-3 border-b border-fog">
+                {category.label}
+              </p>
+              <div className="flex flex-col gap-12">
+                {category.slugs.map(slug => {
+                  const icon = INDUSTRY_ICONS[slug]
+                  const cardKey = `industriesPageCards.${slug}`
+                  const title = t(`${cardKey}.title`)
+                  const desc = t(`${cardKey}.desc`)
+                  const cert = t(`${cardKey}.cert`, { defaultValue: '' })
+                  const roles = t(`${cardKey}.roles`, { returnObjects: true })
 
-              return (
-                <div key={slug} className="bg-white border border-fog overflow-hidden">
+                  return (
+                    <div key={slug} className="bg-white border border-fog overflow-hidden">
                   <div className="grid lg:grid-cols-5 gap-0">
                     {/* Left -- info */}
                     <div className="lg:col-span-3 p-8 md:p-10">
@@ -108,9 +112,11 @@ export default function IndustriesPage() {
                     </div>
                   </div>
                 </div>
-              )
-            })}
-          </div>
+                      )
+                    })}
+              </div>
+            </div>
+          ))}
         </div>
       </section>
 

@@ -29,6 +29,12 @@ const INDUSTRY_DATA = {
     icon: 'hardhat',
     img: 'https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=1000&q=75',
   },
+  // TODO: Confirm final engineering roles and copy with client (placeholder roles for now).
+  engineering: {
+    slug: 'industries/engineering',
+    icon: 'hammer',
+    img: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=1000&q=75',
+  },
 }
 
 export default INDUSTRY_DATA

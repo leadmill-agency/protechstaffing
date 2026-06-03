@@ -48,7 +48,7 @@ export default function RootLayout({ children }) {
     name: 'Pro-Tech Staffing Services',
     url: 'https://www.protechstaffing.com',
     logo: 'https://www.protechstaffing.com/logo.png',
-    description: 'Light industrial, electronic manufacturing, warehouse, and supply chain staffing agency serving Dallas-Fort Worth, Tampa FL, San Jose CA, and Phoenix AZ.',
+    description: 'Light industrial, electronic manufacturing, warehouse, and supply chain staffing agency serving Dallas-Fort Worth, Tampa FL, San Jose CA, Phoenix AZ, and Cincinnati OH.',
     telephone: '+1-000-000-0000',
     email: 'info@protechstaffing.com',
     address: {
@@ -65,6 +65,7 @@ export default function RootLayout({ children }) {
       'Arlington TX', 'Plano TX', 'Irving TX', 'Garland TX',
       'Carrollton TX', 'Austin TX', 'Tampa FL',
       'San Jose CA', 'Phoenix AZ', 'Scottsdale AZ', 'Mesa AZ', 'Tempe AZ', 'Chandler AZ',
+      'Cincinnati OH', 'Covington KY', 'Florence KY', 'Hebron KY', 'Erlanger KY', 'Hamilton OH', 'West Chester OH',
     ],
     knowsAbout: [
       'Light Industrial Staffing', 'Electronic Manufacturing Staffing',

@@ -55,10 +55,10 @@
     "intro": "Electronics manufacturing demands precision, training, and zero tolerance for quality failures. Pro-Tech Staffing specializes in placing IPC-certified technicians for PCB assembly, surface mount technology, soldering, quality control, and testing operations. We train workers to IPC-A-610, IPC-620, and J-STD-001 standards before placement — so they arrive ready to contribute from day one.",
     "imgAlt": "Electronics manufacturing PCB assembly line with technicians",
     "certifications": ["IPC-A-610 (Acceptability of Electronic Assemblies)", "IPC/WHMA-A-620 (Cable & Wire Harness Assemblies)", "J-STD-001 (Soldering Standards)"],
-    "roles": ["PCB assembly technicians", "SMT operators", "Soldering operators (through-hole & reflow)", "AOI (Automated Optical Inspection) operators", "Rework technicians", "Test technicians", "Quality control inspectors", "Production associates", "Wire harness assemblers", "Conformal coating operators"],
+    "roles": ["PCB assembly technicians", "SMT operators", "Soldering Techs (through-hole & reflow)", "AOI (Automated Optical Inspection) operators", "Rework technicians", "Test technicians", "Quality control inspectors", "Production associates", "Wire harness assemblers", "Conformal coating operators"],
     "whyUs": [
       { "title": "IPC-certified workforce", "desc": "We train and certify workers in IPC-A-610, IPC-620, and J-STD-001 before placement. Your candidates arrive with the certifications your production floor requires." },
-      { "title": "30 years in electronics staffing", "desc": "Pro-Tech was built on electronics manufacturing. We understand the difference between a soldering operator and an SMT tech — and we recruit accordingly." },
+      { "title": "30 years in electronics staffing", "desc": "Pro-Tech was built on electronics manufacturing. We understand the difference between a soldering tech and an SMT operator — and we recruit accordingly." },
       { "title": "Quality-first screening", "desc": "Electronics manufacturing has zero margin for error. Every candidate is skills-tested, background checked, and screened for precision work before they reach your floor." }
     ],
     "proof": [
@@ -238,12 +238,93 @@
       { "label": "Administrative & Clerical", "href": "/industries/administrative-clerical" }
     ]
   },
+  "engineering": {
+    "title": "Engineering Staffing | Mechanical, Electrical & Manufacturing Engineers | Pro-Tech Staffing",
+    "metaDesc": "Pro-Tech Staffing places engineering talent — mechanical, electrical, manufacturing, quality, and process engineers, plus engineering technicians — for manufacturing and production teams. 48-hour response.",
+    "h1": "Engineering staffing for manufacturing and production teams.",
+    "subhead": "Mechanical, electrical, manufacturing, quality, and process engineers, plus engineering technicians.",
+    "label": "Engineering",
+    "intro": "Manufacturers sometimes need more than line labor — they need the technical talent that designs, improves, and supports the work. Pro-Tech places mechanical, electrical, manufacturing, quality, and process engineers, along with engineering technicians who bridge the design and the floor. We recruit for the specific discipline, tools, and industry your team works in.",
+    "imgAlt": "Engineer reviewing technical drawings on a manufacturing floor",
+    "certifications": null,
+    "roles": [
+      "Mechanical Engineers",
+      "Electrical Engineers",
+      "Manufacturing Engineers",
+      "Quality Engineers",
+      "Process Engineers",
+      "Engineering Technicians"
+    ],
+    "whyUs": [
+      {
+        "title": "Technical roles, screened properly",
+        "desc": "Engineering placements are not warm-body placements. We screen for the discipline, the tools, and the industry experience the role actually requires — not just a matching job title."
+      },
+      {
+        "title": "Manufacturing context",
+        "desc": "After 30 years staffing production floors, we understand how engineering supports manufacturing — quality, process, and manufacturing engineers who can work alongside the operators and lines we already staff."
+      },
+      {
+        "title": "Flexible engagement",
+        "desc": "Contract, contract-to-hire, and direct placement for project ramps, backfills, and permanent roles. We move on engineering requests with the same urgency as our industrial orders."
+      }
+    ],
+    "proof": [
+      {
+        "n": "Multi",
+        "label": "Mechanical, electrical & process disciplines"
+      },
+      {
+        "n": "Temp & perm",
+        "label": "Contract, contract-to-hire, direct"
+      },
+      {
+        "n": "48h",
+        "label": "Initial response time"
+      },
+      {
+        "n": "30",
+        "label": "Years in manufacturing staffing"
+      }
+    ],
+    "testimonial": {
+      "quote": "We needed a manufacturing engineer to support a new line launch and Pro-Tech understood the role immediately — not a generic recruiter sending mismatched resumes. The candidate fit the floor and the team.",
+      "name": "Engineering Manager",
+      "co": "Manufacturing · DFW, TX"
+    },
+    "relatedIndustries": [
+      {
+        "label": "Electronics Manufacturing",
+        "href": "/industries/electronics-manufacturing"
+      },
+      {
+        "label": "Light Industrial",
+        "href": "/industries/light-industrial"
+      },
+      {
+        "label": "Supply Chain & Logistics",
+        "href": "/industries/supply-chain-logistics"
+      }
+    ]
+  },
   "industriesPageCards": {
+    "engineering": {
+      "title": "Engineering",
+      "desc": "Technical talent for manufacturing, production, and engineering teams that need specialized support.",
+      "roles": [
+        "Mechanical Engineers",
+        "Electrical Engineers",
+        "Manufacturing Engineers",
+        "Quality Engineers",
+        "Process Engineers",
+        "Engineering Technicians"
+      ]
+    },
     "electronics-manufacturing": {
       "title": "Electronics Manufacturing",
-      "desc": "PCB assembly, SMT technicians, soldering operators, QC inspectors, test technicians, AOI operators, rework technicians, and production associates.",
+      "desc": "PCB assembly, SMT operators, soldering techs, QC inspectors, test technicians, AOI operators, rework technicians, and production associates.",
       "cert": "IPC-A-610, IPC-620, and J-STD-001 certified workers available.",
-      "roles": ["PCB assembly technicians", "SMT operators", "Soldering operators", "QC inspectors", "AOI operators", "Rework technicians"]
+      "roles": ["PCB assembly technicians", "SMT operators", "Soldering Techs", "QC inspectors", "AOI operators", "Rework technicians"]
     },
     "light-industrial": {
       "title": "Light Industrial",

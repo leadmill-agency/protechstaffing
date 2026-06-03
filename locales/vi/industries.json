@@ -58,7 +58,7 @@
     "roles": ["Kỹ thuật viên lắp ráp PCB", "Vận hành viên SMT", "Thợ hàn (xuyên lỗ & reflow)", "Vận hành viên AOI (Kiểm Tra Quang Học Tự Động)", "Kỹ thuật viên sửa chữa", "Kỹ thuật viên kiểm tra", "Kiểm tra viên chất lượng", "Nhân viên sản xuất", "Thợ lắp ráp dây điện", "Vận hành viên phủ bảo vệ"],
     "whyUs": [
       { "title": "Đội ngũ có chứng chỉ IPC", "desc": "Chúng tôi đào tạo và cấp chứng chỉ IPC-A-610, IPC-620 và J-STD-001 cho nhân viên trước khi bố trí. Ứng viên đến với các chứng chỉ mà xưởng sản xuất của bạn yêu cầu." },
-      { "title": "30 năm trong nhân sự điện tử", "desc": "Pro-Tech được xây dựng từ ngành sản xuất điện tử. Chúng tôi hiểu sự khác biệt giữa thợ hàn và kỹ thuật viên SMT — và tuyển dụng phù hợp." },
+      { "title": "30 năm trong nhân sự điện tử", "desc": "Pro-Tech được xây dựng từ ngành sản xuất điện tử. Chúng tôi hiểu sự khác biệt giữa thợ hàn và vận hành viên SMT — và tuyển dụng phù hợp." },
       { "title": "Sàng lọc ưu tiên chất lượng", "desc": "Sản xuất điện tử không chấp nhận sai sót. Mỗi ứng viên được kiểm tra kỹ năng, xác minh lý lịch và sàng lọc cho công việc chính xác trước khi đến xưởng." }
     ],
     "proof": [
@@ -238,10 +238,91 @@
       { "label": "Hành Chính & Văn Thư", "href": "/industries/administrative-clerical" }
     ]
   },
+  "engineering": {
+    "title": "Nhân Sự Kỹ Thuật | Kỹ Sư Cơ Khí, Điện & Sản Xuất | Pro-Tech Staffing",
+    "metaDesc": "Pro-Tech Staffing bố trí nhân tài kỹ thuật — kỹ sư cơ khí, điện, sản xuất, chất lượng và quy trình, cùng kỹ thuật viên kỹ thuật — cho các nhóm sản xuất và chế tạo. Phản hồi trong 48 giờ.",
+    "h1": "Nhân sự kỹ thuật cho các nhóm sản xuất và chế tạo.",
+    "subhead": "Kỹ sư cơ khí, điện, sản xuất, chất lượng và quy trình, cùng kỹ thuật viên kỹ thuật.",
+    "label": "Kỹ Thuật",
+    "intro": "Các nhà sản xuất đôi khi cần nhiều hơn lao động dây chuyền — họ cần nhân tài kỹ thuật để thiết kế, cải tiến và hỗ trợ công việc. Pro-Tech bố trí kỹ sư cơ khí, điện, sản xuất, chất lượng và quy trình, cùng các kỹ thuật viên kỹ thuật kết nối giữa thiết kế và xưởng. Chúng tôi tuyển dụng theo đúng chuyên ngành, công cụ và lĩnh vực mà nhóm của bạn đang làm việc.",
+    "imgAlt": "Kỹ sư xem xét bản vẽ kỹ thuật trên xưởng sản xuất",
+    "certifications": null,
+    "roles": [
+      "Kỹ Sư Cơ Khí",
+      "Kỹ Sư Điện",
+      "Kỹ Sư Sản Xuất",
+      "Kỹ Sư Chất Lượng",
+      "Kỹ Sư Quy Trình",
+      "Kỹ Thuật Viên Kỹ Thuật"
+    ],
+    "whyUs": [
+      {
+        "title": "Vị trí kỹ thuật, được sàng lọc đúng cách",
+        "desc": "Bố trí kỹ thuật không phải là bố trí cho có. Chúng tôi sàng lọc theo chuyên ngành, công cụ và kinh nghiệm ngành mà vị trí thực sự yêu cầu — không chỉ là một chức danh trùng khớp."
+      },
+      {
+        "title": "Bối cảnh sản xuất",
+        "desc": "Sau 30 năm cung cấp nhân sự cho các xưởng sản xuất, chúng tôi hiểu cách kỹ thuật hỗ trợ sản xuất — kỹ sư chất lượng, quy trình và sản xuất có thể làm việc cùng các vận hành viên và dây chuyền mà chúng tôi đã bố trí."
+      },
+      {
+        "title": "Hình thức linh hoạt",
+        "desc": "Hợp đồng, hợp đồng sang chính thức và bố trí trực tiếp cho các đợt tăng dự án, thay thế và vị trí chính thức. Chúng tôi xử lý yêu cầu kỹ thuật với mức độ khẩn trương như các đơn hàng công nghiệp."
+      }
+    ],
+    "proof": [
+      {
+        "n": "Đa ngành",
+        "label": "Chuyên ngành cơ khí, điện & quy trình"
+      },
+      {
+        "n": "Tạm & chính thức",
+        "label": "Hợp đồng, hợp đồng sang chính thức, trực tiếp"
+      },
+      {
+        "n": "48h",
+        "label": "Thời gian phản hồi ban đầu"
+      },
+      {
+        "n": "30",
+        "label": "Năm trong ngành nhân sự sản xuất"
+      }
+    ],
+    "testimonial": {
+      "quote": "Chúng tôi cần một kỹ sư sản xuất để hỗ trợ ra mắt dây chuyền mới và Pro-Tech hiểu ngay vị trí — không phải nhà tuyển dụng chung chung gửi hồ sơ không phù hợp. Ứng viên phù hợp với xưởng và đội ngũ.",
+      "name": "Quản Lý Kỹ Thuật",
+      "co": "Sản Xuất · DFW, TX"
+    },
+    "relatedIndustries": [
+      {
+        "label": "Sản Xuất Điện Tử",
+        "href": "/industries/electronics-manufacturing"
+      },
+      {
+        "label": "Công Nghiệp Nhẹ",
+        "href": "/industries/light-industrial"
+      },
+      {
+        "label": "Chuỗi Cung Ứng & Hậu Cần",
+        "href": "/industries/supply-chain-logistics"
+      }
+    ]
+  },
   "industriesPageCards": {
+    "engineering": {
+      "title": "Kỹ Thuật",
+      "desc": "Nhân tài kỹ thuật cho các nhóm sản xuất, chế tạo và kỹ thuật cần hỗ trợ chuyên môn.",
+      "roles": [
+        "Kỹ Sư Cơ Khí",
+        "Kỹ Sư Điện",
+        "Kỹ Sư Sản Xuất",
+        "Kỹ Sư Chất Lượng",
+        "Kỹ Sư Quy Trình",
+        "Kỹ Thuật Viên Kỹ Thuật"
+      ]
+    },
     "electronics-manufacturing": {
       "title": "Sản Xuất Điện Tử",
-      "desc": "Lắp ráp PCB, kỹ thuật viên SMT, thợ hàn, kiểm tra viên QC, kỹ thuật viên kiểm tra, vận hành viên AOI, kỹ thuật viên sửa chữa và nhân viên sản xuất.",
+      "desc": "Lắp ráp PCB, vận hành viên SMT, thợ hàn, kiểm tra viên QC, kỹ thuật viên kiểm tra, vận hành viên AOI, kỹ thuật viên sửa chữa và nhân viên sản xuất.",
       "cert": "Nhân viên có chứng chỉ IPC-A-610, IPC-620 và J-STD-001.",
       "roles": ["Kỹ thuật viên lắp ráp PCB", "Vận hành viên SMT", "Thợ hàn", "Kiểm tra viên QC", "Vận hành viên AOI", "Kỹ thuật viên sửa chữa"]
     },

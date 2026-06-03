@@ -45,6 +45,7 @@ export default function sitemap() {
     'tampa-fl',
     'san-jose-ca',
     'phoenix-az',
+    'cincinnati-oh',
   ].map(slug => ({
     url: `${BASE}/locations/${slug}`,
     changeFrequency: 'weekly',

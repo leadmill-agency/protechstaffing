@@ -124,6 +124,23 @@ const MARKET_DATA = {
     subMarketsHrefs: ['/locations/phoenix-az', '/locations/phoenix-az', '/locations/phoenix-az'],
     relatedCitiesHrefs: ['/locations/richardson-tx', '/locations/tampa-fl', '/locations'],
   },
+  cincinnati: {
+    slug: 'locations/cincinnati-oh',
+    img: 'https://images.unsplash.com/photo-1572715376701-98568319fd0b?w=1000&q=75',
+    officeInfo: {
+      // TODO: Add CVG office address and phone number once client provides them.
+      address: '[ CVG-area office address — to be filled by client ]',
+      city: 'Cincinnati, OH',
+      phone: null,
+      email: 'info@protechstaffing.com',
+      resumes: 'resumes@protechstaffing.com',
+      hours: 'Mon–Fri 8am–5pm',
+      recruiterName: null,
+    },
+    localServicesHrefs: ['/industries/light-industrial', '/industries/warehouse-distribution', '/industries/supply-chain-logistics'],
+    subMarketsHrefs: ['/locations/cincinnati-oh', '/locations/cincinnati-oh', '/locations/cincinnati-oh'],
+    relatedCitiesHrefs: ['/locations/richardson-tx', '/locations/tampa-fl', '/locations'],
+  },
   atlanta: {
     slug: 'locations/atlanta-ga',
     img: 'https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1000&q=75',

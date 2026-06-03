@@ -34,6 +34,7 @@ const SLUG_TO_MARKET = {
   'tampa-fl': 'tampa',
   'san-jose-ca': 'sanjose',
   'phoenix-az': 'phoenix',
+  'cincinnati-oh': 'cincinnati',
 }
 
 // ─── LOCATION PAGE ─────────────────────────────────────────────────────────────
