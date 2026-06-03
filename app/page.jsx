@@ -8,11 +8,10 @@ import MotionFadeIn, { MotionFadeInItem } from '@/components/MotionFadeIn'
 
 function Hero() {
   const { t } = useTranslation('home')
-  // TODO: Replace with client-provided electronics/manufacturing hero asset when available.
-  // Interim image swapped May 2026 — client did not want the prior hard-hat/construction photo,
-  // since Pro-Tech mostly staffs electronics manufacturing, circuit-board, and light-industrial work.
-  const HERO_IMG = 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=1600&q=75'
-  const HERO_ALT = 'Close-up of a printed circuit board on an electronics manufacturing line'
+  // Client-provided hero (June 2026): electronics technician soldering a circuit board.
+  // Source 7680×4050 was resized to 1920px / q68 → ~214KB for web.
+  const HERO_IMG = '/hero.jpg'
+  const HERO_ALT = 'Electronics technician soldering a circuit board at an assembly bench'
 
   return (
     <>

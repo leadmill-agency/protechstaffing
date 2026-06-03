@@ -128,10 +128,9 @@ const MARKET_DATA = {
     slug: 'locations/cincinnati-oh',
     img: 'https://images.unsplash.com/photo-1572715376701-98568319fd0b?w=1000&q=75',
     officeInfo: {
-      // TODO: Add CVG office address and phone number once client provides them.
-      address: '[ CVG-area office address — to be filled by client ]',
-      city: 'Cincinnati, OH',
-      phone: null,
+      address: '75 Cavalier Blvd, Ste 208',
+      city: 'Florence, KY 41042',
+      phone: '(859) 888-1952',
       email: 'info@protechstaffing.com',
       resumes: 'resumes@protechstaffing.com',
       hours: 'Mon–Fri 8am–5pm',
