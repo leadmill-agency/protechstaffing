@@ -32,6 +32,7 @@ export default function sitemap() {
     'supply-chain-logistics',
     'administrative-clerical',
     'general-labor',
+    'engineering',
   ].map(slug => ({
     url: `${BASE}/industries/${slug}`,
     changeFrequency: 'monthly',
