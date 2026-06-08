@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { getAllSlugs, getPostBySlug, estimateReadTime } from '@/lib/blog'
+import icons from '@/components/icons'
 
 const BASE = 'https://www.protechstaffing.com'
 
@@ -54,6 +55,13 @@ export default async function BlogPostPage({ params }) {
       '@type': 'Organization',
       name: post.author || 'Pro-Tech Staffing Services',
       url: BASE,
+      description: post.authorBio || 'Industrial and electronics manufacturing staffing specialists with 30+ years of placement experience.',
+      knowsAbout: [
+        'Industrial Staffing',
+        'Electronics Manufacturing Staffing',
+        'Warehouse & Distribution Staffing',
+        'Light Industrial Staffing',
+      ],
     },
     publisher: {
       '@type': 'Organization',
@@ -100,16 +108,20 @@ export default async function BlogPostPage({ params }) {
           {post.description && (
             <p className="text-steel text-lg leading-relaxed mb-6">{post.description}</p>
           )}
-          <div className="flex items-center gap-3 text-xs text-steel">
-            <span>{formatDate(post.date)}</span>
-            <span aria-hidden>·</span>
-            <span>{readMinutes} min read</span>
-            {post.author && (
-              <>
+          <div className="flex items-center gap-3">
+            <div className="w-9 h-9 rounded-full bg-sig-blue text-bone flex items-center justify-center flex-shrink-0">
+              <span className="w-4 h-4">{icons.users}</span>
+            </div>
+            <div className="text-xs">
+              <p className="font-semibold text-carbon">{post.author || 'Pro-Tech Staffing'}</p>
+              <div className="flex items-center gap-2 text-steel">
+                {post.authorRole && <span>{post.authorRole}</span>}
+                {post.authorRole && <span aria-hidden>·</span>}
+                <span>{formatDate(post.date)}</span>
                 <span aria-hidden>·</span>
-                <span>{post.author}</span>
-              </>
-            )}
+                <span>{readMinutes} min read</span>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -133,10 +145,47 @@ export default async function BlogPostPage({ params }) {
       {/* Body */}
       <section className="bg-white pb-16 md:pb-24">
         <div className="max-w-3xl mx-auto px-6">
+          {/* Answer-first block — direct answer for AI Overviews / featured snippets */}
+          {post.answerFirst && (
+            <div className="answer-first mb-8">
+              <p className="answer-label">Quick answer</p>
+              <p>{post.answerFirst}</p>
+            </div>
+          )}
+          {Array.isArray(post.keyTakeaways) && post.keyTakeaways.length > 0 && (
+            <div className="key-takeaways mb-10">
+              <p className="answer-label">Key takeaways</p>
+              <ul>
+                {post.keyTakeaways.map((item, i) => (
+                  <li key={i}>{item}</li>
+                ))}
+              </ul>
+            </div>
+          )}
+
           <article
             className="blog-content prose-content"
             dangerouslySetInnerHTML={{ __html: post.html }}
           />
+
+          {/* About the author — E-E-A-T trust signal */}
+          {(post.authorBio || post.author) && (
+            <div className="author-about mt-12">
+              <div className="flex items-start gap-3">
+                <div className="w-10 h-10 rounded-full bg-sig-blue text-bone flex items-center justify-center flex-shrink-0">
+                  <span className="w-4 h-4">{icons.users}</span>
+                </div>
+                <div>
+                  <p className="answer-label" style={{ marginBottom: '0.35rem' }}>About the author</p>
+                  <p className="author-name">{post.author || 'Pro-Tech Staffing'}</p>
+                  {post.authorRole && <p className="author-role">{post.authorRole}</p>}
+                  <p className="author-bio">
+                    {post.authorBio || 'Pro-Tech Staffing has placed industrial, electronics manufacturing, warehouse, and light industrial workers for over 30 years across Texas, Florida, California, Arizona, and the Cincinnati / Northern Kentucky market.'}
+                  </p>
+                </div>
+              </div>
+            </div>
+          )}
         </div>
       </section>
 
