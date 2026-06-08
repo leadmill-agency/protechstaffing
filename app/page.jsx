@@ -345,6 +345,9 @@ function Locations() {
                 </Link>
               </MotionFadeInItem>
             ))}
+            {/* Filler keeps the trailing empty grid cell the section colour (white)
+                instead of showing the grey bg-fog divider behind an empty slot. */}
+            <div aria-hidden className="bg-white" />
           </div>
         </MotionFadeIn>
       </div>

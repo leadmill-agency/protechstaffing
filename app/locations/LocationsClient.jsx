@@ -77,7 +77,7 @@ export default function LocationsPage() {
       {/* Market Cards */}
       <section className="bg-bone py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-px bg-fog">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-px bg-fog">
             {MARKET_KEYS.map(key => {
               const city = t(`locationsPageMarkets.${key}.city`)
               const state = t(`locationsPageMarkets.${key}.state`)
@@ -113,6 +113,9 @@ export default function LocationsPage() {
                 ? <Link key={key} href={href} className="bg-white group overflow-hidden block">{inner}</Link>
                 : <div key={key} className="bg-white group overflow-hidden">{inner}</div>
             })}
+            {/* Filler keeps the trailing empty grid cell the section colour (bone)
+                instead of showing the grey bg-fog divider behind an empty slot. */}
+            <div aria-hidden className="bg-bone" />
           </div>
         </div>
       </section>
