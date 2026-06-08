@@ -57,6 +57,7 @@ export default function Nav() {
         { label: t('navDropdowns.locations.tampaFl'), href: '/locations/tampa-fl' },
         { label: t('navDropdowns.locations.sanJoseCa'), href: '/locations/san-jose-ca' },
         { label: t('navDropdowns.locations.phoenixAz'), href: '/locations/phoenix-az' },
+        { label: t('navDropdowns.locations.cincinnatiOh'), href: '/locations/cincinnati-oh' },
       ],
     },
     [t('nav.links.about')]: {

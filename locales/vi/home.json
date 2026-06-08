@@ -14,7 +14,8 @@
       "austinTx": "Austin TX",
       "tampaFl": "Tampa FL",
       "sanJoseCa": "San Jose CA",
-      "phoenixAz": "Phoenix AZ"
+      "phoenixAz": "Phoenix AZ",
+      "cincinnatiOh": "Cincinnati OH"
     }
   },
   "statsBar": {
@@ -231,6 +232,13 @@
         "label": "Tây Nam",
         "roles": "Sản xuất điện tử, kho bãi, công nghiệp nhẹ",
         "serving": "Phoenix · Tempe · Mesa · Chandler"
+      },
+      "cincinnati": {
+        "city": "Cincinnati",
+        "state": "OH",
+        "label": "Khu vực CVG",
+        "roles": "Kho bãi, hậu cần, công nghiệp nhẹ, điện tử",
+        "serving": "Cincinnati · Florence · Covington · Hebron"
       }
     }
   },

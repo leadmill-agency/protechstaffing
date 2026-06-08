@@ -14,7 +14,8 @@
       "austinTx": "Austin TX",
       "tampaFl": "Tampa FL",
       "sanJoseCa": "San Jose CA",
-      "phoenixAz": "Phoenix AZ"
+      "phoenixAz": "Phoenix AZ",
+      "cincinnatiOh": "Cincinnati OH"
     }
   },
   "statsBar": {
@@ -231,6 +232,13 @@
         "label": "Southwest",
         "roles": "Electronics manufacturing, warehouse, light industrial",
         "serving": "Phoenix \u00b7 Tempe \u00b7 Mesa \u00b7 Chandler"
+      },
+      "cincinnati": {
+        "city": "Cincinnati",
+        "state": "OH",
+        "label": "CVG Area",
+        "roles": "Warehouse, logistics, light industrial, electronics",
+        "serving": "Cincinnati · Florence · Covington · Hebron"
       }
     }
   },

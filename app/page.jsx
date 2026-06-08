@@ -307,6 +307,7 @@ function Locations() {
     { city: t('locations.markets.tampa.city'), state: t('locations.markets.tampa.state'), label: t('locations.markets.tampa.label'), roles: t('locations.markets.tampa.roles'), serving: t('locations.markets.tampa.serving'), href: '/locations/tampa-fl', img: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&q=70' },
     { city: t('locations.markets.sanJose.city'), state: t('locations.markets.sanJose.state'), label: t('locations.markets.sanJose.label'), roles: t('locations.markets.sanJose.roles'), serving: t('locations.markets.sanJose.serving'), href: '/locations/san-jose-ca', img: 'https://images.unsplash.com/photo-1449034446853-66c86144b0ad?w=600&q=70' },
     { city: t('locations.markets.phoenix.city'), state: t('locations.markets.phoenix.state'), label: t('locations.markets.phoenix.label'), roles: t('locations.markets.phoenix.roles'), serving: t('locations.markets.phoenix.serving'), href: '/locations/phoenix-az', img: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=70' },
+    { city: t('locations.markets.cincinnati.city'), state: t('locations.markets.cincinnati.state'), label: t('locations.markets.cincinnati.label'), roles: t('locations.markets.cincinnati.roles'), serving: t('locations.markets.cincinnati.serving'), href: '/locations/cincinnati-oh', img: 'https://images.unsplash.com/photo-1572715376701-98568319fd0b?w=600&q=70' },
   ]
 
   return (
@@ -324,7 +325,7 @@ function Locations() {
         </MotionFadeIn>
 
         <MotionFadeIn stagger>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-px bg-fog">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-px bg-fog">
             {markets.map(({ city, state, label, roles, serving, href, img }) => (
               <MotionFadeInItem key={city}>
                 <Link href={href} className="bg-white group overflow-hidden block h-full">
