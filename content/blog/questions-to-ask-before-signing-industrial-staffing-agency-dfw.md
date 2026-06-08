@@ -93,3 +93,5 @@ If you can't get straight answers to these five before signing, that's the most 
 We've staffed industrial, warehouse, and electronics manufacturing roles across DFW for over 30 years, from our Richardson headquarters and our Bedford office. We put our replacement guarantee in writing, structure bill rates transparently, and use a conversion schedule that lets you keep the workers who fit. Your recruiter is local — Richardson for the east DFW corridor, Bedford for Tarrant County — and every worker we place is our W-2 employee, fully covered.
 
 If you're evaluating staffing partners in Dallas-Fort Worth, [submit a staffing request](/employers#contact) or call **(972) 234-0505** and we'll answer all five questions on the first call.
+
+**Related reading:** [How to find reliable industrial staffing in Richardson, TX](/blog/how-to-find-reliable-industrial-staffing-richardson-tx) and, for the Midwest market, [industrial staffing in the CVG logistics corridor](/blog/industrial-staffing-cvg-logistics-corridor-cincinnati).

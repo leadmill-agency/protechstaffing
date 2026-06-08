@@ -6,6 +6,17 @@ import { useTranslation } from 'react-i18next'
 import icons from '@/components/icons'
 import INDUSTRY_DATA from '@/data/industries'
 
+// Industry → location links (hub-and-spoke internal linking).
+const MARKET_LINKS = [
+  { label: 'Richardson, TX', href: '/locations/richardson-tx' },
+  { label: 'Bedford, TX', href: '/locations/bedford-tx' },
+  { label: 'Austin, TX', href: '/locations/austin-tx' },
+  { label: 'Tampa, FL', href: '/locations/tampa-fl' },
+  { label: 'San Jose, CA', href: '/locations/san-jose-ca' },
+  { label: 'Phoenix, AZ', href: '/locations/phoenix-az' },
+  { label: 'Cincinnati, OH', href: '/locations/cincinnati-oh' },
+]
+
 export default function IndustryPage({ params }) {
   const { slug } = use(params)
   const industry = slug
@@ -180,6 +191,23 @@ export default function IndustryPage({ params }) {
               <Link key={href} href={href} className="inline-flex items-center gap-2 border border-fog hover:border-carbon text-steel hover:text-carbon text-sm font-medium px-5 py-2.5 transition-colors rounded-md">
                 {relLabel}
                 <span className="w-3.5 h-3.5">{icons.arrowRight}</span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Markets we staff this industry in (industry → location links) */}
+      <section className="bg-bone py-16 border-t border-fog">
+        <div className="max-w-7xl mx-auto px-6">
+          <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-6">
+            {t('detail.staffedMarkets', { defaultValue: 'Markets We Staff' })}
+          </p>
+          <div className="flex flex-wrap gap-3">
+            {MARKET_LINKS.map(({ label: mLabel, href }) => (
+              <Link key={href} href={href} className="inline-flex items-center gap-2 border border-fog hover:border-carbon text-steel hover:text-carbon text-sm font-medium px-5 py-2.5 transition-colors rounded-md">
+                <span className="w-3.5 h-3.5 text-ind-green">{icons.mapPin}</span>
+                {mLabel}
               </Link>
             ))}
           </div>

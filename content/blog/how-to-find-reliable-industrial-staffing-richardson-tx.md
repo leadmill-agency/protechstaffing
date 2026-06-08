@@ -113,3 +113,5 @@ If your current staffing partner doesn't tick most of those boxes, that's your b
 We've been doing industrial staffing in DFW for over 30 years. Our average time to first qualified candidate is **36 hours**. Every candidate is screened for the specific shift, site, and environment of the role — not just for resume keywords. Our recruiters are based in Richardson and Bedford, not in a call center. We follow up with both the worker and the employer in the first week of every placement. And for electronics manufacturing, our **in-house IPC trainers** certify candidates in IPC-610, IPC-620, and J-STD-001 before they ever step on your floor.
 
 If any of that sounds like what you've been looking for, we'd love to talk. [Submit a staffing request](/employers#contact) or call **(972) 234-0505** and we'll get a recruiter on the phone with you the same day.
+
+**Related reading:** [5 questions to ask before signing with an industrial staffing agency in DFW](/blog/questions-to-ask-before-signing-industrial-staffing-agency-dfw).
