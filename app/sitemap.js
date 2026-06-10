@@ -15,6 +15,7 @@ export default function sitemap() {
     { url: `${BASE}/locations`, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${BASE}/blog`, changeFrequency: 'weekly', priority: 0.7 },
     { url: `${BASE}/request-1095c`, changeFrequency: 'yearly', priority: 0.3 },
+    { url: `${BASE}/leave-a-review`, changeFrequency: 'yearly', priority: 0.3 },
     { url: `${BASE}/privacy-policy`, changeFrequency: 'yearly', priority: 0.3 },
   ]
 
