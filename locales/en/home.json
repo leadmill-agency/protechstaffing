@@ -19,16 +19,31 @@
     }
   },
   "statsBar": {
-    "workersPlaced": { "number": "54K+", "label": "Workers placed" },
-    "avgTime": { "number": "36h", "label": "Avg. time to first candidate" },
-    "fillRate": { "number": "97%", "label": "On-time fill rate" },
-    "clientsReorder": { "number": "94%", "label": "Clients reorder within 30 days" },
-    "yearsInBusiness": { "number": "30", "label": "Years in business" }
+    "workersPlaced": {
+      "number": "84K+",
+      "label": "Workers placed"
+    },
+    "avgTime": {
+      "number": "36h",
+      "label": "Avg. time to first candidate"
+    },
+    "fillRate": {
+      "number": "97%",
+      "label": "On-time fill rate"
+    },
+    "clientsReorder": {
+      "number": "94%",
+      "label": "Clients reorder within 30 days"
+    },
+    "yearsInBusiness": {
+      "number": "30",
+      "label": "Years in business"
+    }
   },
   "employers": {
     "eyebrow": "For Employers",
     "headline": "When a shift goes uncovered,\nproduction pays the price.",
-    "body1": "We help employers reduce no-shows, weak fits, retraining, and overtime with faster response, stronger screening, and local recruiters who understand the work.",
+    "body1": "A bad hire doesn't just slow the line — it delays shipments, triggers penalties, and costs you customers. We reduce no-shows, weak fits, and retraining with faster placements, stronger screening, and local recruiters who understand the work.",
     "body2": "You do not need more resumes. You need workers who show up on time, fit the role, and can work safely from day one. That is where we focus.",
     "features": {
       "screening": {
@@ -57,7 +72,7 @@
       {
         "key": "light-industrial",
         "title": "Light Industrial",
-        "desc": "Production, assembly, electronics manufacturing, warehouse, and light industrial workers — screened for the shift, site, and skills the role needs.",
+        "desc": "Production, assembly, electronics manufacturing, and warehouse workers — screened for the shift, site, and skills the role needs.",
         "roles": [
           "Electronics Assemblers",
           "Soldering Techs",
@@ -67,16 +82,15 @@
           "Warehouse Associates",
           "Forklift Operators",
           "Pickers and Packers",
-          "Shipping and Receiving"
+          "Shipping and Receiving",
+          "Quality Control",
+          "Visual Inspection",
+          "Machine Set-Up"
         ],
         "links": [
           {
             "label": "Electronics Manufacturing",
             "href": "/industries/electronics-manufacturing"
-          },
-          {
-            "label": "Light Industrial",
-            "href": "/industries/light-industrial"
           },
           {
             "label": "Warehouse & Distribution",
@@ -91,14 +105,15 @@
       {
         "key": "engineering",
         "title": "Engineering",
-        "desc": "Technical talent for manufacturing, production, and engineering teams that need specialized support.",
+        "desc": "Hiring the technical talent manufacturing teams need.",
         "roles": [
           "Mechanical Engineers",
           "Electrical Engineers",
           "Manufacturing Engineers",
           "Quality Engineers",
           "Process Engineers",
-          "Engineering Technicians"
+          "Engineering Technicians",
+          "Programmer"
         ],
         "links": [
           {
@@ -110,7 +125,7 @@
       {
         "key": "admin-supply-chain",
         "title": "Administrative & Supply Chain Support",
-        "desc": "Office, operations, and supply chain support talent for teams that need reliable back-office and logistics coverage.",
+        "desc": "Front- and back-office support to help your teams streamline their operations.",
         "roles": [
           "Administrative Assistants",
           "Customer Service Representatives",
@@ -119,7 +134,10 @@
           "Logistics Coordinators",
           "Inventory Coordinators",
           "Purchasing Assistants",
-          "Supply Chain Support"
+          "Supply Chain Support",
+          "Document Control",
+          "Program Managers",
+          "Accounting (AR/AP)"
         ],
         "links": [
           {
@@ -189,49 +207,49 @@
     "headline": "Local recruiters.\nReal market knowledge.",
     "body1": "Industrial hiring is local. Pay expectations, shift preferences, commute range, and labor competition all change by market. That's why each location is supported by a local team that understands the roles, the employers, and the labor pool.",
     "body2": "We recruit in-market so you get faster fills, better attendance, and fewer surprises.",
-    "viewMarket": "View market \u2192",
+    "viewMarket": "View market →",
     "markets": {
       "richardson": {
         "city": "Richardson",
         "state": "TX",
         "label": "Headquarters",
         "roles": "Light industrial, electronics manufacturing, warehouse",
-        "serving": "Dallas \u00b7 Plano \u00b7 Garland \u00b7 Carrollton \u00b7 Richardson"
+        "serving": "Dallas · Plano · Garland · Carrollton · Richardson"
       },
       "bedford": {
         "city": "Bedford",
         "state": "TX",
         "label": "DFW Metro",
         "roles": "Industrial, warehouse, supply chain, general labor",
-        "serving": "Fort Worth \u00b7 Arlington \u00b7 Irving \u00b7 Grand Prairie \u00b7 Bedford"
+        "serving": "Fort Worth · Arlington · Irving · Grand Prairie · Bedford"
       },
       "austin": {
         "city": "Austin",
         "state": "TX",
         "label": "Central TX",
         "roles": "Light industrial, electronics, administrative",
-        "serving": "Austin \u00b7 Round Rock \u00b7 Cedar Park \u00b7 Pflugerville"
+        "serving": "Austin · Round Rock · Cedar Park · Pflugerville"
       },
       "tampa": {
         "city": "Tampa",
         "state": "FL",
         "label": "Tampa Bay",
         "roles": "Electronics manufacturing, light industrial, warehouse",
-        "serving": "Tampa \u00b7 Clearwater \u00b7 St. Petersburg \u00b7 Largo"
+        "serving": "Tampa · Clearwater · St. Petersburg · Largo"
       },
       "sanJose": {
         "city": "San Jose",
         "state": "CA",
         "label": "Silicon Valley",
         "roles": "PCB assembly, SMT, electronics manufacturing, QC",
-        "serving": "San Jose \u00b7 Santa Clara \u00b7 Milpitas \u00b7 Fremont"
+        "serving": "San Jose · Santa Clara · Milpitas · Fremont"
       },
       "phoenix": {
         "city": "Phoenix",
         "state": "AZ",
         "label": "Southwest",
         "roles": "Electronics manufacturing, warehouse, light industrial",
-        "serving": "Phoenix \u00b7 Tempe \u00b7 Mesa \u00b7 Chandler"
+        "serving": "Phoenix · Tempe · Mesa · Chandler"
       },
       "cincinnati": {
         "city": "Cincinnati",
@@ -244,7 +262,7 @@
   },
   "testimonials": {
     "eyebrow": "Client Results",
-    "ratingText": "4.8 \u00b7 120+ verified reviews",
+    "ratingText": "4.8 · 120+ verified reviews",
     "headline": "What teams say.",
     "subhead": "The right staffing partner reduces friction. The wrong one creates more of it.",
     "reviews": {

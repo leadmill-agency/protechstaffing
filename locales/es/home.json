@@ -1,8 +1,8 @@
 {
   "hero": {
-    "eyebrow": "Manufactura Electr\u00f3nica y Personal Industrial",
-    "headline": "Empleos de manufactura e industriales. Cubiertos r\u00e1pido, con el personal adecuado.",
-    "subhead": "30 a\u00f1os conectando trabajadores con roles en electr\u00f3nica, almac\u00e9n e industria en 6 mercados de EE. UU. Reclutadores locales que conocen el trabajo.",
+    "eyebrow": "Manufactura Electrónica y Personal Industrial",
+    "headline": "Empleos de manufactura e industriales. Cubiertos rápido, con el personal adecuado.",
+    "subhead": "30 años conectando trabajadores con roles en electrónica, almacén e industria en 6 mercados de EE. UU. Reclutadores locales que conocen el trabajo.",
     "ctaPrimary": "Solicitar Trabajadores",
     "ctaSecondary": "Buscar Empleos",
     "statChipValue": "36h",
@@ -19,45 +19,60 @@
     }
   },
   "statsBar": {
-    "workersPlaced": { "number": "54K+", "label": "Trabajadores colocados" },
-    "avgTime": { "number": "36h", "label": "Tiempo promedio al primer candidato" },
-    "fillRate": { "number": "97%", "label": "Tasa de cobertura a tiempo" },
-    "clientsReorder": { "number": "94%", "label": "Clientes que vuelven a solicitar en 30 d\u00edas" },
-    "yearsInBusiness": { "number": "30", "label": "A\u00f1os en el negocio" }
+    "workersPlaced": {
+      "number": "84K+",
+      "label": "Trabajadores colocados"
+    },
+    "avgTime": {
+      "number": "36h",
+      "label": "Tiempo promedio al primer candidato"
+    },
+    "fillRate": {
+      "number": "97%",
+      "label": "Tasa de cobertura a tiempo"
+    },
+    "clientsReorder": {
+      "number": "94%",
+      "label": "Clientes que vuelven a solicitar en 30 días"
+    },
+    "yearsInBusiness": {
+      "number": "30",
+      "label": "Años en el negocio"
+    }
   },
   "employers": {
     "eyebrow": "Para Empleadores",
-    "headline": "Cuando un turno queda sin cubrir,\nla producci\u00f3n paga el precio.",
-    "body1": "Ayudamos a los empleadores a reducir ausencias, malas asignaciones, recapacitaci\u00f3n y horas extra con respuesta m\u00e1s r\u00e1pida, mejor selecci\u00f3n y reclutadores locales que entienden el trabajo.",
-    "body2": "No necesita m\u00e1s curr\u00edculos. Necesita trabajadores que lleguen a tiempo, se adapten al puesto y puedan trabajar de forma segura desde el primer d\u00eda. Ah\u00ed es donde nos enfocamos.",
+    "headline": "Cuando un turno queda sin cubrir,\nla producción paga el precio.",
+    "body1": "Una mala contratación no solo frena la línea — retrasa envíos, genera penalizaciones y le cuesta clientes. Reducimos ausencias, malas coincidencias y recapacitación con colocaciones más rápidas, una selección más rigurosa y reclutadores locales que entienden el trabajo.",
+    "body2": "No necesita más currículos. Necesita trabajadores que lleguen a tiempo, se adapten al puesto y puedan trabajar de forma segura desde el primer día. Ahí es donde nos enfocamos.",
     "features": {
       "screening": {
-        "title": "Selecci\u00f3n espec\u00edfica por puesto",
+        "title": "Selección específica por puesto",
         "desc": "Cada candidato es evaluado para el puesto, turno y entorno del sitio antes de llegar a su planta."
       },
       "fastResponse": {
-        "title": "Respuesta r\u00e1pida cuando necesita cobertura",
-        "desc": "Env\u00edenos el puesto, turno, fecha de inicio y rango salarial. Actuamos r\u00e1pidamente."
+        "title": "Respuesta rápida cuando necesita cobertura",
+        "desc": "Envíenos el puesto, turno, fecha de inicio y rango salarial. Actuamos rápidamente."
       },
       "recruiters": {
         "title": "Reclutadores que conocen el trabajo",
-        "desc": "Su equipo trabaja con reclutadores que entienden los puestos, el entorno laboral y c\u00f3mo se ve un buen desempe\u00f1o en la planta."
+        "desc": "Su equipo trabaja con reclutadores que entienden los puestos, el entorno laboral y cómo se ve un buen desempeño en la planta."
       }
     },
     "cta": "Enviar Solicitud de Personal",
     "statChipValue": "94%",
-    "statChipLabel": "de los clientes vuelven a solicitar en 30 d\u00edas"
+    "statChipLabel": "de los clientes vuelven a solicitar en 30 días"
   },
   "industries": {
     "eyebrow": "Industrias que Servimos",
     "headline": "Solo dotamos de personal a las industrias que mejor conocemos.",
-    "subhead": "Un puesto de almac\u00e9n no es un puesto de electr\u00f3nica. Un operador de m\u00e1quina no es un asistente administrativo. Despu\u00e9s de 30 a\u00f1os en estos entornos, reclutamos por puesto, turno y requisitos de planta, no solo por disponibilidad.",
+    "subhead": "Un puesto de almacén no es un puesto de electrónica. Un operador de máquina no es un asistente administrativo. Después de 30 años en estos entornos, reclutamos por puesto, turno y requisitos de planta, no solo por disponibilidad.",
     "rolesLabel": "Puestos que cubrimos",
     "categories": [
       {
         "key": "light-industrial",
         "title": "Industria Ligera",
-        "desc": "Trabajadores de producción, ensamblaje, manufactura electrónica, almacén e industria ligera — evaluados para el turno, el sitio y las habilidades que requiere el puesto.",
+        "desc": "Trabajadores de producción, ensamblaje, manufactura electrónica y almacén — evaluados para el turno, el sitio y las habilidades que requiere el puesto.",
         "roles": [
           "Ensambladores de Electrónica",
           "Técnicos de Soldadura",
@@ -67,16 +82,15 @@
           "Asociados de Almacén",
           "Operadores de Montacargas",
           "Recolectores y Empacadores",
-          "Envío y Recepción"
+          "Envío y Recepción",
+          "Control de Calidad",
+          "Inspección Visual",
+          "Preparación de Máquinas"
         ],
         "links": [
           {
             "label": "Manufactura Electrónica",
             "href": "/industries/electronics-manufacturing"
-          },
-          {
-            "label": "Industria Ligera",
-            "href": "/industries/light-industrial"
           },
           {
             "label": "Almacén y Distribución",
@@ -91,14 +105,15 @@
       {
         "key": "engineering",
         "title": "Ingeniería",
-        "desc": "Talento técnico para equipos de manufactura, producción e ingeniería que necesitan apoyo especializado.",
+        "desc": "Contratamos el talento técnico que necesitan los equipos de manufactura.",
         "roles": [
           "Ingenieros Mecánicos",
           "Ingenieros Eléctricos",
           "Ingenieros de Manufactura",
           "Ingenieros de Calidad",
           "Ingenieros de Procesos",
-          "Técnicos de Ingeniería"
+          "Técnicos de Ingeniería",
+          "Programador"
         ],
         "links": [
           {
@@ -110,7 +125,7 @@
       {
         "key": "admin-supply-chain",
         "title": "Apoyo Administrativo y de Cadena de Suministro",
-        "desc": "Talento de apoyo de oficina, operaciones y cadena de suministro para equipos que necesitan una cobertura confiable de back-office y logística.",
+        "desc": "Apoyo administrativo y de oficina para ayudar a sus equipos a optimizar sus operaciones.",
         "roles": [
           "Asistentes Administrativos",
           "Representantes de Servicio al Cliente",
@@ -119,7 +134,10 @@
           "Coordinadores de Logística",
           "Coordinadores de Inventario",
           "Asistentes de Compras",
-          "Apoyo de Cadena de Suministro"
+          "Apoyo de Cadena de Suministro",
+          "Control de Documentos",
+          "Gerentes de Programa",
+          "Contabilidad (CxC/CxP)"
         ],
         "links": [
           {
@@ -135,25 +153,25 @@
     ],
     "list": {
       "electronics": {
-        "title": "Personal para Manufactura Electr\u00f3nica",
-        "desc": "Ensamble de PCB, t\u00e9cnicos SMT, t\u00e9cnicos de soldadura, inspectores de QC, t\u00e9cnicos de prueba, operadores AOI, t\u00e9cnicos de retrabajo y asociados de producci\u00f3n.",
+        "title": "Personal para Manufactura Electrónica",
+        "desc": "Ensamble de PCB, técnicos SMT, técnicos de soldadura, inspectores de QC, técnicos de prueba, operadores AOI, técnicos de retrabajo y asociados de producción.",
         "cert": "Capacitamos y certificamos trabajadores en IPC-610, IPC-620 y J-STD-001."
       },
       "lightIndustrial": {
         "title": "Personal para Industria Ligera",
-        "desc": "Ensambladores, operadores de m\u00e1quinas, trabajadores de producci\u00f3n, control de calidad, empaque y apoyo en l\u00ednea."
+        "desc": "Ensambladores, operadores de máquinas, trabajadores de producción, control de calidad, empaque y apoyo en línea."
       },
       "warehouse": {
-        "title": "Personal para Almac\u00e9n",
-        "desc": "Selecci\u00f3n, empaque, recepci\u00f3n, operadores de montacargas, env\u00edo, inventario y soporte 3PL."
+        "title": "Personal para Almacén",
+        "desc": "Selección, empaque, recepción, operadores de montacargas, envío, inventario y soporte 3PL."
       },
       "supplyChain": {
         "title": "Personal para Cadena de Suministro",
-        "desc": "Coordinadores de log\u00edstica, control de inventario, env\u00edo y recepci\u00f3n, y personal de apoyo de almac\u00e9n."
+        "desc": "Coordinadores de logística, control de inventario, envío y recepción, y personal de apoyo de almacén."
       },
       "administrative": {
         "title": "Personal Administrativo",
-        "desc": "Captura de datos, atenci\u00f3n al cliente, apoyo de oficina y soporte operativo de back-office."
+        "desc": "Captura de datos, atención al cliente, apoyo de oficina y soporte operativo de back-office."
       },
       "generalLabor": {
         "title": "Trabajo General",
@@ -162,76 +180,76 @@
     }
   },
   "howItWorks": {
-    "eyebrow": "C\u00f3mo Funciona",
-    "headline": "Tres pasos.\nCobertura r\u00e1pida.\nMenos improvisaci\u00f3n.",
-    "body1": "No necesita un proceso de admisi\u00f3n complicado. D\u00edganos lo que necesita y nos ponemos a trabajar.",
-    "body2": "\u00bfNecesita temporal, temporal a permanente o colocaci\u00f3n directa? Manejamos los tres.",
+    "eyebrow": "Cómo Funciona",
+    "headline": "Tres pasos.\nCobertura rápida.\nMenos improvisación.",
+    "body1": "No necesita un proceso de admisión complicado. Díganos lo que necesita y nos ponemos a trabajar.",
+    "body2": "¿Necesita temporal, temporal a permanente o colocación directa? Manejamos los tres.",
     "steps": {
       "step1": {
         "n": "01",
-        "title": "D\u00edganos lo que necesita",
-        "desc": "Env\u00edenos el puesto, turno, ubicaci\u00f3n, fecha de inicio, rango salarial y cualquier requisito indispensable."
+        "title": "Díganos lo que necesita",
+        "desc": "Envíenos el puesto, turno, ubicación, fecha de inicio, rango salarial y cualquier requisito indispensable."
       },
       "step2": {
         "n": "02",
         "title": "Buscamos y evaluamos",
-        "desc": "Nuestros reclutadores recurren a canales locales activos y eval\u00faan por compatibilidad, confiabilidad y disponibilidad."
+        "desc": "Nuestros reclutadores recurren a canales locales activos y evalúan por compatibilidad, confiabilidad y disponibilidad."
       },
       "step3": {
         "n": "03",
         "title": "Los trabajadores llegan listos",
-        "desc": "Los candidatos se presentan preparados para el puesto, y nos mantenemos involucrados para resolver problemas r\u00e1pidamente."
+        "desc": "Los candidatos se presentan preparados para el puesto, y nos mantenemos involucrados para resolver problemas rápidamente."
       }
     }
   },
   "locations": {
     "eyebrow": "Ubicaciones",
     "headline": "Reclutadores locales.\nConocimiento real del mercado.",
-    "body1": "La contrataci\u00f3n industrial es local. Las expectativas salariales, preferencias de turno, rango de traslado y competencia laboral cambian seg\u00fan el mercado. Por eso cada ubicaci\u00f3n cuenta con un equipo local que entiende los puestos, los empleadores y el mercado laboral.",
-    "body2": "Reclutamos en el mercado local para que obtenga coberturas m\u00e1s r\u00e1pidas, mejor asistencia y menos sorpresas.",
-    "viewMarket": "Ver mercado \u2192",
+    "body1": "La contratación industrial es local. Las expectativas salariales, preferencias de turno, rango de traslado y competencia laboral cambian según el mercado. Por eso cada ubicación cuenta con un equipo local que entiende los puestos, los empleadores y el mercado laboral.",
+    "body2": "Reclutamos en el mercado local para que obtenga coberturas más rápidas, mejor asistencia y menos sorpresas.",
+    "viewMarket": "Ver mercado →",
     "markets": {
       "richardson": {
         "city": "Richardson",
         "state": "TX",
         "label": "Sede Principal",
-        "roles": "Industria ligera, manufactura electr\u00f3nica, almac\u00e9n",
-        "serving": "Dallas \u00b7 Plano \u00b7 Garland \u00b7 Carrollton \u00b7 Richardson"
+        "roles": "Industria ligera, manufactura electrónica, almacén",
+        "serving": "Dallas · Plano · Garland · Carrollton · Richardson"
       },
       "bedford": {
         "city": "Bedford",
         "state": "TX",
         "label": "DFW Metro",
-        "roles": "Industrial, almac\u00e9n, cadena de suministro, trabajo general",
-        "serving": "Fort Worth \u00b7 Arlington \u00b7 Irving \u00b7 Grand Prairie \u00b7 Bedford"
+        "roles": "Industrial, almacén, cadena de suministro, trabajo general",
+        "serving": "Fort Worth · Arlington · Irving · Grand Prairie · Bedford"
       },
       "austin": {
         "city": "Austin",
         "state": "TX",
         "label": "Central TX",
-        "roles": "Industria ligera, electr\u00f3nica, administrativo",
-        "serving": "Austin \u00b7 Round Rock \u00b7 Cedar Park \u00b7 Pflugerville"
+        "roles": "Industria ligera, electrónica, administrativo",
+        "serving": "Austin · Round Rock · Cedar Park · Pflugerville"
       },
       "tampa": {
         "city": "Tampa",
         "state": "FL",
         "label": "Tampa Bay",
-        "roles": "Manufactura electr\u00f3nica, industria ligera, almac\u00e9n",
-        "serving": "Tampa \u00b7 Clearwater \u00b7 St. Petersburg \u00b7 Largo"
+        "roles": "Manufactura electrónica, industria ligera, almacén",
+        "serving": "Tampa · Clearwater · St. Petersburg · Largo"
       },
       "sanJose": {
         "city": "San Jose",
         "state": "CA",
         "label": "Silicon Valley",
-        "roles": "Ensamble de PCB, SMT, manufactura electr\u00f3nica, QC",
-        "serving": "San Jose \u00b7 Santa Clara \u00b7 Milpitas \u00b7 Fremont"
+        "roles": "Ensamble de PCB, SMT, manufactura electrónica, QC",
+        "serving": "San Jose · Santa Clara · Milpitas · Fremont"
       },
       "phoenix": {
         "city": "Phoenix",
         "state": "AZ",
         "label": "Suroeste",
-        "roles": "Manufactura electr\u00f3nica, almac\u00e9n, industria ligera",
-        "serving": "Phoenix \u00b7 Tempe \u00b7 Mesa \u00b7 Chandler"
+        "roles": "Manufactura electrónica, almacén, industria ligera",
+        "serving": "Phoenix · Tempe · Mesa · Chandler"
       },
       "cincinnati": {
         "city": "Cincinnati",
@@ -244,27 +262,27 @@
   },
   "testimonials": {
     "eyebrow": "Resultados de Clientes",
-    "ratingText": "4.8 \u00b7 120+ rese\u00f1as verificadas",
+    "ratingText": "4.8 · 120+ reseñas verificadas",
     "headline": "Lo que dicen los equipos.",
-    "subhead": "El socio de personal adecuado reduce la fricci\u00f3n. El incorrecto crea m\u00e1s.",
+    "subhead": "El socio de personal adecuado reduce la fricción. El incorrecto crea más.",
     "reviews": {
       "review1": {
         "headline": "14 puestos cubiertos en 48 horas",
-        "quote": "Pro-Tech cubri\u00f3 14 posiciones para nosotros en menos de 48 horas durante la temporada alta. M\u00e1s importante a\u00fan, los trabajadores se presentaron y 9 se convirtieron en permanentes. Esa consistencia importa m\u00e1s que las promesas.",
+        "quote": "Pro-Tech cubrió 14 posiciones para nosotros en menos de 48 horas durante la temporada alta. Más importante aún, los trabajadores se presentaron y 9 se convirtieron en permanentes. Esa consistencia importa más que las promesas.",
         "name": "Director de Operaciones",
-        "role": "Fabricante de Electr\u00f3nica",
+        "role": "Fabricante de Electrónica",
         "location": "Richardson, TX"
       },
       "review2": {
-        "headline": "Por fin, una agencia que eval\u00faa a los trabajadores",
-        "quote": "Hab\u00edamos trabajado con agencias que segu\u00edan enviando trabajadores sin evaluar. Pro-Tech fue diferente. Entendieron el trabajo, el turno y qu\u00e9 tipo de persona realmente funcionar\u00eda en nuestra planta.",
+        "headline": "Por fin, una agencia que evalúa a los trabajadores",
+        "quote": "Habíamos trabajado con agencias que seguían enviando trabajadores sin evaluar. Pro-Tech fue diferente. Entendieron el trabajo, el turno y qué tipo de persona realmente funcionaría en nuestra planta.",
         "name": "Gerente de RR.HH.",
-        "role": "Almac\u00e9n y 3PL",
+        "role": "Almacén y 3PL",
         "location": "Phoenix, AZ"
       },
       "review3": {
-        "headline": "Capacidad de respuesta que mantiene la producci\u00f3n en movimiento",
-        "quote": "La mayor diferencia es la capacidad de respuesta. Cuando algo cambia, puedo llamarlos y obtener una respuesta real r\u00e1pidamente. Eso ahorra tiempo a mis supervisores y mantiene la producci\u00f3n en movimiento.",
+        "headline": "Capacidad de respuesta que mantiene la producción en movimiento",
+        "quote": "La mayor diferencia es la capacidad de respuesta. Cuando algo cambia, puedo llamarlos y obtener una respuesta real rápidamente. Eso ahorra tiempo a mis supervisores y mantiene la producción en movimiento.",
         "name": "Gerente de Planta",
         "role": "Manufactura Ligera",
         "location": "Tampa, FL"
@@ -273,8 +291,8 @@
   },
   "jobSeekers": {
     "eyebrow": "Para Buscadores de Empleo",
-    "headline": "\u00bfBusca trabajo?\nColocamos personas r\u00e1pido.",
-    "body": "Trabajamos con empresas en entornos de industria ligera, electr\u00f3nica, almac\u00e9n, cadena de suministro y administrativos. Si desea trabajo estable, pago semanal y oportunidades reales para avanzar a puestos temporales a permanentes o de largo plazo, podemos ayudar.",
+    "headline": "¿Busca trabajo?\nColocamos personas rápido.",
+    "body": "Trabajamos con empresas en entornos de industria ligera, electrónica, almacén, cadena de suministro y administrativos. Si desea trabajo estable, pago semanal y oportunidades reales para avanzar a puestos temporales a permanentes o de largo plazo, podemos ayudar.",
     "benefits": {
       "weeklyPay": "Pago semanal",
       "activeOpenings": "Vacantes activas",
@@ -287,10 +305,10 @@
   },
   "ctaBand": {
     "eyebrow": "Comience Ahora",
-    "headline": "\u00bfNecesita trabajadores r\u00e1pido?\nCubramos el puesto.",
-    "body1": "Env\u00edenos el puesto, turno, ubicaci\u00f3n y fecha de inicio. Actuaremos r\u00e1pidamente y le informaremos los pr\u00f3ximos pasos.",
-    "body2": "Personal industrial, electr\u00f3nico, de almac\u00e9n y cadena de suministro en seis mercados activos.",
-    "ctaCall": "Ll\u00e1menos Ahora",
+    "headline": "¿Necesita trabajadores rápido?\nCubramos el puesto.",
+    "body1": "Envíenos el puesto, turno, ubicación y fecha de inicio. Actuaremos rápidamente y le informaremos los próximos pasos.",
+    "body2": "Personal industrial, electrónico, de almacén y cadena de suministro en seis mercados activos.",
+    "ctaCall": "Llámenos Ahora",
     "ctaRequest": "Enviar Solicitud de Personal"
   }
 }

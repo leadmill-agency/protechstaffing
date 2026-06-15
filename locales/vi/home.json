@@ -19,16 +19,31 @@
     }
   },
   "statsBar": {
-    "workersPlaced": { "number": "54K+", "label": "Nhân viên đã bố trí" },
-    "avgTime": { "number": "36h", "label": "Thời gian trung bình tìm ứng viên đầu tiên" },
-    "fillRate": { "number": "97%", "label": "Tỷ lệ lấp đầy đúng hạn" },
-    "clientsReorder": { "number": "94%", "label": "Khách hàng quay lại trong vòng 30 ngày" },
-    "yearsInBusiness": { "number": "30", "label": "Năm hoạt động" }
+    "workersPlaced": {
+      "number": "84K+",
+      "label": "Nhân viên đã bố trí"
+    },
+    "avgTime": {
+      "number": "36h",
+      "label": "Thời gian trung bình tìm ứng viên đầu tiên"
+    },
+    "fillRate": {
+      "number": "97%",
+      "label": "Tỷ lệ lấp đầy đúng hạn"
+    },
+    "clientsReorder": {
+      "number": "94%",
+      "label": "Khách hàng quay lại trong vòng 30 ngày"
+    },
+    "yearsInBusiness": {
+      "number": "30",
+      "label": "Năm hoạt động"
+    }
   },
   "employers": {
     "eyebrow": "Dành Cho Nhà Tuyển Dụng",
     "headline": "Khi một ca làm thiếu người,\nsản xuất phải trả giá.",
-    "body1": "Chúng tôi giúp nhà tuyển dụng giảm tình trạng vắng mặt, nhân sự không phù hợp, đào tạo lại và tăng ca bằng phản hồi nhanh hơn, sàng lọc kỹ hơn và đội ngũ tuyển dụng địa phương am hiểu công việc.",
+    "body1": "Một lần tuyển dụng sai không chỉ làm chậm dây chuyền — nó làm trễ lô hàng, gây ra phạt và khiến bạn mất khách hàng. Chúng tôi giảm tình trạng vắng mặt, ứng viên không phù hợp và đào tạo lại bằng cách bố trí nhanh hơn, sàng lọc kỹ hơn và đội ngũ tuyển dụng địa phương hiểu rõ công việc.",
     "body2": "Bạn không cần thêm hồ sơ. Bạn cần nhân viên đến đúng giờ, phù hợp vai trò và có thể làm việc an toàn ngay từ ngày đầu tiên. Đó là điều chúng tôi tập trung vào.",
     "features": {
       "screening": {
@@ -57,7 +72,7 @@
       {
         "key": "light-industrial",
         "title": "Công Nghiệp Nhẹ",
-        "desc": "Nhân viên sản xuất, lắp ráp, sản xuất điện tử, kho bãi và công nghiệp nhẹ — được sàng lọc theo ca, địa điểm và kỹ năng mà vị trí yêu cầu.",
+        "desc": "Nhân viên sản xuất, lắp ráp, sản xuất điện tử và kho bãi — được sàng lọc theo ca, địa điểm và kỹ năng mà vị trí yêu cầu.",
         "roles": [
           "Thợ Lắp Ráp Điện Tử",
           "Kỹ Thuật Viên Hàn",
@@ -67,16 +82,15 @@
           "Nhân Viên Kho Bãi",
           "Vận Hành Viên Xe Nâng",
           "Nhân Viên Lấy Hàng & Đóng Gói",
-          "Giao Nhận"
+          "Giao Nhận",
+          "Kiểm Soát Chất Lượng",
+          "Kiểm Tra Trực Quan",
+          "Cài Đặt Máy"
         ],
         "links": [
           {
             "label": "Sản Xuất Điện Tử",
             "href": "/industries/electronics-manufacturing"
-          },
-          {
-            "label": "Công Nghiệp Nhẹ",
-            "href": "/industries/light-industrial"
           },
           {
             "label": "Kho Bãi & Phân Phối",
@@ -91,14 +105,15 @@
       {
         "key": "engineering",
         "title": "Kỹ Thuật",
-        "desc": "Nhân tài kỹ thuật cho các nhóm sản xuất, chế tạo và kỹ thuật cần hỗ trợ chuyên môn.",
+        "desc": "Tuyển dụng nhân tài kỹ thuật mà các nhóm sản xuất cần.",
         "roles": [
           "Kỹ Sư Cơ Khí",
           "Kỹ Sư Điện",
           "Kỹ Sư Sản Xuất",
           "Kỹ Sư Chất Lượng",
           "Kỹ Sư Quy Trình",
-          "Kỹ Thuật Viên Kỹ Thuật"
+          "Kỹ Thuật Viên Kỹ Thuật",
+          "Lập Trình Viên"
         ],
         "links": [
           {
@@ -110,7 +125,7 @@
       {
         "key": "admin-supply-chain",
         "title": "Hỗ Trợ Hành Chính & Chuỗi Cung Ứng",
-        "desc": "Nhân tài hỗ trợ văn phòng, vận hành và chuỗi cung ứng cho các nhóm cần hỗ trợ hậu cần và hành chính đáng tin cậy.",
+        "desc": "Hỗ trợ văn phòng trực tiếp và hậu cần giúp các nhóm của bạn tinh giản hoạt động.",
         "roles": [
           "Trợ Lý Hành Chính",
           "Nhân Viên Chăm Sóc Khách Hàng",
@@ -119,7 +134,10 @@
           "Điều Phối Hậu Cần",
           "Điều Phối Hàng Tồn Kho",
           "Trợ Lý Mua Hàng",
-          "Hỗ Trợ Chuỗi Cung Ứng"
+          "Hỗ Trợ Chuỗi Cung Ứng",
+          "Kiểm Soát Tài Liệu",
+          "Quản Lý Chương Trình",
+          "Kế Toán (Phải Thu/Phải Trả)"
         ],
         "links": [
           {

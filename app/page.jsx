@@ -166,10 +166,10 @@ function Employers() {
             <div className="relative">
               <div className="aspect-[3/4] overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=75"
-                  alt="Electronics manufacturing facility worker performing quality control inspection"
+                  src="https://images.unsplash.com/photo-1573164713988-8665fc963095?w=800&q=75"
+                  alt="Technician working on electronics at a clean assembly workstation"
                   className="w-full h-full object-cover"
-                  style={{ filter: 'grayscale(30%) brightness(0.9)' }}
+                  style={{ filter: 'grayscale(10%)' }}
                 />
               </div>
               <div className="hidden sm:block absolute -bottom-4 -right-4 bg-white border border-fog px-5 py-4 shadow-sm max-w-[180px]">
@@ -330,7 +330,7 @@ function Locations() {
               <MotionFadeInItem key={city}>
                 <Link href={href} className="bg-white group overflow-hidden block h-full">
                   <div className="aspect-[16/9] overflow-hidden">
-                    <img src={img} alt={`${city} ${state} industrial staffing office`} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" style={{ filter: 'grayscale(40%) brightness(0.9)' }} />
+                    <img src={img} alt={`${city} ${state} industrial staffing office`} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" style={{ filter: 'grayscale(15%)' }} />
                   </div>
                   <div className="p-5 bg-white group-hover:bg-bone transition-colors">
                     <p className="text-[10px] font-semibold text-ind-green tracking-widest uppercase mb-1">{label}</p>
