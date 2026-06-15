@@ -1,89 +1,113 @@
 {
   "meta": {
-    "title": "Empleadores | Pro-Tech Staffing \u2014 Personal Industrial y de Manufactura",
-    "description": "Solicite trabajadores industriales, de manufactura electr\u00f3nica y de almac\u00e9n de Pro-Tech Staffing. Personal temporal, temporal a permanente, colocaci\u00f3n directa, servicios de n\u00f3mina, PEO y consultor\u00eda."
+    "title": "Empleadores | Pro-Tech Staffing — Personal Industrial y de Manufactura",
+    "description": "Solicite trabajadores industriales, de manufactura electrónica y de almacén de Pro-Tech Staffing. Personal temporal, temporal a permanente, colocación directa, servicios de nómina, PEO y consultoría."
   },
   "hero": {
     "eyebrow": "Para Empleadores",
-    "heading": "\u00bfNecesita trabajadores? Cubramos el puesto.",
-    "description": "D\u00edganos el puesto, turno, ubicaci\u00f3n y fecha de inicio. Actuamos r\u00e1pido y lo mantenemos informado en cada paso.",
+    "heading": "¿Necesita trabajadores? Cubramos el puesto.",
+    "description": "Díganos el puesto, turno, ubicación y fecha de inicio. Actuamos rápido y lo mantenemos informado en cada paso.",
     "ctaSubmit": "Enviar Solicitud de Personal",
     "ctaPhone": "(972) 234-0505",
     "servingNote": "Sirviendo Richardson, Bedford, Austin, Tampa, San Jose y Phoenix.",
-    "imgAlt": "Instalaci\u00f3n de manufactura electr\u00f3nica",
+    "imgAlt": "Instalación de manufactura electrónica",
     "statNumber": "36h",
     "statLabel": "tiempo promedio al primer candidato"
   },
   "services": {
-    "eyebrow": "M\u00e1s All\u00e1 del Personal",
-    "heading": "M\u00e1s que trabajadores temporales.",
-    "description": "La mayor\u00eda de los empleadores solo piensan en Pro-Tech como personal temporal. Ofrecemos una gama completa de soluciones de fuerza laboral dise\u00f1adas para la forma en que los equipos industriales realmente operan.",
+    "eyebrow": "Más Allá del Personal",
+    "heading": "Más que trabajadores temporales.",
+    "description": "La mayoría de los empleadores solo piensan en Pro-Tech como personal temporal. Ofrecemos una gama completa de soluciones de fuerza laboral diseñadas para la forma en que los equipos industriales realmente operan.",
     "temporaryStaffing": {
       "title": "Personal Temporal",
-      "desc": "Cubra turnos r\u00e1pidamente con trabajadores pre-evaluados listos para producci\u00f3n, almac\u00e9n y roles industriales."
+      "desc": "Cubra turnos rápidamente con trabajadores pre-evaluados listos para producción, almacén y roles industriales."
     },
     "tempToHire": {
       "title": "Temporal a Permanente",
-      "desc": "Pruebe antes de comprometerse. Eval\u00fae trabajadores en el puesto antes de convertirlos a tiempo completo."
+      "desc": "Pruebe antes de comprometerse. Evalúe trabajadores en el puesto antes de convertirlos a tiempo completo."
     },
     "directPlacement": {
-      "title": "Colocaci\u00f3n Directa",
-      "desc": "Reclutamos y colocamos empleados permanentes para puestos dif\u00edciles de cubrir para que su equipo pueda enfocarse en la producci\u00f3n."
+      "title": "Colocación Directa",
+      "desc": "Reclutamos y colocamos empleados permanentes para puestos difíciles de cubrir para que su equipo pueda enfocarse en la producción."
     },
     "payrollServices": {
-      "title": "Servicios de N\u00f3mina",
-      "desc": "Delegue la administraci\u00f3n de n\u00f3mina mientras mantiene su fuerza laboral flexible y en cumplimiento."
+      "title": "Servicios de Nómina",
+      "desc": "Delegue la administración de nómina mientras mantiene su fuerza laboral flexible y en cumplimiento."
     },
     "peo": {
-      "title": "PEO (Organizaci\u00f3n Profesional de Empleadores)",
+      "title": "PEO (Organización Profesional de Empleadores)",
       "desc": "Soporte compartido de RR.HH., beneficios y cumplimiento para equipos en crecimiento que necesitan estructura sin gastos generales."
     },
     "consulting": {
-      "title": "Consultor\u00eda (Fuerza Laboral / Tecnolog\u00eda)",
-      "desc": "Orientaci\u00f3n estrat\u00e9gica en planificaci\u00f3n de fuerza laboral, mejora de procesos y adopci\u00f3n de tecnolog\u00eda para operaciones industriales."
+      "title": "Consultoría (Fuerza Laboral / Tecnología)",
+      "desc": "Orientación estratégica en planificación de fuerza laboral, mejora de procesos y adopción de tecnología para operaciones industriales."
     }
   },
   "certification": {
     "eyebrow": "Diferenciador Clave",
     "heading": "Trabajadores certificados antes de llegar a su planta.",
-    "description1": "La queja m\u00e1s grande en personal de manufactura electr\u00f3nica: no hay suficientes candidatos calificados y certificados en el mercado. Las agencias env\u00edan cuerpos. Nosotros enviamos trabajadores capacitados.",
-    "description2": "Pro-Tech cuenta con instructores IPC certificados en su equipo que capacitan y certifican candidatos antes de que comiencen. Sus trabajadores llegan listos para rendir desde el primer d\u00eda.",
+    "description1": "La queja más grande en personal de manufactura electrónica: no hay suficientes candidatos calificados y certificados en el mercado. Las agencias envían cuerpos. Nosotros enviamos trabajadores capacitados.",
+    "description2": "Pro-Tech cuenta con instructores IPC certificados en su equipo que capacitan y certifican candidatos antes de que comiencen. Sus trabajadores llegan listos para rendir desde el primer día.",
     "cta": "Solicitar Trabajadores Certificados",
     "certsEyebrow": "Certificaciones que Impartimos",
     "ipc610": {
       "title": "IPC-610",
-      "subtitle": "Aceptabilidad de Ensambles Electr\u00f3nicos",
-      "desc": "El est\u00e1ndar de la industria para evaluar la calidad del ensamble electr\u00f3nico. Trabajadores capacitados para identificar y clasificar defectos."
+      "subtitle": "Aceptabilidad de Ensambles Electrónicos",
+      "desc": "El estándar de la industria para evaluar la calidad del ensamble electrónico. Trabajadores capacitados para identificar y clasificar defectos."
     },
     "ipc620": {
       "title": "IPC-620",
       "subtitle": "Ensambles de Cables y Arneses",
-      "desc": "Requisitos y criterios de aceptaci\u00f3n para ensambles de cables y arneses utilizados en manufactura electr\u00f3nica."
+      "desc": "Requisitos y criterios de aceptación para ensambles de cables y arneses utilizados en manufactura electrónica."
     },
     "jstd001": {
       "title": "J-STD-001",
       "subtitle": "Soldadura",
-      "desc": "El est\u00e1ndar conjunto de la industria para soldadura. Trabajadores certificados en control de procesos y requisitos de mano de obra."
+      "desc": "El estándar conjunto de la industria para soldadura. Trabajadores certificados en control de procesos y requisitos de mano de obra."
     },
     "footerHighlight": "Instructores IPC certificados internos en nuestro equipo.",
-    "footerNote": "Los candidatos llegan certificados y listos para rendir desde el primer d\u00eda."
+    "footerNote": "Los candidatos llegan certificados y listos para rendir desde el primer día."
   },
   "cta": {
     "eyebrow": "Comience Ahora",
-    "heading": "\u00bfListo para contratar personal?",
-    "description": "Env\u00edenos el puesto, turno, ubicaci\u00f3n y fecha de inicio. Nuestro equipo le responder\u00e1 dentro de un d\u00eda h\u00e1bil.",
-    "callUs": "Ll\u00e1menos",
-    "emailUs": "Env\u00edenos un Correo",
-    "orReachOut": "O cont\u00e1ctenos directamente"
+    "heading": "¿Listo para contratar personal?",
+    "description": "Envíenos el puesto, turno, ubicación y fecha de inicio. Nuestro equipo le responderá dentro de un día hábil.",
+    "callUs": "Llámenos",
+    "emailUs": "Envíenos un Correo",
+    "orReachOut": "O contáctenos directamente"
   },
   "form": {
     "name": "Nombre",
     "company": "Empresa",
-    "phone": "Tel\u00e9fono",
-    "email": "Correo electr\u00f3nico",
-    "message": "\u00bfC\u00f3mo podemos ayudar?",
-    "responseTime": "Le responderemos dentro de un d\u00eda h\u00e1bil.",
+    "phone": "Teléfono",
+    "email": "Correo electrónico",
+    "message": "¿Cómo podemos ayudar?",
+    "responseTime": "Le responderemos dentro de un día hábil.",
     "submit": "Enviar Solicitud",
     "submitting": "Enviando..."
+  },
+  "howItWorks": {
+    "eyebrow": "Cómo Funciona",
+    "heading": "De la solicitud a los trabajadores en sitio — en tres pasos.",
+    "steps": [
+      {
+        "n": "01",
+        "title": "Díganos qué necesita",
+        "desc": "Puesto, número de vacantes, turno, ubicación y fecha de inicio. Sin trámites largos — unos pocos datos nos ponen en marcha."
+      },
+      {
+        "n": "02",
+        "title": "Buscamos y evaluamos localmente",
+        "desc": "Nuestros reclutadores locales recurren a un grupo de talento activo y previamente verificado. Verificación de antecedentes, pruebas antidrogas y evaluación de habilidades y asistencia antes de enviar a alguien."
+      },
+      {
+        "n": "03",
+        "title": "Los trabajadores llegan listos",
+        "desc": "Candidatos evaluados y adecuados al turno llegan a tiempo y listos para contribuir desde el primer día. Hacemos seguimiento en la primera semana para confirmar que encajan."
+      }
+    ],
+    "testimonialQuote": "Pro-Tech cubrió 14 puestos en menos de 48 horas durante la temporada alta. Lo más importante: los trabajadores se presentaron — y 9 pasaron a tiempo completo. Esa constancia importa más que cualquier tarifa.",
+    "testimonialName": "Director de Operaciones",
+    "testimonialCo": "Fabricante de Electrónica · DFW"
   }
 }

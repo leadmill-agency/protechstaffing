@@ -85,5 +85,29 @@
     "responseTime": "We'll respond within one business day.",
     "submit": "Submit Request",
     "submitting": "Sending..."
+  },
+  "howItWorks": {
+    "eyebrow": "How It Works",
+    "heading": "From request to workers on-site — in three steps.",
+    "steps": [
+      {
+        "n": "01",
+        "title": "Tell us what you need",
+        "desc": "Role, headcount, shift, location, and start date. No lengthy intake — a few details get us moving."
+      },
+      {
+        "n": "02",
+        "title": "We source and screen locally",
+        "desc": "Our local recruiters draw from an active, pre-vetted talent pool. Background checks, drug screening, and skills and attendance verification happen before anyone is sent."
+      },
+      {
+        "n": "03",
+        "title": "Workers arrive ready",
+        "desc": "Screened, shift-matched candidates show up on time and ready to contribute from day one. We follow up in the first week to confirm the fit."
+      }
+    ],
+    "testimonialQuote": "Pro-Tech filled 14 positions for us in under 48 hours during peak season. More important, the workers showed up — and 9 converted to full-time. That consistency matters more than any rate card.",
+    "testimonialName": "Operations Director",
+    "testimonialCo": "Electronics Manufacturer · DFW"
   }
 }

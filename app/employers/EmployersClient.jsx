@@ -146,6 +146,38 @@ export default function EmployersPage() {
         </div>
       </section>
 
+      {/* ── How It Works + Proof ── */}
+      <section className="bg-white py-12 md:py-20">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="mb-8 md:mb-12">
+            <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-4">{t('howItWorks.eyebrow')}</p>
+            <h2 className="font-semibold text-carbon text-3xl md:text-4xl leading-tight tracking-tight max-w-2xl">
+              {t('howItWorks.heading')}
+            </h2>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-px bg-fog mb-12">
+            {t('howItWorks.steps', { returnObjects: true }).map(({ n, title, desc }) => (
+              <div key={n} className="bg-white p-8">
+                <p className="font-mono text-sm text-ind-green tracking-widest mb-4">{n}</p>
+                <h3 className="font-semibold text-carbon text-base mb-2">{title}</h3>
+                <p className="text-steel text-sm leading-relaxed">{desc}</p>
+              </div>
+            ))}
+          </div>
+
+          <figure className="border-l-2 border-ind-green pl-6 max-w-3xl">
+            <blockquote className="text-carbon text-lg md:text-xl font-medium leading-relaxed mb-3">
+              "{t('howItWorks.testimonialQuote')}"
+            </blockquote>
+            <figcaption className="text-xs text-steel">
+              <span className="font-semibold text-carbon">{t('howItWorks.testimonialName')}</span>
+              {' · '}{t('howItWorks.testimonialCo')}
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
       {/* ── Contact Form ── */}
       <section id="contact" className="bg-graphite py-14 md:py-20">
         <div className="max-w-4xl mx-auto px-6">

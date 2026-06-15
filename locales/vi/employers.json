@@ -85,5 +85,29 @@
     "responseTime": "Chúng tôi sẽ phản hồi trong vòng một ngày làm việc.",
     "submit": "Gửi Yêu Cầu",
     "submitting": "Đang gửi..."
+  },
+  "howItWorks": {
+    "eyebrow": "Cách Thức Hoạt Động",
+    "heading": "Từ yêu cầu đến nhân viên tại chỗ — chỉ trong ba bước.",
+    "steps": [
+      {
+        "n": "01",
+        "title": "Cho chúng tôi biết bạn cần gì",
+        "desc": "Vị trí, số lượng, ca làm, địa điểm và ngày bắt đầu. Không cần thủ tục dài dòng — vài thông tin là chúng tôi bắt đầu ngay."
+      },
+      {
+        "n": "02",
+        "title": "Chúng tôi tìm và sàng lọc tại địa phương",
+        "desc": "Đội ngũ tuyển dụng địa phương của chúng tôi rút từ nguồn nhân lực đang hoạt động và đã được kiểm tra trước. Kiểm tra lý lịch, xét nghiệm ma túy, đánh giá kỹ năng và chuyên cần trước khi cử bất kỳ ai."
+      },
+      {
+        "n": "03",
+        "title": "Nhân viên đến sẵn sàng",
+        "desc": "Ứng viên đã sàng lọc, phù hợp với ca làm, đến đúng giờ và sẵn sàng đóng góp từ ngày đầu. Chúng tôi theo dõi trong tuần đầu để xác nhận sự phù hợp."
+      }
+    ],
+    "testimonialQuote": "Pro-Tech đã lấp đầy 14 vị trí trong chưa đầy 48 giờ vào mùa cao điểm. Quan trọng hơn, các nhân viên đều có mặt — và 9 người chuyển sang chính thức. Sự ổn định đó quan trọng hơn bất kỳ bảng giá nào.",
+    "testimonialName": "Giám Đốc Vận Hành",
+    "testimonialCo": "Nhà Sản Xuất Điện Tử · DFW"
   }
 }
