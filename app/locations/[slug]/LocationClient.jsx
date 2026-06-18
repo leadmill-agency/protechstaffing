@@ -59,6 +59,7 @@ export default function LocationPage({ params }) {
   const relatedCities = t(`${market}.relatedCities`, { returnObjects: true })
   const marketIntro = t(`${market}.marketIntro`, { defaultValue: '' })
   const marketSnapshot = t(`${market}.marketSnapshot`, { returnObjects: true, defaultValue: null })
+  const hiringGuide = t(`${market}.hiringGuide`, { returnObjects: true, defaultValue: [] })
 
   return (
     <>
@@ -181,6 +182,23 @@ export default function LocationPage({ params }) {
                   <p className="text-steel text-sm leading-relaxed">{marketSnapshot.laborPool}</p>
                 </div>
               )}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* ── 3c. HIRING IN THIS MARKET (Bucket 1, when present) ─────────────── */}
+      {isBucket1 && Array.isArray(hiringGuide) && hiringGuide.length > 0 && (
+        <section className="bg-bone py-16 md:py-24 border-t border-fog">
+          <div className="max-w-3xl mx-auto px-6">
+            <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-3">{t('detail.hiringEyebrow')}</p>
+            <h2 className="font-semibold text-carbon text-3xl leading-tight tracking-tight mb-8">
+              {t('detail.hiringHeading', { label, defaultValue: `Hiring in ${label}.` })}
+            </h2>
+            <div className="flex flex-col gap-5">
+              {hiringGuide.map((para, i) => (
+                <p key={i} className="text-carbon text-base leading-relaxed">{para}</p>
+              ))}
             </div>
           </div>
         </section>
