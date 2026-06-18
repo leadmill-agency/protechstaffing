@@ -34,6 +34,10 @@ export default function IndustryPage({ params }) {
   const whyUs = t(`${industry}.whyUs`, { returnObjects: true })
   const testimonial = t(`${industry}.testimonial`, { returnObjects: true })
   const relatedIndustries = t(`${industry}.relatedIndustries`, { returnObjects: true })
+  // Long-form sections (added for depth/uniqueness). EN-authored; ES/VI fall back to EN.
+  const overview = t(`${industry}.overview`, { returnObjects: true, defaultValue: [] })
+  const hiringFactors = t(`${industry}.hiringFactors`, { returnObjects: true, defaultValue: [] })
+  const faq = t(`${industry}.faq`, { returnObjects: true, defaultValue: [] })
 
   return (
     <>
@@ -87,6 +91,20 @@ export default function IndustryPage({ params }) {
           </div>
         </div>
       </section>
+
+      {/* About This Work (overview) */}
+      {Array.isArray(overview) && overview.length > 0 && (
+        <section className="bg-white py-16 md:py-24 border-b border-fog">
+          <div className="max-w-3xl mx-auto px-6">
+            <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-6">{t('detail.aboutThisWork')}</p>
+            <div className="flex flex-col gap-5">
+              {overview.map((para, i) => (
+                <p key={i} className="text-carbon text-base md:text-lg leading-relaxed">{para}</p>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Roles We Staff */}
       <section className="bg-bone py-16 md:py-24">
@@ -166,6 +184,26 @@ export default function IndustryPage({ params }) {
         </div>
       </section>
 
+      {/* What to Look For */}
+      {Array.isArray(hiringFactors) && hiringFactors.length > 0 && (
+        <section className="bg-white py-16 md:py-24">
+          <div className="max-w-7xl mx-auto px-6">
+            <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-5">{t('detail.whatToLookFor')}</p>
+            <h2 className="font-semibold text-carbon text-3xl leading-tight tracking-tight mb-8 md:mb-12 max-w-2xl">
+              {t('detail.whatToLookForHeading', { defaultValue: `What to look for when hiring ${labelLower} workers.` })}
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              {hiringFactors.map(({ title, desc }) => (
+                <div key={title} className="border-t-2 border-ind-green pt-6">
+                  <h3 className="font-semibold text-carbon text-base mb-2">{title}</h3>
+                  <p className="text-steel text-sm leading-relaxed">{desc}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* Testimonial */}
       <section className="bg-carbon py-14 md:py-20">
         <div className="max-w-3xl mx-auto px-6 text-center">
@@ -181,6 +219,23 @@ export default function IndustryPage({ params }) {
           <p className="text-xs text-steel tracking-widest mt-1">{testimonial.co}</p>
         </div>
       </section>
+
+      {/* FAQ */}
+      {Array.isArray(faq) && faq.length > 0 && (
+        <section className="bg-bone py-16 md:py-24">
+          <div className="max-w-3xl mx-auto px-6">
+            <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-8">{t('detail.faqHeading')}</p>
+            <div className="flex flex-col gap-6">
+              {faq.map(({ q, a }) => (
+                <div key={q} className="border-b border-fog pb-6 last:border-0">
+                  <h3 className="font-semibold text-carbon text-base mb-2">{q}</h3>
+                  <p className="text-steel text-sm leading-relaxed">{a}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Related Industries */}
       <section className="bg-white py-16 border-t border-fog">

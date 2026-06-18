@@ -35,6 +35,31 @@ export function generateStaticParams() {
   ]
 }
 
-export default function IndustryPage({ params }) {
-  return <IndustryClient params={params} />
+// FAQPage schema per industry (only for industries that have a faq array).
+const FAQ_SCHEMA = {}
+for (const [slug, d] of Object.entries(industriesEN)) {
+  if (d && Array.isArray(d.faq) && d.faq.length > 0) {
+    FAQ_SCHEMA[slug] = {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: d.faq.map(({ q, a }) => ({
+        '@type': 'Question',
+        name: q,
+        acceptedAnswer: { '@type': 'Answer', text: a },
+      })),
+    }
+  }
+}
+
+export default async function IndustryPage({ params }) {
+  const { slug } = await params
+  const faqSchema = FAQ_SCHEMA[slug]
+  return (
+    <>
+      {faqSchema && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      )}
+      <IndustryClient params={params} />
+    </>
+  )
 }

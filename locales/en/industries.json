@@ -57,7 +57,10 @@
     "ctaGetStarted": "{{industry}} Staffing · Get Started",
     "ctaHeading": "Need {{industry}} workers?\nWe can help.",
     "ctaDescription": "Submit a request and we'll have screened, qualified candidates ready within 48 hours.",
-    "callUsNow": "Call Us Now"
+    "callUsNow": "Call Us Now",
+    "aboutThisWork": "About This Work",
+    "whatToLookFor": "What to Look For",
+    "faqHeading": "Frequently asked questions"
   },
   "electronics-manufacturing": {
     "title": "Electronics Manufacturing Staffing | IPC Certified | Pro-Tech Staffing",
@@ -133,6 +136,67 @@
       {
         "label": "Supply Chain & Logistics",
         "href": "/industries/supply-chain-logistics"
+      }
+    ],
+    "overview": [
+      "Electronics manufacturing is unlike any other industrial staffing category. A warehouse can absorb a slow learner; a PCB assembly line cannot. The work demands precision, documented training, and a zero-defect mindset — and the cost of a single unqualified worker on the line isn't a slow shift, it's scrapped boards, failed inspections, and missed ship dates. Staffing this work well is a different discipline from filling general labor.",
+      "Pro-Tech was built on electronics manufacturing. Over three decades we've placed PCB assemblers, SMT operators, soldering techs, AOI operators, rework technicians, and QC inspectors for OEMs, contract manufacturers, and EMS companies across our markets — from the Richardson and Garland telecom corridor to the electronics clusters in Tampa Bay, Silicon Valley, and Phoenix's East Valley. We know the roles, the standards, and where the certified talent actually is.",
+      "Most importantly, we close the certification gap that holds these lines back. The industry's recurring complaint is that there simply aren't enough IPC-certified candidates in the market. Our in-house IPC trainers certify workers to IPC-A-610, IPC-620, and J-STD-001 before placement — so candidates arrive production-ready, not as a training project you have to absorb."
+    ],
+    "hiringFactors": [
+      {
+        "title": "A current, specific IPC certification",
+        "desc": "‘Electronics experience’ is not a certification. Confirm the exact standard — IPC-A-610 for inspection, J-STD-001 for hand soldering, IPC-620 for cable and harness — and the certification date, since IPC credentials expire and must be renewed."
+      },
+      {
+        "title": "Demonstrated, not claimed, skill",
+        "desc": "A soldering tech should be able to produce an acceptable joint on your equipment, not just describe one. Insist on hands-on or video skill verification before placement, especially for rework and fine-pitch SMT work."
+      },
+      {
+        "title": "Comfort in a zero-defect environment",
+        "desc": "Electronics QC standards leave no margin for ‘close enough.’ Screen for workers who have operated under documented inspection criteria and understand why a flagged defect matters — not workers transferring straight from general labor."
+      },
+      {
+        "title": "ESD and process discipline",
+        "desc": "Static damage and process shortcuts cause failures that surface weeks later in the field. The right candidate understands ESD handling, traceability, and following a documented process exactly."
+      },
+      {
+        "title": "Shift and ramp flexibility",
+        "desc": "Electronics demand spikes around product launches and seasonal builds. The right partner can scale a certified crew up for a ramp and back down after — without restarting the certification search each time."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What electronics manufacturing roles does Pro-Tech staff?",
+        "a": "PCB assembly technicians, SMT operators, hand-soldering techs (through-hole and reflow), AOI operators, rework and repair technicians, conformal coating operators, wire harness assemblers, test technicians, and QC inspectors. We staff the full production floor of an electronics manufacturer or EMS company on a temporary, temp-to-hire, or direct-placement basis."
+      },
+      {
+        "q": "Do you provide IPC-certified workers?",
+        "a": "Yes. We verify current certifications, and our in-house IPC trainers can certify candidates to IPC-A-610, IPC-620, and J-STD-001 before placement. Candidates arrive with current, documented certifications — not credentials that are still in progress."
+      },
+      {
+        "q": "What is the difference between IPC-A-610, J-STD-001, and IPC-620?",
+        "a": "IPC-A-610 is the acceptability standard for finished electronic assemblies — the QC and inspection baseline. J-STD-001 certifies the hand-soldering process itself. IPC/WHMA-A-620 covers cable and wire harness assembly. A high-reliability or aerospace program may also require the J-STD-001 Space Addendum. We match the certification to the standard your line runs."
+      },
+      {
+        "q": "How fast can you fill electronics manufacturing roles?",
+        "a": "Most roles are filled within 48 hours when we have certified candidates in the local pool. Roles requiring a specific certification or a rare specialization may take 48–72 hours. For new-line ramps or surge needs, tell us early and we will stage candidates ahead of the start date."
+      },
+      {
+        "q": "Can you staff a full SMT or PCB assembly line, not just individuals?",
+        "a": "Yes. We regularly staff complete shifts — operators, inspectors, rework, and leads — for production ramps, second- and third-shift coverage, and seasonal surges. We coordinate the whole crew so the line runs, rather than filling one seat at a time."
+      },
+      {
+        "q": "How do you screen for the precision this work requires?",
+        "a": "Every candidate is skills-verified for the specific role, background-checked, and drug-screened before placement, and we screen specifically for experience in documented, zero-defect environments. Our full screening process is detailed on our How We Screen page."
+      },
+      {
+        "q": "Do you staff for EMS companies and contract manufacturers?",
+        "a": "Yes — EMS and contract manufacturers are a core client type. We understand the high-mix, low-volume environments where the build changes constantly, and we screen for candidates who can move between products and customers without a long re-ramp."
+      },
+      {
+        "q": "Which markets do you staff electronics manufacturing in?",
+        "a": "Our strongest electronics markets are Richardson and Garland (the North Texas telecom corridor), Tampa Bay (the Clearwater–Largo corridor), Silicon Valley (San Jose, Santa Clara, Milpitas, and Fremont), and Phoenix's East Valley. Each has a deep, distinct certified-worker pool our local recruiters know directly."
       }
     ]
   },
