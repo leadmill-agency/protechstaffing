@@ -26,7 +26,6 @@ export const metadata = {
   description: 'Pro-Tech Staffing is a light industrial staffing agency serving Dallas-Fort Worth, Tampa FL, San Jose CA, and Phoenix AZ. Vetted workers placed in 48 hours. Temp, temp-to-hire, and direct placement.',
   robots: 'index, follow',
   metadataBase: new URL('https://www.protechstaffing.com'),
-  alternates: { canonical: '/' },
   openGraph: {
     type: 'website',
     title: 'Industrial Staffing Agency in Dallas TX | Pro-Tech Staffing Services',
