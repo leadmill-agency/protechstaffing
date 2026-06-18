@@ -274,6 +274,77 @@
         "label": "General Labor",
         "href": "/industries/general-labor"
       }
+    ],
+    "overview": [
+      "Light industrial is the backbone of a production floor — the assemblers, machine operators, and production workers who turn parts into finished goods. It is also where staffing goes wrong most often, because \"general labor\" and \"light industrial\" get treated as the same thing. They are not. A machine operator who can hold a tolerance is not interchangeable with a warm body, and staffing the role that way is how you end up with scrap, rework, and turnover.",
+      "Pro-Tech staffs light industrial the way the floor actually runs — by role, shift, and environment. We place assemblers, machine operators, production workers, quality-control and visual-inspection staff, machine set-up techs, and packaging crews for manufacturers in every market we serve. Whether you run a single day shift or a three-shift operation, we recruit for the specific schedule and the specific work, not just availability.",
+      "Thirty years in industrial staffing means our recruiters know the difference between roles that look similar on paper. We screen for the hands-on skills the job needs, verify attendance history, and match candidates to the shift and site before placement — so the person who starts on Monday is one who can do the work and keep showing up.",
+      "We staff light industrial across all of our markets — the electronics and production corridors in Richardson and Garland, the Tarrant County mid-cities out of Bedford, the I-35 growth corridor in Austin, Tampa Bay, Silicon Valley, Phoenix's East Valley, and the Cincinnati / Northern Kentucky logistics hub. Each has a distinct labor pool, and our local recruiters know it directly.",
+      "In practice, that means we fill an assembly bench, a machine line, and an inspection station with three different kinds of workers, screened three different ways. We keep an active local pool so a request becomes candidates in hours, not a sourcing project, and we follow up through the first week to catch a fit problem before it becomes a production gap."
+    ],
+    "hiringFactors": [
+      {
+        "title": "Role-specific skill, not \"general experience\"",
+        "desc": "An assembler, a machine operator, and a QC inspector are different jobs. Define the actual task — what they build, what they run, what they inspect — and screen for that skill directly, not for a generic \"production\" background."
+      },
+      {
+        "title": "Attendance reliability above all",
+        "desc": "On a line, one no-show stalls everyone downstream. Attendance history is the single best predictor of whether a light-industrial placement sticks, so we screen for it before the first shift, not after."
+      },
+      {
+        "title": "Shift and environment fit",
+        "desc": "A worker who is great on a clean day-shift assembly bench may struggle on a loud, fast night-shift line. Match candidates to the real environment — pace, noise, and schedule — up front."
+      },
+      {
+        "title": "Quality awareness",
+        "desc": "Production roles increasingly carry inspection responsibility. Look for workers who understand visual-inspection criteria and why a flagged part matters, not just throughput."
+      },
+      {
+        "title": "Machine set-up and changeover",
+        "desc": "Operations that run short batches need operators who can set up and change over equipment, not just run it. If that is your floor, screen for set-up experience specifically."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What light industrial roles does Pro-Tech staff?",
+        "a": "Assemblers, machine operators, production workers, quality-control and visual-inspection staff, machine set-up techs, packaging and line-support workers, and general production labor — temporary, temp-to-hire, and direct placement."
+      },
+      {
+        "q": "What is the difference between light industrial and general labor?",
+        "a": "General labor is task-based work — loading, moving, cleaning, basic support. Light industrial involves equipment, a process, and quality standards: assembly, machine operation, set-up, and inspection. We staff both, but we do not treat them as interchangeable."
+      },
+      {
+        "q": "Can you fill multiple shifts?",
+        "a": "Yes. We recruit for day, evening, night, and rotating schedules, and we screen candidates for the shift up front so you are not placing day-shift workers who ask to switch after they start."
+      },
+      {
+        "q": "How fast can you fill light industrial roles?",
+        "a": "Most light industrial orders are filled within 48 hours, and general production labor is often available same-day from our active local pool. Specialized roles such as machine set-up or certain QC positions may take a little longer depending on the skill required."
+      },
+      {
+        "q": "Do you screen for quality-control and visual-inspection roles?",
+        "a": "Yes. We verify inspection experience and screen for workers who have worked to documented acceptance criteria, not just production speed."
+      },
+      {
+        "q": "Do you offer temp-to-hire for production roles?",
+        "a": "Yes — temp, temp-to-hire, and direct placement are all available. Temp-to-hire is common for assembly and machine-operator roles, letting you evaluate a worker on the line before making a permanent offer."
+      },
+      {
+        "q": "Are the workers your employees or ours?",
+        "a": "Every worker we place is a Pro-Tech W-2 employee. We carry payroll, workers' compensation, and compliance — our full vetting process is on the How We Screen page."
+      },
+      {
+        "q": "Do you place machine set-up and changeover operators?",
+        "a": "Yes. For short-run and high-mix operations, we screen specifically for operators who can set up and change over equipment, not only run a single configuration."
+      },
+      {
+        "q": "Can you scale a production crew for a seasonal build?",
+        "a": "Yes. We stage screened assemblers, operators, and packaging crews ahead of seasonal or launch-driven ramps and scale back down afterward, so the line is covered without a last-minute scramble."
+      },
+      {
+        "q": "What markets do you staff light industrial in?",
+        "a": "All of our markets — Richardson and Bedford in DFW, Austin, Tampa, San Jose, Phoenix, and Cincinnati. Each has a local recruiting team that knows the area's manufacturers and labor pool."
+      }
     ]
   },
   "warehouse-distribution": {
@@ -347,6 +418,81 @@
         "label": "General Labor",
         "href": "/industries/general-labor"
       }
+    ],
+    "overview": [
+      "Warehouse and distribution work runs on speed and reliability — pick rates, dock schedules, and on-time outbound. The labor either keeps the freight moving or it does not, and the gap between a crew that shows up trained and a crew you have to babysit shows up directly in your throughput and your error rate.",
+      "Pro-Tech staffs the full warehouse floor: pickers, packers, forklift operators, shipping and receiving clerks, material handlers, inventory-control staff, and 3PL support. We cover everything from a single-shift distribution center to a 24/7 fulfillment operation, and we recruit for the equipment and the pace your operation actually runs.",
+      "Forklift roles are where we are especially careful. \"Forklift experience\" tells you nothing about which equipment a worker is certified on. We verify the certification and the equipment type — sit-down, stand-up, reach, order picker — before placement, so an operator can safely run your equipment on day one instead of learning it on your floor.",
+      "From the DFW Airport cargo zone and the Tarrant County distribution belt to the CVG logistics triangle in Cincinnati, we staff warehouse and distribution work in the corridors where the freight actually concentrates. Our local recruiters know which operations run which equipment and where the certified operators are.",
+      "Day to day, that means matching an order picker to your pick methodology, a forklift operator to your specific equipment, and a dock crew to your shift — then keeping the crew reliable through attendance screening and first-week follow-up. We staff a single shift or a 24/7 fulfillment operation with the same discipline."
+    ],
+    "hiringFactors": [
+      {
+        "title": "Verified forklift certification and equipment type",
+        "desc": "Confirm the certification is current and matches your equipment. A sit-down counterbalance operator is not automatically a reach-truck or order-picker operator — match the credential to the machine."
+      },
+      {
+        "title": "Pick-rate and pace fit",
+        "desc": "A high-volume e-commerce operation and a slow-moving bulk warehouse need different workers. Screen for experience at the pace and pick methodology — RF, voice, or paper — you actually run."
+      },
+      {
+        "title": "Attendance for shift coverage",
+        "desc": "Distribution runs on full shifts; a no-show on a dock or a pick line stalls the whole flow. We screen for attendance history before placing, especially for nights and weekends."
+      },
+      {
+        "title": "Safety and equipment discipline",
+        "desc": "Warehouse injuries and product damage trace back to shortcuts. Look for workers who follow safe operating procedures and understand load limits and pedestrian rules."
+      },
+      {
+        "title": "Surge and seasonal scalability",
+        "desc": "Peak season can double your headcount need overnight. A partner who can stage a screened, certified crew ahead of the ramp beats one who starts sourcing when the volume hits."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What warehouse roles does Pro-Tech staff?",
+        "a": "Pickers, packers, forklift operators (sit-down, stand-up, reach, and order picker), shipping and receiving clerks, material handlers, inventory-control clerks, sortation associates, and 3PL support — temporary, temp-to-hire, and direct placement."
+      },
+      {
+        "q": "Do you verify forklift certifications?",
+        "a": "Yes. We confirm the certification is current and place operators experienced on the specific equipment your operation runs, rather than taking \"forklift experience\" at face value."
+      },
+      {
+        "q": "Can you handle peak-season surge staffing?",
+        "a": "Yes. We stage screened crews ahead of seasonal ramps and scale headcount up and back down as volume changes, so you are not sourcing from scratch when peak hits."
+      },
+      {
+        "q": "How fast can you fill warehouse roles?",
+        "a": "Most warehouse and material-handling orders are filled within 48 hours, with same-day availability often possible for general warehouse labor. Certified forklift operators may take 48–72 hours depending on the equipment and shift."
+      },
+      {
+        "q": "Do you staff 3PL and fulfillment operations?",
+        "a": "Yes. We staff distribution centers, third-party logistics operations, and e-commerce fulfillment — including the high-volume, fast-pace environments where pick rate and accuracy both matter."
+      },
+      {
+        "q": "Can you cover night and weekend shifts?",
+        "a": "Yes. Distribution often runs around the clock, so we recruit specifically for second shift, third shift, and weekend coverage and screen candidates for those schedules up front."
+      },
+      {
+        "q": "Are placed workers your employees or ours?",
+        "a": "Every worker is a Pro-Tech W-2 employee — we carry payroll, workers' comp, and compliance. Our full vetting process is on the How We Screen page."
+      },
+      {
+        "q": "Do you staff RF-scan and voice-directed picking operations?",
+        "a": "Yes. We place workers experienced with RF and voice-directed picking and match them to your pick methodology, rather than taking generic \"warehouse experience\" at face value."
+      },
+      {
+        "q": "Do you place sortation and conveyor associates?",
+        "a": "Yes. Sortation associates, conveyor and induction staff, and loaders are all part of the warehouse floor we staff, screened for pace and safety."
+      },
+      {
+        "q": "What markets do you cover for warehouse staffing?",
+        "a": "All of our markets, with especially deep warehouse and forklift pools in the DFW mid-cities out of Bedford and the Cincinnati / Northern Kentucky logistics hub."
+      },
+      {
+        "q": "Can you provide same-day warehouse labor?",
+        "a": "For general warehouse labor, often yes — our active local pool means we can frequently cover a gap the same or next day. Certified or specialized roles may need a little more lead time."
+      }
     ]
   },
   "supply-chain-logistics": {
@@ -419,6 +565,85 @@
       {
         "label": "Administrative & Clerical",
         "href": "/industries/administrative-clerical"
+      }
+    ],
+    "overview": [
+      "Supply chain and logistics roles are where a warehouse becomes a system. Coordinators, planners, and inventory-control staff keep product flowing, orders accurate, and shelves neither empty nor overstocked — and a gap in these roles ripples outward fast, because a missed count or a late shipment touches every downstream customer.",
+      "Pro-Tech staffs the supply-chain layer that sits above the dock: logistics coordinators, inventory-control specialists, shipping and receiving clerks, material planners, purchasing assistants, and supply-chain analysts. We place these roles for manufacturers, distributors, and 3PLs that need reliable back-of-house coordination, not just floor labor.",
+      "These roles blend systems and judgment — comfort with a WMS or ERP, accuracy under deadline pressure, and the operational sense to flag a problem before it becomes a shortage. We screen for the specific systems and the specific responsibilities your operation runs on, so a coordinator can step into your process instead of relearning it.",
+      "We place supply-chain coordination across manufacturers, distributors, and 3PLs in every market we serve. Because we also staff the warehouse floor underneath these roles, we understand how a coordinator's decisions land on the dock — and we recruit people who can bridge the system and the floor.",
+      "These placements span entry-level shipping and inventory clerks through experienced logistics coordinators, material planners, and supply-chain analysts. We screen for the WMS or ERP your operation runs and the specific transactions the role owns — receiving, cycle counts, order release, planning — so a coordinator steps into your process rather than relearning it. Temp, temp-to-hire, and direct placement are all available."
+    ],
+    "hiringFactors": [
+      {
+        "title": "Systems experience (WMS / ERP)",
+        "desc": "Coordination roles live in software. Confirm the candidate has worked in the type of WMS or ERP you run, and screen for the specific transactions — receiving, cycle counts, order release — they will own."
+      },
+      {
+        "title": "Accuracy under deadline",
+        "desc": "Inventory and shipping roles punish carelessness — a wrong count or a mislabeled outbound costs real money. We screen for demonstrated accuracy, not just speed."
+      },
+      {
+        "title": "Operational judgment",
+        "desc": "The best coordinators flag a stockout or a bottleneck before it lands. Look for workers who understand why a number matters, not just how to enter it."
+      },
+      {
+        "title": "Cross-functional communication",
+        "desc": "Supply-chain roles sit between the floor, purchasing, and customers. Screen for the ability to coordinate across teams, not just process transactions."
+      },
+      {
+        "title": "Seniority match",
+        "desc": "An entry-level inventory clerk and a senior logistics coordinator are different hires with different costs. Define the responsibility level so the placement matches the role, not just the title."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What supply-chain roles does Pro-Tech staff?",
+        "a": "Logistics coordinators, inventory-control specialists, shipping and receiving clerks, material planners, purchasing assistants, supply-chain analysts, and warehouse-support coordinators — temporary, temp-to-hire, and direct placement."
+      },
+      {
+        "q": "Do candidates have WMS/ERP experience?",
+        "a": "Yes — we screen for the systems your operation runs and place coordinators and inventory staff who have worked in comparable WMS/ERP environments, so the ramp is short."
+      },
+      {
+        "q": "How fast can you fill supply-chain roles?",
+        "a": "Coordination and inventory roles are typically filled within 48–72 hours, depending on the systems experience and seniority required."
+      },
+      {
+        "q": "Do you place both entry-level and experienced coordinators?",
+        "a": "Yes. We staff entry-level inventory and shipping clerks through experienced logistics coordinators and analysts, matched to the responsibility level you need."
+      },
+      {
+        "q": "Do you offer temp-to-hire for supply-chain roles?",
+        "a": "Yes — temp, temp-to-hire, and direct placement are all available, which lets you evaluate a coordinator in your actual process before extending a permanent offer."
+      },
+      {
+        "q": "Are placed workers your employees or ours?",
+        "a": "Every worker is a Pro-Tech W-2 employee. We carry payroll, workers' comp, and compliance — details are on our How We Screen page."
+      },
+      {
+        "q": "Do you staff purchasing and procurement support?",
+        "a": "Yes — purchasing assistants and procurement-support roles are part of what we place, screened for ERP experience and accuracy."
+      },
+      {
+        "q": "Can you place supply-chain analysts and planners?",
+        "a": "Yes. We staff analysts and material planners as well as coordinators and clerks, matched to the systems and the analytical depth your role requires."
+      },
+      {
+        "q": "What markets do you cover for supply-chain staffing?",
+        "a": "All of our markets — DFW, Austin, Tampa, San Jose, Phoenix, and Cincinnati — for manufacturers, distributors, and 3PLs."
+      },
+      {
+        "q": "Do you offer on-site coordination for high-volume accounts?",
+        "a": "Yes. For larger or multi-shift accounts, we can provide on-site coordination so the staffing is managed at your facility rather than from a distance."
+      },
+      {
+        "q": "Can you place inventory-control and cycle-count teams?",
+        "a": "Yes. We staff inventory-control clerks and cycle-count teams for physical inventories, audits, and ongoing accuracy programs, screened for the accuracy these roles demand."
+      },
+      {
+        "q": "Can you scale a supply-chain team for a project or peak?",
+        "a": "Yes. We staff project-based and peak-period coordination teams — for a system cutover, a physical inventory, or a seasonal ramp — and scale back down afterward."
       }
     ]
   },
@@ -496,6 +721,85 @@
         "label": "General Labor",
         "href": "/industries/general-labor"
       }
+    ],
+    "overview": [
+      "Administrative and office support is the connective tissue of an operation — the people who keep schedules, records, customers, and paperwork moving so the rest of the team can focus on the work. When these roles go unfilled or get filled badly, the friction shows up everywhere: missed calls, late paperwork, and errors that compound.",
+      "Pro-Tech staffs front- and back-office roles for industrial and manufacturing operations: administrative assistants, customer-service representatives, data-entry clerks, office coordinators, document-control staff, program managers, and accounting support (AR/AP). We recruit for the systems and the responsibilities your office actually runs, not a generic \"office temp.\"",
+      "Office roles in an industrial setting carry their own demands — familiarity with the paperwork of manufacturing and logistics, comfort with the software your team uses, and the reliability to own a process end to end. We screen for those specifics so a coordinator or clerk can pick up your workflow quickly.",
+      "We staff office and administrative support across our markets, tuned to industrial employers. The paperwork of a manufacturer or a distributor is not the same as a corporate office, and we recruit candidates who are comfortable in that environment — purchase orders, bills of lading, inventory records, and compliance documentation.",
+      "The roles span the front office and the back office: reception and customer service, data entry and document control, office coordination and program management, and accounting support across AR and AP. We screen for the software your team uses and the accuracy these roles demand, and we offer temp, temp-to-hire, and direct placement so you can evaluate a hire in your actual workflow first."
+    ],
+    "hiringFactors": [
+      {
+        "title": "Software and systems fit",
+        "desc": "Office roles live in specific tools — ERP, CRM, accounting software, document-control systems. Confirm the candidate has used comparable systems and screen for the tasks they will actually own."
+      },
+      {
+        "title": "Accuracy and discipline",
+        "desc": "Data entry, document control, and AR/AP punish mistakes. We screen for demonstrated accuracy and attention to detail, not just typing speed or a clean resume."
+      },
+      {
+        "title": "Communication and customer handling",
+        "desc": "For customer-service and coordinator roles, how someone handles a frustrated caller or a cross-team request matters more than their resume. Screen for it directly."
+      },
+      {
+        "title": "Ownership of a process",
+        "desc": "The best back-office hires own a workflow rather than waiting for tasks. Look for candidates who can run document control or an AR/AP cycle without constant oversight."
+      },
+      {
+        "title": "Discretion with sensitive data",
+        "desc": "Administrative and accounting roles touch payroll, customer, and compliance records. Screen for candidates who handle confidential information appropriately, not just quickly."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What administrative roles does Pro-Tech staff?",
+        "a": "Administrative assistants, customer-service representatives, data-entry clerks, office coordinators, document-control staff, program managers, purchasing assistants, and accounting support (AR/AP) — temporary, temp-to-hire, and direct placement."
+      },
+      {
+        "q": "Do you staff office roles specific to manufacturing and logistics?",
+        "a": "Yes. We focus on industrial operations, so we screen for familiarity with the paperwork and systems of manufacturing, distribution, and supply chain — not just general office work."
+      },
+      {
+        "q": "How fast can you fill administrative roles?",
+        "a": "Most administrative and clerical roles are filled within 48–72 hours, depending on the systems experience and seniority required."
+      },
+      {
+        "q": "Do you place document-control and accounting support?",
+        "a": "Yes. We staff document-control specialists and AR/AP and accounting-support clerks, screened for accuracy and the relevant software."
+      },
+      {
+        "q": "Do you offer temp-to-hire for office roles?",
+        "a": "Yes — temp, temp-to-hire, and direct placement are all available, so you can evaluate an administrative hire in your actual workflow before making it permanent."
+      },
+      {
+        "q": "Are placed workers your employees or ours?",
+        "a": "Every worker is a Pro-Tech W-2 employee — we carry payroll, workers' comp, and compliance. See How We Screen for the full process."
+      },
+      {
+        "q": "Do you place bilingual administrative staff?",
+        "a": "Yes. Many of our markets have strong bilingual English/Spanish candidate pools, and we screen for the language capability your front-office and customer-facing roles need."
+      },
+      {
+        "q": "Can you staff program managers and office coordinators?",
+        "a": "Yes. We place program managers, office coordinators, and project-support roles, matched to the systems and the responsibility level you require."
+      },
+      {
+        "q": "What markets do you cover for administrative staffing?",
+        "a": "All of our markets, with office-support recruiting tuned to industrial and manufacturing employers in each."
+      },
+      {
+        "q": "Do you place temporary coverage for leaves and peak periods?",
+        "a": "Yes. Administrative roles often need short-term coverage for leaves, seasonal peaks, or project work, and we staff those gaps with screened candidates who fit your systems."
+      },
+      {
+        "q": "Can you staff both entry-level and experienced office roles?",
+        "a": "Yes. We place everyone from entry-level data-entry and reception staff through experienced coordinators, document-control specialists, and accounting support, matched to the level you need."
+      },
+      {
+        "q": "Can you staff administrative support for a project or system rollout?",
+        "a": "Yes. We staff project-based administrative and data support — for an ERP rollout, a records migration, or a backlog — with candidates screened for the relevant software and accuracy."
+      }
     ]
   },
   "general-labor": {
@@ -569,6 +873,81 @@
         "label": "Administrative & Clerical",
         "href": "/industries/administrative-clerical"
       }
+    ],
+    "overview": [
+      "General labor is where most operations meet their staffing reality: you need reliable people, often on short notice, to keep production, shipping, and projects moving. The work is task-based — loading, moving, sorting, cleaning, basic production support — but the difference between a worker who shows up ready and one who does not is the difference between a shift that runs and one that stalls.",
+      "Pro-Tech staffs general labor for manufacturers, warehouses, and project sites across every market we serve — material handlers, production helpers, sorters, loaders, and seasonal and project-based crews. We move fast on these requests because we keep an active, pre-screened local pool, not a list we start building when you call.",
+      "Even for entry-level work, screening matters. A no-show on a general-labor crew stalls the same line a skilled worker would. We background-check, drug-screen, and screen for attendance and shift fit before placement, so the crew that arrives is one that can actually work the shift you booked.",
+      "We keep an active general-labor pool in every market we serve, so a request in DFW, Austin, Tampa, San Jose, Phoenix, or Cincinnati does not start with a cold search. That local readiness is the difference between covering a shift tomorrow and waiting a week.",
+      "The work spans material handling, production support, loading and unloading, sorting, packaging, and cleaning, plus the seasonal and project crews that cover a surge. Because the same reliable general-labor worker is often a future machine operator or forklift driver, we use temp-to-hire to move proven people into skilled roles — which keeps your best workers in your building instead of starting over each season."
+    ],
+    "hiringFactors": [
+      {
+        "title": "Attendance, above everything",
+        "desc": "For general labor, reliability is the whole job. We screen for attendance history directly — a worker who shows up consistently is worth more than one with a longer resume who does not."
+      },
+      {
+        "title": "Shift and physical-demand fit",
+        "desc": "Match the worker to the real demands — lifting, standing, heat, pace, and schedule. A mismatch here is the fastest route to a first-week quit."
+      },
+      {
+        "title": "Speed of availability",
+        "desc": "General labor needs are often urgent. The value is an active local pool ready now, not a sourcing project that starts when you call."
+      },
+      {
+        "title": "A path to better roles",
+        "desc": "The strongest general-labor workers are future machine operators and forklift drivers. A partner who can move a reliable worker into temp-to-hire and skilled roles keeps your best people in your building."
+      },
+      {
+        "title": "Pre-screened and ready now",
+        "desc": "The point of general labor is speed without surprises. Workers from our pool are already background-checked and drug-screened, so \"fast\" does not mean \"unvetted.\""
+      }
+    ],
+    "faq": [
+      {
+        "q": "What general labor roles does Pro-Tech staff?",
+        "a": "Material handlers, production helpers, loaders and unloaders, sorters, packagers, cleaners, and seasonal and project-based crews — temporary, temp-to-hire, and direct placement."
+      },
+      {
+        "q": "How fast can you provide general labor?",
+        "a": "Often same-day or next-day from our active local pool, and most orders are filled within 48 hours. For larger crews or project ramps, a little lead time lets us stage the right number of screened workers."
+      },
+      {
+        "q": "Are general-labor workers screened?",
+        "a": "Yes. Even for entry-level roles, every worker is background-checked, drug-screened, and screened for attendance and shift fit before placement."
+      },
+      {
+        "q": "Can general-labor workers move into skilled roles?",
+        "a": "Yes — many do. Temp-to-hire lets a reliable general-labor worker prove out and move into machine-operator, forklift, or production roles, which is how the best workers stay in your operation."
+      },
+      {
+        "q": "Can you staff large or seasonal crews?",
+        "a": "Yes. We staff project-based and seasonal surges, scaling a screened crew up for the ramp and back down after, coordinated so the work gets covered."
+      },
+      {
+        "q": "Are placed workers your employees or ours?",
+        "a": "Every worker is a Pro-Tech W-2 employee — payroll, workers' comp, and compliance stay on our side. See How We Screen for details."
+      },
+      {
+        "q": "Do you require a long-term commitment?",
+        "a": "No. We staff short-term, project-based, and seasonal needs as readily as ongoing ones — you can book a crew for a week, a season, or an open-ended assignment."
+      },
+      {
+        "q": "How do you keep a general-labor crew reliable?",
+        "a": "We screen for attendance before placing, follow up in the first week, and replace a worker who is not working out quickly, so a no-show does not become your problem."
+      },
+      {
+        "q": "What markets do you cover for general labor?",
+        "a": "All of our markets — DFW, Austin, Tampa, San Jose, Phoenix, and Cincinnati — with an active local pool in each."
+      },
+      {
+        "q": "Can you cover an urgent same-day crew?",
+        "a": "Often, yes. Because our general-labor pool is already screened and local, we can frequently cover an urgent same-day or next-day crew rather than starting a search from scratch."
+      },
+      {
+        "q": "What does it cost to convert a general-labor worker to permanent?",
+        "a": "For temp-to-hire, the conversion fee typically decreases the longer a worker has been on assignment and reaches zero after a set period, so you can keep a proven worker without a penalty."
+      }
     ]
   },
   "engineering": {
@@ -638,6 +1017,73 @@
       {
         "label": "Supply Chain & Logistics",
         "href": "/industries/supply-chain-logistics"
+      }
+    ],
+    "overview": [
+      "Engineering staffing is a different discipline from filling a production line. These are the technical roles that design, improve, and support the work — and a mismatch is not a slow shift, it is a stalled project or a launch that slips. Getting it right means recruiting for the specific discipline, tools, and industry your team works in, not a matching job title.",
+      "Pro-Tech places technical talent for manufacturing and production teams: mechanical, electrical, manufacturing, quality, and process engineers, plus engineering technicians and programmers. After three decades staffing production floors, we understand how engineering supports manufacturing — and we recruit engineers who can work alongside the operators and lines we already staff, not in a vacuum.",
+      "Engineering placements are screened for substance, not keywords. We confirm the discipline, the tools and software, and the industry experience the role actually requires, and we offer contract, contract-to-hire, and direct placement so you can scale technical support for a project ramp, a backfill, or a permanent need.",
+      "We recruit engineering and technical talent across our markets, with the deepest electronics and manufacturing engineering pools in the corridors where we already staff production — North Texas, Silicon Valley, Tampa Bay, and Phoenix's East Valley. Tell us the discipline and the tools, and we source against the specific need.",
+      "In practice, an engineering request starts with scope: the discipline, the software, the industry, and whether the need is a project ramp, a backfill, or a permanent hire. We screen for substance over title, and because we also staff the operators and lines these engineers support, we can place technical talent that works with the floor rather than around it. Contract, contract-to-hire, and direct placement are all available."
+    ],
+    "hiringFactors": [
+      {
+        "title": "Discipline and tooling match",
+        "desc": "A mechanical engineer is not a process engineer, and CAD, PLM, and PLC experience varies widely. Confirm the exact discipline and the specific tools and software the role requires before screening on title alone."
+      },
+      {
+        "title": "Industry context",
+        "desc": "An engineer from a different sector may not transfer cleanly to a manufacturing floor. Screen for experience in your environment — the materials, the processes, and the standards your products are built to."
+      },
+      {
+        "title": "Project vs. permanent fit",
+        "desc": "A project ramp, a backfill, and a permanent hire call for different candidates. Define whether you need contract, contract-to-hire, or direct placement so the engagement matches the need."
+      },
+      {
+        "title": "Floor fluency",
+        "desc": "The best manufacturing engineers can talk to operators and read a line, not just a drawing. Look for engineers comfortable bridging the design and the floor."
+      },
+      {
+        "title": "Clear scope and deliverable",
+        "desc": "Technical engagements drift without a defined scope. The strongest placements happen when the project, the deliverable, and the timeline are clear up front — and we will help shape the role if it is not."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What engineering roles does Pro-Tech staff?",
+        "a": "Mechanical, electrical, manufacturing, quality, and process engineers, engineering technicians, and programmers — on a contract, contract-to-hire, or direct-placement basis. We are still confirming the final list of engineering specialties with clients, so tell us the role and we will source for it."
+      },
+      {
+        "q": "How is engineering staffing different from your industrial staffing?",
+        "a": "Industrial roles fill a shift; engineering roles support a project or a line. The screening is for discipline, tools, and industry experience rather than availability, and the engagement is usually contract or direct placement."
+      },
+      {
+        "q": "Do you offer contract and contract-to-hire for engineers?",
+        "a": "Yes — contract, contract-to-hire, and direct placement are all available, which fits project ramps, backfills, and permanent technical hires."
+      },
+      {
+        "q": "Can engineering support work alongside the production roles you staff?",
+        "a": "Yes — that is the point. Because we already staff the operators and lines, we recruit engineers who can work with them, which is especially useful for manufacturing, quality, and process roles."
+      },
+      {
+        "q": "How fast can you fill an engineering role?",
+        "a": "Technical roles vary more than line roles. We move quickly on the initial response and source against the specific discipline and tools, with timing driven by the specialization required."
+      },
+      {
+        "q": "Are placed workers your employees or ours?",
+        "a": "For contract and contract-to-hire engagements, the worker is a Pro-Tech W-2 employee — we carry payroll, workers' comp, and compliance. See How We Screen for the process."
+      },
+      {
+        "q": "Do you staff engineering technicians as well as degreed engineers?",
+        "a": "Yes. We place engineering technicians, designers, and support roles alongside degreed mechanical, electrical, manufacturing, quality, and process engineers."
+      },
+      {
+        "q": "What industries do you place engineers into?",
+        "a": "Primarily manufacturing, electronics, and production environments — the operations we already staff — where a manufacturing, quality, or process engineer works closely with the floor."
+      },
+      {
+        "q": "Do you place engineers on a direct-hire basis?",
+        "a": "Yes. Alongside contract and contract-to-hire, we recruit and place permanent engineering hires, screening for the discipline, tools, and industry experience the role requires."
       }
     ]
   },
