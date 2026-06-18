@@ -108,6 +108,47 @@
     ],
     "testimonialQuote": "Pro-Tech filled 14 positions for us in under 48 hours during peak season. More important, the workers showed up — and 9 converted to full-time. That consistency matters more than any rate card.",
     "testimonialName": "Operations Director",
-    "testimonialCo": "Electronics Manufacturer · DFW"
+    "testimonialCo": "Electronics Manufacturer · DFW",
+    "screeningLinkText": "See our full screening process"
+  },
+  "screening": {
+    "eyebrow": "How We Screen",
+    "heading": "Every worker is screened before they reach your floor.",
+    "intro": "Agencies send bodies. We send workers who've been verified for eligibility, background, skills, attendance, and the specific demands of your shift and site. Here's exactly what every candidate goes through before placement.",
+    "steps": [
+      {
+        "title": "Work eligibility & E-Verify",
+        "desc": "I-9 verification and E-Verify on every hire. We confirm the right to work before a candidate is ever sent to your site."
+      },
+      {
+        "title": "Background checks",
+        "desc": "Criminal background screening scaled to the role and site requirements — county, state, and national checks where appropriate."
+      },
+      {
+        "title": "Drug screening",
+        "desc": "Pre-placement drug testing, with panel and cadence matched to safety-sensitive and DOT-regulated roles when required."
+      },
+      {
+        "title": "Skills & experience verification",
+        "desc": "Role-specific skills are verified — hands-on or demonstrated — not taken from a resume. A machine operator is tested on the equipment; an assembler on the work."
+      },
+      {
+        "title": "Attendance & reference checks",
+        "desc": "We verify attendance history and check references with prior employers. No-show history is the #1 predictor of whether a placement sticks, so we screen for it directly."
+      },
+      {
+        "title": "Certification verification",
+        "desc": "We verify current certifications — forklift, OSHA, and IPC-A-610 / IPC-620 / J-STD-001 for electronics. For electronics roles, our in-house IPC trainers can certify candidates before placement."
+      },
+      {
+        "title": "Shift, site & fit screening",
+        "desc": "We match each candidate to the actual shift, environment, and commute — so the person who shows up on day one is one who can realistically stay."
+      }
+    ],
+    "closingHeading": "And every worker is ours, not yours.",
+    "closingBody": "Each placed worker is a Pro-Tech W-2 employee. We carry the payroll, workers' compensation, and employment compliance — so the screening, the paperwork, and the liability stay on our side.",
+    "ctaHeading": "Want workers who arrive ready?",
+    "ctaBody": "Tell us the role and shift. We'll send candidates who've cleared every step above.",
+    "ctaButton": "Request Workers"
   }
 }

@@ -108,6 +108,47 @@
     ],
     "testimonialQuote": "Pro-Tech cubrió 14 puestos en menos de 48 horas durante la temporada alta. Lo más importante: los trabajadores se presentaron — y 9 pasaron a tiempo completo. Esa constancia importa más que cualquier tarifa.",
     "testimonialName": "Director de Operaciones",
-    "testimonialCo": "Fabricante de Electrónica · DFW"
+    "testimonialCo": "Fabricante de Electrónica · DFW",
+    "screeningLinkText": "Vea nuestro proceso completo de evaluación"
+  },
+  "screening": {
+    "eyebrow": "Cómo Evaluamos",
+    "heading": "Cada trabajador es evaluado antes de llegar a su planta.",
+    "intro": "Las agencias envían cuerpos. Nosotros enviamos trabajadores verificados en elegibilidad, antecedentes, habilidades, asistencia y las exigencias específicas de su turno y sitio. Esto es exactamente lo que cada candidato atraviesa antes de la colocación.",
+    "steps": [
+      {
+        "title": "Elegibilidad laboral y E-Verify",
+        "desc": "Verificación I-9 y E-Verify en cada contratación. Confirmamos el derecho a trabajar antes de enviar a un candidato a su sitio."
+      },
+      {
+        "title": "Verificación de antecedentes",
+        "desc": "Verificación de antecedentes penales acorde al puesto y a los requisitos del sitio — a nivel de condado, estatal y nacional cuando corresponde."
+      },
+      {
+        "title": "Pruebas antidrogas",
+        "desc": "Pruebas antidrogas previas a la colocación, con panel y frecuencia ajustados a roles sensibles a la seguridad y regulados por el DOT cuando se requiere."
+      },
+      {
+        "title": "Verificación de habilidades y experiencia",
+        "desc": "Las habilidades específicas del puesto se verifican — de forma práctica o demostrada — no se toman del currículo. A un operador de máquina se le evalúa en el equipo; a un ensamblador, en el trabajo."
+      },
+      {
+        "title": "Verificación de asistencia y referencias",
+        "desc": "Verificamos el historial de asistencia y consultamos referencias con empleadores anteriores. El historial de ausencias es el predictor número uno de si una colocación perdura, así que lo evaluamos directamente."
+      },
+      {
+        "title": "Verificación de certificaciones",
+        "desc": "Verificamos certificaciones vigentes — montacargas, OSHA e IPC-A-610 / IPC-620 / J-STD-001 para electrónica. Para roles de electrónica, nuestros instructores IPC internos pueden certificar candidatos antes de la colocación."
+      },
+      {
+        "title": "Evaluación de turno, sitio y compatibilidad",
+        "desc": "Emparejamos a cada candidato con el turno, el entorno y el trayecto reales — para que quien se presente el primer día sea alguien que realmente pueda quedarse."
+      }
+    ],
+    "closingHeading": "Y cada trabajador es nuestro, no suyo.",
+    "closingBody": "Cada trabajador colocado es un empleado W-2 de Pro-Tech. Nosotros asumimos la nómina, la compensación laboral y el cumplimiento — así que la evaluación, el papeleo y la responsabilidad quedan de nuestro lado.",
+    "ctaHeading": "¿Quiere trabajadores que lleguen listos?",
+    "ctaBody": "Díganos el puesto y el turno. Enviaremos candidatos que han superado cada paso anterior.",
+    "ctaButton": "Solicitar Trabajadores"
   }
 }

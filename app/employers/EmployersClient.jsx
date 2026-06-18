@@ -1,5 +1,6 @@
 'use client'
 
+import Link from 'next/link'
 import { useTranslation } from 'react-i18next'
 import icons from '@/components/icons'
 import StaffingRequestForm from './StaffingRequestForm'
@@ -156,7 +157,7 @@ export default function EmployersPage() {
             </h2>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-px bg-fog mb-12">
+          <div className="grid md:grid-cols-3 gap-px bg-fog mb-6">
             {t('howItWorks.steps', { returnObjects: true }).map(({ n, title, desc }) => (
               <div key={n} className="bg-white p-8">
                 <p className="font-mono text-sm text-ind-green tracking-widest mb-4">{n}</p>
@@ -165,6 +166,11 @@ export default function EmployersPage() {
               </div>
             ))}
           </div>
+
+          <Link href="/how-we-screen" className="inline-flex items-center gap-1.5 text-sm font-semibold text-ind-green hover:text-sig-blue transition-colors mb-12">
+            {t('howItWorks.screeningLinkText')}
+            <span className="w-3.5 h-3.5">{icons.arrowRight}</span>
+          </Link>
 
           <figure className="border-l-2 border-ind-green pl-6 max-w-3xl">
             <blockquote className="text-carbon text-lg md:text-xl font-medium leading-relaxed mb-3">

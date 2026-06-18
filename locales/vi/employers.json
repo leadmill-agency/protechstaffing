@@ -108,6 +108,47 @@
     ],
     "testimonialQuote": "Pro-Tech đã lấp đầy 14 vị trí trong chưa đầy 48 giờ vào mùa cao điểm. Quan trọng hơn, các nhân viên đều có mặt — và 9 người chuyển sang chính thức. Sự ổn định đó quan trọng hơn bất kỳ bảng giá nào.",
     "testimonialName": "Giám Đốc Vận Hành",
-    "testimonialCo": "Nhà Sản Xuất Điện Tử · DFW"
+    "testimonialCo": "Nhà Sản Xuất Điện Tử · DFW",
+    "screeningLinkText": "Xem quy trình sàng lọc đầy đủ của chúng tôi"
+  },
+  "screening": {
+    "eyebrow": "Cách Chúng Tôi Sàng Lọc",
+    "heading": "Mỗi nhân viên đều được sàng lọc trước khi đến xưởng của bạn.",
+    "intro": "Các công ty khác gửi người cho có. Chúng tôi gửi những nhân viên đã được xác minh về điều kiện làm việc, lý lịch, kỹ năng, chuyên cần và các yêu cầu cụ thể của ca làm và địa điểm của bạn. Đây chính xác là những gì mỗi ứng viên trải qua trước khi được bố trí.",
+    "steps": [
+      {
+        "title": "Điều kiện làm việc & E-Verify",
+        "desc": "Xác minh I-9 và E-Verify cho mọi lần tuyển. Chúng tôi xác nhận quyền được làm việc trước khi cử ứng viên đến địa điểm của bạn."
+      },
+      {
+        "title": "Kiểm tra lý lịch",
+        "desc": "Kiểm tra lý lịch hình sự phù hợp với vị trí và yêu cầu của địa điểm — cấp quận, tiểu bang và quốc gia khi thích hợp."
+      },
+      {
+        "title": "Xét nghiệm ma túy",
+        "desc": "Xét nghiệm ma túy trước khi bố trí, với bảng xét nghiệm và tần suất phù hợp cho các vị trí nhạy cảm về an toàn và do DOT quản lý khi cần."
+      },
+      {
+        "title": "Xác minh kỹ năng & kinh nghiệm",
+        "desc": "Kỹ năng theo từng vị trí được xác minh — thực hành hoặc trình diễn — không lấy từ hồ sơ. Vận hành viên máy được kiểm tra trên thiết bị; thợ lắp ráp trên công việc thực tế."
+      },
+      {
+        "title": "Kiểm tra chuyên cần & người tham chiếu",
+        "desc": "Chúng tôi xác minh lịch sử chuyên cần và kiểm tra người tham chiếu với các nhà tuyển dụng trước đây. Lịch sử vắng mặt là yếu tố dự báo số một về việc một lần bố trí có bền hay không, nên chúng tôi sàng lọc điều đó trực tiếp."
+      },
+      {
+        "title": "Xác minh chứng chỉ",
+        "desc": "Chúng tôi xác minh các chứng chỉ hiện hành — xe nâng, OSHA và IPC-A-610 / IPC-620 / J-STD-001 cho điện tử. Đối với các vị trí điện tử, giảng viên IPC nội bộ của chúng tôi có thể cấp chứng chỉ cho ứng viên trước khi bố trí."
+      },
+      {
+        "title": "Sàng lọc ca làm, địa điểm & sự phù hợp",
+        "desc": "Chúng tôi ghép mỗi ứng viên với ca làm, môi trường và quãng đường đi lại thực tế — để người có mặt ngày đầu tiên là người thực sự có thể gắn bó."
+      }
+    ],
+    "closingHeading": "Và mỗi nhân viên là của chúng tôi, không phải của bạn.",
+    "closingBody": "Mỗi nhân viên được bố trí là nhân viên W-2 của Pro-Tech. Chúng tôi đảm nhận lương, bảo hiểm tai nạn lao động và tuân thủ quy định — vì vậy việc sàng lọc, giấy tờ và trách nhiệm pháp lý đều thuộc về phía chúng tôi.",
+    "ctaHeading": "Muốn nhân viên đến là sẵn sàng làm việc?",
+    "ctaBody": "Cho chúng tôi biết vị trí và ca làm. Chúng tôi sẽ gửi những ứng viên đã vượt qua mọi bước trên.",
+    "ctaButton": "Yêu Cầu Nhân Viên"
   }
 }

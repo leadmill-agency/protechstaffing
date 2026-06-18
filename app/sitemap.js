@@ -8,6 +8,7 @@ export default function sitemap() {
   const staticPages = [
     { url: `${BASE}/`, changeFrequency: 'weekly', priority: 1.0 },
     { url: `${BASE}/employers`, changeFrequency: 'weekly', priority: 0.9 },
+    { url: `${BASE}/how-we-screen`, changeFrequency: 'monthly', priority: 0.6 },
     { url: `${BASE}/job-seekers`, changeFrequency: 'daily', priority: 0.9 },
     { url: `${BASE}/contact`, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${BASE}/about`, changeFrequency: 'monthly', priority: 0.7 },
