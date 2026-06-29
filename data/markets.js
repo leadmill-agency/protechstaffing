@@ -1,7 +1,7 @@
 const MARKET_DATA = {
   richardson: {
     slug: 'locations/richardson-tx',
-    img: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=1000&q=75',
+    img: '/locations/richardson.jpg',
     officeInfo: {
       address: '2150 E. Arapaho Rd, Ste 100',
       city: 'Richardson, TX 75081',
@@ -23,7 +23,7 @@ const MARKET_DATA = {
   },
   bedford: {
     slug: 'locations/bedford-tx',
-    img: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1000&q=75',
+    img: '/locations/bedford.jpg',
     officeInfo: {
       address: '3508 Harwood Rd, Ste 108',
       city: 'Bedford, TX 76021',
@@ -110,7 +110,7 @@ const MARKET_DATA = {
   },
   phoenix: {
     slug: 'locations/phoenix-az',
-    img: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=75',
+    img: '/locations/phoenix.jpg',
     officeInfo: {
       address: '[ Phoenix office address — to be filled by client ]',
       city: 'Phoenix, AZ',
@@ -126,7 +126,7 @@ const MARKET_DATA = {
   },
   cincinnati: {
     slug: 'locations/cincinnati-oh',
-    img: 'https://images.unsplash.com/photo-1572715376701-98568319fd0b?w=1000&q=75',
+    img: '/locations/cincinnati.jpg',
     officeInfo: {
       address: '75 Cavalier Blvd, Ste 208',
       city: 'Florence, KY 41042',

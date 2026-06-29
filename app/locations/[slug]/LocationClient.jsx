@@ -97,7 +97,7 @@ export default function LocationPage({ params }) {
                   src={d.img}
                   alt={`${label} industrial staffing`}
                   className="w-full h-full object-cover"
-                  style={{ filter: 'grayscale(35%) brightness(0.88)' }}
+                  style={{ filter: 'grayscale(15%)' }}
                 />
               </div>
               <div className="hidden sm:block absolute -bottom-4 -left-4 bg-white border border-fog px-5 py-4 shadow-sm">
