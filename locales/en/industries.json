@@ -2,7 +2,7 @@
   "page": {
     "meta": {
       "title": "Industries We Staff | Pro-Tech Staffing Services",
-      "description": "Pro-Tech Staffing serves electronics manufacturing, light industrial, warehouse, supply chain, administrative, and general labor industries across six US markets."
+      "description": "Pro-Tech Staffing serves electronics manufacturing, light industrial, warehouse, supply chain, administrative, and general labor industries across seven US markets."
     },
     "hero": {
       "eyebrow": "Industries We Serve",
@@ -12,7 +12,7 @@
     },
     "stats": {
       "industriesServed": {
-        "n": "6",
+        "n": "7",
         "label": "Industries served"
       },
       "workersPlaced": {
@@ -392,7 +392,7 @@
         "label": "On-time fill rate"
       },
       {
-        "n": "6",
+        "n": "7",
         "label": "Active markets"
       },
       {
@@ -536,7 +536,7 @@
         "label": "Avg. fill time"
       },
       {
-        "n": "6",
+        "n": "7",
         "label": "Active markets"
       },
       {
@@ -695,7 +695,7 @@
         "label": "Placement types"
       },
       {
-        "n": "6",
+        "n": "7",
         "label": "Active markets"
       },
       {
@@ -830,7 +830,7 @@
       },
       {
         "title": "Same-day and next-day availability",
-        "desc": "When you need coverage now, we move fast. Our active candidate pool includes workers ready for immediate deployment across all six markets."
+        "desc": "When you need coverage now, we move fast. Our active candidate pool includes workers ready for immediate deployment across all seven markets."
       },
       {
         "title": "Safe, drug-screened workers",
@@ -847,7 +847,7 @@
         "label": "Rush availability"
       },
       {
-        "n": "6",
+        "n": "7",
         "label": "Active markets"
       },
       {

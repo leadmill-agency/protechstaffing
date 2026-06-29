@@ -2,7 +2,7 @@
   "page": {
     "meta": {
       "title": "Industrias que Atendemos | Pro-Tech Staffing Services",
-      "description": "Pro-Tech Staffing sirve a las industrias de manufactura electrónica, industria ligera, almacén, cadena de suministro, administrativo y trabajo general en seis mercados de EE. UU."
+      "description": "Pro-Tech Staffing sirve a las industrias de manufactura electrónica, industria ligera, almacén, cadena de suministro, administrativo y trabajo general en siete mercados de EE. UU."
     },
     "hero": {
       "eyebrow": "Industrias que Servimos",
@@ -12,7 +12,7 @@
     },
     "stats": {
       "industriesServed": {
-        "n": "6",
+        "n": "7",
         "label": "Industrias atendidas"
       },
       "workersPlaced": {
@@ -257,7 +257,7 @@
         "label": "Tasa de cobertura a tiempo"
       },
       {
-        "n": "6",
+        "n": "7",
         "label": "Mercados activos"
       },
       {
@@ -326,7 +326,7 @@
         "label": "Tiempo promedio de cobertura"
       },
       {
-        "n": "6",
+        "n": "7",
         "label": "Mercados activos"
       },
       {
@@ -406,7 +406,7 @@
         "label": "Tipos de colocación"
       },
       {
-        "n": "6",
+        "n": "7",
         "label": "Mercados activos"
       },
       {
@@ -462,7 +462,7 @@
       },
       {
         "title": "Disponibilidad para el mismo día y día siguiente",
-        "desc": "Cuando necesita cobertura ahora, actuamos rápido. Nuestro grupo activo de candidatos incluye trabajadores listos para despliegue inmediato en los seis mercados."
+        "desc": "Cuando necesita cobertura ahora, actuamos rápido. Nuestro grupo activo de candidatos incluye trabajadores listos para despliegue inmediato en los siete mercados."
       },
       {
         "title": "Trabajadores seguros y con prueba de drogas",
@@ -479,7 +479,7 @@
         "label": "Disponibilidad de urgencia"
       },
       {
-        "n": "6",
+        "n": "7",
         "label": "Mercados activos"
       },
       {

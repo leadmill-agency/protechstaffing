@@ -1,12 +1,12 @@
 {
   "meta": {
     "title": "About Pro-Tech Staffing | 30 Years in Industrial Staffing",
-    "description": "Pro-Tech Staffing has 30 years of experience in electronics manufacturing, industrial, and warehouse staffing. Six offices across TX, FL, CA, and AZ."
+    "description": "Pro-Tech Staffing has 30 years of experience in electronics manufacturing, industrial, and warehouse staffing. Seven offices across TX, FL, CA, AZ, and OH."
   },
   "hero": {
     "eyebrow": "About Pro-Tech Staffing",
     "heading": "30 years of staffing. Built on the production floor.",
-    "description": "Pro-Tech Staffing was founded in electronics manufacturing and grew into a full-service industrial staffing partner. We place workers in light industrial, warehouse, supply chain, and administrative roles across six US markets.",
+    "description": "Pro-Tech Staffing was founded in electronics manufacturing and grew into a full-service industrial staffing partner. We place workers in light industrial, warehouse, supply chain, and administrative roles across seven US markets.",
     "ctaRequestWorkers": "Request Workers",
     "ctaFindJobs": "Find Jobs",
     "imgAlt": "Pro-Tech Staffing industrial workers on production floor",
@@ -16,7 +16,7 @@
   "stats": {
     "yearsInBusiness": { "n": "30", "label": "Years in business" },
     "workersPlaced": { "n": "84K+", "label": "Workers placed" },
-    "usMarkets": { "n": "6", "label": "US markets" },
+    "usMarkets": { "n": "7", "label": "US markets" },
     "clientsReorder": { "n": "94%", "label": "Clients who reorder" }
   },
   "ourStory": {
@@ -24,7 +24,7 @@
     "heading": "Started in electronics.\nGrew into industrial staffing.",
     "p1": "Pro-Tech Staffing started over 30 years ago placing workers in electronics manufacturing — PCB assembly, SMT operations, soldering, and quality inspection. That foundation in precision, training, and accountability shaped everything we do.",
     "p2": "Over time, our clients asked us to staff adjacent operations: warehouse teams, production lines, supply chain roles, and administrative support. We expanded because the work demanded it — not because we chased volume.",
-    "p3": "Today we operate six offices across Texas, Florida, California, and Arizona. Every market is staffed by local recruiters who know the employers, the roles, and the labor pool in their area."
+    "p3": "Today we operate seven offices across Texas, Florida, California, Arizona, and Ohio. Every market is staffed by local recruiters who know the employers, the roles, and the labor pool in their area."
   },
   "beliefs": {
     "eyebrow": "What We Believe",
@@ -64,7 +64,7 @@
   },
   "offices": {
     "eyebrow": "Our Offices",
-    "heading": "Six markets. Local teams in each.",
+    "heading": "Seven markets. Local teams in each.",
     "description": "We hire locally, recruit locally, and support our clients from offices that are close to the work.",
     "richardson": { "city": "Richardson, TX", "tag": "Headquarters", "desc": "Corporate HQ serving the east DFW corridor — Dallas, Plano, Garland, Richardson." },
     "bedford": { "city": "Bedford, TX", "tag": "DFW Metro", "desc": "Covers Tarrant County — Fort Worth, Arlington, Irving, Grand Prairie, and the mid-cities." },

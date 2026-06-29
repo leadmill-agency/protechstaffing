@@ -2,7 +2,7 @@
   "page": {
     "meta": {
       "title": "Our Locations | Pro-Tech Staffing Services",
-      "description": "Pro-Tech Staffing operates six offices across Texas, Florida, California, and Arizona. Local recruiters, real market knowledge, 48-hour fill time."
+      "description": "Pro-Tech Staffing operates seven offices across Texas, Florida, California, Arizona, and Ohio. Local recruiters, real market knowledge, 48-hour fill time."
     },
     "hero": {
       "eyebrow": "Our Locations",
@@ -13,11 +13,11 @@
     },
     "stats": {
       "usMarkets": {
-        "n": "6",
+        "n": "7",
         "label": "US markets"
       },
       "states": {
-        "n": "4",
+        "n": "5",
         "label": "States"
       },
       "avgFillTime": {
@@ -54,7 +54,7 @@
     "officeMap": {
       "eyebrow": "On the Map",
       "heading": "Find your nearest Pro-Tech office",
-      "description": "Six offices across Texas, Florida, California, and Arizona. Each market is staffed by local recruiters."
+      "description": "Seven offices across Texas, Florida, California, Arizona, and Ohio. Each market is staffed by local recruiters."
     },
     "cta": {
       "eyebrow": "Get Started",

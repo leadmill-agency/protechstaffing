@@ -2,7 +2,7 @@
   "page": {
     "meta": {
       "title": "Nuestras Ubicaciones | Pro-Tech Staffing Services",
-      "description": "Pro-Tech Staffing opera seis oficinas en Texas, Florida, California y Arizona. Reclutadores locales, conocimiento real del mercado, cobertura en 48 horas."
+      "description": "Pro-Tech Staffing opera siete oficinas en Texas, Florida, California, Arizona y Ohio. Reclutadores locales, conocimiento real del mercado, cobertura en 48 horas."
     },
     "hero": {
       "eyebrow": "Nuestras Ubicaciones",
@@ -13,11 +13,11 @@
     },
     "stats": {
       "usMarkets": {
-        "n": "6",
+        "n": "7",
         "label": "Mercados en EE. UU."
       },
       "states": {
-        "n": "4",
+        "n": "5",
         "label": "Estados"
       },
       "avgFillTime": {
@@ -54,7 +54,7 @@
     "officeMap": {
       "eyebrow": "En el Mapa",
       "heading": "Encuentre la oficina Pro-Tech más cercana",
-      "description": "Seis oficinas en Texas, Florida, California y Arizona. Cada mercado cuenta con reclutadores locales."
+      "description": "Siete oficinas en Texas, Florida, California, Arizona y Ohio. Cada mercado cuenta con reclutadores locales."
     },
     "cta": {
       "eyebrow": "Comience Ahora",

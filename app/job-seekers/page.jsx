@@ -2,7 +2,7 @@ import JobSeekersClient from './JobSeekersClient'
 
 export const metadata = {
   title: 'Find Jobs | Pro-Tech Staffing — Manufacturing & Industrial Jobs',
-  description: 'Find manufacturing, warehouse, and industrial jobs near you. Pro-Tech Staffing places workers in electronics, light industrial, warehouse, and supply chain roles across 6 US markets.',
+  description: 'Find manufacturing, warehouse, and industrial jobs near you. Pro-Tech Staffing places workers in electronics, light industrial, warehouse, and supply chain roles across 7 US markets.',
   alternates: { canonical: '/job-seekers' },
   openGraph: {
     title: 'Find Jobs | Pro-Tech Staffing — Manufacturing & Industrial Jobs',

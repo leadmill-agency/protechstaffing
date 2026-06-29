@@ -89,6 +89,7 @@ function Hero() {
               { name: t('hero.cities.tampaFl'), href: '/locations/tampa-fl' },
               { name: t('hero.cities.sanJoseCa'), href: '/locations/san-jose-ca' },
               { name: t('hero.cities.phoenixAz'), href: '/locations/phoenix-az' },
+              { name: t('hero.cities.cincinnatiOh'), href: '/locations/cincinnati-oh' },
             ].map(({ name, href }) => (
               <Link key={name} href={href} className="text-sm font-medium text-carbon hover:text-ind-green transition-colors">{name}</Link>
             ))}
@@ -301,13 +302,13 @@ function HowItWorks() {
 function Locations() {
   const { t } = useTranslation('home')
   const markets = [
-    { city: t('locations.markets.richardson.city'), state: t('locations.markets.richardson.state'), label: t('locations.markets.richardson.label'), roles: t('locations.markets.richardson.roles'), serving: t('locations.markets.richardson.serving'), href: '/locations/richardson-tx', img: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=70' },
-    { city: t('locations.markets.bedford.city'), state: t('locations.markets.bedford.state'), label: t('locations.markets.bedford.label'), roles: t('locations.markets.bedford.roles'), serving: t('locations.markets.bedford.serving'), href: '/locations/bedford-tx', img: 'https://images.unsplash.com/photo-1486325212027-8081e485255e?w=600&q=70' },
+    { city: t('locations.markets.richardson.city'), state: t('locations.markets.richardson.state'), label: t('locations.markets.richardson.label'), roles: t('locations.markets.richardson.roles'), serving: t('locations.markets.richardson.serving'), href: '/locations/richardson-tx', img: '/locations/richardson.jpg' },
+    { city: t('locations.markets.bedford.city'), state: t('locations.markets.bedford.state'), label: t('locations.markets.bedford.label'), roles: t('locations.markets.bedford.roles'), serving: t('locations.markets.bedford.serving'), href: '/locations/bedford-tx', img: '/locations/bedford.jpg' },
     { city: t('locations.markets.austin.city'), state: t('locations.markets.austin.state'), label: t('locations.markets.austin.label'), roles: t('locations.markets.austin.roles'), serving: t('locations.markets.austin.serving'), href: '/locations/austin-tx', img: 'https://images.unsplash.com/photo-1531218150217-54595bc2b934?w=600&q=70' },
     { city: t('locations.markets.tampa.city'), state: t('locations.markets.tampa.state'), label: t('locations.markets.tampa.label'), roles: t('locations.markets.tampa.roles'), serving: t('locations.markets.tampa.serving'), href: '/locations/tampa-fl', img: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&q=70' },
     { city: t('locations.markets.sanJose.city'), state: t('locations.markets.sanJose.state'), label: t('locations.markets.sanJose.label'), roles: t('locations.markets.sanJose.roles'), serving: t('locations.markets.sanJose.serving'), href: '/locations/san-jose-ca', img: 'https://images.unsplash.com/photo-1449034446853-66c86144b0ad?w=600&q=70' },
-    { city: t('locations.markets.phoenix.city'), state: t('locations.markets.phoenix.state'), label: t('locations.markets.phoenix.label'), roles: t('locations.markets.phoenix.roles'), serving: t('locations.markets.phoenix.serving'), href: '/locations/phoenix-az', img: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=70' },
-    { city: t('locations.markets.cincinnati.city'), state: t('locations.markets.cincinnati.state'), label: t('locations.markets.cincinnati.label'), roles: t('locations.markets.cincinnati.roles'), serving: t('locations.markets.cincinnati.serving'), href: '/locations/cincinnati-oh', img: 'https://images.unsplash.com/photo-1572715376701-98568319fd0b?w=600&q=70' },
+    { city: t('locations.markets.phoenix.city'), state: t('locations.markets.phoenix.state'), label: t('locations.markets.phoenix.label'), roles: t('locations.markets.phoenix.roles'), serving: t('locations.markets.phoenix.serving'), href: '/locations/phoenix-az', img: '/locations/phoenix.jpg' },
+    { city: t('locations.markets.cincinnati.city'), state: t('locations.markets.cincinnati.state'), label: t('locations.markets.cincinnati.label'), roles: t('locations.markets.cincinnati.roles'), serving: t('locations.markets.cincinnati.serving'), href: '/locations/cincinnati-oh', img: '/locations/cincinnati.jpg' },
   ]
 
   return (

@@ -2,7 +2,7 @@
   "page": {
     "meta": {
       "title": "Địa Điểm Văn Phòng | Pro-Tech Staffing Services",
-      "description": "Pro-Tech Staffing vận hành sáu văn phòng tại Texas, Florida, California và Arizona. Nhà tuyển dụng địa phương, am hiểu thị trường thực tế, lấp đầy trong 48 giờ."
+      "description": "Pro-Tech Staffing vận hành bảy văn phòng tại Texas, Florida, California, Arizona và Ohio. Nhà tuyển dụng địa phương, am hiểu thị trường thực tế, lấp đầy trong 48 giờ."
     },
     "hero": {
       "eyebrow": "Địa Điểm Văn Phòng",
@@ -13,11 +13,11 @@
     },
     "stats": {
       "usMarkets": {
-        "n": "6",
+        "n": "7",
         "label": "Thị trường tại Mỹ"
       },
       "states": {
-        "n": "4",
+        "n": "5",
         "label": "Tiểu bang"
       },
       "avgFillTime": {
@@ -54,7 +54,7 @@
     "officeMap": {
       "eyebrow": "Trên Bản Đồ",
       "heading": "Tìm văn phòng Pro-Tech gần bạn",
-      "description": "Sáu văn phòng tại Texas, Florida, California và Arizona. Mỗi thị trường có đội ngũ tuyển dụng địa phương."
+      "description": "Bảy văn phòng tại Texas, Florida, California, Arizona và Ohio. Mỗi thị trường có đội ngũ tuyển dụng địa phương."
     },
     "cta": {
       "eyebrow": "Bắt Đầu",

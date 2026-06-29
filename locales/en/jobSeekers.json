@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Find Jobs | Pro-Tech Staffing — Manufacturing & Industrial Jobs",
-    "description": "Find manufacturing, warehouse, and industrial jobs near you. Pro-Tech Staffing places workers in electronics, light industrial, warehouse, and supply chain roles across 6 US markets."
+    "description": "Find manufacturing, warehouse, and industrial jobs near you. Pro-Tech Staffing places workers in electronics, light industrial, warehouse, and supply chain roles across 7 US markets."
   },
   "hero": {
     "eyebrow": "For Job Seekers",
@@ -94,7 +94,7 @@
   "locations": {
     "eyebrow": "Where We Hire",
     "heading": "Jobs near you.",
-    "description": "We have offices and active openings in six US markets. Find jobs in your area."
+    "description": "We have offices and active openings in seven US markets. Find jobs in your area."
   },
   "openPositions": {
     "eyebrow": "Open Positions",

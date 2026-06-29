@@ -1,12 +1,12 @@
 {
   "meta": {
     "title": "Acerca de Pro-Tech Staffing | 30 A\u00f1os en Personal Industrial",
-    "description": "Pro-Tech Staffing tiene 30 a\u00f1os de experiencia en personal de manufactura electr\u00f3nica, industrial y de almac\u00e9n. Seis oficinas en TX, FL, CA y AZ."
+    "description": "Pro-Tech Staffing tiene 30 a\u00f1os de experiencia en personal de manufactura electr\u00f3nica, industrial y de almac\u00e9n. Siete oficinas en TX, FL, CA, AZ y OH."
   },
   "hero": {
     "eyebrow": "Acerca de Pro-Tech Staffing",
     "heading": "30 a\u00f1os de personal. Construido en la planta de producci\u00f3n.",
-    "description": "Pro-Tech Staffing fue fundada en manufactura electr\u00f3nica y creci\u00f3 hasta convertirse en un socio integral de personal industrial. Colocamos trabajadores en roles de industria ligera, almac\u00e9n, cadena de suministro y administrativos en seis mercados de EE. UU.",
+    "description": "Pro-Tech Staffing fue fundada en manufactura electr\u00f3nica y creci\u00f3 hasta convertirse en un socio integral de personal industrial. Colocamos trabajadores en roles de industria ligera, almac\u00e9n, cadena de suministro y administrativos en siete mercados de EE. UU.",
     "ctaRequestWorkers": "Solicitar Trabajadores",
     "ctaFindJobs": "Buscar Empleos",
     "imgAlt": "Trabajadores industriales de Pro-Tech Staffing en la planta de producci\u00f3n",
@@ -16,7 +16,7 @@
   "stats": {
     "yearsInBusiness": { "n": "30", "label": "A\u00f1os en el negocio" },
     "workersPlaced": { "n": "84K+", "label": "Trabajadores colocados" },
-    "usMarkets": { "n": "6", "label": "Mercados en EE. UU." },
+    "usMarkets": { "n": "7", "label": "Mercados en EE. UU." },
     "clientsReorder": { "n": "94%", "label": "Clientes que vuelven a solicitar" }
   },
   "ourStory": {
@@ -24,7 +24,7 @@
     "heading": "Comenzamos en electr\u00f3nica.\nCrecimos hacia el personal industrial.",
     "p1": "Pro-Tech Staffing comenz\u00f3 hace m\u00e1s de 30 a\u00f1os colocando trabajadores en manufactura electr\u00f3nica: ensamble de PCB, operaciones SMT, soldadura e inspecci\u00f3n de calidad. Esa base en precisi\u00f3n, capacitaci\u00f3n y responsabilidad form\u00f3 todo lo que hacemos.",
     "p2": "Con el tiempo, nuestros clientes nos pidieron dotar de personal a operaciones adyacentes: equipos de almac\u00e9n, l\u00edneas de producci\u00f3n, roles de cadena de suministro y soporte administrativo. Nos expandimos porque el trabajo lo demand\u00f3, no porque busc\u00e1ramos volumen.",
-    "p3": "Hoy operamos seis oficinas en Texas, Florida, California y Arizona. Cada mercado cuenta con reclutadores locales que conocen a los empleadores, los puestos y el mercado laboral de su \u00e1rea."
+    "p3": "Hoy operamos siete oficinas en Texas, Florida, California, Arizona y Ohio. Cada mercado cuenta con reclutadores locales que conocen a los empleadores, los puestos y el mercado laboral de su \u00e1rea."
   },
   "beliefs": {
     "eyebrow": "Lo Que Creemos",
@@ -64,7 +64,7 @@
   },
   "offices": {
     "eyebrow": "Nuestras Oficinas",
-    "heading": "Seis mercados. Equipos locales en cada uno.",
+    "heading": "Siete mercados. Equipos locales en cada uno.",
     "description": "Contratamos localmente, reclutamos localmente y apoyamos a nuestros clientes desde oficinas cercanas al trabajo.",
     "richardson": { "city": "Richardson, TX", "tag": "Sede Principal", "desc": "Sede corporativa que sirve el corredor este de DFW: Dallas, Plano, Garland, Richardson." },
     "bedford": { "city": "Bedford, TX", "tag": "DFW Metro", "desc": "Cubre el condado de Tarrant: Fort Worth, Arlington, Irving, Grand Prairie y las ciudades intermedias." },

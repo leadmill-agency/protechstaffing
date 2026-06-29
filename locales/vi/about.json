@@ -1,12 +1,12 @@
 {
   "meta": {
     "title": "Giới Thiệu Pro-Tech Staffing | 30 Năm Trong Ngành Nhân Sự Công Nghiệp",
-    "description": "Pro-Tech Staffing có 30 năm kinh nghiệm trong lĩnh vực nhân sự sản xuất điện tử, công nghiệp và kho bãi. Sáu văn phòng tại TX, FL, CA và AZ."
+    "description": "Pro-Tech Staffing có 30 năm kinh nghiệm trong lĩnh vực nhân sự sản xuất điện tử, công nghiệp và kho bãi. Bảy văn phòng tại TX, FL, CA, AZ và OH."
   },
   "hero": {
     "eyebrow": "Giới Thiệu Pro-Tech Staffing",
     "heading": "30 năm cung ứng nhân sự. Xây dựng từ xưởng sản xuất.",
-    "description": "Pro-Tech Staffing được thành lập trong ngành sản xuất điện tử và phát triển thành đối tác nhân sự công nghiệp toàn diện. Chúng tôi bố trí nhân viên trong lĩnh vực công nghiệp nhẹ, kho bãi, chuỗi cung ứng và hành chính tại sáu thị trường trên toàn nước Mỹ.",
+    "description": "Pro-Tech Staffing được thành lập trong ngành sản xuất điện tử và phát triển thành đối tác nhân sự công nghiệp toàn diện. Chúng tôi bố trí nhân viên trong lĩnh vực công nghiệp nhẹ, kho bãi, chuỗi cung ứng và hành chính tại bảy thị trường trên toàn nước Mỹ.",
     "ctaRequestWorkers": "Yêu Cầu Nhân Sự",
     "ctaFindJobs": "Tìm Việc Làm",
     "imgAlt": "Nhân viên công nghiệp Pro-Tech Staffing tại xưởng sản xuất",
@@ -16,7 +16,7 @@
   "stats": {
     "yearsInBusiness": { "n": "30", "label": "Năm hoạt động" },
     "workersPlaced": { "n": "84K+", "label": "Nhân viên đã bố trí" },
-    "usMarkets": { "n": "6", "label": "Thị trường tại Mỹ" },
+    "usMarkets": { "n": "7", "label": "Thị trường tại Mỹ" },
     "clientsReorder": { "n": "94%", "label": "Khách hàng quay lại" }
   },
   "ourStory": {
@@ -24,7 +24,7 @@
     "heading": "Bắt đầu từ điện tử.\nPhát triển sang nhân sự công nghiệp.",
     "p1": "Pro-Tech Staffing bắt đầu hơn 30 năm trước với việc bố trí nhân viên trong ngành sản xuất điện tử — lắp ráp PCB, vận hành SMT, hàn và kiểm tra chất lượng. Nền tảng về sự chính xác, đào tạo và trách nhiệm đó đã định hình mọi hoạt động của chúng tôi.",
     "p2": "Theo thời gian, khách hàng yêu cầu chúng tôi cung cấp nhân sự cho các bộ phận liên quan: đội ngũ kho bãi, dây chuyền sản xuất, vị trí chuỗi cung ứng và hỗ trợ hành chính. Chúng tôi mở rộng vì công việc đòi hỏi — không phải vì chạy theo số lượng.",
-    "p3": "Ngày nay chúng tôi vận hành sáu văn phòng tại Texas, Florida, California và Arizona. Mỗi thị trường được phục vụ bởi đội ngũ tuyển dụng địa phương am hiểu nhà tuyển dụng, các vị trí và nguồn lao động trong khu vực."
+    "p3": "Ngày nay chúng tôi vận hành bảy văn phòng tại Texas, Florida, California, Arizona và Ohio. Mỗi thị trường được phục vụ bởi đội ngũ tuyển dụng địa phương am hiểu nhà tuyển dụng, các vị trí và nguồn lao động trong khu vực."
   },
   "beliefs": {
     "eyebrow": "Giá Trị Của Chúng Tôi",
@@ -64,7 +64,7 @@
   },
   "offices": {
     "eyebrow": "Văn Phòng",
-    "heading": "Sáu thị trường. Đội ngũ địa phương tại mỗi nơi.",
+    "heading": "Bảy thị trường. Đội ngũ địa phương tại mỗi nơi.",
     "description": "Chúng tôi tuyển dụng tại địa phương, tìm kiếm tại địa phương và hỗ trợ khách hàng từ văn phòng gần nơi làm việc.",
     "richardson": { "city": "Richardson, TX", "tag": "Trụ Sở Chính", "desc": "Trụ sở chính phục vụ hành lang đông DFW — Dallas, Plano, Garland, Richardson." },
     "bedford": { "city": "Bedford, TX", "tag": "Vùng DFW", "desc": "Phục vụ quận Tarrant — Fort Worth, Arlington, Irving, Grand Prairie và các thành phố trung tâm." },

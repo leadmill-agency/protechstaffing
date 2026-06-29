@@ -2,7 +2,7 @@
   "page": {
     "meta": {
       "title": "Ngành Nghề Chúng Tôi Cung Ứng Nhân Sự | Pro-Tech Staffing Services",
-      "description": "Pro-Tech Staffing phục vụ các ngành sản xuất điện tử, công nghiệp nhẹ, kho bãi, chuỗi cung ứng, hành chính và lao động phổ thông tại sáu thị trường trên toàn nước Mỹ."
+      "description": "Pro-Tech Staffing phục vụ các ngành sản xuất điện tử, công nghiệp nhẹ, kho bãi, chuỗi cung ứng, hành chính và lao động phổ thông tại bảy thị trường trên toàn nước Mỹ."
     },
     "hero": {
       "eyebrow": "Ngành Nghề Phục Vụ",
@@ -12,7 +12,7 @@
     },
     "stats": {
       "industriesServed": {
-        "n": "6",
+        "n": "7",
         "label": "Ngành nghề phục vụ"
       },
       "workersPlaced": {
@@ -257,7 +257,7 @@
         "label": "Tỷ lệ lấp đầy đúng hạn"
       },
       {
-        "n": "6",
+        "n": "7",
         "label": "Thị trường đang hoạt động"
       },
       {
@@ -326,7 +326,7 @@
         "label": "Thời gian lấp đầy trung bình"
       },
       {
-        "n": "6",
+        "n": "7",
         "label": "Thị trường đang hoạt động"
       },
       {
@@ -406,7 +406,7 @@
         "label": "Hình thức bố trí"
       },
       {
-        "n": "6",
+        "n": "7",
         "label": "Thị trường đang hoạt động"
       },
       {
@@ -462,7 +462,7 @@
       },
       {
         "title": "Sẵn sàng cùng ngày và ngày hôm sau",
-        "desc": "Khi bạn cần người ngay, chúng tôi hành động nhanh. Nguồn ứng viên của chúng tôi bao gồm nhân viên sẵn sàng triển khai ngay tại cả sáu thị trường."
+        "desc": "Khi bạn cần người ngay, chúng tôi hành động nhanh. Nguồn ứng viên của chúng tôi bao gồm nhân viên sẵn sàng triển khai ngay tại cả bảy thị trường."
       },
       {
         "title": "Nhân viên an toàn, đã kiểm tra ma túy",
@@ -479,7 +479,7 @@
         "label": "Khả năng gấp"
       },
       {
-        "n": "6",
+        "n": "7",
         "label": "Thị trường đang hoạt động"
       },
       {

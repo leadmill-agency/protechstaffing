@@ -6,13 +6,13 @@ import icons from '@/components/icons'
 
 const MARKET_KEYS = ['richardson', 'bedford', 'austin', 'tampa', 'sanjose', 'phoenix', 'cincinnati']
 const MARKET_IMGS = {
-  richardson: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=70',
-  bedford: 'https://images.unsplash.com/photo-1486325212027-8081e485255e?w=600&q=70',
+  richardson: '/locations/richardson.jpg',
+  bedford: '/locations/bedford.jpg',
   austin: 'https://images.unsplash.com/photo-1531218150217-54595bc2b934?w=600&q=70',
   tampa: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&q=70',
   sanjose: 'https://images.unsplash.com/photo-1449034446853-66c86144b0ad?w=600&q=70',
-  phoenix: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=70',
-  cincinnati: 'https://images.unsplash.com/photo-1572715376701-98568319fd0b?w=600&q=70',
+  phoenix: '/locations/phoenix.jpg',
+  cincinnati: '/locations/cincinnati.jpg',
 }
 const MARKET_HREFS = {
   richardson: '/locations/richardson-tx',
@@ -94,7 +94,7 @@ export default function LocationsPage() {
                       src={img}
                       alt={`${city} ${state} industrial staffing office`}
                       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                      style={{ filter: 'grayscale(40%) brightness(0.9)' }}
+                      style={{ filter: 'grayscale(15%)' }}
                     />
                   </div>
                   <div className="p-5 bg-white group-hover:bg-bone transition-colors">
