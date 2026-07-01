@@ -2,13 +2,13 @@
 
 import { Resend } from 'resend'
 
-// Mylinh is now a verified Admin on the Resend team, so the sandbox
-// sender (onboarding@resend.dev) can deliver to her without full domain
-// verification. Once protechstaffing.com is verified in Resend Domains
-// and RESEND_FROM_EMAIL points to a noreply@protechstaffing.com address,
-// this will look fully on-brand (sender will say Pro-Tech instead of
-// Resend's test domain).
-const TO_EMAIL = 'mylinh.tieu@protechstaffing.com'
+// INTERIM (Jul 1 2026): Resend's sandbox sender (onboarding@resend.dev) can only
+// deliver to the Resend account owner — NOT to an external address like Mimi's.
+// (Being a Resend "team Admin" does not make an address a valid recipient.) So
+// leads are routed to rameel@leadmill.co and forwarded to Mimi until we move off
+// Resend to a Wix-DNS-compatible sender. Override without a redeploy via the
+// LEAD_NOTIFY_EMAIL env var.
+const TO_EMAIL = process.env.LEAD_NOTIFY_EMAIL || 'rameel@leadmill.co'
 // Until protechstaffing.com domain is verified in Resend, we use Resend's
 // onboarding sender so testing works immediately. Swap to noreply@protechstaffing.com
 // once DNS is verified.
