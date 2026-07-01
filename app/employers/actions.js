@@ -83,11 +83,15 @@ export async function submitStaffingRequest(_prevState, formData) {
     })
     if (error) {
       console.error('[staffing-request] Resend error:', error)
+      // Safety net: never silently lose a lead if delivery fails. Log the full
+      // submission so it can be recovered from server logs and followed up manually.
+      console.error('[staffing-request] LEAD NOT EMAILED — recover manually:', JSON.stringify({ name, company, phone, email, message }))
       return { ok: false, message: 'Something went wrong. Please call us instead.' }
     }
     return { ok: true, message: 'Thanks — we\'ll be in touch within one business day.' }
   } catch (err) {
     console.error('[staffing-request] Unexpected error:', err)
+    console.error('[staffing-request] LEAD NOT EMAILED — recover manually:', JSON.stringify({ name, company, phone, email, message }))
     return { ok: false, message: 'Something went wrong. Please call us instead.' }
   }
 }
