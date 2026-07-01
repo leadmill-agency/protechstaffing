@@ -48,6 +48,29 @@ export async function submitStaffingRequest(_prevState, formData) {
     return { ok: false, errors, message: 'Please complete all required fields.' }
   }
 
+  // Preferred path: Formspree — stores every submission in a dashboard AND emails
+  // it, so a lead is never lost even if email hiccups. Set FORMSPREE_EMPLOYERS_ENDPOINT
+  // (e.g. https://formspree.io/f/xxxxxxxx) in Vercel. Until then, this falls through
+  // to the Resend interim below so the form keeps working.
+  const formspreeEndpoint = process.env.FORMSPREE_EMPLOYERS_ENDPOINT
+  if (formspreeEndpoint) {
+    try {
+      const res = await fetch(formspreeEndpoint, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify({ name, company, phone, email, message, _subject: `New staffing request from ${company}` }),
+      })
+      if (res.ok) return { ok: true, message: 'Thanks — we\'ll be in touch within one business day.' }
+      console.error('[staffing-request] Formspree error:', res.status, await res.text().catch(() => ''))
+      console.error('[staffing-request] LEAD NOT SAVED — recover manually:', JSON.stringify({ name, company, phone, email, message }))
+      return { ok: false, message: 'Something went wrong. Please call us instead.' }
+    } catch (err) {
+      console.error('[staffing-request] Formspree fetch failed:', err)
+      console.error('[staffing-request] LEAD NOT SAVED — recover manually:', JSON.stringify({ name, company, phone, email, message }))
+      return { ok: false, message: 'Something went wrong. Please call us instead.' }
+    }
+  }
+
   const apiKey = process.env.RESEND_API_KEY
   if (!apiKey) {
     // Soft-fail in dev/preview without the env var configured. Log only.

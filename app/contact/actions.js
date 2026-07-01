@@ -46,6 +46,29 @@ export async function submitContactInquiry(_prevState, formData) {
     return { ok: false, errors, message: 'Please complete all required fields.' }
   }
 
+  // Preferred path: Formspree — stores every submission in a dashboard AND emails
+  // it, so a lead is never lost even if email hiccups. Set FORMSPREE_CONTACT_ENDPOINT
+  // (e.g. https://formspree.io/f/xxxxxxxx) in Vercel. Until then, this falls through
+  // to the Resend interim below so the form keeps working.
+  const formspreeEndpoint = process.env.FORMSPREE_CONTACT_ENDPOINT
+  if (formspreeEndpoint) {
+    try {
+      const res = await fetch(formspreeEndpoint, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify({ name, company, phone, email, inquiryType, message, _subject: `New contact inquiry from ${name}` }),
+      })
+      if (res.ok) return { ok: true, message: 'Thanks — we\'ll be in touch within one business day.' }
+      console.error('[contact] Formspree error:', res.status, await res.text().catch(() => ''))
+      console.error('[contact] LEAD NOT SAVED — recover manually:', JSON.stringify({ name, company, phone, email, inquiryType, message }))
+      return { ok: false, message: 'Something went wrong. Please call us instead.' }
+    } catch (err) {
+      console.error('[contact] Formspree fetch failed:', err)
+      console.error('[contact] LEAD NOT SAVED — recover manually:', JSON.stringify({ name, company, phone, email, inquiryType, message }))
+      return { ok: false, message: 'Something went wrong. Please call us instead.' }
+    }
+  }
+
   const apiKey = process.env.RESEND_API_KEY
   if (!apiKey) {
     console.warn('[contact] RESEND_API_KEY missing — skipping send', { name, email, inquiryType })
