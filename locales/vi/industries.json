@@ -57,7 +57,8 @@
     "ctaGetStarted": "Nhân Sự {{industry}} · Bắt Đầu",
     "ctaHeading": "Cần nhân sự {{industry}}?\nChúng tôi có thể giúp.",
     "ctaDescription": "Gửi yêu cầu và chúng tôi sẽ có ứng viên đã sàng lọc, đủ năng lực sẵn sàng trong vòng 48 giờ.",
-    "callUsNow": "Gọi Ngay"
+    "callUsNow": "Gọi Ngay",
+    "whatToLookFor": "Những điều cần lưu ý khi tuyển dụng"
   },
   "electronics-manufacturing": {
     "title": "Nhân Sự Sản Xuất Điện Tử | Chứng Chỉ IPC | Pro-Tech Staffing",
@@ -133,6 +134,28 @@
       {
         "label": "Chuỗi Cung Ứng & Hậu Cần",
         "href": "/industries/supply-chain-logistics"
+      }
+    ],
+    "hiringFactors": [
+      {
+        "title": "Chứng chỉ IPC còn hiệu lực và đúng tiêu chuẩn",
+        "desc": "\"Kinh nghiệm trong lĩnh vực điện tử\" không đồng nghĩa với việc có chứng chỉ. Hãy xác minh đúng tiêu chuẩn IPC mà ứng viên được chứng nhận - IPC-A-610 dành cho kiểm tra chất lượng, J-STD-001 dành cho hàn thủ công và IPC-620 dành cho cáp và bộ dây dẫn - đồng thời kiểm tra thời hạn chứng chỉ, vì chứng chỉ IPC cần được gia hạn định kỳ."
+      },
+      {
+        "title": "Khả năng làm việc trong môi trường yêu cầu chất lượng tuyệt đối",
+        "desc": "Các tiêu chuẩn kiểm soát chất lượng trong sản xuất điện tử không cho phép có sai sót. Hãy ưu tiên những ứng viên đã làm việc theo các tiêu chí kiểm tra được quy định rõ ràng và hiểu vì sao một lỗi được đánh dấu lại quan trọng, thay vì chỉ tuyển những lao động chuyển từ các công việc sản xuất phổ thông."
+      },
+      {
+        "title": "Linh hoạt về ca làm việc và nhu cầu mở rộng sản xuất",
+        "desc": "Nhu cầu nhân sự trong ngành điện tử thường tăng mạnh vào thời điểm ra mắt sản phẩm hoặc mùa cao điểm. Đối tác tuyển dụng phù hợp phải có khả năng nhanh chóng mở rộng hoặc thu hẹp đội ngũ nhân sự đã được chứng nhận mà không phải bắt đầu lại quá trình tìm kiếm và chứng nhận từ đầu mỗi lần."
+      },
+      {
+        "title": "Kỹ năng được kiểm chứng, không chỉ được khai báo",
+        "desc": "Một kỹ thuật viên hàn giỏi cần chứng minh được tay nghề trên thiết bị của doanh nghiệp, chứ không chỉ mô tả quy trình. Hãy yêu cầu kiểm tra tay nghề trực tiếp hoặc qua video trước khi bố trí làm việc, đặc biệt với các vị trí sửa chữa và hàn SMT bước chân linh kiện nhỏ."
+      },
+      {
+        "title": "Tuân thủ quy trình và kiểm soát ESD",
+        "desc": "Phóng tĩnh điện (ESD) hoặc việc bỏ qua các bước trong quy trình có thể gây ra những lỗi chỉ xuất hiện sau nhiều tuần khi sản phẩm đã được đưa vào sử dụng. Ứng viên phù hợp cần hiểu cách kiểm soát ESD, khả năng truy xuất nguồn gốc và luôn tuân thủ đúng quy trình làm việc."
       }
     ]
   },
@@ -210,6 +233,28 @@
         "label": "Lao Động Phổ Thông",
         "href": "/industries/general-labor"
       }
+    ],
+    "hiringFactors": [
+      {
+        "title": "Ưu tiên kỹ năng đúng với từng vị trí",
+        "desc": "Nhân viên lắp ráp, vận hành máy và kiểm tra chất lượng đều đảm nhận những công việc khác nhau. Hãy xác định rõ công việc họ sẽ thực hiện và tuyển dụng dựa trên kỹ năng phù hợp với vị trí, thay vì chỉ ưu tiên ứng viên có kinh nghiệm chung trong lĩnh vực sản xuất."
+      },
+      {
+        "title": "Phù hợp với ca làm việc và môi trường",
+        "desc": "Không phải ứng viên nào cũng phù hợp với mọi môi trường làm việc. Một người có thể làm rất tốt ở ca ngày trong môi trường yên tĩnh nhưng lại gặp khó khăn khi làm ca đêm với cường độ cao. Vì vậy, hãy cân nhắc ca làm việc, nhịp độ và môi trường thực tế để lựa chọn ứng viên phù hợp ngay từ đầu."
+      },
+      {
+        "title": "Kinh nghiệm thiết lập và chuyển đổi máy",
+        "desc": "Đối với các dây chuyền sản xuất theo lô nhỏ, nhân viên vận hành không chỉ cần biết sử dụng máy mà còn phải có kinh nghiệm thiết lập và chuyển đổi máy. Nếu vị trí yêu cầu kỹ năng này, hãy ưu tiên tuyển dụng những ứng viên đã có kinh nghiệm thực tế."
+      },
+      {
+        "title": "Đảm bảo tỷ lệ đi làm đúng giờ",
+        "desc": "Trong dây chuyền sản xuất, chỉ một trường hợp vắng mặt cũng có thể ảnh hưởng đến tiến độ của cả ca làm việc. Vì vậy, lịch sử đi làm đúng giờ là một trong những yếu tố quan trọng nhất khi đánh giá ứng viên. Chúng tôi sàng lọc kỹ trước khi ứng viên bắt đầu ca làm việc đầu tiên, thay vì xử lý khi vấn đề đã xảy ra."
+      },
+      {
+        "title": "Ý thức về chất lượng",
+        "desc": "Ngày càng nhiều vị trí trong sản xuất yêu cầu nhân viên tham gia vào quá trình kiểm tra chất lượng. Hãy ưu tiên những ứng viên hiểu các tiêu chí kiểm tra bằng mắt và tầm quan trọng của việc phát hiện lỗi, thay vì chỉ tập trung vào năng suất."
+      }
     ]
   },
   "warehouse-distribution": {
@@ -283,6 +328,28 @@
         "label": "Lao Động Phổ Thông",
         "href": "/industries/general-labor"
       }
+    ],
+    "hiringFactors": [
+      {
+        "title": "Chứng chỉ vận hành xe nâng phù hợp",
+        "desc": "Hãy xác minh chứng chỉ vận hành xe nâng còn hiệu lực và phù hợp với loại xe mà doanh nghiệp đang sử dụng. Người vận hành xe nâng ngồi (counterbalance) không đồng nghĩa với việc có thể vận hành xe nâng tầm cao (reach truck) hoặc xe lấy hàng (order picker). Hãy đảm bảo chứng chỉ và kinh nghiệm của ứng viên phù hợp với đúng loại thiết bị."
+      },
+      {
+        "title": "Đảm bảo tỷ lệ đi làm đúng giờ",
+        "desc": "Hoạt động kho vận và phân phối phụ thuộc vào việc mỗi ca làm việc đều có đủ nhân sự. Chỉ một trường hợp vắng mặt tại khu vực bốc dỡ hoặc lấy hàng cũng có thể làm gián đoạn toàn bộ quy trình. Vì vậy, hãy đánh giá lịch sử chuyên cần của ứng viên trước khi bố trí làm việc, đặc biệt với các ca đêm và cuối tuần."
+      },
+      {
+        "title": "Khả năng đáp ứng nhu cầu tuyển dụng theo mùa",
+        "desc": "Nhu cầu nhân sự có thể tăng gấp đôi chỉ trong thời gian ngắn vào mùa cao điểm. Một đối tác đã chuẩn bị sẵn đội ngũ nhân sự được sàng lọc và đáp ứng yêu cầu sẽ hiệu quả hơn nhiều so với việc chỉ bắt đầu tìm kiếm ứng viên khi nhu cầu phát sinh."
+      },
+      {
+        "title": "Phù hợp với tốc độ và phương thức lấy hàng",
+        "desc": "Kho thương mại điện tử với sản lượng lớn sẽ cần nhân sự khác với kho lưu trữ hàng hóa số lượng lớn. Hãy tuyển dụng những ứng viên có kinh nghiệm với tốc độ làm việc và phương thức lấy hàng mà doanh nghiệp đang sử dụng, như thiết bị RF, hệ thống hướng dẫn bằng giọng nói hoặc phiếu lấy hàng giấy."
+      },
+      {
+        "title": "Tuân thủ an toàn và quy trình vận hành thiết bị",
+        "desc": "Nhiều tai nạn trong kho và hư hỏng hàng hóa bắt nguồn từ việc bỏ qua các quy trình an toàn. Hãy ưu tiên những ứng viên tuân thủ đúng quy trình vận hành, hiểu giới hạn tải trọng của thiết bị và luôn chú ý đến an toàn của người đi bộ trong khu vực làm việc."
+      }
     ]
   },
   "supply-chain-logistics": {
@@ -355,6 +422,28 @@
       {
         "label": "Hành Chính & Văn Thư",
         "href": "/industries/administrative-clerical"
+      }
+    ],
+    "hiringFactors": [
+      {
+        "title": "Kinh nghiệm sử dụng hệ thống WMS và ERP",
+        "desc": "Các vị trí điều phối trong chuỗi cung ứng chủ yếu làm việc trên hệ thống phần mềm. Hãy xác minh ứng viên đã có kinh nghiệm với hệ thống WMS hoặc ERP mà doanh nghiệp đang sử dụng, đồng thời đánh giá các nghiệp vụ cụ thể như nhập hàng, kiểm kê chu kỳ và phát hành đơn hàng mà họ sẽ trực tiếp phụ trách."
+      },
+      {
+        "title": "Khả năng đưa ra quyết định trong vận hành",
+        "desc": "Những nhân sự điều phối giỏi có thể phát hiện tình trạng thiếu hàng hoặc điểm nghẽn trong quy trình trước khi chúng gây ảnh hưởng đến hoạt động. Hãy ưu tiên những ứng viên hiểu ý nghĩa của các chỉ số và dữ liệu, chứ không chỉ biết nhập liệu."
+      },
+      {
+        "title": "Kinh nghiệm phù hợp với cấp độ vị trí",
+        "desc": "Nhân viên kiểm kê mới vào nghề và điều phối logistics cấp cao là hai vị trí hoàn toàn khác nhau, với phạm vi công việc và yêu cầu khác nhau. Hãy xác định rõ cấp độ trách nhiệm để tuyển đúng người cho đúng vị trí, thay vì chỉ dựa vào chức danh."
+      },
+      {
+        "title": "Độ chính xác khi làm việc dưới áp lực thời gian",
+        "desc": "Các vị trí quản lý tồn kho và vận chuyển đòi hỏi độ chính xác cao. Chỉ một sai sót trong kiểm kê hoặc ghi nhãn hàng xuất cũng có thể gây ra tổn thất đáng kể. Hãy đánh giá khả năng làm việc chính xác của ứng viên, không chỉ tốc độ xử lý công việc."
+      },
+      {
+        "title": "Khả năng phối hợp giữa các bộ phận",
+        "desc": "Nhân sự chuỗi cung ứng thường làm việc giữa bộ phận sản xuất, mua hàng và khách hàng. Hãy đánh giá khả năng phối hợp với nhiều bộ phận khác nhau, không chỉ khả năng xử lý các nghiệp vụ hàng ngày."
       }
     ]
   },
@@ -432,6 +521,28 @@
         "label": "Lao Động Phổ Thông",
         "href": "/industries/general-labor"
       }
+    ],
+    "hiringFactors": [
+      {
+        "title": "Kinh nghiệm sử dụng phần mềm và hệ thống",
+        "desc": "Các vị trí hành chính và văn phòng thường làm việc trên nhiều hệ thống như ERP, CRM, phần mềm kế toán hoặc hệ thống quản lý tài liệu. Hãy xác minh ứng viên đã có kinh nghiệm với các hệ thống tương tự và đánh giá những nghiệp vụ cụ thể mà họ sẽ trực tiếp đảm nhiệm."
+      },
+      {
+        "title": "Kỹ năng giao tiếp và xử lý tình huống",
+        "desc": "Đối với các vị trí chăm sóc khách hàng hoặc điều phối, cách ứng viên xử lý một khách hàng không hài lòng hoặc phối hợp với các bộ phận khác thường quan trọng hơn nội dung trên hồ sơ. Hãy đánh giá những kỹ năng này ngay trong quá trình tuyển dụng."
+      },
+      {
+        "title": "Khả năng xử lý thông tin bảo mật",
+        "desc": "Các vị trí hành chính và kế toán thường phải làm việc với dữ liệu về tiền lương, thông tin khách hàng và hồ sơ tuân thủ. Hãy ưu tiên những ứng viên biết cách xử lý thông tin bảo mật một cách cẩn trọng, không chỉ nhanh chóng."
+      },
+      {
+        "title": "Độ chính xác và tính kỷ luật",
+        "desc": "Các công việc như nhập liệu, quản lý tài liệu và công nợ phải thu/phải trả (AR/AP) đòi hỏi độ chính xác cao. Hãy đánh giá khả năng làm việc cẩn thận và chú ý đến từng chi tiết của ứng viên, thay vì chỉ dựa vào tốc độ nhập liệu hoặc một hồ sơ đẹp."
+      },
+      {
+        "title": "Khả năng chủ động trong công việc",
+        "desc": "Những nhân sự hành chính và văn phòng xuất sắc không chỉ chờ được giao việc mà có thể chủ động quản lý quy trình mình phụ trách. Hãy tìm kiếm những ứng viên có khả năng tự vận hành quy trình quản lý tài liệu hoặc quy trình công nợ phải thu/phải trả (AR/AP) mà không cần giám sát thường xuyên."
+      }
     ]
   },
   "general-labor": {
@@ -505,6 +616,28 @@
         "label": "Hành Chính & Văn Thư",
         "href": "/industries/administrative-clerical"
       }
+    ],
+    "hiringFactors": [
+      {
+        "title": "Đi làm đầy đủ là yếu tố quan trọng nhất",
+        "desc": "Đối với lao động phổ thông, sự chuyên cần là yếu tố quan trọng hàng đầu. Hãy đánh giá trực tiếp lịch sử đi làm của ứng viên, vì một người luôn đi làm đầy đủ sẽ có giá trị hơn một ứng viên có nhiều kinh nghiệm nhưng thường xuyên vắng mặt."
+      },
+      {
+        "title": "Sẵn sàng nhận việc nhanh",
+        "desc": "Nhu cầu tuyển dụng lao động phổ thông thường phát sinh gấp. Giá trị của một đối tác tuyển dụng nằm ở việc có sẵn nguồn ứng viên tại địa phương có thể bắt đầu làm việc ngay, thay vì chỉ bắt đầu tìm kiếm khi doanh nghiệp có nhu cầu."
+      },
+      {
+        "title": "Đã được sàng lọc, sẵn sàng làm việc",
+        "desc": "Tuyển dụng lao động phổ thông cần nhanh nhưng vẫn phải đảm bảo chất lượng. Ứng viên trong nguồn của chúng tôi đều đã hoàn thành kiểm tra lý lịch và xét nghiệm ma túy, giúp doanh nghiệp tuyển dụng nhanh mà vẫn yên tâm về chất lượng ứng viên."
+      },
+      {
+        "title": "Phù hợp với ca làm việc và yêu cầu công việc",
+        "desc": "Hãy đảm bảo ứng viên phù hợp với yêu cầu thực tế của công việc như nâng vác, đứng trong thời gian dài, làm việc trong môi trường nóng, cường độ làm việc và ca làm việc. Sự không phù hợp ở những yếu tố này là một trong những nguyên nhân phổ biến khiến nhân sự nghỉ việc ngay trong tuần đầu."
+      },
+      {
+        "title": "Cơ hội phát triển lên các vị trí cao hơn",
+        "desc": "Những lao động phổ thông có năng lực thường là nguồn nhân sự tiềm năng cho các vị trí như vận hành máy hoặc lái xe nâng. Một đối tác tuyển dụng có thể hỗ trợ phát triển những nhân sự này lên các vị trí có tay nghề hoặc chuyển sang nhân viên chính thức sẽ giúp doanh nghiệp giữ chân những nhân sự tốt nhất."
+      }
     ]
   },
   "engineering": {
@@ -574,6 +707,28 @@
       {
         "label": "Chuỗi Cung Ứng & Hậu Cần",
         "href": "/industries/supply-chain-logistics"
+      }
+    ],
+    "hiringFactors": [
+      {
+        "title": "Chuyên môn và công cụ phù hợp",
+        "desc": "Kỹ sư cơ khí không giống kỹ sư quy trình, và kinh nghiệm với các công cụ như CAD, PLM hay PLC cũng rất khác nhau. Hãy xác định đúng chuyên môn cũng như các phần mềm và công cụ mà vị trí yêu cầu trước khi đánh giá ứng viên chỉ dựa trên chức danh."
+      },
+      {
+        "title": "Phù hợp với hình thức tuyển dụng",
+        "desc": "Mỗi nhu cầu tuyển dụng như dự án ngắn hạn, thay thế nhân sự hay tuyển dụng lâu dài đều cần những ứng viên khác nhau. Hãy xác định rõ doanh nghiệp cần nhân sự hợp đồng, hợp đồng có cơ hội trở thành nhân viên chính thức (contract-to-hire) hay tuyển dụng trực tiếp để lựa chọn đúng hình thức tuyển dụng."
+      },
+      {
+        "title": "Xác định rõ phạm vi công việc và kết quả cần đạt",
+        "desc": "Các dự án kỹ thuật rất dễ đi chệch hướng nếu phạm vi công việc không được xác định rõ. Những đợt tuyển dụng hiệu quả thường bắt đầu khi dự án, kết quả cần đạt và thời gian thực hiện được làm rõ ngay từ đầu. Nếu chưa xác định được, chúng tôi sẽ hỗ trợ doanh nghiệp xây dựng yêu cầu cho vị trí."
+      },
+      {
+        "title": "Kinh nghiệm trong đúng lĩnh vực",
+        "desc": "Một kỹ sư đến từ lĩnh vực khác chưa chắc có thể thích nghi ngay với môi trường sản xuất. Hãy ưu tiên những ứng viên đã có kinh nghiệm với môi trường làm việc, vật liệu, quy trình và các tiêu chuẩn mà doanh nghiệp đang áp dụng."
+      },
+      {
+        "title": "Am hiểu môi trường sản xuất",
+        "desc": "Những kỹ sư sản xuất giỏi không chỉ đọc hiểu bản vẽ mà còn có thể trao đổi hiệu quả với công nhân vận hành và nắm bắt tình hình trên dây chuyền sản xuất. Hãy ưu tiên những kỹ sư có khả năng kết nối giữa thiết kế và thực tế sản xuất."
       }
     ]
   },

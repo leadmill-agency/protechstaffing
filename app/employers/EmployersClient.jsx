@@ -51,7 +51,7 @@ export default function EmployersPage() {
                   src="/hero-employers.jpg"
                   alt={t('hero.imgAlt')}
                   className="w-full h-full object-cover"
-                  style={{ filter: 'grayscale(30%) brightness(0.88)' }}
+                  style={{ filter: 'grayscale(10%)' }}
                 />
               </div>
               <div className="hidden sm:block absolute -bottom-4 -left-4 bg-white border border-fog px-5 py-4 shadow-sm">

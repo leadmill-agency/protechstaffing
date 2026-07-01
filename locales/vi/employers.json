@@ -5,7 +5,7 @@
   },
   "hero": {
     "eyebrow": "Dành Cho Nhà Tuyển Dụng",
-    "heading": "Cần nhân sự? Hãy để chúng tôi lấp đầy vị trí.",
+    "heading": "Cần tuyển nhân sự? Chúng tôi sẽ giúp bạn tìm đúng người.",
     "description": "Cho chúng tôi biết vị trí, ca làm, địa điểm và ngày bắt đầu. Chúng tôi hành động nhanh và cập nhật mọi bước cho bạn.",
     "ctaSubmit": "Gửi Yêu Cầu Tuyển Dụng",
     "ctaPhone": "(972) 234-0505",
@@ -46,8 +46,8 @@
   "certification": {
     "eyebrow": "Điểm Khác Biệt",
     "heading": "Nhân viên có chứng chỉ trước khi đến xưởng.",
-    "description1": "Phàn nàn lớn nhất trong tuyển dụng sản xuất điện tử: không đủ ứng viên có trình độ, có chứng chỉ trên thị trường. Các công ty nhân sự khác gửi người. Chúng tôi gửi nhân viên đã được đào tạo.",
-    "description2": "Pro-Tech có giảng viên IPC chính thức trong đội ngũ, đào tạo và cấp chứng chỉ cho ứng viên trước khi bắt đầu. Nhân viên đến sẵn sàng làm việc hiệu quả ngay từ ngày đầu.",
+    "description1": "Một trong những thách thức lớn nhất của doanh nghiệp sản xuất điện tử là tìm được nhân sự có tay nghề và đáp ứng tiêu chuẩn công việc. Thay vì chỉ cung cấp nhân sự, Pro-Tech giới thiệu những ứng viên đã được đào tạo và sàng lọc kỹ lưỡng.",
+    "description2": "Đội ngũ của chúng tôi có các chuyên gia được chứng nhận theo tiêu chuẩn IPC, trực tiếp đào tạo và cấp chứng nhận cho ứng viên trước khi nhận việc. Nhờ đó, nhân sự sẵn sàng làm việc hiệu quả ngay từ ngày đầu.",
     "cta": "Yêu Cầu Nhân Viên Có Chứng Chỉ",
     "certsEyebrow": "Chứng Chỉ Chúng Tôi Đào Tạo",
     "ipc610": {
@@ -102,11 +102,11 @@
       },
       {
         "n": "03",
-        "title": "Nhân viên đến sẵn sàng",
+        "title": "Nhân sự sẵn sàng bắt đầu",
         "desc": "Ứng viên đã sàng lọc, phù hợp với ca làm, đến đúng giờ và sẵn sàng đóng góp từ ngày đầu. Chúng tôi theo dõi trong tuần đầu để xác nhận sự phù hợp."
       }
     ],
-    "testimonialQuote": "Pro-Tech đã lấp đầy 14 vị trí trong chưa đầy 48 giờ vào mùa cao điểm. Quan trọng hơn, các nhân viên đều có mặt — và 9 người chuyển sang chính thức. Sự ổn định đó quan trọng hơn bất kỳ bảng giá nào.",
+    "testimonialQuote": "Pro-Tech đã giúp chúng tôi tuyển đủ 14 vị trí chỉ trong chưa đầy 48 giờ vào giai đoạn cao điểm. Quan trọng hơn, nhân sự đều đến làm đúng hẹn và 9 người đã được tuyển dụng chính thức. Sự ổn định đó mới là điều tạo nên khác biệt.",
     "testimonialName": "Giám Đốc Vận Hành",
     "testimonialCo": "Nhà Sản Xuất Điện Tử · DFW",
     "screeningLinkText": "Xem quy trình sàng lọc đầy đủ của chúng tôi"
