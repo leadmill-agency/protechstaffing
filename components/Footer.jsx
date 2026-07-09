@@ -89,7 +89,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-graphite pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-[10px] text-fog">{t('footer.copyright')}</p>
+          <p className="text-[10px] text-fog">{t('footer.copyright', { year: new Date().getFullYear() })}</p>
           <div className="flex gap-6">
             <Link href="/blog" className="text-[10px] text-fog hover:text-white transition-colors">Insights</Link>
             <Link href="/leave-a-review" className="text-[10px] text-fog hover:text-white transition-colors">Leave a Review</Link>

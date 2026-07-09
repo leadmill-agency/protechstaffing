@@ -73,7 +73,7 @@
       "phoenix": "Phoenix, AZ",
       "cincinnati": "Cincinnati, OH"
     },
-    "copyright": "© 2025 Pro-Tech Staffing Services. Todos los derechos reservados.",
+    "copyright": "© {{year}} Pro-Tech Staffing Services. Todos los derechos reservados.",
     "legal": {
       "privacy": "Política de Privacidad",
       "terms": "Términos de Servicio",
