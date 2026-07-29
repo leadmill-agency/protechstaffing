@@ -53,6 +53,14 @@ function Hero() {
                   {t('hero.ctaPrimary')}
                 </Link>
               </div>
+              <p className="mt-5 text-sm text-steel">
+                <Link
+                  href="/request-1095c"
+                  className="underline underline-offset-2 hover:text-sig-blue transition-colors"
+                >
+                  {t('hero.ctaRequest1095C')}
+                </Link>
+              </p>
             </MotionFadeIn>
           </div>
 

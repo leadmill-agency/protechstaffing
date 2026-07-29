@@ -111,14 +111,6 @@ export default function JobSeekersPage() {
                 </a>
               </div>
 
-              <p className="mt-5 text-sm text-fog">
-                <a
-                  href="/request-1095c"
-                  className="underline underline-offset-2 hover:text-white transition-colors"
-                >
-                  {t('hero.ctaRequest1095C')}
-                </a>
-              </p>
             </div>
 
             <div className="aspect-[4/5] overflow-hidden">
