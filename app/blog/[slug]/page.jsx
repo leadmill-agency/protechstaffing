@@ -66,18 +66,29 @@ export default async function BlogPostPage({ params }) {
     image: post.image ? [post.image.startsWith('http') ? post.image : `${BASE}${post.image}`] : undefined,
     datePublished: post.date,
     dateModified: post.updated || post.date,
-    author: {
-      '@type': 'Organization',
-      name: post.author || 'Pro-Tech Staffing Services',
-      url: BASE,
-      description: post.authorBio || 'Industrial and electronics manufacturing staffing specialists with 30+ years of placement experience.',
-      knowsAbout: [
-        'Industrial Staffing',
-        'Electronics Manufacturing Staffing',
-        'Warehouse & Distribution Staffing',
-        'Light Industrial Staffing',
-      ],
-    },
+    // Named person with a verifiable profile (E-E-A-T); falls back to the
+    // organization for any post without an authorLinkedIn.
+    author: post.authorLinkedIn
+      ? {
+          '@type': 'Person',
+          name: post.author,
+          jobTitle: post.authorRole || undefined,
+          description: post.authorBio || undefined,
+          sameAs: [post.authorLinkedIn],
+          worksFor: { '@type': 'Organization', name: 'Pro-Tech Staffing Services', url: BASE },
+        }
+      : {
+          '@type': 'Organization',
+          name: post.author || 'Pro-Tech Staffing Services',
+          url: BASE,
+          description: post.authorBio || 'Industrial and electronics manufacturing staffing specialists with 30+ years of placement experience.',
+          knowsAbout: [
+            'Industrial Staffing',
+            'Electronics Manufacturing Staffing',
+            'Warehouse & Distribution Staffing',
+            'Light Industrial Staffing',
+          ],
+        },
     publisher: {
       '@type': 'Organization',
       name: 'Pro-Tech Staffing Services',
@@ -134,7 +145,15 @@ export default async function BlogPostPage({ params }) {
               <span className="w-4 h-4">{icons.users}</span>
             </div>
             <div className="text-xs">
-              <p className="font-semibold text-carbon">{post.author || 'Pro-Tech Staffing'}</p>
+              <p className="font-semibold text-carbon">
+                {post.authorLinkedIn ? (
+                  <a href={post.authorLinkedIn} target="_blank" rel="noopener" className="hover:text-sig-blue transition-colors">
+                    {post.author}
+                  </a>
+                ) : (
+                  post.author || 'Pro-Tech Staffing'
+                )}
+              </p>
               <div className="flex items-center gap-2 text-steel">
                 {post.authorRole && <span>{post.authorRole}</span>}
                 {post.authorRole && <span aria-hidden>·</span>}
@@ -238,7 +257,15 @@ export default async function BlogPostPage({ params }) {
                 </div>
                 <div>
                   <p className="answer-label" style={{ marginBottom: '0.35rem' }}>About the author</p>
-                  <p className="author-name">{post.author || 'Pro-Tech Staffing'}</p>
+                  <p className="author-name">
+                    {post.authorLinkedIn ? (
+                      <a href={post.authorLinkedIn} target="_blank" rel="noopener" className="hover:text-sig-blue transition-colors">
+                        {post.author}
+                      </a>
+                    ) : (
+                      post.author || 'Pro-Tech Staffing'
+                    )}
+                  </p>
                   {post.authorRole && <p className="author-role">{post.authorRole}</p>}
                   <p className="author-bio">
                     {post.authorBio || 'Pro-Tech Staffing has placed industrial, electronics manufacturing, warehouse, and light industrial workers for over 30 years across Texas, Florida, California, Arizona, and the Cincinnati / Northern Kentucky market.'}
