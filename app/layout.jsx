@@ -48,17 +48,17 @@ export default function RootLayout({ children }) {
     url: 'https://www.protechstaffing.com',
     logo: 'https://www.protechstaffing.com/logo.png',
     description: 'Light industrial, electronic manufacturing, warehouse, and supply chain staffing agency serving Dallas-Fort Worth, Tampa FL, San Jose CA, Phoenix AZ, and Cincinnati OH.',
-    telephone: '+1-000-000-0000',
+    telephone: '+1-972-234-0505',
     email: 'info@protechstaffing.com',
     address: {
       '@type': 'PostalAddress',
-      streetAddress: 'TBD',
+      streetAddress: '2150 E Arapaho Rd, Ste 100',
       addressLocality: 'Richardson',
       addressRegion: 'TX',
-      postalCode: '75080',
+      postalCode: '75081',
       addressCountry: 'US',
     },
-    geo: { '@type': 'GeoCoordinates', latitude: 32.9483, longitude: -96.7299 },
+    geo: { '@type': 'GeoCoordinates', latitude: 32.9601416, longitude: -96.6843152 },
     areaServed: [
       'Richardson TX', 'Bedford TX', 'Dallas TX', 'Fort Worth TX',
       'Arlington TX', 'Plano TX', 'Irving TX', 'Garland TX',
@@ -71,10 +71,12 @@ export default function RootLayout({ children }) {
       'Warehouse Staffing', '3PL Staffing', 'Supply Chain Staffing',
       'Administrative Staffing', 'Temp-to-Hire', 'Direct Placement',
     ],
-    aggregateRating: { '@type': 'AggregateRating', ratingValue: '4.8', reviewCount: '120', bestRating: '5' },
+    // NOTE: no aggregateRating here on purpose — marking up third-party (Google)
+    // review scores as self-serving LocalBusiness rating violates Google's
+    // structured-data guidelines, and hardcoded counts go stale.
     sameAs: [
       'https://www.linkedin.com/company/pro-tech-staffing',
-      'https://www.google.com/maps?cid=PLACEHOLDER',
+      'https://www.google.com/maps/place/?q=place_id:ChIJedTRPJMeTIYRPZiyZc1G9xE',
     ],
   }
 

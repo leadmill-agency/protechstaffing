@@ -18,6 +18,7 @@ export default function sitemap() {
     { url: `${BASE}/request-1095c`, changeFrequency: 'yearly', priority: 0.3 },
     { url: `${BASE}/leave-a-review`, changeFrequency: 'yearly', priority: 0.3 },
     { url: `${BASE}/privacy-policy`, changeFrequency: 'yearly', priority: 0.3 },
+    { url: `${BASE}/editorial-policy`, changeFrequency: 'yearly', priority: 0.3 },
   ]
 
   const blogPosts = getAllPosts().map((post) => ({

@@ -23,6 +23,7 @@ export async function generateMetadata({ params }) {
       type: 'article',
       url: `${BASE}/blog/${slug}`,
       publishedTime: post.date,
+      modifiedTime: post.updated || undefined,
       authors: post.author ? [post.author] : undefined,
       images: post.image ? [{ url: post.image }] : undefined,
     },
@@ -41,6 +42,20 @@ export default async function BlogPostPage({ params }) {
   if (!post) notFound()
 
   const readMinutes = estimateReadTime(post.content)
+
+  // FAQPage JSON-LD — built from the same frontmatter that renders the visible
+  // FAQ section, so schema and on-page text can never drift apart.
+  const faqSchema = Array.isArray(post.faq) && post.faq.length > 0
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: post.faq.map(({ q, a }) => ({
+          '@type': 'Question',
+          name: q,
+          acceptedAnswer: { '@type': 'Answer', text: a },
+        })),
+      }
+    : null
 
   // BlogPosting JSON-LD schema
   const articleSchema = {
@@ -85,6 +100,12 @@ export default async function BlogPostPage({ params }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
       />
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
 
       {/* Hero */}
       <section className="bg-bone pt-20 border-b border-fog">
@@ -118,6 +139,12 @@ export default async function BlogPostPage({ params }) {
                 {post.authorRole && <span>{post.authorRole}</span>}
                 {post.authorRole && <span aria-hidden>·</span>}
                 <span>{formatDate(post.date)}</span>
+                {post.updated && (
+                  <>
+                    <span aria-hidden>·</span>
+                    <span>Updated {formatDate(post.updated)}</span>
+                  </>
+                )}
                 <span aria-hidden>·</span>
                 <span>{readMinutes} min read</span>
               </div>
@@ -167,6 +194,40 @@ export default async function BlogPostPage({ params }) {
             className="blog-content prose-content"
             dangerouslySetInnerHTML={{ __html: post.html }}
           />
+
+          {/* FAQs — rendered from the same frontmatter as the FAQPage schema */}
+          {Array.isArray(post.faq) && post.faq.length > 0 && (
+            <div className="blog-content prose-content mt-10">
+              <h2>Frequently asked questions</h2>
+              {post.faq.map(({ q, a }, i) => (
+                <div key={i}>
+                  <h3>{q}</h3>
+                  <p>{a}</p>
+                </div>
+              ))}
+            </div>
+          )}
+
+          {/* Sources — external authority citations (E-E-A-T / AI-citation signal) */}
+          {Array.isArray(post.sources) && post.sources.length > 0 && (
+            <div className="mt-10 pt-6 border-t border-fog">
+              <p className="answer-label" style={{ marginBottom: '0.5rem' }}>Sources</p>
+              <ul className="text-sm text-steel space-y-1.5">
+                {post.sources.map(({ title, url }, i) => (
+                  <li key={i}>
+                    <a
+                      href={url}
+                      target="_blank"
+                      rel="noopener"
+                      className="underline underline-offset-2 hover:text-sig-blue transition-colors"
+                    >
+                      {title}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
 
           {/* About the author — E-E-A-T trust signal */}
           {(post.authorBio || post.author) && (

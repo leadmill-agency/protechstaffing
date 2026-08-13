@@ -2,6 +2,7 @@
 title: "5 Questions to Ask Before Signing With an Industrial Staffing Agency in DFW"
 slug: "questions-to-ask-before-signing-industrial-staffing-agency-dfw"
 date: "2026-06-10"
+updated: "2026-08-13"
 description: "Before you sign a staffing contract in Dallas-Fort Worth, get clear answers on guarantees, bill-rate markup, conversion fees, your local contact, and compliance. The five questions that surface hidden costs."
 author: "Pro-Tech Staffing"
 authorRole: "Industrial Staffing Specialists"
@@ -21,6 +22,20 @@ keywords:
   - staffing contract questions
   - temp to hire conversion fee
   - Dallas Fort Worth staffing
+faq:
+  - q: "What should a staffing replacement guarantee include?"
+    a: "Three things in writing: what triggers it (no-show, quit, performance), what voids it (some contracts cover attendance only, or require reporting within a tight window), and whether you get a free replacement or a prorated credit. Vague verbal guarantees are where surprise costs hide."
+  - q: "Who carries payroll and workers' comp for temp workers?"
+    a: "The staffing agency — placed workers should be the agency's W-2 employees, with the agency carrying payroll taxes, workers' compensation, and employment compliance, including work-eligibility verification. Confirm this in the agreement before signing."
+  - q: "What is a temp-to-hire conversion fee?"
+    a: "The fee an agency charges if you hire a placed worker permanently. The structure varies; the key question is at what point it drops to zero — typically after the worker completes a set number of hours on assignment. Get the schedule in writing before you sign."
+sources:
+  - title: "American Staffing Association — Staffing industry research"
+    url: "https://americanstaffing.net/research/"
+  - title: "E-Verify — U.S. employment eligibility verification"
+    url: "https://www.e-verify.gov/"
+  - title: "Texas Workforce Commission"
+    url: "https://www.twc.texas.gov/"
 ---
 
 Most staffing-agency comparisons in Dallas-Fort Worth start and end with the bill rate. But the rate is the easy part to compare — it's the contract terms *around* the rate that decide whether you actually save money or inherit a pile of surprise costs.

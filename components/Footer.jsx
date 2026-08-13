@@ -94,6 +94,7 @@ export default function Footer() {
             <Link href="/blog" className="text-[10px] text-fog hover:text-white transition-colors">Insights</Link>
             <Link href="/leave-a-review" className="text-[10px] text-fog hover:text-white transition-colors">Leave a Review</Link>
             <Link href="/request-1095c" className="text-[10px] text-fog hover:text-white transition-colors">1095-C Tax Form</Link>
+            <Link href="/editorial-policy" className="text-[10px] text-fog hover:text-white transition-colors">Editorial Policy</Link>
             <Link href="/privacy-policy" className="text-[10px] text-fog hover:text-white transition-colors">{t('footer.legal.privacy')}</Link>
             <Link href="/contact" className="text-[10px] text-fog hover:text-white transition-colors">{t('nav.links.contact')}</Link>
           </div>
