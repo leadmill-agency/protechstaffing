@@ -6,6 +6,9 @@ import { useTranslation } from 'react-i18next'
 import icons from '@/components/icons'
 import { trackEvent } from '@/lib/analytics'
 
+const AVIONTE_APPLICATION_URL =
+  'https://hire.myavionte.com/sonar/v2/careers/integrations/standalone/general?bId=raT6rfEW_d4&jbId=iM1TUV0_0sw&rpid=general'
+
 export default function JobSeekersPage() {
   const { t } = useTranslation('jobSeekers')
   const [iframeHeight, setIframeHeight] = useState(900)
@@ -252,8 +255,25 @@ export default function JobSeekersPage() {
               {t('application.description')}
             </p>
           </div>
+          {/* Escape hatch: the embedded Avionté form relies on third-party
+              cookies, which Safari/iOS (and increasingly Chrome) block — some
+              applicants get "logged out" mid-application inside the iframe.
+              Opening the same URL directly runs first-party and always works. */}
+          <p className="text-sm text-steel text-center mb-4">
+            {t('application.troublePrefix')}{' '}
+            <a
+              href={AVIONTE_APPLICATION_URL}
+              target="_blank"
+              rel="noopener"
+              onClick={() => trackEvent('application_fallback_click', { page_path: window.location.pathname })}
+              className="underline underline-offset-2 font-medium text-sig-blue hover:text-ind-green transition-colors"
+            >
+              {t('application.troubleLink')}
+            </a>
+            .
+          </p>
           <iframe
-            src="https://hire.myavionte.com/sonar/v2/careers/integrations/standalone/general?bId=raT6rfEW_d4&jbId=iM1TUV0_0sw&rpid=general"
+            src={AVIONTE_APPLICATION_URL}
             width="100%"
             height={iframeHeight}
             frameBorder="0"

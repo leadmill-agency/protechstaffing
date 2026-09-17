@@ -105,6 +105,8 @@
     "eyebrow": "Enviar una Solicitud General",
     "heading": "¿No ve el trabajo correcto?",
     "description": "Envíe su solicitud y nuestros reclutadores lo conectarán con oportunidades a medida que surjan.",
-    "iframeTitle": "Formulario de Solicitud de Pro-Tech Staffing"
+    "iframeTitle": "Formulario de Solicitud de Pro-Tech Staffing",
+    "troublePrefix": "¿Problemas para enviar su solicitud?",
+    "troubleLink": "abra la solicitud en una pestaña nueva"
   }
 }

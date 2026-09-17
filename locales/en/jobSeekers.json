@@ -105,6 +105,8 @@
     "eyebrow": "Submit a General Application",
     "heading": "Don't see the right job?",
     "description": "Submit your application and our recruiters will match you with opportunities as they open up.",
-    "iframeTitle": "Pro-Tech Staffing Application Form"
+    "iframeTitle": "Pro-Tech Staffing Application Form",
+    "troublePrefix": "Having trouble submitting?",
+    "troubleLink": "open the application in a new tab"
   }
 }

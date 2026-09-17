@@ -105,6 +105,8 @@
     "eyebrow": "Gửi Đơn Ứng Tuyển Chung",
     "heading": "Không tìm thấy công việc phù hợp?",
     "description": "Gửi đơn ứng tuyển và đội ngũ tuyển dụng của chúng tôi sẽ kết nối bạn với cơ hội khi chúng xuất hiện.",
-    "iframeTitle": "Đơn Ứng Tuyển Pro-Tech Staffing"
+    "iframeTitle": "Đơn Ứng Tuyển Pro-Tech Staffing",
+    "troublePrefix": "Gặp sự cố khi gửi đơn?",
+    "troubleLink": "mở đơn ứng tuyển trong thẻ mới"
   }
 }
