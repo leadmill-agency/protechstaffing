@@ -407,6 +407,10 @@
     },
     "relatedIndustries": [
       {
+        "label": "Forklift Operators (DFW)",
+        "href": "/industries/forklift-operator-staffing-dfw"
+      },
+      {
         "label": "Supply Chain & Logistics",
         "href": "/industries/supply-chain-logistics"
       },
@@ -1180,5 +1184,132 @@
         "Seasonal workers"
       ]
     }
+  },
+  "forklift-operator-staffing-dfw": {
+    "title": "Forklift Operator Staffing in Dallas-Fort Worth | Pro-Tech Staffing",
+    "metaDesc": "Forklift operators for DFW warehouses and distribution centers, matched to your truck class — sit-down, reach, order picker, pallet jack. Days and nights. Placed from our Richardson and Bedford offices.",
+    "h1": "Forklift operator staffing in Dallas-Fort Worth.",
+    "subhead": "Sit-down, reach truck, order picker, and pallet jack operators — matched to your trucks and your shift.",
+    "label": "Forklift",
+    "intro": "A forklift operator is either ready for your trucks and your floor on day one, or a safety risk and a slow shift. Pro-Tech places forklift operators across Dallas-Fort Worth from our Richardson and Bedford offices — matched to the truck types you run, with training and experience verified before placement, and recruited for the shift you actually need covered.",
+    "imgAlt": "Forklift operator moving pallets in a Dallas-Fort Worth warehouse",
+    "certHeading": "Operators matched to your trucks.\nNot just a forklift card.",
+    "certDescription": "OSHA groups forklifts into classes, and an operator who runs one class safely may never have run another. We match each operator's experience and training to the truck types on your floor.",
+    "certVerified": "Experience and training verified before placement.",
+    "certifications": [
+      "Class I — electric sit-down counterbalance",
+      "Class II — narrow-aisle reach trucks and order pickers",
+      "Class III — electric pallet jacks and walkie stackers",
+      "Class IV — internal combustion, cushion tires",
+      "Class V — internal combustion, pneumatic tires (dock and yard)",
+      "OSHA 1910.178 training records"
+    ],
+    "roles": [
+      "Sit-down counterbalance operators",
+      "Reach truck operators",
+      "Order picker operators",
+      "Electric pallet jack and walkie stacker operators",
+      "Dock and yard forklift operators",
+      "Forklift-trained material handlers",
+      "Shipping and receiving associates"
+    ],
+    "rolesDescription": "Forklift work splits into distinct skills by truck and setting. We place operators matched to the trucks, rack heights, and conditions on your floor.",
+    "whyUs": [
+      {
+        "title": "Matched to your truck class",
+        "desc": "We match every operator to the truck types on your floor — sit-down, reach, order picker, or pallet jack — not just \"forklift experience.\""
+      },
+      {
+        "title": "Clear on OSHA responsibilities",
+        "desc": "We verify training before placement and agree with you up front who covers the site evaluation, so compliance is settled before the first shift."
+      },
+      {
+        "title": "Two DFW offices",
+        "desc": "Our Richardson headquarters and Bedford office recruit operators on both sides of the metroplex, close to where they will work."
+      }
+    ],
+    "proof": [
+      {
+        "n": "48h",
+        "label": "Avg. fill time"
+      },
+      {
+        "n": "2",
+        "label": "DFW offices"
+      },
+      {
+        "n": "Days & nights",
+        "label": "Shift coverage"
+      },
+      {
+        "n": "W-2",
+        "label": "Pro-Tech employees"
+      }
+    ],
+    "relatedIndustries": [
+      {
+        "label": "Warehouse & Distribution",
+        "href": "/industries/warehouse-distribution"
+      },
+      {
+        "label": "Supply Chain & Logistics",
+        "href": "/industries/supply-chain-logistics"
+      },
+      {
+        "label": "Light Industrial",
+        "href": "/industries/light-industrial"
+      }
+    ],
+    "overview": [
+      "Forklift demand in Dallas-Fort Worth is spread across several hubs rather than one. In Tarrant County, AllianceTexas in north Fort Worth anchors air cargo and rail, the CentrePort business park sits just south of DFW Airport, and the Great Southwest Industrial District runs along the Arlington–Grand Prairie line. In southern Dallas County, the International Inland Port of Dallas clusters distribution centers for companies such as Amazon, FedEx, and Walmart around Union Pacific's intermodal terminal in Hutchins. Each hub draws on its own labor pool, so where an operator lives matters almost as much as what they can drive.",
+      "OSHA's forklift rule puts the responsibility on the employer. Under 29 CFR 1910.178(l), the employer must make sure every operator is competent to run its trucks safely. That means formal instruction, practical training, and an evaluation of the operator's performance in the workplace, recorded in a written certification, with a performance evaluation at least once every three years. A card from a previous job or an online course does not carry over on its own. Prior training can count, but only once the operator has been evaluated and found competent on your equipment and in your conditions.",
+      "For temporary operators, that duty is shared. OSHA treats the staffing agency and the host employer as joint employers of temporary workers, and its guidance on forklift training says training and certification must be tailored to the worksite and the specific trucks used there. In practice, we verify each operator's experience, training, and the truck types they have run before placement. You evaluate them on your trucks and give the site-specific training only you can give. Agreeing who covers what before the first shift is what keeps a placement both safe and compliant.",
+      "Truck type is where most mismatches happen. A sit-down counterbalance operator is not automatically a reach-truck operator, and someone working a reach truck in high bays is doing different work from someone running a pallet jack on the dock. OSHA also requires refresher training when an operator is assigned to a different type of truck. So before we recruit, we ask exactly what you run: the truck classes, rack heights, aisle widths, attachments, and whether the work is indoors, on the dock, or in the yard.",
+      "Shift and schedule decide whether a placement lasts. Hub operations such as parcel sorting and intermodal rail run around the clock, and second- and third-shift forklift roles are where most coverage gaps open. We recruit for the actual schedule and confirm the operator wants it before placing them, because a qualified operator who does not want nights is not a lasting fill. Pro-Tech has staffed industrial work in DFW for more than 30 years, and our recruiters in Richardson and Bedford work these corridors every week."
+    ],
+    "hiringFactors": [
+      {
+        "title": "A truck-class match, not general experience",
+        "desc": "Ask which OSHA truck classes the operator has actually run, and match them to yours. Sit-down, reach, order picker, and pallet jack work are different skills with different risks."
+      },
+      {
+        "title": "A workplace evaluation on your equipment",
+        "desc": "OSHA requires the operator to be evaluated in your workplace. Plan for it on day one, and don't treat a card from another employer as proof of competence on your trucks."
+      },
+      {
+        "title": "Current evaluation and refresher history",
+        "desc": "Performance evaluations are due at least every three years. Refresher training is required after unsafe operation, an accident or near miss, a failed evaluation, or a change of truck type or workplace conditions."
+      },
+      {
+        "title": "Safety habits you can hear in the answers",
+        "desc": "Ask about load capacity, rack clearance, pedestrian awareness, and pre-shift truck inspections. Operators who have worked a busy floor answer specifically; others answer in generalities."
+      },
+      {
+        "title": "Shift and commute fit",
+        "desc": "DFW's freight hubs sit far apart. Confirm the operator can reliably reach your site for the actual shift — especially nights and weekends, when the gaps usually open."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Are your forklift operators OSHA certified?",
+        "a": "Every operator we place has verified forklift training and experience on the truck types you run. Under OSHA's rule, final certification belongs to the employer: each operator must be evaluated on your trucks and in your workplace. For temporary operators we share that responsibility with you and agree who covers what before the first shift."
+      },
+      {
+        "q": "Which types of forklifts can your operators run?",
+        "a": "We place operators for sit-down counterbalance trucks, narrow-aisle reach trucks, order pickers, electric pallet jacks and walkie stackers, and internal-combustion trucks used on docks and in yards. We match each operator to the specific classes on your floor."
+      },
+      {
+        "q": "Where in Dallas-Fort Worth do you place forklift operators?",
+        "a": "Across the metroplex, including AllianceTexas, CentrePort, the Great Southwest district, the southern Dallas inland port, and the Richardson–Garland corridor. We recruit from our Richardson headquarters and our Bedford office."
+      },
+      {
+        "q": "How fast can you fill a forklift operator role?",
+        "a": "For standard day-shift roles, we typically deliver the first qualified candidates within 48 hours. Second- and third-shift roles and less common truck types can take 48 to 72 hours."
+      },
+      {
+        "q": "Do you offer temp-to-hire for forklift operators?",
+        "a": "Yes. Temp-to-hire lets you see an operator on your trucks and your schedule before you hire them permanently. While they are on assignment, they are Pro-Tech W-2 employees, so we carry the payroll, workers' compensation, and employment compliance."
+      }
+    ]
   }
 }

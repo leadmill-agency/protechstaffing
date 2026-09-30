@@ -35,6 +35,17 @@ const INDUSTRY_DATA = {
     icon: 'hammer',
     img: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=1000&q=75',
   },
+  'forklift-operator-staffing-dfw': {
+    slug: 'industries/forklift-operator-staffing-dfw',
+    icon: 'box',
+    img: 'https://images.unsplash.com/photo-1565688534245-05d6b5be184a?w=1000&q=75',
+    marketLinks: [
+      { label: 'Fort Worth, TX', href: '/locations/fort-worth-tx' },
+      { label: 'Arlington, TX', href: '/locations/arlington-tx' },
+      { label: 'Bedford, TX', href: '/locations/bedford-tx' },
+      { label: 'Richardson, TX', href: '/locations/richardson-tx' },
+    ],
+  },
 }
 
 export default INDUSTRY_DATA

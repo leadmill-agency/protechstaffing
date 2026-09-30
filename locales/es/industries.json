@@ -272,6 +272,10 @@
     },
     "relatedIndustries": [
       {
+        "label": "Operadores de Montacargas (DFW)",
+        "href": "/industries/forklift-operator-staffing-dfw"
+      },
+      {
         "label": "Cadena de Suministro y Logística",
         "href": "/industries/supply-chain-logistics"
       },

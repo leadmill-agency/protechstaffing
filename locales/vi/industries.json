@@ -317,6 +317,10 @@
     },
     "relatedIndustries": [
       {
+        "label": "Nhân Viên Lái Xe Nâng (DFW)",
+        "href": "/industries/forklift-operator-staffing-dfw"
+      },
+      {
         "label": "Chuỗi Cung Ứng & Hậu Cần",
         "href": "/industries/supply-chain-logistics"
       },

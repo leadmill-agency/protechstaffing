@@ -36,6 +36,7 @@ export default function sitemap() {
     'administrative-clerical',
     'general-labor',
     'engineering',
+    'forklift-operator-staffing-dfw',
   ].map(slug => ({
     url: `${BASE}/industries/${slug}`,
     changeFrequency: 'monthly',

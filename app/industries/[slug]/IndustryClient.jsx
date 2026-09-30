@@ -118,7 +118,7 @@ export default function IndustryPage({ params }) {
                 ))}
               </h2>
               <p className="text-steel leading-relaxed mb-8">
-                {t('detail.rolesDescription', { industry: labelLower })}
+                {t(`${industry}.rolesDescription`, { defaultValue: t('detail.rolesDescription', { industry: labelLower }) })}
               </p>
               <Link href="/#employers" className="inline-flex items-center gap-2 bg-sig-blue hover:bg-blue-900 text-white font-semibold text-sm px-6 py-3 rounded-md transition-colors">
                 {t('detail.submitRequest')}
@@ -146,17 +146,17 @@ export default function IndustryPage({ params }) {
           <div className="max-w-7xl mx-auto px-6">
             <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-5">{t('detail.certifications')}</p>
             <h2 className="font-semibold text-carbon text-3xl leading-tight tracking-tight mb-4">
-              {t('detail.certHeading').split('\n').map((line, i) => (
+              {t(`${industry}.certHeading`, { defaultValue: t('detail.certHeading') }).split('\n').map((line, i) => (
                 <span key={i}>{line}{i === 0 && <br />}</span>
               ))}
             </h2>
-            <p className="text-steel leading-relaxed mb-10 max-w-2xl">{t('detail.certDescription')}</p>
+            <p className="text-steel leading-relaxed mb-10 max-w-2xl">{t(`${industry}.certDescription`, { defaultValue: t('detail.certDescription') })}</p>
             <div className="grid md:grid-cols-3 gap-6">
               {certifications.map(cert => (
                 <div key={cert} className="border-t-2 border-ind-green pt-6 bg-bone p-6">
                   <div className="w-5 h-5 text-ind-green mb-3">{icons.shield}</div>
                   <p className="font-semibold text-carbon text-sm mb-1">{cert}</p>
-                  <p className="text-steel text-xs leading-relaxed">{t('detail.certVerified')}</p>
+                  <p className="text-steel text-xs leading-relaxed">{t(`${industry}.certVerified`, { defaultValue: t('detail.certVerified') })}</p>
                 </div>
               ))}
             </div>
@@ -204,7 +204,8 @@ export default function IndustryPage({ params }) {
         </section>
       )}
 
-      {/* Testimonial */}
+      {/* Testimonial (only when the industry has a real one) */}
+      {testimonial && typeof testimonial === 'object' && testimonial.quote && (
       <section className="bg-carbon py-14 md:py-20">
         <div className="max-w-3xl mx-auto px-6 text-center">
           <div className="flex justify-center mb-6 gap-1">
@@ -219,6 +220,7 @@ export default function IndustryPage({ params }) {
           <p className="text-xs text-steel tracking-widest mt-1">{testimonial.co}</p>
         </div>
       </section>
+      )}
 
       {/* FAQ */}
       {Array.isArray(faq) && faq.length > 0 && (
@@ -259,7 +261,7 @@ export default function IndustryPage({ params }) {
             {t('detail.staffedMarkets', { defaultValue: 'Markets We Staff' })}
           </p>
           <div className="flex flex-wrap gap-3">
-            {MARKET_LINKS.map(({ label: mLabel, href }) => (
+            {(d.marketLinks || MARKET_LINKS).map(({ label: mLabel, href }) => (
               <Link key={href} href={href} className="inline-flex items-center gap-2 border border-fog hover:border-carbon text-steel hover:text-carbon text-sm font-medium px-5 py-2.5 transition-colors rounded-md">
                 <span className="w-3.5 h-3.5 text-ind-green">{icons.mapPin}</span>
                 {mLabel}

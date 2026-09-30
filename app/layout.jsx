@@ -21,7 +21,7 @@ const ibmPlexMono = IBM_Plex_Mono({
 export const metadata = {
   title: {
     default: 'Industrial Staffing Agency in Dallas TX | Pro-Tech Staffing Services',
-    template: '%s | Pro-Tech Staffing',
+    template: '%s',
   },
   description: 'Pro-Tech Staffing is a light industrial staffing agency serving Dallas-Fort Worth, Tampa FL, San Jose CA, and Phoenix AZ. Vetted workers placed in 48 hours. Temp, temp-to-hire, and direct placement.',
   robots: 'index, follow',
