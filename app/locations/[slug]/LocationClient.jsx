@@ -35,6 +35,8 @@ const SLUG_TO_MARKET = {
   'san-jose-ca': 'sanjose',
   'phoenix-az': 'phoenix',
   'cincinnati-oh': 'cincinnati',
+  'arlington-tx': 'arlington',
+  'fort-worth-tx': 'fortworth',
 }
 
 // ─── LOCATION PAGE ─────────────────────────────────────────────────────────────
@@ -143,8 +145,8 @@ export default function LocationPage({ params }) {
         </div>
       </section>
 
-      {/* ── 3. MARKET INTRO (Bucket 1 only) ─────────────────────────────────── */}
-      {isBucket1 && marketIntro && (
+      {/* ── 3. MARKET INTRO ──────────────────────────────────────────────────── */}
+      {marketIntro && (
         <section className="bg-bone py-14 md:py-20">
           <div className="max-w-4xl mx-auto px-6">
             <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-6">{t('detail.aboutThisMarket')}</p>
@@ -156,7 +158,7 @@ export default function LocationPage({ params }) {
       )}
 
       {/* ── 3b. MARKET SNAPSHOT (Bucket 1 only, when present) ───────────────── */}
-      {isBucket1 && marketSnapshot && typeof marketSnapshot === 'object' && (
+      {marketSnapshot && typeof marketSnapshot === 'object' && (
         <section className="bg-white py-16 md:py-24 border-y border-fog">
           <div className="max-w-5xl mx-auto px-6">
             <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-5">{t('detail.marketSnapshotEyebrow')}</p>
@@ -188,7 +190,7 @@ export default function LocationPage({ params }) {
       )}
 
       {/* ── 3c. HIRING IN THIS MARKET (Bucket 1, when present) ─────────────── */}
-      {isBucket1 && Array.isArray(hiringGuide) && hiringGuide.length > 0 && (
+      {Array.isArray(hiringGuide) && hiringGuide.length > 0 && (
         <section className="bg-bone py-16 md:py-24 border-t border-fog">
           <div className="max-w-3xl mx-auto px-6">
             <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-3">{t('detail.hiringEyebrow')}</p>
@@ -315,7 +317,8 @@ export default function LocationPage({ params }) {
         </div>
       </section>
 
-      {/* ── 7. TESTIMONIAL ──────────────────────────────────────────────────── */}
+      {/* ── 7. TESTIMONIAL (only when the market has a real one) ───────────── */}
+      {testimonial && typeof testimonial === 'object' && testimonial.quote && (
       <section className="bg-carbon py-14 md:py-20">
         <div className="max-w-3xl mx-auto px-6 text-center">
           <div className="flex justify-center mb-6 gap-1">
@@ -330,6 +333,7 @@ export default function LocationPage({ params }) {
           <p className="text-xs text-steel tracking-widest mt-1">{testimonial.co}</p>
         </div>
       </section>
+      )}
 
       {/* ── 8. OFFICE INFO (Bucket 1 only) ──────────────────────────────────── */}
       {isBucket1 && d.officeInfo && (
@@ -452,7 +456,7 @@ export default function LocationPage({ params }) {
       )}
 
       {/* ── 9. FAQ (Bucket 1 only) ───────────────────────────────────────────── */}
-      {isBucket1 && faq && Array.isArray(faq) && faq.length > 0 && (
+      {faq && Array.isArray(faq) && faq.length > 0 && (
         <section className="bg-white py-16 md:py-24">
           <div className="max-w-3xl mx-auto px-6">
             <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-5">{t('detail.faqEyebrow')}</p>

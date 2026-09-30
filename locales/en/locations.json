@@ -49,6 +49,10 @@
       "carrollton": {
         "label": "Carrollton, TX",
         "desc": "Industrial and distribution hub northwest of Dallas. Warehouse, manufacturing, and logistics."
+      },
+      "fortWorth": {
+        "label": "Fort Worth, TX",
+        "desc": "AllianceTexas, CentrePort, and the I-35W corridor — warehouse, air cargo, and distribution."
       }
     },
     "officeMap": {
@@ -558,6 +562,10 @@
       {
         "label": "Richardson, TX (HQ)",
         "desc": "Our East DFW headquarters covering Plano, Garland, Carrollton, and the electronics manufacturing corridor."
+      },
+      {
+        "label": "Fort Worth, TX",
+        "desc": "AllianceTexas, CentrePort, and the I-35W corridor — warehouse, air cargo, and distribution."
       }
     ],
     "relatedCities": [
@@ -571,7 +579,7 @@
         "label": "Richardson TX (HQ)"
       },
       {
-        "label": "DFW Overview"
+        "label": "Fort Worth TX"
       }
     ],
     "hiringGuide": [
@@ -582,10 +590,10 @@
     ]
   },
   "arlington": {
-    "title": "Staffing Agency in Arlington TX | Light Industrial & Warehouse | Pro-Tech",
-    "metaDesc": "Pro-Tech Staffing serves Arlington TX with light industrial, warehouse, manufacturing, and supply chain workers. Vetted candidates placed in 48 hours. Temp, temp-to-hire, direct placement.",
+    "title": "Staffing Agency in Arlington TX | Warehouse & Light Industrial | Pro-Tech",
+    "metaDesc": "Warehouse, light industrial, and manufacturing staffing in Arlington and Grand Prairie, TX. Screened workers from our nearby Bedford office. Temp, temp-to-hire, and direct hire.",
     "h1": "Industrial staffing agency in Arlington, TX.",
-    "subhead": "Serving Arlington, Grand Prairie, Mansfield, Kennedale, and surrounding Tarrant County areas.",
+    "subhead": "Serving Arlington, Grand Prairie, Mansfield, Kennedale, and south Tarrant County from our Bedford office.",
     "label": "Arlington TX",
     "cities": [
       "Arlington TX",
@@ -596,23 +604,36 @@
       "Bedford TX",
       "Fort Worth TX"
     ],
-    "marketIntro": "Arlington sits in the heart of Tarrant County's industrial zone, anchored by major distribution centers, light manufacturers, and warehouses concentrated along Highway 360, I-20, and I-30. The corridor extends into Grand Prairie, Mansfield, and Kennedale, forming one of the most active warehouse and logistics markets in North Texas. The proximity to AT&T Stadium, Globe Life Field, and the entertainment district draws additional seasonal and event-driven labor demand. Our Bedford office covers Arlington with local recruiters who know the industrial parks, the shift patterns, and the talent pool across the south Tarrant corridor.",
+    "marketIntro": "Arlington's industrial economy grew up around one plant. General Motors opened its Arlington Assembly plant in 1954, and today it builds the company's full-size SUVs — the Tahoe, Suburban, Yukon, and Escalade — with more than 5,400 employees. The plant helped pull the Great Southwest Industrial District onto the Arlington–Grand Prairie line, and a dense web of suppliers, warehouses, and light manufacturers followed along SH-360, I-20, and I-30. Our Bedford office covers this corridor with recruiters who know its plants, its shift patterns, and how workers actually get to them.",
+    "marketSnapshot": {
+      "corridors": "SH-360 runs north–south through the middle of Arlington into Grand Prairie and carries much of the city's warehouse and distribution traffic. The Great Southwest Industrial District straddles the Arlington–Grand Prairie line. I-20 crosses south Arlington toward Mansfield and Kennedale, and I-30 links north Arlington to Fort Worth and Dallas.",
+      "anchorIndustries": "Automotive assembly and supply, led by GM Arlington Assembly and the parts, sequencing, and logistics operations that feed it. Warehouse and distribution centers along SH-360 and in the Great Southwest district. Light manufacturing and assembly across Grand Prairie and south Arlington.",
+      "laborPool": "Workers come from Arlington, Grand Prairie, Mansfield, and south and east Fort Worth. Arlington has no fixed-route bus system — its city rideshare service runs limited hours and not on Sundays — so reliable transportation is a real screening factor for night and weekend shifts."
+    },
+    "hiringGuide": [
+      "Transportation is the first thing to screen in Arlington. The city has no fixed-route buses; its on-demand rideshare service covers limited hours and does not run on Sundays. A worker who can reach a day shift easily may have no way home from a second shift or no way in on a Sunday. Before we send anyone, we confirm a realistic commute for the actual shift and site — not just the address on the application. It is the most common reason a placement falls apart in week one, and it is avoidable.",
+      "Suppliers work to the assembly plant's schedule. Plants that feed a vehicle line run to its pace: standard work, takt time, quality checks at every station, and little room for a missed shift. Model-year changes and schedule shifts create sudden demand for production and material-handling workers. For these roles we screen for real production-floor experience and attendance history, because a general-labor background is not the same as holding a station on a paced line.",
+      "Warehouse roles along SH-360 and in the Great Southwest district need the right equipment match. A sit-down counterbalance license does not qualify someone to run a stand-up reach truck or an order picker. We verify the certification date and the equipment type, and we ask about the specific scanners and pick systems the worker has used. Peak season in distribution arrives every fall; the operators who can take on extra volume are the ones with a pipeline of screened workers already in place.",
+      "We cover Arlington from our Bedford office, which sits just north in the mid-cities. That keeps our recruiters close enough to meet candidates in person and visit sites when a role is hard to fill. The same team covers Grand Prairie, Mansfield, and the rest of Tarrant County, so an employer with sites on both sides of the county line works with one point of contact rather than two agencies.",
+      "Temp-to-hire suits Arlington's supplier plants well. Production roles take time to learn, and a bad permanent hire on a paced line is expensive to undo. Starting a worker on assignment lets you see how they handle the pace, the station, and the schedule before you commit, while Pro-Tech carries the payroll, workers' compensation, and employment compliance. When the fit is right, converting them to your own payroll keeps the training you invested in on your floor."
+    ],
     "industries": [
       "Light Industrial Staffing",
       "Warehouse & 3PL Staffing",
+      "Automotive Supplier Staffing",
       "Supply Chain Staffing",
       "General Labor",
       "Manufacturing Staffing"
     ],
     "roles": [
-      "Assembly workers",
-      "Forklift operators",
+      "Assembly and production workers",
+      "Forklift operators (sit-down, reach, order picker)",
       "Warehouse pickers and packers",
-      "Production line workers",
+      "Material handlers",
       "Machine operators",
       "Shipping and receiving clerks",
-      "General labor",
-      "Quality control inspectors"
+      "Quality control inspectors",
+      "General labor"
     ],
     "proof": [
       {
@@ -628,38 +649,166 @@
         "label": "Local coverage"
       },
       {
-        "n": "94%",
-        "label": "Client retention"
+        "n": "Bedford",
+        "label": "Nearby office"
       }
     ],
     "whyUs": [
       {
-        "title": "Tarrant County expertise",
-        "desc": "Pro-Tech's Bedford office covers the Arlington corridor directly. We know the industrial parks, the major employers, and where to find reliable workers in this market."
+        "title": "Commute screening built in",
+        "desc": "Arlington has no bus system, so we confirm every candidate can reach your site for the actual shift before placement — including nights and Sundays."
       },
       {
-        "title": "Warehouse and manufacturing focus",
-        "desc": "Arlington has a dense concentration of warehouse, distribution, and light manufacturing operations. These are the roles we staff every day."
+        "title": "Production-line experience",
+        "desc": "Automotive suppliers need people who can hold a paced station. We screen for real production-floor experience and attendance, not just availability."
       },
       {
-        "title": "Workers who show up",
-        "desc": "We pre-screen for attendance reliability — not just skills. Every candidate is interviewed, background checked, and drug screened before placement."
+        "title": "Recruiters close by",
+        "desc": "Our Bedford office is minutes north, so our recruiters can meet candidates and visit your floor in person."
       }
     ],
-    "testimonial": {
-      "quote": "We'd been burned by agencies sending unvetted workers. Pro-Tech was different from day one. They understand what light industrial staffing looks like on the floor, not just on a job description.",
-      "name": "HR Manager",
-      "co": "Warehouse & Distribution · Arlington, TX"
-    },
+    "faq": [
+      {
+        "q": "Does Pro-Tech have an office in Arlington?",
+        "a": "Arlington is covered by our Bedford office at 3508 Harwood Rd, Ste 108, Bedford, TX 76021, which serves all of Tarrant County. Our recruiters work Arlington and Grand Prairie sites directly."
+      },
+      {
+        "q": "What jobs do you fill in Arlington?",
+        "a": "Mostly warehouse, light industrial, and manufacturing roles: assembly and production workers, forklift operators, pickers and packers, material handlers, machine operators, shipping and receiving clerks, and quality inspectors."
+      },
+      {
+        "q": "How fast can you fill a warehouse or production role in Arlington?",
+        "a": "For standard warehouse and light-industrial roles, we typically deliver the first qualified candidates within 48 hours. Certified forklift operators and second- or third-shift roles can take 48 to 72 hours."
+      },
+      {
+        "q": "How do you handle transportation, since Arlington has no bus system?",
+        "a": "We confirm every candidate has a reliable way to reach your site for the specific shift before we place them. That matters most for nights and Sundays, when the city's on-demand rideshare service is limited or not running."
+      },
+      {
+        "q": "Do you also staff Grand Prairie and Mansfield?",
+        "a": "Yes. The same Bedford team covers Grand Prairie, Mansfield, Kennedale, Euless, and the rest of Tarrant County, so employers with more than one site keep a single point of contact."
+      }
+    ],
     "relatedCities": [
       {
         "label": "Bedford TX"
       },
       {
-        "label": "Irving TX"
+        "label": "Fort Worth TX"
       },
       {
-        "label": "DFW Overview"
+        "label": "Richardson TX (HQ)"
+      }
+    ]
+  },
+  "fortworth": {
+    "title": "Warehouse Staffing in Fort Worth TX | Light Industrial | Pro-Tech",
+    "metaDesc": "Warehouse, forklift, and light industrial staffing across Fort Worth, from AllianceTexas to CentrePort. Screened workers from our Bedford office. Temp, temp-to-hire, and direct hire.",
+    "h1": "Warehouse and light industrial staffing in Fort Worth, TX.",
+    "subhead": "Serving Fort Worth, AllianceTexas, Haslet, Keller, Haltom City, and the CentrePort area near DFW Airport.",
+    "label": "Fort Worth TX",
+    "cities": [
+      "Fort Worth TX",
+      "Haslet TX",
+      "Keller TX",
+      "Haltom City TX",
+      "North Richland Hills TX",
+      "Saginaw TX",
+      "Hurst TX"
+    ],
+    "marketIntro": "Fort Worth is not one industrial market but several. In the north, AllianceTexas spreads across 26,000 acres around Fort Worth Alliance Airport, BNSF's Alliance intermodal facility, FedEx's Southwest regional sort hub, and an Amazon Air regional hub. In the east, the CentrePort business park sits just south of DFW Airport on the Trinity Railway Express line. Across south and central Fort Worth, older manufacturing and distribution cluster along I-35W and I-20. Our Bedford office covers all three, with recruiters who staff warehouse, forklift, and light industrial roles across the city every week.",
+    "marketSnapshot": {
+      "corridors": "AllianceTexas and the I-35W corridor north toward Haslet and Northlake. The CentrePort business park near DFW Airport, served by Trinity Railway Express. The I-20 and I-35W interchange area across south Fort Worth. The SH-121 and SH-183 airport freeway linking Fort Worth to the mid-cities.",
+      "anchorIndustries": "Air cargo and parcel sorting at Alliance, where FedEx and Amazon Air run regional hubs. Intermodal rail at BNSF's Alliance facility and the distribution centers it feeds. E-commerce and retail fulfillment, aerospace manufacturing and its suppliers, and light manufacturing across south and east Fort Worth.",
+      "laborPool": "The workforce is spread wide. North Fort Worth, Saginaw, Keller, and Haltom City feed Alliance; east Fort Worth, Hurst, and Euless feed CentrePort. The rail and air-cargo operations run around the clock, so overnight and weekend coverage — not day shift — is where most staffing gaps open."
+    },
+    "hiringGuide": [
+      "Alliance runs on the clock of air cargo and rail. BNSF's intermodal facility operates 24 hours a day, and parcel sorting clusters overnight and in the early morning. A staffing plan built around weekday day shifts leaves the real gaps open. We recruit for the schedule you actually need to cover — overnight sorts, weekend crews, and split shifts — and we confirm a candidate wants that schedule before we place them, which is the best predictor of whether they stay.",
+      "Match the forklift certification to the equipment. Large distribution centers at Alliance run reach trucks and order pickers at height; dock and yard work runs sit-down counterbalance trucks. A forklift card alone does not tell you which of these someone can operate safely. We verify the certification date and the equipment type before placement, and we ask about the scanners, voice-pick, or RF systems the operator has used, so they can run your floor from the first shift.",
+      "Geography decides who shows up. Fort Worth covers a lot of ground, and a candidate living in south Fort Worth may not accept a job at Alliance, a long drive north. We screen commute viability for the specific site and shift. CentrePort is the exception worth knowing: its Trinity Railway Express station and circulator routes give it rail access that is rare in Tarrant County, which widens the pool of workers who can reach it without a car.",
+      "Plan for peak before it arrives. E-commerce and parcel volume climbs every fall and peaks through the holidays, and every distribution operator in the corridor recruits from the same workers at the same time. Employers who fill peak roles smoothly are the ones whose staffing partner already has a screened, local pipeline. Our Bedford recruiters keep that pipeline active year-round, so adding people for peak does not mean starting from zero.",
+      "Screening has to happen before the first shift, not after a problem. Every worker we place in Fort Worth goes through work-eligibility verification, a background check, and drug screening, and we check attendance history and references with prior employers. For forklift and material-handling roles we add the certification and equipment checks described above. Hub and distribution operators run tight schedules with little slack, so a worker who is cleared, certified, and confirmed for the schedule on day one is worth far more than a fast name on a list."
+    ],
+    "industries": [
+      "Warehouse & 3PL Staffing",
+      "Light Industrial Staffing",
+      "Supply Chain Staffing",
+      "Manufacturing Staffing",
+      "General Labor"
+    ],
+    "roles": [
+      "Forklift operators (reach, order picker, sit-down)",
+      "Warehouse pickers and packers",
+      "Package handlers and sorters",
+      "Material handlers",
+      "Shipping and receiving clerks",
+      "Inventory and cycle-count clerks",
+      "Assembly and production workers",
+      "General labor"
+    ],
+    "proof": [
+      {
+        "n": "48h",
+        "label": "Avg. fill time"
+      },
+      {
+        "n": "24/7",
+        "label": "Shift coverage"
+      },
+      {
+        "n": "Tarrant Co.",
+        "label": "Local coverage"
+      },
+      {
+        "n": "Bedford",
+        "label": "Nearby office"
+      }
+    ],
+    "whyUs": [
+      {
+        "title": "Overnight and weekend coverage",
+        "desc": "We recruit for the shifts Alliance and CentrePort actually run, not just weekday days, and confirm each candidate wants that schedule."
+      },
+      {
+        "title": "Certifications matched to your equipment",
+        "desc": "We verify forklift certification dates and equipment type — reach, order picker, or sit-down — before anyone reaches your floor."
+      },
+      {
+        "title": "A pipeline before peak",
+        "desc": "Our Bedford recruiters keep screened local candidates ready year-round, so peak-season hiring does not start from scratch."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Does Pro-Tech have an office in Fort Worth?",
+        "a": "Fort Worth is covered by our Bedford office at 3508 Harwood Rd, Ste 108, Bedford, TX 76021, in the mid-cities between downtown Fort Worth and DFW Airport. Our recruiters work sites across the city, from Alliance to CentrePort."
+      },
+      {
+        "q": "Do you staff warehouses at AllianceTexas?",
+        "a": "Yes. We place warehouse, material-handling, forklift, and shipping and receiving workers across the Alliance corridor, including overnight and weekend shifts."
+      },
+      {
+        "q": "How fast can you fill warehouse jobs in Fort Worth?",
+        "a": "For standard warehouse and light-industrial roles, we typically deliver the first qualified candidates within 48 hours. Certified forklift operators and overnight roles can take 48 to 72 hours."
+      },
+      {
+        "q": "Do you verify forklift certifications?",
+        "a": "Yes. We check that each operator's certification is current and matches the equipment you run — reach truck, order picker, or sit-down counterbalance — as part of our standard screening."
+      },
+      {
+        "q": "What types of placement do you offer in Fort Worth?",
+        "a": "Temporary staffing, temp-to-hire, and direct placement. Temporary workers are Pro-Tech W-2 employees, so we carry the payroll, workers' compensation, and employment compliance."
+      }
+    ],
+    "relatedCities": [
+      {
+        "label": "Bedford TX"
+      },
+      {
+        "label": "Arlington TX"
+      },
+      {
+        "label": "Richardson TX (HQ)"
       }
     ]
   },

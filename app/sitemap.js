@@ -50,6 +50,8 @@ export default function sitemap() {
     'san-jose-ca',
     'phoenix-az',
     'cincinnati-oh',
+    'arlington-tx',
+    'fort-worth-tx',
   ].map(slug => ({
     url: `${BASE}/locations/${slug}`,
     changeFrequency: 'weekly',

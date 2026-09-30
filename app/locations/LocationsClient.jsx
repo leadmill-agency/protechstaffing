@@ -25,7 +25,8 @@ const MARKET_HREFS = {
 }
 
 const DFW_HREFS = {
-  arlington: '/staffing-agency-arlington-tx',
+  arlington: '/locations/arlington-tx',
+  fortWorth: '/locations/fort-worth-tx',
   irving: '/staffing-agency-irving-tx',
   garland: '/staffing-agency-garland-tx',
   carrollton: '/staffing-agency-carrollton-tx',
@@ -160,8 +161,8 @@ export default function LocationsPage() {
           <p className="text-steel mb-12 max-w-lg leading-relaxed">
             {t('page.dfwSubMarkets.description')}
           </p>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {['arlington', 'irving', 'garland', 'carrollton'].map(key => (
+          <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-6">
+            {['fortWorth', 'arlington', 'irving', 'garland', 'carrollton'].map(key => (
               <Link key={key} href={DFW_HREFS[key]} className="group block border border-fog hover:border-carbon bg-bone p-6 transition-colors">
                 <div className="flex items-start justify-between mb-3">
                   <span className="w-5 h-5 text-ind-green">{icons.mapPin}</span>

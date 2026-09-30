@@ -15,7 +15,7 @@ const nextConfig: NextConfig = {
       // Legacy Wix URLs — city-slug pages
       { source: '/staffing-agency-bedford-tx', destination: '/locations/bedford-tx', permanent: true },
       { source: '/staffing-agency-dallas-fort-worth', destination: '/locations/richardson-tx', permanent: true },
-      { source: '/staffing-agency-arlington-tx', destination: '/locations/richardson-tx', permanent: true },
+      { source: '/staffing-agency-arlington-tx', destination: '/locations/arlington-tx', permanent: true },
       { source: '/staffing-agency-irving-tx', destination: '/locations/richardson-tx', permanent: true },
       { source: '/staffing-agency-garland-tx', destination: '/locations/richardson-tx', permanent: true },
       { source: '/staffing-agency-carrollton-tx', destination: '/locations/richardson-tx', permanent: true },

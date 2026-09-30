@@ -10,6 +10,8 @@ const SLUG_TO_MARKET = {
   'san-jose-ca': 'sanjose',
   'phoenix-az': 'phoenix',
   'cincinnati-oh': 'cincinnati',
+  'arlington-tx': 'arlington',
+  'fort-worth-tx': 'fortworth',
 }
 
 const META = {}

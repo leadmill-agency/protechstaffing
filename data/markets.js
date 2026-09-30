@@ -19,7 +19,7 @@ const MARKET_DATA = {
   dfw: {
     slug: 'staffing-agency-dallas-fort-worth',
     img: 'https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=1000&q=75',
-    relatedCitiesHrefs: ['/staffing-agency-arlington-tx', '/staffing-agency-irving-tx', '/staffing-agency-garland-tx', '/staffing-agency-bedford-tx'],
+    relatedCitiesHrefs: ['/locations/arlington-tx', '/staffing-agency-irving-tx', '/staffing-agency-garland-tx', '/staffing-agency-bedford-tx'],
   },
   bedford: {
     slug: 'locations/bedford-tx',
@@ -34,20 +34,26 @@ const MARKET_DATA = {
       recruiterName: null,
     },
     localServicesHrefs: ['/industries/light-industrial', '/industries/warehouse-distribution', '/industries/supply-chain-logistics'],
-    subMarketsHrefs: ['/staffing-agency-arlington-tx', '/staffing-agency-irving-tx', '/locations/richardson-tx'],
-    relatedCitiesHrefs: ['/staffing-agency-arlington-tx', '/staffing-agency-irving-tx', '/locations/richardson-tx', '/staffing-agency-dallas-fort-worth'],
+    subMarketsHrefs: ['/locations/arlington-tx', '/staffing-agency-irving-tx', '/locations/richardson-tx', '/locations/fort-worth-tx'],
+    relatedCitiesHrefs: ['/locations/arlington-tx', '/staffing-agency-irving-tx', '/locations/richardson-tx', '/locations/fort-worth-tx'],
   },
   arlington: {
-    slug: 'staffing-agency-arlington-tx',
+    slug: 'locations/arlington-tx',
     img: 'https://images.unsplash.com/photo-1565688534245-05d6b5be184a?w=1000&q=75',
     parentOffice: 'Bedford',
-    relatedCitiesHrefs: ['/staffing-agency-bedford-tx', '/staffing-agency-irving-tx', '/staffing-agency-dallas-fort-worth'],
+    relatedCitiesHrefs: ['/locations/bedford-tx', '/locations/fort-worth-tx', '/locations/richardson-tx'],
+  },
+  fortworth: {
+    slug: 'locations/fort-worth-tx',
+    img: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1000&q=75',
+    parentOffice: 'Bedford',
+    relatedCitiesHrefs: ['/locations/bedford-tx', '/locations/arlington-tx', '/locations/richardson-tx'],
   },
   irving: {
     slug: 'staffing-agency-irving-tx',
     img: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1000&q=75',
     parentOffice: 'Richardson',
-    relatedCitiesHrefs: ['/staffing-agency-arlington-tx', '/staffing-agency-garland-tx', '/staffing-agency-dallas-fort-worth'],
+    relatedCitiesHrefs: ['/locations/arlington-tx', '/staffing-agency-garland-tx', '/staffing-agency-dallas-fort-worth'],
   },
   garland: {
     slug: 'staffing-agency-garland-tx',

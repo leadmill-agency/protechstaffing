@@ -49,6 +49,10 @@
       "carrollton": {
         "label": "Carrollton, TX",
         "desc": "Centro industrial y de distribución al noroeste de Dallas. Almacén, manufactura y logística."
+      },
+      "fortWorth": {
+        "label": "Fort Worth, TX",
+        "desc": "AllianceTexas, CentrePort y el corredor de la I-35W: almacenes, carga aérea y distribución."
       }
     },
     "officeMap": {
@@ -535,6 +539,10 @@
       {
         "label": "Richardson, TX (Sede)",
         "desc": "Nuestra sede del este de DFW que cubre Plano, Garland, Carrollton y el corredor de manufactura electrónica."
+      },
+      {
+        "label": "Fort Worth, TX",
+        "desc": "AllianceTexas, CentrePort y el corredor de la I-35W: almacenes, carga aérea y distribución."
       }
     ],
     "relatedCities": [
@@ -548,7 +556,7 @@
         "label": "Richardson TX (Sede)"
       },
       {
-        "label": "Panorama DFW"
+        "label": "Fort Worth TX"
       }
     ]
   },
@@ -584,24 +592,6 @@
       "Trabajo general",
       "Inspectores de control de calidad"
     ],
-    "proof": [
-      {
-        "n": "48h",
-        "label": "Tiempo promedio de cobertura"
-      },
-      {
-        "n": "Temp & perm",
-        "label": "Tipos de colocación"
-      },
-      {
-        "n": "Tarrant Co.",
-        "label": "Cobertura local"
-      },
-      {
-        "n": "94%",
-        "label": "Retención de clientes"
-      }
-    ],
     "whyUs": [
       {
         "title": "Experiencia en el condado de Tarrant",
@@ -616,20 +606,15 @@
         "desc": "Pre-evaluamos por confiabilidad de asistencia, no solo habilidades. Cada candidato es entrevistado, se le verifican antecedentes y se le realiza prueba de drogas antes de la colocación."
       }
     ],
-    "testimonial": {
-      "quote": "Habíamos sido defraudados por agencias que enviaban trabajadores sin evaluar. Pro-Tech fue diferente desde el primer día. Entienden cómo se ve el personal de industria ligera en la planta, no solo en una descripción de puesto.",
-      "name": "Gerente de RR.HH.",
-      "co": "Almacén y Distribución · Arlington, TX"
-    },
     "relatedCities": [
       {
         "label": "Bedford TX"
       },
       {
-        "label": "Irving TX"
+        "label": "Fort Worth TX"
       },
       {
-        "label": "Panorama DFW"
+        "label": "Richardson TX (HQ)"
       }
     ]
   },

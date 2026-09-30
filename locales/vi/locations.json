@@ -49,6 +49,10 @@
       "carrollton": {
         "label": "Carrollton, TX",
         "desc": "Trung tâm công nghiệp và phân phối phía tây bắc Dallas. Kho bãi, sản xuất và hậu cần."
+      },
+      "fortWorth": {
+        "label": "Fort Worth, TX",
+        "desc": "AllianceTexas, CentrePort và hành lang I-35W — kho bãi, hàng không và phân phối."
       }
     },
     "officeMap": {
@@ -535,6 +539,10 @@
       {
         "label": "Richardson, TX (HQ)",
         "desc": "Trụ sở đông DFW phục vụ Plano, Garland, Carrollton và hành lang sản xuất điện tử."
+      },
+      {
+        "label": "Fort Worth, TX",
+        "desc": "AllianceTexas, CentrePort và hành lang I-35W — kho bãi, hàng không và phân phối."
       }
     ],
     "relatedCities": [
@@ -548,7 +556,7 @@
         "label": "Richardson TX (HQ)"
       },
       {
-        "label": "Tổng Quan DFW"
+        "label": "Fort Worth TX"
       }
     ]
   },
@@ -584,24 +592,6 @@
       "Lao động phổ thông",
       "Kiểm tra viên chất lượng"
     ],
-    "proof": [
-      {
-        "n": "48h",
-        "label": "Thời gian lấp đầy trung bình"
-      },
-      {
-        "n": "Temp & perm",
-        "label": "Hình thức bố trí"
-      },
-      {
-        "n": "Tarrant Co.",
-        "label": "Phạm vi phục vụ"
-      },
-      {
-        "n": "94%",
-        "label": "Tỷ lệ giữ chân khách hàng"
-      }
-    ],
     "whyUs": [
       {
         "title": "Chuyên gia quận Tarrant",
@@ -616,20 +606,15 @@
         "desc": "Chúng tôi sàng lọc trước về chuyên cần — không chỉ kỹ năng. Mỗi ứng viên được phỏng vấn, xác minh lý lịch và kiểm tra ma túy trước khi bố trí."
       }
     ],
-    "testimonial": {
-      "quote": "Chúng tôi đã bị các công ty nhân sự khác gửi nhân viên chưa sàng lọc. Pro-Tech khác biệt ngay từ ngày đầu. Họ hiểu nhân sự công nghiệp nhẹ trông như thế nào tại xưởng, không chỉ trên bản mô tả công việc.",
-      "name": "Quản Lý Nhân Sự",
-      "co": "Kho Bãi & Phân Phối · Arlington, TX"
-    },
     "relatedCities": [
       {
         "label": "Bedford TX"
       },
       {
-        "label": "Irving TX"
+        "label": "Fort Worth TX"
       },
       {
-        "label": "Tổng Quan DFW"
+        "label": "Richardson TX (HQ)"
       }
     ]
   },
