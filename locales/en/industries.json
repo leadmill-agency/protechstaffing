@@ -12,7 +12,7 @@
     },
     "stats": {
       "industriesServed": {
-        "n": "7",
+        "n": "8",
         "label": "Industries served"
       },
       "workersPlaced": {
@@ -1116,6 +1116,18 @@
         "QC inspectors",
         "AOI operators",
         "Rework technicians"
+      ]
+    },
+    "data-center": {
+      "title": "Data Center Staffing",
+      "desc": "Trained fiber optic and low voltage crews for data center buildouts, plus assemblers, test technicians, and quality inspectors for the companies that build data center equipment.",
+      "roles": [
+        "Fiber optic technicians",
+        "Structured cabling technicians",
+        "Rack integration technicians",
+        "Electrical assemblers",
+        "Test and diagnostic technicians",
+        "Quality inspectors"
       ]
     },
     "light-industrial": {

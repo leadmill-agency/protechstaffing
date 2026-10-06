@@ -173,6 +173,7 @@ export default function JobSeekersPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
             {[
               { key: 'electronicsManufacturing', href: '/industries/electronics-manufacturing' },
+              { key: 'dataCenter', href: '/data-center-staffing' },
               { key: 'lightIndustrial', href: '/industries/light-industrial' },
               { key: 'warehouseDistribution', href: '/industries/warehouse-distribution' },
               { key: 'supplyChainLogistics', href: '/industries/supply-chain-logistics' },

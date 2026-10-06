@@ -70,6 +70,10 @@
       "title": "Sản Xuất Điện Tử",
       "desc": "Lắp ráp PCB, SMT, hàn, kiểm tra QC, kỹ thuật viên kiểm tra, vận hành viên AOI, sửa chữa."
     },
+    "dataCenter": {
+      "title": "Trung Tâm Dữ Liệu",
+      "desc": "Kỹ thuật viên cáp quang và điện nhẹ, tích hợp tủ rack, lắp ráp điện và kỹ thuật viên kiểm tra. Có đào tạo cho kỹ thuật viên mới."
+    },
     "lightIndustrial": {
       "title": "Công Nghiệp Nhẹ",
       "desc": "Thợ lắp ráp, thợ vận hành máy, công nhân sản xuất, kiểm soát chất lượng, đóng gói."

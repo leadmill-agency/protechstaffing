@@ -21,6 +21,7 @@
     },
     "industries": {
       "electronicsManufacturing": "Manufactura Electrónica",
+      "dataCenter": "Personal para Centros de Datos",
       "lightIndustrial": "Industria Ligera",
       "warehouseDistribution": "Almacén y Distribución",
       "supplyChainLogistics": "Cadena de Suministro y Logística",
@@ -56,6 +57,7 @@
     "industriesHeading": "Industrias",
     "industries": {
       "electronicsManufacturing": "Manufactura Electrónica",
+      "dataCenter": "Centros de Datos",
       "lightIndustrial": "Industria Ligera",
       "warehouse3pl": "Almacén y 3PL",
       "supplyChain": "Cadena de Suministro",

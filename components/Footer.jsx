@@ -55,6 +55,7 @@ export default function Footer() {
             <ul className="flex flex-col gap-2">
               {[
                 { label: t('footer.industries.electronicsManufacturing'), href: '/industries/electronics-manufacturing' },
+                { label: t('footer.industries.dataCenter'), href: '/data-center-staffing' },
                 { label: t('footer.industries.lightIndustrial'), href: '/industries/light-industrial' },
                 { label: t('footer.industries.warehouse3pl'), href: '/industries/warehouse-distribution' },
                 { label: t('footer.industries.supplyChain'), href: '/industries/supply-chain-logistics' },

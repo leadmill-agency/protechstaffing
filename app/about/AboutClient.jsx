@@ -186,6 +186,7 @@ export default function AboutPage() {
           <div className="flex flex-wrap gap-3">
             {[
               { key: 'electronicsManufacturing', href: '/industries/electronics-manufacturing' },
+              { key: 'dataCenter', href: '/data-center-staffing' },
               { key: 'lightIndustrial', href: '/industries/light-industrial' },
               { key: 'warehouseDistribution', href: '/industries/warehouse-distribution' },
               { key: 'supplyChainLogistics', href: '/industries/supply-chain-logistics' },

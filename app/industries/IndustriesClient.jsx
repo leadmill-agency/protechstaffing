@@ -6,13 +6,19 @@ import icons from '@/components/icons'
 
 // Three client-facing categories grouping the underlying industry detail pages.
 const CATEGORIES = [
-  { key: 'light-industrial', label: 'Light Industrial', slugs: ['electronics-manufacturing', 'light-industrial', 'warehouse-distribution', 'general-labor'] },
+  { key: 'light-industrial', label: 'Light Industrial', slugs: ['electronics-manufacturing', 'data-center', 'light-industrial', 'warehouse-distribution', 'general-labor'] },
   { key: 'engineering', label: 'Engineering', slugs: ['engineering'] },
   { key: 'admin-supply-chain', label: 'Administrative & Supply Chain Support', slugs: ['administrative-clerical', 'supply-chain-logistics'] },
 ]
 
+// Cards whose page lives outside /industries/[slug]
+const CARD_HREFS = {
+  'data-center': '/data-center-staffing',
+}
+
 const INDUSTRY_ICONS = {
   'electronics-manufacturing': icons.circuit,
+  'data-center': icons.circuit,
   'light-industrial': icons.gear,
   'warehouse-distribution': icons.box,
   'supply-chain-logistics': icons.truck,
@@ -90,7 +96,7 @@ export default function IndustriesPage() {
                       <p className="text-steel leading-relaxed mb-4">{desc}</p>
                       {cert && <p className="text-ind-green text-sm italic mb-4">{cert}</p>}
                       <Link
-                        href={`/industries/${slug}`}
+                        href={CARD_HREFS[slug] || `/industries/${slug}`}
                         className="inline-flex items-center gap-2 bg-sig-blue hover:bg-blue-900 text-white font-semibold text-sm px-5 py-2.5 rounded-md transition-colors"
                       >
                         {t('page.learnMore')}

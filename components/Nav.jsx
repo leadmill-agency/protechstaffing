@@ -40,6 +40,7 @@ export default function Nav() {
       href: '/industries',
       items: [
         { label: t('navDropdowns.industries.electronicsManufacturing'), href: '/industries/electronics-manufacturing' },
+        { label: t('navDropdowns.industries.dataCenter'), href: '/data-center-staffing' },
         { label: t('navDropdowns.industries.lightIndustrial'), href: '/industries/light-industrial' },
         { label: t('navDropdowns.industries.warehouseDistribution'), href: '/industries/warehouse-distribution' },
         { label: t('navDropdowns.industries.supplyChainLogistics'), href: '/industries/supply-chain-logistics' },

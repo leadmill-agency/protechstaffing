@@ -21,6 +21,7 @@
     },
     "industries": {
       "electronicsManufacturing": "Electronics Manufacturing",
+      "dataCenter": "Data Center Staffing",
       "lightIndustrial": "Light Industrial",
       "warehouseDistribution": "Warehouse & Distribution",
       "supplyChainLogistics": "Supply Chain & Logistics",
@@ -56,6 +57,7 @@
     "industriesHeading": "Industries",
     "industries": {
       "electronicsManufacturing": "Electronics Manufacturing",
+      "dataCenter": "Data Center",
       "lightIndustrial": "Light Industrial",
       "warehouse3pl": "Warehouse & 3PL",
       "supplyChain": "Supply Chain",

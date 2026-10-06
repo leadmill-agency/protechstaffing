@@ -12,7 +12,7 @@
     },
     "stats": {
       "industriesServed": {
-        "n": "7",
+        "n": "8",
         "label": "Ngành nghề phục vụ"
       },
       "workersPlaced": {
@@ -761,6 +761,18 @@
         "Kiểm tra viên QC",
         "Vận hành viên AOI",
         "Kỹ thuật viên sửa chữa"
+      ]
+    },
+    "data-center": {
+      "title": "Nhân Sự Trung Tâm Dữ Liệu",
+      "desc": "Đội ngũ kỹ thuật viên cáp quang và điện nhẹ đã qua đào tạo cho các công trình trung tâm dữ liệu, cùng nhân viên lắp ráp, kỹ thuật viên kiểm tra và nhân viên kiểm định chất lượng cho các công ty sản xuất thiết bị trung tâm dữ liệu.",
+      "roles": [
+        "Kỹ thuật viên cáp quang",
+        "Kỹ thuật viên cáp có cấu trúc",
+        "Kỹ thuật viên tích hợp tủ rack",
+        "Thợ lắp ráp điện",
+        "Kỹ thuật viên kiểm tra và chẩn đoán",
+        "Nhân viên kiểm tra chất lượng"
       ]
     },
     "light-industrial": {

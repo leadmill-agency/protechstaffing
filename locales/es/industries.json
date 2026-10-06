@@ -12,7 +12,7 @@
     },
     "stats": {
       "industriesServed": {
-        "n": "7",
+        "n": "8",
         "label": "Industrias atendidas"
       },
       "workersPlaced": {
@@ -606,6 +606,18 @@
         "Inspectores de QC",
         "Operadores AOI",
         "Técnicos de retrabajo"
+      ]
+    },
+    "data-center": {
+      "title": "Personal para Centros de Datos",
+      "desc": "Equipos capacitados de fibra óptica y bajo voltaje para la construcción de centros de datos, además de ensambladores, técnicos de pruebas e inspectores de calidad para las empresas que fabrican equipos para centros de datos.",
+      "roles": [
+        "Técnicos de fibra óptica",
+        "Técnicos de cableado estructurado",
+        "Técnicos de integración de racks",
+        "Ensambladores eléctricos",
+        "Técnicos de pruebas y diagnóstico",
+        "Inspectores de calidad"
       ]
     },
     "light-industrial": {

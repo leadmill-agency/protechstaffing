@@ -21,6 +21,7 @@
     },
     "industries": {
       "electronicsManufacturing": "Sản Xuất Điện Tử",
+      "dataCenter": "Nhân Sự Trung Tâm Dữ Liệu",
       "lightIndustrial": "Công Nghiệp Nhẹ",
       "warehouseDistribution": "Kho Bãi & Phân Phối",
       "supplyChainLogistics": "Chuỗi Cung Ứng & Hậu Cần",
@@ -56,6 +57,7 @@
     "industriesHeading": "Ngành Nghề",
     "industries": {
       "electronicsManufacturing": "Sản Xuất Điện Tử",
+      "dataCenter": "Trung Tâm Dữ Liệu",
       "lightIndustrial": "Công Nghiệp Nhẹ",
       "warehouse3pl": "Kho Bãi & 3PL",
       "supplyChain": "Chuỗi Cung Ứng",

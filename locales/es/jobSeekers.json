@@ -70,6 +70,10 @@
       "title": "Manufactura Electrónica",
       "desc": "Ensamble de PCB, SMT, soldadura, inspección de QC, técnicos de prueba, operadores AOI, retrabajo."
     },
+    "dataCenter": {
+      "title": "Centros de Datos",
+      "desc": "Técnicos de fibra óptica y bajo voltaje, integración de racks, ensamble eléctrico y técnicos de pruebas. Capacitación disponible para nuevos técnicos."
+    },
     "lightIndustrial": {
       "title": "Industria Ligera",
       "desc": "Ensambladores, operadores de máquinas, trabajadores de producción, control de calidad, empaque."
