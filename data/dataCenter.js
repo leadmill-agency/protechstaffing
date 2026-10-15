@@ -1,12 +1,21 @@
 // Data center staffing pages — copy supplied by Eric Yan (President), Oct 2, 2026.
 // Headings and copy are used as written; edit here, not in the page files.
-// English only for now: these pages are not in the i18n locale files.
+// Spanish and Vietnamese live in dataCenter.es.js / dataCenter.vi.js (same shape,
+// no SEO fields). Update all three when this copy changes.
 //
 // Block types: { p }, { ul: [...] }, { links: [{ href, title, body, cta }] }
 // To add a photo to a page, put a keyword-named file in public/data-center/
 // (e.g. fiber-optic-technician-data-center.jpg) and set `image` on that page.
 
 export const HUB_PATH = '/data-center-staffing'
+
+export const UI = {
+  requestTalent: 'Request Talent',
+  faqHeading: 'Frequently asked questions',
+  moreHeading: 'More data center staffing',
+  overview: 'Data center staffing overview',
+  contact: 'Contact us',
+}
 
 const DATA_CENTER_PAGES = {
   hub: {
