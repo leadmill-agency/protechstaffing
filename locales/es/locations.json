@@ -53,6 +53,10 @@
       "fortWorth": {
         "label": "Fort Worth, TX",
         "desc": "AllianceTexas, CentrePort y el corredor de la I-35W: almacenes, carga aérea y distribución."
+      },
+      "grandPrairie": {
+        "label": "Grand Prairie, TX",
+        "desc": "Distrito Industrial Great Southwest y SH-161: almacenes, manufactura y proveedores aeroespaciales."
       }
     },
     "officeMap": {
@@ -543,6 +547,10 @@
       {
         "label": "Fort Worth, TX",
         "desc": "AllianceTexas, CentrePort y el corredor de la I-35W: almacenes, carga aérea y distribución."
+      },
+      {
+        "label": "Grand Prairie, TX",
+        "desc": "Distrito Industrial Great Southwest y SH-161: almacenes, manufactura y proveedores aeroespaciales."
       }
     ],
     "relatedCities": [
@@ -557,6 +565,9 @@
       },
       {
         "label": "Fort Worth TX"
+      },
+      {
+        "label": "Grand Prairie TX"
       }
     ]
   },
@@ -615,87 +626,6 @@
       },
       {
         "label": "Richardson TX (HQ)"
-      }
-    ]
-  },
-  "irving": {
-    "title": "Agencia de Personal en Irving TX | Trabajadores Industriales y de Almacén | Pro-Tech",
-    "metaDesc": "Pro-Tech Staffing sirve Irving TX con trabajadores de industria ligera, almacén, electrónica y cadena de suministro. Candidatos evaluados en 48 horas. Sirviendo Las Colinas, Coppell y el corredor del aeropuerto DFW.",
-    "h1": "Agencia de personal industrial en Irving, TX.",
-    "subhead": "Sirviendo Irving, Las Colinas, Coppell, Carrollton y el corredor industrial del aeropuerto DFW.",
-    "label": "Irving TX",
-    "cities": [
-      "Irving TX",
-      "Las Colinas TX",
-      "Coppell TX",
-      "Carrollton TX",
-      "Farmers Branch TX",
-      "Grand Prairie TX",
-      "Dallas TX"
-    ],
-    "industries": [
-      "Personal de Industria Ligera",
-      "Personal de Almacén y 3PL",
-      "Personal de Cadena de Suministro",
-      "Personal de Manufactura Electrónica",
-      "Personal Administrativo"
-    ],
-    "roles": [
-      "Selectores y empacadores de almacén",
-      "Operadores de montacargas",
-      "Personal de envío y recepción",
-      "Trabajadores de ensamble",
-      "Personal de control de inventario",
-      "Técnicos de electrónica",
-      "Trabajo general",
-      "Trabajadores de producción"
-    ],
-    "proof": [
-      {
-        "n": "48h",
-        "label": "Tiempo promedio de cobertura"
-      },
-      {
-        "n": "DFW corridor",
-        "label": "Área de cobertura"
-      },
-      {
-        "n": "Temp & perm",
-        "label": "Tipos de colocación"
-      },
-      {
-        "n": "94%",
-        "label": "Retención de clientes"
-      }
-    ],
-    "whyUs": [
-      {
-        "title": "Cobertura del corredor del aeropuerto DFW",
-        "desc": "El área de Irving y Las Colinas es una de las zonas logísticas más activas de DFW. Dotamos de personal a roles de almacén, distribución e industria ligera para operaciones a lo largo de todo el corredor del aeropuerto DFW."
-      },
-      {
-        "title": "Cubierto desde dos oficinas",
-        "desc": "Irving se encuentra entre nuestra sede de Richardson y la oficina de Bedford. Tomamos de ambos grupos de talento para cubrir pedidos de Irving más rápido."
-      },
-      {
-        "title": "Especialidad en electrónica y logística",
-        "desc": "Irving atrae tanto a empleadores de electrónica como de logística. Nuestros reclutadores buscan para ambos, desde técnicos de ensamble de PCB hasta líderes de almacén."
-      }
-    ],
-    "testimonial": {
-      "quote": "Colocaciones rápidas y trabajadores que realmente se presentaron. Pro-Tech cubrió nuestro personal de temporada alta en 72 horas y la tasa de retención fue la mejor que habíamos visto.",
-      "name": "Gerente de Logística",
-      "co": "Distribución y 3PL · Irving, TX"
-    },
-    "relatedCities": [
-      {
-        "label": "Arlington TX"
-      },
-      {
-        "label": "Garland TX"
-      },
-      {
-        "label": "Panorama DFW"
       }
     ]
   },

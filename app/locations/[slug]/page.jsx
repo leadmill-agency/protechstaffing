@@ -12,6 +12,8 @@ const SLUG_TO_MARKET = {
   'cincinnati-oh': 'cincinnati',
   'arlington-tx': 'arlington',
   'fort-worth-tx': 'fortworth',
+  'irving-tx': 'irving',
+  'grand-prairie-tx': 'grandprairie',
 }
 
 const META = {}

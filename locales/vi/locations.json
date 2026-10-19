@@ -53,6 +53,10 @@
       "fortWorth": {
         "label": "Fort Worth, TX",
         "desc": "AllianceTexas, CentrePort và hành lang I-35W — kho bãi, hàng không và phân phối."
+      },
+      "grandPrairie": {
+        "label": "Grand Prairie, TX",
+        "desc": "Khu công nghiệp Great Southwest và SH-161: kho bãi, sản xuất và nhà cung cấp hàng không vũ trụ."
       }
     },
     "officeMap": {
@@ -543,6 +547,10 @@
       {
         "label": "Fort Worth, TX",
         "desc": "AllianceTexas, CentrePort và hành lang I-35W — kho bãi, hàng không và phân phối."
+      },
+      {
+        "label": "Grand Prairie, TX",
+        "desc": "Khu công nghiệp Great Southwest và SH-161: kho bãi, sản xuất và nhà cung cấp hàng không vũ trụ."
       }
     ],
     "relatedCities": [
@@ -557,6 +565,9 @@
       },
       {
         "label": "Fort Worth TX"
+      },
+      {
+        "label": "Grand Prairie TX"
       }
     ]
   },
@@ -615,87 +626,6 @@
       },
       {
         "label": "Richardson TX (HQ)"
-      }
-    ]
-  },
-  "irving": {
-    "title": "Công Ty Nhân Sự tại Irving TX | Công Nghiệp & Kho Bãi | Pro-Tech",
-    "metaDesc": "Pro-Tech Staffing phục vụ Irving TX với nhân viên công nghiệp nhẹ, kho bãi, điện tử và chuỗi cung ứng. Ứng viên đã sàng lọc trong 48 giờ. Phục vụ Las Colinas, Coppell và hành lang sân bay DFW.",
-    "h1": "Công ty nhân sự công nghiệp tại Irving, TX.",
-    "subhead": "Phục vụ Irving, Las Colinas, Coppell, Carrollton và hành lang công nghiệp sân bay DFW.",
-    "label": "Irving TX",
-    "cities": [
-      "Irving TX",
-      "Las Colinas TX",
-      "Coppell TX",
-      "Carrollton TX",
-      "Farmers Branch TX",
-      "Grand Prairie TX",
-      "Dallas TX"
-    ],
-    "industries": [
-      "Nhân Sự Công Nghiệp Nhẹ",
-      "Nhân Sự Kho Bãi & 3PL",
-      "Nhân Sự Chuỗi Cung Ứng",
-      "Nhân Sự Sản Xuất Điện Tử",
-      "Nhân Sự Hành Chính"
-    ],
-    "roles": [
-      "Nhân viên lấy hàng và đóng gói",
-      "Vận hành viên xe nâng",
-      "Nhân viên giao nhận",
-      "Công nhân lắp ráp",
-      "Nhân viên kiểm soát hàng tồn kho",
-      "Kỹ thuật viên điện tử",
-      "Lao động phổ thông",
-      "Công nhân sản xuất"
-    ],
-    "proof": [
-      {
-        "n": "48h",
-        "label": "Thời gian lấp đầy trung bình"
-      },
-      {
-        "n": "DFW corridor",
-        "label": "Khu vực phục vụ"
-      },
-      {
-        "n": "Temp & perm",
-        "label": "Hình thức bố trí"
-      },
-      {
-        "n": "94%",
-        "label": "Tỷ lệ giữ chân khách hàng"
-      }
-    ],
-    "whyUs": [
-      {
-        "title": "Phục vụ hành lang sân bay DFW",
-        "desc": "Khu vực Irving và Las Colinas là một trong những vùng hậu cần sôi động nhất DFW. Chúng tôi cung ứng nhân sự kho bãi, phân phối và công nghiệp nhẹ cho hoạt động dọc toàn bộ hành lang sân bay DFW."
-      },
-      {
-        "title": "Hỗ trợ từ hai văn phòng",
-        "desc": "Irving nằm giữa trụ sở Richardson và văn phòng Bedford. Chúng tôi tận dụng cả hai nguồn nhân tài để lấp đầy đơn hàng Irving nhanh hơn."
-      },
-      {
-        "title": "Chuyên về điện tử và hậu cần",
-        "desc": "Irving thu hút cả nhà tuyển dụng điện tử và hậu cần. Đội ngũ tuyển dụng tìm kiếm cho cả hai — từ kỹ thuật viên lắp ráp PCB đến trưởng nhóm kho bãi."
-      }
-    ],
-    "testimonial": {
-      "quote": "Bố trí nhanh và nhân viên thực sự đến làm. Pro-Tech đã lấp đầy nhân sự mùa cao điểm trong 72 giờ và tỷ lệ giữ chân là tốt nhất chúng tôi từng thấy.",
-      "name": "Quản Lý Hậu Cần",
-      "co": "Phân Phối & 3PL · Irving, TX"
-    },
-    "relatedCities": [
-      {
-        "label": "Arlington TX"
-      },
-      {
-        "label": "Garland TX"
-      },
-      {
-        "label": "Tổng Quan DFW"
       }
     ]
   },

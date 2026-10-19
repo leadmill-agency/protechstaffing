@@ -2,7 +2,7 @@
 
 import { useState, use } from 'react'
 import Link from 'next/link'
-import { useTranslation } from 'react-i18next'
+import { useTranslation, Trans } from 'react-i18next'
 import icons from '@/components/icons'
 import MARKET_DATA from '@/data/markets'
 
@@ -37,6 +37,8 @@ const SLUG_TO_MARKET = {
   'cincinnati-oh': 'cincinnati',
   'arlington-tx': 'arlington',
   'fort-worth-tx': 'fortworth',
+  'irving-tx': 'irving',
+  'grand-prairie-tx': 'grandprairie',
 }
 
 // ─── LOCATION PAGE ─────────────────────────────────────────────────────────────
@@ -79,7 +81,7 @@ export default function LocationPage({ params }) {
               <p className="text-xs font-semibold text-steel tracking-wide mb-5">{t(`${market}.subhead`)}</p>
               {!isBucket1 && (
                 <p className="text-steel text-sm md:text-base leading-relaxed mb-4 max-w-lg">
-                  {t('detail.servedFromDesc', { parentOffice: d.parentOffice || 'nearest' })}
+                  <Trans t={t} i18nKey="detail.servedFromDesc" values={{ parentOffice: d.parentOffice || 'nearest' }} components={{ strong: <strong className="text-carbon" /> }} />
                 </p>
               )}
               <div className="flex flex-col sm:flex-row gap-3 mt-6">
@@ -206,7 +208,7 @@ export default function LocationPage({ params }) {
         </section>
       )}
 
-      {/* ── 4. LOCAL SERVICES (Bucket 1) or Industries checklist (Bucket 2) ── */}
+      {/* ── 4. LOCAL SERVICES (Bucket 1 only; section 5 lists industries for every page) ── */}
       {isBucket1 && localServices && Array.isArray(localServices) && localServices.length > 0 ? (
         <section className="bg-white py-16 md:py-24">
           <div className="max-w-7xl mx-auto px-6">
@@ -235,26 +237,7 @@ export default function LocationPage({ params }) {
             </div>
           </div>
         </section>
-      ) : (
-        <section className="bg-bone py-16 md:py-24">
-          <div className="max-w-7xl mx-auto px-6">
-            <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-5">{t('detail.industriesWeStaff')}</p>
-            <h2 className="font-semibold text-carbon text-3xl leading-tight tracking-tight mb-8">
-              {t('detail.industriesHeading').split('\n').map((line, i) => (
-                <span key={i}>{line}{i === 0 && <br />}</span>
-              ))}
-            </h2>
-            <div className="grid sm:grid-cols-2 gap-3 max-w-2xl">
-              {industries.map(ind => (
-                <div key={ind} className="flex items-center gap-3 border-b border-fog pb-3">
-                  <div className="w-3.5 h-3.5 text-ind-green flex-shrink-0">{icons.check}</div>
-                  <span className="text-carbon text-sm font-medium">{ind}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
+      ) : null}
 
       {/* ── 5. INDUSTRIES + ROLES ───────────────────────────────────────────── */}
       <section className={`${isBucket1 ? 'bg-bone' : 'bg-white'} py-16 md:py-24`}>

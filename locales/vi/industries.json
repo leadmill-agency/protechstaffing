@@ -331,6 +331,10 @@
       {
         "label": "Lao Động Phổ Thông",
         "href": "/industries/general-labor"
+      },
+      {
+        "label": "Nhân Sự Kho Bãi DFW",
+        "href": "/industries/warehouse-staffing-dfw"
       }
     ],
     "hiringFactors": [

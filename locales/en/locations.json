@@ -40,7 +40,7 @@
       },
       "irving": {
         "label": "Irving, TX",
-        "desc": "Las Colinas and DFW Airport corridor — electronics, logistics, and light industrial."
+        "desc": "DFW Airport corridor and the Freeport area. Warehouse, cross-dock, and air cargo."
       },
       "garland": {
         "label": "Garland, TX",
@@ -53,6 +53,10 @@
       "fortWorth": {
         "label": "Fort Worth, TX",
         "desc": "AllianceTexas, CentrePort, and the I-35W corridor — warehouse, air cargo, and distribution."
+      },
+      "grandPrairie": {
+        "label": "Grand Prairie, TX",
+        "desc": "Great Southwest Industrial District. Warehouse, manufacturing, and aerospace suppliers."
       }
     },
     "officeMap": {
@@ -557,7 +561,7 @@
       },
       {
         "label": "Irving, TX",
-        "desc": "Las Colinas and DFW Airport corridor — logistics, light industrial, and electronics."
+        "desc": "DFW Airport corridor and the Freeport area, with cross-dock, air cargo, and distribution."
       },
       {
         "label": "Richardson, TX (HQ)",
@@ -566,6 +570,10 @@
       {
         "label": "Fort Worth, TX",
         "desc": "AllianceTexas, CentrePort, and the I-35W corridor — warehouse, air cargo, and distribution."
+      },
+      {
+        "label": "Grand Prairie, TX",
+        "desc": "Great Southwest Industrial District and SH-161, with warehouse, manufacturing, and aerospace suppliers."
       }
     ],
     "relatedCities": [
@@ -580,6 +588,9 @@
       },
       {
         "label": "Fort Worth TX"
+      },
+      {
+        "label": "Grand Prairie TX"
       }
     ],
     "hiringGuide": [
@@ -813,37 +824,49 @@
     ]
   },
   "irving": {
-    "title": "Staffing Agency in Irving TX | Industrial & Warehouse Workers | Pro-Tech",
-    "metaDesc": "Pro-Tech Staffing serves Irving TX with light industrial, warehouse, electronics, and supply chain workers. Vetted candidates in 48 hours. Serving Las Colinas, Coppell, and DFW Airport corridor.",
-    "h1": "Industrial staffing agency in Irving, TX.",
-    "subhead": "Serving Irving, Las Colinas, Coppell, Carrollton, and the DFW Airport industrial corridor.",
+    "title": "Staffing Agency in Irving TX | Warehouse & Light Industrial | Pro-Tech",
+    "metaDesc": "Warehouse, forklift, and light industrial staffing in Irving, from the Freeport distribution area by DFW Airport to Las Colinas. Screened workers from our nearby Bedford office.",
+    "h1": "Warehouse and light industrial staffing in Irving, TX.",
+    "subhead": "Serving Irving, the Freeport area, Las Colinas, Valley Ranch, Coppell, and the DFW Airport corridor.",
     "label": "Irving TX",
     "cities": [
       "Irving TX",
       "Las Colinas TX",
       "Coppell TX",
-      "Carrollton TX",
+      "Grapevine TX",
+      "Euless TX",
       "Farmers Branch TX",
-      "Grand Prairie TX",
-      "Dallas TX"
+      "Grand Prairie TX"
     ],
-    "marketIntro": "Irving — and especially Las Colinas and the DFW Airport corridor — is one of DFW's busiest logistics and light industrial zones. The corridor along Highway 114, Highway 161 (President George Bush Turnpike), and I-635 supports distribution centers, electronics manufacturers, and 3PL operations serving DFW Airport's cargo flow into and out of the metroplex. The Las Colinas business district adds a layer of corporate logistics and back-office operations on top of the industrial base. Our Richardson HQ covers Irving with recruiters who source from both east DFW and the airport corridor talent pools.",
+    "marketIntro": "About a third of DFW International Airport sits inside Irving, and that shapes the whole city's industrial economy. North of SH-114, the Freeport area fills with distribution and cross-dock buildings a few minutes from the airport, I-635, and SH-114, and many distributors use the city's Foreign Trade Zone and freeport tax exemptions. Las Colinas, in the middle of the city, is mostly corporate offices, while south Irving along SH-183 and Loop 12 holds older warehouses and light industrial sites. Our Bedford office sits just west of the airport, and our recruiters place warehouse, forklift, and light industrial workers across Irving every week.",
+    "marketSnapshot": {
+      "corridors": "The Freeport area and the SH-114 corridor north of Las Colinas, next to DFW Airport. The I-635 (LBJ Freeway) corridor along the north edge of the city. SH-183 (Airport Freeway) and Loop 12 across south Irving. SH-161 (President George Bush Turnpike) running north to Coppell and south to Grand Prairie.",
+      "anchorIndustries": "Air cargo and freight forwarding tied to DFW Airport. Third-party logistics and distribution in the Freeport area, including bonded and Foreign Trade Zone operations. Light assembly, kitting, and returns processing, plus corporate headquarters and back-office work in Las Colinas.",
+      "laborPool": "Workers come from Irving itself and from Grand Prairie, Euless, Grapevine, Coppell, and west Dallas. Irving has more rail transit than most of the metroplex: the DART Orange Line runs through Las Colinas to DFW Airport, and the Trinity Railway Express stops in Irving on its way between Dallas and Fort Worth. That widens the pool of workers who can reach a site without a car."
+    },
+    "hiringGuide": [
+      "Airport freight runs on airline schedules, not office hours. Cargo arrives with overnight and early-morning flights, and the forwarders and distributors around the airport build their shifts around it. That is why the hardest Irving jobs to fill are usually late-night and pre-dawn shifts, not day shift. We recruit for the hours you need covered and confirm the candidate wants that schedule before we place them.",
+      "Some airport-area jobs need a security badge. Work inside the airport's secure areas requires a badge, and getting one involves a fingerprint-based background check. If your roles need badging, tell us at the start. We screen candidates against those requirements before we submit them, so a new hire does not stall for weeks waiting on a badge they cannot get.",
+      "Cross-dock work rewards speed and accuracy more than heavy lifting. In a cross-dock building, freight moves from inbound trucks to outbound trucks within hours, and a mis-scanned pallet ends up in the wrong city. We look for candidates with RF scanner and warehouse management system experience, and for forklift roles we match the operator to the trucks you run, from sit-down counterbalance on the dock to reach trucks in the racks.",
+      "Bonded and Foreign Trade Zone warehouses need careful record keeping. Goods in these buildings are tracked closely, and inventory errors carry real cost. For inventory, receiving, and shipping roles at these sites, we look for people with cycle-count and documentation experience who are comfortable with exact counts and paperwork, not just people who can move freight.",
+      "Transit helps, but the last mile still matters. The DART Orange Line and the Trinity Railway Express make Irving easier to reach than most of DFW, yet many Freeport buildings sit well away from a station, and early shifts can start before buses run. We check how each candidate will reach your building for your shift start, and every worker is screened before day one with work-eligibility verification, a background check, drug screening, and attendance and reference checks."
+    ],
     "industries": [
-      "Light Industrial Staffing",
       "Warehouse & 3PL Staffing",
+      "Light Industrial Staffing",
       "Supply Chain Staffing",
-      "Electronics Manufacturing Staffing",
+      "General Labor",
       "Administrative Staffing"
     ],
     "roles": [
       "Warehouse pickers and packers",
-      "Forklift operators",
+      "Forklift operators (sit-down, reach, order picker)",
+      "Cross-dock and freight handlers",
       "Shipping and receiving clerks",
-      "Assembly workers",
-      "Inventory control clerks",
-      "Electronics technicians",
-      "General labor",
-      "Production workers"
+      "Inventory and cycle-count clerks",
+      "Kitting and light assembly workers",
+      "Returns processors",
+      "General labor"
     ],
     "proof": [
       {
@@ -851,46 +874,178 @@
         "label": "Avg. fill time"
       },
       {
-        "n": "DFW corridor",
-        "label": "Coverage area"
+        "n": "Days & nights",
+        "label": "Shift coverage"
       },
       {
-        "n": "Temp & perm",
-        "label": "Placement types"
+        "n": "DFW Airport",
+        "label": "Corridor coverage"
       },
       {
-        "n": "94%",
-        "label": "Client retention"
+        "n": "Bedford",
+        "label": "Nearby office"
       }
     ],
     "whyUs": [
       {
-        "title": "DFW Airport corridor coverage",
-        "desc": "The Irving and Las Colinas area is one of DFW's busiest logistics zones. We staff warehouse, distribution, and light industrial roles for operations along the entire DFW Airport corridor."
+        "title": "Built around airport hours",
+        "desc": "We recruit for the overnight and early-morning shifts airport freight actually runs, and confirm each candidate wants that schedule."
       },
       {
-        "title": "Covered from two offices",
-        "desc": "Irving sits between our Richardson HQ and Bedford office. We draw from both talent pools to fill Irving orders faster."
+        "title": "Badge and site requirements checked first",
+        "desc": "If your roles need airport badging or stricter background checks, we screen for it before submitting anyone."
       },
       {
-        "title": "Electronics and logistics specialty",
-        "desc": "Irving attracts both electronics and logistics employers. Our recruiters source for both — from PCB assembly technicians to warehouse leads."
+        "title": "Two offices nearby",
+        "desc": "Our Bedford office sits just west of the airport and our Richardson headquarters is to the northeast, so we recruit from both sides of Irving."
       }
     ],
-    "testimonial": {
-      "quote": "Fast placements and workers who actually showed up. Pro-Tech filled our peak-season headcount in 72 hours and the retention rate was the best we'd seen.",
-      "name": "Logistics Manager",
-      "co": "Distribution & 3PL · Irving, TX"
-    },
+    "faq": [
+      {
+        "q": "Does Pro-Tech have an office in Irving?",
+        "a": "Irving is covered by our Bedford office at 3508 Harwood Rd, Ste 108, Bedford, TX 76021, just west of DFW Airport. Our Richardson headquarters also recruits for Irving employers on the northeast side of the city."
+      },
+      {
+        "q": "Do you staff warehouses near DFW Airport?",
+        "a": "Yes. We place warehouse, cross-dock, forklift, and shipping and receiving workers across the Freeport area and the rest of the airport corridor, including overnight and early-morning shifts."
+      },
+      {
+        "q": "Can you staff jobs that need an airport security badge?",
+        "a": "Yes. Tell us which roles need badging and we screen candidates against those requirements before submitting them. The badge itself is issued through the airport process, which includes a fingerprint-based background check."
+      },
+      {
+        "q": "How fast can you fill warehouse jobs in Irving?",
+        "a": "For standard warehouse and light-industrial roles, we typically deliver the first qualified candidates within 48 hours. Badged roles and certified forklift operators can take longer."
+      },
+      {
+        "q": "Do you staff companies in Las Colinas?",
+        "a": "Yes. Las Colinas is mostly corporate offices, so the work there leans toward administrative, mailroom, and facilities support, while warehouse and light industrial roles cluster in the Freeport area and south Irving. We staff both, and we can place administrative and clerical workers for Las Colinas headquarters alongside warehouse teams near the airport. If your company runs an office in Las Colinas and a distribution site near DFW Airport, one Pro-Tech recruiter can cover both."
+      },
+      {
+        "q": "What types of placement do you offer?",
+        "a": "Temporary staffing, temp-to-hire, and direct placement. Temporary workers are Pro-Tech W-2 employees, so we carry the payroll, workers' compensation, and employment compliance."
+      }
+    ],
     "relatedCities": [
+      {
+        "label": "Bedford TX"
+      },
+      {
+        "label": "Grand Prairie TX"
+      },
+      {
+        "label": "Richardson TX (HQ)"
+      }
+    ]
+  },
+  "grandprairie": {
+    "title": "Staffing Agency in Grand Prairie TX | Warehouse & Manufacturing | Pro-Tech",
+    "metaDesc": "Warehouse, forklift, and manufacturing staffing in Grand Prairie, from the Great Southwest Industrial District to the SH-161 corridor. Screened workers from our Bedford office.",
+    "h1": "Warehouse and manufacturing staffing in Grand Prairie, TX.",
+    "subhead": "Serving Grand Prairie, the Great Southwest Industrial District, and nearby Arlington, Irving, Duncanville, and Cedar Hill.",
+    "label": "Grand Prairie TX",
+    "cities": [
+      "Grand Prairie TX",
+      "Arlington TX",
+      "Irving TX",
+      "Duncanville TX",
+      "Cedar Hill TX",
+      "Mansfield TX",
+      "Euless TX"
+    ],
+    "marketIntro": "Grand Prairie sits in the middle of the metroplex, between Dallas and Fort Worth, and stretches across parts of Dallas, Tarrant, and Ellis counties. Its industrial base has two very different halves. In the north, the Great Southwest Industrial District, shared with Arlington along I-30 and SH-360, packs warehouses, distribution centers, and light manufacturing into one of the oldest and densest industrial areas in North Texas. Alongside it sits an aerospace and defense cluster that includes Lockheed Martin's Missiles and Fire Control operation, the US headquarters of Airbus Helicopters, and the suppliers that feed them. Further south, newer distribution buildings line SH-161 and I-20. Our Bedford office, a short drive north up SH-360, staffs warehouse, forklift, and manufacturing roles across all of it.",
+    "marketSnapshot": {
+      "corridors": "The Great Southwest Industrial District along I-30 and SH-360, shared with Arlington. The SH-161 (President George Bush Turnpike) corridor running north to Irving and south to I-20. The I-20 corridor across south Grand Prairie toward Cedar Hill and Duncanville.",
+      "anchorIndustries": "Aerospace and defense manufacturing, led by Lockheed Martin Missiles and Fire Control and Airbus Helicopters, plus their machining, assembly, and parts suppliers. Plastics and industrial manufacturers such as Poly-America. Warehousing, third-party logistics, and e-commerce distribution across the Great Southwest and the SH-161 corridor.",
+      "laborPool": "Workers come from Grand Prairie itself and from Arlington, Irving, Duncanville, and Cedar Hill, with I-30 and I-20 carrying most east-west commutes. Because the city runs long from north to south, a worker who lives near I-20 may not accept a job up by I-30, so the right candidate is often the one closest to the site rather than the one closest on a map of the city."
+    },
+    "hiringGuide": [
+      "Grand Prairie employers hire for two different kinds of work, and the screening should match. A distribution center needs people who can keep pace, handle a scanner, and show up for the shift. An aerospace or defense supplier needs people who can follow written work instructions exactly, keep parts traceable, and treat a stray bolt on the floor as a quality problem. We ask which of these your operation is before we recruit, and we screen for the habits the work depends on, not just general industrial experience.",
+      "Defense work can come with requirements other jobs do not. Some roles at defense contractors and their suppliers are limited by export-control rules or need a candidate who can pass a more detailed background check. If your roles carry requirements like these, tell us up front. We confirm eligibility before we submit a candidate, so you do not lose a week interviewing someone who cannot be cleared for the job.",
+      "Manufacturing here often runs around the clock. Plastics, molding, and other continuous processes keep lines running through nights and weekends, and second and third shifts are where most openings stay open longest. We recruit for the shift you need and confirm the candidate actually wants that schedule before we place them. A qualified worker who does not want nights is not a lasting fill, and confirming the schedule early is the most reliable way we know to reduce early turnover.",
+      "Commute matters more than the map suggests. Grand Prairie covers a long stretch of ground from I-30 down past I-20, and the two ends draw on different neighborhoods. We check how each candidate will get to your specific site for your specific shift start time. Bus service is limited across much of the city, so for overnight and early-morning shifts, reliable transportation is part of our screening, not an afterthought.",
+      "Every worker we place in Grand Prairie is screened before the first shift. That means work-eligibility verification, a background check, and drug screening, plus attendance history and references from prior employers. For forklift and material-handling roles we check training and the truck types the operator has run. For manufacturing and aerospace-supplier roles we check experience with work instructions, measuring tools, and inspection, so the people who arrive can follow your process from the first day."
+    ],
+    "industries": [
+      "Warehouse & 3PL Staffing",
+      "Manufacturing Staffing",
+      "Light Industrial Staffing",
+      "Supply Chain Staffing",
+      "General Labor"
+    ],
+    "roles": [
+      "Warehouse pickers and packers",
+      "Forklift operators (sit-down, reach, order picker)",
+      "Material handlers",
+      "Shipping and receiving clerks",
+      "Assembly and production workers",
+      "Machine operators",
+      "Quality inspectors",
+      "General labor"
+    ],
+    "proof": [
+      {
+        "n": "48h",
+        "label": "Avg. fill time"
+      },
+      {
+        "n": "Days & nights",
+        "label": "Shift coverage"
+      },
+      {
+        "n": "Mid-cities",
+        "label": "Local coverage"
+      },
+      {
+        "n": "Bedford",
+        "label": "Nearby office"
+      }
+    ],
+    "whyUs": [
+      {
+        "title": "Screening matched to the work",
+        "desc": "Distribution centers and aerospace suppliers need different habits. We screen for the one your floor depends on, from scanner speed to following work instructions exactly."
+      },
+      {
+        "title": "Requirements confirmed up front",
+        "desc": "If a role has eligibility or background requirements, we confirm them before submitting a candidate, so you only interview people who can actually start."
+      },
+      {
+        "title": "Recruiters close by",
+        "desc": "Our Bedford office is a short drive up SH-360, and our recruiters work the Great Southwest and SH-161 corridors every week."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Does Pro-Tech have an office in Grand Prairie?",
+        "a": "Grand Prairie is covered by our Bedford office at 3508 Harwood Rd, Ste 108, Bedford, TX 76021, a short drive north on SH-360. Our recruiters place workers across Grand Prairie, from the Great Southwest Industrial District to the I-20 corridor."
+      },
+      {
+        "q": "Do you staff the Great Southwest Industrial District?",
+        "a": "Yes. We place warehouse, forklift, shipping and receiving, and production workers across the Great Southwest, on both the Grand Prairie and Arlington sides."
+      },
+      {
+        "q": "Can you staff aerospace and defense suppliers?",
+        "a": "Yes. We place assemblers, machine operators, material handlers, and quality inspectors with manufacturers and suppliers. If a role carries eligibility or background requirements, we confirm them before we submit a candidate."
+      },
+      {
+        "q": "How fast can you fill jobs in Grand Prairie?",
+        "a": "For standard warehouse and light-industrial roles, we typically deliver the first qualified candidates within 48 hours. Skilled manufacturing roles and overnight shifts can take a little longer."
+      },
+      {
+        "q": "What types of placement do you offer?",
+        "a": "Temporary staffing, temp-to-hire, and direct placement. Temporary workers are Pro-Tech W-2 employees, so we carry the payroll, workers' compensation, and employment compliance."
+      }
+    ],
+    "relatedCities": [
+      {
+        "label": "Bedford TX"
+      },
       {
         "label": "Arlington TX"
       },
       {
-        "label": "Garland TX"
-      },
-      {
-        "label": "DFW Overview"
+        "label": "Irving TX"
       }
     ]
   },

@@ -421,6 +421,10 @@
       {
         "label": "General Labor",
         "href": "/industries/general-labor"
+      },
+      {
+        "label": "Warehouse Staffing DFW",
+        "href": "/industries/warehouse-staffing-dfw"
       }
     ],
     "overview": [
@@ -1260,8 +1264,8 @@
     ],
     "relatedIndustries": [
       {
-        "label": "Warehouse & Distribution",
-        "href": "/industries/warehouse-distribution"
+        "label": "Warehouse Staffing DFW",
+        "href": "/industries/warehouse-staffing-dfw"
       },
       {
         "label": "Supply Chain & Logistics",
@@ -1321,6 +1325,138 @@
       {
         "q": "Do you offer temp-to-hire for forklift operators?",
         "a": "Yes. Temp-to-hire lets you see an operator on your trucks and your schedule before you hire them permanently. While they are on assignment, they are Pro-Tech W-2 employees, so we carry the payroll, workers' compensation, and employment compliance."
+      }
+    ]
+  },
+  "warehouse-staffing-dfw": {
+    "title": "Warehouse Staffing in Dallas-Fort Worth | Pro-Tech Staffing",
+    "metaDesc": "Warehouse workers for DFW distribution centers, 3PLs, and cross-docks: pickers, packers, forklift operators, and shipping clerks. Screened before day one. Placed from our Bedford and Richardson offices.",
+    "h1": "Warehouse staffing in Dallas-Fort Worth.",
+    "subhead": "Pickers, packers, forklift operators, and shipping and receiving teams for DFW distribution centers, 3PLs, and cross-docks.",
+    "label": "Warehouse",
+    "intro": "Dallas-Fort Worth is one of the busiest distribution markets in the country, and every operator in it is hiring from the same workers. Pro-Tech places warehouse workers across the metroplex from our Bedford and Richardson offices. We recruit for the shift you need, screen every worker before the first day, and match forklift operators to the trucks you actually run.",
+    "imgAlt": "Warehouse workers moving pallets in a Dallas-Fort Worth distribution center",
+    "certHeading": "Screened before day one.\nNot after a problem.",
+    "certDescription": "Every warehouse worker we place in DFW goes through the same screening before their first shift, plus role-specific checks for forklift and inventory work.",
+    "certVerified": "Screening completed before every placement.",
+    "certifications": [
+      "Work-eligibility verification",
+      "Background check",
+      "Drug screening",
+      "Attendance history and reference checks",
+      "Forklift training and truck-type check",
+      "RF scanner and WMS experience"
+    ],
+    "roles": [
+      "Order pickers and packers",
+      "Forklift operators (sit-down, reach, order picker)",
+      "Material handlers",
+      "Shipping and receiving clerks",
+      "Loaders and unloaders",
+      "Inventory and cycle-count clerks",
+      "Returns processors",
+      "Warehouse leads"
+    ],
+    "rolesDescription": "Warehouse work covers very different jobs, from fast pick-and-pack to careful inventory control. We place people matched to the job, the pace, and the equipment on your floor.",
+    "whyUs": [
+      {
+        "title": "Recruited for your shift",
+        "desc": "Most warehouse gaps open on nights and weekends. We recruit for the schedule you need and confirm each candidate wants it before placing them."
+      },
+      {
+        "title": "A pipeline before peak",
+        "desc": "Our recruiters keep screened local candidates ready year-round, so fall and holiday hiring does not start from zero."
+      },
+      {
+        "title": "Both sides of the metroplex",
+        "desc": "Our Bedford office covers Fort Worth and the mid-cities, and our Richardson headquarters covers Dallas and the northeast suburbs."
+      }
+    ],
+    "proof": [
+      {
+        "n": "48h",
+        "label": "Avg. fill time"
+      },
+      {
+        "n": "2",
+        "label": "DFW offices"
+      },
+      {
+        "n": "Days & nights",
+        "label": "Shift coverage"
+      },
+      {
+        "n": "W-2",
+        "label": "Pro-Tech employees"
+      }
+    ],
+    "relatedIndustries": [
+      {
+        "label": "Forklift Operator Staffing DFW",
+        "href": "/industries/forklift-operator-staffing-dfw"
+      },
+      {
+        "label": "Warehouse & Distribution",
+        "href": "/industries/warehouse-distribution"
+      },
+      {
+        "label": "Supply Chain & Logistics",
+        "href": "/industries/supply-chain-logistics"
+      }
+    ],
+    "overview": [
+      "DFW warehouse work is spread across several distinct hubs, each with its own labor pool. In north Fort Worth, AllianceTexas anchors air cargo, rail, and large distribution centers. The Great Southwest Industrial District runs along the Arlington and Grand Prairie line, and CentrePort sits just south of DFW Airport. Around the airport, Irving's Freeport area is full of cross-dock and distribution buildings. In southern Dallas County, the International Inland Port of Dallas clusters distribution centers around Union Pacific's intermodal terminal in Hutchins. A worker who lives near one hub will rarely commute to another, so we recruit close to your site.",
+      "Warehouse jobs that look the same on paper are not the same on the floor. High-volume e-commerce picking rewards pace and accuracy with a scanner. Cross-dock work moves freight from inbound to outbound trucks within hours, so a mis-scan costs more than a slow pick. Inventory and receiving roles need people comfortable with exact counts and paperwork. Returns processing needs judgment about condition and disposition. Before we recruit, we ask which of these your operation runs and what systems your team uses, so the people we send fit the work.",
+      "Shift and schedule decide whether a placement lasts. Many DFW distribution operations run around the clock, and second shift, third shift, and weekend roles are where most openings stay open. A candidate who takes a night job but wanted days is likely to leave in the first few weeks. We recruit for the actual schedule and confirm the candidate wants it, and we check how they will get to your building for that shift start, because public transit does not reach most warehouse districts at night.",
+      "Peak season is predictable, and the employers who handle it well plan early. Parcel and e-commerce volume climbs every fall and peaks through the holidays, and every operator in the metroplex recruits from the same workers at the same time. Our recruiters keep a screened, local pipeline active year-round, so adding people for peak does not mean starting from scratch. When peak ends, temp-to-hire gives you a way to keep the strongest workers without guessing at a permanent hire in October.",
+      "Forklift roles need a closer match. A sit-down counterbalance operator is not automatically ready for a reach truck at height, and OSHA requires the employer to evaluate each operator on its own trucks. We verify each operator's training and the truck types they have run before placement, and we agree with you up front who covers the site evaluation. Pro-Tech has staffed industrial work in Dallas-Fort Worth for more than 30 years, and every worker we place is a Pro-Tech W-2 employee, so we carry the payroll, workers' compensation, and employment compliance."
+    ],
+    "hiringFactors": [
+      {
+        "title": "Hire close to the site",
+        "desc": "DFW is large, and commutes across it are long. Recruit from the neighborhoods around your building, not the whole metroplex."
+      },
+      {
+        "title": "Confirm the schedule before the offer",
+        "desc": "Nights and weekends are where turnover starts. Make sure the candidate wants the shift, not just the job."
+      },
+      {
+        "title": "Match the job type, not just \"warehouse experience\"",
+        "desc": "Picking, cross-dock, inventory, and returns are different skills. Ask what the candidate has actually done and on which systems."
+      },
+      {
+        "title": "Plan peak hiring in late summer",
+        "desc": "Fall volume arrives on the same schedule every year. Start building the pipeline before every competitor starts hiring."
+      },
+      {
+        "title": "Settle forklift responsibilities up front",
+        "desc": "Verify training and truck types before placement, and agree who covers the on-site evaluation OSHA requires."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What warehouse roles does Pro-Tech staff in DFW?",
+        "a": "Order pickers and packers, forklift operators, material handlers, loaders, shipping and receiving clerks, inventory and cycle-count clerks, returns processors, and warehouse leads."
+      },
+      {
+        "q": "Which parts of Dallas-Fort Worth do you cover?",
+        "a": "The whole metroplex. Our Bedford office covers Fort Worth, Arlington, Grand Prairie, Irving, and the mid-cities. Our Richardson headquarters covers Dallas, Plano, Garland, and the northeast suburbs."
+      },
+      {
+        "q": "How fast can you fill warehouse jobs?",
+        "a": "For standard warehouse roles, we typically deliver the first qualified candidates within 48 hours. Certified forklift operators and overnight roles can take 48 to 72 hours."
+      },
+      {
+        "q": "Can you help us staff up for peak season?",
+        "a": "Yes. We keep screened local candidates ready year-round, and we recommend starting peak planning in late summer so workers are trained before volume arrives."
+      },
+      {
+        "q": "Who employs the warehouse workers you place?",
+        "a": "Temporary and temp-to-hire workers are Pro-Tech W-2 employees. We handle their payroll, taxes, workers' compensation, and employment compliance, and you direct their work on your floor. If you hire a worker permanently through temp-to-hire or direct placement, they move to your payroll."
+      },
+      {
+        "q": "Do you offer temp-to-hire for warehouse workers?",
+        "a": "Yes. Temp-to-hire lets you see a worker on your floor before making a permanent offer. We also offer temporary staffing and direct placement."
       }
     ]
   }

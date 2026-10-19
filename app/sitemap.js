@@ -40,6 +40,7 @@ export default function sitemap() {
     'general-labor',
     'engineering',
     'forklift-operator-staffing-dfw',
+    'warehouse-staffing-dfw',
   ].map(slug => ({
     url: `${BASE}/industries/${slug}`,
     changeFrequency: 'monthly',
@@ -56,6 +57,8 @@ export default function sitemap() {
     'cincinnati-oh',
     'arlington-tx',
     'fort-worth-tx',
+    'irving-tx',
+    'grand-prairie-tx',
   ].map(slug => ({
     url: `${BASE}/locations/${slug}`,
     changeFrequency: 'weekly',

@@ -46,6 +46,19 @@ const INDUSTRY_DATA = {
       { label: 'Richardson, TX', href: '/locations/richardson-tx' },
     ],
   },
+  'warehouse-staffing-dfw': {
+    slug: 'industries/warehouse-staffing-dfw',
+    icon: 'box',
+    img: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1000&q=75',
+    marketLinks: [
+      { label: 'Fort Worth, TX', href: '/locations/fort-worth-tx' },
+      { label: 'Arlington, TX', href: '/locations/arlington-tx' },
+      { label: 'Grand Prairie, TX', href: '/locations/grand-prairie-tx' },
+      { label: 'Irving, TX', href: '/locations/irving-tx' },
+      { label: 'Bedford, TX', href: '/locations/bedford-tx' },
+      { label: 'Richardson, TX', href: '/locations/richardson-tx' },
+    ],
+  },
 }
 
 export default INDUSTRY_DATA
