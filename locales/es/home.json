@@ -267,7 +267,7 @@
   },
   "testimonials": {
     "eyebrow": "Resultados de Clientes",
-    "ratingText": "4.8 · 120+ reseñas verificadas",
+    "ratingText": "4.6 Richardson · 4.7 Bedford · más de 200 reseñas en Google",
     "headline": "Lo que dicen los equipos.",
     "subhead": "El socio de personal adecuado reduce la fricción. El incorrecto crea más.",
     "reviews": {
@@ -277,22 +277,9 @@
         "name": "Director de Operaciones",
         "role": "Fabricante de Electrónica",
         "location": "Richardson, TX"
-      },
-      "review2": {
-        "headline": "Por fin, una agencia que evalúa a los trabajadores",
-        "quote": "Habíamos trabajado con agencias que seguían enviando trabajadores sin evaluar. Pro-Tech fue diferente. Entendieron el trabajo, el turno y qué tipo de persona realmente funcionaría en nuestra planta.",
-        "name": "Gerente de RR.HH.",
-        "role": "Almacén y 3PL",
-        "location": "Phoenix, AZ"
-      },
-      "review3": {
-        "headline": "Capacidad de respuesta que mantiene la producción en movimiento",
-        "quote": "La mayor diferencia es la capacidad de respuesta. Cuando algo cambia, puedo llamarlos y obtener una respuesta real rápidamente. Eso ahorra tiempo a mis supervisores y mantiene la producción en movimiento.",
-        "name": "Gerente de Planta",
-        "role": "Manufactura Ligera",
-        "location": "Tampa, FL"
       }
-    }
+    },
+    "googleLink": "Lea nuestras reseñas en Google"
   },
   "jobSeekers": {
     "eyebrow": "Para Buscadores de Empleo",

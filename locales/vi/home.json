@@ -267,7 +267,7 @@
   },
   "testimonials": {
     "eyebrow": "Kết Quả Khách Hàng",
-    "ratingText": "4.8 · 120+ đánh giá xác minh",
+    "ratingText": "4.6 Richardson · 4.7 Bedford · hơn 200 đánh giá trên Google",
     "headline": "Khách hàng nói gì.",
     "subhead": "Đối tác nhân sự phù hợp giảm trở ngại. Đối tác sai tạo thêm trở ngại.",
     "reviews": {
@@ -277,22 +277,9 @@
         "name": "Giám Đốc Vận Hành",
         "role": "Nhà Sản Xuất Điện Tử",
         "location": "Richardson, TX"
-      },
-      "review2": {
-        "headline": "Cuối cùng, một công ty sàng lọc nhân viên đúng cách",
-        "quote": "Chúng tôi đã trải qua các công ty nhân sự liên tục gửi nhân viên chưa được sàng lọc. Pro-Tech thì khác. Họ hiểu công việc, ca làm và loại người thực sự phù hợp tại xưởng của chúng tôi.",
-        "name": "Quản Lý Nhân Sự",
-        "role": "Kho Bãi & 3PL",
-        "location": "Phoenix, AZ"
-      },
-      "review3": {
-        "headline": "Phản hồi nhanh giữ cho sản xuất vận hành",
-        "quote": "Sự khác biệt lớn nhất là tốc độ phản hồi. Khi có thay đổi, tôi gọi và nhận câu trả lời nhanh chóng. Điều đó tiết kiệm thời gian cho quản lý và giữ sản xuất vận hành.",
-        "name": "Quản Đốc Nhà Máy",
-        "role": "Sản Xuất Nhẹ",
-        "location": "Tampa, FL"
       }
-    }
+    },
+    "googleLink": "Xem đánh giá của chúng tôi trên Google"
   },
   "jobSeekers": {
     "eyebrow": "Dành Cho Người Tìm Việc",

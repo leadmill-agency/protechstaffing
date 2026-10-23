@@ -101,5 +101,7 @@
     "cta": "Contáctenos",
     "dismiss": "Descartar anuncio"
   },
-  "lastUpdated": "Última actualización:"
+  "lastUpdated": "Última actualización:",
+  "reviewedBy": "Revisado por",
+  "reviewerTitle": "Presidente"
 }

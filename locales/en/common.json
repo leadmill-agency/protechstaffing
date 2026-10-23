@@ -101,5 +101,7 @@
     "cta": "Contact us",
     "dismiss": "Dismiss announcement"
   },
-  "lastUpdated": "Last updated"
+  "lastUpdated": "Last updated",
+  "reviewedBy": "Reviewed by",
+  "reviewerTitle": "President"
 }

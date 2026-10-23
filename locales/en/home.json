@@ -267,7 +267,7 @@
   },
   "testimonials": {
     "eyebrow": "Client Results",
-    "ratingText": "4.8 · 120+ verified reviews",
+    "ratingText": "4.6 Richardson · 4.7 Bedford · 200+ Google reviews",
     "headline": "What teams say.",
     "subhead": "The right staffing partner reduces friction. The wrong one creates more of it.",
     "reviews": {
@@ -279,20 +279,21 @@
         "location": "Richardson, TX"
       },
       "review2": {
-        "headline": "Finally, an agency that vets workers",
-        "quote": "We'd been through agencies that kept sending unvetted workers. Pro-Tech was different. They understood the job, the shift, and what kind of person would actually work on our floor.",
-        "name": "HR Manager",
-        "role": "Warehouse & 3PL",
-        "location": "Phoenix, AZ"
+        "headline": "A client for five years",
+        "quote": "We have been working with Pro-Tech staffing services for 5 years and definitely recommending. They are very nice to everyone, so glad we have them. Thank you so much.",
+        "name": "M. A.",
+        "role": "Google review",
+        "location": "Richardson office"
       },
       "review3": {
-        "headline": "Responsiveness that keeps production moving",
-        "quote": "The biggest difference is responsiveness. When something changes, I can call them and get a real answer fast. That saves my supervisors time and keeps production moving.",
-        "name": "Plant Manager",
-        "role": "Light Manufacturing",
-        "location": "Tampa, FL"
+        "headline": "Hired within a week",
+        "quote": "It was the best choice I made going there I had a job within a week. I love my job when ever I need help with anything their right there thanks for the experience.",
+        "name": "April West",
+        "role": "Google review",
+        "location": "Bedford office"
       }
-    }
+    },
+    "googleLink": "Read our reviews on Google"
   },
   "jobSeekers": {
     "eyebrow": "For Job Seekers",

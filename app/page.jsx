@@ -383,6 +383,7 @@ function Testimonials() {
                 <span key={i} className="w-4 h-4 text-safe-amber">{icons.star}</span>
               ))}
               <span className="text-xs text-steel ml-2">{t('testimonials.ratingText')}</span>
+              <a href="https://maps.google.com/?cid=1294581265880750141" target="_blank" rel="noopener noreferrer" className="text-xs font-semibold text-sig-blue hover:text-ind-green underline underline-offset-2 ml-2">{t('testimonials.googleLink')}</a>
             </div>
             <h2 className="font-semibold text-carbon text-3xl md:text-4xl lg:text-5xl leading-tight tracking-tight max-w-xl mb-3">
               {t('testimonials.headline')}

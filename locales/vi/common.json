@@ -101,5 +101,7 @@
     "cta": "Liên hệ với chúng tôi",
     "dismiss": "Đóng thông báo"
   },
-  "lastUpdated": "Cập nhật lần cuối:"
+  "lastUpdated": "Cập nhật lần cuối:",
+  "reviewedBy": "Được duyệt bởi",
+  "reviewerTitle": "Chủ tịch"
 }
