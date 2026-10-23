@@ -100,5 +100,6 @@
     "message": "Welcome! We've made new changes to our site. Feel free to contact us with any questions.",
     "cta": "Contact us",
     "dismiss": "Dismiss announcement"
-  }
+  },
+  "lastUpdated": "Last updated"
 }

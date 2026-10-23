@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { useTranslation, Trans } from 'react-i18next'
 import icons from '@/components/icons'
 import MARKET_DATA from '@/data/markets'
+import LastUpdated from '@/components/LastUpdated'
 
 // ─── FAQ ITEM (accordion) ─────────────────────────────────────────────────────
 function FAQItem({ q, a }) {
@@ -79,6 +80,7 @@ export default function LocationPage({ params }) {
                 {t(`${market}.h1`)}
               </h1>
               <p className="text-xs font-semibold text-steel tracking-wide mb-5">{t(`${market}.subhead`)}</p>
+              <LastUpdated path={`/${d.slug}`} className="-mt-3 mb-5" />
               {!isBucket1 && (
                 <p className="text-steel text-sm md:text-base leading-relaxed mb-4 max-w-lg">
                   <Trans t={t} i18nKey="detail.servedFromDesc" values={{ parentOffice: d.parentOffice || 'nearest' }} components={{ strong: <strong className="text-carbon" /> }} />

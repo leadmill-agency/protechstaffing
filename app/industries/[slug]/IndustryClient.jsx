@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { useTranslation } from 'react-i18next'
 import icons from '@/components/icons'
 import INDUSTRY_DATA from '@/data/industries'
+import LastUpdated from '@/components/LastUpdated'
 
 // Industry → location links (hub-and-spoke internal linking).
 const MARKET_LINKS = [
@@ -53,6 +54,7 @@ export default function IndustryPage({ params }) {
                 {t(`${industry}.h1`)}
               </h1>
               <p className="text-xs font-semibold text-steel tracking-wide mb-5">{t(`${industry}.subhead`)}</p>
+              <LastUpdated path={`/industries/${industry}`} className="-mt-3 mb-5" />
               <p className="text-steel text-base md:text-lg leading-relaxed mb-8 max-w-lg">{t(`${industry}.intro`)}</p>
               <div className="flex flex-col sm:flex-row gap-3">
                 <Link href="/#employers" className="inline-flex items-center justify-center gap-2 bg-sig-blue hover:bg-blue-900 text-white font-semibold text-sm px-6 py-3 rounded-md transition-colors">
@@ -190,7 +192,7 @@ export default function IndustryPage({ params }) {
           <div className="max-w-7xl mx-auto px-6">
             <p className="text-xs font-semibold text-steel tracking-widest uppercase mb-5">{t('detail.whatToLookFor')}</p>
             <h2 className="font-semibold text-carbon text-3xl leading-tight tracking-tight mb-8 md:mb-12 max-w-2xl">
-              {t('detail.whatToLookForHeading', { defaultValue: `What to look for when hiring ${labelLower} workers.` })}
+              {t('detail.whatToLookForHeading', { industry: labelLower, defaultValue: `What to look for when hiring ${labelLower} workers.` })}
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               {hiringFactors.map(({ title, desc }) => (

@@ -84,6 +84,31 @@ html[data-banner="shown"] section.pt-20 {
   color: var(--color-carbon);
   font-weight: 600;
 }
+.blog-content table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+.blog-content th,
+.blog-content td {
+  border: 1px solid var(--color-fog);
+  padding: 0.6rem 0.75rem;
+  text-align: left;
+  vertical-align: top;
+  min-width: 9rem;
+}
+.blog-content thead th {
+  background: var(--color-bone);
+  color: var(--color-sig-blue);
+  font-weight: 600;
+}
+.blog-content tbody td:first-child {
+  font-weight: 600;
+  background: var(--color-bone);
+}
 .blog-content ul,
 .blog-content ol {
   padding-left: 1.5rem;

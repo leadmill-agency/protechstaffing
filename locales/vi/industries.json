@@ -43,7 +43,7 @@
     "findJobs": "Tìm Việc Làm",
     "avgFillTime": "thời gian lấp đầy trung bình",
     "rolesWeStaff": "Vị Trí Chúng Tôi Cung Ứng",
-    "rolesHeading": "Vị trí chuyên biệt.\nKhông phải lao động tạm thời chung chung.",
+    "rolesHeading": "Chúng tôi cung cấp những vị trí nào?\nChuyên môn, không phải lao động phổ thông.",
     "rolesDescription": "Mỗi vị trí trong ngành {{industry}} có yêu cầu cụ thể — chứng chỉ, khả năng thể chất, kiến thức thiết bị và quy trình an toàn. Chúng tôi sàng lọc toàn diện, không chỉ tìm người có mặt.",
     "submitRequest": "Gửi Yêu Cầu Tuyển Dụng",
     "certifications": "Chứng Chỉ",
@@ -51,14 +51,15 @@
     "certDescription": "Chúng tôi đào tạo và cấp chứng chỉ cho nhân viên trước khi bố trí. Khi bạn cần kỹ thuật viên lắp ráp điện tử có chứng chỉ tiêu chuẩn ngành, chúng tôi cung cấp ứng viên đủ năng lực — không phải ứng viên cần hàng tuần đào tạo tại chỗ.",
     "certVerified": "Chứng chỉ tiêu chuẩn ngành được xác minh trước khi bố trí.",
     "whyProTech": "Tại Sao Chọn Pro-Tech",
-    "whyHeadingPrefix": "Tại sao nhà tuyển dụng chọn chúng tôi\ncho nhân sự {{industry}}.",
+    "whyHeadingPrefix": "Vì sao nhà tuyển dụng chọn chúng tôi\ncho nhân sự {{industry}}?",
     "relatedIndustries": "Ngành Nghề Liên Quan",
     "staffedMarkets": "Thị Trường Chúng Tôi Phục Vụ",
     "ctaGetStarted": "Nhân Sự {{industry}} · Bắt Đầu",
     "ctaHeading": "Cần nhân sự {{industry}}?\nChúng tôi có thể giúp.",
     "ctaDescription": "Gửi yêu cầu và chúng tôi sẽ có ứng viên đã sàng lọc, đủ năng lực sẵn sàng trong vòng 48 giờ.",
     "callUsNow": "Gọi Ngay",
-    "whatToLookFor": "Những điều cần lưu ý khi tuyển dụng"
+    "whatToLookFor": "Những điều cần lưu ý khi tuyển dụng",
+    "whatToLookForHeading": "Cần lưu ý gì khi tuyển nhân sự {{industry}}?"
   },
   "electronics-manufacturing": {
     "title": "Nhân Sự Sản Xuất Điện Tử | Chứng Chỉ IPC | Pro-Tech Staffing",

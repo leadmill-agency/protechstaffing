@@ -43,7 +43,7 @@
     "findJobs": "Buscar Empleos",
     "avgFillTime": "tiempo promedio de cobertura",
     "rolesWeStaff": "Puestos que Cubrimos",
-    "rolesHeading": "Puestos especializados.\nNo trabajo temporal genérico.",
+    "rolesHeading": "¿Qué puestos cubrimos?\nEspecialistas, no mano de obra genérica.",
     "rolesDescription": "Cada puesto en {{industry}} tiene requisitos específicos: certificaciones, capacidades físicas, conocimiento de equipos y protocolos de seguridad. Evaluamos el perfil completo, no solo cuerpos disponibles.",
     "submitRequest": "Enviar Solicitud de Personal",
     "certifications": "Certificaciones",
@@ -51,13 +51,14 @@
     "certDescription": "Capacitamos y certificamos trabajadores antes de la colocación. Cuando necesita técnicos de ensamble electrónico con certificaciones estándar de la industria, entregamos candidatos calificados, no candidatos que necesitan semanas de capacitación en el trabajo.",
     "certVerified": "Certificación estándar de la industria verificada antes de la colocación.",
     "whyProTech": "Por Qué Pro-Tech",
-    "whyHeadingPrefix": "Por qué los empleadores nos eligen\npara personal de {{industry}}.",
+    "whyHeadingPrefix": "¿Por qué los empleadores nos eligen\npara personal de {{industry}}?",
     "relatedIndustries": "Industrias Relacionadas",
     "staffedMarkets": "Mercados que Atendemos",
     "ctaGetStarted": "Personal de {{industry}} · Comience Ahora",
     "ctaHeading": "¿Necesita trabajadores de {{industry}}?\nPodemos ayudar.",
     "ctaDescription": "Envíe una solicitud y tendremos candidatos evaluados y calificados listos en 48 horas.",
-    "callUsNow": "Llámenos Ahora"
+    "callUsNow": "Llámenos Ahora",
+    "whatToLookForHeading": "¿Qué debe buscar al contratar trabajadores de {{industry}}?"
   },
   "electronics-manufacturing": {
     "title": "Personal de Manufactura Electrónica | Certificado IPC | Pro-Tech Staffing",

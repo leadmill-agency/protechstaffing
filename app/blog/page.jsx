@@ -16,7 +16,7 @@ export const metadata = {
 function formatDate(isoDate) {
   if (!isoDate) return ''
   const d = new Date(isoDate)
-  return d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })
+  return d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' })
 }
 
 export default function BlogIndexPage() {

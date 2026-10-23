@@ -6,6 +6,7 @@ import icons from '@/components/icons'
 import DATA_CENTER_PAGES, { HUB_PATH, UI as UI_EN } from '@/data/dataCenter'
 import PAGES_ES, { UI as UI_ES } from '@/data/dataCenter.es'
 import PAGES_VI, { UI as UI_VI } from '@/data/dataCenter.vi'
+import LastUpdated from '@/components/LastUpdated'
 
 const CONTACT = '/contact'
 const LOCALES = {
@@ -90,6 +91,7 @@ export default function DataCenterBody({ pageKey }) {
             <h1 className="font-sans font-semibold text-sig-blue text-3xl md:text-4xl lg:text-5xl leading-[1.1] tracking-tight mb-6">
               {page.h1}
             </h1>
+            <LastUpdated path={DATA_CENTER_PAGES[pageKey].path} className="-mt-2 mb-6" />
             {page.intro.map(para => (
               <p key={para.slice(0, 40)} className="text-steel text-base md:text-lg leading-relaxed mb-8 max-w-2xl">{para}</p>
             ))}

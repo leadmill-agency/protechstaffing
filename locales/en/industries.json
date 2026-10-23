@@ -43,7 +43,7 @@
     "findJobs": "Find Jobs",
     "avgFillTime": "avg. fill time",
     "rolesWeStaff": "Roles We Staff",
-    "rolesHeading": "Specialized roles.\nNot generic temp labor.",
+    "rolesHeading": "Which roles do we staff?\nSpecialists, not generic temp labor.",
     "rolesDescription": "Every role in {{industry}} has specific requirements — certifications, physical capabilities, equipment knowledge, and safety protocols. We screen for the full picture, not just warm bodies.",
     "submitRequest": "Submit a Staffing Request",
     "certifications": "Certifications",
@@ -51,7 +51,7 @@
     "certDescription": "We train and certify workers before placement. When you need electronics assembly technicians with industry-standard certifications, we deliver qualified candidates — not candidates who need weeks of on-the-job training.",
     "certVerified": "Industry-standard certification verified before placement.",
     "whyProTech": "Why Pro-Tech",
-    "whyHeadingPrefix": "Why employers choose us\nfor {{industry}} staffing.",
+    "whyHeadingPrefix": "Why do employers choose us\nfor {{industry}} staffing?",
     "relatedIndustries": "Related Industries",
     "staffedMarkets": "Markets We Staff",
     "ctaGetStarted": "{{industry}} Staffing · Get Started",
@@ -60,7 +60,8 @@
     "callUsNow": "Call Us Now",
     "aboutThisWork": "About This Work",
     "whatToLookFor": "What to Look For",
-    "faqHeading": "Frequently asked questions"
+    "faqHeading": "Frequently asked questions",
+    "whatToLookForHeading": "What should you look for when hiring {{industry}} workers?"
   },
   "electronics-manufacturing": {
     "title": "Electronics Manufacturing Staffing | IPC Certified | Pro-Tech Staffing",
