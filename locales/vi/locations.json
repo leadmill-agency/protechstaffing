@@ -121,6 +121,13 @@
       "tag": "Khu vực CVG",
       "roles": "Kho bãi, hậu cần, công nghiệp nhẹ, điện tử",
       "serving": "Cincinnati · Covington · Florence · Hebron · Erlanger · Hamilton"
+    },
+    "memphis": {
+      "city": "Memphis",
+      "state": "TN",
+      "tag": "Sắp khai trương",
+      "roles": "Công nghiệp nhẹ, kho bãi, hậu cần",
+      "serving": "Khu vực Memphis · sắp khai trương"
     }
   },
   "detail": {

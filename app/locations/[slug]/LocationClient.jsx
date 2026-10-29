@@ -144,6 +144,15 @@ export default function LocationPage({ params }) {
                 {d.officeInfo.phoneNote === 'Text only' ? t('detail.textPrefix') : t('detail.callPrefix')} {t('detail.officePhoneLabel', { label })}: {d.officeInfo.phone}
                 {d.officeInfo.phoneNote === 'Text only' && <span className="text-steel font-normal">{t('detail.textOnly')}</span>}
               </a>
+              {d.officeInfo.textPhone && (
+                <a
+                  href={`sms:${d.officeInfo.textPhone.replace(/\D/g,'')}`}
+                  className="ml-6 inline-flex items-center gap-2 text-sig-blue font-semibold text-sm hover:text-blue-900 transition-colors"
+                >
+                  {t('detail.textPrefix')}: {d.officeInfo.textPhone}
+                  <span className="text-steel font-normal">{t('detail.textOnly')}</span>
+                </a>
+              )}
             </div>
           )}
         </div>
@@ -358,6 +367,17 @@ export default function LocationPage({ params }) {
                           className="text-sig-blue text-sm font-medium hover:text-blue-900 transition-colors"
                         >
                           {d.officeInfo.phone}
+                        </a>
+                      </div>
+                    </div>
+                  )}
+                  {d.officeInfo.textPhone && (
+                    <div className="flex items-start gap-3">
+                      <span className="w-4 h-4 text-ind-green mt-0.5 flex-shrink-0">{icons.phone}</span>
+                      <div>
+                        <p className="text-xs font-semibold text-steel uppercase tracking-widest mb-0.5">{t('detail.phoneTextOnly')}</p>
+                        <a href={`sms:${d.officeInfo.textPhone.replace(/\D/g,'')}`} className="text-sig-blue text-sm font-medium hover:text-blue-900 transition-colors">
+                          {d.officeInfo.textPhone}
                         </a>
                       </div>
                     </div>

@@ -142,7 +142,8 @@ const MARKET_DATA = {
     officeInfo: {
       address: '75 Cavalier Blvd, Ste 208',
       city: 'Florence, KY 41042',
-      phone: '(859) 888-1952',
+      phone: '(513) 456-2858',
+      textPhone: '(859) 888-1952',
       email: 'info@protechstaffing.com',
       resumes: 'resumes@protechstaffing.com',
       hours: 'Mon–Fri 8am–5pm',

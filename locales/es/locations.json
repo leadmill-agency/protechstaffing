@@ -121,6 +121,13 @@
       "tag": "Zona CVG",
       "roles": "Almacén, logística, industria ligera, electrónica",
       "serving": "Cincinnati · Covington · Florence · Hebron · Erlanger · Hamilton"
+    },
+    "memphis": {
+      "city": "Memphis",
+      "state": "TN",
+      "tag": "Próximamente",
+      "roles": "Industria ligera, almacén, logística",
+      "serving": "Área metropolitana de Memphis · apertura próxima"
     }
   },
   "detail": {

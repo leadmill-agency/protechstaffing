@@ -121,6 +121,13 @@
       "tag": "CVG Area",
       "roles": "Warehouse, logistics, light industrial, electronics",
       "serving": "Cincinnati · Covington · Florence · Hebron · Erlanger · Hamilton"
+    },
+    "memphis": {
+      "city": "Memphis",
+      "state": "TN",
+      "tag": "Coming soon",
+      "roles": "Light industrial, warehouse, logistics",
+      "serving": "Memphis metro · opening soon"
     }
   },
   "detail": {

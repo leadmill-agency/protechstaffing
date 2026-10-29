@@ -79,6 +79,6 @@ After 30 years staffing industrial and warehouse roles, the pattern is consisten
 
 Our Cincinnati / CVG team works this corridor directly from Florence, KY — Northern Kentucky's logistics core. We recruit for day, night, and weekend coverage specifically, screen candidates for the shift and the commute, and keep an active pool ready for the fulfillment ramps that define this market. For employers across Florence, Hebron, Erlanger, Covington, and Greater Cincinnati, that means screened workers in about 48 hours, not a sourcing project that starts when you call.
 
-If you're staffing warehouse, distribution, or light industrial roles in the Cincinnati / Northern Kentucky market, [submit a staffing request](/employers#contact) or call our CVG-area office at **(859) 888-1952**.
+If you're staffing warehouse, distribution, or light industrial roles in the Cincinnati / Northern Kentucky market, [submit a staffing request](/employers#contact) or call our CVG-area office at **(513) 456-2858**. You can also text **(859) 888-1952** (text only).
 
 **Related reading:** [5 questions to ask before signing with an industrial staffing agency](/blog/questions-to-ask-before-signing-industrial-staffing-agency-dfw).

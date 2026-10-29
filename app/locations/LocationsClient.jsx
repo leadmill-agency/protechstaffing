@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { useTranslation } from 'react-i18next'
 import icons from '@/components/icons'
 
-const MARKET_KEYS = ['richardson', 'bedford', 'austin', 'tampa', 'sanjose', 'phoenix', 'cincinnati']
+const MARKET_KEYS = ['richardson', 'bedford', 'austin', 'tampa', 'sanjose', 'phoenix', 'cincinnati', 'memphis']
 const MARKET_IMGS = {
   richardson: '/locations/richardson.jpg',
   bedford: '/locations/bedford.jpg',
@@ -13,6 +13,7 @@ const MARKET_IMGS = {
   sanjose: 'https://images.unsplash.com/photo-1449034446853-66c86144b0ad?w=600&q=70',
   phoenix: '/locations/phoenix.jpg',
   cincinnati: '/locations/cincinnati.jpg',
+  memphis: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=600&q=70',
 }
 const MARKET_HREFS = {
   richardson: '/locations/richardson-tx',
@@ -115,9 +116,9 @@ export default function LocationsPage() {
                 ? <Link key={key} href={href} className="bg-white group overflow-hidden block">{inner}</Link>
                 : <div key={key} className="bg-white group overflow-hidden">{inner}</div>
             })}
-            {/* Filler keeps the trailing empty grid cell the section colour (bone)
+            {/* Filler keeps a trailing empty grid cell the section colour (bone)
                 instead of showing the grey bg-fog divider behind an empty slot. */}
-            <div aria-hidden className="bg-bone" />
+            {MARKET_KEYS.length % 4 !== 0 && <div aria-hidden className="bg-bone" />}
           </div>
         </div>
       </section>

@@ -12,7 +12,7 @@ const OFFICES = [
   { key: 'tampa',      city: 'Tampa, FL',      address: '10320 49th St N, #103, Clearwater, FL 33762',      phone: '(469) 632-8854', email: 'info@protechstaffing.com', href: '/locations/tampa-fl' },
   { key: 'sanjose',    city: 'San Jose, CA',   address: '1000 Corporate Way, Fremont, CA 94539',            phone: '(408) 667-7990', email: 'info@protechstaffing.com', href: '/locations/san-jose-ca' },
   { key: 'phoenix',    city: 'Phoenix, AZ',    address: 'Phoenix office — coming soon',                     phone: null,             email: 'info@protechstaffing.com', href: '/locations/phoenix-az' },
-  { key: 'cincinnati', city: 'Cincinnati, OH', address: '75 Cavalier Blvd, Ste 208, Florence, KY 41042',     phone: '(859) 888-1952', email: 'info@protechstaffing.com', href: '/locations/cincinnati-oh' },
+  { key: 'cincinnati', city: 'Cincinnati, OH', address: '75 Cavalier Blvd, Ste 208, Florence, KY 41042',     phone: '(513) 456-2858', textPhone: '(859) 888-1952', email: 'info@protechstaffing.com', href: '/locations/cincinnati-oh' },
 ]
 
 export default function ContactClient() {
@@ -92,7 +92,7 @@ export default function ContactClient() {
           </div>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
-            {OFFICES.map(({ key, city, address, phone, email, href }) => (
+            {OFFICES.map(({ key, city, address, phone, textPhone, email, href }) => (
               <div key={key} className="border border-fog rounded-md p-6 hover:border-carbon transition-colors">
                 <div className="flex items-start gap-2 mb-3">
                   <span className="w-5 h-5 text-ind-green flex-shrink-0">{icons.mapPin}</span>
@@ -104,6 +104,12 @@ export default function ContactClient() {
                     <a href={`tel:${phone.replace(/[^\d+]/g, '')}`} className="inline-flex items-center gap-1.5 text-sig-blue hover:underline">
                       <span className="w-3 h-3">{icons.phone}</span>
                       {phone}
+                    </a>
+                  )}
+                  {textPhone && (
+                    <a href={`sms:${textPhone.replace(/[^\d+]/g, '')}`} className="inline-flex items-center gap-1.5 text-sig-blue hover:underline">
+                      <span className="w-3 h-3">{icons.phone}</span>
+                      {textPhone} <span className="text-steel">(text only)</span>
                     </a>
                   )}
                   {email && (
