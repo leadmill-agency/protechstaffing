@@ -20,14 +20,16 @@ const ibmPlexMono = IBM_Plex_Mono({
 
 export const metadata = {
   title: {
-    default: 'Industrial Staffing Agency in Dallas TX | Pro-Tech Staffing Services',
+    default: 'Industrial Staffing Agency in Dallas TX | Pro-Tech Staffing',
     template: '%s',
   },
-  description: 'Pro-Tech Staffing is a light industrial staffing agency serving Dallas-Fort Worth, Tampa FL, San Jose CA, and Phoenix AZ. Vetted workers placed in 48 hours. Temp, temp-to-hire, and direct placement.',
+  description: 'Light industrial and electronics staffing in Dallas-Fort Worth, Tampa, San Jose, Phoenix, and Cincinnati. Vetted workers in 48 hours. Temp to direct hire.',
   robots: 'index, follow',
   metadataBase: new URL('https://www.protechstaffing.com'),
   openGraph: {
+    images: [{ url: '/og-image.jpg', width: 1920, height: 1012, alt: 'Pro-Tech Staffing Services' }],
     type: 'website',
+    siteName: 'Pro-Tech Staffing Services',
     title: 'Industrial Staffing Agency in Dallas TX | Pro-Tech Staffing Services',
     description: 'Light industrial, warehouse, electronic manufacturing, and supply chain staffing across Dallas-Fort Worth and five additional US markets. Vetted workers in 48 hours.',
     url: 'https://www.protechstaffing.com/',

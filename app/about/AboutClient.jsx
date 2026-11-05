@@ -152,8 +152,8 @@ export default function AboutPage() {
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { key: 'richardson', href: '/staffing-agency-dallas-fort-worth' },
-              { key: 'bedford', href: '/staffing-agency-bedford-tx' },
+              { key: 'richardson', href: '/locations/richardson-tx' },
+              { key: 'bedford', href: '/locations/bedford-tx' },
               { key: 'austin', href: '/locations' },
               { key: 'tampa', href: '/locations' },
               { key: 'sanJose', href: '/locations' },

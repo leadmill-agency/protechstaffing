@@ -4,8 +4,12 @@ import { getAllPosts } from '@/lib/blog'
 export const metadata = {
   title: 'Industrial Staffing Insights | Pro-Tech Staffing Blog',
   description:
-    'Insights on industrial staffing, electronics manufacturing, IPC certification, DFW labor markets, and what makes a great staffing partner. Written by the Pro-Tech team.',
+    "Insights on industrial staffing, electronics manufacturing, IPC certification, DFW labor markets, and choosing a staffing partner.",
   openGraph: {
+    images: [{ url: '/og-image.jpg', width: 1920, height: 1012, alt: 'Pro-Tech Staffing Services' }],
+    type: 'website',
+    siteName: 'Pro-Tech Staffing Services',
+    url: '/blog',
     title: 'Industrial Staffing Insights | Pro-Tech Staffing Blog',
     description:
       'Insights on industrial staffing, electronics manufacturing, IPC certification, DFW labor markets, and more.',

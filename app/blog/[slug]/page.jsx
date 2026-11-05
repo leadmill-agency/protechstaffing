@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
-import { getAllSlugs, getPostBySlug, estimateReadTime } from '@/lib/blog'
+import { getAllSlugs, getAllPosts, getPostBySlug, estimateReadTime } from '@/lib/blog'
 import icons from '@/components/icons'
 
 const BASE = 'https://www.protechstaffing.com'
@@ -14,18 +14,20 @@ export async function generateMetadata({ params }) {
   const post = getPostBySlug(slug)
   if (!post) return {}
   return {
-    title: `${post.title} | Pro-Tech Staffing`,
-    description: post.description,
+    // seoTitle/seoDescription keep the search snippet under Google's cut-off; the H1 stays post.title
+    title: post.seoTitle || `${post.title} | Pro-Tech Staffing`,
+    description: post.seoDescription || post.description,
     alternates: { canonical: `/blog/${slug}` },
     openGraph: {
       title: post.title,
       description: post.description,
       type: 'article',
+      siteName: 'Pro-Tech Staffing Services',
       url: `${BASE}/blog/${slug}`,
       publishedTime: post.date,
       modifiedTime: post.updated || undefined,
       authors: post.author ? [post.author] : undefined,
-      images: post.image ? [{ url: post.image }] : undefined,
+      images: [{ url: post.image || '/og-image.jpg' }],
     },
   }
 }
@@ -247,6 +249,25 @@ export default async function BlogPostPage({ params }) {
               </ul>
             </div>
           )}
+
+          {/* More guides: links every post to the others so none sits one click deep */}
+          {(() => {
+            const more = getAllPosts().filter((p) => p.slug !== post.slug).slice(0, 4)
+            return more.length > 0 && (
+              <div className="mt-10 pt-6 border-t border-fog">
+                <p className="answer-label" style={{ marginBottom: '0.5rem' }}>More employer guides</p>
+                <ul className="text-sm space-y-1.5">
+                  {more.map((p) => (
+                    <li key={p.slug}>
+                      <Link href={`/blog/${p.slug}`} className="text-sig-blue underline underline-offset-2 hover:text-ind-green transition-colors">
+                        {p.title}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )
+          })()}
 
           {/* About the author — E-E-A-T trust signal */}
           {(post.authorBio || post.author) && (

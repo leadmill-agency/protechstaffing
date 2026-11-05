@@ -202,8 +202,8 @@
     "hiringHeading": "What should employers know about hiring in {{label}}?"
   },
   "richardson": {
-    "title": "Industrial Staffing Agency in Richardson TX | Electronics Manufacturing & Light Industrial | Pro-Tech",
-    "metaDesc": "Pro-Tech Staffing is headquartered in Richardson TX. We place IPC-certified electronics manufacturing workers, light industrial assemblers, warehouse staff, and production workers. 36-48h fill time.",
+    "title": "Industrial Staffing Agency in Richardson TX | Pro-Tech",
+    "metaDesc": "Pro-Tech is headquartered in Richardson TX, placing IPC-certified electronics workers, light industrial assemblers, and warehouse and production staff.",
     "h1": "Light Industrial & Technical staffing in Richardson, TX.",
     "subhead": "IPC-certified electronics assembly, light industrial, warehouse, and supply chain staffing.",
     "label": "Richardson TX",
@@ -321,30 +321,30 @@
     ],
     "subMarkets": [
       {
-        "label": "Garland, TX",
-        "desc": "Dense light industrial and electronics manufacturing zone east of Dallas. Our closest sub-market to HQ."
-      },
-      {
         "label": "Irving, TX",
-        "desc": "Las Colinas and DFW Airport corridor — electronics, logistics, and light industrial."
+        "desc": "DFW Airport corridor and the Freeport area. Warehouse, cross-dock, and air cargo."
       },
       {
-        "label": "DFW Overview",
-        "desc": "Full DFW metro coverage from our Richardson and Bedford offices."
+        "label": "Bedford, TX",
+        "desc": "Our Tarrant County office, covering Fort Worth, Arlington, Grand Prairie, and the mid-cities."
+      },
+      {
+        "label": "Fort Worth, TX",
+        "desc": "AllianceTexas, CentrePort, and the I-35W corridor. Warehouse, air cargo, and distribution."
       }
     ],
     "relatedCities": [
       {
-        "label": "Garland TX"
-      },
-      {
         "label": "Irving TX"
       },
       {
-        "label": "DFW Overview"
+        "label": "Bedford TX"
       },
       {
-        "label": "Bedford TX"
+        "label": "Arlington TX"
+      },
+      {
+        "label": "Fort Worth TX"
       }
     ],
     "hiringGuide": [
@@ -444,8 +444,8 @@
     ]
   },
   "bedford": {
-    "title": "Industrial Staffing Agency in Bedford TX | Light Industrial & Warehouse | Pro-Tech",
-    "metaDesc": "Pro-Tech Staffing Bedford TX serves Fort Worth, Arlington, Irving, Grand Prairie, and the Tarrant County mid-cities. Light industrial, warehouse, and supply chain staffing. 48-hour fill time.",
+    "title": "Industrial Staffing Agency in Bedford TX | Pro-Tech",
+    "metaDesc": "Light industrial, warehouse, and supply chain staffing from our Bedford office, serving Fort Worth, Arlington, Irving, Grand Prairie, and the mid-cities.",
     "h1": "Light Industrial & Technical staffing in Bedford, TX.",
     "subhead": "Light industrial, warehouse, supply chain, and general labor staffing for Fort Worth, Arlington, Irving, and the mid-cities.",
     "label": "Bedford TX",
@@ -609,8 +609,8 @@
     ]
   },
   "arlington": {
-    "title": "Staffing Agency in Arlington TX | Warehouse & Light Industrial | Pro-Tech",
-    "metaDesc": "Warehouse, light industrial, and manufacturing staffing in Arlington and Grand Prairie, TX. Screened workers from our nearby Bedford office. Temp, temp-to-hire, and direct hire.",
+    "title": "Warehouse Staffing Agency in Arlington TX | Pro-Tech",
+    "metaDesc": "Warehouse, light industrial, and manufacturing staffing in Arlington and Grand Prairie, TX, from our Bedford office. Temp, temp-to-hire, and direct hire.",
     "h1": "Industrial staffing agency in Arlington, TX.",
     "subhead": "Serving Arlington, Grand Prairie, Mansfield, Kennedale, and south Tarrant County from our Bedford office.",
     "label": "Arlington TX",
@@ -721,8 +721,8 @@
     ]
   },
   "fortworth": {
-    "title": "Warehouse Staffing in Fort Worth TX | Light Industrial | Pro-Tech",
-    "metaDesc": "Warehouse, forklift, and light industrial staffing across Fort Worth, from AllianceTexas to CentrePort. Screened workers from our Bedford office. Temp, temp-to-hire, and direct hire.",
+    "title": "Warehouse & Light Industrial Staffing Fort Worth | Pro-Tech",
+    "metaDesc": "Warehouse, forklift, and light industrial staffing across Fort Worth, from AllianceTexas to CentrePort, with screened workers from our Bedford office.",
     "h1": "Warehouse and light industrial staffing in Fort Worth, TX.",
     "subhead": "Serving Fort Worth, AllianceTexas, Haslet, Keller, Haltom City, and the CentrePort area near DFW Airport.",
     "label": "Fort Worth TX",
@@ -832,8 +832,8 @@
     ]
   },
   "irving": {
-    "title": "Staffing Agency in Irving TX | Warehouse & Light Industrial | Pro-Tech",
-    "metaDesc": "Warehouse, forklift, and light industrial staffing in Irving, from the Freeport distribution area by DFW Airport to Las Colinas. Screened workers from our nearby Bedford office.",
+    "title": "Warehouse Staffing Agency in Irving TX | Pro-Tech",
+    "metaDesc": "Warehouse, forklift, and light industrial staffing in Irving, from the Freeport area by DFW Airport to Las Colinas. Screened workers from Bedford.",
     "h1": "Warehouse and light industrial staffing in Irving, TX.",
     "subhead": "Serving Irving, the Freeport area, Las Colinas, Valley Ranch, Coppell, and the DFW Airport corridor.",
     "label": "Irving TX",
@@ -947,8 +947,8 @@
     ]
   },
   "grandprairie": {
-    "title": "Staffing Agency in Grand Prairie TX | Warehouse & Manufacturing | Pro-Tech",
-    "metaDesc": "Warehouse, forklift, and manufacturing staffing in Grand Prairie, from the Great Southwest Industrial District to the SH-161 corridor. Screened workers from our Bedford office.",
+    "title": "Warehouse Staffing Agency in Grand Prairie TX | Pro-Tech",
+    "metaDesc": "Warehouse, forklift, and manufacturing staffing in Grand Prairie, from the Great Southwest Industrial District to SH-161. Screened workers from Bedford.",
     "h1": "Warehouse and manufacturing staffing in Grand Prairie, TX.",
     "subhead": "Serving Grand Prairie, the Great Southwest Industrial District, and nearby Arlington, Irving, Duncanville, and Cedar Hill.",
     "label": "Grand Prairie TX",
@@ -1140,8 +1140,8 @@
     ]
   },
   "austin": {
-    "title": "Industrial Staffing Agency in Austin TX | Light Industrial & Warehouse | Pro-Tech",
-    "metaDesc": "Pro-Tech Staffing Austin TX places light industrial, warehouse, electronics, and administrative workers across Austin, Round Rock, Cedar Park, and Pflugerville. 48-hour fill time.",
+    "title": "Industrial Staffing Agency in Austin TX | Pro-Tech",
+    "metaDesc": "Light industrial, warehouse, electronics, and admin workers across Austin, Round Rock, Cedar Park, and Pflugerville. 48-hour fill time.",
     "h1": "Light Industrial & Technical staffing in Austin, TX.",
     "subhead": "Light industrial, warehouse, electronics, and administrative staffing across Greater Austin.",
     "label": "Austin TX",
@@ -1290,8 +1290,8 @@
     ]
   },
   "tampa": {
-    "title": "Industrial Staffing Agency in Tampa FL | Electronics Manufacturing & Light Industrial | Pro-Tech",
-    "metaDesc": "Pro-Tech Staffing Tampa FL places electronics manufacturing workers, light industrial assemblers, and warehouse staff across Tampa, Clearwater, St. Petersburg, and Largo. 48-hour fill time.",
+    "title": "Industrial Staffing Agency in Tampa FL | Pro-Tech",
+    "metaDesc": "Electronics manufacturing, light industrial, and warehouse workers across Tampa, Clearwater, St. Petersburg, and Largo. 48-hour fill time.",
     "h1": "Light Industrial & Technical staffing in Tampa, FL.",
     "subhead": "Electronics manufacturing, light industrial, warehouse, and assembly staffing across the Tampa Bay area.",
     "label": "Tampa FL",
@@ -1440,8 +1440,8 @@
     ]
   },
   "sanjose": {
-    "title": "Electronics Manufacturing Staffing in San Jose CA | IPC Certified | Pro-Tech",
-    "metaDesc": "Pro-Tech Staffing San Jose CA places IPC-certified PCB assembly, SMT, soldering, and electronics manufacturing workers across San Jose, Santa Clara, Milpitas, and Fremont. 48-hour fill time.",
+    "title": "Electronics Manufacturing Staffing in San Jose CA | Pro-Tech",
+    "metaDesc": "IPC-certified PCB assembly, SMT, soldering, and electronics manufacturing workers across San Jose, Santa Clara, Milpitas, and Fremont.",
     "h1": "Light Industrial & Technical staffing in San Jose, CA.",
     "subhead": "PCB assembly, SMT, soldering, QC, AOI, and electronics manufacturing staffing across Silicon Valley.",
     "label": "San Jose CA",
@@ -1589,8 +1589,8 @@
     ]
   },
   "phoenix": {
-    "title": "Industrial Staffing Agency in Phoenix AZ | Electronics Manufacturing & Warehouse | Pro-Tech",
-    "metaDesc": "Pro-Tech Staffing Phoenix AZ places electronics manufacturing workers, light industrial assemblers, and warehouse staff across Phoenix, Tempe, Mesa, Chandler, and Scottsdale. 48-hour fill time.",
+    "title": "Industrial Staffing Agency in Phoenix AZ | Pro-Tech",
+    "metaDesc": "Electronics manufacturing, light industrial, and warehouse workers across Phoenix, Tempe, Mesa, Chandler, and Scottsdale. 48-hour fill time.",
     "h1": "Light Industrial & Technical staffing in Phoenix, AZ.",
     "subhead": "Electronics manufacturing, light industrial, warehouse, and supply chain staffing across the Phoenix metro.",
     "label": "Phoenix AZ",
@@ -1739,8 +1739,8 @@
     ]
   },
   "cincinnati": {
-    "title": "Industrial Staffing Agency in Cincinnati OH | Warehouse, Logistics & Light Industrial | Pro-Tech",
-    "metaDesc": "Pro-Tech Staffing serves the Cincinnati / CVG market — warehouse, distribution, light industrial, and electronics manufacturing workers across Greater Cincinnati and Northern Kentucky. 48-hour fill time.",
+    "title": "Warehouse & Industrial Staffing in Cincinnati OH | Pro-Tech",
+    "metaDesc": "Warehouse, distribution, light industrial, and electronics workers across Greater Cincinnati and the Northern Kentucky CVG corridor.",
     "h1": "Light Industrial & Technical staffing in Cincinnati, OH.",
     "subhead": "Warehouse, distribution, light industrial, and electronics manufacturing staffing across Greater Cincinnati and the CVG / Northern Kentucky logistics hub.",
     "label": "Cincinnati OH",

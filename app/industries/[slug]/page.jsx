@@ -19,7 +19,7 @@ export async function generateMetadata({ params }) {
     title: m.title,
     description: m.description,
     alternates: { canonical: `/industries/${slug}` },
-    openGraph: { title: m.title, description: m.description },
+    openGraph: { images: [{ url: '/og-image.jpg', width: 1920, height: 1012, alt: 'Pro-Tech Staffing Services' }], type: 'website', siteName: 'Pro-Tech Staffing Services', url: `/industries/${slug}`, title: m.title, description: m.description },
   }
 }
 

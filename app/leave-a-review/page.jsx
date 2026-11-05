@@ -3,9 +3,13 @@ import icons from '@/components/icons'
 
 export const metadata = {
   title: 'Leave a Review | Pro-Tech Staffing',
-  description: 'Worked with Pro-Tech Staffing? Leave a Google review for your local office — Richardson, Bedford, Austin, Tampa, San Jose, Phoenix, or Cincinnati. It takes about a minute.',
+  description: "Worked with Pro-Tech Staffing? Leave a Google review for your local office. It takes about a minute and helps other workers and employers.",
   alternates: { canonical: '/leave-a-review' },
   openGraph: {
+    images: [{ url: '/og-image.jpg', width: 1920, height: 1012, alt: 'Pro-Tech Staffing Services' }],
+    type: 'website',
+    siteName: 'Pro-Tech Staffing Services',
+    url: '/leave-a-review',
     title: 'Leave a Review | Pro-Tech Staffing',
     description: 'Leave a Google review for your local Pro-Tech Staffing office — it takes about a minute.',
   },

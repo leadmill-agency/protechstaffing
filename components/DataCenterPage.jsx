@@ -11,7 +11,7 @@ export function dataCenterMetadata(key) {
     title: p.metaTitle,
     description: p.metaDescription,
     alternates: { canonical: p.path },
-    openGraph: { title: p.metaTitle, description: p.metaDescription, url: `${BASE}${p.path}` },
+    openGraph: { images: [{ url: '/og-image.jpg', width: 1920, height: 1012, alt: 'Pro-Tech Staffing Services' }], type: 'website', siteName: 'Pro-Tech Staffing Services', title: p.metaTitle, description: p.metaDescription, url: `${BASE}${p.path}` },
   }
 }
 

@@ -13,8 +13,8 @@ const MARKET_DATA = {
       recruiterName: null,
     },
     localServicesHrefs: ['/industries/electronics-manufacturing', '/industries/light-industrial', '/industries/warehouse-distribution'],
-    subMarketsHrefs: ['/staffing-agency-garland-tx', '/locations/irving-tx', '/staffing-agency-dallas-fort-worth'],
-    relatedCitiesHrefs: ['/staffing-agency-garland-tx', '/locations/irving-tx', '/staffing-agency-dallas-fort-worth', '/staffing-agency-bedford-tx'],
+    subMarketsHrefs: ['/locations/irving-tx', '/locations/bedford-tx', '/locations/fort-worth-tx'],
+    relatedCitiesHrefs: ['/locations/irving-tx', '/locations/bedford-tx', '/locations/arlington-tx', '/locations/fort-worth-tx'],
   },
   dfw: {
     slug: 'staffing-agency-dallas-fort-worth',

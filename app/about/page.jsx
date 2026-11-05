@@ -5,6 +5,10 @@ export const metadata = {
   description: 'Pro-Tech Staffing has 30 years of experience in electronics manufacturing, industrial, and warehouse staffing. Seven offices across TX, FL, CA, AZ, and OH.',
   alternates: { canonical: '/about' },
   openGraph: {
+    images: [{ url: '/og-image.jpg', width: 1920, height: 1012, alt: 'Pro-Tech Staffing Services' }],
+    type: 'website',
+    siteName: 'Pro-Tech Staffing Services',
+    url: '/about',
     title: 'About Pro-Tech Staffing | 30 Years in Industrial Staffing',
     description: 'Pro-Tech Staffing has 30 years of experience in electronics manufacturing, industrial, and warehouse staffing.',
   },

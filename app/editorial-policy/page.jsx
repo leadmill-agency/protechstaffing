@@ -4,6 +4,10 @@ export const metadata = {
     'How Pro-Tech Staffing produces, reviews, and updates the content on this site — our standards for accuracy, sourcing, and experience-based guidance.',
   alternates: { canonical: '/editorial-policy' },
   openGraph: {
+    images: [{ url: '/og-image.jpg', width: 1920, height: 1012, alt: 'Pro-Tech Staffing Services' }],
+    type: 'website',
+    siteName: 'Pro-Tech Staffing Services',
+    url: '/editorial-policy',
     title: 'Editorial Policy | Pro-Tech Staffing',
     description:
       'How Pro-Tech Staffing produces, reviews, and updates the content on this site.',

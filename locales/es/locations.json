@@ -311,30 +311,30 @@
     ],
     "subMarkets": [
       {
-        "label": "Garland, TX",
-        "desc": "Zona densa de industria ligera y manufactura electrónica al este de Dallas. Nuestro sub-mercado más cercano a la sede."
-      },
-      {
         "label": "Irving, TX",
-        "desc": "Corredor de Las Colinas y el aeropuerto DFW: electrónica, logística e industria ligera."
+        "desc": "Corredor del Aeropuerto DFW y el área de Freeport. Almacenes, cross-dock y carga aérea."
       },
       {
-        "label": "Panorama DFW",
-        "desc": "Cobertura completa del metro DFW desde nuestras oficinas de Richardson y Bedford."
+        "label": "Bedford, TX",
+        "desc": "Nuestra oficina del condado de Tarrant, que cubre Fort Worth, Arlington, Grand Prairie y las mid-cities."
+      },
+      {
+        "label": "Fort Worth, TX",
+        "desc": "AllianceTexas, CentrePort y el corredor I-35W. Almacenes, carga aérea y distribución."
       }
     ],
     "relatedCities": [
       {
-        "label": "Garland TX"
-      },
-      {
         "label": "Irving TX"
       },
       {
-        "label": "Panorama DFW"
+        "label": "Bedford TX"
       },
       {
-        "label": "Bedford TX"
+        "label": "Arlington TX"
+      },
+      {
+        "label": "Fort Worth TX"
       }
     ]
   },

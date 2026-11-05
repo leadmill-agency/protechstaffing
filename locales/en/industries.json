@@ -64,8 +64,8 @@
     "whatToLookForHeading": "What should you look for when hiring {{industry}} workers?"
   },
   "electronics-manufacturing": {
-    "title": "Electronics Manufacturing Staffing | IPC Certified | Pro-Tech Staffing",
-    "metaDesc": "Pro-Tech Staffing provides IPC-certified electronics manufacturing workers — PCB assembly, SMT, soldering, QC, AOI, rework, and test technicians. 48-hour fill time.",
+    "title": "IPC-Certified Electronics Manufacturing Staffing | Pro-Tech",
+    "metaDesc": "IPC-certified electronics manufacturing workers: PCB assembly, SMT, soldering, QC, AOI, rework, and test technicians. 48-hour fill time.",
     "h1": "Electronics manufacturing staffing. IPC-A-610 certified.",
     "subhead": "PCB assembly, SMT, soldering, QC, AOI, rework, and test technicians.",
     "label": "Electronics Manufacturing",
@@ -202,8 +202,8 @@
     ]
   },
   "light-industrial": {
-    "title": "Light Industrial Staffing | Assembly & Production Workers | Pro-Tech Staffing",
-    "metaDesc": "Pro-Tech Staffing provides vetted light industrial workers — assemblers, machine operators, production workers, QC inspectors, and packaging staff. 48-hour fill time.",
+    "title": "Light Industrial Staffing Agency | Pro-Tech Staffing",
+    "metaDesc": "Vetted light industrial workers: assemblers, machine operators, production workers, QC inspectors, and packaging staff. 48-hour fill time.",
     "h1": "Light industrial staffing. Assemblers, operators, production workers.",
     "subhead": "Assembly, machine operation, production, quality control, packaging, and line support.",
     "label": "Light Industrial",
@@ -349,8 +349,8 @@
     ]
   },
   "warehouse-distribution": {
-    "title": "Warehouse Staffing | Picking, Packing, Forklift | Pro-Tech Staffing",
-    "metaDesc": "Pro-Tech Staffing provides vetted warehouse workers — pickers, packers, forklift operators, shipping & receiving clerks, and inventory staff. 48-hour fill time.",
+    "title": "Warehouse Staffing | Pickers, Packers, Forklift | Pro-Tech",
+    "metaDesc": "Vetted warehouse workers: pickers, packers, forklift operators, shipping and receiving clerks, and inventory staff. 48-hour fill time.",
     "h1": "Warehouse & distribution staffing. Pickers, packers, forklift operators.",
     "subhead": "Picking, packing, receiving, forklift operation, shipping, inventory, and 3PL support.",
     "label": "Warehouse & Distribution",
@@ -505,8 +505,8 @@
     ]
   },
   "supply-chain-logistics": {
-    "title": "Supply Chain Staffing | Logistics & Inventory | Pro-Tech Staffing",
-    "metaDesc": "Pro-Tech Staffing provides supply chain and logistics workers — coordinators, inventory control, shipping & receiving, and warehouse support staff. 48-hour fill time.",
+    "title": "Supply Chain & Logistics Staffing | Pro-Tech Staffing",
+    "metaDesc": "Supply chain and logistics workers: coordinators, inventory control, shipping and receiving, and warehouse support staff. 48-hour fill time.",
     "h1": "Supply chain & logistics staffing. Coordinators, inventory, shipping.",
     "subhead": "Logistics coordinators, inventory control, shipping and receiving, and warehouse support.",
     "label": "Supply Chain & Logistics",
@@ -657,7 +657,7 @@
     ]
   },
   "administrative-clerical": {
-    "title": "Administrative Staffing | Data Entry & Office Support | Pro-Tech Staffing",
+    "title": "Administrative & Clerical Staffing | Pro-Tech Staffing",
     "metaDesc": "Pro-Tech Staffing provides administrative and clerical workers — data entry, customer support, clerical help, and back-office operations support.",
     "h1": "Administrative & clerical staffing. Office support that keeps operations running.",
     "subhead": "Data entry, customer support, clerical assistance, and back-office operational support.",
@@ -812,7 +812,7 @@
     ]
   },
   "general-labor": {
-    "title": "General Labor Staffing | Temp & Project-Based Workers | Pro-Tech Staffing",
+    "title": "General Labor Staffing | Temp Workers | Pro-Tech",
     "metaDesc": "Pro-Tech Staffing provides general labor workers for short-term, temp-to-hire, and project-based assignments. Reliable coverage without delay.",
     "h1": "General labor staffing. Coverage when you need it, without the delay.",
     "subhead": "Short-term, temp-to-hire, and project-based labor for industrial operations.",
@@ -960,8 +960,8 @@
     ]
   },
   "engineering": {
-    "title": "Engineering Staffing | Mechanical, Electrical & Manufacturing Engineers | Pro-Tech Staffing",
-    "metaDesc": "Pro-Tech Staffing places engineering talent — mechanical, electrical, manufacturing, quality, and process engineers, plus engineering technicians — for manufacturing and production teams. 48-hour response.",
+    "title": "Engineering Staffing | Manufacturing Engineers | Pro-Tech",
+    "metaDesc": "Mechanical, electrical, manufacturing, quality, and process engineers, plus engineering technicians, for manufacturing and production teams.",
     "h1": "Engineering staffing for manufacturing and production teams.",
     "subhead": "Mechanical, electrical, manufacturing, quality, and process engineers, plus engineering technicians.",
     "label": "Engineering",
@@ -1203,8 +1203,8 @@
     }
   },
   "forklift-operator-staffing-dfw": {
-    "title": "Forklift Operator Staffing in Dallas-Fort Worth | Pro-Tech Staffing",
-    "metaDesc": "Forklift operators for DFW warehouses and distribution centers, matched to your truck class — sit-down, reach, order picker, pallet jack. Days and nights. Placed from our Richardson and Bedford offices.",
+    "title": "Forklift Operator Staffing in DFW | Pro-Tech Staffing",
+    "metaDesc": "Forklift operators for DFW warehouses, matched to your truck class: sit-down, reach, order picker, pallet jack. Days and nights, Richardson and Bedford.",
     "h1": "Forklift operator staffing in Dallas-Fort Worth.",
     "subhead": "Sit-down, reach truck, order picker, and pallet jack operators — matched to your trucks and your shift.",
     "label": "Forklift",
@@ -1331,7 +1331,7 @@
   },
   "warehouse-staffing-dfw": {
     "title": "Warehouse Staffing in Dallas-Fort Worth | Pro-Tech Staffing",
-    "metaDesc": "Warehouse workers for DFW distribution centers, 3PLs, and cross-docks: pickers, packers, forklift operators, and shipping clerks. Screened before day one. Placed from our Bedford and Richardson offices.",
+    "metaDesc": "Warehouse workers for DFW distribution centers, 3PLs, and cross-docks: pickers, packers, forklift operators, and shipping clerks, screened before day one.",
     "h1": "Warehouse staffing in Dallas-Fort Worth.",
     "subhead": "Pickers, packers, forklift operators, and shipping and receiving teams for DFW distribution centers, 3PLs, and cross-docks.",
     "label": "Warehouse",

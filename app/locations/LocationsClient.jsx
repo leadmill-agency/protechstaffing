@@ -30,8 +30,9 @@ const DFW_HREFS = {
   fortWorth: '/locations/fort-worth-tx',
   irving: '/locations/irving-tx',
   grandPrairie: '/locations/grand-prairie-tx',
-  garland: '/staffing-agency-garland-tx',
-  carrollton: '/staffing-agency-carrollton-tx',
+  // Garland and Carrollton are served from the Richardson HQ page
+  garland: '/locations/richardson-tx',
+  carrollton: '/locations/richardson-tx',
 }
 
 export default function LocationsPage() {

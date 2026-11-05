@@ -311,30 +311,30 @@
     ],
     "subMarkets": [
       {
-        "label": "Garland, TX",
-        "desc": "Khu công nghiệp nhẹ và sản xuất điện tử đông đúc phía đông Dallas. Thị trường phụ gần trụ sở nhất."
-      },
-      {
         "label": "Irving, TX",
-        "desc": "Hành lang Las Colinas và sân bay DFW — điện tử, hậu cần và công nghiệp nhẹ."
+        "desc": "Hành lang Sân bay DFW và khu Freeport. Kho bãi, cross-dock và hàng không."
       },
       {
-        "label": "Tổng Quan DFW",
-        "desc": "Phục vụ toàn bộ vùng đô thị DFW từ văn phòng Richardson và Bedford."
+        "label": "Bedford, TX",
+        "desc": "Văn phòng tại quận Tarrant, phục vụ Fort Worth, Arlington, Grand Prairie và khu mid-cities."
+      },
+      {
+        "label": "Fort Worth, TX",
+        "desc": "AllianceTexas, CentrePort và hành lang I-35W. Kho bãi, hàng không và phân phối."
       }
     ],
     "relatedCities": [
       {
-        "label": "Garland TX"
-      },
-      {
         "label": "Irving TX"
       },
       {
-        "label": "Tổng Quan DFW"
+        "label": "Bedford TX"
       },
       {
-        "label": "Bedford TX"
+        "label": "Arlington TX"
+      },
+      {
+        "label": "Fort Worth TX"
       }
     ]
   },
