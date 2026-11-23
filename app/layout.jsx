@@ -20,17 +20,17 @@ const ibmPlexMono = IBM_Plex_Mono({
 
 export const metadata = {
   title: {
-    default: 'Industrial Staffing Agency in Dallas TX | Pro-Tech Staffing',
+    default: 'Pro-Tech Staffing Services | Industrial Staffing Since 1996',
     template: '%s',
   },
-  description: 'Light industrial and electronics staffing in Dallas-Fort Worth, Tampa, San Jose, Phoenix, and Cincinnati. Vetted workers in 48 hours. Temp to direct hire.',
+  description: 'Pro-Tech Staffing Services places industrial, electronics manufacturing, and warehouse workers in Texas, Florida, California, Arizona, and Ohio since 1996.',
   robots: 'index, follow',
   metadataBase: new URL('https://www.protechstaffing.com'),
   openGraph: {
     images: [{ url: '/og-image.jpg', width: 1920, height: 1012, alt: 'Pro-Tech Staffing Services' }],
     type: 'website',
     siteName: 'Pro-Tech Staffing Services',
-    title: 'Industrial Staffing Agency in Dallas TX | Pro-Tech Staffing Services',
+    title: 'Pro-Tech Staffing Services | Industrial Staffing Since 1996',
     description: 'Light industrial, warehouse, electronic manufacturing, and supply chain staffing across Dallas-Fort Worth and five additional US markets. Vetted workers in 48 hours.',
     url: 'https://www.protechstaffing.com/',
   },
@@ -47,6 +47,10 @@ export default function RootLayout({ children }) {
     '@context': 'https://schema.org',
     '@type': ['LocalBusiness', 'EmploymentAgency'],
     name: 'Pro-Tech Staffing Services',
+    // Other firms share the "ProTech Staffing" name (protechjobs.com, a Channelview TX agency).
+    // These variants tie every spelling people search back to this business.
+    alternateName: ['Pro-Tech Staffing', 'ProTech Staffing', 'Pro Tech Staffing', 'Protech Staffing Services'],
+    foundingDate: '1996',
     url: 'https://www.protechstaffing.com',
     logo: 'https://www.protechstaffing.com/logo.png',
     description: 'Light industrial, electronic manufacturing, warehouse, and supply chain staffing agency serving Dallas-Fort Worth, Tampa FL, San Jose CA, Phoenix AZ, and Cincinnati OH.',
@@ -78,8 +82,18 @@ export default function RootLayout({ children }) {
     // structured-data guidelines, and hardcoded counts go stale.
     sameAs: [
       'https://www.linkedin.com/company/pro-tech-staffing',
+      'https://www.indeed.com/cmp/Pro-Tech-Staffing-Services',
       'https://www.google.com/maps/place/?q=place_id:ChIJedTRPJMeTIYRPZiyZc1G9xE',
+      'https://www.google.com/maps/place/?q=place_id:ChIJI_nqaOApTIYR7v-4s5nSsZI',
     ],
+  }
+  // WebSite node: tells Google which site name to show above the result
+  const siteLd = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'Pro-Tech Staffing Services',
+    alternateName: ['Pro-Tech Staffing', 'ProTech Staffing'],
+    url: 'https://www.protechstaffing.com/',
   }
 
   return (
@@ -88,6 +102,10 @@ export default function RootLayout({ children }) {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(siteLd) }}
         />
       </head>
       <body className="font-sans">
