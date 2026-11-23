@@ -120,12 +120,11 @@
         "label": "On-time fill rate"
       }
     ],
-    "testimonial": {
-      "quote": "Pro-Tech filled 14 positions for us in under 48 hours during peak season. More important, the workers showed up and 12 converted full-time. That kind of consistency matters more than promises.",
-      "name": "Operations Director",
-      "co": "Electronics Manufacturer · Richardson, TX"
-    },
     "relatedIndustries": [
+      {
+        "label": "Data Center Staffing",
+        "href": "/data-center-staffing"
+      },
       {
         "label": "Light Industrial",
         "href": "/industries/light-industrial"
@@ -207,7 +206,7 @@
     "h1": "Light industrial staffing. Assemblers, operators, production workers.",
     "subhead": "Assembly, machine operation, production, quality control, packaging, and line support.",
     "label": "Light Industrial",
-    "intro": "Light industrial operations need workers who are reliable, trainable, and ready to work in fast-paced production environments. Pro-Tech Staffing places assemblers, machine operators, production line workers, and quality control inspectors for manufacturers who cannot afford no-shows, weak fits, or undertrained staff.",
+    "intro": "Light industrial staffing supplies the assemblers, machine operators, production workers, and quality inspectors that keep a manufacturing floor running. Pro-Tech has staffed light industrial roles since 1996 and places screened workers in Texas, Florida, California, Arizona, and Ohio, matched to your role, shift, and equipment.",
     "imgAlt": "Light industrial production workers on assembly line",
     "certifications": null,
     "roles": [
@@ -249,20 +248,19 @@
         "label": "Avg. fill time"
       },
       {
-        "n": "94%",
-        "label": "Clients who reorder"
+        "n": "1996",
+        "label": "Founded"
       },
       {
         "n": "30",
         "label": "Years in business"
       }
     ],
-    "testimonial": {
-      "quote": "We needed 20 production workers for a new line launch. Pro-Tech had qualified candidates on-site within 48 hours. That kind of response time is rare.",
-      "name": "Plant Manager",
-      "co": "Light Manufacturing · Bedford, TX"
-    },
     "relatedIndustries": [
+      {
+        "label": "Data Center Staffing",
+        "href": "/data-center-staffing"
+      },
       {
         "label": "Electronics Manufacturing",
         "href": "/industries/electronics-manufacturing"
@@ -306,6 +304,14 @@
       }
     ],
     "faq": [
+      {
+        "q": "What is light industrial staffing?",
+        "a": "Light industrial staffing is the supply of temporary, temp-to-hire, and permanent workers for hands-on production and warehouse work that does not require heavy equipment or a trade license. Typical roles are assemblers, machine operators, production line workers, packers, and quality-control inspectors."
+      },
+      {
+        "q": "How much does light industrial staffing cost?",
+        "a": "Temporary and temp-to-hire workers are billed at an hourly rate: the worker's pay plus a markup that covers payroll taxes, workers' compensation, recruiting, screening, and the agency's margin. The markup depends on pay, shift, volume, and screening needs, so ask for a quote for your specific roles. Our staffing cost guide explains how pricing works."
+      },
       {
         "q": "What light industrial roles does Pro-Tech staff?",
         "a": "Assemblers, machine operators, production workers, quality-control and visual-inspection staff, machine set-up techs, packaging and line-support workers, and general production labor — temporary, temp-to-hire, and direct placement."
@@ -397,15 +403,10 @@
         "label": "Active markets"
       },
       {
-        "n": "94%",
-        "label": "Clients who reorder"
+        "n": "1996",
+        "label": "Founded"
       }
     ],
-    "testimonial": {
-      "quote": "During peak season we needed 30 warehouse workers in a week. Pro-Tech delivered. More importantly, the attendance rate was above 90% — which is unheard of with temp agencies.",
-      "name": "Distribution Manager",
-      "co": "Warehouse & 3PL · Arlington, TX"
-    },
     "relatedIndustries": [
       {
         "label": "Forklift Operators (DFW)",
@@ -553,15 +554,10 @@
         "label": "Placement types"
       },
       {
-        "n": "94%",
-        "label": "Clients who reorder"
+        "n": "1996",
+        "label": "Founded"
       }
     ],
-    "testimonial": {
-      "quote": "Our supply chain team was stretched thin during a major product launch. Pro-Tech placed 6 logistics coordinators in under a week. All had WMS experience and hit the ground running.",
-      "name": "Supply Chain Director",
-      "co": "Consumer Electronics · Irving, TX"
-    },
     "relatedIndustries": [
       {
         "label": "Warehouse & Distribution",
@@ -708,15 +704,10 @@
         "label": "Active markets"
       },
       {
-        "n": "94%",
-        "label": "Clients who reorder"
+        "n": "1996",
+        "label": "Founded"
       }
     ],
-    "testimonial": {
-      "quote": "We needed a data entry specialist who could work in our ERP system from day one. Pro-Tech found someone with direct experience in two days.",
-      "name": "Office Manager",
-      "co": "Electronics Manufacturer · Richardson, TX"
-    },
     "relatedIndustries": [
       {
         "label": "Supply Chain & Logistics",
@@ -860,15 +851,10 @@
         "label": "Active markets"
       },
       {
-        "n": "94%",
-        "label": "Clients who reorder"
+        "n": "1996",
+        "label": "Founded"
       }
     ],
-    "testimonial": {
-      "quote": "We had a project surge and needed 15 workers by Monday. Pro-Tech had them on-site by 7am. All 15 showed up. That never happens with other agencies.",
-      "name": "Site Supervisor",
-      "co": "Industrial Services · DFW, TX"
-    },
     "relatedIndustries": [
       {
         "label": "Light Industrial",
@@ -1009,11 +995,6 @@
         "label": "Years in manufacturing staffing"
       }
     ],
-    "testimonial": {
-      "quote": "We needed a manufacturing engineer to support a new line launch and Pro-Tech understood the role immediately — not a generic recruiter sending mismatched resumes. The candidate fit the floor and the team.",
-      "name": "Engineering Manager",
-      "co": "Manufacturing · DFW, TX"
-    },
     "relatedIndustries": [
       {
         "label": "Electronics Manufacturing",

@@ -103,5 +103,10 @@
   },
   "lastUpdated": "Last updated",
   "reviewedBy": "Reviewed by",
-  "reviewerTitle": "President"
+  "reviewerTitle": "President",
+  "costGuide": {
+    "title": "What does a staffing agency cost?",
+    "desc": "How pricing works for temp, temp-to-hire, and direct hire, and which fits your roles.",
+    "cta": "Read the guide"
+  }
 }

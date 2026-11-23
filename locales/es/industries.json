@@ -117,12 +117,11 @@
         "label": "Tasa de cobertura a tiempo"
       }
     ],
-    "testimonial": {
-      "quote": "Pro-Tech cubrió 14 posiciones para nosotros en menos de 48 horas durante la temporada alta. Más importante aún, los trabajadores se presentaron y 9 se convirtieron en permanentes. Esa consistencia importa más que las promesas.",
-      "name": "Director de Operaciones",
-      "co": "Fabricante de Electrónica · Richardson, TX"
-    },
     "relatedIndustries": [
+      {
+        "label": "Personal para Centros de Datos",
+        "href": "/data-center-staffing"
+      },
       {
         "label": "Industria Ligera",
         "href": "/industries/light-industrial"
@@ -185,20 +184,19 @@
         "label": "Tiempo promedio de cobertura"
       },
       {
-        "n": "94%",
-        "label": "Clientes que vuelven a solicitar"
+        "n": "1996",
+        "label": "Año de fundación"
       },
       {
         "n": "30",
         "label": "Años en el negocio"
       }
     ],
-    "testimonial": {
-      "quote": "Necesitábamos 20 trabajadores de producción para el lanzamiento de una nueva línea. Pro-Tech tuvo candidatos calificados en sitio en 48 horas. Ese tipo de tiempo de respuesta es poco común.",
-      "name": "Gerente de Planta",
-      "co": "Manufactura Ligera · Bedford, TX"
-    },
     "relatedIndustries": [
+      {
+        "label": "Personal para Centros de Datos",
+        "href": "/data-center-staffing"
+      },
       {
         "label": "Manufactura Electrónica",
         "href": "/industries/electronics-manufacturing"
@@ -262,15 +260,10 @@
         "label": "Mercados activos"
       },
       {
-        "n": "94%",
-        "label": "Clientes que vuelven a solicitar"
+        "n": "1996",
+        "label": "Año de fundación"
       }
     ],
-    "testimonial": {
-      "quote": "Durante la temporada alta necesitábamos 30 trabajadores de almacén en una semana. Pro-Tech cumplió. Más importante, la tasa de asistencia fue superior al 90%, algo inédito con agencias temporales.",
-      "name": "Gerente de Distribución",
-      "co": "Almacén y 3PL · Arlington, TX"
-    },
     "relatedIndustries": [
       {
         "label": "Operadores de Montacargas (DFW)",
@@ -343,15 +336,10 @@
         "label": "Tipos de colocación"
       },
       {
-        "n": "94%",
-        "label": "Clientes que vuelven a solicitar"
+        "n": "1996",
+        "label": "Año de fundación"
       }
     ],
-    "testimonial": {
-      "quote": "Nuestro equipo de cadena de suministro estaba al límite durante un lanzamiento importante de producto. Pro-Tech colocó 6 coordinadores de logística en menos de una semana. Todos tenían experiencia en WMS y comenzaron a producir de inmediato.",
-      "name": "Director de Cadena de Suministro",
-      "co": "Electrónica de Consumo · Irving, TX"
-    },
     "relatedIndustries": [
       {
         "label": "Almacén y Distribución",
@@ -419,15 +407,10 @@
         "label": "Mercados activos"
       },
       {
-        "n": "94%",
-        "label": "Clientes que vuelven a solicitar"
+        "n": "1996",
+        "label": "Año de fundación"
       }
     ],
-    "testimonial": {
-      "quote": "Necesitábamos un especialista en captura de datos que pudiera trabajar en nuestro sistema ERP desde el primer día. Pro-Tech encontró a alguien con experiencia directa en dos días.",
-      "name": "Gerente de Oficina",
-      "co": "Fabricante de Electrónica · Richardson, TX"
-    },
     "relatedIndustries": [
       {
         "label": "Cadena de Suministro y Logística",
@@ -492,15 +475,10 @@
         "label": "Mercados activos"
       },
       {
-        "n": "94%",
-        "label": "Clientes que vuelven a solicitar"
+        "n": "1996",
+        "label": "Año de fundación"
       }
     ],
-    "testimonial": {
-      "quote": "Tuvimos un aumento de proyecto y necesitábamos 15 trabajadores para el lunes. Pro-Tech los tuvo en sitio a las 7am. Los 15 se presentaron. Eso nunca pasa con otras agencias.",
-      "name": "Supervisor de Sitio",
-      "co": "Servicios Industriales · DFW, TX"
-    },
     "relatedIndustries": [
       {
         "label": "Industria Ligera",
@@ -566,11 +544,6 @@
         "label": "Años en personal de manufactura"
       }
     ],
-    "testimonial": {
-      "quote": "Necesitábamos un ingeniero de manufactura para apoyar el lanzamiento de una nueva línea y Pro-Tech entendió el puesto de inmediato — no un reclutador genérico enviando currículos que no encajaban. El candidato se ajustó a la planta y al equipo.",
-      "name": "Gerente de Ingeniería",
-      "co": "Manufactura · DFW, TX"
-    },
     "relatedIndustries": [
       {
         "label": "Manufactura Electrónica",

@@ -103,5 +103,10 @@
   },
   "lastUpdated": "Cập nhật lần cuối:",
   "reviewedBy": "Được duyệt bởi",
-  "reviewerTitle": "Chủ tịch"
+  "reviewerTitle": "Chủ tịch",
+  "costGuide": {
+    "title": "Chi phí thuê công ty cung ứng nhân sự là bao nhiêu?",
+    "desc": "Cách tính giá cho nhân sự tạm thời, tạm thời chuyển chính thức và tuyển dụng trực tiếp.",
+    "cta": "Đọc hướng dẫn (tiếng Anh)"
+  }
 }

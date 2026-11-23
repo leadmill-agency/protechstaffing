@@ -1,15 +1,15 @@
 import JobSeekersClient from './JobSeekersClient'
 
 export const metadata = {
-  title: 'Manufacturing & Warehouse Jobs Near You | Pro-Tech Staffing',
-  description: 'Find manufacturing, warehouse, and industrial jobs near you. Pro-Tech places workers in electronics, light industrial, and warehouse roles in 7 US markets.',
+  title: 'Pro-Tech Staffing Jobs | Warehouse & Manufacturing Work',
+  description: "Apply for warehouse, manufacturing, and industrial jobs with Pro-Tech Staffing. Temp and temp-to-hire roles in TX, FL, CA, AZ, and OH.",
   alternates: { canonical: '/job-seekers' },
   openGraph: {
     images: [{ url: '/og-image.jpg', width: 1920, height: 1012, alt: 'Pro-Tech Staffing Services' }],
     type: 'website',
     siteName: 'Pro-Tech Staffing Services',
     url: '/job-seekers',
-    title: 'Manufacturing & Warehouse Jobs Near You | Pro-Tech Staffing',
+    title: 'Pro-Tech Staffing Jobs | Warehouse & Manufacturing Work',
     description: 'Find manufacturing, warehouse, and industrial jobs near you with Pro-Tech Staffing.',
   },
 }

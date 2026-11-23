@@ -118,12 +118,11 @@
         "label": "Tỷ lệ lấp đầy đúng hạn"
       }
     ],
-    "testimonial": {
-      "quote": "Pro-Tech đã lấp đầy 14 vị trí cho chúng tôi trong chưa đầy 48 giờ vào mùa cao điểm. Quan trọng hơn, nhân viên đến làm việc và 12 người đã chuyển sang chính thức. Sự ổn định đó quan trọng hơn lời hứa.",
-      "name": "Giám Đốc Vận Hành",
-      "co": "Nhà Sản Xuất Điện Tử · Richardson, TX"
-    },
     "relatedIndustries": [
+      {
+        "label": "Nhân Sự Trung Tâm Dữ Liệu",
+        "href": "/data-center-staffing"
+      },
       {
         "label": "Công Nghiệp Nhẹ",
         "href": "/industries/light-industrial"
@@ -208,20 +207,19 @@
         "label": "Thời gian lấp đầy trung bình"
       },
       {
-        "n": "94%",
-        "label": "Khách hàng quay lại"
+        "n": "1996",
+        "label": "Năm thành lập"
       },
       {
         "n": "30",
         "label": "Năm hoạt động"
       }
     ],
-    "testimonial": {
-      "quote": "Chúng tôi cần 20 công nhân sản xuất cho dây chuyền mới. Pro-Tech có ứng viên đủ năng lực tại chỗ trong vòng 48 giờ. Tốc độ phản hồi như vậy rất hiếm.",
-      "name": "Quản Đốc Nhà Máy",
-      "co": "Sản Xuất Nhẹ · Bedford, TX"
-    },
     "relatedIndustries": [
+      {
+        "label": "Nhân Sự Trung Tâm Dữ Liệu",
+        "href": "/data-center-staffing"
+      },
       {
         "label": "Sản Xuất Điện Tử",
         "href": "/industries/electronics-manufacturing"
@@ -307,15 +305,10 @@
         "label": "Thị trường đang hoạt động"
       },
       {
-        "n": "94%",
-        "label": "Khách hàng quay lại"
+        "n": "1996",
+        "label": "Năm thành lập"
       }
     ],
-    "testimonial": {
-      "quote": "Vào mùa cao điểm, chúng tôi cần 30 nhân viên kho bãi trong một tuần. Pro-Tech đã cung cấp. Quan trọng hơn, tỷ lệ chuyên cần trên 90% — điều hiếm thấy với các công ty nhân sự tạm thời.",
-      "name": "Quản Lý Phân Phối",
-      "co": "Kho Bãi & 3PL · Arlington, TX"
-    },
     "relatedIndustries": [
       {
         "label": "Nhân Viên Lái Xe Nâng (DFW)",
@@ -410,15 +403,10 @@
         "label": "Hình thức bố trí"
       },
       {
-        "n": "94%",
-        "label": "Khách hàng quay lại"
+        "n": "1996",
+        "label": "Năm thành lập"
       }
     ],
-    "testimonial": {
-      "quote": "Đội ngũ chuỗi cung ứng của chúng tôi quá tải trong đợt ra mắt sản phẩm lớn. Pro-Tech đã bố trí 6 điều phối viên hậu cần trong chưa đầy một tuần. Tất cả đều có kinh nghiệm WMS và bắt tay vào việc ngay.",
-      "name": "Giám Đốc Chuỗi Cung Ứng",
-      "co": "Điện Tử Tiêu Dùng · Irving, TX"
-    },
     "relatedIndustries": [
       {
         "label": "Kho Bãi & Phân Phối",
@@ -508,15 +496,10 @@
         "label": "Thị trường đang hoạt động"
       },
       {
-        "n": "94%",
-        "label": "Khách hàng quay lại"
+        "n": "1996",
+        "label": "Năm thành lập"
       }
     ],
-    "testimonial": {
-      "quote": "Chúng tôi cần chuyên viên nhập liệu có thể làm việc trên hệ thống ERP ngay từ ngày đầu. Pro-Tech tìm được người có kinh nghiệm trực tiếp trong hai ngày.",
-      "name": "Quản Lý Văn Phòng",
-      "co": "Nhà Sản Xuất Điện Tử · Richardson, TX"
-    },
     "relatedIndustries": [
       {
         "label": "Chuỗi Cung Ứng & Hậu Cần",
@@ -603,15 +586,10 @@
         "label": "Thị trường đang hoạt động"
       },
       {
-        "n": "94%",
-        "label": "Khách hàng quay lại"
+        "n": "1996",
+        "label": "Năm thành lập"
       }
     ],
-    "testimonial": {
-      "quote": "Chúng tôi có đợt tăng dự án và cần 15 nhân viên trước thứ Hai. Pro-Tech có họ tại chỗ lúc 7 giờ sáng. Tất cả 15 người đều đến. Điều đó không bao giờ xảy ra với các công ty nhân sự khác.",
-      "name": "Giám Sát Công Trường",
-      "co": "Dịch Vụ Công Nghiệp · DFW, TX"
-    },
     "relatedIndustries": [
       {
         "label": "Công Nghiệp Nhẹ",
@@ -699,11 +677,6 @@
         "label": "Năm trong ngành nhân sự sản xuất"
       }
     ],
-    "testimonial": {
-      "quote": "Chúng tôi cần một kỹ sư sản xuất để hỗ trợ ra mắt dây chuyền mới và Pro-Tech hiểu ngay vị trí — không phải nhà tuyển dụng chung chung gửi hồ sơ không phù hợp. Ứng viên phù hợp với xưởng và đội ngũ.",
-      "name": "Quản Lý Kỹ Thuật",
-      "co": "Sản Xuất · DFW, TX"
-    },
     "relatedIndustries": [
       {
         "label": "Sản Xuất Điện Tử",

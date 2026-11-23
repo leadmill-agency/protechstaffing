@@ -6,6 +6,7 @@ import { useTranslation } from 'react-i18next'
 import icons from '@/components/icons'
 import INDUSTRY_DATA from '@/data/industries'
 import LastUpdated from '@/components/LastUpdated'
+import CostGuideLink from '@/components/CostGuideLink'
 
 // Industry → location links (hub-and-spoke internal linking).
 const MARKET_LINKS = [
@@ -205,6 +206,8 @@ export default function IndustryPage({ params }) {
           </div>
         </section>
       )}
+
+      <CostGuideLink variant="band" />
 
       {/* Testimonial (only when the industry has a real one) */}
       {testimonial && typeof testimonial === 'object' && testimonial.quote && (

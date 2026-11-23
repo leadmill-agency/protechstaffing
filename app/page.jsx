@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import CostGuideLink from '@/components/CostGuideLink'
 import { useTranslation } from 'react-i18next'
 import icons from '@/components/icons'
 import MotionFadeIn, { MotionFadeInItem } from '@/components/MotionFadeIn'
@@ -169,6 +170,7 @@ function Employers() {
               {t('employers.cta')}
               <span className="w-4 h-4">{icons.arrowRight}</span>
             </Link>
+            <CostGuideLink className="mt-5" />
           </MotionFadeIn>
 
           <MotionFadeIn delay={0.1}>

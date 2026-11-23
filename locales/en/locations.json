@@ -25,8 +25,8 @@
         "label": "Avg. fill time"
       },
       "clientRetention": {
-        "n": "94%",
-        "label": "Client retention"
+        "n": "1996",
+        "label": "Founded"
       }
     },
     "viewMarket": "View market →",
@@ -256,8 +256,8 @@
         "label": "Avg. fill time"
       },
       {
-        "n": "94%",
-        "label": "Client retention rate"
+        "n": "1996",
+        "label": "Founded"
       }
     ],
     "whyUs": [
@@ -405,8 +405,8 @@
         "label": "DFW companies served"
       },
       {
-        "n": "94%",
-        "label": "Client retention"
+        "n": "1996",
+        "label": "Founded"
       }
     ],
     "whyUs": [
@@ -423,11 +423,6 @@
         "desc": "Submit a request and you're talking to a recruiter who actually works your market — not a national call center. Same-day callbacks. 48-hour fill time on most orders."
       }
     ],
-    "testimonial": {
-      "quote": "ProTech filled 14 positions in under 48 hours during peak season. Every worker showed up, and 12 converted to full-time. I've never had that fill rate with any other agency.",
-      "name": "Operations Director",
-      "co": "Electronics Manufacturer · Richardson, TX"
-    },
     "relatedCities": [
       {
         "label": "Arlington TX"
@@ -495,8 +490,8 @@
         "label": "Avg. fill time"
       },
       {
-        "n": "94%",
-        "label": "Client retention rate"
+        "n": "1996",
+        "label": "Founded"
       },
       {
         "n": "Temp & perm",
@@ -1104,8 +1099,8 @@
         "label": "Specialty"
       },
       {
-        "n": "94%",
-        "label": "Client retention"
+        "n": "1996",
+        "label": "Founded"
       }
     ],
     "whyUs": [
@@ -1122,11 +1117,6 @@
         "desc": "Every candidate is background checked, drug screened, and skills-assessed before placement. We don't send warm bodies. We send workers who are ready to contribute."
       }
     ],
-    "testimonial": {
-      "quote": "They placed 8 electronics assembly workers in under 48 hours. All showed up on day one. Three months later, six are still with us full-time.",
-      "name": "Production Manager",
-      "co": "Electronics Manufacturing · Garland, TX"
-    },
     "relatedCities": [
       {
         "label": "Irving TX"
@@ -1142,8 +1132,8 @@
   "austin": {
     "title": "Industrial Staffing Agency in Austin TX | Pro-Tech",
     "metaDesc": "Light industrial, warehouse, electronics, and admin workers across Austin, Round Rock, Cedar Park, and Pflugerville. 48-hour fill time.",
-    "h1": "Light Industrial & Technical staffing in Austin, TX.",
-    "subhead": "Light industrial, warehouse, electronics, and administrative staffing across Greater Austin.",
+    "h1": "Industrial staffing agency in Austin, TX.",
+    "subhead": "Electronics, light industrial, warehouse, and administrative staffing across Austin, Round Rock, Pflugerville, and the I-35 corridor.",
     "label": "Austin TX",
     "cities": [
       "Austin TX",
@@ -1154,10 +1144,10 @@
       "Kyle TX",
       "Buda TX"
     ],
-    "marketIntro": "Austin's I-35 corridor is one of the fastest-growing industrial markets in Texas — electronics assembly, distribution, and warehouse driven by semiconductor and tech investment. Pro-Tech recruits locally, placing assemblers, production workers, soldering technicians, SMT operators, and more without the long wait.",
+    "marketIntro": "Pro-Tech's Austin office on North Lamar places electronics assemblers, production workers, warehouse staff, and administrative support across Greater Austin. The market is driven by semiconductor and electronics manufacturing: Samsung Austin Semiconductor in northeast Austin and Samsung's new fab in Taylor, NXP's Austin fabs, Tesla's Gigafactory Texas in southeast Travis County, and Dell's headquarters in Round Rock all pull suppliers and contract manufacturers into the region. That growth keeps demand for assemblers, soldering technicians, SMT operators, and material handlers high, and our recruiters keep screened candidates ready so you are not starting from scratch.",
     "marketSnapshot": {
       "corridors": "I-35 from Georgetown through Round Rock, Austin, Kyle, and Buda is the industrial spine — SH-130 handles eastern distribution into Pflugerville and Hutto, with major distribution centers near SH-130/US-290 and Buda.",
-      "anchorIndustries": "Semiconductor expansion anchors the market, pulling in electronics assembly, automotive, medical device, food and beverage, and 3PL suppliers — heaviest concentration in Round Rock and Pflugerville.",
+      "anchorIndustries": "Semiconductor manufacturing anchors the market, led by Samsung Austin Semiconductor, Samsung's Taylor fab, and NXP. Tesla's Gigafactory Texas, Dell in Round Rock, and their electronics, automotive, and logistics suppliers add assembly, production, and warehouse demand, heaviest in Round Rock, Pflugerville, and east Austin.",
       "laborPool": "Competitive market — workers have options, turnover runs higher than other Texas metros, and pay expectations track above DFW and Houston; strongest candidate density in Round Rock, Pflugerville, and east Austin; bilingual English/Spanish capability is common, though reliable transportation can be a screening factor."
     },
     "industries": [
@@ -1189,8 +1179,8 @@
         "label": "Avg. fill time"
       },
       {
-        "n": "94%",
-        "label": "Client retention rate"
+        "n": "1996",
+        "label": "Founded"
       },
       {
         "n": "I-35",
@@ -1211,11 +1201,6 @@
         "desc": "Every candidate is background checked, drug screened, and skills-interviewed before placement. Austin's labor market is competitive — we work harder on screening so you spend less time on turnover."
       }
     ],
-    "testimonial": {
-      "quote": "We needed production workers for a new line in Round Rock and Pro-Tech had qualified candidates on-site in 48 hours. The retention rate through the first 90 days was the best we'd seen from any staffing agency.",
-      "name": "Production Manager",
-      "co": "Light Manufacturing · Round Rock, TX"
-    },
     "faq": [
       {
         "q": "What areas does the Austin office cover?",
@@ -1339,8 +1324,8 @@
         "label": "Avg. fill time"
       },
       {
-        "n": "94%",
-        "label": "Client retention rate"
+        "n": "1996",
+        "label": "Founded"
       },
       {
         "n": "IPC",
@@ -1362,9 +1347,9 @@
       }
     ],
     "testimonial": {
-      "quote": "We needed IPC-certified soldering techs for a production ramp and Pro-Tech delivered qualified workers in under 72 hours. Every one of them had their certifications in order. That saved us weeks of on-the-job training.",
-      "name": "Operations Manager",
-      "co": "Electronics Manufacturer · Clearwater, FL"
+      "quote": "Pro-Tech has been great to work with from day one. The team is professional, supportive, and communicates clearly about assignments and expectations.",
+      "name": "Lulu&Nunu",
+      "co": "Google review · Tampa Bay office"
     },
     "faq": [
       {
@@ -1489,8 +1474,8 @@
         "label": "Avg. fill time"
       },
       {
-        "n": "94%",
-        "label": "Client retention rate"
+        "n": "1996",
+        "label": "Founded"
       },
       {
         "n": "30",
@@ -1511,11 +1496,6 @@
         "desc": "PCB assembly, SMT, and rework have no margin for error. Every candidate is skills-tested for their specific role, not just interviewed. We send workers who can do the job — not workers who say they can."
       }
     ],
-    "testimonial": {
-      "quote": "We needed IPC-A-610 certified inspectors for a new line within two weeks. Pro-Tech had four qualified candidates interviewed and ready in 72 hours. All four passed our internal qual process. That doesn't happen with other agencies.",
-      "name": "Manufacturing Engineering Manager",
-      "co": "Contract Electronics Manufacturer · Milpitas, CA"
-    },
     "faq": [
       {
         "q": "What areas does the San Jose office cover?",
@@ -1638,8 +1618,8 @@
         "label": "Avg. fill time"
       },
       {
-        "n": "94%",
-        "label": "Client retention rate"
+        "n": "1996",
+        "label": "Founded"
       },
       {
         "n": "IPC",
@@ -1660,11 +1640,6 @@
         "desc": "Phoenix has a competitive labor market. We screen every candidate for reliability, skills, and fit before placement — background checks, drug screening, and direct interviews. Most orders filled within 48 hours."
       }
     ],
-    "testimonial": {
-      "quote": "We needed warehouse and production workers for a new facility in Chandler. Pro-Tech had 12 vetted candidates on-site within 48 hours. The attendance rate in the first 30 days was over 95%.",
-      "name": "HR Manager",
-      "co": "Electronics Manufacturer · Chandler, AZ"
-    },
     "faq": [
       {
         "q": "What areas does the Phoenix office cover?",
@@ -1789,8 +1764,8 @@
         "label": "Avg. fill time"
       },
       {
-        "n": "94%",
-        "label": "Client retention rate"
+        "n": "1996",
+        "label": "Founded"
       },
       {
         "n": "24/7",
@@ -1812,9 +1787,9 @@
       }
     ],
     "testimonial": {
-      "quote": "We needed second- and third-shift warehouse crews near the airport on short notice, and Pro-Tech filled the orders in two days with people who actually showed up. For a 24/7 fulfillment operation, that reliability is everything.",
-      "name": "Operations Manager",
-      "co": "3PL & Fulfillment · Hebron, KY"
+      "quote": "The team here is amazing! They help with explaining the hiring process very well and make it so easy for everyone!",
+      "name": "Sari Morales",
+      "co": "Google review · Cincinnati / Florence office"
     },
     "faq": [
       {
@@ -1933,8 +1908,8 @@
         "label": "Avg. fill time"
       },
       {
-        "n": "94%",
-        "label": "Client retention rate"
+        "n": "1996",
+        "label": "Founded"
       },
       {
         "n": "I-85",
@@ -1955,11 +1930,6 @@
         "desc": "Every candidate is background checked, drug screened, and skills-interviewed before placement. Most orders filled within 48 hours. For general labor, same-day availability is often possible from our active local pool."
       }
     ],
-    "testimonial": {
-      "quote": "We needed production workers and forklift operators for a new facility in Norcross on short notice. Pro-Tech had qualified candidates on-site within 48 hours. Attendance in the first 60 days was the best we'd seen from any staffing partner.",
-      "name": "Operations Manager",
-      "co": "Light Manufacturing · Norcross, GA"
-    },
     "faq": [
       {
         "q": "What areas does the Atlanta office cover?",

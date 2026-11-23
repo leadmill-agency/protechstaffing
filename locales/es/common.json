@@ -103,5 +103,10 @@
   },
   "lastUpdated": "Última actualización:",
   "reviewedBy": "Revisado por",
-  "reviewerTitle": "Presidente"
+  "reviewerTitle": "Presidente",
+  "costGuide": {
+    "title": "¿Cuánto cuesta una agencia de personal?",
+    "desc": "Cómo funcionan los precios de personal temporal, temporal a permanente y contratación directa.",
+    "cta": "Leer la guía (en inglés)"
+  }
 }

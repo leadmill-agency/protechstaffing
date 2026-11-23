@@ -33,8 +33,8 @@
       "label": "Tasa de cobertura a tiempo"
     },
     "clientsReorder": {
-      "number": "94%",
-      "label": "Clientes que vuelven a solicitar en 30 días"
+      "number": "7",
+      "label": "Mercados en EE. UU."
     },
     "yearsInBusiness": {
       "number": "30",
@@ -61,8 +61,8 @@
       }
     },
     "cta": "Enviar Solicitud de Personal",
-    "statChipValue": "94%",
-    "statChipLabel": "de los clientes vuelven a solicitar en 30 días"
+    "statChipValue": "W-2",
+    "statChipLabel": "Todo temporal es empleado de Pro-Tech"
   },
   "industries": {
     "eyebrow": "Industrias que Servimos",

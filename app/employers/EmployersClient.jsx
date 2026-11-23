@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import CostGuideLink from '@/components/CostGuideLink'
 import { useTranslation } from 'react-i18next'
 import icons from '@/components/icons'
 import StaffingRequestForm from './StaffingRequestForm'
@@ -183,6 +184,8 @@ export default function EmployersPage() {
           </figure>
         </div>
       </section>
+
+      <CostGuideLink variant="band" />
 
       {/* ── Contact Form ── */}
       <section id="contact" className="bg-graphite py-14 md:py-20">
